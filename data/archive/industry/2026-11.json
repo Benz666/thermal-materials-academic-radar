@@ -1,0 +1,811 @@
+[
+ {
+  "abstract": "Key Takeaways: AI agents could make customized design workflows faster and less expensive to develop. Multi-agent systems introduce new challenges for orchestration, verification, and tool integration. Consumption-based pricing could reshape EDA business models, but trust and proprietary data remain obstacles. AI agents are emerging as a new category of reusable design capability, but with a twist. Rather than providing tightly defined design blocks, agents can be used to explore different options, integrate them, and use those changes to improve designs. At the leading edge, soft IP developers have been customizing their code for large customers for more than a decade to boost performance and/or reduce power. But that customization is typically narrow and costly, and optimizations for one design may not directly transfer to derivative chips — especially multi-die assemblies at the leading edge. Agents, in contrast, can be used to customize different functions with little or no human intervention, and they can self-optimize for different workloads and use cases, and some agents can even adjust for aging hardware. And they can do all of this much faster than a human, even though an experienced engineering team is needed to verify those results and recommendations. “We have in-house specialized AI agents to do different things, to do spec analysis, RTL generation for design, for formal and functional verification, and then CDC linking, and place-and-route,” said William Wang, CEO of ChipAgents . “We provide our optimized agents to a customer, and sometimes a customer builds their own AI agent. But there are some similarities with the IP business. Sometimes we’re specifically building an agent for one customer for a particular flow, which is similar to what happens in…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "9a3a9011d545095f",
+  "kind": "news",
+  "matched": [
+   "semiconductor",
+   "GPU",
+   "agent"
+  ],
+  "published": "2026-11-16",
+  "score": 1,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "Key Takeaways: AI agents could make customized design workflows faster and less expensive to develop. Multi-agent systems introduce new challenges for orchestration, verification, and tool integration.",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Are AI Agents The New Semiconductor IP?",
+  "url": "https://semiengineering.com/are-ai-agents-the-new-semiconductor-ip/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "AI is driving the chip industry harder and faster than ever, requiring more decisions about everything from atomistic simulation to materials chemistry to the structural stability of a 3D architecture. The big question now is whether those decisions should be based on data or physics, or some combination of both. David Fried, chief AI officer and corporate vice president for Semiverse Solutions at Lam Research, talks about different approaches to speed up simulations, how to account for process variability with angstrom-level accuracy, and how to optimize systems for different memories and packaging options. The post Physics Vs. Data appeared first on Semiconductor Engineering .",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "40f96e2eb0638a6a",
+  "kind": "news",
+  "matched": [
+   "semiconductor",
+   "packaging",
+   "simulation",
+   "materials"
+  ],
+  "published": "2026-11-17",
+  "score": 2,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "AI is driving the chip industry harder and faster than ever, requiring more decisions about everything from atomistic simulation to materials chemistry to the structural stability of a 3D architecture. The big question now is whether those decisions should be based on data or physics, or some combination of both.",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Physics Vs. Data",
+  "url": "https://semiengineering.com/physics-vs-data/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "For its fiscal first-quarter 2027 (to 27 September 2026), Wolfspeed Inc of Durham, NC, USA — which makes silicon carbide (SiC) materials and power semiconductor devices — has reported revenue of $155m, down 21% on $196.8m a year ago but recovering by 3.6% from $149.6m last quarter, and exceeding the midpoint of the $140–160m guidance range...",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "4a5991d0ef16d6ab",
+  "kind": "news",
+  "matched": [
+   "SiC",
+   "semiconductor",
+   "materials"
+  ],
+  "published": "2026-11-16",
+  "score": 2,
+  "source": "Semiconductor Today",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "For its fiscal first-quarter 2027 (to 27 September 2026), Wolfspeed Inc of Durham, NC, USA — which makes silicon carbide (SiC) materials and power semiconductor devices — has reported revenue of $155m, down 21% on $196.8m a year ago but recovering by 3.6% from $149.6m last quarter, and exceeding the midpoint of the $140–160m guidance range...",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Wolfspeed’s revenue rebounds by 3.6% in September quarter to $155m",
+  "url": "https://www.semiconductor-today.com/news_items/2026/nov/wolfspeed-161126.shtml",
+  "venue": "Semiconductor Today",
+  "watched": []
+ },
+ {
+  "abstract": "doped is a Python software for the generation, pre-/post-processing and analysis of defect supercell calculations, implementing the defect simulation workflow in an efficient, reproducible, user-friendly yet powerful and fully-customisable manner. Topics: ab-initio, computational-chemistry, computational-materials-science, defect-calculation, defect-formation-energy, defect-levels, defect-thermodynamics, defects, dft, doping, fermi-level, point-defects, pymatgen, semiconductors, shakenbreak, transition-levels, vasp.",
+  "authors": [
+   "SMTG-Bham"
+  ],
+  "cat": "industry",
+  "created": "2020-05-19",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "b72d56239979fd71",
+  "kind": "repo",
+  "matched": [
+   "semiconductor",
+   "workflow",
+   "simulation",
+   "materials"
+  ],
+  "published": "2026-11-17",
+  "score": 2,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 289,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "doped is a Python software for the generation, pre-/post-processing and analysis of defect supercell calculations, implementing the defect simulation workflow in an efficient, reproducible, user-friendly yet powerful and fully-customisable manner. Topics: ab-initio, computational-chemistry, computational-materials-science, defect-calculation,…",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "SMTG-Bham/doped",
+  "url": "https://github.com/SMTG-Bham/doped",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Overview This feature release consist mostly of changes that were deferred from the 30 September stable release because they were not ready for merging before we started the extended stable testing phase. Changelog This release includes the following changes: add pair style mesomem/dipole, a solvent-free, one-particle-thick coarse-grained membrane model that utilizes each particle's dipole vector direction. (Pietro Sillano, TU Delft) PR #5193 add an extended-Lagrangian charge equilibration to the QEQ package as new fix styles qeq/point/xlmd, qeq/shielded/xlmd, and qeq/slater/xlmd including REAXFF, OPENMP and KOKKOS variants (Axel Kohlmeyer, Temple U) PR #5079 and PR #5242 add a fix symmetry command (Axel Kohlmeyer, Temple U) PR #4997 modernize/recreate several Howto tutorials, especially the WSL and the GitHub tutorials, to reflect the current state and use consistent command line conventions throughout the manual plus other minor related corrections (Axel Kohlmeyer, Temple U) PR #5226 apply more best practices for software security and release processing (Axel Kohlmeyer, Temple U) PR #5229 final step in the refactor the management of lists of computes and fixes in the Modify class and removal old APIs (Axel Kohlmeyer, Temple U) PR #5267 change FFmpeg and gzip detection from a compile-time check to a run time check and use the detected full path when launching it to convert images to movies (Axel Kohlmeyer, Temple U) PR #5221 modernize and improve CUDA and HIP support for the GPU package. remove outdated device sorting. (Trung Nguyen, U Chicago, Axel Kohlmeyer, Temple U) PR #5198 add more pair styles to the KOKKOS and OPENMP package (Axel Kohlmeyer, Temple U) PR #5246 add more pair styles to the GPU package (Axel Kohlmeyer, Temple U) PR #5247 add OPENMP package…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "8e0f212e5b5d81ff",
+  "kind": "tool",
+  "matched": [
+   "simulation",
+   "GPU"
+  ],
+  "published": "2026-11-14",
+  "score": 3,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to GPU/HPC solvers and scientific ML (matched: CUDA).",
+   "what": "Overview This feature release consist mostly of changes that were deferred from the 30 September stable release because they were not ready for merging before we started the extended stable testing phase. Changelog This release includes the following changes: add pair style mesomem/dipole, a solvent-free, one-particle-thick coarse-grained membrane model…",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "LAMMPS Feature release 13 November 2026",
+  "url": "https://github.com/lammps/lammps/releases/tag/patch_13Nov2026",
+  "venue": "LAMMPS",
+  "watched": []
+ },
+ {
+  "abstract": "[0.19.2] Removed [Breaking] deprecated nequip.ase module, including NoseHoover . Use nequip.integrations.ase.NequIPCalculator [Breaking] LennardJones and SimpleLennardJones pair potentials Changed models loaded from checkpoints or packages by the ASE and TorchSim integrations ( _from_saved_model ) now have frozen parameters ( requires_grad=False ), as compiled models already do, reducing memory demand (especially for Allegro models). sGDML_CCSD_DataModule and MD22DataModule now download from the sgdml.org download links listed on the sGDML website , instead of quantum-machine.org [Breaking] matscipy>=1.3.0 is now required, because matscipy =1.3.0 requires NumPy 2, NumPy 2 and PyTorch >= 2.3 (the first release supporting NumPy 2) are now also required. nequip-compile --device cpu now defaults to scalar C++ codegen (Inductor's cpp.simdlen=0 ) instead of vectorized codegen, which is 1.5-2x faster for NequIP and 6-11x faster for smaller Allegro models in CPU inference, and avoids the CPU AOTInductor compilation failure on PyTorch 2.10/2.11 entirely. Controllable with ATEN_CPU_CAPABILITY= or --inductor-configs cpp.simdlen= . PyTorch compatibility docs: the CPU + AOTInductor compilation failure affects both PyTorch 2.10.0 and 2.11.0 (fixed upstream in 2.12), now avoided with default NequIP scalar codegen compilation. Fixed shape mismatch in LAMMPS ML-IAP for NequIP models with learnable_shift=True : the first layer's self-connection and resnet skip kept ghost atom rows while the convolution output only has local atoms per_type_num_neighbors_mean assigning neighbor counts to the wrong atoms when any atom in a batch has no neighbors integer per-source per_edge_type_cutoff values (e.g. H: 2 ) raising TypeError e3nn modules built after any NequIP model on PyTorch >= 2.10 being…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "93d45e981a383ed6",
+  "kind": "tool",
+  "matched": [],
+  "published": "2026-11-16",
+  "score": 3,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "General awareness.",
+   "what": "[0.19.2] Removed [Breaking] deprecated nequip.ase module, including NoseHoover . Use nequip.integrations.ase.NequIPCalculator [Breaking] LennardJones and SimpleLennardJones pair potentials Changed models loaded from checkpoints or packages by the ASE and TorchSim integrations ( _from_saved_model ) now have frozen parameters ( requires_grad=False ), as…",
+   "why": ""
+  },
+  "themes": [],
+  "title": "NequIP v0.19.2",
+  "url": "https://github.com/mir-group/nequip/releases/tag/v0.19.2",
+  "venue": "NequIP",
+  "watched": []
+ },
+ {
+  "abstract": "Documentation: https://alamode-code.github.io/alamode/ Bug-fix release. Upgrading from 2.0.0 needs no change to inputs or files. Bug fixes anphon Reading MagneticMoments from an XML force-constant file with a supercell larger than the primitive cell read past the end of the array (segmentation fault, or undefined moments in the symmetry search). Each supercell atom now takes the moment of its primitive atom. HDF5 force-constant files and version 1.5.0 were not affected (GitHub #340 , thanks to masato1122). alm Inter-order rotational constraints ( ICONST = 2-4, 12-14 , NORDER >= 2 ) had the wrong sign of the higher-order IFC terms relative to the lower-order ones, so the fitted IFCs violated the rotational invariance (Si NORDER = 3: fitting error 7.3 % -> 4.0 %). IFCs fitted with these settings should be refitted.",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "a44e077ef323a42d",
+  "kind": "tool",
+  "matched": [],
+  "published": "2026-11-15",
+  "score": 3,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: ALAMODE).",
+   "what": "Documentation: https://alamode-code.github.io/alamode/ Bug-fix release. Upgrading from 2.0.0 needs no change to inputs or files.",
+   "why": ""
+  },
+  "themes": [],
+  "title": "ALAMODE version 2.0.1 (2026-11-15)",
+  "url": "https://github.com/alamode-code/alamode/releases/tag/v2.0.1",
+  "venue": "ALAMODE",
+  "watched": []
+ },
+ {
+  "abstract": "Navitas Semiconductor Corp of Torrance, CA, USA — which provides GaNFast gallium nitride (GaN), GeneSiC silicon carbide (SiC) power semiconductors and integrated voltage regulator (IVR) technologies — has filed a lawsuit in the US District Court for the Eastern District of Texas charging Renesas Electronics Corp of Tokyo, Japan with six counts of patent infringement...",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "8cebc68a8459bb6c",
+  "kind": "news",
+  "matched": [
+   "GaN",
+   "SiC",
+   "semiconductor"
+  ],
+  "published": "2026-11-13",
+  "score": 3,
+  "source": "Semiconductor Today",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to GaN/AlGaN HEMT multiscale thermal modeling (MLIP → BTE → device) (matched: GaN).",
+   "what": "Navitas Semiconductor Corp of Torrance, CA, USA — which provides GaNFast gallium nitride (GaN), GeneSiC silicon carbide (SiC) power semiconductors and integrated voltage regulator (IVR) technologies — has filed a lawsuit in the US District Court for the Eastern District of Texas charging Renesas Electronics Corp of Tokyo, Japan with six counts of patent…",
+   "why": ""
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Navitas files further patent infringement lawsuit against Renesas",
+  "url": "https://www.semiconductor-today.com/news_items/2026/nov/navitas-renesas-131126.shtml",
+  "venue": "Semiconductor Today",
+  "watched": []
+ },
+ {
+  "abstract": "NequIP is a code for building E(3)-equivariant interatomic potentials Topics: atomistic-simulations, computational-chemistry, deep-learning, drug-discovery, force-fields, interatomic-potentials, machine-learning, materials-science, molecular-dynamics, pytorch.",
+  "authors": [
+   "mir-group"
+  ],
+  "cat": "industry",
+  "created": "2021-03-15",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "127e130309ca6d78",
+  "kind": "repo",
+  "matched": [
+   "NequIP",
+   "simulation",
+   "materials"
+  ],
+  "published": "2026-11-16",
+  "score": 3,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 976,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Machine-learned interatomic potentials.",
+   "what": "NequIP is a code for building E(3)-equivariant interatomic potentials Topics: atomistic-simulations, computational-chemistry, deep-learning, drug-discovery, force-fields, interatomic-potentials, machine-learning, materials-science, molecular-dynamics, pytorch.",
+   "why": ""
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "mir-group/nequip",
+  "url": "https://github.com/mir-group/nequip",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "quacc is a flexible platform for computational materials science and quantum chemistry that is built for the big data era. Topics: chemistry, computational-materials-science, database, dft, high-throughput, hpc, python, quantum-chemistry, quantum-mechanics, workflow.",
+  "authors": [
+   "Quantum-Accelerators"
+  ],
+  "cat": "industry",
+  "created": "2021-12-18",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "ea0773b3661984fc",
+  "kind": "repo",
+  "matched": [
+   "high-throughput",
+   "workflow",
+   "database",
+   "materials"
+  ],
+  "published": "2026-11-17",
+  "score": 3,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 303,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: high-throughput).",
+   "what": "quacc is a flexible platform for computational materials science and quantum chemistry that is built for the big data era. Topics: chemistry, computational-materials-science, database, dft, high-throughput, hpc, python, quantum-chemistry, quantum-mechanics, workflow.",
+   "why": ""
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Quantum-Accelerators/quacc",
+  "url": "https://github.com/Quantum-Accelerators/quacc",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "This is the first update to the 30 September 2026 stable release that fixes bugs and addresses issues that were backported from the development version. The following individual changes are included: add a runtime test to LAMMPS can error out cleanly when FFmpeg support is enabled but FFmpeg not found fix gcmc: register only the inserted molecule with fix rigid/small or shake fix gcmc: pass geometric center of inserted molecule to fix rigid/small fix press/langevin: correctly apply the xy and yz keywords to the xy and yz tilts remove ML-RANN from conventional make build lists documentation corrections mark packaging related CMake variables as advanced and make packaging related targets exit with an error status if they failed correct Linux distribution name detection in CMake backport of bugfixes from PR #5234 , PR #5236 , and PR #5237 , mostly related to OPENMP backport of bugfixes from PR #5185 backport python module fixes from PR #5240 update to using MathJax 4.x backport fixes from PR #5241 to speed up loading and rendering the online manual backport bugfixes from PR #5247 , PR #5246 , and PR #5245 backport bugfixes from PR #5141 backport bugfixes from PR #5242 backport bugfixes from PR #5250 backport bugfixes from PR #5270 include LAMMPS-GUI v3.1.2 as part of the release packages reverse ordering of allocation of new and release of old buffers in QEq for ReaxFF and thus avoiding temporary memory usage spikes leading to segmentation faults. honor the -nonbuf/-nb command line flag also without using partitions backport fixes from PR #5276 and from PR #5273 Full Changelog : stable_30Sep2026...stable_30Sep2026_update1 Information on the files attached to this release: lammps-src-30Sep2026_update1.tar.gz - LAMMPS source code with translated manual in HTML and PDF…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "9504a65528084695",
+  "kind": "tool",
+  "matched": [
+   "packaging"
+  ],
+  "published": "2026-11-14",
+  "score": 4,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "This is the first update to the 30 September 2026 stable release that fixes bugs and addresses issues that were backported from the development version. The following individual changes are included: add a runtime test to LAMMPS can error out cleanly when FFmpeg support is enabled but FFmpeg not found fix gcmc: register only the inserted molecule with fix…",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "LAMMPS Update 1 for Stable release 30 September 2026",
+  "url": "https://github.com/lammps/lammps/releases/tag/stable_30Sep2026_update1",
+  "venue": "LAMMPS",
+  "watched": []
+ },
+ {
+  "abstract": "What’s Changed New Features / Enhancements Add a numerical regression suite for UMA inference ( #2296 ) @misko , @mshuaibii Lazily import slow dependencies to speed up importing fairchem.core ( #2286 ) @lbluque , lbluque user, @mshuaibii Accept any ASE-conforming Atoms in from_ase, not only numpy-backed ones ( #2263 ) @lbluque Preserve autograd graphs for UMA Hessian inference and training ( #2272 ) @davrens101 Add missing copyright headers ( #2292 ) @frostedoyster Record the git branch and package version in job metadata ( #2225 ) @lbluque Bug Fixes Fix left-handed cells for nvalchemi neighbor list ( #2134 ) @frostedoyster Detach conservative inference energy outputs ( #2136 ) @wtfPrethiv , @frostedoyster , @lbluque Fix EdgeDegreeEmbedding keeping a node copy per checkpoint chunk ( #2219 ) @rssrwn Rank checkpoints by step instead of modification time ( #2266 ) @lbluque Tests Improve core coverage to 75% with lightweight tests and existing CI jobs ( #2273 ) @rayg1234 CI reliability 4: bound test phases and distributed cleanup ( #2281 ) @lbluque",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "94a0e239e597d109",
+  "kind": "tool",
+  "matched": [
+   "reliability"
+  ],
+  "published": "2026-11-17",
+  "score": 4,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "General awareness.",
+   "what": "What’s Changed New Features / Enhancements Add a numerical regression suite for UMA inference ( #2296 ) @misko , @mshuaibii Lazily import slow dependencies to speed up importing fairchem.core ( #2286 ) @lbluque , lbluque user, @mshuaibii Accept any ASE-conforming Atoms in from_ase, not only numpy-backed ones ( #2263 ) @lbluque Preserve autograd graphs for…",
+   "why": ""
+  },
+  "themes": [],
+  "title": "fairchem-core-2.26.0",
+  "url": "https://github.com/facebookresearch/fairchem/releases/tag/fairchem_core-2.26.0",
+  "venue": "fairchem (Meta FAIR)",
+  "watched": []
+ },
+ {
+  "abstract": "Documentation: https://alamode-code.github.io/alamode/ Packaging release; the calculations are unchanged. Build / packaging Binary wheels of the Python modules alm and anphon on PyPI for Linux (x86_64, aarch64) and macOS (arm64): pip install \"alamode-python[openmpi]\" (contributed by Hrushikesh Sahasrabuddhe, GitHub #338 ). The wheels contain neither the command-line programs and tool scripts nor the optional SuiteSparse solvers of alm. The Python distribution is named alamode-python (was alamode , a name that cannot be registered on PyPI). The modules are still imported as alm and anphon . If the Python package of 2.0.0 or 2.0.1 was installed from source, run pip uninstall alamode before installing this version. Boost >= 1.67 is required ( boost::sort::block_indirect_sort ); the build checks and the documentation said 1.66. The Python package requires Python >= 3.11 (was 3.9); it is built and tested with 3.11 and newer only. The Python build can leave out either module ( ALAMODE_PYTHON_ALM=OFF , ALAMODE_PYTHON_ANPHON=OFF ). License texts of the vendored code ( external/LICENSE_1_0.txt , external/niggli_LICENSE.txt ) and of the libraries bundled in the wheels ( python/LICENSES_bundled.txt ). Importing anphon without Open MPI says how to install it.",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "aae7f20b490c0cbd",
+  "kind": "tool",
+  "matched": [
+   "packaging"
+  ],
+  "published": "2026-11-16",
+  "score": 4,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: ALAMODE).",
+   "what": "Documentation: https://alamode-code.github.io/alamode/ Packaging release; the calculations are unchanged. Build / packaging Binary wheels of the Python modules alm and anphon on PyPI for Linux (x86_64, aarch64) and macOS (arm64): pip install \"alamode-python[openmpi]\" (contributed by Hrushikesh Sahasrabuddhe, GitHub #338 ).",
+   "why": "The modules are still imported as alm and anphon ."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "ALAMODE version 2.0.2 (2026-11-16)",
+  "url": "https://github.com/alamode-code/alamode/releases/tag/v2.0.2",
+  "venue": "ALAMODE",
+  "watched": []
+ },
+ {
+  "abstract": "New technical papers recently added to Semiconductor Engineering’s library: Technical Paper Research Organizations Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies UC Riverside Low-power 2D CFETs using single-crystal high-κ dielectrics National University of Singapore , Nexstrom , UNSW et al. 5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices Texas A&M University SANAI: Secure ECC Distributed Keyed Parity Embedded in Weights for Protecting Neural Networks against Bit-Flip Attacks University of Florida Mitigating the degradation of metal–semiconductor contacts with optimized electron beam evaporation RWTH Aachen University Resolving the Kay–Dunn limit and the speed–endurance dilemma in ferroelectric Hf 0.5 Zr 0.5 O 2 for DRAM-class sub-volt capacitors Seoul National University , Hanyang University , POSTECH et al. Randomized Caches in Hardware: Challenges and Trade-offs Ruhr University Bochum , Max Planck Institute for Security and Privacy , Georgia Tech Find more semiconductor research papers here . The post Chip Industry Technical Paper Roundup: Nov. 17 appeared first on Semiconductor Engineering .",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "1189d616dfabbfff",
+  "kind": "news",
+  "matched": [
+   "HBM",
+   "semiconductor"
+  ],
+  "published": "2026-11-17",
+  "score": 4,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to BaTiO₃ dislocations — phonon direction asymmetry (BTE vs EELS) (matched: ferroelectric).",
+   "what": "New technical papers recently added to Semiconductor Engineering’s library: Technical Paper Research Organizations Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies UC Riverside Low-power 2D CFETs using single-crystal high-κ dielectrics National University of Singapore , Nexstrom , UNSW et al. 5G CATS: 5G-Based…",
+   "why": ""
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Chip Industry Technical Paper Roundup: Nov. 17",
+  "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-17/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Researchers at Georgia Tech, NVIDIA Research , and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt “Large language model (LLM) inference demands ever more memory capacity for larger models and batch sizes. High-Bandwidth Flash (HBF) replaces the DRAM dies of HBM with NAND flash and provides up to 16x the capacity at comparable read bandwidth. However, HBF can incur a read latency of nearly 20 μ s, 20x that of HBM, so on-demand HBF accesses slow inference by up to 12.8x. Conventional cache-line prefetchers require 20x more in-flight tracking state to cover this latency. Tensor-streaming designs, such as H3, follow virtual-address order as opposed to kernel-demand order, and therefore need hundreds of megabytes of buffering. We propose SlipStream, a software-hardware co-designed prefetcher that turns prefetching into a demand-paced producer-consumer pipeline. In software, SlipStream profiles the repeatable weight-page demand order of data-independent LLM kernels and inserts a staging warp that replays this order with non-blocking STAGE instructions. In hardware, the staging warp acts as the producer and the work warps as consumers. Our key insight is to retire each STAGE tracking entry only when demand first accesses the page, as opposed to when the page returns from HBF. Demand thus paces staging and bounds how far staging leads consumption. SlipStream tracks 4 KB pages instead of cache lines and allocates buffer slots only when pages return, which decouples the buffer size from outstanding traffic. Across seven dense models spanning 16-800 GB, SlipStream with a 40 MB staging buffer achieves 92.4% of the performance of an ideal HBF with HBM-like latency. H3 achieves only 43.1%, even…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "4920610c6e59abc3",
+  "kind": "news",
+  "matched": [
+   "HBM",
+   "semiconductor",
+   "GPU"
+  ],
+  "published": "2026-11-16",
+  "score": 4,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "rules",
+   "how": "We propose SlipStream, a software-hardware co-designed prefetcher that turns prefetching into a demand-paced producer-consumer pipeline.",
+   "impact": "Background reading for Electronics thermal management & cooling.",
+   "what": "Researchers at Georgia Tech, NVIDIA Research , and Stanford University published “SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads.” Abstract Excerpt “Large language model (LLM) inference demands ever more memory capacity for larger models and batch sizes. High-Bandwidth Flash (HBF) replaces the DRAM dies of HBM with…",
+   "why": "However, HBF can incur a read latency of nearly 20 μ s, 20x that of HBM, so on-demand HBF accesses slow inference by up to 12.8x."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Reducing High-Bandwidth Flash Latency In GPU Systems (Georgia Tech, Nvidia, Stanford)",
+  "url": "https://semiengineering.com/reducing-high-bandwidth-flash-latency-in-gpu-systems-georgia-tech-nvidia-stanford/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Tharunya Yogananda and Wantong Li of the University of California, Riverside published a technical paper titled “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” Abstract Excerpt : “Recent generations of high bandwidth memory (HBM), such as HBM4, allow the base die of the memory stack to be manufactured using a logic process that can accommodate more complex controller functions next to the DRAM. We present the first systematic quantitative study of function-level controller placement between the host and the HBM4 base die on a silicon interposer. We divide the controller into its main functions and evaluate four placements, from a complete host controller to a complete base die controller, with intermediate placements that move maintenance or scheduling to the base die. “ Find the technical paper here . November 2026. Yogananda, Tharunya, and Wantong Li. “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” arXiv:2611.10930, November 2026. License. The post Shifting HBM4 Controller Functions Closer To Memory (UC Riverside) appeared first on Semiconductor Engineering .",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "10715c9dfb03992e",
+  "kind": "news",
+  "matched": [
+   "HBM",
+   "semiconductor"
+  ],
+  "published": "2026-11-13",
+  "score": 4,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Electronics thermal management & cooling.",
+   "what": "Tharunya Yogananda and Wantong Li of the University of California, Riverside published a technical paper titled “Beyond Host-Side Control: HBM Controller Partitioning Across Host and HBM Base Dies.” Abstract Excerpt : “Recent generations of high bandwidth memory (HBM), such as HBM4, allow the base die of the memory stack to be manufactured using a logic…",
+   "why": ""
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Shifting HBM4 Controller Functions Closer To Memory (UC Riverside)",
+  "url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "ML Performance and Extrapolation Guide (reference deployment https://ml-peg.stfc.ac.uk) Topics: ai-for-science, benchmarking, interatomic-potentials, machine-learning, machine-learning-interatomic-potentials, mlips, validation.",
+  "authors": [
+   "ddmms"
+  ],
+  "cat": "industry",
+  "created": "2025-04-03",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "4153173649dc3ccb",
+  "kind": "repo",
+  "matched": [
+   "extrapolation",
+   "benchmark"
+  ],
+  "published": "2026-11-17",
+  "score": 4,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 72,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Machine-learned interatomic potentials.",
+   "what": "ML Performance and Extrapolation Guide (reference deployment https://ml-peg.stfc.ac.uk) Topics: ai-for-science, benchmarking, interatomic-potentials, machine-learning, machine-learning-interatomic-potentials, mlips, validation.",
+   "why": ""
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "ddmms/ml-peg",
+  "url": "https://github.com/ddmms/ml-peg",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Agentic framework for computational chemistry and materials science workflows Topics: agents, ai, chemistry, materials-science, quantum, workflow.",
+  "authors": [
+   "argonne-lcf"
+  ],
+  "cat": "industry",
+  "created": "2024-12-17",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "43c9084b11c664c3",
+  "kind": "repo",
+  "matched": [
+   "agentic",
+   "workflow",
+   "materials",
+   "agent"
+  ],
+  "published": "2026-11-17",
+  "score": 4,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 172,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: agentic).",
+   "what": "Agentic framework for computational chemistry and materials science workflows Topics: agents, ai, chemistry, materials-science, quantum, workflow.",
+   "why": ""
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "argonne-lcf/ChemGraph",
+  "url": "https://github.com/argonne-lcf/ChemGraph",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Researchers at Arizona State University and Ampere Computing published “DT-MATCH: Defect- and Topology-Aware Chiplet Matching for Yield Optimization in Heterogeneous Integration.” Abstract “Heterogeneous integration (HI) and advanced packaging enable chiplet-based system-on-chip (SoC) designs; however, they also introduce new yield challenges arising from manufacturing defects and complex die-to-die (D2D) interconnect constraints. In particular, lane-level defects, limited spares, and strict structural compatibility requirements impede the efficient assembly of functional systems from defective but repairable chiplets. We present DT-MATCH, a defect- and topology-aware chiplet matching framework that maximizes the number of functional SoCs under realistic assembly constraints. DT-MATCH provides two complementary approaches. The integer linear programming (ILP)-based approach is implemented using a batching strategy to approximate the exact formulation. The greedy randomized adaptive search procedure (GRASP)-based approach provides substantial acceleration, but it does not guarantee yield optimality. Both approaches use a preprocessing pipeline to reduce the problem size. Experimental results on industrial designs demonstrate that, as expected, the ILP-based approach achieves superior solution quality. The GRASP-based approach leads to lower runtimes while still achieving solution quality that is comparable to the ILP-based solution. Together, these methods provide a trade-off between solution quality and efficiency for practical chiplet assembly optimization.” Find the technical paper here . November 2026. Xuanyi Tan, Sanmitra Banerjee, Dhruv Thapar, Sreejit Chakravarty, and Krishnendu Chakrabarty. “DT-MATCH: Defect- and Topology-Aware Chiplet Matching for Yield…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "98fef8f4637d26b7",
+  "kind": "news",
+  "matched": [
+   "chiplet",
+   "semiconductor",
+   "packaging"
+  ],
+  "published": "2026-11-17",
+  "score": 5,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "rules",
+   "how": "We present DT-MATCH, a defect- and topology-aware chiplet matching framework that maximizes the number of functional SoCs under realistic assembly constraints.",
+   "impact": "Background reading for Electronics thermal management & cooling.",
+   "what": "Researchers at Arizona State University and Ampere Computing published “DT-MATCH: Defect- and Topology-Aware Chiplet Matching for Yield Optimization in Heterogeneous Integration.” Abstract “Heterogeneous integration (HI) and advanced packaging enable chiplet-based system-on-chip (SoC) designs; however, they also introduce new yield challenges arising from…",
+   "why": ""
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Defect-Aware Chiplet Matching For Heterogeneous Integration Yield (ASU, Ampere)",
+  "url": "https://semiengineering.com/defect-aware-chiplet-matching-for-heterogeneous-integration-yield-asu-ampere/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Innovations A wave of announcements this week, including several from SEMICON Europa and electronica 2026 in Munich, highlighted advances in semiconductor manufacturing, advanced packaging, automotive chips, and AI hardware. Manufacturing Infineon reported an industry-first milestone in 300mm silicon carbide manufacturing , fabricating functional power devices at its Villach, Austria fab using existing silicon processing equipment. The larger wafers can accommodate 2.3 times as many chips as 200mm wafers, potentially lowering manufacturing costs for automotive, industrial, and AI data center power devices. imec completed baseline process flows for its NanoIC silicon-interposer platform , including TSVs and multiple routing layers for chiplet and 3D integration. A silicon-interposer PDK is planned for early 2027. Chips and systems AMD introduced its 6th-gen EPYC server and embedded processors, including models for semiconductor ATE; an AI GPU with 288GB of HBM4; and tamper-resistant FPGAs for security-critical systems. Arm introduced the Cortex-M42 processor to bring ML and DSP capabilities to cost- and area-constrained intelligent endpoints in a compact, AHB-based design. Google added two new 8th-gen TPU systems : TPU 8i Max for massive context windows and higher rack compute density, and TPU 8tx for secure and confidential inference. TPU 8tx pairs Google accelerators with AMD EPYC CPU hosts. Fallout continues after Nvidia CEO Jensen Huang’s resignation : Congressional investigations: Senators are seeking the preservation of records related to chip exports and Megaspeed, calling for tighter AI-chip export controls . House committee leaders also requested a closed-door Nov. 18 briefing from Huang. Inaction questioned: President Trump authorized tougher action on…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "b93ebb3696544e9a",
+  "kind": "news",
+  "matched": [
+   "chiplet",
+   "semiconductor",
+   "packaging",
+   "GPU"
+  ],
+  "published": "2026-11-13",
+  "score": 5,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Electronics thermal management & cooling.",
+   "what": "Innovations A wave of announcements this week, including several from SEMICON Europa and electronica 2026 in Munich, highlighted advances in semiconductor manufacturing, advanced packaging, automotive chips, and AI hardware. Manufacturing Infineon reported an industry-first milestone in 300mm silicon carbide manufacturing , fabricating functional power…",
+   "why": "Chips and systems AMD introduced its 6th-gen EPYC server and embedded processors, including models for semiconductor ATE; an AI GPU with 288GB of HBM4; and tamper-resistant FPGAs for security-critical systems."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Chip Industry Week In Review",
+  "url": "https://semiengineering.com/chip-industry-week-in-review-164/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Phonon anharmonicity analysis from molecular dynamics Topics: anharmonicity, lammps, molecular-dynamics, phonon, phonopy, vasp.",
+  "authors": [
+   "abelcarreras"
+  ],
+  "cat": "industry",
+  "created": "2014-06-06",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "8cfb01aa7e1f9c4e",
+  "kind": "repo",
+  "matched": [
+   "phonon",
+   "anharmonic",
+   "phonopy"
+  ],
+  "published": "2026-11-16",
+  "score": 5,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 144,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
+   "what": "Phonon anharmonicity analysis from molecular dynamics Topics: anharmonicity, lammps, molecular-dynamics, phonon, phonopy, vasp.",
+   "why": ""
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "abelcarreras/DynaPhoPy",
+  "url": "https://github.com/abelcarreras/DynaPhoPy",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "LLM-powered agents for scientific research automation Topics: agentic-ai, agentic-framework, agentic-workflow, density-functional-theory, experiments, generative-ai, large-language-models, materials, materials-discovery, materials-science, microscopy, molecular-dynamics, simulations, spectroscopy.",
+  "authors": [
+   "ziatdinovmax"
+  ],
+  "cat": "industry",
+  "created": "2025-04-10",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "0ae0b9d9fad1a487",
+  "kind": "repo",
+  "matched": [
+   "agentic",
+   "workflow",
+   "automation",
+   "simulation",
+   "materials",
+   "agent"
+  ],
+  "published": "2026-11-17",
+  "score": 5,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 99,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: agentic).",
+   "what": "LLM-powered agents for scientific research automation Topics: agentic-ai, agentic-framework, agentic-workflow, density-functional-theory, experiments, generative-ai, large-language-models, materials, materials-discovery, materials-science, microscopy, molecular-dynamics, simulations, spectroscopy.",
+   "why": ""
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "ziatdinovmax/SciLink",
+  "url": "https://github.com/ziatdinovmax/SciLink",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "We all know how important inspection is for advanced packaging. Not only are these processes critical for ensuring higher yield, but they’re also integral for maintaining device reliability. As the industry pushes for smaller features and tighter spacing, even the smallest defects can pose major challenges. For instance, delaminations and air gaps can be detrimental in a market that demands increasingly complex devices. Such defects will lead to electrical or mechanical failures down the road. One technology that’s mitigating these issues is acoustic micro imaging (AMI). AMI is a high-frequency ultrasound technology, and it’s being used by the industry as an inspection method. How AMI works At the core of AMI technology is a transducer, or a device that turns energy from one form to another. It starts with a pulse of electrical energy, then converts it to mechanical energy, or a high-frequency ultrasound wave. Because ultrasound doesn’t travel through air, this allows inspectors to obtain clear images of gaps and delaminations in the device that could otherwise be difficult to see. However, the transducers used for AMI are not all the same. Each transducer handles a specific frequency, and they’re chosen based on the sample that needs to be inspected. By moving the transducer across the sample, the inspector can generate multiple images that can then be analyzed by the AMI software. Through this analysis, the inspector can choose to accept or reject parts based on the number of defects the package is found to have. So, how do these defects typically present themselves? The biggest difference between ideal and defective samples is that some defective samples will have very clear air gaps. However, another common defect is thinning of the attach material on solder pads.…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "0f8c106d8cec65ac",
+  "kind": "news",
+  "matched": [
+   "TIM",
+   "packaging",
+   "reliability",
+   "interface",
+   "thermal"
+  ],
+  "published": "2026-11-16",
+  "score": 6,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "rules",
+   "how": "AMI is a high-frequency ultrasound technology, and it’s being used by the industry as an inspection method.",
+   "impact": "Background reading for Electronics thermal management & cooling.",
+   "what": "We all know how important inspection is for advanced packaging. Not only are these processes critical for ensuring higher yield, but they’re also integral for maintaining device reliability.",
+   "why": "However, the transducers used for AMI are not all the same."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "What Is Acoustic Micro Imaging? A Quick Guide To This Inspection Process",
+  "url": "https://semiengineering.com/what-is-acoustic-micro-imaging-a-quick-guide-to-this-inspection-process/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Graphics Processing Units Molecular Dynamics Topics: cuda, gpu, gpumd, heat-transport, high-performance-computing, machine-learning, machine-learning-potential, molecular-dynamics, molecular-dynamics-simulation, natural-evolution-strategies, neural-network, neuroevolution, phonon, physics-simulation, simulation.",
+  "authors": [
+   "brucefan1983"
+  ],
+  "cat": "industry",
+  "created": "2017-07-14",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "a685520c7bd53fba",
+  "kind": "repo",
+  "matched": [
+   "phonon",
+   "GPUMD",
+   "GPU",
+   "heat",
+   "simulation"
+  ],
+  "published": "2026-11-17",
+  "score": 6,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 867,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
+   "what": "Graphics Processing Units Molecular Dynamics Topics: cuda, gpu, gpumd, heat-transport, high-performance-computing, machine-learning, machine-learning-potential, molecular-dynamics, molecular-dynamics-simulation, natural-evolution-strategies, neural-network, neuroevolution, phonon, physics-simulation, simulation.",
+   "why": ""
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "brucefan1983/GPUMD",
+  "url": "https://github.com/brucefan1983/GPUMD",
+  "venue": "GitHub · Cuda",
+  "watched": []
+ },
+ {
+  "abstract": "uMLIP-Interactive: GUI & Python script generator for calculations with universal machine-learning interatomic potentials (uMLIPs): MACE, UMA, Orb, SevenNet, MatterSim, GRACE, DPA… Phonons, elastic constants, MD, NEB, geometry optimization Topics: bulk-modulus, chgnet, dpa, elastic-constants, elastic-properties, genetic-algorithm, geometry-optimization, interatomic-potential, mace, machine-learning-interatomic-potential, machine-learning-potential, mattersim, mlip, molecular-dynamics, nequix, phonons, point-defects, sevennet, streamlit, temperature-elastic-properties.",
+  "authors": [
+   "bracerino"
+  ],
+  "cat": "industry",
+  "created": "2025-06-19",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "83228f813ed8e206",
+  "kind": "repo",
+  "matched": [
+   "phonon",
+   "MACE",
+   "SevenNet",
+   "MatterSim"
+  ],
+  "published": "2026-11-16",
+  "score": 10,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 46,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to InGaAs alloy κ with self-trained MLIPs (MLPhonon, Phonon Olympics) (matched: MACE).",
+   "what": "uMLIP-Interactive: GUI & Python script generator for calculations with universal machine-learning interatomic potentials (uMLIPs): MACE, UMA, Orb, SevenNet, MatterSim, GRACE, DPA… Phonons, elastic constants, MD, NEB, geometry optimization Topics: bulk-modulus, chgnet, dpa, elastic-constants, elastic-properties, genetic-algorithm, geometry-optimization,…",
+   "why": ""
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "bracerino/uMLIP-Interactive",
+  "url": "https://github.com/bracerino/uMLIP-Interactive",
+  "venue": "GitHub · Python",
+  "watched": []
+ }
+]

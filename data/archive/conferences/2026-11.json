@@ -1,0 +1,131 @@
+[
+ {
+  "abstract": "Altermagnetic materials Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript. Advertisement Collection Altermagnetic materials Submission status Open Submission deadline 30 June 2027 This collection supports and amplifies research related to SDG 9 - Industry, innovation and infrastructure . Altermagnetism is a recently discovered phase of magnetism characterized by zero net magnetization and strong spin polarization in the electronic band structure. This combination of properties characteristic of elements of both antiferromagnets and ferromagnets arises due to the magnetic sublattices being connected by symmetry operations that are not inversion or translation. The result is a class of materials with a rich array of unconventional magneto-responses, and great technological potential. With this cross-journal collection, the editors at Nature Communications , Communications Materials and Scientific Reports invite submissions on altermagnetic materials. To submit, see the participating journals Collection content Participating journals About the editors About the Collection Observation of Altermagnetic Spin-Splitting in an Intercalated Transition Metal Dichalcogenide Altermagnets combine characteristics of both antiferromagnetism and ferromagnetic ordering. Here, the authors identify Co 1/4 TaSe 2 as a layered altermagnetic material and show clear signatures of altermagnetic spin splitting at the Fermi surface. Milo Sprague Mazharul Islam Mondal Madhab Neupane Article Open…",
+  "authors": [],
+  "cat": "conferences",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "d21400bdc0b1a487",
+  "kind": "special-issue",
+  "matched": [
+   "substrate",
+   "first-principles",
+   "materials"
+  ],
+  "published": "2026-11-17",
+  "score": 2,
+  "source": "Journal calls",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "Altermagnetic materials Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Altermagnetic materials",
+  "url": "https://www.nature.com/collections/aefaahgacc",
+  "venue": "Communications Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Materials-AI Bidirectional Innovation Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript. Advertisement Collection Materials-AI Bidirectional Innovation Submission status Open Submission deadline 20 July 2027 The relationship between artificial intelligence and materials science is increasingly bidirectional. AI is transforming how we discover, design, and optimize materials, while materials science is simultaneously reshaping the hardware on which AI depends. This Collection captures this bidirectional innovation through the lens of algorithms, platforms, and workflows that enable AI to accelerate materials researchand the materials that, in turn, expand what AI can achieve. Materials science is undergoing a paradigm shift driven by advances in AI and their application to autonomous materials science platforms. The advances in AI are accelerating materials discovery, design, and synthesis through predictive modeling, generative approaches, and autonomous experimentation. Key developments include AI models trained on diverse datasets from high-throughput computation and experimentation; multimodal and generative AI for novel materials and synthesis routes; and autonomous materials science that combines AI/ML with automated laboratories, real-time data analysis, robotic experimentation, and adaptive characterization. The AI revolution is, fundamentally, also a materials problem. Materials properties can enable new forms of sensing, memory, and computation in latency- and…",
+  "authors": [],
+  "cat": "conferences",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "bab05c2e3264666f",
+  "kind": "special-issue",
+  "matched": [
+   "packaging",
+   "high-throughput",
+   "workflow",
+   "thermal",
+   "materials"
+  ],
+  "published": "2026-11-17",
+  "score": 3,
+  "source": "Journal calls",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: high-throughput).",
+   "what": "Materials-AI Bidirectional Innovation Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Materials-AI Bidirectional Innovation",
+  "url": "https://www.nature.com/collections/eegbhegcdi",
+  "venue": "npj Computational Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Transport Mechanisms in Energy Materials Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript. Advertisement Collection 27 October 2023 Transport Mechanisms in Energy Materials Submission status Closed Submission deadline 31 October 2024 Energy serves as a fundamental pillar for both economic and social development. The advancement of cutting-edge energy materials stands as a crucial cornerstone in driving the transition towards a new energy-driven economy. Despite the progressive enhancement of material performance, significant barriers persist in the efficiency of energy conversion and storage, thereby constraining the broader adoption of new energy technologies across various sectors. One critical bottleneck pertains to the transport of electrons and ions, playing a pivotal role in hampering the efficacy of energy conversion and storage. This limitation is notably evident in areas such as electric and thermal transport within thermoelectric materials, ion and electron conveyance in lithium battery materials, and charge transfer in optoelectronic materials. Unveiling the transport mechanisms within energy materials stands as the bedrock upon which we can bolster transport efficiency and devise novel energy materials. The integration of computational material methods, artificial intelligence technology, and advanced in-situ experimental characterization techniques constitutes a foundational approach for unraveling the microstructural transport mechanisms within energy…",
+  "authors": [],
+  "cat": "conferences",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "8a0f8219854c0db9",
+  "kind": "special-issue",
+  "matched": [
+   "thermoelectric",
+   "multiscale",
+   "thermal",
+   "materials"
+  ],
+  "published": "2026-11-17",
+  "score": 4,
+  "source": "Journal calls",
+  "summary": {
+   "by": "rules",
+   "how": "The integration of computational material methods, artificial intelligence technology, and advanced in-situ experimental characterization techniques constitutes a foundational approach for unraveling the microstructural transport mechanisms within energy…",
+   "impact": "Background reading for Phonon & thermal transport.",
+   "what": "Transport Mechanisms in Energy Materials Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
+   "why": "The advancement of cutting-edge energy materials stands as a crucial cornerstone in driving the transition towards a new energy-driven economy."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Transport Mechanisms in Energy Materials",
+  "url": "https://www.nature.com/collections/ecdegcaaad",
+  "venue": "npj Computational Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Machine Learning Interatomic Potentials in Computational Materials Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript. Advertisement Collection 06 November 2024 Machine Learning Interatomic Potentials in Computational Materials Submission status Closed Submission deadline 14 December 2025 Machine learning interatomic potentials (MLIPs) have become an essential tool to enable long-time scale simulations of materials and molecules at unprecedented accuracies. The aim of this collection is to showcase cutting-edge developments in MLIP architectures, data generation techniques, and innovative sampling methods that push the boundaries of accuracy, efficiency, and applicability in atomic-scale simulations. This Collection welcomes the following topics, including but not limited to: Architectural Advances New model architectures that enhance the accuracy, interpretability, or transferability of interatomic potentials. Novel algorithms for reducing model complexity while maintaining predictive power. Data Generation and Processing High-quality data generation strategies, including ab initio data curation and active learning techniques that minimize the need for computationally expensive data. Approaches for ensuring data diversity and coverage to improve MLIP robustness, especially for rare events. Advanced sampling methods that improve MLIP efficiency in handling diverse materials and molecular configurations. Applications In-depth studies demonstrating MLIPs in real-world…",
+  "authors": [],
+  "cat": "conferences",
+  "doi": "",
+  "first_seen": "2026-11-17",
+  "id": "8821f37128221161",
+  "kind": "special-issue",
+  "matched": [
+   "interpretab",
+   "transferab",
+   "robustness",
+   "simulation",
+   "materials"
+  ],
+  "published": "2026-11-17",
+  "score": 5,
+  "source": "Journal calls",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to MLIP reliability (interpretability, data efficiency, failure modes) (matched: interpretab).",
+   "what": "Machine Learning Interatomic Potentials in Computational Materials Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
+   "why": "Advertisement Collection 06 November 2024 Machine Learning Interatomic Potentials in Computational Materials Submission status Closed Submission deadline 14 December 2025 Machine learning interatomic potentials (MLIPs) have become an essential tool to enable long-time scale simulations of materials and molecules at…"
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Machine Learning Interatomic Potentials in Computational Materials",
+  "url": "https://www.nature.com/collections/eiaafcgibf",
+  "venue": "npj Computational Materials",
+  "watched": []
+ }
+]

@@ -1,0 +1,137 @@
+# Thermal Materials Academic Radar — conferences (US-held) and calls.
+#
+# Each official page is fetched daily; when its text changes, a card appears
+# on the Conferences page with the deadline sentences found on the page.
+# `next` holds what has been verified (date checked noted in `verified`);
+# entries with an `abstract_deadline` in the future feed the countdown panel.
+# `fetch: false` = the site blocks automated reading; the weekly Claude web
+# search checks it instead.
+#
+# fit:  submit  = good venue for your own abstracts
+#       network = industry / career value, attend or watch
+#       watch   = keep an eye on (eligibility or location limits)
+
+conferences:
+  # ---------------- heat transfer & electronics thermal (best fit)
+  - name: ASME Summer Heat Transfer Conference (SHTC)
+    url: "https://event.asme.org/SHTC"
+    area: Heat transfer · nanoscale thermal transport
+    fit: submit
+    why: You presented at SHTC 2025; core venue for phonon transport and device thermal modeling.
+    next: { edition: SHTC 2027, dates: "2027-08-01 – 2027-08-04", location: "Orlando, FL", abstract_deadline: "2026-12-08", verified: "2026-11-17 (event.asme.org)" }
+  - name: ASME IMECE
+    url: "https://event.asme.org/IMECE"
+    area: Mechanical engineering congress (heat transfer tracks)
+    fit: submit
+    why: Large ASME venue with nano/micro-scale heat transfer tracks; abstracts usually due Feb–Mar.
+  - name: ASME InterPACK
+    url: "https://event.asme.org/InterPACK"
+    area: Electronic packaging & thermal management
+    fit: submit
+    why: Device/package thermal modeling, cooling; strong industry attendance (Intel, AMD, Meta, NVIDIA).
+  - name: IEEE ITherm
+    url: "https://www.ieee-itherm.net/"
+    area: Electronics thermal & thermomechanical phenomena
+    fit: submit
+    why: Main IEEE electronics-cooling venue, co-located with ECTC; GaN/HEMT thermal and cooling sessions.
+    next: { edition: ITherm 2027, dates: "2027-06-01 – 2027-06-04 (directory listing, unconfirmed)", location: "Denver, CO (unconfirmed)", verified: "2026-11-17 (third-party listing)" }
+  - name: SEMI-THERM
+    url: "https://www.semi-therm.org/"
+    area: Semiconductor thermal measurement, modeling & management
+    fit: submit
+    why: Industry-heavy thermal modeling and cooling symposium; good for job networking.
+    next: { edition: SEMI-THERM 43, dates: "2027-03-15 – 2027-03-18", location: "San Jose, CA", verified: "2026-11-17 (semi-therm.org)" }
+  - name: International Thermal Conductivity Conference (ITCC/ITES)
+    fetch: false
+    url: "https://ceramics.org/itcc2026"
+    area: Thermal conductivity measurement & modeling
+    fit: submit
+    why: Small, specialised, closest match to κ modeling; biennial (2026 in Columbus, OH — next likely 2028).
+  - name: ASTFE Thermal and Fluids Engineering Conference (TFEC)
+    url: "https://www.astfe.org/"
+    area: Thermal-fluid sciences
+    fit: submit
+    why: Mid-size thermal sciences meeting; usually held in the US in spring.
+
+  # ---------------- materials & physics
+  - name: MRS Spring / Fall Meeting
+    url: "https://www.mrs.org/meetings-events"
+    area: Materials (thermal transport, MLIP / AI-for-materials symposia)
+    fit: submit
+    why: Fall (Boston, Dec) abstracts ~June; Spring abstracts ~Oct. Spring 2027 is Seattle, Apr 5–9 (abstracts closed).
+  - name: APS Global Physics Summit (formerly March Meeting)
+    url: "https://www.aps.org/events/2027/summit"
+    area: Condensed-matter physics (phonons, thermal transport)
+    fit: submit
+    why: 2027 is Atlanta, Apr 11–16 (abstracts closed Oct 22, 2026); plan for the 2028 call (~Oct 2027).
+  - name: TMS Annual Meeting
+    fetch: false
+    url: "https://www.tms.org/AnnualMeeting"
+    area: Materials (computational materials, electronic materials)
+    fit: network
+    why: TMS 2027 Orlando, Mar 14–18; computational-materials symposia.
+  - name: MS&T (Materials Science & Technology)
+    fetch: false
+    url: "https://www.matscitech.org/"
+    area: Materials (ceramics, thermal properties)
+    fit: network
+    why: Fall US meeting with thermal-properties and computational symposia.
+  - name: Electronic Materials Conference (EMC)
+    fetch: false
+    url: "https://www.emc-conference.org/"
+    area: Electronic materials (GaN, Ga₂O₃, III-V)
+    fit: network
+    why: Device-materials community for wide-bandgap work; usually late June in the US.
+
+  # ---------------- devices, packaging, power (industry-facing)
+  - name: IEEE ECTC
+    fetch: false
+    url: "https://www.ectc.net/"
+    area: Packaging & heterogeneous integration
+    fit: network
+    why: Advanced packaging (chiplets, hybrid bonding, HBM) — Intel / AMAT / TSMC audience; co-located with ITherm.
+  - name: IEEE IEDM
+    url: "https://www.ieee-iedm.org/"
+    area: Electron devices
+    fit: network
+    why: Device-level self-heating and GaN/SiC sessions; San Francisco, December.
+  - name: IEEE IRPS
+    url: "https://www.irps.org/"
+    area: Reliability physics
+    fit: network
+    why: Thermal reliability of GaN/SiC devices.
+  - name: CS MANTECH
+    url: "https://csmantech.org/"
+    area: Compound semiconductor manufacturing (GaN)
+    fit: network
+    why: GaN device industry and defense contractors.
+  - name: IEEE WiPDA
+    url: "https://wipda.org/"
+    area: Wide-bandgap power devices & applications
+    fit: network
+    why: GaN/SiC power devices; thermal management sessions.
+  - name: IEEE APEC
+    url: "https://apec-conf.org/"
+    area: Applied power electronics
+    fit: network
+    why: Power-electronics industry; packaging and cooling of WBG devices.
+  - name: GOMACTech
+    url: "https://www.gomactech.net/"
+    area: Defense microelectronics (incl. thermal & packaging)
+    fit: watch
+    why: Relevant to defense GaN programs, but registration requires U.S. citizenship or permanent residence. 2027 Pasadena, Mar 22–25 (call closed).
+
+  # ---------------- AI for science
+  - name: AI4Mat workshop (NeurIPS)
+    url: "https://sites.google.com/view/ai4mat"
+    area: ML for materials (MLIP, data efficiency, agents)
+    fit: submit
+    why: Short workshop papers on MLIP interpretability, data efficiency or agents; NeurIPS is usually in North America in December.
+
+# WikiCFP category feeds (open calls; filtered by your themes).
+wikicfp:
+  - "heat transfer"
+  - "thermal engineering"
+  - "materials science"
+  - "semiconductor"
+  - "computational physics"

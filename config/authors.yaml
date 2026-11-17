@@ -1,0 +1,187 @@
+authors:
+- name: Tengfei Luo
+  hint: Notre Dame
+  group: user list
+  id: A5065387614
+  matched: Tengfei Luo · 86 matching 'thermal' works with 'Notre Dame'
+- name: Dengwei Jing
+  hint: Xi'an Jiaotong
+  group: user list
+  topic: solar
+  id: A5066493240
+  matched: Dengwei Jing · 94 matching 'solar' works with "Xi'an Jiaotong"
+- name: Zhiting Tian
+  hint: Cornell|Virginia Tech
+  group: user list
+  id: A5079026231
+  matched: Zhiting Tian · 72 matching 'thermal' works with 'Cornell|Virginia Tech'
+- name: Gang Chen
+  hint: Massachusetts Institute of Technology
+  group: user list
+  id: A5100389265
+  matched: Gang Chen · 70 matching 'thermal' works with 'Massachusetts Institute of Technology'
+- name: Xiulin Ruan
+  hint: Purdue
+  group: user list
+  id: A5058380376
+  matched: Xiulin Ruan · 89 matching 'thermal' works with 'Purdue'
+- name: Tianli Feng
+  hint: Utah
+  group: user list
+  id: A5091497369
+  matched: Tianli Feng · 38 matching 'thermal' works with 'Utah'
+- name: Renkun Chen
+  hint: San Diego
+  group: user list
+  id: A5091658266
+  matched: Renkun Chen · 91 matching 'thermal' works with 'San Diego'
+- name: Junichiro Shiomi
+  hint: Tokyo
+  group: user list (auto-kappa)
+  id: A5040393990
+  matched: Junichiro Shiomi · 88 matching 'thermal' works with 'Tokyo'
+- name: Masato Ohnishi
+  hint: Tokyo
+  group: user list (auto-kappa developer)
+  id: A5034775891
+  matched: Masato Ohnishi · 18 matching 'thermal' works with 'Tokyo'
+- name: Davide Donadio
+  hint: Davis
+  group: user list (kALDo)
+  id: A5014039622
+  matched: Davide Donadio · 60 matching 'thermal' works with 'Davis'
+- name: Jian-Xun Wang
+  hint: Notre Dame|Cornell
+  group: user list
+  topic: neural
+  id: A5085043351
+  matched: Jianxun Wang · 46 matching 'neural' works with 'Notre Dame|Cornell'
+- name: Sheng Shen
+  hint: Carnegie Mellon
+  group: user list
+  topic: thermal
+  id: A5100784816
+  matched: Sheng Shen · 50 matching 'thermal' works with 'Carnegie Mellon'
+- name: Yongjie Hu
+  hint: Los Angeles
+  group: user list
+  id: A5039455419
+  matched: Yongjie Hu · 43 matching 'thermal' works with 'Los Angeles'
+- name: Alan J. H. McGaughey
+  hint: Carnegie Mellon
+  group: nanoscale thermal transport
+  id: A5014826801
+  matched: Alan J. H. McGaughey · 80 matching 'thermal' works with 'Carnegie Mellon'
+- name: Li Shi
+  hint: Texas at Austin
+  group: nanoscale thermal transport
+  id: A5025170020
+  matched: Li Shi · 51 matching 'thermal' works with 'Texas at Austin'
+- name: David G. Cahill
+  hint: Illinois
+  group: nanoscale thermal transport
+  id: A5001475799
+  matched: David G. Cahill · 83 matching 'thermal' works with 'Illinois'
+- name: Patrick E. Hopkins
+  hint: Virginia
+  group: interfaces / TDTR
+  id: A5033946101
+  matched: Patrick E. Hopkins · 75 matching 'thermal' works with 'Virginia'
+- name: Austin J. Minnich
+  hint: California Institute of Technology
+  group: phonon transport
+  id: A5029073974
+  matched: Austin J. Minnich · 66 matching 'thermal' works with 'California Institute of Technology'
+- name: Bolin Liao
+  hint: Santa Barbara
+  group: phonon transport
+  id: A5087485117
+  matched: Bolin Liao · 47 matching 'thermal' works with 'Santa Barbara'
+- name: Asegun Henry
+  hint: Massachusetts Institute of Technology
+  group: interfacial modes
+  id: A5088920915
+  matched: Asegun S. Henry · 48 matching 'thermal' works with 'Massachusetts Institute of Technology'
+- name: Ravi Prasher
+  hint: Lawrence Berkeley|Berkeley
+  group: thermal management
+  id: A5053542374
+  matched: Ravi Prasher · 28 matching 'thermal' works with 'Lawrence Berkeley|Berkeley'
+- name: Samuel Graham
+  hint: Maryland|Georgia Institute of Technology
+  group: GaN device thermal
+  id: A5039403990
+  matched: Samuel Lindsay Graham · 82 matching 'thermal' works with 'Maryland|Georgia Institute of Technology'
+- name: Martin Kuball
+  hint: Bristol
+  group: GaN device thermal
+  id: A5081176603
+  matched: Martin Kuball · 88 matching 'thermal' works with 'Bristol'
+- name: Sukwon Choi
+  hint: Pennsylvania State
+  group: GaN device thermal
+  id: A5088760104
+  matched: Sukwon Choi · 81 matching 'thermal' works with 'Pennsylvania State'
+- name: Natalio Mingo
+  hint: CEA|Commissariat
+  group: BTE solvers
+  id: A5043127515
+  matched: Natalio Mingo · 79 matching 'thermal' works with 'CEA|Commissariat'
+- name: Jesús Carrete
+  hint: Zaragoza|Wien
+  group: BTE solvers (almaBTE)
+  id: A5051115860
+  matched: Jesús Carrete · 60 matching 'thermal' works with 'Zaragoza|Wien'
+- name: Wu Li
+  hint: Eastern Institute|Shenzhen|Boston College|CEA
+  group: BTE solvers (ShengBTE)
+  topic: phonon
+  id: A5100326394
+  matched: Wu Li · 29 matching 'phonon' works with 'Eastern Institute|Shenzhen|Boston College|CEA'
+- name: David A. Broido
+  hint: Boston College
+  group: first-principles phonons
+  id: A5055474009
+  matched: David Broido · 7 matching 'thermal' works with 'Boston College'
+- name: Boris Kozinsky
+  hint: Harvard
+  group: MLIP (NequIP/Allegro)
+  topic: potential
+  id: A5075010416
+  matched: Boris Kozinsky · 29 matching 'potential' works with 'Harvard'
+- name: Gábor Csányi
+  hint: Cambridge
+  group: MLIP (MACE)
+  topic: potential
+  id: A5025442671
+  matched: Gábor Cśanyi · 82 matching 'potential' works with 'Cambridge'
+- name: Linfeng Zhang
+  hint: DP Technology|AI for Science|Princeton|Beijing
+  group: MLIP (DeePMD)
+  topic: potential
+  id: A5100689117
+  matched: Linfeng Zhang · 27 matching 'potential' works with 'DP Technology|AI for Science|Princeton|Beijing'
+- name: Shyue Ping Ong
+  hint: San Diego
+  group: MLIP / materials informatics
+  topic: materials
+  id: A5002723657
+  matched: Shyue Ping Ong · 72 matching 'materials' works with 'San Diego'
+- name: Atsushi Togo
+  hint: National Institute for Materials Science|Kyoto
+  group: phonopy
+  topic: phonon
+  id: A5057622973
+  matched: Atsushi Togo · 90 matching 'phonon' works with 'National Institute for Materials Science|Kyoto'
+- name: Olle Hellman
+  hint: Weizmann|Linköping
+  group: TDEP
+  topic: phonon
+  id: A5072136329
+  matched: Olle Hellman · 26 matching 'phonon' works with 'Weizmann|Linköping'
+- name: Terumasa Tadano
+  hint: National Institute for Materials Science
+  group: ALAMODE
+  topic: phonon
+  id: A5086550035
+  matched: Terumasa Tadano · 45 matching 'phonon' works with 'National Institute for Materials Science'

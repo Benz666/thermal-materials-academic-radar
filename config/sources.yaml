@@ -1,0 +1,152 @@
+# Thermal Materials Academic Radar — where information comes from.
+# Every source is checked on each run; failures are listed on the site's
+# "Source health" panel instead of breaking the build.
+
+lookback_days: 4          # window for date-filtered APIs (covers weekends)
+daily_caps:               # max new cards per day, highest score first
+  papers: 40
+  industry: 25
+  conferences: 15
+
+# ---------------------------------------------------------------- preprints
+arxiv:
+  # Newest submissions in these categories, scored locally.
+  categories:
+    - cond-mat.mtrl-sci
+    - physics.comp-ph
+    - cond-mat.mes-hall
+    - physics.app-ph
+    - physics.chem-ph
+    - cond-mat.stat-mech
+  max_results: 400
+  # Targeted searches across all of arXiv (catches cs.LG / physics.data-an …).
+  queries:
+    - 'abs:"interatomic potential" OR abs:"machine learning potential" OR abs:"neural network potential"'
+    - 'abs:"physics-informed" AND (abs:heat OR abs:phonon OR abs:thermal)'
+    - 'abs:"Boltzmann transport equation" AND abs:phonon'
+  query_max_results: 100
+
+# ---------------------------------------------------------------- journals
+# Crossref, newest works per journal (by ISSN). Kept only if they match a theme.
+journals:
+  - { name: Physical Review B, issn: 2469-9950 }
+  - { name: Physical Review Letters, issn: 0031-9007 }
+  - { name: Physical Review Materials, issn: 2475-9953 }
+  - { name: Physical Review Applied, issn: 2331-7019 }
+  - { name: Physical Review X, issn: 2160-3308 }
+  - { name: Applied Physics Letters, issn: 0003-6951 }
+  - { name: Journal of Applied Physics, issn: 0021-8979 }
+  - { name: The Journal of Chemical Physics, issn: 0021-9606 }
+  - { name: International Journal of Heat and Mass Transfer, issn: 0017-9310 }
+  - { name: International Journal of Thermal Sciences, issn: 1290-0729 }
+  - { name: ASME Journal of Heat and Mass Transfer, issn: 2832-8450 }
+  - { name: Nanoscale and Microscale Thermophysical Engineering, issn: 1556-7265 }
+  - { name: Materials Today Physics, issn: 2542-5293 }
+  - { name: npj Computational Materials, issn: 2057-3960 }
+  - { name: Computational Materials Science, issn: 0927-0256 }
+  - { name: Journal of Chemical Theory and Computation, issn: 1549-9618 }
+  - { name: "Machine Learning: Science and Technology", issn: 2632-2153 }
+  - { name: Digital Discovery, issn: 2635-098X }
+  - { name: Nature Communications, issn: 2041-1723 }
+  - { name: Nature Materials, issn: 1476-1122 }
+  - { name: Nature Electronics, issn: 2520-1131 }
+  - { name: Nature Physics, issn: 1745-2473 }
+  - { name: Science, issn: 0036-8075 }
+  - { name: Science Advances, issn: 2375-2548 }
+  - { name: Nano Letters, issn: 1530-6984 }
+  - { name: ACS Applied Materials & Interfaces, issn: 1944-8244 }
+  - { name: Advanced Materials, issn: 0935-9648 }
+  - { name: Advanced Functional Materials, issn: 1616-301X }
+  - { name: IEEE Transactions on Electron Devices, issn: 0018-9383 }
+  - { name: IEEE Electron Device Letters, issn: 0741-3106 }
+  - { name: "IEEE Trans. Components, Packaging and Manufacturing Technology", issn: 2156-3950 }
+  - { name: "Journal of Physics: Condensed Matter", issn: 0953-8984 }
+
+# New works by the watched authors in config/authors.yaml (by OpenAlex id).
+watched_authors: true
+
+# OpenAlex full-text search over all journals (fills gaps the list above misses).
+openalex:
+  searches:
+    - '"thermal conductivity" phonon'
+    - '"interfacial thermal conductance"'
+    - '"thermal boundary conductance"'
+    - '"interatomic potential" phonon'
+    - 'GaN HEMT thermal'
+    - '"Boltzmann transport equation" phonon'
+    - '"physics-informed neural network" heat'
+    - '"interatomic potential" interpretability OR "latent space"'
+    - '"interatomic potential" "data efficiency" OR "active learning"'
+    - 'electronics cooling microchannel OR "two-phase" OR immersion'
+    - '"electro-thermal" simulation transistor'
+    - '"agent" "large language model" materials simulation'
+    - '"Green-Kubo" OR "nonequilibrium molecular dynamics" thermal conductivity'
+  per_search: 50
+
+# ---------------------------------------------------------------- tools
+# GitHub release feeds of codes in the workflow. Always shown.
+tools:
+  - { name: LAMMPS, repo: lammps/lammps }
+  - { name: DeePMD-kit, repo: deepmodeling/deepmd-kit }
+  - { name: DP-GEN2, repo: deepmodeling/dpgen2 }
+  - { name: MACE, repo: ACEsuit/mace }
+  - { name: NequIP, repo: mir-group/nequip }
+  - { name: Allegro, repo: mir-group/allegro }
+  - { name: fairchem (Meta FAIR), repo: facebookresearch/fairchem }
+  - { name: MatterSim (Microsoft), repo: microsoft/mattersim }
+  - { name: Orb models (Orbital Materials), repo: orbital-materials/orb-models }
+  - { name: SevenNet, repo: MDIL-SNU/SevenNet }
+  - { name: MatGL, repo: materialyzeai/matgl }
+  - { name: phonopy, repo: phonopy/phonopy }
+  - { name: phono3py, repo: phonopy/phono3py }
+  - { name: ALAMODE, repo: ttadano/alamode }
+  - { name: TDEP, repo: tdep-developers/tdep }
+  - { name: pymatgen, repo: materialsproject/pymatgen }
+  - { name: JAX, repo: jax-ml/jax }
+  - { name: JAX MD, repo: jax-md/jax-md }
+  - { name: NVIDIA cuEquivariance, repo: NVIDIA/cuEquivariance }
+  - { name: NVIDIA Warp, repo: NVIDIA/warp }
+  - { name: e3nn, repo: e3nn/e3nn }
+
+# GitHub "hot repos": repositories matching these searches that were pushed
+# in the lookback window, sorted by stars. Star growth is tracked day to day.
+hot_repos:
+  min_stars: 30
+  queries:
+    - "topic:interatomic-potentials"
+    - "topic:machine-learning-potentials"
+    - "topic:molecular-dynamics"
+    - "topic:phonons"
+    - "topic:density-functional-theory"
+    - "topic:materials-science agent"
+    - "topic:computational-materials-science"
+    - "thermal conductivity in:description"
+    - "heat transfer simulation in:description"
+    - "thermal simulation chip in:description"
+
+# ---------------------------------------------------------------- industry
+# Company / trade-press feeds. `filter: true` keeps only items matching the
+# industry or research themes; `filter: false` keeps everything.
+feeds:
+  - { name: NVIDIA Technical Blog, url: "https://developer.nvidia.com/blog/feed/", filter: true }
+  - { name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", filter: true }
+  - { name: Google Research, url: "https://research.google/blog/rss/", filter: true }
+  - { name: Microsoft Research, url: "https://www.microsoft.com/en-us/research/feed/", filter: true }
+  - { name: OpenAI, url: "https://openai.com/news/rss.xml", filter: true }
+  - { name: Semiconductor Engineering, url: "https://semiengineering.com/feed/", filter: true }
+  - { name: IEEE Spectrum – Semiconductors, url: "https://spectrum.ieee.org/feeds/topic/semiconductors.rss", filter: true }
+  - { name: Electronics Cooling, url: "https://www.electronics-cooling.com/feed/", filter: false }
+  - { name: Semiconductor Today, url: "https://www.semiconductor-today.com/rss/news.xml", filter: true }
+
+# ---------------------------------------------------------------- special issues
+# Journal "collections / calls for papers" pages that allow automated reading.
+# Publishers that block robots (Elsevier, AIP, ASME, APS, ACS, IOP, IEEE) are
+# covered by the weekly Claude web search (see CLAUDE_ROUTINE.md).
+# MDPI and Frontiers are excluded on purpose.
+special_issue_pages:
+  - { name: npj Computational Materials, url: "https://www.nature.com/npjcompumats/collections", link_contains: "/collections/" }
+  - { name: Nature Communications, url: "https://www.nature.com/ncomms/calls-for-papers", link_contains: "/collections/" }
+  - { name: Communications Materials, url: "https://www.nature.com/commsmat/collections", link_contains: "/collections/" }
+  - { name: Communications Engineering, url: "https://www.nature.com/commseng/collections", link_contains: "/collections/" }
+  - { name: Nature Electronics, url: "https://www.nature.com/natelectron/collections", link_contains: "/collections/" }
+  - { name: Scientific Reports, url: "https://www.nature.com/srep/collections", link_contains: "/collections/" }

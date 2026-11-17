@@ -1,0 +1,63 @@
+name: Daily radar
+
+on:
+  schedule:
+    - cron: "0 11 * * *"        # 11:00 UTC = 6–7 am US Eastern
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/llm_out/*.json"   # Claude routine output → merge + redeploy (no fetch)
+      - "config/**"
+      - "web/**"
+      - "radar/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Fetch and build (scheduled / manual)
+        if: github.event_name != 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}   # optional
+        run: |
+          python -m radar.run --ingest
+          python -m radar.run
+
+      - name: Merge Claude output and rebuild (push)
+        if: github.event_name == 'push'
+        run: python -m radar.run --ingest
+
+      - name: Commit data
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Radar data $(date -u +%F)"
+          git pull --rebase --autostash origin main || true
+          git push || true
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deploy
+        uses: actions/deploy-pages@v4

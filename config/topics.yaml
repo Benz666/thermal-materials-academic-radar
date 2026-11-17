@@ -1,0 +1,517 @@
+# Thermal Materials Academic Radar — topic taxonomy (Ben-Chi Ma)
+#
+# Scoring: each `core` term that appears scores 3, each `related` term 1.
+# An item joins a theme when that theme's score >= min_score; items that join
+# no theme are dropped (tool releases, hot repos and conference/call items use
+# their own rules). Matching is whole-word, case-insensitive, except short
+# terms with capitals (GaN, MACE, BTE, HEMT …), which are case-sensitive.
+# A trailing * means prefix match (interpretab* = interpretable/interpretability).
+#
+# This file is public. Only use information already public on the personal
+# site: no unpublished results, private project names or collaborator names.
+
+min_score: 3
+
+# Papers/preprints also need this total score (sum over themes) to be listed.
+min_paper_score: 5
+
+exclude:
+  - tumor*
+  - tumour*
+  - patient*
+  - clinical
+  - thermal ablation
+  - hyperthermia
+  - cosmolog*
+  - black hole*
+  - battery thermal runaway
+
+themes:
+  - id: phonon
+    name: Phonon & thermal transport
+    color: "#2B6EFF"
+    core:
+      - lattice thermal conductivity
+      - thermal conductivity
+      - thermal conductivities
+      - phonon transport
+      - thermal transport
+      - heat transport
+      - heat conduction
+      - phonon scattering
+      - phonon mean free path*
+      - phonon hydrodynamic*
+      - second sound
+      - nanoscale heat transfer
+      - thermal conductance
+      - thermal diffusivity
+      - thermal rectification
+      - thermal switch*
+      - thermoelectric*
+      - ultralow thermal conductivity
+      - ultrahigh thermal conductivity
+    related:
+      - phonon*
+      - anharmonic*
+      - heat transfer
+      - thermal propert*
+      - superlattice*
+      - alloy scattering
+      - isotope*
+      - amorphous
+      - glass*
+      - propagons
+      - diffusons
+
+  - id: bte
+    name: Boltzmann transport & non-Fourier heat
+    color: "#7B61FF"
+    core:
+      - Boltzmann transport equation
+      - phonon Boltzmann
+      - BTE
+      - non-Fourier
+      - ballistic phonon*
+      - ballistic heat
+      - ballistic thermal
+      - quasi-ballistic
+      - hydrodynamic heat
+      - discrete ordinate*
+      - phonon Monte Carlo
+      - Monte Carlo phonon
+      - mean free path spectroscopy
+      - time-domain thermoreflectance
+      - frequency-domain thermoreflectance
+      - TDTR
+      - FDTR
+      - transient thermal grating
+      - Guyer-Krumhansl
+      - Cattaneo
+      - Wigner transport equation
+    related:
+      - relaxation time approximation
+      - multiscale
+      - Fourier law
+      - Fourier's law
+      - size effect*
+      - mean free path*
+      - deterministic solver
+
+  - id: mlip
+    name: Machine-learned interatomic potentials
+    color: "#E0709A"
+    # theme counts only if one of these also appears (keeps out e.g. epidemic PINNs)
+    context: [interatomic, atomistic, molecular dynamics, force field*, DFT, density functional, first-principles, ab initio, phonon*, MLIP*, machine-learned potential*, machine learning potential*, neural network potential*, lattice dynamics]
+    core:
+      - machine learning interatomic potential*
+      - machine-learning interatomic potential*
+      - machine-learned interatomic potential*
+      - machine learned interatomic potential*
+      - machine learning potential*
+      - machine-learning potential*
+      - machine-learned potential*
+      - interatomic potential*
+      - neural network potential*
+      - neuroevolution potential*
+      - Deep Potential
+      - DeePMD
+      - DPA-2
+      - DPA-3
+      - MACE
+      - NequIP
+      - Allegro
+      - moment tensor potential*
+      - universal interatomic potential*
+      - universal machine learning potential*
+      - foundation potential*
+      - atomistic foundation model*
+      - foundation model* for materials
+      - CHGNet
+      - M3GNet
+      - SevenNet
+      - MatterSim
+      - eSEN
+      - equivariant neural network*
+      - equivariant graph neural network*
+      - concurrent learning
+      # interpretability & latent space
+      - interpretab*
+      - explainab*
+      - explainable AI
+      - latent space
+      - latent representation*
+      - learned representation*
+      - descriptor analysis
+      # data efficiency
+      - data efficien*
+      - data-efficien*
+      - sample efficien*
+      - learning curve*
+      - dataset pruning
+      - dataset distillation
+      - training set selection
+      - few-shot
+      # failure modes
+      - failure mode*
+      - out-of-distribution
+      - extrapolation
+      - softening
+      - systematic softening
+      - unstable molecular dynamics
+      - simulation instability
+      - uncertainty quantification
+    related:
+      - active learning
+      - fine-tun*
+      - transfer learning
+      - distillation
+      - graph neural network*
+      - molecular dynamics
+      - DFT accuracy
+      - force field*
+      - uncertainty
+      - transferab*
+      - benchmark*
+      - robustness
+      - generaliz*
+      - SHAP
+      - t-SNE
+      - UMAP
+      - embedding*
+
+  - id: device
+    name: Electronics thermal management & cooling
+    color: "#C2416B"
+    # theme counts only if one of these also appears (keeps out e.g. epidemic PINNs)
+    context: [semiconductor*, transistor*, chip*, electronic*, electronics, device*, packag*, GaN, SiC, HEMT, HEMTs, power module*, IC, ICs, processor*, data center*, server*, heat sink*, cooling, junction, die]
+    core:
+      # devices & heat generation
+      - self-heating
+      - junction temperature
+      - near-junction
+      - HEMT
+      - HEMTs
+      - high electron mobility transistor*
+      - power device*
+      - power electronics
+      - wide bandgap
+      - wide-bandgap
+      - ultrawide bandgap
+      - ultra-wide bandgap
+      # materials for heat spreading
+      - heat spreader*
+      - heat spreading
+      - diamond substrate
+      - GaN-on-diamond
+      - thermal interface material*
+      - TIM
+      - TIMs
+      - boron arsenide
+      - cubic boron nitride
+      - high thermal conductivity material*
+      # chips & packaging
+      - electronics cooling
+      - chip cooling
+      - thermal management
+      - 3D integration
+      - 3D IC
+      - 3D ICs
+      - chiplet*
+      - backside power
+      - hybrid bonding
+      - heterogeneous integration
+      - advanced packaging
+      - HBM
+      - data center cooling
+      # thermal simulation
+      - electrothermal simulation*
+      - electro-thermal simulation*
+      - electrothermal model*
+      - electro-thermal model*
+      - thermal simulation*
+      - thermal model*
+      - compact thermal model*
+      - thermal resistance network
+      - finite element thermal
+      - chip-level thermal
+      - package-level thermal
+      - thermal-aware
+      # cooling technology
+      - microchannel*
+      - manifold microchannel*
+      - embedded cooling
+      - microfluidic cooling
+      - two-phase cooling
+      - immersion cooling
+      - liquid cooling
+      - jet impingement
+      - spray cooling
+      - vapor chamber*
+      - heat pipe*
+      - flow boiling
+      - pool boiling
+      - cold plate*
+      - thermoelectric cooler*
+    related:
+      - GaN
+      - AlGaN
+      - AlN
+      - SiC
+      - Ga2O3
+      - Ga₂O₃
+      - diamond
+      - InGaAs
+      - III-V
+      - transistor*
+      - semiconductor*
+      - packaging
+      - substrate*
+      - Raman thermometry
+      - thermoreflectance
+      - infrared thermography
+      - reliability
+      - hotspot*
+      - hot spot*
+      - electrothermal
+      - electro-thermal
+      - COMSOL
+      - Ansys
+      - finite element
+      - heat flux
+      - cooling
+
+  - id: interface
+    name: Interfacial thermal transport & defects
+    color: "#4A6FA5"
+    # theme counts only if one of these also appears (keeps out e.g. epidemic PINNs)
+    context: [thermal, phonon*, heat, vibrational, conductance, Kapitza, thermal transport, heat transfer]
+    core:
+      - thermal boundary conductance
+      - thermal boundary resistance
+      - interfacial thermal conductance
+      - interfacial thermal resistance
+      - interface thermal conductance
+      - interface thermal resistance
+      - Kapitza resistance
+      - Kapitza conductance
+      - interfacial heat transfer
+      - interfacial phonon*
+      - interface phonon*
+      - interfacial mode*
+      - interface mode*
+      - phonon transmission
+      - acoustic mismatch
+      - diffuse mismatch
+      - inelastic phonon scattering
+      - interfacial electron-phonon
+      - solid-liquid interface*
+      - van der Waals interface*
+      - van der Waals heterostructure*
+      - self-assembled monolayer*
+      - interfacial bonding
+      - dislocation*
+      - grain boundar*
+      - tilt boundar*
+      - stacking fault*
+      - point defect*
+      - vibrational EELS
+      - vibrational electron energy loss
+      - phonon EELS
+      - SrTiO3
+      - SrTiO₃
+      - BaTiO3
+      - BaTiO₃
+      - perovskite oxide*
+      - domain wall*
+    related:
+      - interface*
+      - heterostructure*
+      - heterointerface*
+      - interlayer
+      - roughness
+      - bonding strength
+      - vacanc*
+      - strain
+      - EELS
+      - STEM
+      - oxide*
+      - nanocomposite*
+      - filler*
+      - polymer*
+      - 2D material*
+
+  - id: atomistic
+    name: First principles, lattice dynamics & thermal MD
+    color: "#9C6ADE"
+    # theme counts only if one of these also appears (keeps out e.g. epidemic PINNs)
+    context: [phonon*, lattice, DFT, density functional, first-principles, ab initio, molecular dynamics, atomistic, interatomic, crystal*, thermal conductivity, materials simulation, computational materials, materials]
+    core:
+      # lattice dynamics / first principles
+      - phonopy
+      - phono3py
+      - ShengBTE
+      - almaBTE
+      - ALAMODE
+      - kALDo
+      - TDEP
+      - temperature-dependent effective potential
+      - self-consistent phonon*
+      - four-phonon
+      - three-phonon
+      - phonon renormalization
+      - interatomic force constant*
+      - force constants
+      - phonon dispersion*
+      - lattice dynamics
+      - electron-phonon
+      - phonon-phonon
+      - Wigner formulation
+      # thermal MD
+      - Green-Kubo
+      - equilibrium molecular dynamics
+      - nonequilibrium molecular dynamics
+      - non-equilibrium molecular dynamics
+      - NEMD
+      - HNEMD
+      - spectral heat current
+      - spectral energy density
+      - GPUMD
+      - LAMMPS
+      # agents & workflows
+      - automated workflow*
+      - workflow automation
+      - auto-kappa
+      - AiiDA
+      - atomate2
+      - pyiron
+      - LLM agent*
+      - AI agent*
+      - autonomous agent*
+      - agentic
+      - multi-agent
+      - self-driving lab*
+      - autonomous laborator*
+    related:
+      - density functional theory
+      - first-principles
+      - first principles
+      - ab initio
+      - DFT
+      - VASP
+      - Quantum ESPRESSO
+      - harmonic
+      - phonon spectr*
+      - Grüneisen
+      - molecular dynamics
+      - high-throughput
+      - large language model*
+      - workflow*
+      - automation
+      - database*
+
+  - id: sciml
+    name: Scientific ML & HPC
+    color: "#7D8597"
+    # theme counts only if one of these also appears (keeps out e.g. epidemic PINNs)
+    context: [heat transfer, heat conduction, thermal conductivity, thermal transport, phonon*, atomistic, molecular dynamics, interatomic, Boltzmann, materials discovery, materials design]
+    core:
+      - physics-informed neural network*
+      - PINN
+      - PINNs
+      - neural operator*
+      - Fourier neural operator*
+      - DeepONet
+      - differentiable simulation*
+      - differentiable physics
+      - differentiable solver*
+      - differentiable programming
+      - JAX
+      - GPU-accelerated
+      - GPU accelerated
+      - surrogate model*
+      - AI for science
+      - materials discovery
+      - inverse design
+      - generative model* for materials
+    related:
+      - machine learning
+      - deep learning
+      - GPU*
+      - CUDA
+      - high-performance computing
+      - HPC
+      - automatic differentiation
+      - neural network*
+      - heat
+      - thermal
+
+# Industry page: a broad company / trade-press item is kept when it scores
+# >= min_score here or in any research theme.
+industry:
+  id: industry
+  name: Industry & tools
+  core:
+    - thermal management
+    - liquid cooling
+    - immersion cooling
+    - direct-to-chip
+    - data center cooling
+    - advanced packaging
+    - chiplet*
+    - CoWoS
+    - HBM
+    - backside power
+    - PowerVia
+    - hybrid bonding
+    - glass substrate*
+    - GaN
+    - SiC
+    - gallium nitride
+    - silicon carbide
+    - gallium oxide
+    - wide bandgap
+    - atomistic simulation*
+    - molecular dynamics
+    - interatomic potential*
+    - materials discovery
+    - materials science
+    - AI for science
+    - computational chemistry
+    - ALCHEMI
+    - digital twin*
+    - thermal simulation
+    - multiphysics
+  related:
+    - semiconductor*
+    - thermal
+    - cooling
+    - simulation*
+    - materials
+    - GPU*
+    - packaging
+    - transistor*
+    - agent*
+
+# Public project summaries used for the rule-based "Impact on me" line.
+# `keys` are matched against the item text; best-matching projects are named.
+projects:
+  - name: GaN/AlGaN HEMT multiscale thermal modeling (MLIP → BTE → device)
+    keys: [GaN, AlGaN, HEMT, HEMTs, self-heating, hotspot*, near-junction, electrothermal, electro-thermal, power device*, GaN-on-diamond, heat spreader*, junction temperature]
+  - name: InGaAs alloy κ with self-trained MLIPs (MLPhonon, Phonon Olympics)
+    keys: [InGaAs, III-V, alloy scattering, Deep Potential, DeePMD, MACE, concurrent learning, lattice dynamics]
+  - name: Boron arsenide κ, active learning and interface transport
+    keys: [boron arsenide, BAs, cubic boron nitride, ultrahigh thermal conductivity, four-phonon]
+  - name: Phonon band discretization for deterministic BTE (JAX-BTE)
+    keys: [BTE, Boltzmann transport equation, phonon Boltzmann, discrete ordinate*, non-Fourier, quasi-ballistic, ballistic phonon*, TDTR, FDTR, JAX, differentiable*]
+  - name: GaN/Al₂O₃ interfaces and dislocation-core phonons
+    keys: [dislocation*, interfacial thermal conductance, thermal boundary conductance, interface phonon*, interfacial phonon*, interfacial mode*, Al2O3, sapphire]
+  - name: BaTiO₃ dislocations — phonon direction asymmetry (BTE vs EELS)
+    keys: [BaTiO3, BaTiO₃, ferroelectric*, domain wall*, vibrational EELS, phonon EELS]
+  - name: SrTiO₃ tilt grain boundaries
+    keys: [SrTiO3, SrTiO₃, grain boundar*, tilt boundar*, perovskite oxide*]
+  - name: MLIP reliability (interpretability, data efficiency, failure modes)
+    keys: [interpretab*, explainab*, latent space, data efficien*, data-efficien*, failure mode*, out-of-distribution, softening, uncertainty quantification, universal interatomic potential*, foundation potential*, active learning]
+  - name: Automated κ workflows and agents (auto-kappa style)
+    keys: [auto-kappa, high-throughput, automated workflow*, LLM agent*, AI agent*, agentic, AiiDA, atomate2, phono3py, ALAMODE]
+  - name: GPU/HPC solvers and scientific ML
+    keys: [GPU-accelerated, GPU accelerated, CUDA, physics-informed neural network*, PINN, neural operator*, surrogate model*]
