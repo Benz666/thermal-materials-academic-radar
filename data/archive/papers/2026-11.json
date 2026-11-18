@@ -1,5 +1,165 @@
 [
  {
+  "abstract": "VQkit is a Python-based computational toolkit developed to streamline the pre- and post-processing of density functional theory calculations performed using Vienna Ab initio Simulation Package (VASP) and Quantum ESPRESSO (QE). The framework employs a unified representation of lattice vectors, atomic coordinates, chemical species, and positional constraints, enabling cross-code structure conversion, geometry manipulation, crystallographic reconstruction, and code-specific input generation. Its pre-processing capabilities include symmetry-dependent reciprocal-space path generation, atomic constraints, and automated preparation of simulation inputs. The post-processing framework provides calculation convergence inspection, extraction of total energies and Fermi levels, electronic band-structure and density-of-states analysis, orbital-resolved electronic-structure processing, charge-density analysis, and evaluation of application-specific materials properties. The computational implementation is evaluated through elastic-property benchmarks for HfC, ZrC, ZrO2, Ti, and diamond, showing close agreement between VQkit and VASPKIT for VASP-based calculations, with differences observed in the corresponding QE results. By integrating cross-code interoperability, automated simulation preparation, standardized post-processing, and quantitative property evaluation within a common computational environment, VQkit reduces workflow fragmentation and facilitates consistent pre- and post-processing of first-principles calculations.",
+  "authors": [
+   "Rajkamal Anand",
+   "Seunghwan Kwon",
+   "Gun Jin Yun"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "708d9a50517e5382",
+  "kind": "preprint",
+  "matched": [
+   "benchmark",
+   "diamond",
+   "first-principles",
+   "VASP",
+   "workflow",
+   "simulation",
+   "materials"
+  ],
+  "published": "2026-11-17",
+  "score": 5,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Unified structure representation; benchmarked on elastic properties of HfC, ZrC, ZrO2, Ti and diamond, agreeing closely with VASPKIT for VASP, with differences in the QE results.",
+   "impact": "Possibly useful: you use VASP, so it could streamline structure and input handling for the lattice-dynamics and MLIP training-data pipelines. Not a phonon-specific tool; it is worth a quick look rather than an adoption decision.",
+   "what": "Presents VQkit, a Python toolkit for pre- and post-processing DFT calculations in VASP and Quantum ESPRESSO, with cross-code structure conversion and input generation.",
+   "why": "Fragmented pre- and post-processing across DFT codes makes workflows inconsistent."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "VQkit: A Unified and Extensible Framework for VASP and Quantum ESPRESSO Pre- and Post-Processing",
+  "url": "https://arxiv.org/abs/2611.22664v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Tensor-product (TP) layers in equivariant interatomic potentials encode angular interactions through symmetry-allowed paths. Yet local site symmetry can make an allowed path carry no signal after neighbor aggregation. We call this effect Aggregation Cancellation. In a scalar-input first layer, equal-species neighbors on a complete site-symmetry orbit share scalar and radial factors, reducing their angular contribution to a spherical-harmonic orbit sum. If the restricted degree-l representation has no trivial component, this sum and the corresponding path vanish for any learned radial weight. For an ideal Oₕ octahedral orbit, this removes the lₑdge=1,2,3 classes. Beyond the first layer, the factorisation no longer holds, so cancellation is no longer guaranteed; we instead ask whether affected paths remain less important on average. We test the two levels separately in NequIP: matched-radius TiO₆ probes examine first-layer cancellation, whereas a within-model CaTiO₃ comparison and six OMat24 models examine the importance bias. We then rank paths on training frames, choose the pruning fraction on validation frames, and evaluate frozen masks on held-out tests. At the highest evaluated fraction (60% of 174 paths), force mean absolute error (MAE) changes are 1.42%, 0.04%, and 1.83% for CaTiO₃, OMat24 Oₕ-cubic, and OMat24 low-symmetry data, respectively. The masks imply 67.12-71.94% potential TP-operation reduction and 59.77% potential edge multilayer perceptron (MLP) reduction; these are structural proxies, not measured speedups. The results connect local symmetry to path redundancy and pruning robustness in NequIP; transfer to other architectures remains open.",
+  "authors": [
+   "Jiawei Wang",
+   "Sai Gu",
+   "Laurence T. Yang",
+   "Junfu Tan",
+   "Yemin Yu",
+   "Ziheng Lu"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "ffb8f81dbf6c3226",
+  "kind": "preprint",
+  "matched": [
+   "NequIP",
+   "robustness",
+   "harmonic"
+  ],
+  "published": "2026-11-15",
+  "score": 5,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Probes on TiO₆, CaTiO₃ and six OMat24 models; pruning 60% of 174 paths changed force MAE by 1.42%, 0.04% and 1.83% on CaTiO₃, OMat24 Oₕ-cubic and low-symmetry data. Speedups are structural proxies only, not measured.",
+   "impact": "Relevant to the MLIP interpretability and efficiency interest: the symmetry-based analysis of equivariant models (MACE-like) could inform path pruning for faster MLIPs in the perovskite oxide (BaTiO₃, SrTiO₃) work. Transfer to other architectures is stated as open.",
+   "what": "Group-theoretic analysis of why some tensor-product paths in equivariant MLIPs such as NequIP carry no signal (Aggregation Cancellation), plus path pruning tests.",
+   "why": "Local site symmetry can make symmetry-allowed paths vanish after neighbor aggregation, which suggests redundancy in equivariant models."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "When Do Tensor Product Paths Matter? A Group-Theoretic Analysis of Equivariant Interatomic Potentials",
+  "url": "https://arxiv.org/abs/2611.21683v1",
+  "venue": "arXiv · physics.chem-ph",
+  "watched": []
+ },
+ {
+  "abstract": "",
+  "authors": [
+   "G. Gatti",
+   "C. Berthod",
+   "J. Issing",
+   "M. Straub",
+   "S. Mandloi",
+   "Y. Alexanian",
+   "J. Avila",
+   "P. Dudin",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1103/vs77-7gvl",
+  "first_seen": "2026-11-18",
+  "id": "c9ed0c91d6b012f1",
+  "kind": "paper",
+  "matched": [
+   "phonon",
+   "interface",
+   "electron-phonon"
+  ],
+  "published": "2026-11-18",
+  "score": 5,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract.",
+   "impact": "Low relevance based on the title alone: electron-phonon coupling at a vdW interface is only loosely related to interfacial phonon thermal transport in the current projects.",
+   "what": "A Physical Review X paper on electron-phonon coupling across the TMD/hBN van der Waals interface. Not stated in the abstract (no abstract provided).",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Electron-phonon coupling across the TMD/hBN van der Waals interface",
+  "url": "https://doi.org/10.1103/vs77-7gvl",
+  "venue": "Physical Review X",
+  "watched": []
+ },
+ {
+  "abstract": "In this study, tungsten-coated chemical vapor deposition (CVD) diamond was fabricated by using both combined magnetron sputtering and ion implantation (CMSII) and pulsed laser deposition (PLD) methods. In comparison to CMSII-deposited tungsten coating, the PLD-deposited tungsten coating shows better interfacial adhesion on diamond substrates and higher fracture resistance, indicating PLD is better suited for producing uniform tungsten coatings on diamond substrates. The interfacial microstructure between PLD-deposited tungsten coating and diamond substrate was investigated. In the meantime, both transient grating spectroscopy (TGS) and nanosecond time-domain thermo reflectance (ns-TDTR) were employed to investigate the thermal properties of W-coated diamond. The experimental results show that PLD enables the deposition of a microscale polycrystalline tungsten layer on CVD diamond without interfacial cracking, with thermal diffusivity comparable to that of rolled tungsten reported in the literature. This study introduces a novel tungsten-coated diamond composite design with promising potential as a plasma-facing material for fusion reactors.",
+  "authors": [
+   "Shiying Qin",
+   "A. Khan",
+   "N. Scarisoreanu",
+   "Elena Isabela Bancu",
+   "E. Grigore",
+   "Shaokai Tang",
+   "Abdallah Reza",
+   "Martin Kuball",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1016/j.fusengdes.2026.116134",
+  "first_seen": "2026-11-18",
+  "id": "031816f3b50417ae",
+  "kind": "paper",
+  "matched": [
+   "TDTR",
+   "thermal"
+  ],
+  "published": "2026-11-09",
+  "score": 5,
+  "source": "Watched authors",
+  "summary": {
+   "by": "claude",
+   "how": "PLD gave a crack-free microscale polycrystalline W layer on diamond with thermal diffusivity comparable to rolled tungsten.",
+   "impact": "Low relevance: a fusion-materials experiment. The diamond interface and TDTR measurement overlap only slightly with interfacial thermal transport interests. Flagged because the author Martin Kuball is on the watch list.",
+   "what": "Fabricated tungsten-coated CVD diamond by CMSII and PLD, and measured thermal properties with transient grating spectroscopy and ns-TDTR.",
+   "why": "Aims at a plasma-facing material for fusion reactors; PLD gave better adhesion and fracture resistance than CMSII."
+  },
+  "themes": [
+   "bte"
+  ],
+  "title": "A novel tungsten-coated diamond composite design for nuclear fusion applications",
+  "url": "https://doi.org/10.1016/j.fusengdes.2026.116134",
+  "venue": "Fusion Engineering and Design",
+  "watched": [
+   "Martin Kuball"
+  ]
+ },
+ {
   "abstract": "ABSTRACT The traditional lone‐pair electron strategy primarily reduces lattice thermal conductivity ( κ L ) by enhancing anharmonic lattice vibrations. However, this mechanism has long been considered to exist only in specific cations with ns 2 electron configurations (e.g. Sb 3+ , Bi 3+ ), severely restricting the broader applicability of this lone‐pair‐based approach. In this study, CuInSnSe 4 is successfully synthesized via atomic cross‐substitution from the diamondoid CuInSe 2 , wherein the Se atoms exhibit an anionic lone‐pair‐like electronic behavior, revealing a new approach to reducing κ L that differs from conventional cation‐based mechanisms. In contrast to the traditional mechanism that relies on cations to enhance lattice anharmonicity, the anionic lone‐pair electrons weaken the Se‐Se interactions, flatten the optical phonon branches, and consequently significantly expand the scattering phase space, providing more scattering channels for phonons. This anionic lone‐pair electron strategy reduces the room‐temperature κ L from 4.48 to 1.26 W m −1 K −1 . Ultimately, the predicted optimal thermoelectric figure of merit ( ZT ) for p‐type and n‐type CuInSnSe 4 attains values of 1.99 and 0.79, respectively. This work systematically expands the conventional application boundaries of the lone‐pair electron strategy and elucidates a fundamentally distinct mechanism for κ L reduction, providing a new theoretical basis for designing and developing novel high‐efficiency thermoelectric materials with intrinsically low κ L .",
   "authors": [
    "Zongxuan Lin",
@@ -43,6 +203,87 @@
   "watched": []
  },
  {
+  "abstract": "Thermal and structural characterizations of hybrid bonding structures are essential for understanding heat transport in three-dimensional integrated circuits (3D-ICs). In this work, we investigate the effective thermal conductivity of the Cu/dielectric HB layer using time-domain thermoreflectance (TDTR) combined with picosecond ultrasonic technique. Shallow-angle polishing enabled depth-resolved thermal measurements by exposing hybrid bonding layers with different remaining thicknesses, while acoustic echoes were used to identify buried interfaces and determine the thickness. The distinct waveform of the bonding interface echo compared with the Cu/dielectric interface echo suggests that its acoustic response may also reflect the interfacial bonding conditions. The extracted thermal conductivity ranges from 1.14 to 1.75 Wm-1K-1 for the bottom pad layer and from 1.76 to 4.34 Wm-1K-1 for the top pad layer. The difference in thermal conductivity is consistent with the different Cu area fractions of the two layers. Furthermore, the thermal conductivity of the top pad layer increases significantly with the remaining thickness, possibly due to the thermal boundary resistance at the bonding interface, low thermal conductivity of SiCN interlayer, and increased electron scattering in thin Cu structures. Our work demonstrates a practical approach to investigate the thermal properties of buried hybrid bonding layers, providing experimental data for thermal design and modeling of 3D-ICs.",
+  "authors": [
+   "Zirou Chen",
+   "Xinyan Xu",
+   "Zifeng Huang",
+   "Xufei Guo",
+   "Zhe Cheng"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "da9ff5b81dd5e2cc",
+  "kind": "preprint",
+  "matched": [
+   "TDTR",
+   "thermoreflectance",
+   "interface",
+   "interlayer",
+   "thermal"
+  ],
+  "published": "2026-11-17",
+  "score": 6,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Depth-resolved TDTR plus acoustic echoes to locate buried interfaces and thickness. Thermal conductivity is 1.14–1.75 W m-1K-1 for the bottom pad layer and 1.76–4.34 W m-1K-1 for the top pad layer; it depends on Cu area fraction and increases with remaining thickness.",
+   "impact": "Moderate relevance to electronics thermal-management industry trends: it provides experimental effective-κ and boundary-resistance data for 3D-IC packaging that device-scale thermal simulations (e.g., JAX-BTE, interface models) could use as input or benchmarks.",
+   "what": "Measured the effective thermal conductivity of Cu/dielectric hybrid bonding layers in 3D-ICs with TDTR combined with picosecond ultrasonics and shallow-angle polishing.",
+   "why": "Heat transport in hybrid bonding structures must be understood for thermal design of 3D-ICs."
+  },
+  "themes": [
+   "bte"
+  ],
+  "title": "Thermal and Acoustic Measurements of Hybrid Bonding Stacks",
+  "url": "https://arxiv.org/abs/2611.22694v1",
+  "venue": "arXiv · physics.app-ph",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract The inherent coupling between electrical and thermal transport parameters poses a fundamental challenge in advancing thermoelectric materials. In this work, we demonstrate a synergistic strategy combining medium-entropy engineering with rare-earth element cerium (Ce) doping to substantially enhance the thermoelectric performance of SnTe-based alloys. By strategically incorporating Sb, Pb, Ge, and Mn into the SnTe matrix, we elevate the configurational entropy into the medium-entropy range, which simultaneously promotes valence band convergence and induces strengthened lattice strain. Additional dopant Ce plays a dual role, acting as an effective donor to optimize the excessively high hole carrier concentration, while simultaneously inducing multiple nanoprecipitates that intensify phonon scattering. As a result, a high peak ZTmax ∼ 1.3 at 723 K and an impressive average ZTavg ∼ 0.92 between 323 and 823 K are concurrently attained in the sample Sb2Sn5Pb2GeMnTe12-4%Ce. This study not only establishes a paradigm for medium-entropy design in thermoelectric materials, but also provides valuable insights into the functional role of the rare-earth element in SnTe-based materials systems.",
+  "authors": [
+   "Wenqi Zheng",
+   "Mengqi Li",
+   "Hu Zhang",
+   "Mingrui Zhang",
+   "Zhanhui Peng",
+   "Lingling Wei",
+   "Zupei Yang",
+   "Di Wu"
+  ],
+  "cat": "papers",
+  "doi": "10.1021/acsami.6c21243",
+  "first_seen": "2026-11-18",
+  "id": "a4b404eefce7b0c2",
+  "kind": "paper",
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "strain",
+   "thermal",
+   "materials"
+  ],
+  "published": "2026-11-18",
+  "score": 6,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Experimental alloying: medium-entropy design converges valence bands and adds lattice strain, and Ce acts as a donor and forms nanoprecipitates that scatter phonons.",
+   "impact": "Low relevance: an experimental thermoelectric alloy study with no overlap with the listed projects beyond general phonon scattering.",
+   "what": "Combines medium-entropy alloying (Sb, Pb, Ge, Mn) with Ce doping in SnTe to reach a peak ZT of ~1.3 at 723 K and an average ZT of ~0.92 (323–823 K).",
+   "why": "Electrical and thermal transport parameters are coupled, which limits thermoelectric performance."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "The Significance of Rare-Earth Cerium Doping in SnTe-Based Medium-Entropy Thermoelectric Alloys",
+  "url": "https://doi.org/10.1021/acsami.6c21243",
+  "venue": "ACS Applied Materials & Interfaces",
+  "watched": []
+ },
+ {
   "abstract": "ABSTRACT This investigation explores the structural, elastic, electronic, optical, thermal, and thermodynamic properties of silicide compounds (XAl 2 Si 2 , X = Y, La) using density functional theory (DFT). The structural stability and mechanical characteristics were evaluated through elastic constants, micro‐ and macro‐hardness, Cauchy pressure, Pugh's ratio, and Poisson's ratio. The calculated elastic parameters confirm the mechanical stability of both compounds, while the obtained Pugh's ratio, Poisson's ratio, and Cauchy pressure values indicate their ductile nature. Bond population analysis reveals the coexistence of ionic and covalent bonding characteristics. The electronic properties were investigated through band structures and density of states calculations, including spin–orbit coupling (SOC) effects to explore possible topological features. Furthermore, phonon dispersion and thermodynamic analyses were performed to evaluate dynamic and thermal stability. The combination of favorable electrical properties and moderate lattice thermal conductivity suggests potential applications in thermoelectric and high‐temperature environments. Optical investigations reveal that both compounds exhibit reflectance above 75% in the visible region, indicating their capability for reducing solar heat absorption. Additionally, their high refractive index at low photon energies and strong ultraviolet (UV) absorption behavior makes them promising candidates for optoelectronic and UV‐protection applications.",
   "authors": [
    "Tanvir Khan",
@@ -80,6 +321,129 @@
   "title": "DFT‐Based Investigation of the Mechanical, Optoelectronic, Bonding, Thermophysical, and Thermodynamic Properties of XAl 2 Si 2 (X = Y, La) Silicides for Potential Applications",
   "url": "https://doi.org/10.1002/apxr.70213",
   "venue": "Advanced Physics Research",
+  "watched": []
+ },
+ {
+  "abstract": "Accurate first-principles characterization of excitons typically relies on the Bethe-Salpeter equation (BSE) combined with quasiparticle energies from computationally demanding GW calculations. Here, we replace the GW step with quasiparticle energies from Koopmans-compliant spectral functionals, an approach we call BSE@qKI, and implement it in an automated, reproducible AiiDA workflow. For a set of benchmark semiconductors, BSE@qKI reproduces experimental band gaps and first exciton energies with mean absolute relative errors of 13% and 4%, respectively, comparable to BSE@G0W0 for the gaps and markedly better for the excitation energies. We also apply the method to the layered magnetic semiconductor CrI3, obtaining an absorption spectrum that reproduces the main experimental features. These results establish BSE@qKI as a GW-free alternative to BSE@G0W0 for systematic studies of excitonic properties in complex materials.",
+  "authors": [
+   "Miki Bonacci",
+   "Edward Linscott",
+   "Julian Geiger",
+   "Nicola Marzari",
+   "Nicola Colonna"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "bb0aa89da8a1143e",
+  "kind": "preprint",
+  "matched": [
+   "benchmark",
+   "semiconductor",
+   "AiiDA",
+   "first-principles",
+   "workflow",
+   "materials"
+  ],
+  "published": "2026-11-17",
+  "score": 7,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "AiiDA workflow benchmarked on semiconductors; mean absolute relative errors are 13% for band gaps and 4% for first exciton energies. Also applied to CrI3.",
+   "impact": "Low relevance: it concerns excitons and optical spectra, not phonon transport. Only the automated, reproducible workflow design is loosely transferable to lattice-dynamics workflows.",
+   "what": "Proposes BSE@qKI, which replaces GW quasiparticle energies with Koopmans-compliant spectral functionals in the Bethe-Salpeter equation, implemented as an automated AiiDA workflow.",
+   "why": "GW calculations for first-principles exciton characterization are computationally demanding."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Koopmans spectral functionals for excitons in materials",
+  "url": "https://arxiv.org/abs/2611.22524v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract Cu2ABX4-based chalcogenides, characterized by the inherently restricted lattice thermal transport associated with low structural symmetry and complexity, have emerged as promising candidates for advanced thermoelectric (TE) applications. Herein, tetragonal Cu2CdSiTe4 is systematically investigated through an integrated methodology comprising first-principles calculations, machine-learning interatomic potentials, and Boltzmann transport theory coupled with a two-channel model. Cu2CdSiTe4 exhibits distinct structural merits, including distorted tetrahedral coordination, a spatially separated conductive Cu2Te4 unit and an insulating CdSiTe4 framework, as well as strong acoustic–optical coupling. These features synergistically induce intense phonon scattering, flattened phonon dispersions, and pronounced lattice anharmonicity, resulting in a reduced lattice thermal conductivity (κl) of 0.76 W m–1 K–1 at 700 K. Electronic structure calculations further reveal an indirect bandgap of 0.85 eV and multi-valley band characteristics, which facilitate enhanced carrier transport and electrical conductivity (σ). Under the phonon two-channel model, p-type Cu2CdSiTe4 achieves a maximum dimensionless figure-of-merit (ZT) of 1.75 at 700 K, demonstrating promising prospects for TE applications.",
+  "authors": [
+   "Guowei Wang",
+   "Shulin Bai",
+   "Da Wan",
+   "Pengfei Zhang",
+   "Peng Ai",
+   "Shiyan Pei",
+   "Yilong Xiao",
+   "Yujie Bao",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1021/acsaem.6c02699",
+  "first_seen": "2026-11-18",
+  "id": "384ad5c3d876cfa1",
+  "kind": "paper",
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "anharmonic",
+   "first-principles",
+   "thermal"
+  ],
+  "published": "2026-11-17",
+  "score": 7,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "DFT, MLIPs, Boltzmann transport theory and a phonon two-channel model; strong acoustic–optical coupling and anharmonicity give flattened dispersions and strong scattering.",
+   "impact": "Low-to-moderate relevance: the MLIP + BTE + two-channel workflow resembles the MLPhonon pipeline and could inform handling of strongly anharmonic, low-κ materials, but the material is not among the current projects.",
+   "what": "Studies tetragonal Cu2CdSiTe4 thermoelectrics using first-principles calculations, MLIPs and Boltzmann transport with a two-channel (phonon + diffuson) model; reports κl of 0.76 W m–1 K–1 at 700 K and ZT of 1.75 at 700 K.",
+   "why": "Cu2ABX4 chalcogenides have inherently low lattice thermal conductivity, which makes them promising for thermoelectrics."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Diffuson-Assisted Hierarchy of Thermal Transport in Anharmonic Cu2CdSiTe4 Thermoelectrics",
+  "url": "https://doi.org/10.1021/acsaem.6c02699",
+  "venue": "ACS Applied Energy Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract Machine-learning interatomic potentials (MLIPs) have become powerful tools for material simulations. Many MLIPs are trained based on density functional theory (DFT) datasets generated with the Perdew−Burke−Ernzerhof (PBE) exchange−correlation functional. Using a PBE-based MLIP for HfO2, we identify a low-energy I41/amd structure, which is predicted to be more stable than the well-known ground-state structure, the monoclinic P21/c structure. Since experiments show clearly that HfO2 takes the P21/c structure as the ground state, this is obviously a wrong prediction. Unfortunately, the same prediction is also made by widely used PBE-based foundation models, such as NequIP-OAM-L and MatterSim-v1-5M. Comparisons among different DFT functionals in this work show that PBE exhibits stabilization of low-density structures containing sixfold Hf−O octahedral units, such as the I41/amd and Pbcn phases, leading to incorrect energetic ordering. The error also affects the calculated energy landscapes and barrier heights along ferroelectric HfO2 polarization switching paths when there are large lattice relaxations. Fortunately, the error can be largely suppressed by other functionals such as PBEsol and local density approximation. Our study serves as a warning about the impact of errors in exchange−correlation functional approximations on the reliability of MLIP simulations of crystal structures and phase transitions.",
+  "authors": [
+   "Shuqi Tang",
+   "Jinchen Wei",
+   "Kang Wang",
+   "Junjie Zhou",
+   "Yihan Zhang",
+   "Menglin Huang",
+   "Shiyou Chen"
+  ],
+  "cat": "papers",
+  "doi": "10.1021/acs.chemmater.6c01853",
+  "first_seen": "2026-11-18",
+  "id": "3bbab0330715b5f8",
+  "kind": "paper",
+  "matched": [
+   "NequIP",
+   "MatterSim",
+   "DFT",
+   "simulation"
+  ],
+  "published": "2026-11-17",
+  "score": 7,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Compared DFT functionals: PBE over-stabilizes low-density sixfold Hf–O octahedral phases, while PBEsol and LDA largely remove the error. The error also affects ferroelectric switching barriers.",
+   "impact": "Useful for the MLIP failure-modes interest: a caution for MACE and Deep Potential models trained on PBE data in the InGaAs, BAs, GaN and BaTiO₃/SrTiO₃ (oxide) projects. Check the functional choice, especially for oxides and lattice-relaxation-sensitive properties.",
+   "what": "Shows that PBE-based MLIPs, including NequIP-OAM-L and MatterSim-v1-5M foundation models, wrongly predict an I41/amd structure of HfO2 as more stable than the experimental P21/c ground state.",
+   "why": "MLIPs trained on PBE data inherit functional errors, which affect the reliability of structure and phase-transition simulations."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "A Wrong Ground-State Structure of HfO2 Predicted by Machine-Learning Interatomic Potentials Based on the Perdew−Burke−Ernzerhof Functional",
+  "url": "https://doi.org/10.1021/acs.chemmater.6c01853",
+  "venue": "Chemistry of Materials",
   "watched": []
  },
  {
@@ -127,6 +491,51 @@
   "watched": []
  },
  {
+  "abstract": "Gallium nitride (GaN)-based high-electron-mobility transistors (HEMTs), which employ GaN as the active material, are expected to exhibit high breakdown voltages and high electron saturation velocities. Extensive research and development efforts are currently being conducted to further enhance their performance. One of the major challenges for GaN HEMTs lies in maintaining stable operation under high-temperature conditions. Therefore, further investigation into HEMT structures capable of withstanding higher breakdown voltages and offering improved thermal stability is required. To address this issue, we have focused on an N-polar GaN/AlGaN/AlN HEMT, which utilizes AlN—a material with approximately twice the bandgap energy of GaN and superior thermal conductivity—as a buffer layer. This structure is expected to provide a higher breakdown voltage and improved high-temperature performance than the conventional Ga-polar AlGaN/GaN HEMT. In this study, we evaluated the temperature-dependent characteristics of N-polar GaN/AlGaN/AlN HEMTs over a temperature range from room temperature to 800 °C in order to investigate the high-temperature operation. As a result, the N-polar GaN/AlGaN/AlN HEMT exhibited stable DC characteristics up to 600 °C, demonstrating superior high-temperature operation compared with the conventional AlGaN/GaN HEMT.",
+  "authors": [
+   "F. Yamanaka",
+   "A. H. Zazuli",
+   "T. Kimoto",
+   "R. Ninoki",
+   "A. Hayashiuchi",
+   "H. Danbata",
+   "N. Hirata",
+   "S. Kurai",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1063/5.0327502",
+  "first_seen": "2026-11-18",
+  "id": "742f670783484f97",
+  "kind": "paper",
+  "matched": [
+   "HEMT",
+   "HEMTs",
+   "GaN",
+   "AlGaN",
+   "AlN",
+   "transistor",
+   "thermal"
+  ],
+  "published": "2026-11-18",
+  "score": 10,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Experimental device characterization; the N-polar structure showed stable DC characteristics up to 600 °C, better than the conventional AlGaN/GaN HEMT.",
+   "impact": "Moderate relevance to the GaN/AlGaN HEMT multiscale thermal modeling project: it gives an experimental device structure (AlN buffer) and high-temperature data that could motivate or benchmark self-heating simulations. No thermal-transport modeling is stated in the abstract.",
+   "what": "Measured temperature-dependent DC characteristics of N-polar GaN/AlGaN/AlN HEMTs from room temperature to 800 °C.",
+   "why": "GaN HEMTs need stable operation at high temperature and higher breakdown voltage; AlN has about twice the GaN bandgap and better thermal conductivity as a buffer."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "High-temperature operation of N-polar GaN/AlN HEMTs",
+  "url": "https://doi.org/10.1063/5.0327502",
+  "venue": "Applied Physics Letters",
+  "watched": []
+ },
+ {
   "abstract": "Abstract Heterogeneous integration of Gallium Nitride (GaN) high-electron-mobility transistors (HEMTs) via micro-transfer printing (μTP) offers a scalable route to address critical thermal management and integration challenges for high-power and high-frequency applications. However, traditional polymer adhesives used in the printing process create a thermal bottleneck due to their low thermal conductivity. This work introduces a room-temperature, heatless soldering mechanism at the device level utilizing undercooled liquid metallic core–shell (ULMCS) particles. Synthesized via the shearing liquids into complex particles (SLICE) method, these Field’s metal (Bi/In/Sn) particles are encapsulated in a self-limiting 10 nm oxide shell, maintaining a metastable liquid state until mechanical rupture triggers spontaneous solidification. To test this, GaN/AlGaN coupons were released from Qromis Substrate Technology wafers and printed onto silicon substrates using ULCMS particles. Printing parameters, including shear speed and shear distance, were optimized to ensure consistent adhesion. While initial μTP using compliant polydimethylsiloxane (PDMS) stamps achieved high transfer yields, cross-sectional analysis revealed incomplete coalescence due to insufficient pressure applied by the stamp. To resolve this, a dual-stage integration framework was developed, incorporating a secondary rigid glass stamping step. This process successfully created a dense, metallic adhesion layer, providing a robust and cost-effective pathway for the integration of GaN devices for thermal management applications.",
   "authors": [
    "Owen R. Meilander",
@@ -166,6 +575,53 @@
   "title": "Undercooled Liquid Metallic Core–Shell Particles Enabling Heatless Metal–Semiconductor Bonding for Micro-Transfer Printed GaN",
   "url": "https://doi.org/10.1021/acsaelm.6c02009",
   "venue": "ACS Applied Electronic Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Cu–diamond composites are recognized as promising high-thermal-conductivity candidates for electronic cooling, offering tunable properties and competitive cost. However, their performance is significantly limited by the poor Cu/diamond interfacial thermal conductance (ITC). Here, we propose a nitrogen-termination strategy to tune the ITC of Cu/diamond interfaces and unravel atomistic mechanisms by which nitride interlayers tailor phonon transport. Based on the MACE machine-learning interatomic potential (MLIP) framework, we fine-tune the pre-trained MACE-MPA-0 foundation model by incorporating customized C–N–Cu training datasets. Incorporating non-equilibrium molecular dynamics with MLIP-driven lattice dynamics simulations, we demonstrate that anharmonic effects contribute ∼60% to the ITC, and simply introducing N-termination on the diamond surface enhances the ITC by 10% compared to the bare Cu/diamond interface. However, the enhancement of harmonic phonon transmission contributes ∼80% of the ITC improvement. Mode-resolved phonon spectroscopy reveals that the LA phonons with frequencies above 4 THz and wavevectors near the Γ–X and Γ–U directions are selectively modulated by N-termination engineering. Analyses of local vibrational states and interfacial bonding further indicate that the N-termination on diamond tunes the interfacial heat conduction via surficial mass modification and chemical bonding regulation, as evidenced by variations in LDOS overlaps and COHP spectra. These findings open venues for tuning heat transfer across Cu/diamond interfaces via non-metallic modification—which avoids the graphitization issues associated with metallic coatings—and provide novel guidelines for upgrading the phonon-mediated heat transfer in Cu–diamond composites.",
+  "authors": [
+   "Guang Yang",
+   "Xinling Tang",
+   "Zhongkang Lin",
+   "Yulin Gu",
+   "Wei Hao",
+   "Yujie Du",
+   "Xiaoguang Wei"
+  ],
+  "cat": "papers",
+  "doi": "10.1063/5.0351200",
+  "first_seen": "2026-11-18",
+  "id": "bbd43a61a7714ddb",
+  "kind": "paper",
+  "matched": [
+   "phonon",
+   "anharmonic",
+   "MACE",
+   "fine-tun",
+   "diamond",
+   "cooling",
+   "interface",
+   "harmonic",
+   "heat",
+   "thermal",
+   "simulation"
+  ],
+  "published": "2026-11-18",
+  "score": 12,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "MACE fine-tuning, NEMD plus lattice dynamics, mode-resolved phonon spectroscopy, LDOS overlap and COHP analysis. Anharmonic effects contribute ~60% of ITC; N-termination raises ITC by 10%, and ~80% of that gain comes from harmonic transmission.",
+   "impact": "Highly relevant to the GaN/Al₂O₃ interface and BAs interface work and to the MLPhonon workflow: it is a template for fine-tuning MACE and combining NEMD with lattice-dynamics ITC decomposition (harmonic vs anharmonic, mode-resolved).",
+   "what": "Fine-tuned the MACE-MPA-0 foundation model with custom C–N–Cu data and combined non-equilibrium MD with MLIP-driven lattice dynamics to study how N-termination changes Cu/diamond interfacial thermal conductance (ITC).",
+   "why": "Poor Cu/diamond ITC limits Cu–diamond composites for electronic cooling, and metallic coatings cause graphitization."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Tuning Cu/diamond interfacial thermal conductance via nitrogen-termination engineering",
+  "url": "https://doi.org/10.1063/5.0351200",
+  "venue": "The Journal of Chemical Physics",
   "watched": []
  },
  {

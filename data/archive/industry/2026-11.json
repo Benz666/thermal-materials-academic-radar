@@ -31,6 +31,40 @@
   "watched": []
  },
  {
+  "abstract": "An interoperable Python framework for biomolecular simulation. Topics: biomolecular-simulation, computational-biology, computational-chemistry, computational-physics, drug-discovery, free-energy-calculations, interoperability, molecular-dynamics, molecular-simulation, reproducibility, reproducible-research.",
+  "authors": [
+   "OpenBioSim"
+  ],
+  "cat": "industry",
+  "created": "2023-01-26",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "d9a364db626c8810",
+  "kind": "repo",
+  "matched": [
+   "simulation"
+  ],
+  "published": "2026-11-18",
+  "score": 0,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 178,
+  "summary": {
+   "by": "claude",
+   "how": "Python framework; details are not stated beyond the topic tags.",
+   "impact": "Low relevance: focused on biomolecular and drug-discovery simulation.",
+   "what": "BioSimSpace: an interoperable Python framework for biomolecular simulation.",
+   "why": "Aims at interoperability and reproducibility in molecular simulation and free-energy calculations."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "OpenBioSim/biosimspace",
+  "url": "https://github.com/OpenBioSim/biosimspace",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
   "abstract": "Advanced polymer Universal Quick Disconnects address scalability, coolant integrity and installation demands, as AI drives rapid growth in cooling needs. As artificial intelligence drives expansion of high-density computing and liquid-cooled data centers, ARaymond has introduced a new generation of Universal […] The post ARaymond Introduces Next-Generation UQDs for Data Center Liquid Cooling appeared first on Electronics Cooling .",
   "authors": [],
   "cat": "industry",
@@ -57,6 +91,203 @@
   "title": "ARaymond Introduces Next-Generation UQDs for Data Center Liquid Cooling",
   "url": "https://www.electronics-cooling.com/2026/11/araymond-introduces-next-generation-uqds-for-data-center-liquid-cooling/",
   "venue": "Electronics Cooling",
+  "watched": []
+ },
+ {
+  "abstract": "Key Takeaways: Agent orchestration at various stages of design, verification, and validation will require new methodologies and coordination across tools. Engineering expertise remains essential, and proprietary data is still siloed. Cost and complexity could limit adoption, giving larger companies an advantage. Experts at the Table : AI agents are moving into more parts of the chip design flow, but connecting them across different tools and processes remains a challenge. Questions also remain about how to capture decades of engineering expertise, protect proprietary design data, and keep costs manageable. Semiconductor Engineering sat down to discuss these issues with Frank Schirrmeister, executive director of strategy programs and system solutions at Synopsys ; Ronen Laviv, vice president of business development and strategic partnerships at Hiveware; Jack Berg, vice president of business development at Silvaco ; Ashish Darbari, founder and CEO of Axiomise . What follows are excerpts of that conversation. To view part one of this discussion, click here . Part two is here . L-R: Silvaco’s Berg; Synopsys’ Schirrmeister; Axiomise’s Darbari; Hiveware’s Laviv. SE: If AI agents are modifying code, and you keep updating AI models and agents, how much can you really shift left? Darbari : This is going to be a new methodology direction the industry will be taking, much like UVM, where you combine these different flows together. How do you combine all the agents together? I don’t get a sense that anybody really knows today how this combination is going to work. From what I have seen in different presentations, they’re still looking at how these things unfold. A lot of agentic AI companies lack the field experience of having seen these problems firsthand, so what they’re…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "b489b91b77ab04a0",
+  "kind": "news",
+  "matched": [
+   "semiconductor",
+   "simulation",
+   "GPU",
+   "agent"
+  ],
+  "published": "2026-11-18",
+  "score": 1,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Panel discussion with Synopsys, Hiveware, Silvaco and Axiomise.",
+   "impact": "Low-to-moderate relevance: shows industry thinking on agent orchestration and automated workflows, which parallels agents for first-principles and thermal-MD calculations. It is about chip design, not materials simulation.",
+   "what": "Semiconductor Engineering panel excerpts on whether AI agents can shift chip design flow left, covering orchestration across tools, siloed proprietary data and cost.",
+   "why": "Agents are entering design, verification and validation, but connecting them across tools is unsolved."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Can AI Agents Really Shift Chip Design Left?",
+  "url": "https://semiengineering.com/can-ai-agents-really-shift-chip-design-left/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "An efficient and fully parallelized pure python DFT and electronic structure code with GPU acceleration through just-in-time compilation Topics: cuda-support, density-functional-theory, dft-calculations, electronic-structure, gaussian-basis-function, hartree-fock, molecular-integrals, quantum-chemistry.",
+  "authors": [
+   "manassharma07"
+  ],
+  "cat": "industry",
+  "created": "2025-09-06",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "f0011f21edee50d2",
+  "kind": "repo",
+  "matched": [
+   "DFT",
+   "GPU"
+  ],
+  "published": "2026-11-18",
+  "score": 1,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 105,
+  "summary": {
+   "by": "claude",
+   "how": "Gaussian-basis DFT and Hartree-Fock with CUDA support through JIT compilation.",
+   "impact": "Low relevance: a Gaussian-basis molecular code, not a periodic plane-wave solver like VASP. Of mild interest for GPU-JIT design ideas relevant to JAX-based solvers.",
+   "what": "PyFock: a pure-Python DFT and electronic structure code with GPU acceleration via just-in-time compilation.",
+   "why": "Aims for an efficient, fully parallelized DFT code in Python."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "manassharma07/PyFock",
+  "url": "https://github.com/manassharma07/PyFock",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "[ICML'26] Phonon fine-tuning (PFT) and [NeurIPS'25 AI4Mat] Nequix: Training a foundation model for materials on a budget Topics: interatomic-potentials, machine-learning, materials-science.",
+  "authors": [
+   "atomicarchitects"
+  ],
+  "cat": "industry",
+  "created": "2025-08-17",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "e6c4426ce09cd834",
+  "kind": "repo",
+  "matched": [
+   "phonon",
+   "fine-tun",
+   "materials"
+  ],
+  "published": "2026-11-18",
+  "score": 2,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 81,
+  "summary": {
+   "by": "claude",
+   "how": "Python code release; details are not stated in the provided text.",
+   "impact": "Highly relevant: phonon fine-tuning of MLIPs directly targets accuracy of phonon properties, which matches the MLPhonon, InGaAs (DP vs MACE) and AlGaN MLIP pipelines. Worth reading the code and paper.",
+   "what": "GitHub repo for Phonon fine-tuning (PFT, ICML'26) and Nequix, a materials foundation model trained on a budget (NeurIPS'25 AI4Mat).",
+   "why": "Not stated beyond the topic tags: interatomic potentials, machine learning, materials science."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "atomicarchitects/nequix",
+  "url": "https://github.com/atomicarchitects/nequix",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "New features Pallas APIs are now available under jax.pallas ( jax.pallas , jax.pallas.tpu , jax.pallas.tpu_sc , jax.pallas.mosaic_gpu , and jax.pallas.fuser , via explicit import jax.pallas ). Existing imports from jax.experimental.pallas remain valid, while triton and ops stay under jax.experimental.pallas . See the Pallas changelog for Pallas-specific changes. Added a keyword-only with_logs option to jax.grad and jax.value_and_grad , returning backward-pass logs alongside gradients without calling jax.vjp directly. With with_logs=True , grad returns (grad, logs) (or (grad, aux, logs) when has_aux=True ), and value_and_grad returns (val, (grad, logs)) (or ((val, aux), (grad, logs)) ). Added jax.avals (along with Mesh.axes and AbstractMesh.axes ) for concise shorthand construction of abstract array types ( ShapedArray ) with optional sharding annotations, such as f32[3@X] and f32[()] . On Python 3.14 and later, jax.debug.print now accepts PEP 750 template strings (for example, jax.debug.print(t\"hello {x}\") ) ( #41565 ). Added F8E4M3FN_F8E4M3FN_F32_X3 and F8E4M3FN_F8E4M3FN_F32_X4 to jax.lax.DotAlgorithmPreset (and jax_default_matmul_precision ) for emulating bfloat16 precision matrix multiplications on bfloat16 or float32 inputs using 3 or 4 float8_e4m3fn products accumulated in float32 . Added CPU support for jax.lax.DotAlgorithmPreset.F16_F16_F32 , fixing jax.nn.dot_product_attention with implementation=\"xla\" and float16 inputs under jit and grad on CPU. Added jax.lax.fma and jax.lax.fmuladd for fused multiply-add ( a * b + c ). fma performs a single-rounding fused multiply-add where supported; fmuladd uses fused multiply-add when available and falls back safely otherwise ( #23919 ). jax.lax.polynomial now uses fmuladd for floating-point evaluation. Added…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "7bc19d081ffb5088",
+  "kind": "tool",
+  "matched": [],
+  "published": "2026-11-18",
+  "score": 3,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "claude",
+   "how": "Release notes on GitHub; the abstract is truncated.",
+   "impact": "Relevant to the JAX-BTE and GPU phonon BTE solver work: the Pallas kernel API and fused multiply-add / matmul precision options could matter for custom GPU kernels. Check for breaking changes before upgrading.",
+   "what": "JAX v0.12.1 release: Pallas APIs under jax.pallas, a with_logs option for grad, jax.avals, fma/fmuladd, new DotAlgorithmPreset options and CPU float16 support.",
+   "why": "Routine release adding features and fixes."
+  },
+  "themes": [],
+  "title": "JAX v0.12.1",
+  "url": "https://github.com/jax-ml/jax/releases/tag/jax-v0.12.1",
+  "venue": "JAX",
+  "watched": []
+ },
+ {
+  "abstract": "Cadence’s Rajesh Pamujula considers how to establish trust when sensitive data, proprietary models, cryptographic keys, and confidential workloads increasingly traverse PCIe links. Synopsys’ Neeraj Paliwal argues that extreme co-design , where silicon, interface IP, memory, cooling, and power are designed together as one system, is needed for efficient racks that are capable of running increasingly demanding AI workloads. Siemens’ Kevin Rinebold and Andras Vass-Varnai examine the evolving semiconductor design landscape shaped by the shift from monolithic scaling to heterogeneous architectures and consider how to navigate the complexities of AI-driven 3D-IC and chiplet technologies. Keysight’s Linas Dauksa provides a primer on the technologies that power AI data centers , how they handle training and inference workloads, and why they’ve become the backbone of modern AI. Arm’s Michael Gamble checks out how to enable gaze-based interactions in lightweight smart glasses by running fast, sensor-dependent AI on-device while larger workloads stay where more compute is available. SEMI’s Sitong He chats with Patrick Vandenameele of imec about the trends reshaping the semiconductor industry, why collaboration matters more than ever, and the role Europe can play in global competitiveness. Plus, check out blogs featured in the latest Low Power-High Performance newsletter : Rambus’ Kushal Koolwal examines why longer contexts, higher concurrency, multimodal models, and AI agents will continue changing where memory pressure appears. Siemens EDA’s Jim Shiely shows how to use evidence from silicon to improve the tools and decisions for next-gen hardware. Synopsys’ Andrew Appleby observes that traditional voltage scaling is no longer sufficient to deliver real-time performance within…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "3f2071bfb3724339",
+  "kind": "news",
+  "matched": [
+   "glass",
+   "chiplet",
+   "semiconductor",
+   "cooling",
+   "interface",
+   "thermal",
+   "agent"
+  ],
+  "published": "2026-11-18",
+  "score": 7,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Link roundup of vendor blogs (Cadence, Synopsys, Siemens, Keysight, Arm, Rambus and others). Not stated: technical details.",
+   "impact": "Low relevance; of some interest for industry trends, especially the Siemens piece on 3D-IC/chiplet complexity and the Synopsys piece on cooling in co-design, which relate to thermal-management job markets.",
+   "what": "Semiconductor Engineering blog roundup covering PCIe security, co-design of silicon, memory, cooling and power for AI racks, 3D-IC and chiplet design, AI data centers, and memory pressure from AI agents.",
+   "why": "Shows how AI workloads are driving system-level co-design."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Blog Review: Nov. 18",
+  "url": "https://semiengineering.com/blog-review-nov-18-3/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "EPC Space LLC of Andover, MA, USA (which manufactures high-reliability radiation-hardened enhancement-mode gallium nitride-on-silicon discrete transistors, ICs and modular devices for power management in space and other harsh environments) has expanded its portfolio of radiation-tolerant GaN HEMTs by adding plastic QFN (PQFN) and hermetic packaging options for next-generation space power systems...",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "28fc180da3861566",
+  "kind": "news",
+  "matched": [
+   "HEMT",
+   "HEMTs",
+   "GaN",
+   "transistor",
+   "packaging",
+   "reliability"
+  ],
+  "published": "2026-11-18",
+  "score": 10,
+  "source": "Semiconductor Today",
+  "summary": {
+   "by": "claude",
+   "how": "Product announcement: rad-hard enhancement-mode GaN-on-silicon devices with new packaging options. Not stated: thermal performance.",
+   "impact": "Low-to-moderate relevance: an industry signal for GaN HEMT commercialization and packaging, which is relevant to the HEMT self-heating project and to industry job awareness. No thermal data given.",
+   "what": "EPC Space added plastic QFN (PQFN) and hermetic packaging options to its radiation-tolerant GaN HEMT portfolio.",
+   "why": "Next-generation space power systems need radiation-hardened power management in harsh environments."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "EPC Space expands rad-hard GaN HEMT portfolio with plastic QFN and hermetic packaging options",
+  "url": "https://www.semiconductor-today.com/news_items/2026/nov/epcspace-181126.shtml",
+  "venue": "Semiconductor Today",
   "watched": []
  },
  {

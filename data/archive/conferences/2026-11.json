@@ -1,5 +1,41 @@
 [
  {
+  "abstract": "Thermal reliability of GaN/SiC devices. No deadline sentences found on the page.",
+  "always": true,
+  "authors": [],
+  "cat": "conferences",
+  "conf_name": "IEEE IRPS",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "fit": "network",
+  "id": "6c081a41915be9af",
+  "kind": "conference",
+  "matched": [
+   "GaN",
+   "SiC",
+   "reliability",
+   "thermal"
+  ],
+  "page_excerpt": "IEEE - IRPS - International Reliability Physics Symposium Skip to Content Open Menu Close Menu 0 0 0 0 Open Menu Close Menu IRPS 2027 Mar. 21–25, 2027, Town and Country Resort , San Diego, CA CALL FOR PAPERS Attendee Registration Hotel Information Patrons/Exhibitors Registration 2027 Corporate Patrons Become a Patron IRPS gratefully acknowledges the generous support of our 2026 corporate patrons Platinum Patron Gold Patrons Silver Patrons Bronze Patrons Co-Sponsored by About IRPS For 60 years, IRPS has been the premiere conference for engineers and scientists to present new and original work in the area of microelectronics reliability. Drawing participants from the United States, Europe, Asia, and all other parts of the world… Learn More",
+  "published": "2026-11-18",
+  "score": 6,
+  "source": "Conference watch",
+  "summary": {
+   "by": "claude",
+   "how": "No deadline sentences were found on the page; the submission format and deadlines are not stated.",
+   "impact": "Possibly worth submitting: GaN HEMT self-heating and thermal reliability work would fit. US-held. Check the call for papers for the abstract deadline before deciding.",
+   "what": "IEEE IRPS website updated: IRPS 2027 is Mar. 21–25, 2027 in San Diego, CA, with a call for papers; the topic list includes thermal reliability of GaN/SiC devices.",
+   "why": "IRPS is the premier microelectronics reliability conference."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "IEEE IRPS — website updated",
+  "url": "https://www.irps.org/",
+  "venue": "Reliability physics",
+  "watched": []
+ },
+ {
   "abstract": "Altermagnetic materials Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript. Advertisement Collection Altermagnetic materials Submission status Open Submission deadline 30 June 2027 This collection supports and amplifies research related to SDG 9 - Industry, innovation and infrastructure . Altermagnetism is a recently discovered phase of magnetism characterized by zero net magnetization and strong spin polarization in the electronic band structure. This combination of properties characteristic of elements of both antiferromagnets and ferromagnets arises due to the magnetic sublattices being connected by symmetry operations that are not inversion or translation. The result is a class of materials with a rich array of unconventional magneto-responses, and great technological potential. With this cross-journal collection, the editors at Nature Communications , Communications Materials and Scientific Reports invite submissions on altermagnetic materials. To submit, see the participating journals Collection content Participating journals About the editors About the Collection Observation of Altermagnetic Spin-Splitting in an Intercalated Transition Metal Dichalcogenide Altermagnets combine characteristics of both antiferromagnetism and ferromagnetic ordering. Here, the authors identify Co 1/4 TaSe 2 as a layered altermagnetic material and show clear signatures of altermagnetic spin splitting at the Fermi surface. Milo Sprague Mazharul Islam Mondal Madhab Neupane Article Open…",
   "authors": [],
   "cat": "conferences",
