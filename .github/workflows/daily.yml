@@ -2,12 +2,12 @@ name: Daily radar
 
 on:
   schedule:
-    - cron: "0 10 * * *"        # 10:00 UTC = 5 am Indiana (EST); Claude routine follows at 11:00 UTC
+    - cron: "0 11 * * *"        # 11:00 UTC = 6 am Indiana (EST), 7 am in summer (EDT)
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - "data/llm_out/*.json"   # Claude routine output → merge + redeploy (no fetch)
+      - "data/llm_out/*.json"   # manually added Claude output → merge + redeploy (no fetch)
       - "config/**"
       - "web/**"
       - "radar/**"
@@ -24,7 +24,9 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 50
+    env:
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -41,6 +43,22 @@ jobs:
         run: |
           python -m radar.run --ingest
           python -m radar.run
+
+      - name: Claude summaries (Claude Code, subscription token)
+        if: github.event_name != 'push' && env.CLAUDE_CODE_OAUTH_TOKEN != ''
+        timeout-minutes: 25
+        continue-on-error: true      # the site still deploys with rule-based summaries
+        run: |
+          npm install -g @anthropic-ai/claude-code >/dev/null 2>&1
+          WEEKLY=$([ "$(date -u +%u)" = "1" ] && echo "Today is Monday: also do the weekly steps." || echo "Today is not Monday: skip the weekly steps.")
+          claude -p "Follow CLAUDE_ROUTINE.md in this repository for today ($(date -u +%F), UTC). $WEEKLY Do not run git; the workflow commits your files." \
+            --model claude-sonnet-5-5 \
+            --allowedTools "Read" "Glob" "Grep" "WebSearch" "WebFetch" \
+                           "Write(data/llm_out/**)" "Edit(data/llm_out/**)" \
+                           "Write(data/proposals/**)" "Edit(data/proposals/**)" \
+                           "Bash(python3 -m json.tool:*)" \
+            --max-turns 60 | tail -n 20
+          python -m radar.run --ingest
 
       - name: Merge Claude output and rebuild (push)
         if: github.event_name == 'push'
