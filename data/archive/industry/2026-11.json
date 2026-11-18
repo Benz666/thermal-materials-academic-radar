@@ -1,5 +1,65 @@
 [
  {
+  "abstract": "Molecular dynamics (MD) is an indispensable tool across physics, chemistry, biology, and materials science. Owing to its arithmetic structure, particularly the... Molecular dynamics (MD) is an indispensable tool across physics, chemistry, biology, and materials science. Owing to its arithmetic structure, particularly the parallel evaluation of many atom-pair interactions, MD codes were among the first to be ported to run on GPUs. However, as GPUs evolve, optimizing kernels and ensuring compatibility across heterogeneous hardware have become more difficult… Source",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "883a17a10d27d03b",
+  "kind": "news",
+  "matched": [
+   "simulation",
+   "materials",
+   "GPU"
+  ],
+  "published": "2026-11-16",
+  "score": 0,
+  "source": "NVIDIA Technical Blog",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "Molecular dynamics (MD) is an indispensable tool across physics, chemistry, biology, and materials science. Owing to its arithmetic structure, particularly the...",
+   "why": "However, as GPUs evolve, optimizing kernels and ensuring compatibility across heterogeneous hardware have become more difficult… Source"
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Accelerate Molecular Dynamics Simulations with Accurate, Flexible Primitives Using NVIDIA cuPotential",
+  "url": "https://developer.nvidia.com/blog/accelerate-molecular-dynamics-simulations-with-accurate-flexible-primitives-using-nvidia-cupotential/",
+  "venue": "NVIDIA Technical Blog",
+  "watched": []
+ },
+ {
+  "abstract": "Advanced polymer Universal Quick Disconnects address scalability, coolant integrity and installation demands, as AI drives rapid growth in cooling needs. As artificial intelligence drives expansion of high-density computing and liquid-cooled data centers, ARaymond has introduced a new generation of Universal […] The post ARaymond Introduces Next-Generation UQDs for Data Center Liquid Cooling appeared first on Electronics Cooling .",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-18",
+  "id": "dec6d31e95cc7c71",
+  "kind": "news",
+  "matched": [
+   "cooling"
+  ],
+  "published": "2026-11-17",
+  "score": 1,
+  "source": "Electronics Cooling",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "Advanced polymer Universal Quick Disconnects address scalability, coolant integrity and installation demands, as AI drives rapid growth in cooling needs. As artificial intelligence drives expansion of high-density computing and liquid-cooled data centers, ARaymond has introduced a new generation of Universal […] The post ARaymond Introduces Next-Generation…",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "ARaymond Introduces Next-Generation UQDs for Data Center Liquid Cooling",
+  "url": "https://www.electronics-cooling.com/2026/11/araymond-introduces-next-generation-uqds-for-data-center-liquid-cooling/",
+  "venue": "Electronics Cooling",
+  "watched": []
+ },
+ {
   "abstract": "Key Takeaways: AI agents could make customized design workflows faster and less expensive to develop. Multi-agent systems introduce new challenges for orchestration, verification, and tool integration. Consumption-based pricing could reshape EDA business models, but trust and proprietary data remain obstacles. AI agents are emerging as a new category of reusable design capability, but with a twist. Rather than providing tightly defined design blocks, agents can be used to explore different options, integrate them, and use those changes to improve designs. At the leading edge, soft IP developers have been customizing their code for large customers for more than a decade to boost performance and/or reduce power. But that customization is typically narrow and costly, and optimizations for one design may not directly transfer to derivative chips — especially multi-die assemblies at the leading edge. Agents, in contrast, can be used to customize different functions with little or no human intervention, and they can self-optimize for different workloads and use cases, and some agents can even adjust for aging hardware. And they can do all of this much faster than a human, even though an experienced engineering team is needed to verify those results and recommendations. “We have in-house specialized AI agents to do different things, to do spec analysis, RTL generation for design, for formal and functional verification, and then CDC linking, and place-and-route,” said William Wang, CEO of ChipAgents . “We provide our optimized agents to a customer, and sometimes a customer builds their own AI agent. But there are some similarities with the IP business. Sometimes we’re specifically building an agent for one customer for a particular flow, which is similar to what happens in…",
   "authors": [],
   "cat": "industry",

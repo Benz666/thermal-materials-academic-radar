@@ -1,5 +1,218 @@
 [
  {
+  "abstract": "ABSTRACT The traditional lone‐pair electron strategy primarily reduces lattice thermal conductivity ( κ L ) by enhancing anharmonic lattice vibrations. However, this mechanism has long been considered to exist only in specific cations with ns 2 electron configurations (e.g. Sb 3+ , Bi 3+ ), severely restricting the broader applicability of this lone‐pair‐based approach. In this study, CuInSnSe 4 is successfully synthesized via atomic cross‐substitution from the diamondoid CuInSe 2 , wherein the Se atoms exhibit an anionic lone‐pair‐like electronic behavior, revealing a new approach to reducing κ L that differs from conventional cation‐based mechanisms. In contrast to the traditional mechanism that relies on cations to enhance lattice anharmonicity, the anionic lone‐pair electrons weaken the Se‐Se interactions, flatten the optical phonon branches, and consequently significantly expand the scattering phase space, providing more scattering channels for phonons. This anionic lone‐pair electron strategy reduces the room‐temperature κ L from 4.48 to 1.26 W m −1 K −1 . Ultimately, the predicted optimal thermoelectric figure of merit ( ZT ) for p‐type and n‐type CuInSnSe 4 attains values of 1.99 and 0.79, respectively. This work systematically expands the conventional application boundaries of the lone‐pair electron strategy and elucidates a fundamentally distinct mechanism for κ L reduction, providing a new theoretical basis for designing and developing novel high‐efficiency thermoelectric materials with intrinsically low κ L .",
+  "authors": [
+   "Zongxuan Lin",
+   "Hongwei Ming",
+   "Jiahui Wang",
+   "Bingchen He",
+   "Sisheng Wang",
+   "Shike Xu",
+   "Chen Zuojin",
+   "Yunpeng Zheng",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1002/ange.1068735",
+  "first_seen": "2026-11-18",
+  "id": "3041cb4f5b77bdb6",
+  "kind": "paper",
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "anharmonic",
+   "thermal",
+   "materials"
+  ],
+  "published": "2026-11-15",
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "rules",
+   "how": "Sb 3+ , Bi 3+ ), severely restricting the broader applicability of this lone‐pair‐based approach.",
+   "impact": "Background reading for Phonon & thermal transport.",
+   "what": "This work systematically expands the conventional application boundaries of the lone‐pair electron strategy and elucidates a fundamentally distinct mechanism for κ L reduction, providing a new theoretical basis for designing and developing novel high‐efficiency thermoelectric materials with intrinsically low κ L .",
+   "why": "However, this mechanism has long been considered to exist only in specific cations with ns 2 electron configurations (e.g."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Anionic Lone‐Pair‐Like Electrons Induced Ultra‐Low Lattice Thermal Conductivity and High Thermoelectric Performance",
+  "url": "https://doi.org/10.1002/ange.1068735",
+  "venue": "Angewandte Chemie",
+  "watched": []
+ },
+ {
+  "abstract": "ABSTRACT This investigation explores the structural, elastic, electronic, optical, thermal, and thermodynamic properties of silicide compounds (XAl 2 Si 2 , X = Y, La) using density functional theory (DFT). The structural stability and mechanical characteristics were evaluated through elastic constants, micro‐ and macro‐hardness, Cauchy pressure, Pugh's ratio, and Poisson's ratio. The calculated elastic parameters confirm the mechanical stability of both compounds, while the obtained Pugh's ratio, Poisson's ratio, and Cauchy pressure values indicate their ductile nature. Bond population analysis reveals the coexistence of ionic and covalent bonding characteristics. The electronic properties were investigated through band structures and density of states calculations, including spin–orbit coupling (SOC) effects to explore possible topological features. Furthermore, phonon dispersion and thermodynamic analyses were performed to evaluate dynamic and thermal stability. The combination of favorable electrical properties and moderate lattice thermal conductivity suggests potential applications in thermoelectric and high‐temperature environments. Optical investigations reveal that both compounds exhibit reflectance above 75% in the visible region, indicating their capability for reducing solar heat absorption. Additionally, their high refractive index at low photon energies and strong ultraviolet (UV) absorption behavior makes them promising candidates for optoelectronic and UV‐protection applications.",
+  "authors": [
+   "Tanvir Khan",
+   "M. Ibrahim",
+   "Jubair Hossan Abir",
+   "M. H. S. Rifat",
+   "S. Roy",
+   "M.I.A. Tanim"
+  ],
+  "cat": "papers",
+  "doi": "10.1002/apxr.70213",
+  "first_seen": "2026-11-18",
+  "id": "ea6c404c6ec9cb21",
+  "kind": "paper",
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "DFT",
+   "heat",
+   "thermal"
+  ],
+  "published": "2026-11-14",
+  "score": 7,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Phonon & thermal transport.",
+   "what": "Optical investigations reveal that both compounds exhibit reflectance above 75% in the visible region, indicating their capability for reducing solar heat absorption.",
+   "why": "ABSTRACT This investigation explores the structural, elastic, electronic, optical, thermal, and thermodynamic properties of silicide compounds (XAl 2 Si 2 , X = Y, La) using density functional theory (DFT)."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "DFT‐Based Investigation of the Mechanical, Optoelectronic, Bonding, Thermophysical, and Thermodynamic Properties of XAl 2 Si 2 (X = Y, La) Silicides for Potential Applications",
+  "url": "https://doi.org/10.1002/apxr.70213",
+  "venue": "Advanced Physics Research",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract Eco-friendly Cu3SbSe4 is a promising mid-temperature thermoelectric material. Although Sn-doped Cu3SbSe4 optimizes thermoelectric properties, it also negatively impacts thermal properties. Herein, Cu3Sb0.98Sn0.02Se4-x%PbSe composites were synthesized via an integrated microwave-hydrothermal and spark plasma sintering route. Subsequent characterizations reveal the coexistence of a Cu3SbSe4-based matrix and PbSe secondary phases at higher PbSe contents, while the evolution of the lattice parameters suggests possible partial Pb incorporation into the matrix. The PbSe/Cu3SbSe4 heterointerfaces may contribute to energy-dependent carrier filtering, which is consistent with the enhanced Seebeck coefficient observed after PbSe formation. Concurrently, the coexistence of point defects, grain boundaries, and PbSe-rich regions provides multiple structural features that may contribute to phonon scattering and the evolution of lattice thermal conductivity. First-principles calculations also elucidate that this co-doping strategy fundamentally reconstructs the electronic band structure and phonon dispersion. Consequently, the Cu3Sb0.98Sn0.02Se4-4%PbSe composite delivers a maximum power factor of 999.35 μW m–1 K–2 and a peak zT of 0.77 at 623 K. These results demonstrate that PbSe incorporation provides an additional route for regulating the electrical and thermal transport properties of Sn-doped Cu3SbSe4.",
+  "authors": [
+   "Tao Wang",
+   "Sitong Wei",
+   "Jingxuan Liang",
+   "Dong Ling-xi",
+   "Yiping Jiang",
+   "Yujin Wang",
+   "Zhibo Wei",
+   "Shuqi Zheng",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1021/acsaem.6c02759",
+  "first_seen": "2026-11-18",
+  "id": "44350785420834cb",
+  "kind": "paper",
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "multiscale",
+   "heterointerface",
+   "first-principles",
+   "thermal"
+  ],
+  "published": "2026-11-16",
+  "score": 8,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "rules",
+   "how": "Herein, Cu3Sb0.98Sn0.02Se4-x%PbSe composites were synthesized via an integrated microwave-hydrothermal and spark plasma sintering route.",
+   "impact": "Background reading for Phonon & thermal transport.",
+   "what": "These results demonstrate that PbSe incorporation provides an additional route for regulating the electrical and thermal transport properties of Sn-doped Cu3SbSe4.",
+   "why": "Abstract Eco-friendly Cu3SbSe4 is a promising mid-temperature thermoelectric material."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Synergistic Enhancement of Thermoelectric Properties in Cu3SbSe4 via Multiscale Phonon Scattering and Energy Filtering Effects",
+  "url": "https://doi.org/10.1021/acsaem.6c02759",
+  "venue": "ACS Applied Energy Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract Heterogeneous integration of Gallium Nitride (GaN) high-electron-mobility transistors (HEMTs) via micro-transfer printing (μTP) offers a scalable route to address critical thermal management and integration challenges for high-power and high-frequency applications. However, traditional polymer adhesives used in the printing process create a thermal bottleneck due to their low thermal conductivity. This work introduces a room-temperature, heatless soldering mechanism at the device level utilizing undercooled liquid metallic core–shell (ULMCS) particles. Synthesized via the shearing liquids into complex particles (SLICE) method, these Field’s metal (Bi/In/Sn) particles are encapsulated in a self-limiting 10 nm oxide shell, maintaining a metastable liquid state until mechanical rupture triggers spontaneous solidification. To test this, GaN/AlGaN coupons were released from Qromis Substrate Technology wafers and printed onto silicon substrates using ULCMS particles. Printing parameters, including shear speed and shear distance, were optimized to ensure consistent adhesion. While initial μTP using compliant polydimethylsiloxane (PDMS) stamps achieved high transfer yields, cross-sectional analysis revealed incomplete coalescence due to insufficient pressure applied by the stamp. To resolve this, a dual-stage integration framework was developed, incorporating a secondary rigid glass stamping step. This process successfully created a dense, metallic adhesion layer, providing a robust and cost-effective pathway for the integration of GaN devices for thermal management applications.",
+  "authors": [
+   "Owen R. Meilander",
+   "Joseph B. Mayer",
+   "Mona A. Ebrish"
+  ],
+  "cat": "papers",
+  "doi": "10.1021/acsaelm.6c02009",
+  "first_seen": "2026-11-18",
+  "id": "5db34865d4de927d",
+  "kind": "paper",
+  "matched": [
+   "glass",
+   "HEMTs",
+   "GaN",
+   "AlGaN",
+   "transistor",
+   "semiconductor",
+   "substrate",
+   "oxide",
+   "polymer",
+   "thermal"
+  ],
+  "published": "2026-11-14",
+  "score": 11,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "rules",
+   "how": "Synthesized via the shearing liquids into complex particles (SLICE) method, these Field’s metal (Bi/In/Sn) particles are encapsulated in a self-limiting 10 nm oxide shell, maintaining a metastable liquid state until mechanical rupture triggers spontaneous solidification.",
+   "impact": "Possibly relevant to GaN/AlGaN HEMT multiscale thermal modeling (MLIP → BTE → device) (matched: GaN, AlGaN, HEMTs).",
+   "what": "While initial μTP using compliant polydimethylsiloxane (PDMS) stamps achieved high transfer yields, cross-sectional analysis revealed incomplete coalescence due to insufficient pressure applied by the stamp.",
+   "why": "Abstract Heterogeneous integration of Gallium Nitride (GaN) high-electron-mobility transistors (HEMTs) via micro-transfer printing (μTP) offers a scalable route to address critical thermal management and integration challenges for high-power and high-frequency applications."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Undercooled Liquid Metallic Core–Shell Particles Enabling Heatless Metal–Semiconductor Bonding for Micro-Transfer Printed GaN",
+  "url": "https://doi.org/10.1021/acsaelm.6c02009",
+  "venue": "ACS Applied Electronic Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Poster presented at eNergetics 2026, the 6th International Conference on Energy and Environment, 23 to 24 November 2026 (virtual). Cubic CsPbBr₃ is the phase that exists above 403 K, which is the temperature range relevant to waste-heat recovery. Almost all reported measurements, however, are made on the room-temperature orthorhombic polymorph, and while the electronic structure of the cubic phase is established, its lattice dynamics and transport properties are not. This work presents one internally consistent set of first-principles calculations for the cubic phase, covering electronic structure with spin-orbit coupling, optical response, lattice dynamics and thermoelectric transport. Quantities reported here that were not previously available for this phase include the Seebeck coefficient and the thermoelectric figure of merit, the acoustic deformation potentials of both band edges, the R-point soft-mode frequency, and the Debye temperature, sound velocity and Grüneisen parameter. ZT reaches 0.39 at 800 K near 10¹⁹ cm⁻³, with p-type and n-type values equal to within a few percent. Because the lattice thermal conductivity already sits at the Cahill-Pohl glassy minimum of 0.475 W m⁻¹ K⁻¹, the ceiling on ZT is set by the power factor rather than by heat transport. Lowering the lattice thermal conductivity further therefore cannot raise ZT in this family, and only the electronic side can be improved. Methods: VASP 5.4.4 with the projector augmented-wave method, PBE and HSE06 functionals and spin-orbit coupling throughout; phonons from finite displacements in a 2x2x2 supercell using Phonopy; electronic transport from BoltzTraP2 within the constant relaxation-time approximation, with the relaxation time taken from Fröhlich polaron theory rather than fitted to experiment.…",
+  "authors": [
+   "Woshitha Sasindu Hinget",
+   "Wanigasinghe K.B Piyushani",
+   "Akmal U.K.D.M.",
+   "Galhenage Asha Sewvandi",
+   "Pradeep K. W. Abeygunawardhana"
+  ],
+  "cat": "papers",
+  "doi": "10.5281/zenodo.24247541",
+  "first_seen": "2026-11-18",
+  "id": "afb75b7223404ee3",
+  "kind": "preprint",
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "glass",
+   "phonopy",
+   "first-principles",
+   "VASP",
+   "Grüneisen",
+   "heat",
+   "thermal"
+  ],
+  "published": "2026-11-23",
+  "score": 13,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "rules",
+   "how": "Methods: VASP 5.4.4 with the projector augmented-wave method, PBE and HSE06 functionals and spin-orbit coupling throughout; phonons from finite displacements in a 2x2x2 supercell using Phonopy; electronic transport from BoltzTraP2 within the constant relaxation-time approximation, with the relaxation time taken from…",
+   "impact": "Background reading for First principles, lattice dynamics & thermal MD, Phonon & thermal transport.",
+   "what": "Lowering the lattice thermal conductivity further therefore cannot raise ZT in this family, and only the electronic side can be improved.",
+   "why": "Almost all reported measurements, however, are made on the room-temperature orthorhombic polymorph, and while the electronic structure of the cubic phase is established, its lattice dynamics and transport properties are not."
+  },
+  "themes": [
+   "atomistic",
+   "phonon"
+  ],
+  "title": "Thermoelectric and Optoelectronic Properties of Cubic CsPbBr₃ from First-Principles (conference poster)",
+  "url": "https://doi.org/10.5281/zenodo.24247541",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "watched": []
+ },
+ {
   "abstract": "Monte Carlo/molecular dynamics (MCMD) simulations are widely used to study the properties of materials at the mesoscale. Simulations with hundreds of thousands of atoms usually rely on empirical potentials because MCMD with machine-learning interatomic potentials is impractical at this scale in existing implementations. Here, we introduce a hybrid MPI/OpenMP scheme for MCMD with Atomic Cluster Expansion (ACE) potentials in LAMMPS. Monte Carlo moves are evaluated from local energy changes and carried out in parallel over MPI ranks, while molecular dynamics is parallelized over OpenMP threads. At a fixed number of CPUs, the wall time of the Monte Carlo moves decreases by a factor equal to the number of MPI ranks. Larger simulation cells also reduce the statistical errors of free energy calculations because thermal fluctuations decrease with system size. We demonstrate the scheme by calculating free energies of the HCP and BCC phases in the strongly anharmonic Hf--Ti system and by simulating zirconium segregation in a nanocrystalline copper sample of 670,000 atoms. For Cu--Zr, an ACE potential and an empirical potential predict similar grain boundary compositions but different amounts of zirconium dissolved in the grains. The scheme makes MCMD simulations with machine-learning interatomic potentials practical at the length scales of microstructure.",
   "authors": [
    "Lorenzo Piersante",
