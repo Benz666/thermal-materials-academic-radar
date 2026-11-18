@@ -16,14 +16,14 @@
   "https://www.mrs.org/meetings-events": "cdcf011da4589ae2bcab387e47ef245dba20f1f4",
   "https://www.semi-therm.org/": "4dc75ec162a7f7b7ab400219e470260eca5fd0d7"
  },
- "last_run": "2026-11-18T00:11+00:00",
+ "last_run": "2026-11-18T01:04+00:00",
  "repo_stars": {
   "AspirinCode/awesome-AI4MolConformation-MD": 308,
   "BradyAJohnston/MolecularNodes": 1414,
   "Colvars/colvars": 244,
   "David-OConnor/molchanica": 159,
   "HeshamFS/materials-simulation-skills": 93,
-  "JuDFTteam/best-of-atomistic-machine-learning": 737,
+  "JuDFTteam/best-of-atomistic-machine-learning": 738,
   "JuliaMolSim/DFTK.jl": 550,
   "JuliaMolSim/Molly.jl": 503,
   "MDAnalysis/mdanalysis": 1685,

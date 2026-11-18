@@ -16,11 +16,11 @@
   "score": 0,
   "source": "NVIDIA Technical Blog",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Industry & tools.",
-   "what": "Molecular dynamics (MD) is an indispensable tool across physics, chemistry, biology, and materials science. Owing to its arithmetic structure, particularly the...",
-   "why": "However, as GPUs evolve, optimizing kernels and ensuring compatibility across heterogeneous hardware have become more difficult… Source"
+   "by": "claude",
+   "how": "Not stated in the abstract.",
+   "impact": "Relevant to HPC and GPU-accelerated MD interests; worth a look for MLIP or LAMMPS performance, though details are not stated in the excerpt. Moderate relevance.",
+   "what": "NVIDIA blog on accelerating molecular dynamics with cuPotential, offering accurate, flexible primitives for GPU MD.",
+   "why": "As GPUs evolve, optimizing kernels and ensuring compatibility across heterogeneous hardware has become harder."
   },
   "themes": [
    "industry"
@@ -45,11 +45,11 @@
   "score": 1,
   "source": "Electronics Cooling",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Industry & tools.",
-   "what": "Advanced polymer Universal Quick Disconnects address scalability, coolant integrity and installation demands, as AI drives rapid growth in cooling needs. As artificial intelligence drives expansion of high-density computing and liquid-cooled data centers, ARaymond has introduced a new generation of Universal […] The post ARaymond Introduces Next-Generation…",
-   "why": ""
+   "by": "claude",
+   "how": "Not stated in the abstract.",
+   "impact": "Low to moderate relevance; an electronics-cooling industry trend (liquid-cooled data centers) rather than a modeling topic.",
+   "what": "ARaymond introduced a new generation of polymer Universal Quick Disconnects (UQDs) for data center liquid cooling.",
+   "why": "AI-driven high-density computing is increasing cooling needs and demands on scalability, coolant integrity and installation."
   },
   "themes": [
    "industry"
@@ -389,11 +389,11 @@
   "score": 4,
   "source": "GitHub releases",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Industry & tools.",
-   "what": "This is the first update to the 30 September 2026 stable release that fixes bugs and addresses issues that were backported from the development version. The following individual changes are included: add a runtime test to LAMMPS can error out cleanly when FFmpeg support is enabled but FFmpeg not found fix gcmc: register only the inserted molecule with fix…",
-   "why": ""
+   "by": "claude",
+   "how": "Includes fixes to fix gcmc, fix press/langevin, OPENMP, the Python module, QEq for ReaxFF memory spikes, plus LAMMPS-GUI v3.1.2.",
+   "impact": "Low to moderate relevance; no listed fix touches MLIP or heat-flux features, but LAMMPS is a core tool, so consider updating.",
+   "what": "LAMMPS stable release update 1 (30 Sep 2026 stable), a bug-fix release.",
+   "why": "Backports bug fixes from the development version."
   },
   "themes": [
    "industry"
@@ -418,11 +418,11 @@
   "score": 4,
   "source": "GitHub releases",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "General awareness.",
-   "what": "What’s Changed New Features / Enhancements Add a numerical regression suite for UMA inference ( #2296 ) @misko , @mshuaibii Lazily import slow dependencies to speed up importing fairchem.core ( #2286 ) @lbluque , lbluque user, @mshuaibii Accept any ASE-conforming Atoms in from_ase, not only numpy-backed ones ( #2263 ) @lbluque Preserve autograd graphs for…",
-   "why": ""
+   "by": "claude",
+   "how": "Release notes listing enhancements, bug fixes (e.g. left-handed cells in the neighbor list, detached conservative energy outputs) and tests.",
+   "impact": "Moderate relevance if UMA is used for phonons: Hessian inference support could matter for lattice dynamics.",
+   "what": "fairchem-core 2.26.0 release: a UMA inference regression suite, lazy imports, preserved autograd graphs for UMA Hessian inference and training, and several bug fixes.",
+   "why": "Not stated in the abstract."
   },
   "themes": [],
   "title": "fairchem-core-2.26.0",
@@ -445,11 +445,11 @@
   "score": 4,
   "source": "GitHub releases",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: ALAMODE).",
-   "what": "Documentation: https://alamode-code.github.io/alamode/ Packaging release; the calculations are unchanged. Build / packaging Binary wheels of the Python modules alm and anphon on PyPI for Linux (x86_64, aarch64) and macOS (arm64): pip install \"alamode-python[openmpi]\" (contributed by Hrushikesh Sahasrabuddhe, GitHub #338 ).",
-   "why": "The modules are still imported as alm and anphon ."
+   "by": "claude",
+   "how": "Wheels for Linux (x86_64, aarch64) and macOS arm64; Python 3.11 or newer and Boost 1.67 or newer required.",
+   "impact": "Relevant, since ALAMODE is in the tool list: pip install simplifies setup; note the package rename (uninstall alamode first if installed from source).",
+   "what": "ALAMODE 2.0.2, a packaging release with binary wheels of the alm and anphon Python modules on PyPI (alamode-python).",
+   "why": "To make installation easier; calculations are unchanged."
   },
   "themes": [
    "industry"
@@ -639,11 +639,11 @@
   "score": 5,
   "source": "Semiconductor Engineering",
   "summary": {
-   "by": "rules",
-   "how": "We present DT-MATCH, a defect- and topology-aware chiplet matching framework that maximizes the number of functional SoCs under realistic assembly constraints.",
-   "impact": "Background reading for Electronics thermal management & cooling.",
-   "what": "Researchers at Arizona State University and Ampere Computing published “DT-MATCH: Defect- and Topology-Aware Chiplet Matching for Yield Optimization in Heterogeneous Integration.” Abstract “Heterogeneous integration (HI) and advanced packaging enable chiplet-based system-on-chip (SoC) designs; however, they also introduce new yield challenges arising from…",
-   "why": ""
+   "by": "claude",
+   "how": "An ILP-based approach with batching and a faster GRASP-based approach, with preprocessing; tested on industrial designs.",
+   "impact": "Low relevance; yield optimization, not thermal, though it is industry context on chiplet packaging.",
+   "what": "ASU and Ampere Computing published DT-MATCH, a defect- and topology-aware chiplet matching framework to maximize functional SoCs.",
+   "why": "Heterogeneous integration brings yield challenges from manufacturing defects and die-to-die interconnect constraints."
   },
   "themes": [
    "device"
@@ -671,11 +671,11 @@
   "score": 5,
   "source": "Semiconductor Engineering",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Electronics thermal management & cooling.",
-   "what": "Innovations A wave of announcements this week, including several from SEMICON Europa and electronica 2026 in Munich, highlighted advances in semiconductor manufacturing, advanced packaging, automotive chips, and AI hardware. Manufacturing Infineon reported an industry-first milestone in 300mm silicon carbide manufacturing , fabricating functional power…",
-   "why": "Chips and systems AMD introduced its 6th-gen EPYC server and embedded processors, including models for semiconductor ATE; an AI GPU with 288GB of HBM4; and tamper-resistant FPGAs for security-critical systems."
+   "by": "claude",
+   "how": "News digest from SEMICON Europa and electronica 2026.",
+   "impact": "Low relevance; background on advanced packaging, SiC power devices and AI hardware that drive thermal management demand.",
+   "what": "A weekly industry roundup covering Infineon's 300mm SiC power-device milestone, imec's silicon-interposer platform, new AMD, Arm and Google chips, and export-control news.",
+   "why": "Not stated in the abstract."
   },
   "themes": [
    "device"
@@ -707,11 +707,11 @@
   "star_delta": null,
   "stars": 144,
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
-   "what": "Phonon anharmonicity analysis from molecular dynamics Topics: anharmonicity, lammps, molecular-dynamics, phonon, phonopy, vasp.",
-   "why": ""
+   "by": "claude",
+   "how": "Works with LAMMPS and VASP MD output and phonopy; a repository entry.",
+   "impact": "Relevant to extracting temperature-dependent phonon properties from MLIP MD (InGaAs, BAs) and comparing with lattice dynamics. Moderate to high relevance.",
+   "what": "DynaPhoPy, a code for phonon anharmonicity analysis from molecular dynamics.",
+   "why": "Not stated in the abstract."
   },
   "themes": [
    "atomistic"
@@ -746,11 +746,11 @@
   "star_delta": null,
   "stars": 99,
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: agentic).",
-   "what": "LLM-powered agents for scientific research automation Topics: agentic-ai, agentic-framework, agentic-workflow, density-functional-theory, experiments, generative-ai, large-language-models, materials, materials-discovery, materials-science, microscopy, molecular-dynamics, simulations, spectroscopy.",
-   "why": ""
+   "by": "claude",
+   "how": "Agentic framework; topics list DFT, molecular dynamics, microscopy and spectroscopy.",
+   "impact": "Relevant to the interest in agents and automated workflows for first-principles and thermal-MD calculations; worth inspecting its design. Moderate relevance.",
+   "what": "SciLink, a repository of LLM-powered agents for scientific research automation.",
+   "why": "Not stated in the abstract."
   },
   "themes": [
    "atomistic"
@@ -779,11 +779,11 @@
   "score": 6,
   "source": "Semiconductor Engineering",
   "summary": {
-   "by": "rules",
-   "how": "AMI is a high-frequency ultrasound technology, and it’s being used by the industry as an inspection method.",
-   "impact": "Background reading for Electronics thermal management & cooling.",
-   "what": "We all know how important inspection is for advanced packaging. Not only are these processes critical for ensuring higher yield, but they’re also integral for maintaining device reliability.",
-   "why": "However, the transducers used for AMI are not all the same."
+   "by": "claude",
+   "how": "A transducer sends ultrasound pulses, scanned across the sample; software analysis of the images supports accept or reject decisions.",
+   "impact": "Low relevance; packaging inspection, though delamination and thermal interface defects matter for thermal management industry context.",
+   "what": "An explainer of acoustic micro imaging (AMI), a high-frequency ultrasound inspection method for advanced packaging.",
+   "why": "Defects such as delaminations and air gaps cause electrical or mechanical failures and hurt yield and reliability as features shrink."
   },
   "themes": [
    "device"
@@ -817,11 +817,11 @@
   "star_delta": null,
   "stars": 867,
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
-   "what": "Graphics Processing Units Molecular Dynamics Topics: cuda, gpu, gpumd, heat-transport, high-performance-computing, machine-learning, machine-learning-potential, molecular-dynamics, molecular-dynamics-simulation, natural-evolution-strategies, neural-network, neuroevolution, phonon, physics-simulation, simulation.",
-   "why": ""
+   "by": "claude",
+   "how": "CUDA MD code; topics list heat transport, phonon, neuroevolution potentials and high-performance computing.",
+   "impact": "Relevant to the HPC and GPU-accelerated phonon work and to thermal MD with MLIPs (alongside LAMMPS); worth tracking as an NEP/HNEMD tool. Moderate to high relevance.",
+   "what": "GPUMD, a GPU-accelerated molecular dynamics code (CUDA) with machine-learning potentials, a repository entry.",
+   "why": "Not stated in the abstract."
   },
   "themes": [
    "atomistic"
@@ -854,11 +854,11 @@
   "star_delta": null,
   "stars": 46,
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to InGaAs alloy κ with self-trained MLIPs (MLPhonon, Phonon Olympics) (matched: MACE).",
-   "what": "uMLIP-Interactive: GUI & Python script generator for calculations with universal machine-learning interatomic potentials (uMLIPs): MACE, UMA, Orb, SevenNet, MatterSim, GRACE, DPA… Phonons, elastic constants, MD, NEB, geometry optimization Topics: bulk-modulus, chgnet, dpa, elastic-constants, elastic-properties, genetic-algorithm, geometry-optimization,…",
-   "why": ""
+   "by": "claude",
+   "how": "Supports phonons, elastic constants, MD, NEB and geometry optimization through a Streamlit interface.",
+   "impact": "Could speed up quick phonon checks and cross-model comparisons of universal MLIPs; relevant to MLPhonon-style workflows. Moderate relevance.",
+   "what": "A GUI and Python script generator for calculations with universal MLIPs (MACE, UMA, Orb, SevenNet, MatterSim, GRACE, DPA).",
+   "why": "Not stated in the abstract."
   },
   "themes": [
    "mlip"

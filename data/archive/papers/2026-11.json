@@ -28,11 +28,11 @@
   "score": 6,
   "source": "OpenAlex",
   "summary": {
-   "by": "rules",
-   "how": "Sb 3+ , Bi 3+ ), severely restricting the broader applicability of this lone‐pair‐based approach.",
-   "impact": "Background reading for Phonon & thermal transport.",
-   "what": "This work systematically expands the conventional application boundaries of the lone‐pair electron strategy and elucidates a fundamentally distinct mechanism for κ L reduction, providing a new theoretical basis for designing and developing novel high‐efficiency thermoelectric materials with intrinsically low κ L .",
-   "why": "However, this mechanism has long been considered to exist only in specific cations with ns 2 electron configurations (e.g."
+   "by": "claude",
+   "how": "The anionic lone pairs weaken Se-Se interactions, flatten optical phonon branches and enlarge the scattering phase space.",
+   "impact": "Moderate relevance for mechanism understanding: phase-space and anharmonicity arguments mirror the phonon analysis in lattice-dynamics workflows (ALAMODE, phono3py), though the material is a thermoelectric chalcogenide.",
+   "what": "CuInSnSe4 made by atomic cross-substitution from CuInSe2: anionic lone-pair-like Se electrons cut room-temperature κL from 4.48 to 1.26 W/m·K; predicted ZT of 1.99 (p-type) and 0.79 (n-type).",
+   "why": "Lone-pair strategies for lowering κL were thought limited to ns2 cations such as Sb3+ and Bi3+."
   },
   "themes": [
    "phonon"
@@ -68,11 +68,11 @@
   "score": 7,
   "source": "OpenAlex",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Phonon & thermal transport.",
-   "what": "Optical investigations reveal that both compounds exhibit reflectance above 75% in the visible region, indicating their capability for reducing solar heat absorption.",
-   "why": "ABSTRACT This investigation explores the structural, elastic, electronic, optical, thermal, and thermodynamic properties of silicide compounds (XAl 2 Si 2 , X = Y, La) using density functional theory (DFT)."
+   "by": "claude",
+   "how": "DFT with elastic constants, band structure with SOC, phonon dispersion and thermodynamic analysis.",
+   "impact": "Low relevance; routine DFT property survey of materials outside the listed projects.",
+   "what": "DFT study of the structural, elastic, electronic, optical and thermal properties of YAl2Si2 and LaAl2Si2.",
+   "why": "To evaluate the mechanical stability and potential thermoelectric, optoelectronic and UV-protection applications."
   },
   "themes": [
    "phonon"
@@ -112,11 +112,11 @@
   "score": 8,
   "source": "OpenAlex",
   "summary": {
-   "by": "rules",
-   "how": "Herein, Cu3Sb0.98Sn0.02Se4-x%PbSe composites were synthesized via an integrated microwave-hydrothermal and spark plasma sintering route.",
-   "impact": "Background reading for Phonon & thermal transport.",
-   "what": "These results demonstrate that PbSe incorporation provides an additional route for regulating the electrical and thermal transport properties of Sn-doped Cu3SbSe4.",
-   "why": "Abstract Eco-friendly Cu3SbSe4 is a promising mid-temperature thermoelectric material."
+   "by": "claude",
+   "how": "Microwave-hydrothermal synthesis with spark plasma sintering; heterointerfaces, point defects and grain boundaries scatter phonons; first-principles calculations of bands and phonon dispersion.",
+   "impact": "Low relevance; experimental thermoelectric synthesis, with only loose links to interface phonon scattering.",
+   "what": "Cu3Sb0.98Sn0.02Se4 with PbSe composites reaching peak zT of 0.77 at 623 K and power factor of 999.35 μW/m·K2.",
+   "why": "Sn doping optimizes thermoelectric properties but harms thermal properties of Cu3SbSe4."
   },
   "themes": [
    "phonon"
@@ -154,11 +154,11 @@
   "score": 11,
   "source": "OpenAlex",
   "summary": {
-   "by": "rules",
-   "how": "Synthesized via the shearing liquids into complex particles (SLICE) method, these Field’s metal (Bi/In/Sn) particles are encapsulated in a self-limiting 10 nm oxide shell, maintaining a metastable liquid state until mechanical rupture triggers spontaneous solidification.",
-   "impact": "Possibly relevant to GaN/AlGaN HEMT multiscale thermal modeling (MLIP → BTE → device) (matched: GaN, AlGaN, HEMTs).",
-   "what": "While initial μTP using compliant polydimethylsiloxane (PDMS) stamps achieved high transfer yields, cross-sectional analysis revealed incomplete coalescence due to insufficient pressure applied by the stamp.",
-   "why": "Abstract Heterogeneous integration of Gallium Nitride (GaN) high-electron-mobility transistors (HEMTs) via micro-transfer printing (μTP) offers a scalable route to address critical thermal management and integration challenges for high-power and high-frequency applications."
+   "by": "claude",
+   "how": "GaN/AlGaN coupons from Qromis wafers printed onto silicon; shear speed and distance optimized; a dual-stage process adds a rigid glass stamping step to get a dense metallic layer.",
+   "impact": "Relevant to the GaN/AlGaN HEMT project as industry context on thermal interfaces in heterogeneous GaN integration; the interface layer is a candidate boundary resistance in device-scale models. Moderate relevance.",
+   "what": "Heatless, room-temperature metal bonding for micro-transfer printed GaN HEMTs using undercooled liquid metallic core-shell Field's metal particles.",
+   "why": "Polymer adhesives in micro-transfer printing create a thermal bottleneck due to low thermal conductivity."
   },
   "themes": [
    "device"
@@ -197,11 +197,11 @@
   "score": 13,
   "source": "OpenAlex",
   "summary": {
-   "by": "rules",
-   "how": "Methods: VASP 5.4.4 with the projector augmented-wave method, PBE and HSE06 functionals and spin-orbit coupling throughout; phonons from finite displacements in a 2x2x2 supercell using Phonopy; electronic transport from BoltzTraP2 within the constant relaxation-time approximation, with the relaxation time taken from…",
-   "impact": "Background reading for First principles, lattice dynamics & thermal MD, Phonon & thermal transport.",
-   "what": "Lowering the lattice thermal conductivity further therefore cannot raise ZT in this family, and only the electronic side can be improved.",
-   "why": "Almost all reported measurements, however, are made on the room-temperature orthorhombic polymorph, and while the electronic structure of the cubic phase is established, its lattice dynamics and transport properties are not."
+   "by": "claude",
+   "how": "VASP with PBE and HSE06 plus SOC, phonopy finite displacements in a 2x2x2 supercell, BoltzTraP2 with a relaxation time from Fröhlich polaron theory; lattice κ at the Cahill-Pohl minimum of 0.475 W/m·K.",
+   "impact": "Low relevance; uses the same VASP and phonopy tools but with a standard harmonic workflow on a halide perovskite.",
+   "what": "First-principles study of cubic CsPbBr3 (above 403 K): electronic, optical, lattice dynamics and thermoelectric properties; ZT reaches 0.39 at 800 K. Conference poster for eNergetics 2026 (virtual, 23 to 24 Nov 2026).",
+   "why": "Most measurements are on the orthorhombic phase, while the lattice dynamics and transport of the cubic phase are not established."
   },
   "themes": [
    "atomistic",
@@ -418,11 +418,11 @@
   "score": 6,
   "source": "arXiv",
   "summary": {
-   "by": "rules",
-   "how": "We present a persistent socket interface that connects the landscape exploration tools in the GMIN, OPTIM, and PATHSAMPLE programs to potentials available through the Atomic Simulation Environment (ASE).",
-   "impact": "Background reading for Machine-learned interatomic potentials.",
-   "what": "Visualisation, mean first-passage times, and heat capacities enable us to connect the organisation of the landscape to relaxation time scales and thermodynamic observables.",
-   "why": "Energy landscape exploration requires extensive energy and force evaluations, making efficient access to interatomic potentials an important practical challenge."
+   "by": "claude",
+   "how": "The calculator and socket stay active through the search; kinetic transition networks, mean first-passage times and heat capacities describe vacancy migration.",
+   "impact": "Low relevance; a defect-kinetics method for Ga2O3, though it shows an ASE-to-MLIP workflow pattern.",
+   "what": "A persistent socket interface connects the GMIN, OPTIM and PATHSAMPLE energy-landscape tools to ASE-compatible potentials, applied to Ga vacancies in β-Ga2O3 with two NequIP-based potentials.",
+   "why": "Energy landscape exploration needs many energy and force evaluations, so efficient access to MLIPs is a practical challenge."
   },
   "themes": [
    "mlip"
@@ -454,11 +454,11 @@
   "score": 6,
   "source": "arXiv",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to MLIP reliability (interpretability, data efficiency, failure modes) (matched: interpretab).",
-   "what": "Here, we show how the high-dimensional bonding information from COGITO can be reduced into chemically useful descriptors of covalent bonding, charge transfer, and crystal-dependent atomic chemistry without collapsing the real-space origin of the interactions.",
-   "why": "First-principles calculations implicitly encode bonding and charge transfer, but converting periodic electronic structure into interpretable and transferable descriptors remains challenging."
+   "by": "claude",
+   "how": "Reduces the high-dimensional COGITO bonding information into descriptors of covalent bonding and charge transfer and decomposes band dispersion into range-resolved parts (silicon conduction band minimum as example).",
+   "impact": "Low relevance; possible use as interpretable features for MLIP latent-space or bonding analysis, but no thermal transport content.",
+   "what": "Builds interpretable bonding and charge-transfer descriptors from COGITO, which maps plane-wave DFT onto a minimal basis of adaptive atomic orbitals.",
+   "why": "Converting periodic electronic structure into interpretable, transferable descriptors remains challenging."
   },
   "themes": [
    "mlip"
@@ -490,11 +490,11 @@
   "score": 6,
   "source": "arXiv",
   "summary": {
-   "by": "rules",
-   "how": "Here, we present a methods validation study that deliberately overfits a physics-aware GNN ensemble to probe the robustness of feature-ranking approaches.",
-   "impact": "Possibly relevant to MLIP reliability (interpretability, data efficiency, failure modes) (matched: interpretab).",
-   "what": "Results demonstrate that feature attribution methods can remain physically interpretable even under overfitting, provided validation is rigorous.",
-   "why": "Graph neural networks (GNNs) show promise for predicting materials properties, but interpretability remains a challenge, particularly understanding whether attributed feature importance reflects physical reality or statistical artifacts."
+   "by": "claude",
+   "how": "About 900 binary and 4,500 ternary DFT decomposition pathways; perturbing single sites shows spatial decay consistent with the GNN interaction cutoff.",
+   "impact": "Relevant to the interest in MLIP and GNN interpretability, with a perturbation-based test that could be adapted to MLIPs. Moderate relevance; different material system.",
+   "what": "Validates feature attribution in a physics-aware GNN ensemble, deliberately overfit on CoMoFeNiCu decomposition enthalpies, using atomic-swap perturbations.",
+   "why": "It is unclear whether GNN feature importance reflects physical reality or statistical artifacts."
   },
   "themes": [
    "mlip"
@@ -526,11 +526,11 @@
   "score": 6,
   "source": "arXiv",
   "summary": {
-   "by": "rules",
-   "how": "Here, we develop a temperature dependent mobility law for screw dislocation, integrating thermal activation theory and relativistic effects.",
-   "impact": "Possibly relevant to GaN/Al₂O₃ interfaces and dislocation-core phonons (matched: dislocation).",
-   "what": "This work enables physically consistent predictions of strength and creep behavior across broad temperature and strain-rate regimes, advancing beyond phenomenological descriptions toward transparent, mechanism-based alloy design.",
-   "why": "Predicting plastic flow in body-centered cubic metals across temperature and strain-rate regimes requires distinguishing structural resistance from kinetic contributions."
+   "by": "claude",
+   "how": "Discrete dislocation dynamics tension and compression simulations at different dislocation densities; identifies the crossover where phonon drag overtakes thermal activation.",
+   "impact": "Low relevance; dislocation mechanics, with only a loose link to the dislocation-core phonon work (BaTiO3, GaN).",
+   "what": "Develops a temperature-dependent screw dislocation mobility law and a unified constitutive model for BCC metals from discrete dislocation dynamics.",
+   "why": "Predicting plastic flow across temperature and strain rates requires separating structural resistance from kinetic contributions."
   },
   "themes": [
    "interface"
@@ -721,11 +721,11 @@
   "score": 7,
   "source": "arXiv",
   "summary": {
-   "by": "rules",
-   "how": "The observed temperature dependence is well reproduced by a Bose-Einstein oscillator model with two characteristic phonon energies of approximately 8.9 meV and 1.2 meV.",
-   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
-   "what": "Furthermore, first-principles phonon calculations for the optimized crystal structure revealed peaks in the phonon density of states near these two characteristic energies.",
-   "why": "These results suggest that electron-phonon interactions play an important role in the anomalous temperature dependence of the optical band gap in TiNCl, with low- and higher-energy phonons contributing to the low-temperature decrease and the higher-temperature increase, respectively."
+   "by": "claude",
+   "how": "Temperature-dependent PL, diffuse reflectance and XRD, a Bose-Einstein oscillator fit (phonon energies about 8.9 and 1.2 meV) and first-principles phonon calculations.",
+   "impact": "Low relevance; electron-phonon physics in a different material, only loosely related to phonon calculations with phonopy.",
+   "what": "Reports a nonmonotonic temperature dependence of the optical band gap of layered TiNCl, with a minimum near 50 K.",
+   "why": "It contrasts with the monotonic decrease typical of conventional semiconductors."
   },
   "themes": [
    "atomistic"
@@ -761,11 +761,11 @@
   "score": 7,
   "source": "arXiv",
   "summary": {
-   "by": "rules",
-   "how": "Motivated by its importance for Na-ion batteries, we systematically evaluate existing pretrained foundation models based on the MACE architecture across different local Na/C motifs.",
-   "impact": "Possibly relevant to InGaAs alloy κ with self-trained MLIPs (MLPhonon, Phonon Olympics) (matched: MACE).",
-   "what": "To recover a DFT-level energetic description, we employ targeted fine-tuning, showing that it can describe the energetic stability of local motifs and achieve sufficient transferability to unseen Na/C environments.",
-   "why": "However, their reliability across competing bonding regimes and, more importantly, how complex bonding affects predictions of material properties remain unclear."
+   "by": "claude",
+   "how": "The pretrained models fail for Na-Na and Na-C interactions in metallic Na clusters on graphene; targeted fine-tuning gives transferability to unseen Na/C environments and links closed-pore radius to plateau voltage.",
+   "impact": "Relevant as a case of foundation-model failure and fine-tuning with MACE, informing the MACE vs Deep Potential comparison for InGaAs. Moderate relevance; application domain is batteries.",
+   "what": "Evaluates pretrained MACE-based foundation models on Na/C motifs in hard carbon and fine-tunes them to recover a DFT-level description.",
+   "why": "Reliability of foundation models across competing bonding regimes is unclear; relevant for Na-ion batteries."
   },
   "themes": [
    "mlip"
@@ -804,11 +804,11 @@
   "score": 7,
   "source": "arXiv",
   "summary": {
-   "by": "rules",
-   "how": "Using ultrafast stroboscopic optical scattering microscopy (stroboSCAT), we image spatiotemporal evolution of energy carriers with picosecond resolution, simultaneously resolving heat and charge transport in bulk black phosphorus and exciton transport in the monolayer.",
-   "impact": "Background reading for Phonon & thermal transport.",
-   "what": "The in-plane armchair:zigzag anisotropy increases from 5.3:1 in the bulk to 6.7:1 in the monolayer, driven by enhanced armchair exciton diffusivity (45.5 cm$^2$/s) relative to bulk armchair charge carriers (16.5 cm$^2$/s).",
-   "why": "Black phosphorus is an emerging low-dimensional semiconductor whose tunable band gap, high carrier mobility, and anisotropic transport make it attractive for directional energy transport in electronics and thermoelectrics."
+   "by": "claude",
+   "how": "Picosecond-resolution optical scattering microscopy plus first-principles calculations attributing the result to exciton-phonon scattering to large momenta along the zigzag direction.",
+   "impact": "Low relevance to the listed projects; anisotropy of transport is conceptually related to phonon direction asymmetry in BaTiO3.",
+   "what": "Ultrafast stroboSCAT imaging of heat, charge and exciton transport in black phosphorus: armchair:zigzag anisotropy rises from 5.3:1 in bulk to 6.7:1 in the monolayer.",
+   "why": "To resolve directional energy transport in an anisotropic low-dimensional semiconductor."
   },
   "themes": [
    "phonon"
@@ -847,11 +847,11 @@
   "score": 7,
   "source": "Crossref",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to GaN/AlGaN HEMT multiscale thermal modeling (MLIP → BTE → device) (matched: GaN, HEMTs).",
-   "what": "Therefore, the lattice temperature there is quickly raised to trigger thermal runaway at the drain.",
-   "why": "In this work, the mechanism of single-event burnout (SEB) in p-GaN gate HEMTs is thoroughly investigated by irradiation experiments and simulations."
+   "by": "claude",
+   "how": "Irradiation experiments, damage comparison, and simulated transient currents and temperature distributions; hole accumulation at GaN/AlN and electron accumulation at Si/AlN interfaces enhance impact ionization and lead to thermal runaway at the drain.",
+   "impact": "Some relevance to the GaN HEMT project, since lattice temperature rise and thermal runaway at the drain are device self-heating effects, although this is a radiation study. Low to moderate.",
+   "what": "Investigates single-event burnout in p-GaN gate HEMTs through Ta ion irradiation (67 MeV cm2/mg) and simulation, finding two failure modes and the drain edge as the most sensitive region.",
+   "why": "To explain the SEB mechanism in GaN power devices."
   },
   "themes": [
    "device"
@@ -889,11 +889,11 @@
   "score": 8,
   "source": "Crossref",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to GaN/AlGaN HEMT multiscale thermal modeling (MLIP → BTE → device) (matched: GaN, HEMT, HEMTs).",
-   "what": "The designed device demonstrates great application prospects in aerospace electronics.",
-   "why": "This work presents a single-event radiation-hardened p-GaN gate high electron mobility transistor with a grounded Schottky contact (GSC-HEMT)."
+   "by": "claude",
+   "how": "A source-connected Schottky contact on the barrier layer between gate and drain collects the holes.",
+   "impact": "Low relevance to the thermal-modeling projects (a radiation-hardness paper, not thermal), though it is context on GaN HEMT device trends.",
+   "what": "Presents a p-GaN gate HEMT with a grounded Schottky contact (GSC-HEMT) that achieves a single-event burnout voltage above 500 V under Ta ion irradiation (82.06 MeV cm2/mg).",
+   "why": "Irradiation-induced holes accumulate beneath the gate in conventional p-GaN HEMTs, raising the local field and gate leakage."
   },
   "themes": [
    "device"
@@ -924,11 +924,11 @@
   "score": 9,
   "source": "arXiv",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to InGaAs alloy κ with self-trained MLIPs (MLPhonon, Phonon Olympics) (matched: MACE).",
-   "what": "Here we identify local topology hallucination, in which distinct model minima relax into the same reference basin.",
-   "why": "Predicting metastable states with universal machine-learned interatomic potentials requires that they preserve the minima and saddles of the reference potential-energy surface."
+   "by": "claude",
+   "how": "Curvature signs from two of three models agreed with DFT in 55 of 57 positive but only 5 of 56 negative cases; a directional two-displacement DFT test rejected 9 of 12 predicted instabilities.",
+   "impact": "Directly relevant to MLIP failure modes in the MACE-based InGaAs/AlGaN/BAs work: spurious soft or unstable modes would corrupt lattice dynamics and phonon calculations in MLPhonon. Worth reading and adding a DFT check on imaginary modes.",
+   "what": "Identifies local topology hallucination in universal MLIPs: distinct model minima relax into the same DFT basin, due to curvature-sign errors shared by MACE, CHGNet and M3GNet.",
+   "why": "Predicting metastable states needs MLIPs to preserve the minima and saddles of the reference potential-energy surface."
   },
   "themes": [
    "mlip"
@@ -970,11 +970,11 @@
   "score": 9,
   "source": "arXiv",
   "summary": {
-   "by": "rules",
-   "how": "Here, we develop a highly efficient patterning and transfer technique to systematically fabricate and characterize suspended bilayer graphene (BLG) thermal bridges with lengths of 1-30 $μ$m.",
-   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
-   "what": "This lower bound reflects heat conduction in graphene under realistic device conditions and provides a reference for fundamental phonon transport studies and the integration of graphene into thermal management applications in electronic devices and chips.",
-   "why": "Although the thermal bridge method enables reliable measurements, sample fabrication remains challenging."
+   "by": "claude",
+   "how": "A patterning and transfer technique for thermal-bridge devices, measured from 250 to 350 K, plus homogeneous non-equilibrium MD simulations.",
+   "impact": "Related to interfacial and surface scattering of phonons (GaN/Al2O3 interfaces, grain boundaries); the ZA-suppression argument is a mechanism analogy. Low to moderate relevance.",
+   "what": "Fabricated suspended bilayer graphene thermal bridges (1 to 30 μm) and measured length-independent κ of about 570 W/m·K at room temperature; HNEMD shows about 0.01 monolayer of amorphous carbon suppresses ZA phonons.",
+   "why": "The intrinsic thermal conductivity of graphene remains controversial; the work seeks a lower bound under realistic contamination."
   },
   "themes": [
    "atomistic"
@@ -1010,11 +1010,11 @@
   "score": 9,
   "source": "Crossref",
   "summary": {
-   "by": "rules",
-   "how": "Here, we present a classical-to-density functional theory (DFT) multi-fidelity workflow for efficient dataset generation, in which long classical molecular dynamics trajectories are supplemented with selectively DFT-optimized configurations to train neural network potentials.",
-   "impact": "Background reading for Machine-learned interatomic potentials, First principles, lattice dynamics & thermal MD.",
-   "what": "This multi-fidelity strategy thus enables accurate and transferable MLIPs for complex solvated and interfacial systems, bridging the gap between computational efficiency and first-principles accuracy.",
-   "why": "Machine learning interatomic potentials (MLIPs) offer near–ab initio accuracy at a fraction of the cost of conventional electronic structure calculations, but their reliability depends critically on the quality and diversity of training data."
+   "by": "claude",
+   "how": "Tested on bulk water, the air-water interface, and CaSO4 in bulk water and at the interface; also tests extrapolation to other temperatures, pressures and interfacial geometries.",
+   "impact": "The data-efficiency idea (cheap classical sampling plus targeted DFT) could transfer to the AlGaN or BAs active-learning pipelines, but the systems are aqueous. Low to moderate relevance.",
+   "what": "A classical-to-DFT multi-fidelity workflow for generating MLIP training data, in which long classical MD trajectories are supplemented with selectively DFT-optimized configurations.",
+   "why": "MLIP reliability depends on the quality and diversity of the training data, which is costly to produce with DFT."
   },
   "themes": [
    "mlip",
@@ -1058,11 +1058,11 @@
   "score": 10,
   "source": "Crossref",
   "summary": {
-   "by": "rules",
-   "how": "Here we establish an interpretable machine learning framework integrating molecular simulations, six benchmarked models, and SHAP‐based feature analysis to screen over 52 000 topologically valid three‐dimensional COFs.",
-   "impact": "Possibly relevant to MLIP reliability (interpretability, data efficiency, failure modes) (matched: interpretab).",
-   "what": "Phonon‐level transport analyses show that intermediate density, strong covalent connectivity, moderate porosity, and low linker fragment complexity balance volumetric heat capacity, phonon group velocity, and phonon lifetime, enabling high κ while preserving low E.",
-   "why": "ABSTRACT Thermal management materials face a persistent challenge: high thermal conductivity ( κ ) and low Young's modulus (E) are often mutually exclusive."
+   "by": "claude",
+   "how": "Molecular simulations, six benchmarked ML models (random forest best), SHAP feature analysis and phonon-level transport analysis.",
+   "impact": "Low relevance to the listed projects (organic frameworks), but the SHAP-plus-phonon-analysis workflow is a transferable idea for interpretable ML on κ.",
+   "what": "Interpretable ML framework screens over 52,000 3D covalent organic frameworks and identifies 26 with κ above 0.8 W/m·K and Young's modulus below 8 GPa.",
+   "why": "High thermal conductivity and low stiffness are normally mutually exclusive in thermal management materials."
   },
   "themes": [
    "mlip"
@@ -1100,11 +1100,11 @@
   "score": 14,
   "source": "arXiv",
   "summary": {
-   "by": "rules",
-   "how": "We introduce IANN (InterAtomic Neural Network), an open-source PyTorch framework that reimplements equivariant graph neural networks - PaiNN, NequIP, MACE, Allegro, EquiformerV2, EquiformerV3 and UMA - behind a unified data object, a unified trainer and a single deployment route, so that the architecture is a…",
-   "impact": "Possibly relevant to InGaAs alloy κ with self-trained MLIPs (MLPhonon, Phonon Olympics) (matched: MACE).",
-   "what": "We further release PaiNN foundation models trained on 41.9 million curated DFT structures from MPtrj, Alexandria, OMat24, MatPES, OC20, OC22, OC25, MPr2SCAN and MatPESr2SCAN, spanning the PBE, RPBE and r2SCAN…",
-   "why": "Machine-learning interatomic potentials (MLIPs) now approach density functional theory (DFT) accuracy at a fraction of its cost, but the practical benefit is limited by software fragmentation: each state-of-the-art architecture is released as a separate codebase, with its own data format, configuration system,…"
+   "by": "claude",
+   "how": "Forces and stresses come from one analytic differentiation w.r.t. edge vectors; automatic distributed training under SLURM/PBS/MPI; checkpoints work as ASE calculators, ensembles, or TorchScript models in LAMMPS via C++ pair styles with multi-GPU inference.",
+   "impact": "Useful for the InGaAs (DeePMD vs MACE) and AlGaN MLIP pipelines and MLPhonon: one framework to compare architectures on the same data and deploy into LAMMPS. Worth testing.",
+   "what": "Introduces IANN, an open-source PyTorch framework reimplementing PaiNN, NequIP, MACE, Allegro, EquiformerV2/V3 and UMA behind one data object, trainer and deployment route; also releases PaiNN foundation models trained on 41.9 million DFT structures.",
+   "why": "Software fragmentation makes comparing MLIP architectures or moving a trained model into production simulations require heavy re-engineering."
   },
   "themes": [
    "mlip",
@@ -1146,11 +1146,11 @@
   "score": 17,
   "source": "Watched authors",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to GaN/AlGaN HEMT multiscale thermal modeling (MLIP → BTE → device) (matched: self-heating); Phonon band discretization for deterministic BTE (JAX-BTE) (matched: FDTR).",
-   "what": "Our experimental observations are supported by prior predictions, which suggest that the low thermal conductivity of $κ$-Ga$_2$O$_3$ results from its complex crystal structure, which leads to increased anharmonicity and lower phonon group velocities relative to other polymorphs.",
-   "why": "The thermal conductivities of (001) $κ$-Ga$_2$O$_3$ thin films deposited on $c$-plane sapphire substrates were measured with frequency-domain thermoreflectance (FDTR)."
+   "by": "claude",
+   "how": "Frequency-domain thermoreflectance (293 to 400 K) combined with first-principles calculations including phonon-phonon and phonon-boundary scattering.",
+   "impact": "Relevant to the GaN/AlGaN HEMT and GaN/Al2O3 interface projects: a template for size-dependent κ with first-principles BTE and an FDTR benchmark for wide-bandgap films (McGaughey group, a watched author). Moderate relevance.",
+   "what": "Measured cross-plane thermal conductivity of (001) κ-Ga2O3 thin films on sapphire by FDTR: 1.83 to 2.26 W/m·K for 159 to 689 nm thickness.",
+   "why": "To understand thermal limits and self-heating of κ-Ga2O3 electronics, whose thermal conductivity is lower than other Ga2O3 polymorphs."
   },
   "themes": [
    "device",

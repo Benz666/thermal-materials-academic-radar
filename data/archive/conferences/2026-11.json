@@ -16,11 +16,11 @@
   "score": 2,
   "source": "Journal calls",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Industry & tools.",
-   "what": "Altermagnetic materials Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
-   "why": ""
+   "by": "claude",
+   "how": "Submission status Open; deadline 30 June 2027.",
+   "impact": "Low relevance; no project involves altermagnetism.",
+   "what": "Cross-journal collection on altermagnetic materials across Nature Communications, Communications Materials and Scientific Reports.",
+   "why": "Altermagnets combine zero net magnetization with strong spin polarization, giving unconventional magneto-responses."
   },
   "themes": [
    "industry"
@@ -49,11 +49,11 @@
   "score": 3,
   "source": "Journal calls",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: high-throughput).",
-   "what": "Materials-AI Bidirectional Innovation Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
-   "why": ""
+   "by": "claude",
+   "how": "Submission status Open; deadline 20 July 2027.",
+   "impact": "Open until July 2027. Would fit an agents or automated-workflow paper for first-principles and lattice-dynamics calculations; worth considering.",
+   "what": "npj Computational Materials collection on Materials-AI bidirectional innovation: AI for materials discovery and autonomous platforms, and materials for AI hardware.",
+   "why": "AI and materials science are increasingly bidirectional."
   },
   "themes": [
    "industry"
@@ -81,11 +81,11 @@
   "score": 4,
   "source": "Journal calls",
   "summary": {
-   "by": "rules",
-   "how": "The integration of computational material methods, artificial intelligence technology, and advanced in-situ experimental characterization techniques constitutes a foundational approach for unraveling the microstructural transport mechanisms within energy…",
-   "impact": "Background reading for Phonon & thermal transport.",
-   "what": "Transport Mechanisms in Energy Materials Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
-   "why": "The advancement of cutting-edge energy materials stands as a crucial cornerstone in driving the transition towards a new energy-driven economy."
+   "by": "claude",
+   "how": "Submission status Closed; deadline was 31 October 2024.",
+   "impact": "Closed, not submittable; topically fits phonon transport work, useful as a venue signal only.",
+   "what": "npj Computational Materials collection on transport mechanisms in energy materials (thermal transport in thermoelectrics, ion and charge transport), combining computation, AI and in-situ characterization.",
+   "why": "Transport of electrons and ions limits energy conversion and storage efficiency."
   },
   "themes": [
    "phonon"
@@ -114,11 +114,11 @@
   "score": 5,
   "source": "Journal calls",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to MLIP reliability (interpretability, data efficiency, failure modes) (matched: interpretab).",
-   "what": "Machine Learning Interatomic Potentials in Computational Materials Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS.",
-   "why": "Advertisement Collection 06 November 2024 Machine Learning Interatomic Potentials in Computational Materials Submission status Closed Submission deadline 14 December 2025 Machine learning interatomic potentials (MLIPs) have become an essential tool to enable long-time scale simulations of materials and molecules at…"
+   "by": "claude",
+   "how": "Submission status Closed; deadline was 14 December 2025.",
+   "impact": "Closed, so cannot be submitted to; topics (interpretability, data efficiency, robustness) match the MLIP work, so use it as a venue reference.",
+   "what": "npj Computational Materials collection on machine learning interatomic potentials: architectures, data generation, sampling and applications.",
+   "why": "MLIPs are essential for long-time-scale simulations at high accuracy."
   },
   "themes": [
    "mlip"
