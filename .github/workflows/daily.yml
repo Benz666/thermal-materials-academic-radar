@@ -2,7 +2,7 @@ name: Daily radar
 
 on:
   schedule:
-    - cron: "0 11 * * *"        # 11:00 UTC = 6–7 am US Eastern
+    - cron: "0 10 * * *"        # 10:00 UTC = 5 am Indiana (EST); Claude routine follows at 11:00 UTC
   workflow_dispatch:
   push:
     branches: [main]

@@ -5,7 +5,7 @@ import datetime as dt
 import html
 import shutil
 
-from .common import DATA, PUBLIC, ROOT, load_yaml, read_json, today, write_json
+from .common import DATA, PUBLIC, ROOT, latex_to_unicode, load_yaml, read_json, today, write_json
 from .score import get_scorer
 
 SITE_TITLE = "Thermal Materials Academic Radar"
@@ -34,6 +34,7 @@ def _shell(page: str) -> str:
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="icon" type="image/svg+xml" href="{depth}assets/favicon.svg">
 <link rel="stylesheet" href="{depth}assets/style.css">
 <link rel="alternate" type="application/rss+xml" title="{SITE_TITLE}" href="{depth}feed.xml">
 </head>
@@ -120,6 +121,10 @@ def build() -> None:
             items = read_json(f, [])
             for it in items:
                 it.pop("page_excerpt", None)
+                for k in ("title", "abstract"):
+                    it[k] = latex_to_unicode(it.get(k, ""))
+                if isinstance(it.get("summary"), dict):
+                    it["summary"] = {k: latex_to_unicode(v) if isinstance(v, str) else v for k, v in it["summary"].items()}
             write_json(PUBLIC / "data" / cat / f.name, items)
             months.append({"month": f.stem, "count": len(items)})
             if len(recent) < 300:

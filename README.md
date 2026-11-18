@@ -18,10 +18,10 @@ card shows a short **What / Why / How / Impact** summary and the original link.
 
 ## How it runs
 
-1. **GitHub Actions, daily 11:00 UTC, no LLM** — fetch, deduplicate, score
+1. **GitHub Actions, daily 10:00 UTC, no LLM** — fetch, deduplicate, score
    against `config/topics.yaml`, cap per day, write rule-based summaries,
    archive to `data/archive/<page>/<YYYY-MM>.json`, build `public/`, deploy to Pages.
-2. **Claude routine, daily** — reads `data/llm_queue.json`, writes better
+2. **Claude routine, daily 11:00 UTC (Sonnet 5.5)** — reads `data/llm_queue.json`, writes better
    summaries and weekly special-issue / conference checks to `data/llm_out/`
    (see `CLAUDE_ROUTINE.md`). The push triggers the Action to merge and redeploy.
 
