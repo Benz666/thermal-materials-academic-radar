@@ -2,12 +2,18 @@ name: Daily radar
 
 on:
   schedule:
-    # GitHub may start scheduled runs hours late (or drop them), so there are
-    # three tries; the first one that starts does the work, the others skip.
-    - cron: "0 10 * * *"        # 10:00 UTC = 5 am EST / 6 am EDT
-    - cron: "0 11 * * *"        # 6 am EST
-    - cron: "30 12 * * *"
+    # Primary trigger: the owner's always-on Ubuntu machine dispatches this
+    # workflow at 6 am US Eastern (systemd timer, input auto=true).
+    # GitHub's own schedule can start hours late, so these are only backups;
+    # every automatic trigger skips if today's run already happened.
+    - cron: "0 12 * * *"        # 7 am EST / 8 am EDT
+    - cron: "30 13 * * *"       # 8:30 am EST
   workflow_dispatch:
+    inputs:
+      auto:
+        description: "Automatic daily trigger (skip if already ran today)"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -40,7 +46,7 @@ jobs:
           last=$(python3 -c "import json;print(json.load(open('data/health.json')).get('run',''))" 2>/dev/null || true)
           lastday=$([ -n "$last" ] && TZ=America/New_York date -d "$last" +%F || echo none)
           today=$(TZ=America/New_York date +%F)
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$lastday" = "$today" ]; then
+          if { [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.auto }}" = "true" ]; } && [ "$lastday" = "$today" ]; then
             echo "Already ran today ($last); skipping."; echo "skip=true" >> "$GITHUB_OUTPUT"
           else echo "skip=false" >> "$GITHUB_OUTPUT"; fi
 
