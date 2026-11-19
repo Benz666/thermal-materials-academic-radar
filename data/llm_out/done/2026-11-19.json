@@ -1,0 +1,145 @@
+{
+ "summaries": {
+  "db6b0a21a591dfbc": {
+   "what": "Inserts a thin, highly conducting AlN space layer above the source in GaN HEMT structures to reduce lateral heat-spreading resistance, tested with NEMD and full-band phonon Monte Carlo under equilibrium and LO-pumped heating.",
+   "why": "Lateral spreading dominates near-junction heat dissipation in GaN HEMTs, but thermal control has overlooked this geometry and the spectral non-equilibrium of the heat source.",
+   "how": "NEMD paired with full-band phonon MC (plus gray MC) on GaN, AlGaN/GaN and AlGaN/AlN/GaN, scanning AlN thickness and interfacial bonding. In equilibrium the AlN layer lowers spreading resistance by 38% vs the AlGaN-capped structure and 17% vs bare GaN. Under LO pumping it rises by 58-83% (NEMD) and 9-20% (MC), explained by a series resistance network of optical-to-acoustic conversion, interface admission and lateral diversion.",
+   "impact": "Highly relevant to the GaN/AlGaN HEMT multiscale thermal modeling project: the non-equilibrium source and interface-admission picture bears directly on the MLIP→BTE→device self-heating chain and on the GaN/Al₂O₃ interface work.",
+   "relevance": 5
+  },
+  "ea18572b7544e422": {
+   "what": "Benchmarks ten open-source universal MLIPs on zirconia using phonon dispersions and variable-cell NPT MD to see if they reproduce the monoclinic-tetragonal-cubic sequence.",
+   "why": "Most uMLIP benchmarks test only static properties and do not check whether the correct phase-transition sequence is reproduced.",
+   "how": "Four models (7net-l3i5, MatterSim-v1.0.0-1M, MACE-mpa, MACE-D3) reproduce the sequence; models with orthorhombic-tetragonal energy errors above about 10 meV/atom give a spurious orthorhombic phase; ORB-based models have phonon frequencies compressed by 30-60% and fail. Polymorph energies within about 6 meV/atom of DFT and no systematic phonon softening are proposed as screening diagnostics.",
+   "impact": "Relevant to MLIP failure-mode work (InGaAs MACE vs Deep Potential, MLPhonon, Phonon Olympics): the phonon-softening and energetics screening diagnostics could be used as quick checks before running thermal transport.",
+   "relevance": 4
+  },
+  "f6997bfdef885a36": {
+   "what": "Trains a DeePMD-kit potential on DFT data and uses NEMD to compute interfacial thermal conductance in lateral MoSe₂/MoS₂ heterostructures with armchair and zigzag interfaces.",
+   "why": "Managing heat flow across interfaces in lateral 2D TMD heterostructures is a key challenge for nanoelectronic and optoelectronic devices.",
+   "how": "Potential matches DFT energies, forces and phonon dispersions; cells 10-40 nm extrapolated to infinite length give ITC of 473 MW/m²K (armchair) vs 387 MW/m²K (zigzag), both rising with temperature. VDOS shows more phonon spectral overlap at the armchair interface.",
+   "impact": "Methodologically close to the Deep Potential + NEMD interface workflow in the InGaAs and GaN/Al₂O₃ interface projects; the length extrapolation and VDOS-overlap analysis are reusable. The material system is different.",
+   "relevance": 4
+  },
+  "9c1df464e235d6c4": {
+   "what": "Review of thermoelectric materials across inorganic, 2D, organic and topological systems, covering strategies to suppress lattice thermal conductivity and optimise power factor.",
+   "why": "Maximizing zT requires decoupling Seebeck coefficient, electrical conductivity and thermal conductivity.",
+   "how": "Literature survey; discusses anharmonicity, defect engineering, heterointerfaces, four-phonon scattering, wave-like phonon tunneling and ML-accelerated calculations.",
+   "impact": "Low relevance as a thermoelectrics-focused review, though the four-phonon, wave-like tunneling and ML sections give a useful reference list for the BAs and BTE projects.",
+   "relevance": 2
+  },
+  "1c6378272f547746": {
+   "what": "First-principles calculation of ground-state structures of fifteen [111]-oriented perovskite oxide ferroelectric superlattices, finding a ferroelectric ground state in eleven.",
+   "why": "To understand how ferroelectric distortions and octahedral rotations together determine superlattice properties.",
+   "how": "DFT ground-state structures, with Γ-point phonon analysis of distortions and force-constant analysis; compares [111] and [100] growth stability.",
+   "impact": "Low relevance. It covers BaTiO₃/SrTiO₃ systems but addresses ferroelectricity, not thermal transport; only the force-constant analysis is loosely related to the BaTiO₃/SrTiO₃ projects.",
+   "relevance": 2
+  },
+  "399375d242cd64ac": {
+   "what": "Presents JAXRENS, a GPU-native, multi-GPU nested sampling framework in JAX that interoperates with modern MLIPs, applied to the ZnS phase diagram with a MACE foundation model.",
+   "why": "Thermodynamic sampling has not kept pace with equivariant MLIP accuracy, blocking finite-temperature phase stability predictions.",
+   "how": "Vectorised walker ensembles and distributed multi-GPU execution; the converged ZnS run needed about 10^10 model evaluations and finished in six days on four GPUs.",
+   "impact": "Relevant to the JAX/GPU HPC and MACE workflow side of the projects (JAX-BTE, InGaAs MACE). It is a sampling method rather than thermal transport, but the JAX-MLIP interoperability patterns are transferable. Co-author Jesús Carrete is a watched author.",
+   "relevance": 4
+  },
+  "4404463a86f8b0c5": {
+   "what": "Experimental study of Ar and Kr heavy-ion irradiation of AlGaN/GaN HEMTs: drain current and transconductance degrade by less than 10%, while Kr causes more gate leakage and breakdown degradation.",
+   "why": "To assess radiation tolerance of AlGaN/GaN HEMTs.",
+   "how": "Device electrical measurements before and after irradiation at 1.0 × 10^7 ions/cm², with SRIM simulations showing Kr generates more vacancies.",
+   "impact": "Low relevance: no thermal analysis, though it concerns the GaN HEMT device class of the multiscale thermal modeling project.",
+   "relevance": 1
+  },
+  "4012abe1fb0a7991": {
+   "what": "Develops neuroevolution potentials (NEP) for (Bi1–xSbx)2Te3 and uses large-scale MD to study elastic anisotropy, lattice thermal conductivity across compositions and bipolar conduction.",
+   "why": "Bi2Te3-based alloys are the leading room-temperature thermoelectrics and need efficient atomistic models of disordered alloys.",
+   "how": "NEP trained on first-principles data reproduces ab initio elastic constants, phonon dispersions and lattice parameters. Alloy κ follows a Klemens-type model and nearly matches experiment. Transferability is tested on interfacial transport between Bi2Te3 and a second material (abstract truncated).",
+   "impact": "Relevant to the InGaAs alloy MLIP project (κ across compositions, alloy scattering, MLIP comparison) and as another example of GPU-efficient MLIPs for transport.",
+   "relevance": 4
+  },
+  "c6131adbc017c502": {
+   "what": "DFT study of dislocations in SrTiO₃, finding strong local distortions (strain up to 0.17), induced polarization up to 46 µC/cm², phonon modes at 600-1000 cm⁻¹, reduced bandgap and carrier accumulation at cores.",
+   "why": "Dislocations strongly alter structural and electrical properties of SrTiO₃, a prototypical perovskite.",
+   "how": "Density functional theory on dislocation cells with Bader charge analysis.",
+   "impact": "Relevant to the BaTiO₃ dislocation and SrTiO₃ grain-boundary projects: the dislocation-core localized phonon modes are a direct comparison point, although thermal conductivity is not computed.",
+   "relevance": 4
+  },
+  "aa285721834b6f4e": {
+   "what": "Reports an n-type Bi0.75Sb0.25Te0.7S0.15Se0.15 thermoelectric with local compositional fluctuations reaching peak ZT of about 0.64 at 377 K.",
+   "why": "BiTe thermoelectrics face carrier-mobility trade-offs that limit efficiency.",
+   "how": "Experimental alloying; conduction band flattening and dense dislocations give lattice thermal conductivity of 0.37 W/mK at 377 K and power factor of about 14.7 µW cm⁻¹K⁻².",
+   "impact": "Low relevance: experimental synthesis work. The dislocation-phonon scattering claim is only loosely connected to the dislocation projects.",
+   "relevance": 1
+  },
+  "3305cb5e850eaf3a": {
+   "what": "Technical note on Matlantis PFP v9, a universal MLIP with r2SCAN training data extended to 96 elements and to clusters and adsorption structures.",
+   "why": "PFP v8's r2SCAN data covered limited elements and domains.",
+   "how": "Formation energies match experiment as well as for previously supported elements; adsorption energy errors are comparable to DFT-PBE, with chemisorbed species overbound. Forces are 3-4 times faster than SevenNet-Omni on an A100, with 5-10 times larger systems.",
+   "impact": "Low-moderate relevance: a commercial uMLIP focused on formation and adsorption energies, with no phonon or thermal transport results stated; only useful as a reference point among uMLIPs.",
+   "relevance": 2
+  },
+  "af604541bc3583d7": {
+   "what": "First-principles study of Janus BrClM (M = Ti, Zr, Hf) monolayers covering band gaps, surface dipoles and optical response, plus a restricted-domain MACE potential evaluation.",
+   "why": "To identify candidate composition-tunable ultrathin optoelectronic materials.",
+   "how": "Not stated in the abstract (the text is truncated); MACE was evaluated on finite-temperature and phonon-displacement configurations, restricted to the assessed domain.",
+   "impact": "Low relevance: optoelectronic focus; the restricted-domain MACE caveat is a small note on MLIP applicability limits.",
+   "relevance": 2
+  },
+  "51592b525c61fc70": {
+   "what": "Derives a generalized linear response theory for nonequilibrium steady states, extending Onsager's regression hypothesis and generalizing Green-Kubo relations to nonequilibrium systems with memory.",
+   "why": "Active, chemically driven materials with long-lasting mechanical memory lack a general hydrodynamic description.",
+   "how": "Stationary correlation identities without the Mori-Zwanzig projection formalism; applied to chemically driven active fluids, where active memory can give a negative storage modulus at finite frequency.",
+   "impact": "Low relevance: soft-matter and active-fluid focus. The Green-Kubo generalization is of theoretical interest for non-equilibrium transport but is not directly applicable to the phonon projects.",
+   "relevance": 2
+  },
+  "db55e7ec92e03afd": {
+   "what": "Combines dielectric measurements of photopolymerizing AESO with MACE-OFF23 evaluation of dihedral rotation barriers against DFT.",
+   "why": "To understand orientational defects and mobility changes during bio-based polymer network curing.",
+   "how": "MACE reproduces the shape of five dihedral profiles (Pearson r = 0.95-0.98) and the barrier hierarchy, but underestimates barrier heights by 3-20%.",
+   "impact": "Low relevance: polymer curing, but the systematic barrier underestimation is another example of MLIP softening that matters for failure-mode analysis.",
+   "relevance": 2
+  },
+  "4db1a399589b75a0": {
+   "what": "MD of molten LiF comparing classical Buckingham and BHM potentials with MACE-MP-0b3 and a fine-tuned version.",
+   "why": "Classical potentials under-predict viscosity and melting point.",
+   "how": "Out-of-the-box MACE-MP-0b3 reproduces experimental shear viscosity and raises the melting point, though the fine-tuned and foundation models differ markedly. The microscopic analysis shows more elastic long-wavelength collective motion in the MLIPs.",
+   "impact": "Moderately relevant as a foundation-model vs fine-tuned MACE comparison for transport properties (viscosity via Green-Kubo-type analysis), useful for the MACE-based InGaAs work; molten salts are a different system.",
+   "relevance": 3
+  },
+  "6f868dee001bc5d7": {
+   "what": "Article on vertical power delivery networks for AI accelerators, where voltage regulators move closer to the processor (under the PCB, in the package or in the interposer).",
+   "why": "Chips near 0.7 V at 600W draw about 1,000 A, and resistive losses and voltage droop make power delivery a performance limiter.",
+   "how": "Survey of architectures: backside PDNs, on-die decoupling capacitors and integrated voltage regulators in packages and interposers.",
+   "impact": "Indirect relevance to electronics thermal management trends: higher current density and closer-in regulators raise local heat flux. No thermal analysis is stated in the excerpt.",
+   "relevance": 2
+  },
+  "788e6447428af8f6": {
+   "what": "Article on detachable fiber connectors for near- and co-packaged optics (NPO, CPO).",
+   "why": "Moving optics toward the chip package reduces electrical path length but needs new fiber attachment approaches; no standard interface exists.",
+   "how": "Overview of bespoke connector designs and the reliability concerns around lasers.",
+   "impact": "Low relevance: packaging and photonics interconnect, with only a passing thermal mention.",
+   "relevance": 1
+  },
+  "1a0095576dc08cf7": {
+   "what": "Intel Foundry summary of 14 SEMICON West 2026 presentations on end-to-end metrology, analytics and standards for yield management and factory autonomy.",
+   "why": "Increasingly complex devices demand better yield, quality and manufacturing speed.",
+   "how": "Predictive process control from continuous measurement and monitoring, plus interoperable platforms and test infrastructure.",
+   "impact": "Low relevance: manufacturing and metrology, with no thermal or phonon content stated.",
+   "relevance": 1
+  },
+  "7760b66047188c56": {
+   "what": "choderalab/openmmtools, a toolkit for the GPU-accelerated OpenMM engine providing integrators, MCMC, replica exchange and free-energy tools in Python.",
+   "why": "Not stated in the abstract.",
+   "how": "Python library built on OpenMM; topics include alchemical free energy, integrators and replica exchange.",
+   "impact": "Low relevance: biomolecular-oriented MD tooling; the projects use LAMMPS. Possible use is its integrators if OpenMM is adopted.",
+   "relevance": 2
+  },
+  "543284662f474bae": {
+   "what": "CAD design and conjugate heat transfer CFD of a helically swirled tube heat exchanger cooled by an Al2O3-CuO-CNT hybrid nanofluid, in COMSOL with k-e turbulence.",
+   "why": "Not stated in the abstract.",
+   "how": "SolidWorks CAD and COMSOL simulation, validated by hand calculations.",
+   "impact": "Low relevance: macroscale CFD heat-exchanger study unrelated to the phonon and MLIP projects.",
+   "relevance": 1
+  }
+ },
+ "new_items": []
+}

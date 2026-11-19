@@ -1,5 +1,189 @@
 [
  {
+  "abstract": "A batteries-included toolkit for the GPU-accelerated OpenMM molecular simulation engine. Topics: alchemical-free-energy-calculations, free-energy-calculations, integrators, markov-chain-monte-carlo, mcmc, molecular-dynamics, molecular-simulations, openmm, python, replica-exchange.",
+  "authors": [
+   "choderalab"
+  ],
+  "cat": "industry",
+  "created": "2014-10-19",
+  "doi": "",
+  "first_seen": "2026-11-19",
+  "focus": "",
+  "id": "7760b66047188c56",
+  "kind": "repo",
+  "kw_score": 0,
+  "matched": [
+   "simulation",
+   "GPU"
+  ],
+  "published": "2026-11-19",
+  "relevance": 2,
+  "score": -3,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 344,
+  "summary": {
+   "by": "claude",
+   "how": "Python library built on OpenMM; topics include alchemical free energy, integrators and replica exchange.",
+   "impact": "Low relevance: biomolecular-oriented MD tooling; the projects use LAMMPS. Possible use is its integrators if OpenMM is adopted.",
+   "what": "choderalab/openmmtools, a toolkit for the GPU-accelerated OpenMM engine providing integrators, MCMC, replica exchange and free-energy tools in Python.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "choderalab/openmmtools",
+  "url": "https://github.com/choderalab/openmmtools",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "CAD design and conjugate heat transfer CFD simulation of a helically swirled tube heat exchanger cooled by a hybrid Al2O3-CuO-CNT nanofluid, solved in COMSOL Multiphysics with turbulent k-e flow and validated by hand calculations. Topics: cad, cfd, comsol-multiphysics, conjugate-heat-transfer, fluid-dynamics, heat-exchanger, heat-transfer, nanofluid, simulation, solidworks.",
+  "authors": [
+   "fraisasghar"
+  ],
+  "cat": "industry",
+  "created": "2026-02-11",
+  "doi": "",
+  "first_seen": "2026-11-19",
+  "focus": "",
+  "id": "543284662f474bae",
+  "kind": "repo",
+  "kw_score": 0,
+  "matched": [
+   "multiphysics",
+   "simulation"
+  ],
+  "published": "2026-11-19",
+  "relevance": 1,
+  "score": -6,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 53,
+  "summary": {
+   "by": "claude",
+   "how": "SolidWorks CAD and COMSOL simulation, validated by hand calculations.",
+   "impact": "Low relevance: macroscale CFD heat-exchanger study unrelated to the phonon and MLIP projects.",
+   "what": "CAD design and conjugate heat transfer CFD of a helically swirled tube heat exchanger cooled by an Al2O3-CuO-CNT hybrid nanofluid, in COMSOL with k-e turbulence.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "fraisasghar/CAD-and-Simulation-of-Swirled-Tube-Heat-Exchanger",
+  "url": "https://github.com/fraisasghar/CAD-and-Simulation-of-Swirled-Tube-Heat-Exchanger",
+  "venue": "GitHub",
+  "watched": []
+ },
+ {
+  "abstract": "With the growth of increasingly complex devices, improving yield, quality, and manufacturing speed requires a new approach. Across 14 presentations and posters presented at SEMICON West 2026, Intel Foundry leaders and engineers shared research and emerging solutions for the AI-ready foundry of the future. By combining end-to-end metrology, intelligent analytics, and industry-wide standards, we can unlock scalable innovation for our customers. Semiconductor manufacturing is shifting from isolated optimization to connected intelligence, according to Intel Foundry’s Lalitha Immaneni, vice president of semiconductor research and development, advanced packaging technology and manufacturing (APTM), in her keynote at the conference. Factory autonomy will not emerge from AI alone. It requires a system-first mindset based on a common foundation of trusted measurements, interoperable platforms, and advanced test infrastructure.¹ End-to-end metrology for proactive yield management For decades, metrology has served as a critical manufacturing checkpoint. Today, it is evolving into a control layer for proactive yield management. Modern semiconductor manufacturing demands more advanced metrology and defect control to address rising contamination risks, process sensitivities, and defectivity challenges. Hidden interactions among materials, equipment, chemicals, packaging polymers, and fab environments can undermine yield and often go undetected until late-stage manufacturing, increasing costs and slowing production. Rather than reacting to failures after they occur, semiconductor manufacturers like Intel Foundry are using predictive process control supported by continuous measurement and monitoring.² The requirement for end-to-end visibility does not stop at wafer fabrication. The…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-19",
+  "focus": "",
+  "id": "1a0095576dc08cf7",
+  "kind": "news",
+  "kw_score": 5,
+  "matched": [
+   "chiplet",
+   "semiconductor",
+   "packaging",
+   "materials"
+  ],
+  "published": "2026-11-19",
+  "relevance": 1,
+  "score": -1,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Predictive process control from continuous measurement and monitoring, plus interoperable platforms and test infrastructure.",
+   "impact": "Low relevance: manufacturing and metrology, with no thermal or phonon content stated.",
+   "what": "Intel Foundry summary of 14 SEMICON West 2026 presentations on end-to-end metrology, analytics and standards for yield management and factory autonomy.",
+   "why": "Increasingly complex devices demand better yield, quality and manufacturing speed."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "From Metrology To Autonomy: Scaling Yield, Quality, And Innovation",
+  "url": "https://semiengineering.com/from-metrology-to-autonomy-scaling-yield-quality-and-innovation/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Key Takeaways: AI accelerators and GPUs consume thousands of amperes at increasingly low voltages, causing a shift to vertical power delivery that brings regulation closer to loads. Advances in integrated voltage regulators and passive components are enabling new power architectures. Power delivery is becoming a system-level co-design challenge, expanding simulation needs and the role of OSATs. Power delivery is now a significant performance limiter in data center chips. The demands of AI and high-performance computing chips running near 0.7 V for a 600W GPU are forcing current to rise to 1,000 amps and beyond, compounding resistive losses and voltage droop across the PDN. Multi-chiplet constructions only compound these issues by further increasing current density and signal congestion. To solve these challenges, designers are turning to vertical power delivery networks, where the voltage regulator modules are relocated much closer to the processors from their position on the device periphery — to the PCB landside (under the PCB), inside the accelerator package, or inside the silicon interposer. Together with the growing customization of AI accelerator modules, there are many approaches on offer with varying design and manufacturing complexity. The vertical PDN trend began nearly a decade ago with the integration of backside power delivery networks (BPDNs) on the wafer backside, enabling fine-tuned power delivery more directly to the transistors while reducing IR drop across the tens of interconnect levels on-chip. That approach is being extended with increasingly sophisticated on-die decoupling capacitors (DCaps) formed in deep trenches as part of the BPDN. While this addresses high-frequency decoupling at the chip level, recent changes inside packages, interposers,…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-19",
+  "focus": "",
+  "id": "6f868dee001bc5d7",
+  "kind": "news",
+  "kw_score": 6,
+  "matched": [
+   "chiplet",
+   "transistor",
+   "semiconductor",
+   "substrate",
+   "simulation",
+   "GPU"
+  ],
+  "published": "2026-11-19",
+  "relevance": 2,
+  "score": 3,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Survey of architectures: backside PDNs, on-die decoupling capacitors and integrated voltage regulators in packages and interposers.",
+   "impact": "Indirect relevance to electronics thermal management trends: higher current density and closer-in regulators raise local heat flux. No thermal analysis is stated in the excerpt.",
+   "what": "Article on vertical power delivery networks for AI accelerators, where voltage regulators move closer to the processor (under the PCB, in the package or in the interposer).",
+   "why": "Chips near 0.7 V at 600W draw about 1,000 A, and resistive losses and voltage droop make power delivery a performance limiter."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "AI Accelerators Drive Changes In Power Delivery Networks",
+  "url": "https://semiengineering.com/ai-accelerators-drive-changes-in-power-delivery-networks/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Key T ake a ways: CPO and NPO require new approaches for connecting optical fibers to chip packages. Detachable connectors can simplify assembly, test, and replacement of optical components. Numerous bespoke designs exist today, but standardization hasn’t begun yet. As photonics shifts from pluggable optical transceivers toward near- and co-packaged optics (NPO, CPO), engineers are devising new ways to attach fibers to the photonics chips on a board. Several different designs exist today, but so far there is no common interface. With pluggable photonics, lasers and connections are attached at the server faceplate, with the board itself housing only electronic components. Yet long electrical connections to the faceplate mean higher power and longer latency. Fibers would need to move onto the interior of the board to solve that. That eliminates the need for pluggables, but it requires new solutions. “With the rapid growth of generative AI, AI data centers are required to process enormous volumes of data faster and more efficiently than ever before,” said Yoshimasa Bando, principal scientist at Mitsubishi Chemical . “To meet this demand, further improvements in communication speed and energy efficiency have become critical challenges.” The goal of CPO and NPO is to reduce reliance on long electrical connections. Long lines One reason for maintaining faceplate pluggables is that lasers are not always reliable. Using a pluggable module makes it easy to replace the laser. “What we are focused on has the laser on the faceplate, because the laser is the highest reliability risk,” said Vishal Chandrasekar, director of product management at Ayar Labs . All connections, whether they have a laser or not, happen in pluggable modules today. That means the signals those fibers carry…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-19",
+  "focus": "",
+  "id": "788e6447428af8f6",
+  "kind": "news",
+  "kw_score": 6,
+  "matched": [
+   "chiplet",
+   "semiconductor",
+   "reliability",
+   "interface",
+   "thermal"
+  ],
+  "published": "2026-11-19",
+  "relevance": 1,
+  "score": 0,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Overview of bespoke connector designs and the reliability concerns around lasers.",
+   "impact": "Low relevance: packaging and photonics interconnect, with only a passing thermal mention.",
+   "what": "Article on detachable fiber connectors for near- and co-packaged optics (NPO, CPO).",
+   "why": "Moving optics toward the chip package reduces electrical path length but needs new fiber attachment approaches; no standard interface exists."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Detachable Fiber Connectors Pose New Challenges For Photonics",
+  "url": "https://semiengineering.com/detachable-fiber-connectors-pose-new-challenges-for-photonics/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
   "abstract": "Molecular dynamics (MD) is an indispensable tool across physics, chemistry, biology, and materials science. Owing to its arithmetic structure, particularly the... Molecular dynamics (MD) is an indispensable tool across physics, chemistry, biology, and materials science. Owing to its arithmetic structure, particularly the parallel evaluation of many atom-pair interactions, MD codes were among the first to be ported to run on GPUs. However, as GPUs evolve, optimizing kernels and ensuring compatibility across heterogeneous hardware have become more difficult… Source",
   "authors": [],
   "cat": "industry",
