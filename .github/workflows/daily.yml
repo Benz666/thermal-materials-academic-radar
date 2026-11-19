@@ -2,7 +2,11 @@ name: Daily radar
 
 on:
   schedule:
-    - cron: "0 11 * * *"        # 11:00 UTC = 6 am Indiana (EST), 7 am in summer (EDT)
+    # GitHub may start scheduled runs hours late (or drop them), so there are
+    # three tries; the first one that starts does the work, the others skip.
+    - cron: "0 10 * * *"        # 10:00 UTC = 5 am EST / 6 am EDT
+    - cron: "0 11 * * *"        # 6 am EST
+    - cron: "30 12 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -22,7 +26,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.c.outputs.skip }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: data/health.json
+          sparse-checkout-cone-mode: false
+      - id: c
+        run: |
+          last=$(python3 -c "import json;print(json.load(open('data/health.json')).get('run',''))" 2>/dev/null || true)
+          lastday=$([ -n "$last" ] && TZ=America/New_York date -d "$last" +%F || echo none)
+          today=$(TZ=America/New_York date +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$lastday" = "$today" ]; then
+            echo "Already ran today ($last); skipping."; echo "skip=true" >> "$GITHUB_OUTPUT"
+          else echo "skip=false" >> "$GITHUB_OUTPUT"; fi
+
   run:
+    needs: check
+    if: needs.check.outputs.skip != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 50
     env:

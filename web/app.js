@@ -98,7 +98,6 @@
       <div class="actions">
         <a class="btn" href="${esc(it.url)}" target="_blank" rel="noopener">Open original ↗</a>
         <button class="btn ghost" type="button" id="copy">Copy link</button>
-        <span class="by by-${s.by === "claude" ? "claude" : "rules"}">${s.by === "claude" ? "Summary by Claude" : "Rule-based summary"}</span>
       </div>`;
     dlgBody.querySelector(".close").onclick = () => dlg.close();
     dlgBody.querySelector("#copy").onclick = (e) => {
@@ -184,7 +183,7 @@
             wd.innerHTML = `<summary><b>Week ${isoWeek(wk)}</b> ${fmt(wk, { month: "short", day: "numeric" })} – ${fmt(end, { month: "short", day: "numeric" })} <span class="count">${weeks[wk].length}</span></summary>`;
             const grid = document.createElement("div");
             grid.className = "grid";
-            weeks[wk].sort((a, b) => (b.score - a.score) || (b.first_seen.localeCompare(a.first_seen))).forEach((it) => grid.appendChild(card(it)));
+            weeks[wk].sort((a, b) => (b.first_seen.localeCompare(a.first_seen)) || (b.score - a.score)).forEach((it) => grid.appendChild(card(it)));
             wd.appendChild(grid);
             md.appendChild(wd);
           });
@@ -263,7 +262,7 @@
     META = await getJSON("data/meta.json");
     if (!META) { app.innerHTML = `<p class="empty">Data not available yet.</p>`; return; }
     if (META.last_run) document.getElementById("runinfo").textContent =
-      `Last run ${fmtET(META.last_run)} · ${META.health.ok}/${META.health.total} sources OK · cards sorted by relevance`;
+      `Last run ${fmtET(META.last_run)} · ${META.health.ok}/${META.health.total} sources OK`;
     if (META.health.failed?.length) document.getElementById("health").textContent =
       `Sources with errors in the last run: ${META.health.failed.map((f) => f.source).join(", ")}.`;
     if (PAGE === "home") return home();
