@@ -54,8 +54,7 @@ def _shell(page: str) -> str:
   <div id="app"><p class="loading">Loading…</p></div>
 </main>
 <footer>
-  <p>Updated daily by GitHub Actions. Summaries marked <span class="by by-rules">rules</span> are extracted automatically;
-  <span class="by by-claude">Claude</span> marks summaries written by Claude. Always check the original source.</p>
+  <p>Updated daily, around 6 am US Eastern. Always check the original source.</p>
   <p id="health"></p>
 </footer>
 <dialog id="detail"><article id="detail-body"></article></dialog>

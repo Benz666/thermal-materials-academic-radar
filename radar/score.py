@@ -32,6 +32,12 @@ class Scorer:
             })
         self.projects = [{"name": p["name"], "keys": [(k, _pattern(k)) for k in p["keys"]]}
                          for p in cfg.get("projects", [])]
+        ap = cfg.get("approach", {})
+        self.comp = [_pattern(t) for t in ap.get("computational", [])]
+        self.expt = [_pattern(t) for t in ap.get("experimental", [])]
+        self.ap_bonus = ap.get("computational_bonus", 3)
+        self.ap_mixed = ap.get("mixed_bonus", 1)
+        self.ap_penalty = ap.get("experimental_penalty", 5)
         self.all_terms = {t.rstrip("*").lower() for th in self.themes for t, _ in th["core"] + th["related"]}
 
     def excluded(self, text: str) -> bool:
@@ -62,6 +68,20 @@ class Scorer:
         research = {k: v for k, v in out.items() if k != "industry"}
         return {"themes": out, "matched": uniq[:12],
                 "total": sum(research.values()), "industry": out.get("industry", 0)}
+
+    def approach(self, text: str) -> tuple[str, int]:
+        """Computational/theory vs experimental work -> (focus, score adjustment)."""
+        c = sum(1 for p in self.comp if p.search(text))
+        e = sum(1 for p in self.expt if p.search(text))
+        if c and e >= 2:
+            return "mixed", self.ap_mixed
+        if c:
+            return "computational", self.ap_bonus
+        if e >= 2:
+            return "experimental", -self.ap_penalty
+        if e:
+            return "experimental", -(self.ap_penalty // 2 + 1)
+        return "", 0
 
     def qualifying(self, sc: dict, include_industry: bool = False) -> list[str]:
         ids = [k for k, v in sc["themes"].items() if v >= self.min_score and (include_industry or k != "industry")]

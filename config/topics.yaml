@@ -15,6 +15,94 @@ min_score: 3
 # Papers/preprints also need this total score (sum over themes) to be listed.
 min_paper_score: 5
 
+# Computation & theory first (owner preference, 2026-11-18). Papers and
+# preprints that read as computational/theoretical get a bonus; papers that read
+# as purely experimental (synthesis, fabrication, measurement) get a penalty, so
+# most of them fall below min_paper_score. Papers with both get a small bonus.
+approach:
+  computational_bonus: 3
+  mixed_bonus: 1
+  experimental_penalty: 5      # 2+ experimental cues and no computational cue; 1 cue → 3
+  computational:
+    - first-principles
+    - first principles
+    - ab initio
+    - density functional
+    - DFT
+    - molecular dynamics
+    - MD simulation*
+    - atomistic simulation*
+    - simulat*
+    - calculation*
+    - calculated
+    - computation*
+    - computed
+    - theor*
+    - modeling
+    - modelling
+    - machine learning
+    - machine-learned
+    - neural network*
+    - interatomic potential*
+    - MLIP*
+    - foundation model*
+    - deep potential*
+    - equivariant
+    - Boltzmann
+    - lattice dynamics
+    - Green's function*
+    - perturbation theory
+    - Monte Carlo
+    - finite element
+    - numerical*
+    - solver*
+    - algorithm*
+    - high-throughput
+    - workflow*
+    - phonopy
+    - phono3py
+    - LAMMPS
+    - VASP
+    - analytical model*
+  experimental:
+    - synthesi*
+    - fabricat*
+    - grown
+    - sputter*
+    - anneal*
+    - sinter*
+    - spark plasma
+    - hot-pressed
+    - hot pressing
+    - ball milling
+    - deposited
+    - MOCVD
+    - MBE
+    - doped samples
+    - polycrystalline samples
+    - specimen*
+    - XRD
+    - X-ray diffraction
+    - scanning electron microscop*
+    - transmission electron microscop*
+    - Raman spectroscop*
+    - measured
+    - measurement*
+    - experimentally
+    - TDTR
+    - thermoreflectance
+    - laser flash
+    - prototype*
+    - irradiat*
+    - single-event
+    - breakdown voltage
+    - wafer*
+    - doping
+    - epitaxial
+    - imaging
+    - spectroscop*
+    - ultrafast
+
 exclude:
   - tumor*
   - tumour*

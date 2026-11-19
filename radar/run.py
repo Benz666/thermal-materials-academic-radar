@@ -183,8 +183,9 @@ def process(raw: list[dict], cfg: dict, authors: list[dict], state: dict) -> lis
         watched = sorted({watched_ids[a] for a in it.get("author_ids", []) if a in watched_ids} |
                          {watched_names[a.lower()] for a in it.get("authors", []) if a.lower() in watched_names})
         k = it["kind"]
+        focus, adj = sc.approach(text) if k in ("paper", "preprint") else ("", 0)
         if k in ("paper", "preprint"):
-            if not themes or s["total"] + 2 * len(watched) < sc.min_paper_score:
+            if not themes or s["total"] + adj + 2 * len(watched) < sc.min_paper_score:
                 continue
         elif k == "news":
             if it.get("filter", True) and not themes and s["industry"] < sc.min_score:
@@ -203,10 +204,10 @@ def process(raw: list[dict], cfg: dict, authors: list[dict], state: dict) -> lis
             if not themes:
                 continue
         # tools and conference changes are always kept
-        score = s["total"] + 2 * len(watched) + (3 if k in ("tool", "conference") else 0)
+        score = s["total"] + adj + 2 * len(watched) + (3 if k in ("tool", "conference") else 0)
         it.update({
             "id": iid, "cat": CAT_OF[k], "first_seen": day, "themes": themes or (["industry"] if s["industry"] else []),
-            "score": score, "matched": s["matched"], "watched": watched,
+            "score": score, "kw_score": score, "focus": focus, "matched": s["matched"], "watched": watched,
             "authors": it.get("authors", [])[:8] + (["et al."] if len(it.get("authors", [])) > 8 else []),
             "abstract": clean_text(it.get("abstract", ""), 1800),
         })
@@ -257,7 +258,7 @@ def write_queue(new_items: list[dict]) -> None:
             continue
         q["items"].append({k: i.get(k) for k in ("id", "cat", "kind", "title", "url", "venue", "authors",
                                                    "published", "first_seen", "abstract", "themes", "matched",
-                                                   "watched", "page_excerpt")})
+                                                   "watched", "focus", "page_excerpt")})
     q["updated"] = iso(today())
     write_json(QUEUE, q)
 
@@ -280,6 +281,12 @@ def ingest() -> int:
             s = summaries.get(it["id"])
             if s and all(k in s for k in ("what", "why", "how", "impact")):
                 it["summary"] = {**{k: clean_text(s[k], 700) for k in ("what", "why", "how", "impact")}, "by": "claude"}
+                r = s.get("relevance")
+                if isinstance(r, int) and 1 <= r <= 5:
+                    # Claude's 1-5 relevance rating re-ranks the keyword score
+                    it.setdefault("kw_score", it.get("score", 0))
+                    it["relevance"] = r
+                    it["score"] = it["kw_score"] + 3 * (r - 3)
                 changed = True
                 n += 1
         if changed:

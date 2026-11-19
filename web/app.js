@@ -9,7 +9,13 @@
   const dlgBody = document.getElementById("detail-body");
   const cache = {};
   let META = null;
-  const filters = { themes: new Set(), kinds: new Set(), q: "" };
+  const filters = { themes: new Set(), kinds: new Set(), q: "", comp: false };
+  const TZ = "America/New_York";
+  // today's date in US Eastern time, YYYY-MM-DD
+  const todayET = () => new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+  const fmtET = (iso) => new Date(iso).toLocaleString("en-US", { timeZone: TZ, month: "short", day: "numeric", year: "numeric",
+    hour: "numeric", minute: "2-digit", timeZoneName: "short" });
+  const FOCUS = { computational: "Theory / computation", mixed: "Computation + experiment", experimental: "Experimental" };
 
   const KIND_LABEL = { paper: "Journal", preprint: "Preprint", news: "News", tool: "Release", repo: "Hot repo",
     conference: "Conference", cfp: "Call", "special-issue": "Special issue" };
@@ -42,7 +48,7 @@
     const y = new Date(Date.UTC(t.getUTCFullYear(), 0, 4)); return 1 + Math.round(((t - y) / 864e5 - 3 + ((y.getUTCDay() + 6) % 7)) / 7); };
   const themeById = (id) => META.themes.find((t) => t.id === id);
   const color = (id) => themeById(id)?.color || "#2b6eff";
-  const daysLeft = (d) => Math.ceil((parse(d) - parse(new Date().toISOString().slice(0, 10))) / 864e5);
+  const daysLeft = (d) => Math.ceil((parse(d) - parse(todayET())) / 864e5);
 
   // ---------- cards
   function card(it) {
@@ -57,9 +63,12 @@
     el.style.setProperty("--c2", c2);
     el.dataset.themes = th.join(" ");
     el.dataset.kind = it.kind;
+    el.dataset.focus = it.focus || "";
     el.dataset.text = `${it.title} ${it.venue} ${(it.authors || []).join(" ")} ${(it.matched || []).join(" ")}`.toLowerCase();
     el.innerHTML = `
       <div class="meta"><span class="badge">${esc(KIND_LABEL[it.kind] || it.kind)}</span>
+        ${it.focus === "computational" ? `<span class="badge comp" title="${FOCUS.computational}">Theory</span>` : ""}
+        ${it.focus === "experimental" ? `<span class="badge expt" title="${FOCUS.experimental}">Expt.</span>` : ""}
         ${it.watched?.length ? `<span class="badge star" title="${esc(it.watched.join(", "))}">★ watched</span>` : ""}
         <span>${esc(fmt(it.first_seen, { month: "short", day: "numeric" }))}</span>
         <span class="dots">${th.map((t) => `<i style="background:${color(t)}" title="${esc(themeById(t)?.name || t)}"></i>`).join("")}</span></div>
@@ -77,7 +86,8 @@
     dlgBody.innerHTML = `
       <button class="close" aria-label="Close">×</button>
       <div class="meta"><span class="badge">${esc(KIND_LABEL[it.kind] || it.kind)}</span>
-        ${(it.themes || []).map((t) => `<span class="badge" style="border-color:${color(t)}">${esc(themeById(t)?.name || t)}</span>`).join(" ")}</div>
+        ${(it.themes || []).map((t) => `<span class="badge" style="border-color:${color(t)}">${esc(themeById(t)?.name || t)}</span>`).join(" ")}
+        ${it.focus ? `<span class="badge">${esc(FOCUS[it.focus])}</span>` : ""}</div>
       <h2>${esc(it.title)}</h2>
       <p class="sub">${esc(it.venue || "")}${it.published ? " · " + esc(it.published) : ""}${authors ? "<br>" + esc(authors) : ""}
         ${it.watched?.length ? `<br>★ Watched: ${esc(it.watched.join(", "))}` : ""}${it.deadline ? `<br>Deadline: <b>${esc(it.deadline)}</b>` : ""}</p>
@@ -105,7 +115,7 @@
     const themes = META.themes.map((t) =>
       `<button class="chip" type="button" data-theme="${t.id}" aria-pressed="false"><span class="sw" style="background:${t.color}"></span>${esc(t.name)}</button>`).join("");
     const kinds = KINDS[cat].map((k) => `<button class="chip" type="button" data-kind="${k}" aria-pressed="false">${KIND_LABEL[k]}</button>`).join("");
-    bar.innerHTML = `<div class="chips">${kinds}<button class="chip" type="button" data-watched aria-pressed="false">★ Watched authors</button></div>
+    bar.innerHTML = `<div class="chips">${kinds}<button class="chip" type="button" data-watched aria-pressed="false">★ Watched authors</button>${cat === "papers" ? `<button class="chip" type="button" data-comp aria-pressed="false">Theory &amp; computation only</button>` : ""}</div>
       <div class="chips">${themes}</div>
       <input class="search" type="search" placeholder="Search titles, venues, authors, keywords…" aria-label="Search">`;
     bar.addEventListener("click", (e) => {
@@ -116,6 +126,7 @@
       if (b.dataset.theme) on ? filters.themes.add(b.dataset.theme) : filters.themes.delete(b.dataset.theme);
       if (b.dataset.kind) on ? filters.kinds.add(b.dataset.kind) : filters.kinds.delete(b.dataset.kind);
       if (b.hasAttribute("data-watched")) filters.watched = on;
+      if (b.hasAttribute("data-comp")) filters.comp = on;
       applyFilters();
     });
     bar.querySelector(".search").addEventListener("input", (e) => { filters.q = e.target.value.trim().toLowerCase(); applyFilters(); });
@@ -128,6 +139,7 @@
       const ok = (!filters.themes.size || th.some((t) => filters.themes.has(t))) &&
         (!filters.kinds.size || filters.kinds.has(c.dataset.kind)) &&
         (!filters.watched || c.querySelector(".badge.star")) &&
+        (!filters.comp || c.dataset.focus === "computational" || c.dataset.focus === "mixed") &&
         (!filters.q || c.dataset.text.includes(filters.q));
       c.hidden = !ok;
     });
@@ -172,7 +184,7 @@
             wd.innerHTML = `<summary><b>Week ${isoWeek(wk)}</b> ${fmt(wk, { month: "short", day: "numeric" })} – ${fmt(end, { month: "short", day: "numeric" })} <span class="count">${weeks[wk].length}</span></summary>`;
             const grid = document.createElement("div");
             grid.className = "grid";
-            weeks[wk].sort((a, b) => (b.first_seen.localeCompare(a.first_seen)) || (b.score - a.score)).forEach((it) => grid.appendChild(card(it)));
+            weeks[wk].sort((a, b) => (b.score - a.score) || (b.first_seen.localeCompare(a.first_seen))).forEach((it) => grid.appendChild(card(it)));
             wd.appendChild(grid);
             md.appendChild(wd);
           });
@@ -209,7 +221,7 @@
   async function home() {
     app.innerHTML = "";
     const cats = [["papers", "Papers & Preprints"], ["industry", "Industry & Tools"], ["conferences", "Conferences & Calls"]];
-    const wk = monday(new Date().toISOString().slice(0, 10));
+    const wk = monday(todayET());
     const panels = document.createElement("div");
     panels.className = "panels";
     app.appendChild(panels);
@@ -251,7 +263,7 @@
     META = await getJSON("data/meta.json");
     if (!META) { app.innerHTML = `<p class="empty">Data not available yet.</p>`; return; }
     if (META.last_run) document.getElementById("runinfo").textContent =
-      `Last run ${META.last_run.replace("T", " ")} UTC · ${META.health.ok}/${META.health.total} sources OK`;
+      `Last run ${fmtET(META.last_run)} · ${META.health.ok}/${META.health.total} sources OK · cards sorted by relevance`;
     if (META.health.failed?.length) document.getElementById("health").textContent =
       `Sources with errors in the last run: ${META.health.failed.map((f) => f.source).join(", ")}.`;
     if (PAGE === "home") return home();

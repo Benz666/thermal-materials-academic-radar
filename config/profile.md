@@ -24,6 +24,10 @@ Current public projects:
 
 Tools: VASP, LAMMPS, phonopy/phono3py, ALAMODE, DeePMD-kit, MACE, JAX, Python.
 
+Preference: computation and theory first. Experimental papers (synthesis,
+fabrication, doping, device measurement) are low priority unless they provide
+data or mechanisms a computational study can use directly.
+
 Interests to flag in "Impact on me": methods transferable to the projects
 above; MLIP interpretability, latent-space analysis, data efficiency and
 failure modes; interfacial thermal transport mechanisms; electronics cooling

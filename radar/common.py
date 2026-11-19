@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import datetime as dt
+from zoneinfo import ZoneInfo
 import hashlib
 import html
 import json
@@ -78,8 +79,12 @@ def item_id(*parts: str) -> str:
     return hashlib.sha1("|".join(p or "" for p in parts).encode()).hexdigest()[:16]
 
 
+ET = ZoneInfo("America/New_York")
+
+
 def today() -> dt.date:
-    return dt.datetime.now(dt.timezone.utc).date()
+    """Calendar day in US Eastern time (the site's time zone)."""
+    return dt.datetime.now(ET).date()
 
 
 def iso(d: dt.date | dt.datetime | None) -> str:
