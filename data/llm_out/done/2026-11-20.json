@@ -1,0 +1,110 @@
+{
+ "summaries": {
+  "df8b6b8b886555c4": {
+   "what": "Compares three phonon-transport models (Debye approximation up to a DFT-based first-principles framework) for thin-film buffer and transition layers in AlGaN HEMT stacks, including alloy scattering and grain/film-boundary scattering fitted to TDTR thermal conductivity data.",
+   "why": "Thermal transport in the thin-film layers of modern HEMT designs is hard to model reliably, especially for non-ideal polycrystalline films.",
+   "how": "Models with DFT harmonic and anharmonic properties, alloy scattering, and boundary scattering fitted to TDTR data; emphasis on a procedure for extracting intrinsic Umklapp-dominated properties.",
+   "impact": "Directly relevant to the GaN/AlGaN HEMT multiscale thermal modeling project: gives a benchmark of model fidelity (first-principles model performs best) and a procedure for intrinsic vs. extrinsic scattering that could be compared against the MLIP-to-BTE pipeline.",
+   "relevance": 5
+  },
+  "47e12668866b86ef": {
+   "what": "Compares an EAM potential with the NequIP foundational potential on static and fatigue-driven emergent properties. NequIP predicts an intrinsic stacking fault energy about 7 times lower than EAM and far more plastic deformation under fatigue cycling of a nanoscale crack.",
+   "why": "Foundational MLIPs are validated on equilibrium states, which does not guarantee correct emergent behavior in large-scale MD.",
+   "how": "Fatigue loading of a Griffith-crack-like nanoscale flaw, per-atom energy distributions after loading; also documents memory-related crashes and silent extrapolation.",
+   "impact": "Relevant to MLIP failure modes across the InGaAs (DeePMD vs MACE), GaN/AlGaN and BAs projects: a reminder that equilibrium accuracy does not ensure far-from-equilibrium reliability, and that silent extrapolation needs checking. Thermal transport is not studied.",
+   "relevance": 4
+  },
+  "96c9456506139642": {
+   "what": "Shows that tuning precursor loading and oxygen partial pressure in direct liquid injection CVD switches epitaxial Bi4Ti3O12 films from 2D growth to dislocation-mediated chiral spiral growth, with 135% higher local vertical piezoresponse and lower switching bias (from ±20 to ±5 V).",
+   "why": "Aurivillius ferroelectrics have mainly in-plane polarization, limiting vertical device integration; defect topology control through growth mode is unexplored.",
+   "how": "CVD growth, PFM, HAADF-STEM displacement mapping and DFT.",
+   "impact": "Low relevance. Mostly experimental growth work with no thermal transport; only a loose link to the BaTiO3 dislocation project through oxide dislocation structure.",
+   "relevance": 1
+  },
+  "b79f031522497d2d": {
+   "what": "Presents Perfumer, an LLM-based agentic framework coupling Quantum ESPRESSO with a pre-relaxation model (2.75-fold overall speedup) and a graph-neural-network band predictor (median MAE 0.157 eV on 2,607 test materials, trained on 125,153 band structures).",
+   "why": "First-principles relaxation and band calculations need substantial computation and expertise.",
+   "how": "Agent turns natural-language requests into relaxation-to-band workflows; periodic GNN with latent Hermitian spectral head predicts 12 band energies at any wavevector in about 97 ms on two CPU cores.",
+   "impact": "Relevant to the interest in agents for automated first-principles workflows; the relax-then-refine pattern could inform automating VASP/phonopy or MLPhonon workflows. It covers electronic bands, not phonons or thermal transport.",
+   "relevance": 4
+  },
+  "388a96570810e4bf": {
+   "what": "Presents AdsNet, an equivariant GNN predicting adsorption energies in one forward pass from a local graph of the adsorbate and nearby surface atoms (energy RMSE 0.032 eV, force RMSE 0.047 eV/A), with atom-wise energy decomposition.",
+   "why": "Catalyst screening needs adsorption energy prediction that is fast and geometry-sensitive; full-graph MLIPs are slow and coordination-based models are insensitive.",
+   "how": "Message passing with scalar and vector features, trained on AdsTraj (33,920 DFT structures, 26 transition metals, 6 adsorbates); relaxation via projected gradient descent with line search.",
+   "impact": "Low relevance to the thermal projects (catalysis). The atom-wise energy decomposition for interpretability is a mildly interesting idea for MLIP interpretability work.",
+   "relevance": 2
+  },
+  "7bb928c5203753e0": {
+   "what": "First-principles comparison of TcB2 (20 GPa), Tc2B and Tc3B: mechanical, electronic, optical properties and electron-phonon-coupling superconductivity (Tc of 24.92, 11.07 and 15.12 K with μ* = 0.10).",
+   "why": "Phonon-mediated superconductivity in transition-metal borides depends on the balance of d-states, metal-boron bonding and lattice vibrations.",
+   "how": "DFT-based calculations of electronic structure, spin-orbit coupling, optical response and electron-phonon coupling.",
+   "impact": "Low relevance. Standard DFT/EPC study of superconducting borides, not thermal transport in the reader's semiconductors or interfaces.",
+   "relevance": 1
+  },
+  "2a047a17bf7803c0": {
+   "what": "High-throughput screening of equimolar and non-equimolar high-entropy carbides of Ti, Zr, Hf, V, Nb and Ta, using the MACE foundation model and DeePMD trained on ab initio data to predict stable compositions.",
+   "why": "The composition space of high-entropy ceramics is too large to test experimentally or with ab initio calculations.",
+   "how": "MACE and DeePMD potentials screen thousands of compositions; stable candidates are proposed for synthesis. Details of validation are not stated in the abstract.",
+   "impact": "Moderate-to-low relevance: uses MACE and DeePMD as in the InGaAs project, so it is a practical example of using both for screening, but it targets phase stability rather than thermal transport.",
+   "relevance": 2
+  },
+  "8bb61bfd8abaede4": {
+   "what": "Measures electrical and thermal conductivity of CrMnFeCoNi after high-pressure torsion; thermal conductivity rises from 10.3 to 14.4 W/m/K, with Wiedemann-Franz analysis giving about 5% more electron and about 100% more phonon transport.",
+   "why": "To understand how defects and nanostructuring affect electron and phonon transport in a high-entropy alloy.",
+   "how": "Severe plastic deformation (up to 4 turns), conductivity, specific heat and thermal expansion measurements, Cahill-Pohl comparison; phonon MFP about 0.6-1.1 nm.",
+   "impact": "Mostly experimental, so low priority. The finding that disorder changes near-minimum-limit transport (hypothesized short-range ordering) is a mechanism a computational study could test, but it is not tied to a current project.",
+   "relevance": 2
+  },
+  "1e4638f32dc0f6b8": {
+   "what": "Review of AI-assisted thermoreflectance imaging: high-throughput data processing, visualization of interfacial thermal transport and nonintrusive subsurface analysis, with outlooks on spectral mapping of heat carriers, 3D property mapping and AI-agentic experimental design.",
+   "why": "Shrinking, heterogeneous electronics need local mapping of thermal properties, but throughput vs. accuracy and multi-parameter extraction remain challenging.",
+   "how": "Literature review of pump-probe and wide-field thermoreflectance techniques combined with AI methods.",
+   "impact": "Useful background for the measurement side of the GaN/Al2O3 interface and HEMT projects (what TDTR-type data may constrain models), and for electronics thermal characterization trends. Experimental/review focus, not a computational method.",
+   "relevance": 3
+  },
+  "9a2ac20987253996": {
+   "what": "Identifies Boson peaks in the low-temperature heat capacity of many phase-change materials and chalcogenide GeSeTe glasses, and models them as hybridization of transverse acoustic phonons with quasi-localized modes.",
+   "why": "Fast crystallization of PCMs hinders conventional characterization; Boson peaks offer another route and a dataset on vibrational and thermodynamic properties.",
+   "how": "Heat capacity and heat flow measurements; correlation of mean Einstein temperature with Debye temperature and excess-mode coefficient.",
+   "impact": "Low relevance to the current crystalline-semiconductor and interface projects; only a loose link via vibrational modes in disordered systems.",
+   "relevance": 2
+  },
+  "53b3324f3523df3f": {
+   "what": "Formulates a two-field Gibbs theory of quaternionic orientational order, with a crystal field and a glass field defined as the frozen part of orientational holonomy, treating disclinations and dislocations via curvature and torsion.",
+   "why": "To describe glass formation and defect condensation with a thermodynamic functional that separates glass from liquid and from defect density.",
+   "how": "Theoretical construction of a Gibbs functional with competing saddles; the order of transition follows from the quartic coupling matrix. Numerical results are not stated in the abstract.",
+   "impact": "Low relevance. Abstract field theory of defects and glass formation, with no phonon or thermal transport link to the reader's projects.",
+   "relevance": 1
+  },
+  "1dfbf0fe22186261": {
+   "what": "Raman study of (Bi1-xSbx)2Te3 at ambient and high pressure; derives composition-dependent force constants (harmonic approximation) and Grüneisen parameters, with a maximum average Grüneisen parameter at BST-07 linked via Slack's equation to optimal ZT.",
+   "why": "To connect composition, lattice dynamics and thermal transport and find the microscopic origin of thermoelectric optimization.",
+   "how": "Raman spectroscopy under pressure, equation of state and bulk modulus from earlier reports, Slack's equation.",
+   "impact": "Mostly experimental with a lattice-dynamics angle; the Grüneisen/anharmonicity data could serve as validation targets for phonon calculations, but it is not tied to a current project.",
+   "relevance": 2
+  },
+  "4d826c1ec30c7528": {
+   "what": "Ab initio many-body study of chiral phonons in tellurium: rotational symmetries impose pseudoangular-momentum selection rules on phonon-phonon scattering, preserving circular polarization up to 600 K while lifetimes drop sharply.",
+   "why": "It is poorly understood how chiral phonons survive anharmonic phonon-phonon interactions at finite temperature.",
+   "how": "Ab initio anharmonic many-body approach; angular momentum generated by a thermal gradient is shown to be governed by lifetimes rather than chirality (decreasing about two orders of magnitude from 10 to 600 K).",
+   "impact": "Relevant theory for anharmonic phonon scattering and symmetry selection rules in lattice dynamics (the BTE phonon-property side of the projects) and possibly for the BaTiO3 phonon direction asymmetry work, though the material and focus differ.",
+   "relevance": 3
+  },
+  "449b6e796caeff27": {
+   "what": "GitHub repository for Allegro, a code for building highly scalable E(3)-equivariant interatomic potentials (PyTorch; topics include MD and force fields).",
+   "why": "Not stated beyond the repository description: scalable equivariant MLIPs for atomistic simulation.",
+   "how": "Python/PyTorch code from the mir-group; further details are not stated in the description.",
+   "impact": "An open-source MLIP framework that is a candidate alternative to DeePMD-kit and MACE for the InGaAs, GaN/AlGaN and BAs projects, especially for large-scale MD and thermal conductivity via MD.",
+   "relevance": 4
+  },
+  "ad74da2925f8a3d1": {
+   "what": "Advanced Thermal Solutions introduced the ArctiQ NIVIS series of cold plates for liquid cooling of AMD SP5 platform processors for AI, HPC and server CPUs.",
+   "why": "Rising power in AI/HPC server processors requires direct-contact liquid cooling.",
+   "how": "Direct-contact cold plates; further specifications are not stated in the excerpt.",
+   "impact": "Low relevance to the research projects; a small data point on liquid-cooling trends for AI/HPC hardware relevant to electronics thermal management industry awareness.",
+   "relevance": 2
+  }
+ },
+ "new_items": []
+}

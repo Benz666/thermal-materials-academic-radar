@@ -1,39 +1,73 @@
 [
  {
-  "abstract": "A batteries-included toolkit for the GPU-accelerated OpenMM molecular simulation engine. Topics: alchemical-free-energy-calculations, free-energy-calculations, integrators, markov-chain-monte-carlo, mcmc, molecular-dynamics, molecular-simulations, openmm, python, replica-exchange.",
-  "authors": [
-   "choderalab"
-  ],
+  "abstract": "Advanced Thermal Solutions, Inc. (ATS) has introduced the ArctiQ NIVIS Series of cold plates for liquid cooling of AMD SP5 platform processors used in AI, HPC and server grade CPU applications The NIVIS cold plates are designed for direct-contact cooling […] The post New Cold Plates Cool AMD Socket SP5 AI and HPC Processors appeared first on Electronics Cooling .",
+  "authors": [],
   "cat": "industry",
-  "created": "2014-10-19",
   "doi": "",
-  "first_seen": "2026-11-19",
+  "first_seen": "2026-11-20",
   "focus": "",
-  "id": "7760b66047188c56",
-  "kind": "repo",
-  "kw_score": 0,
+  "id": "ad74da2925f8a3d1",
+  "kind": "news",
+  "kw_score": 1,
   "matched": [
-   "simulation",
-   "GPU"
+   "cooling",
+   "thermal"
   ],
   "published": "2026-11-19",
   "relevance": 2,
-  "score": -3,
-  "source": "GitHub search",
-  "star_delta": null,
-  "stars": 344,
+  "score": -2,
+  "source": "Electronics Cooling",
   "summary": {
    "by": "claude",
-   "how": "Python library built on OpenMM; topics include alchemical free energy, integrators and replica exchange.",
-   "impact": "Low relevance: biomolecular-oriented MD tooling; the projects use LAMMPS. Possible use is its integrators if OpenMM is adopted.",
-   "what": "choderalab/openmmtools, a toolkit for the GPU-accelerated OpenMM engine providing integrators, MCMC, replica exchange and free-energy tools in Python.",
-   "why": "Not stated in the abstract."
+   "how": "Direct-contact cold plates; further specifications are not stated in the excerpt.",
+   "impact": "Low relevance to the research projects; a small data point on liquid-cooling trends for AI/HPC hardware relevant to electronics thermal management industry awareness.",
+   "what": "Advanced Thermal Solutions introduced the ArctiQ NIVIS series of cold plates for liquid cooling of AMD SP5 platform processors for AI, HPC and server CPUs.",
+   "why": "Rising power in AI/HPC server processors requires direct-contact liquid cooling."
   },
   "themes": [
    "industry"
   ],
-  "title": "choderalab/openmmtools",
-  "url": "https://github.com/choderalab/openmmtools",
+  "title": "New Cold Plates Cool AMD Socket SP5 AI and HPC Processors",
+  "url": "https://www.electronics-cooling.com/2026/11/new-cold-plates-cool-amd-socket-sp5-ai-and-hpc-processors/",
+  "venue": "Electronics Cooling",
+  "watched": []
+ },
+ {
+  "abstract": "Allegro is a code for building highly scalable E(3)-equivariant interatomic potentials Topics: atomistic-simulations, computational-chemistry, deep-learning, drug-discovery, force-fields, interatomic-potentials, machine-learning, materials-science, molecular-dynamics, pytorch.",
+  "authors": [
+   "mir-group"
+  ],
+  "cat": "industry",
+  "created": "2022-02-06",
+  "doi": "",
+  "first_seen": "2026-11-20",
+  "focus": "",
+  "id": "449b6e796caeff27",
+  "kind": "repo",
+  "kw_score": 3,
+  "matched": [
+   "Allegro",
+   "simulation",
+   "materials"
+  ],
+  "published": "2026-11-17",
+  "relevance": 4,
+  "score": 6,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 507,
+  "summary": {
+   "by": "claude",
+   "how": "Python/PyTorch code from the mir-group; further details are not stated in the description.",
+   "impact": "An open-source MLIP framework that is a candidate alternative to DeePMD-kit and MACE for the InGaAs, GaN/AlGaN and BAs projects, especially for large-scale MD and thermal conductivity via MD.",
+   "what": "GitHub repository for Allegro, a code for building highly scalable E(3)-equivariant interatomic potentials (PyTorch; topics include MD and force fields).",
+   "why": "Not stated beyond the repository description: scalable equivariant MLIPs for atomistic simulation."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "mir-group/allegro",
+  "url": "https://github.com/mir-group/allegro",
   "venue": "GitHub · Python",
   "watched": []
  },
@@ -76,6 +110,44 @@
   "watched": []
  },
  {
+  "abstract": "A batteries-included toolkit for the GPU-accelerated OpenMM molecular simulation engine. Topics: alchemical-free-energy-calculations, free-energy-calculations, integrators, markov-chain-monte-carlo, mcmc, molecular-dynamics, molecular-simulations, openmm, python, replica-exchange.",
+  "authors": [
+   "choderalab"
+  ],
+  "cat": "industry",
+  "created": "2014-10-19",
+  "doi": "",
+  "first_seen": "2026-11-19",
+  "focus": "",
+  "id": "7760b66047188c56",
+  "kind": "repo",
+  "kw_score": 0,
+  "matched": [
+   "simulation",
+   "GPU"
+  ],
+  "published": "2026-11-19",
+  "relevance": 2,
+  "score": -3,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 344,
+  "summary": {
+   "by": "claude",
+   "how": "Python library built on OpenMM; topics include alchemical free energy, integrators and replica exchange.",
+   "impact": "Low relevance: biomolecular-oriented MD tooling; the projects use LAMMPS. Possible use is its integrators if OpenMM is adopted.",
+   "what": "choderalab/openmmtools, a toolkit for the GPU-accelerated OpenMM engine providing integrators, MCMC, replica exchange and free-energy tools in Python.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "choderalab/openmmtools",
+  "url": "https://github.com/choderalab/openmmtools",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
   "abstract": "With the growth of increasingly complex devices, improving yield, quality, and manufacturing speed requires a new approach. Across 14 presentations and posters presented at SEMICON West 2026, Intel Foundry leaders and engineers shared research and emerging solutions for the AI-ready foundry of the future. By combining end-to-end metrology, intelligent analytics, and industry-wide standards, we can unlock scalable innovation for our customers. Semiconductor manufacturing is shifting from isolated optimization to connected intelligence, according to Intel Foundry’s Lalitha Immaneni, vice president of semiconductor research and development, advanced packaging technology and manufacturing (APTM), in her keynote at the conference. Factory autonomy will not emerge from AI alone. It requires a system-first mindset based on a common foundation of trusted measurements, interoperable platforms, and advanced test infrastructure.¹ End-to-end metrology for proactive yield management For decades, metrology has served as a critical manufacturing checkpoint. Today, it is evolving into a control layer for proactive yield management. Modern semiconductor manufacturing demands more advanced metrology and defect control to address rising contamination risks, process sensitivities, and defectivity challenges. Hidden interactions among materials, equipment, chemicals, packaging polymers, and fab environments can undermine yield and often go undetected until late-stage manufacturing, increasing costs and slowing production. Rather than reacting to failures after they occur, semiconductor manufacturers like Intel Foundry are using predictive process control supported by continuous measurement and monitoring.² The requirement for end-to-end visibility does not stop at wafer fabrication. The…",
   "authors": [],
   "cat": "industry",
@@ -107,6 +179,42 @@
   ],
   "title": "From Metrology To Autonomy: Scaling Yield, Quality, And Innovation",
   "url": "https://semiengineering.com/from-metrology-to-autonomy-scaling-yield-quality-and-innovation/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Key T ake a ways: CPO and NPO require new approaches for connecting optical fibers to chip packages. Detachable connectors can simplify assembly, test, and replacement of optical components. Numerous bespoke designs exist today, but standardization hasn’t begun yet. As photonics shifts from pluggable optical transceivers toward near- and co-packaged optics (NPO, CPO), engineers are devising new ways to attach fibers to the photonics chips on a board. Several different designs exist today, but so far there is no common interface. With pluggable photonics, lasers and connections are attached at the server faceplate, with the board itself housing only electronic components. Yet long electrical connections to the faceplate mean higher power and longer latency. Fibers would need to move onto the interior of the board to solve that. That eliminates the need for pluggables, but it requires new solutions. “With the rapid growth of generative AI, AI data centers are required to process enormous volumes of data faster and more efficiently than ever before,” said Yoshimasa Bando, principal scientist at Mitsubishi Chemical . “To meet this demand, further improvements in communication speed and energy efficiency have become critical challenges.” The goal of CPO and NPO is to reduce reliance on long electrical connections. Long lines One reason for maintaining faceplate pluggables is that lasers are not always reliable. Using a pluggable module makes it easy to replace the laser. “What we are focused on has the laser on the faceplate, because the laser is the highest reliability risk,” said Vishal Chandrasekar, director of product management at Ayar Labs . All connections, whether they have a laser or not, happen in pluggable modules today. That means the signals those fibers carry…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-19",
+  "focus": "",
+  "id": "788e6447428af8f6",
+  "kind": "news",
+  "kw_score": 6,
+  "matched": [
+   "chiplet",
+   "semiconductor",
+   "reliability",
+   "interface",
+   "thermal"
+  ],
+  "published": "2026-11-19",
+  "relevance": 1,
+  "score": 0,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Overview of bespoke connector designs and the reliability concerns around lasers.",
+   "impact": "Low relevance: packaging and photonics interconnect, with only a passing thermal mention.",
+   "what": "Article on detachable fiber connectors for near- and co-packaged optics (NPO, CPO).",
+   "why": "Moving optics toward the chip package reduces electrical path length but needs new fiber attachment approaches; no standard interface exists."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Detachable Fiber Connectors Pose New Challenges For Photonics",
+  "url": "https://semiengineering.com/detachable-fiber-connectors-pose-new-challenges-for-photonics/",
   "venue": "Semiconductor Engineering",
   "watched": []
  },
@@ -144,42 +252,6 @@
   ],
   "title": "AI Accelerators Drive Changes In Power Delivery Networks",
   "url": "https://semiengineering.com/ai-accelerators-drive-changes-in-power-delivery-networks/",
-  "venue": "Semiconductor Engineering",
-  "watched": []
- },
- {
-  "abstract": "Key T ake a ways: CPO and NPO require new approaches for connecting optical fibers to chip packages. Detachable connectors can simplify assembly, test, and replacement of optical components. Numerous bespoke designs exist today, but standardization hasn’t begun yet. As photonics shifts from pluggable optical transceivers toward near- and co-packaged optics (NPO, CPO), engineers are devising new ways to attach fibers to the photonics chips on a board. Several different designs exist today, but so far there is no common interface. With pluggable photonics, lasers and connections are attached at the server faceplate, with the board itself housing only electronic components. Yet long electrical connections to the faceplate mean higher power and longer latency. Fibers would need to move onto the interior of the board to solve that. That eliminates the need for pluggables, but it requires new solutions. “With the rapid growth of generative AI, AI data centers are required to process enormous volumes of data faster and more efficiently than ever before,” said Yoshimasa Bando, principal scientist at Mitsubishi Chemical . “To meet this demand, further improvements in communication speed and energy efficiency have become critical challenges.” The goal of CPO and NPO is to reduce reliance on long electrical connections. Long lines One reason for maintaining faceplate pluggables is that lasers are not always reliable. Using a pluggable module makes it easy to replace the laser. “What we are focused on has the laser on the faceplate, because the laser is the highest reliability risk,” said Vishal Chandrasekar, director of product management at Ayar Labs . All connections, whether they have a laser or not, happen in pluggable modules today. That means the signals those fibers carry…",
-  "authors": [],
-  "cat": "industry",
-  "doi": "",
-  "first_seen": "2026-11-19",
-  "focus": "",
-  "id": "788e6447428af8f6",
-  "kind": "news",
-  "kw_score": 6,
-  "matched": [
-   "chiplet",
-   "semiconductor",
-   "reliability",
-   "interface",
-   "thermal"
-  ],
-  "published": "2026-11-19",
-  "relevance": 1,
-  "score": 0,
-  "source": "Semiconductor Engineering",
-  "summary": {
-   "by": "claude",
-   "how": "Overview of bespoke connector designs and the reliability concerns around lasers.",
-   "impact": "Low relevance: packaging and photonics interconnect, with only a passing thermal mention.",
-   "what": "Article on detachable fiber connectors for near- and co-packaged optics (NPO, CPO).",
-   "why": "Moving optics toward the chip package reduces electrical path length but needs new fiber attachment approaches; no standard interface exists."
-  },
-  "themes": [
-   "device"
-  ],
-  "title": "Detachable Fiber Connectors Pose New Challenges For Photonics",
-  "url": "https://semiengineering.com/detachable-fiber-connectors-pose-new-challenges-for-photonics/",
   "venue": "Semiconductor Engineering",
   "watched": []
  },
