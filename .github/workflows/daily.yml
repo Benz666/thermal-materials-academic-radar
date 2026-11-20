@@ -3,11 +3,11 @@ name: Daily radar
 on:
   schedule:
     # Primary trigger: the owner's always-on Ubuntu machine dispatches this
-    # workflow at 6 am US Eastern (systemd timer, input auto=true).
+    # workflow at 3 am US Eastern (systemd timer, input auto=true).
     # GitHub's own schedule can start hours late, so these are only backups;
     # every automatic trigger skips if today's run already happened.
-    - cron: "0 12 * * *"        # 7 am EST / 8 am EDT
-    - cron: "30 13 * * *"       # 8:30 am EST
+    - cron: "0 9 * * *"         # 4 am EST / 5 am EDT
+    - cron: "0 11 * * *"        # 6 am EST / 7 am EDT
   workflow_dispatch:
     inputs:
       auto:
