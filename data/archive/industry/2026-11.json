@@ -978,42 +978,6 @@
   "watched": []
  },
  {
-  "abstract": "Quantum processors are being integrated into supercomputing centers worldwide. National programs in North America, Europe, and Asia are driving the installation... Quantum processors are being integrated into supercomputing centers worldwide. National programs in North America, Europe, and Asia are driving the installation of quantum processing units (QPUs) alongside high-performance computing (HPC) systems. Every supercomputer will eventually be a hybrid quantum-classical device, drawing on quantum processors to expand what’s possible in scientific research. Source",
-  "authors": [],
-  "cat": "industry",
-  "doi": "",
-  "first_seen": "2026-11-17",
-  "focus": "",
-  "id": "ad016a36a84bc213",
-  "kind": "news",
-  "kw_score": 3,
-  "matched": [
-   "HPC",
-   "supercomput",
-   "scientific"
-  ],
-  "mytools": [
-   "HTCondor / Slurm"
-  ],
-  "published": "2026-11-17",
-  "score": 3,
-  "source": "NVIDIA Technical Blog",
-  "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Industry & tools.",
-   "what": "Quantum processors are being integrated into supercomputing centers worldwide. National programs in North America, Europe, and Asia are driving the installation...",
-   "why": ""
-  },
-  "themes": [
-   "industry"
-  ],
-  "title": "Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins",
-  "url": "https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/",
-  "venue": "NVIDIA Technical Blog",
-  "watched": []
- },
- {
   "abstract": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science , the Rubin HPC GPU and an expanded Vera CPU platform for high-performance computing . He also detailed a new collaboration in quantum computing with IBM and Fermi National Accelerator Laboratory . “The frontier of computing and the new scientific stack is going to be simulation, as always, but combined with AI and the future of quantum,” said Buck, vice president of hyperscale and high-performance computing at NVIDIA. Buck opened the talk by looking back to his first public talk on CUDA, at an SC06 tutorial in Tampa, Florida, 20 years ago. NVIDIA now offers more than 1,000 CUDA-X libraries , he said. Open Models for Science Agents “[Agents] have been just a game changer in how we interface with our supercomputers, with our devices, our instruments and how we can do the research,” Buck said. Simulation remains the foundation of scientific computing, “which will always be on the top,” Buck said, with AI, quantum and now agents working alongside it. Nemotron for Science combines the Nemotron 3.5 Super VL open model with a new open chemistry dataset and post-training recipes for life sciences and chemistry, Buck explained. Researchers can run it locally on a DGX Spark, a workstation or their own supercomputer. At Argonne National Laboratory, Buck said, an agent built with the toolkit took a single prompt, planned and tested hypotheses, chose which simulations to run and identified two new binding sites. “You own your data. You own the model,” Buck said. Buck highlighted other agents already in use: GROMACS: An…",
   "authors": [],
   "cat": "industry",
@@ -1128,8 +1092,7 @@
    "packaging"
   ],
   "mytools": [
-   "ALAMODE",
-   "OpenMP / MPI"
+   "ALAMODE"
   ],
   "published": "2026-11-16",
   "score": 4,
@@ -1839,47 +1802,6 @@
   "watched": []
  },
  {
-  "abstract": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum processors. Many of these centers use Slurm to run scientific supercomputing workloads, so expanding its support for quantum processors builds on familiar workflows and tools, enabling computational chemists, nuclear physicists and materials scientists to bring quantum computing into their research domains without friction. In a new release, Slurm builds on previous work with IBM, Pasqal and the wider quantum computing community to allow QPU builders to create a single interface to their hardware for every supercomputing center, through a simple file. This makes it easier than ever for HPC centers and QPU builders to integrate and serve their hardware. The expansion is already being adopted by Alice & Bob , IBM , IQM , Pasqal , Quantinuum and MQSC and supports the widely used QRMI and QDMI interfaces. Read All NVIDIA Announcements From SC26 Beating the Bottleneck Until now, integrating a QPU into a supercomputing center meant a new software challenge for every new QPU or supercomputing center. By building on existing quantum-HPC interfaces such as QRMI and QDMI, the Slurm expansion allows QPU builders to reuse their integrations across all their deployments. It also means that supercomputing centers can add new quantum processors to their existing scheduling and resource-management workflows without developing bespoke QPU-specific solutions. For quantum computing to advance science, it needs to be used by scientists. Now scientists can run quantum-classical applications developed with platforms such as NVIDIA CUDA-Q with Slurm coordinating access to all the…",
-  "authors": [],
-  "cat": "industry",
-  "doi": "",
-  "first_seen": "2026-11-16",
-  "focus": "",
-  "id": "51bc692175cd2735",
-  "kind": "news",
-  "kw_score": 7,
-  "matched": [
-   "workflow",
-   "materials",
-   "GPU",
-   "HPC",
-   "supercomput",
-   "chemistry",
-   "scientific"
-  ],
-  "mytools": [
-   "CUDA",
-   "HTCondor / Slurm"
-  ],
-  "published": "2026-11-16",
-  "score": 7,
-  "source": "NVIDIA Blog",
-  "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to GPU/HPC solvers and scientific ML (matched: CUDA).",
-   "what": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum processors. Many of these centers use Slurm to run scientific supercomputing workloads, so expanding its support for quantum processors builds on…",
-   "why": "Read All NVIDIA Announcements From SC26 Beating the Bottleneck Until now, integrating a QPU into a supercomputing center meant a new software challenge for every new QPU or supercomputing center."
-  },
-  "themes": [
-   "industry"
-  ],
-  "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
-  "url": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
-  "venue": "NVIDIA Blog",
-  "watched": []
- },
- {
   "abstract": "Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general... Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general matrix multiplications (GEMM). These operations are called DGEMM for real 64-bit floating-point numbers and ZGEMM for complex 64-bit floating-point numbers. cuBLAS is widely used by HPC and AI applications to accelerate GEMM and other Basic… Source",
   "authors": [],
   "cat": "industry",
@@ -1984,42 +1906,6 @@
   "title": "NVIDIA ALCHEMI Toolkit v0.3.0",
   "url": "https://github.com/NVIDIA/nvalchemi-toolkit/releases/tag/v0.3.0",
   "venue": "NVIDIA ALCHEMI Toolkit",
-  "watched": []
- },
- {
-  "abstract": "This post references AWS ParallelCluster. Check out AWS Parallel Computing Service (AWS PCS) , our new managed Slurm service for running HPC and AI workloads on AWS. Regeneron Pharmaceuticals processes thousands of genomic samples each week, using Nextflow as a core part of its scientific computing infrastructure. When its genomics workloads like ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) outgrew the on-premises HPC cluster, the team needed a cloud solution that preserved familiar scheduling, container workflows, and shared storage while scaling on demand. AWS ParallelCluster let the team replicate their HPC environment in the cloud without re-engineering pipelines or retraining scientists. From there they built a platform with three capabilities: a multi-executor architecture that routes each pipeline process to the best-fit compute backend, an intelligent resource manager called Haizi Bot that uses machine learning to right-size every sample, and a high-performance storage layer that ties it all together. This post explores each capability in turn – how they work independently, and how they combine into a production system that balances cost, speed, and scientific reproducibility. Prerequisites This post is an architecture deep-dive rather than a step-by-step tutorial. The prerequisites below describe the environment Regeneron assembled, so you can understand the building blocks and plan an equivalent setup. An AWS account with permissions to create compute, storage, and networking resources in your target Region. AWS Identity and Access Management (IAM) roles for each execution backend – the SLURM/head-node environment, AWS Batch , and Amazon Elastic Kubernetes Service (Amazon EKS) – following least-privilege principles. An Amazon…",
-  "authors": [],
-  "cat": "industry",
-  "doi": "",
-  "first_seen": "2026-11-03",
-  "focus": "",
-  "id": "c51513c6a4c17131",
-  "kind": "news",
-  "kw_score": 3,
-  "matched": [
-   "GPU",
-   "HPC",
-   "scientific"
-  ],
-  "mytools": [
-   "HTCondor / Slurm"
-  ],
-  "published": "2026-11-03",
-  "score": 3,
-  "source": "AWS HPC Blog",
-  "summary": {
-   "by": "rules",
-   "how": "Regeneron Pharmaceuticals processes thousands of genomic samples each week, using Nextflow as a core part of its scientific computing infrastructure.",
-   "impact": "Background reading for Industry & tools.",
-   "what": "This post references AWS ParallelCluster. Check out AWS Parallel Computing Service (AWS PCS) , our new managed Slurm service for running HPC and AI workloads on AWS.",
-   "why": "When its genomics workloads like ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) outgrew the on-premises HPC cluster, the team needed a cloud solution that preserved familiar scheduling, container workflows, and shared storage while scaling on demand."
-  },
-  "themes": [
-   "industry"
-  ],
-  "title": "How Regeneron built a multi-executor Omics platform with intelligent resource management on AWS",
-  "url": "https://aws.amazon.com/blogs/hpc/how-regeneron-built-a-multi-executor-omics-platform-with-intelligent-resource-management-on-aws/",
-  "venue": "AWS HPC Blog",
   "watched": []
  }
 ]

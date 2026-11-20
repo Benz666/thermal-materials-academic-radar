@@ -2612,8 +2612,7 @@
    "materials"
   ],
   "mytools": [
-   "LAMMPS",
-   "OpenMP / MPI"
+   "LAMMPS"
   ],
   "published": "2026-11-16",
   "score": 8,
@@ -3348,8 +3347,7 @@
    "LAMMPS",
    "MACE",
    "NequIP / Allegro",
-   "ASE / pymatgen",
-   "OpenMP / MPI"
+   "ASE / pymatgen"
   ],
   "published": "2026-11-15",
   "score": 17,

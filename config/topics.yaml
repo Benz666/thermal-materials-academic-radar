@@ -110,7 +110,6 @@ approach:
 # Format: label: [patterns]
 my_tools:
   VASP: [VASP, Vienna Ab initio]
-  Quantum ESPRESSO: [Quantum ESPRESSO, Quantum Espresso]
   LAMMPS: [LAMMPS]
   phonopy / phono3py: [phonopy, phono3py]
   ALAMODE: [ALAMODE]
@@ -123,12 +122,11 @@ my_tools:
   NVIDIA ALCHEMI: [ALCHEMI]
   PhysicsNeMo: [PhysicsNeMo, NVIDIA Modulus]
   ASE / pymatgen: [ASE, Atomic Simulation Environment, pymatgen]
-  HTCondor / Slurm: [HTCondor, Slurm]
+  HTCondor: [HTCondor]
   kALDo: [kALDo, kaldo]
-  OpenMP / MPI: [OpenMP, MPI]
 # Platform-level tools: tagged and boosted, but on their own they do not keep
-# an item (CUDA / Slurm appear in gaming and cloud-ops posts too).
-weak_tools: [CUDA, HTCondor / Slurm, OpenMP / MPI]
+# an item (CUDA appears in gaming and cloud-ops posts too).
+weak_tools: [CUDA]
 
 exclude:
   - tumor*
