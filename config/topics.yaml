@@ -103,6 +103,33 @@ approach:
     - spectroscop*
     - ultrafast
 
+# Tools the owner uses day to day (public list from the personal site).
+# Any item that mentions one is tagged "Your tools" on the site; industry /
+# blog / release items get +3 per tool (max +6) and are kept even when they
+# match no theme, so improvements to these tools are never filtered out.
+# Format: label: [patterns]
+my_tools:
+  VASP: [VASP, Vienna Ab initio]
+  Quantum ESPRESSO: [Quantum ESPRESSO, Quantum Espresso]
+  LAMMPS: [LAMMPS]
+  phonopy / phono3py: [phonopy, phono3py]
+  ALAMODE: [ALAMODE]
+  DeePMD-kit: [DeePMD*, Deep Potential*, DPA-*]
+  MACE: [MACE]
+  NequIP / Allegro: [NequIP, Allegro]
+  JAX: [JAX]
+  CUDA: [CUDA, cuBLAS, cuFFT, cuSOLVER, cuEquivariance, CUDA-X]
+  NVIDIA Warp: [NVIDIA Warp, Warp kernel*]
+  NVIDIA ALCHEMI: [ALCHEMI]
+  PhysicsNeMo: [PhysicsNeMo, NVIDIA Modulus]
+  ASE / pymatgen: [ASE, Atomic Simulation Environment, pymatgen]
+  HTCondor / Slurm: [HTCondor, Slurm]
+  kALDo: [kALDo, kaldo]
+  OpenMP / MPI: [OpenMP, MPI]
+# Platform-level tools: tagged and boosted, but on their own they do not keep
+# an item (CUDA / Slurm appear in gaming and cloud-ops posts too).
+weak_tools: [CUDA, HTCondor / Slurm, OpenMP / MPI]
+
 exclude:
   - tumor*
   - tumour*
@@ -566,6 +593,27 @@ industry:
     - AI for science
     - computational chemistry
     - ALCHEMI
+    - AI4S
+    - scientific computing
+    - scientific simulation*
+    - scientific AI
+    - density functional theory
+    - DFT
+    - plane-wave
+    - quantum chemistry
+    - ab initio
+    - first-principles
+    - machine learning interatomic potential*
+    - MLIP*
+    - atomistic
+    - materials modeling
+    - materials simulation*
+    - computational materials
+    - FP64
+    - double precision
+    - phonon*
+    - heat transfer
+    - CFD
     - digital twin*
     - thermal simulation
     - multiphysics
@@ -576,6 +624,12 @@ industry:
     - simulation*
     - materials
     - GPU*
+    - HPC
+    - supercomput*
+    - exascale
+    - chemistry
+    - physics
+    - scientific
     - packaging
     - transistor*
     - agent*

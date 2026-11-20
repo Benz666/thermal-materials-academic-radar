@@ -107,6 +107,10 @@ tools:
   - { name: NVIDIA cuEquivariance, repo: NVIDIA/cuEquivariance }
   - { name: NVIDIA Warp, repo: NVIDIA/warp }
   - { name: e3nn, repo: e3nn/e3nn }
+  - { name: NVIDIA PhysicsNeMo, repo: NVIDIA/physicsnemo }
+  - { name: NVIDIA ALCHEMI Toolkit, repo: NVIDIA/nvalchemi-toolkit }
+  - { name: kALDo, repo: nanotheorygroup/kaldo }
+  - { name: dpdata, repo: deepmodeling/dpdata }
 
 # GitHub "hot repos": repositories matching these searches that were pushed
 # in the lookback window, sorted by stars. Star growth is tracked day to day.
@@ -129,6 +133,9 @@ hot_repos:
 # industry or research themes; `filter: false` keeps everything.
 feeds:
   - { name: NVIDIA Technical Blog, url: "https://developer.nvidia.com/blog/feed/", filter: true }
+  - { name: NVIDIA Blog, url: "https://blogs.nvidia.com/feed/", filter: true }
+  - { name: Microsoft Research AI for Science, url: "https://www.microsoft.com/en-us/research/lab/microsoft-research-ai-for-science/feed/", filter: false }
+  - { name: AWS HPC Blog, url: "https://aws.amazon.com/blogs/hpc/feed/", filter: true }
   - { name: Google DeepMind, url: "https://deepmind.google/blog/rss.xml", filter: true }
   - { name: Google Research, url: "https://research.google/blog/rss/", filter: true }
   - { name: Microsoft Research, url: "https://www.microsoft.com/en-us/research/feed/", filter: true }

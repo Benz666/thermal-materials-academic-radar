@@ -69,6 +69,7 @@
       <div class="meta"><span class="badge">${esc(KIND_LABEL[it.kind] || it.kind)}</span>
         ${it.focus === "computational" ? `<span class="badge comp" title="${FOCUS.computational}">Theory</span>` : ""}
         ${it.focus === "experimental" ? `<span class="badge expt" title="${FOCUS.experimental}">Expt.</span>` : ""}
+        ${it.mytools?.length ? `<span class="badge tools" title="Mentions tools you use">⚙ ${esc(it.mytools.slice(0, 2).join(", "))}</span>` : ""}
         ${it.watched?.length ? `<span class="badge star" title="${esc(it.watched.join(", "))}">★ watched</span>` : ""}
         <span>${esc(fmt(it.first_seen, { month: "short", day: "numeric" }))}</span>
         <span class="dots">${th.map((t) => `<i style="background:${color(t)}" title="${esc(themeById(t)?.name || t)}"></i>`).join("")}</span></div>
@@ -90,6 +91,7 @@
         ${it.focus ? `<span class="badge">${esc(FOCUS[it.focus])}</span>` : ""}</div>
       <h2>${esc(it.title)}</h2>
       <p class="sub">${esc(it.venue || "")}${it.published ? " · " + esc(it.published) : ""}${authors ? "<br>" + esc(authors) : ""}
+        ${it.mytools?.length ? `<br>⚙ Your tools: ${esc(it.mytools.join(", "))}` : ""}
         ${it.watched?.length ? `<br>★ Watched: ${esc(it.watched.join(", "))}` : ""}${it.deadline ? `<br>Deadline: <b>${esc(it.deadline)}</b>` : ""}</p>
       <dl class="qa">
         ${row("What", s.what)}${row("Why", s.why)}${row("How", s.how)}${row("Impact on me", s.impact, "impact")}
@@ -114,7 +116,7 @@
     const themes = META.themes.map((t) =>
       `<button class="chip" type="button" data-theme="${t.id}" aria-pressed="false"><span class="sw" style="background:${t.color}"></span>${esc(t.name)}</button>`).join("");
     const kinds = KINDS[cat].map((k) => `<button class="chip" type="button" data-kind="${k}" aria-pressed="false">${KIND_LABEL[k]}</button>`).join("");
-    bar.innerHTML = `<div class="chips">${kinds}<button class="chip" type="button" data-watched aria-pressed="false">★ Watched authors</button>${cat === "papers" ? `<button class="chip" type="button" data-comp aria-pressed="false">Theory &amp; computation only</button>` : ""}</div>
+    bar.innerHTML = `<div class="chips">${kinds}<button class="chip" type="button" data-watched aria-pressed="false">★ Watched authors</button><button class="chip" type="button" data-tools aria-pressed="false">⚙ Your tools</button>${cat === "papers" ? `<button class="chip" type="button" data-comp aria-pressed="false">Theory &amp; computation only</button>` : ""}</div>
       <div class="chips">${themes}</div>
       <input class="search" type="search" placeholder="Search titles, venues, authors, keywords…" aria-label="Search">`;
     bar.addEventListener("click", (e) => {
@@ -126,6 +128,7 @@
       if (b.dataset.kind) on ? filters.kinds.add(b.dataset.kind) : filters.kinds.delete(b.dataset.kind);
       if (b.hasAttribute("data-watched")) filters.watched = on;
       if (b.hasAttribute("data-comp")) filters.comp = on;
+      if (b.hasAttribute("data-tools")) filters.tools = on;
       applyFilters();
     });
     bar.querySelector(".search").addEventListener("input", (e) => { filters.q = e.target.value.trim().toLowerCase(); applyFilters(); });
@@ -138,6 +141,7 @@
       const ok = (!filters.themes.size || th.some((t) => filters.themes.has(t))) &&
         (!filters.kinds.size || filters.kinds.has(c.dataset.kind)) &&
         (!filters.watched || c.querySelector(".badge.star")) &&
+        (!filters.tools || c.querySelector(".badge.tools")) &&
         (!filters.comp || c.dataset.focus === "computational" || c.dataset.focus === "mixed") &&
         (!filters.q || c.dataset.text.includes(filters.q));
       c.hidden = !ok;

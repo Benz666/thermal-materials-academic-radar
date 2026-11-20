@@ -38,6 +38,8 @@ class Scorer:
         self.ap_bonus = ap.get("computational_bonus", 3)
         self.ap_mixed = ap.get("mixed_bonus", 1)
         self.ap_penalty = ap.get("experimental_penalty", 5)
+        self.weak_tools = set(cfg.get("weak_tools") or [])
+        self.my_tools = [(label, [_pattern(t) for t in pats]) for label, pats in (cfg.get("my_tools") or {}).items()]
         self.all_terms = {t.rstrip("*").lower() for th in self.themes for t, _ in th["core"] + th["related"]}
 
     def excluded(self, text: str) -> bool:
@@ -68,6 +70,10 @@ class Scorer:
         research = {k: v for k, v in out.items() if k != "industry"}
         return {"themes": out, "matched": uniq[:12],
                 "total": sum(research.values()), "industry": out.get("industry", 0)}
+
+    def tools(self, text: str) -> list[str]:
+        """Labels of the owner's everyday tools mentioned in the text."""
+        return [label for label, pats in self.my_tools if any(p.search(text) for p in pats)]
 
     def approach(self, text: str) -> tuple[str, int]:
         """Computational/theory vs experimental work -> (focus, score adjustment)."""

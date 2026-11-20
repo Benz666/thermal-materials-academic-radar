@@ -1,0 +1,113 @@
+[
+ {
+  "abstract": "Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These... Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These simulations come with a cost-accuracy trade-off. Quantum-mechanical methods such as density functional theory (DFT) can provide accurate energies and forces, but their computational cost often limits their use for large systems or long… Source",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-10-29",
+  "focus": "",
+  "id": "840fb493c6c412d8",
+  "kind": "news",
+  "kw_score": 1,
+  "matched": [
+   "DFT",
+   "atomistic",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-10-29",
+  "score": 1,
+  "source": "NVIDIA Technical Blog",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure.",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials",
+  "url": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/",
+  "venue": "NVIDIA Technical Blog",
+  "watched": []
+ },
+ {
+  "abstract": "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions... Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions when obstacles block the path ahead. Developing these capabilities connects several stages: creating assets and an environment, using physics simulation to model how the robot interacts with its environment, and training and evaluating… Source",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-10-23",
+  "focus": "",
+  "id": "59bfa04f82ca5be6",
+  "kind": "news",
+  "kw_score": 0,
+  "matched": [
+   "simulation",
+   "physics",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-10-23",
+  "score": 0,
+  "source": "NVIDIA Technical Blog",
+  "summary": {
+   "by": "rules",
+   "how": "Developing these capabilities connects several stages: creating assets and an environment, using physics simulation to model how the robot interacts with its environment, and training and evaluating… Source",
+   "impact": "Background reading for Industry & tools.",
+   "what": "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions...",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+  "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
+  "venue": "NVIDIA Technical Blog",
+  "watched": []
+ },
+ {
+  "abstract": "kALDo 2.3.0 adds a dedicated non-analytic correction engine, anharmonic free-energy corrections from the cumulant expansion, and memory checks for parallel force constants. It also rebuilds IFC interpolation, which changes some results, and fixes two bugs that affected force constants in 2.2.x. New features The non-analytic correction (NAC) has a dedicated engine that uses the Quantum ESPRESSO rigid-ion convention for q2r input and the phonopy (Gonze-Lee) convention otherwise. It turns on when the atoms carry a dielectric tensor and nonzero (n_atoms, 3, 3) Born charges. The new is_nac=False turns it off, and nac_q_direction sets the direction of approach to Gamma. Active NAC requires a diagonal supercell and rejects distance_threshold ( #307 ). kaldo.cumulant computes anharmonic free-energy corrections from the phonon cumulant expansion ( F1_from_fc , F2_from_fc , cumulant_thermo ) ( #283 ). Parallel force-constant calculations check available memory first. With n_workers=None , kALDo uses the smaller of the CPU count and the memory-safe limit (2.2.x used all CPUs); an explicit n_workers above the limit raises MemoryError . KALDO_MEMORY_HEADROOM sets the fraction of available memory kept free (default 0.05). The estimate covers host memory only, so pass GPU calculators as a factory ( #248 , #321 ). The documentation now covers installation with uv ( #300 ) and has user guides for IFC interpolation and the non-analytic correction ( #308 ). Changes that affect results IFC interpolation no longer depends on where the unit-cell origin is drawn ( #306 ). For systems periodic in all three directions, both the default is_unfolding=False and is_unfolding=True use the shortest Wigner-Seitz images of each atom pair; TDEP and QE d3q third-order data keep their own convention.…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-10-22",
+  "focus": "",
+  "id": "e300cc5494528d34",
+  "kind": "tool",
+  "kw_score": 23,
+  "matched": [
+   "phonon",
+   "anharmonic",
+   "phonopy",
+   "kALDo",
+   "TDEP",
+   "harmonic",
+   "GPU",
+   "heat"
+  ],
+  "mytools": [
+   "phonopy / phono3py",
+   "kALDo"
+  ],
+  "published": "2026-10-22",
+  "score": 23,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "rules",
+   "how": "The new is_nac=False turns it off, and nac_q_direction sets the direction of approach to Gamma.",
+   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
+   "what": "kALDo 2.3.0 adds a dedicated non-analytic correction engine, anharmonic free-energy corrections from the cumulant expansion, and memory checks for parallel force constants. It also rebuilds IFC interpolation, which changes some results, and fixes two bugs that affected force constants in 2.2.x.",
+   "why": ""
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "kALDo 2.3.0",
+  "url": "https://github.com/nanotheorygroup/kaldo/releases/tag/2.3.0",
+  "venue": "kALDo",
+  "watched": []
+ }
+]

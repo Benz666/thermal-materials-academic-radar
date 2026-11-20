@@ -13,7 +13,7 @@ card shows a short **What / Why / How / Impact** summary and the original link.
 | Page | Sources |
 |---|---|
 | Papers & Preprints | arXiv (6 categories + targeted queries), Crossref (32 journals), OpenAlex search, new works by 35 watched authors |
-| Industry & Tools | Company / trade-press RSS, GitHub releases of 21 codes, fast-rising GitHub repositories |
+| Industry & Tools | NVIDIA Technical Blog + NVIDIA Blog, Microsoft Research (incl. AI for Science), Google DeepMind / Research, AWS HPC, OpenAI, trade press; GitHub releases of 25 codes; fast-rising GitHub repositories. Posts mentioning the owner's everyday tools (`my_tools` in `config/topics.yaml`) are tagged ⚙ and always kept |
 | Conferences & Calls | 21 US conferences (daily page-change watch), Nature-family calls for papers, WikiCFP, weekly web search for other publishers |
 
 ## How it runs

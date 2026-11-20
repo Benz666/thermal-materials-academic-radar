@@ -19,6 +19,7 @@
    "Grüneisen",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "relevance": 2,
   "score": 3,
@@ -57,6 +58,7 @@
    "phonon-phonon",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "relevance": 3,
   "score": 6,
@@ -101,6 +103,7 @@
    "heat",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "relevance": 2,
   "score": 4,
@@ -144,6 +147,7 @@
    "materials",
    "agent"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "relevance": 3,
   "score": 7,
@@ -183,6 +187,7 @@
    "heat",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "relevance": 2,
   "score": 4,
@@ -220,6 +225,7 @@
    "dislocation",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "relevance": 1,
   "score": 1,
@@ -264,6 +270,7 @@
    "materials",
    "agent"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "relevance": 4,
   "score": 11,
@@ -302,6 +309,7 @@
    "DFT",
    "high-throughput"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "relevance": 2,
   "score": 5,
@@ -342,6 +350,7 @@
    "electron-phonon",
    "first-principles"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "relevance": 1,
   "score": 2,
@@ -383,6 +392,10 @@
    "DeePMD",
    "MACE",
    "high-throughput"
+  ],
+  "mytools": [
+   "DeePMD-kit",
+   "MACE"
   ],
   "published": "2026-11-18",
   "relevance": 2,
@@ -429,6 +442,7 @@
    "thermal",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-20",
   "relevance": 1,
   "score": 3,
@@ -470,6 +484,9 @@
    "NequIP",
    "extrapolation",
    "DFT"
+  ],
+  "mytools": [
+   "NequIP / Allegro"
   ],
   "published": "2026-11-19",
   "relevance": 4,
@@ -519,6 +536,7 @@
    "harmonic",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "relevance": 5,
   "score": 25,
@@ -565,6 +583,7 @@
    "thermal",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "relevance": 1,
   "score": 3,
@@ -611,6 +630,9 @@
    "DFT",
    "heat"
   ],
+  "mytools": [
+   "MACE"
+  ],
   "published": "2026-11-18",
   "relevance": 2,
   "score": 4,
@@ -651,6 +673,7 @@
    "database",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "score": 5,
   "source": "arXiv",
@@ -696,6 +719,7 @@
    "DFT",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-16",
   "score": 5,
   "source": "Crossref",
@@ -740,6 +764,7 @@
    "GPU",
    "simulation"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "relevance": 2,
   "score": 5,
@@ -778,6 +803,9 @@
    "phonon",
    "MACE",
    "first-principles"
+  ],
+  "mytools": [
+   "MACE"
   ],
   "published": "2026-11-18",
   "relevance": 2,
@@ -818,6 +846,7 @@
    "thermal",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "relevance": 2,
   "score": 5,
@@ -858,6 +887,7 @@
    "transistor",
    "simulation"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "score": 6,
   "source": "arXiv",
@@ -899,6 +929,7 @@
    "wide-bandgap",
    "simulation"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "score": 6,
   "source": "Crossref",
@@ -941,6 +972,7 @@
    "SiC",
    "semiconductor"
   ],
+  "mytools": [],
   "published": "2026-11-17",
   "score": 6,
   "source": "OpenAlex",
@@ -985,6 +1017,7 @@
    "transistor",
    "simulation"
   ],
+  "mytools": [],
   "published": "2026-11-17",
   "relevance": 1,
   "score": 6,
@@ -1024,6 +1057,9 @@
    "MACE",
    "fine-tun",
    "simulation"
+  ],
+  "mytools": [
+   "MACE"
   ],
   "published": "2026-11-16",
   "relevance": 3,
@@ -1065,6 +1101,7 @@
    "high-throughput",
    "database"
   ],
+  "mytools": [],
   "published": "2026-11-15",
   "score": 7,
   "source": "arXiv",
@@ -1106,6 +1143,9 @@
    "simulation",
    "materials"
   ],
+  "mytools": [
+   "MACE"
+  ],
   "published": "2026-11-16",
   "score": 7,
   "source": "Crossref",
@@ -1146,6 +1186,7 @@
    "microchannel",
    "cooling"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "score": 7,
   "source": "Crossref",
@@ -1187,6 +1228,7 @@
    "thermal",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "score": 7,
   "source": "OpenAlex",
@@ -1229,6 +1271,7 @@
    "thermal",
    "simulation"
   ],
+  "mytools": [],
   "published": "2026-11-15",
   "score": 7,
   "source": "OpenAlex",
@@ -1267,6 +1310,7 @@
    "oxide",
    "first-principles"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "relevance": 2,
   "score": 10,
@@ -1311,6 +1355,7 @@
    "thermal",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "relevance": 2,
   "score": 11,
@@ -1352,6 +1397,7 @@
    "strain",
    "oxide"
   ],
+  "mytools": [],
   "published": "2026-11-19",
   "relevance": 4,
   "score": 12,
@@ -1394,6 +1440,7 @@
    "simulation",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "relevance": 4,
   "score": 13,
@@ -1435,6 +1482,10 @@
    "GPU",
    "simulation",
    "materials"
+  ],
+  "mytools": [
+   "MACE",
+   "JAX"
   ],
   "published": "2026-11-18",
   "relevance": 4,
@@ -1484,6 +1535,9 @@
    "thermal",
    "simulation"
   ],
+  "mytools": [
+   "DeePMD-kit"
+  ],
   "published": "2026-11-18",
   "relevance": 4,
   "score": 19,
@@ -1525,6 +1579,9 @@
    "MatterSim",
    "softening",
    "benchmark"
+  ],
+  "mytools": [
+   "MACE"
   ],
   "published": "2026-11-17",
   "relevance": 4,
@@ -1574,6 +1631,7 @@
    "thermal",
    "simulation"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "relevance": 5,
   "score": 26,
@@ -1618,6 +1676,7 @@
    "TDTR",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-09",
   "score": 0,
   "source": "Watched authors",
@@ -1664,6 +1723,7 @@
    "thermal",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "score": 3,
   "source": "Crossref",
@@ -1707,6 +1767,7 @@
    "interface",
    "electron-phonon"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "score": 5,
   "source": "Crossref",
@@ -1751,6 +1812,7 @@
    "polymer",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-14",
   "score": 6,
   "source": "OpenAlex",
@@ -1792,6 +1854,7 @@
    "interlayer",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-17",
   "score": 7,
   "source": "arXiv",
@@ -1833,6 +1896,9 @@
    "simulation",
    "materials"
   ],
+  "mytools": [
+   "VASP"
+  ],
   "published": "2026-11-17",
   "score": 8,
   "source": "arXiv",
@@ -1872,6 +1938,9 @@
    "NequIP",
    "robustness",
    "harmonic"
+  ],
+  "mytools": [
+   "NequIP / Allegro"
   ],
   "published": "2026-11-15",
   "score": 8,
@@ -1918,6 +1987,7 @@
    "thermal",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-15",
   "score": 9,
   "source": "OpenAlex",
@@ -1964,6 +2034,7 @@
    "first-principles",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-16",
   "score": 9,
   "source": "OpenAlex",
@@ -2006,6 +2077,7 @@
    "heat",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-14",
   "score": 10,
   "source": "OpenAlex",
@@ -2048,6 +2120,7 @@
    "workflow",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-17",
   "score": 10,
   "source": "arXiv",
@@ -2093,6 +2166,7 @@
    "first-principles",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-17",
   "score": 10,
   "source": "OpenAlex",
@@ -2134,6 +2208,9 @@
    "MatterSim",
    "DFT",
    "simulation"
+  ],
+  "mytools": [
+   "NequIP / Allegro"
   ],
   "published": "2026-11-17",
   "score": 10,
@@ -2182,6 +2259,7 @@
    "transistor",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-18",
   "score": 10,
   "source": "Crossref",
@@ -2231,6 +2309,9 @@
    "thermal",
    "simulation"
   ],
+  "mytools": [
+   "MACE"
+  ],
   "published": "2026-11-18",
   "score": 15,
   "source": "Crossref",
@@ -2276,6 +2357,10 @@
    "heat",
    "thermal"
   ],
+  "mytools": [
+   "VASP",
+   "phonopy / phono3py"
+  ],
   "published": "2026-11-23",
   "score": 16,
   "source": "OpenAlex",
@@ -2317,6 +2402,7 @@
    "oxide",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-16",
   "score": 1,
   "source": "Crossref",
@@ -2359,6 +2445,7 @@
    "thermal",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-17",
   "score": 3,
   "source": "Crossref",
@@ -2403,6 +2490,7 @@
    "GaN",
    "transistor"
   ],
+  "mytools": [],
   "published": "2026-11-17",
   "score": 3,
   "source": "Crossref",
@@ -2441,6 +2529,7 @@
    "thermal",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-17",
   "score": 5,
   "source": "Crossref",
@@ -2483,6 +2572,7 @@
    "semiconductor",
    "substrate"
   ],
+  "mytools": [],
   "published": "2026-11-16",
   "score": 7,
   "source": "Crossref",
@@ -2520,6 +2610,10 @@
    "thermal",
    "simulation",
    "materials"
+  ],
+  "mytools": [
+   "LAMMPS",
+   "OpenMP / MPI"
   ],
   "published": "2026-11-16",
   "score": 8,
@@ -2560,6 +2654,9 @@
    "transferab",
    "DFT"
   ],
+  "mytools": [
+   "MACE"
+  ],
   "published": "2026-11-16",
   "score": 8,
   "source": "arXiv",
@@ -2599,6 +2696,7 @@
    "workflow",
    "simulation"
   ],
+  "mytools": [],
   "published": "2026-11-14",
   "score": 8,
   "source": "arXiv",
@@ -2636,6 +2734,7 @@
    "transistor",
    "multiphysics"
   ],
+  "mytools": [],
   "published": "2026-11-17",
   "score": 8,
   "source": "Crossref",
@@ -2679,6 +2778,7 @@
    "first-principles",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-16",
   "score": 8,
   "source": "arXiv",
@@ -2724,6 +2824,7 @@
    "first-principles",
    "heat"
   ],
+  "mytools": [],
   "published": "2026-11-13",
   "score": 8,
   "source": "arXiv",
@@ -2769,6 +2870,7 @@
    "thermal",
    "simulation"
   ],
+  "mytools": [],
   "published": "2026-11-16",
   "score": 8,
   "source": "Crossref",
@@ -2810,6 +2912,10 @@
    "simulation",
    "materials"
   ],
+  "mytools": [
+   "NequIP / Allegro",
+   "ASE / pymatgen"
+  ],
   "published": "2026-11-14",
   "score": 9,
   "source": "arXiv",
@@ -2848,6 +2954,7 @@
    "first-principles",
    "DFT"
   ],
+  "mytools": [],
   "published": "2026-11-13",
   "score": 9,
   "source": "arXiv",
@@ -2886,6 +2993,7 @@
    "DFT",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-13",
   "score": 9,
   "source": "arXiv",
@@ -2924,6 +3032,7 @@
    "thermal",
    "simulation"
   ],
+  "mytools": [],
   "published": "2026-11-13",
   "score": 9,
   "source": "arXiv",
@@ -2962,6 +3071,7 @@
    "electron-phonon",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-17",
   "score": 9,
   "source": "Crossref",
@@ -3003,6 +3113,9 @@
    "DFT",
    "simulation",
    "materials"
+  ],
+  "mytools": [
+   "MACE"
   ],
   "published": "2026-11-13",
   "score": 10,
@@ -3052,6 +3165,7 @@
    "thermal",
    "simulation"
   ],
+  "mytools": [],
   "published": "2026-11-13",
   "score": 10,
   "source": "arXiv",
@@ -3088,6 +3202,9 @@
    "MACE",
    "CHGNet",
    "M3GNet"
+  ],
+  "mytools": [
+   "MACE"
   ],
   "published": "2026-11-16",
   "score": 12,
@@ -3131,6 +3248,7 @@
    "DFT",
    "workflow"
   ],
+  "mytools": [],
   "published": "2026-11-16",
   "score": 12,
   "source": "Crossref",
@@ -3181,6 +3299,7 @@
    "simulation",
    "materials"
   ],
+  "mytools": [],
   "published": "2026-11-13",
   "score": 13,
   "source": "Crossref",
@@ -3224,6 +3343,13 @@
    "GPU",
    "simulation",
    "agent"
+  ],
+  "mytools": [
+   "LAMMPS",
+   "MACE",
+   "NequIP / Allegro",
+   "ASE / pymatgen",
+   "OpenMP / MPI"
   ],
   "published": "2026-11-15",
   "score": 17,
@@ -3273,6 +3399,7 @@
    "first-principles",
    "thermal"
   ],
+  "mytools": [],
   "published": "2026-11-03",
   "score": 18,
   "source": "Watched authors",
