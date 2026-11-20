@@ -21,6 +21,7 @@ on:
       - "config/**"
       - "web/**"
       - "radar/**"
+      - ".github/workflows/**"
 
 permissions:
   contents: write
