@@ -93,14 +93,15 @@
    "kALDo"
   ],
   "published": "2026-10-22",
-  "score": 23,
+  "relevance": 5,
+  "score": 29,
   "source": "GitHub releases",
   "summary": {
-   "by": "rules",
-   "how": "The new is_nac=False turns it off, and nac_q_direction sets the direction of approach to Gamma.",
-   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
-   "what": "kALDo 2.3.0 adds a dedicated non-analytic correction engine, anharmonic free-energy corrections from the cumulant expansion, and memory checks for parallel force constants. It also rebuilds IFC interpolation, which changes some results, and fixes two bugs that affected force constants in 2.2.x.",
-   "why": ""
+   "by": "claude",
+   "how": "NAC uses the Quantum ESPRESSO rigid-ion convention for q2r input and the phonopy (Gonze-Lee) convention otherwise; it turns on when atoms carry a dielectric tensor and Born charges, and requires a diagonal supercell. IFC interpolation changes may alter some results. With n_workers=None the code uses the smaller of the CPU count and a memory-safe limit.",
+   "impact": "Directly relevant to the GaN/AlGaN HEMT, InGaAs and boron arsenide projects: kALDo is a phonon BTE code that works alongside phonopy/phono3py, and NAC matters for polar materials such as GaN and AlGaN. Worth checking whether the IFC interpolation change or the 2.2.x force-constant bugs affect any existing results, and whether the cumulant free-energy tools are useful for anharmonic work.",
+   "what": "kALDo 2.3.0 adds a dedicated non-analytic correction (NAC) engine and anharmonic free-energy corrections from the phonon cumulant expansion (kaldo.cumulant). It also adds memory checks for parallel force-constant calculations.",
+   "why": "Release notes state it fixes two bugs that affected force constants in 2.2.x and rebuilds IFC interpolation so it no longer depends on where the unit-cell origin is drawn."
   },
   "themes": [
    "atomistic"

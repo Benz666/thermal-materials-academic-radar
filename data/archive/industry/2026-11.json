@@ -1,5 +1,218 @@
 [
  {
+  "abstract": "MDANCE: Hyper-efficient tools to process molecular dynamics simulations. Topics: algorithms, clustering, machine-learning, molecular-dynamics.",
+  "authors": [
+   "mqcomplab"
+  ],
+  "cat": "industry",
+  "created": "2024-02-07",
+  "doi": "",
+  "first_seen": "2026-11-21",
+  "focus": "",
+  "id": "226e1ba900792a7b",
+  "kind": "repo",
+  "kw_score": 1,
+  "matched": [
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 2,
+  "score": -2,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 148,
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract beyond clustering algorithms for MD data.",
+   "impact": "Low relevance. Possibly usable for clustering MD trajectories, but it appears aimed at biomolecular-style MD and no phonon or MLIP use is stated.",
+   "what": "GitHub repository mqcomplab/MDANCE: tools to process molecular dynamics simulations efficiently, tagged clustering, machine learning and molecular dynamics.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "mqcomplab/MDANCE",
+  "url": "https://github.com/mqcomplab/MDANCE",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "A code for fast, massively-parallel simulations of two-phase flows with heat transfer Topics: computational-fluid-dynamics, direct-numerical-simulation, fluid-dynamics, fluid-simulation, fortran, gpu, high-performance-computing, multiphase-flow, turbulence.",
+  "authors": [
+   "CaNS-World"
+  ],
+  "cat": "industry",
+  "created": "2023-04-29",
+  "doi": "",
+  "first_seen": "2026-11-21",
+  "focus": "",
+  "id": "b252e80b3e48aef7",
+  "kind": "repo",
+  "kw_score": 1,
+  "matched": [
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-21",
+  "relevance": 1,
+  "score": -5,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 50,
+  "summary": {
+   "by": "claude",
+   "how": "Tagged GPU, high-performance computing, direct numerical simulation and multiphase flow.",
+   "impact": "Low relevance. Continuum CFD for two-phase heat transfer; conceivably of passing interest for cooling simulations, but no link to the owner's atomistic projects.",
+   "what": "GitHub repository CaNS-World/CaNS-Fizzy: a Fortran code for fast, massively parallel simulations of two-phase flows with heat transfer.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "CaNS-World/CaNS-Fizzy",
+  "url": "https://github.com/CaNS-World/CaNS-Fizzy",
+  "venue": "GitHub · Fortran",
+  "watched": []
+ },
+ {
+  "abstract": "Plasma etching and deposition processes increasingly determine the manufacturability of advanced semiconductor devices, where smaller features, more complex geometries, stricter wafer-uniformity requirements, and new chemistries demand predictive control of ion fluxes at the wafer surface. Kinetic plasma simulation provides a physics-based route to this control by resolving sheath dynamics, ion-neutral transport, and ion angular and energy distributions that cannot be captured reliably with bulk fluid approximations alone. VSim Plasma applies Particle-in-Cell modeling with Monte Carlo collisions to compute self-consistent electromagnetic fields, charged-particle motion, collisions, and current deposition. Validation against inductively coupled plasma measurements shows strong agreement for electron temperature and plasma potential, reasonable density agreement, and consistent electron energy probability function behavior. Coupling plasma-derived ion angular and energy distributions into Victory Process enables feature-scale etch simulation, linking chamber conditions and waveform design to process variability and profile evolution. Read more here . [Download for PDF is here .] Fig. 1: Chamber-scale plasma simulation. Source: Silvaco The post Simulation of Plasma Chambers for Predictive Simulation of Semiconductor Manufacturing appeared first on Semiconductor Engineering .",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-21",
+  "focus": "",
+  "id": "bac077307fd8e1b6",
+  "kind": "news",
+  "kw_score": 4,
+  "matched": [
+   "semiconductor",
+   "simulation",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-19",
+  "relevance": 1,
+  "score": -2,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Validation against inductively coupled plasma measurements is stated to show strong agreement for electron temperature and plasma potential and reasonable density agreement; plasma-derived ion angular and energy distributions feed the etch simulation.",
+   "impact": "Low relevance. Process/plasma simulation rather than thermal transport; useful only as an industry trend in multiscale simulation for semiconductors.",
+   "what": "Silvaco article on VSim Plasma (particle-in-cell with Monte Carlo collisions) coupled to Victory Process for feature-scale etch simulation in semiconductor manufacturing.",
+   "why": "Smaller features and stricter uniformity requirements demand predictive control of ion fluxes at the wafer surface, which bulk fluid models cannot capture reliably."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Simulation of Plasma Chambers for Predictive Simulation of Semiconductor Manufacturing",
+  "url": "https://semiengineering.com/simulation-of-plasma-chambers-for-predictive-simulation-of-semiconductor-manufacturing/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Key Takeaways: AI can identify promising process conditions and recognize manufacturing problems, but those results still require physical validation before they can be trusted in production. Incomplete manufacturing data and uncertainty about downstream effects make it difficult to give AI systems authority over process adjustments. Greater manufacturing autonomy will require clear decision boundaries, failure containment, and ways to qualify models that change as they learn. Semiconductor manufacturing has always depended on engineers making decisions involving complex interactions among process parameters. An etch recipe, for example, may involve combinations of RF power, pressure, gas chemistry, temperature, and timing, each affecting multiple process characteristics. Changing one parameter might improve critical dimension control while creating problems elsewhere. But as devices and manufacturing processes become more complicated, the growing number of variables involved makes those decisions increasingly difficult. AI-driven manufacturing offers a way to manage some of that complexity, from finding better process conditions to identifying defects and responding to problems on the production line. But how much production responsibility engineers are willing to give those systems remains an open question, and one that drew considerable attention at SEMICON West 2026. “No matter how good we are as engineers, no matter how disciplined and objective we are, we tend to approach these difficult problems with historical biases,” said David Fried, chief AI officer and corporate vice president of Semiverse Solutions at Lam Research during a conference panel. “A process engineer might look at a set of data and say, ‘I need to move into a lower-pressure, higher-power regime…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-21",
+  "focus": "",
+  "id": "1e96606f8dbabcb1",
+  "kind": "news",
+  "kw_score": 4,
+  "matched": [
+   "semiconductor",
+   "materials",
+   "chemistry"
+  ],
+  "mytools": [],
+  "published": "2026-11-19",
+  "relevance": 1,
+  "score": -2,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Opinion and panel summary (including Lam Research's David Fried); it argues for clear decision boundaries, failure containment and ways to qualify models that change as they learn.",
+   "impact": "Low relevance. Industry context for AI in semiconductor process control; it contains no thermal or MLIP content.",
+   "what": "Semiconductor Engineering article on how much manufacturing authority AI systems should have, based on discussion at SEMICON West 2026.",
+   "why": "AI can find process conditions and spot problems, but results need physical validation and manufacturing data are incomplete."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Can AI Make Its Own Manufacturing Decisions?",
+  "url": "https://semiengineering.com/can-ai-make-its-own-manufacturing-decisions/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Release v4.11.0",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-21",
+  "focus": "",
+  "id": "7ed98d45c7c33cb9",
+  "kind": "tool",
+  "kw_score": 6,
+  "matched": [],
+  "mytools": [
+   "phonopy / phono3py"
+  ],
+  "published": "2026-11-21",
+  "relevance": 4,
+  "score": 9,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract; the release text is only \"Release v4.11.0\" (merge of pull request #1123).",
+   "impact": "phonopy is a core tool for the MLPhonon, InGaAs, GaN and BaTiO3/SrTiO3 lattice dynamics workflows, so check the release notes for changes before upgrading, since changes are not described here.",
+   "what": "phonopy release v4.11.0.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [],
+  "title": "v4.11.0: Merge pull request #1123 from phonopy/release",
+  "url": "https://github.com/phonopy/phonopy/releases/tag/v4.11.0",
+  "venue": "phonopy",
+  "watched": []
+ },
+ {
+  "abstract": "PhysicsNeMo General Release v2.3.0 Added Unified external aero recipe: adds AB-UPT surface, volume, and joint configurations calling the library model directly, configurable independent point-set sampling in DomainMeshReader , and grouped tensor outputs for unequal surface/volume point counts. The unified external aerodynamics recipe adds experimental SMART surface and volume templates. The unified external aerodynamics recipe adds experimental ISLA configs on DrivAerML ( isla_surface , isla_volume and isla_volume_joint ) and a scheduler config group. Each ISLA config reads the whole flow-domain boundary and fits one 80 GB GPU at its defaults. Adds the FlipBoundaryOrientation and BoundaryCellsToPoints mesh transforms to physicsnemo.datapipes . The first reverses the cell winding and stored normals of named boundaries, and the second adds a point-cloud boundary at drawn cells of another boundary, with those cells' fields and measures. Adds physicsnemo.experimental.models.ab_upt.ABUPT , an independent implementation with interacting surface/volume anchors, reusable query contexts, input scaling and chunked forward decoding, and a finite-difference vorticity helper that undoes coordinate and velocity scaling. physicsnemo.mesh.sampling.sample_cells_systematic draws a fixed number of a mesh's cells with probability proportional to their measure, with Horvitz-Thompson weights for unbiased sums. The sample is spread over the mesh, the same in every pose, bitwise the same from run to run on CPU and on CUDA, and compiles to one graph. KNNScorer and DensityScorer provide reusable out-of-distribution (OOD) scoring under experimental.uq.ood , with optional geometry descriptors. The examples keep scoring decisions in the application. Both scorers support weights-only tensor…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-21",
+  "focus": "",
+  "id": "1d8f8ebc4d9089f7",
+  "kind": "tool",
+  "kw_score": 10,
+  "matched": [
+   "GPU"
+  ],
+  "mytools": [
+   "CUDA",
+   "PhysicsNeMo"
+  ],
+  "published": "2026-11-21",
+  "relevance": 1,
+  "score": 4,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "claude",
+   "how": "Includes an ABUPT model implementation, datapipe mesh transforms, and a sample_cells_systematic function with Horvitz-Thompson weights; ISLA configs fit one 80 GB GPU.",
+   "impact": "Low relevance. Aerodynamics-focused; the OOD scoring utilities are only loosely related to MLIP failure-mode analysis, and no heat transfer or phonon content is stated.",
+   "what": "NVIDIA PhysicsNeMo v2.3.0 adds a unified external-aerodynamics recipe (AB-UPT, SMART, ISLA configs on DrivAerML), new mesh transforms, systematic mesh sampling and out-of-distribution scorers (KNNScorer, DensityScorer).",
+   "why": "Release notes extend physics-ML tooling for CFD-style surface and volume prediction with reusable uncertainty/OOD scoring."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "NVIDIA PhysicsNeMo v2.3.0",
+  "url": "https://github.com/NVIDIA/physicsnemo/releases/tag/v2.3.0",
+  "venue": "NVIDIA PhysicsNeMo",
+  "watched": []
+ },
+ {
   "abstract": "Advanced Thermal Solutions, Inc. (ATS) has introduced the ArctiQ NIVIS Series of cold plates for liquid cooling of AMD SP5 platform processors used in AI, HPC and server grade CPU applications The NIVIS cold plates are designed for direct-contact cooling […] The post New Cold Plates Cool AMD Socket SP5 AI and HPC Processors appeared first on Electronics Cooling .",
   "authors": [],
   "cat": "industry",
@@ -551,14 +764,15 @@
    "VASP"
   ],
   "published": "2026-11-18",
+  "relevance": 3,
   "score": 6,
   "source": "NVIDIA Technical Blog",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Industry & tools.",
-   "what": "Training a next-generation machine learning interatomic potential (MLIP) requires ground truth: tens to hundreds of millions of density functional theory (DFT)... Training a next-generation machine learning interatomic potential (MLIP) requires ground truth: tens to hundreds of millions of density functional theory (DFT) calculations of energies, forces,…",
-   "why": ""
+   "by": "claude",
+   "how": "Techniques named in the title are k-point batching and mixed precision on GPUs. Further details are not stated in the abstract.",
+   "impact": "Relevant to the VASP-based data generation behind the GaN/AlGaN, InGaAs and BAs MLIP training sets: cheaper DFT labeling would speed active-learning loops. Not stated in the abstract whether VASP itself is affected or what accuracy or speedup is achieved.",
+   "what": "NVIDIA technical blog on tackling GPU bottlenecks in plane-wave DFT using k-point batching and mixed precision.",
+   "why": "Training next-generation MLIPs needs tens to hundreds of millions of DFT calculations, and plane-wave DFT (VASP being dominant) is the gold standard for generating that data."
   },
   "themes": [
    "industry"
@@ -1001,14 +1215,15 @@
    "CUDA"
   ],
   "published": "2026-11-17",
+  "relevance": 3,
   "score": 3,
   "source": "NVIDIA Blog",
   "summary": {
-   "by": "rules",
-   "how": "Nemotron for Science combines the Nemotron 3.5 Super VL open model with a new open chemistry dataset and post-training recipes for life sciences and chemistry, Buck explained.",
-   "impact": "Possibly relevant to GPU/HPC solvers and scientific ML (matched: CUDA).",
-   "what": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science , the Rubin HPC GPU and an expanded Vera CPU platform for high-performance computing .",
-   "why": ""
+   "by": "claude",
+   "how": "Agents are described as planning experiments, running code and checking results on researchers' own systems. One example states an agent at Argonne took a single prompt, chose simulations to run and identified two new binding sites. The abstract is truncated before other agent examples.",
+   "impact": "Moderately relevant to the interest in agents and automated workflows for first-principles and thermal-MD calculations, though the examples given are chemistry and life-science rather than phonon transport. Not stated whether any materials or lattice-dynamics agent is included.",
+   "what": "Recap of NVIDIA's SC26 special address: Nemotron for Science (an open model plus an open chemistry dataset and post-training recipes), the Rubin HPC GPU, an expanded Vera CPU platform and a quantum collaboration with IBM and Fermilab.",
+   "why": "NVIDIA frames the new scientific stack as simulation combined with AI agents and quantum computing."
   },
   "themes": [
    "industry"
@@ -1591,14 +1806,15 @@
   ],
   "mytools": [],
   "published": "2026-11-16",
-  "score": 3,
+  "relevance": 1,
+  "score": -3,
   "source": "NVIDIA Blog",
   "summary": {
-   "by": "rules",
-   "how": "The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering lower power, higher resiliency and longer mean time between interruptions (MTBI) to an AI factory at scale. “Networking has to keep pace with the demands of increasingly large AI clusters,” said Dave…",
-   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: agentic).",
-   "what": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches.",
-   "why": "The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering lower power, higher resiliency and longer mean time between interruptions (MTBI) to an AI factory at scale. “Networking has to keep pace with the demands of increasingly large AI clusters,” said Dave…"
+   "by": "claude",
+   "how": "Stated results: network latency fell about 4% at rack scale and up to about 10% at pod scale with the same throughput as pluggable optics. CPO is stated to give up to 5x better power efficiency and up to 15x higher reliability.",
+   "impact": "Low relevance. An AI-datacenter packaging and power note only; no thermal transport or cooling analysis is given in the abstract.",
+   "what": "Lambda is using NVIDIA Photonics co-packaged optics (CPO) switches to connect GB300 NVL72 racks with more than 10,000 GPUs.",
+   "why": "Large AI training clusters need a fast, efficient and resilient network; the post cites lower power and higher resiliency."
   },
   "themes": [
    "device"
@@ -1743,14 +1959,15 @@
    "CUDA"
   ],
   "published": "2026-11-16",
-  "score": 4,
+  "relevance": 2,
+  "score": 1,
   "source": "NVIDIA Blog",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to GPU/HPC solvers and scientific ML (matched: GPU-accelerated, CUDA).",
-   "what": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next…",
-   "why": "This increases demand for the GPU-accelerated simulations needed to evaluate those ideas and guide next steps. “For agents tackling science and engineering, faster simulation means faster discovery,” said Ian Buck , vice president of hyperscale and high-performance computing at NVIDIA. “Rubin HPC accelerates the…"
+   "by": "claude",
+   "how": "Hardware announcement; stated features are the high CUDA core count, sparse data acceleration for scattered-access workloads, and faster GPU-to-GPU connectivity. Benchmarks are not stated in the abstract.",
+   "impact": "Low relevance now; a hardware trend note for GPU-accelerated phonon BTE and CUDA/JAX solvers. No concrete numbers for the owner's workloads.",
+   "what": "NVIDIA announced Rubin HPC, a new GPU in the Vera Rubin platform for simulation and data processing, with more than 50,000 CUDA cores, a sparse data acceleration capability and seventh-generation NVLink.",
+   "why": "Agents exploring more candidate materials, molecules and designs increase demand for GPU-accelerated simulations to test those ideas."
   },
   "themes": [
    "industry"
@@ -1784,14 +2001,15 @@
   ],
   "mytools": [],
   "published": "2026-11-16",
-  "score": 7,
+  "relevance": 2,
+  "score": 4,
   "source": "NVIDIA Blog",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Possibly relevant to GPU/HPC solvers and scientific ML (matched: GPU-accelerated).",
-   "what": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems , each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming soon.",
-   "why": ""
+   "by": "claude",
+   "how": "Each node has a GB10 Grace Blackwell Superchip connected to two neighbors via ConnectX-7, with no switch. An NVIDIA HPC SDK playbook is stated as coming soon.",
+   "impact": "Low relevance. Marginally interesting as a desk-side option for developing and debugging GPU codes (e.g. JAX-BTE or LAMMPS-based MLIP runs) before production jobs, but no materials or phonon-specific results are given.",
+   "what": "NVIDIA introduced the DGX Spark HPC Developer Kit at SC26: a four-node cluster of DGX Spark systems linked in a ring, with 512GB combined memory and 16TB NVMe.",
+   "why": "It aims to let researchers run multi-node scientific workloads, AI models and agents at their desk instead of waiting for shared GPU cluster time."
   },
   "themes": [
    "atomistic"
@@ -1823,14 +2041,15 @@
    "CUDA"
   ],
   "published": "2026-11-13",
-  "score": 3,
+  "relevance": 2,
+  "score": 0,
   "source": "NVIDIA Technical Blog",
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Industry & tools.",
-   "what": "Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general... Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general matrix multiplications (GEMM).",
-   "why": ""
+   "by": "claude",
+   "how": "Not stated in the abstract beyond new FP64 algorithms in cuBLAS.",
+   "impact": "Possibly relevant to GPU-accelerated linear algebra in CUDA/JAX phonon solvers (e.g. JAX-BTE) and DFT codes, but speedups and applicability are not stated. Low-to-moderate relevance.",
+   "what": "NVIDIA blog on new FP64 algorithms in cuBLAS for the high-precision dense matrix multiplications DGEMM and ZGEMM.",
+   "why": "Many scientific simulations, from molecular chemistry to materials science, spend most of their execution time in these operations."
   },
   "themes": [
    "industry"
@@ -1891,14 +2110,15 @@
    "NVIDIA ALCHEMI"
   ],
   "published": "2026-11-04",
-  "score": 7,
+  "relevance": 4,
+  "score": 10,
   "source": "GitHub releases",
   "summary": {
-   "by": "rules",
-   "how": "Relaxation propagators are supported via fmax and a convergence hook.",
-   "impact": "Background reading for Industry & tools.",
-   "what": "Third public-beta release of NVIDIA ALCHEMI Toolkit. The headline is distillation : teacher scoring, offline and on-policy training loops that run data-parallel, and an acceptance evaluation suite.",
-   "why": ""
+   "by": "claude",
+   "how": "Teacher signals (energies, forces, stress, atomic energies, embeddings, Hessian) are labeled to a resumable Zarr store. On-policy loops with a replay buffer and multi-GPU data-parallel training are supported, with embedding, Hessian-vector and Boltzmann relative-entropy loss terms and an acceptance evaluation suite.",
+   "impact": "Relevant to the InGaAs (Deep Potential vs MACE), AlGaN MLIP and boron arsenide active-learning projects. Hessian-based distillation and an acceptance evaluation suite could be useful for building faster student potentials and for testing MLIP failure modes in phonon properties. Not stated in the abstract whether phonon or thermal conductivity accuracy is evaluated.",
+   "what": "NVIDIA ALCHEMI Toolkit v0.3.0 (third public beta) adds distillation of MLIPs: train a compact student potential against a larger teacher, either from a fixed dataset or from the student's own trajectories.",
+   "why": "Distillation aims to produce compact potentials from larger teacher models; the release also adds enhanced sampling, batched minimum-energy paths, a generative model API, L-BFGS optimizers and LoRA fine-tuning."
   },
   "themes": [
    "industry"

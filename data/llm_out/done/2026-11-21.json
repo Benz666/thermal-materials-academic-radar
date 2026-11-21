@@ -1,0 +1,173 @@
+{
+ "summaries": {
+  "e300cc5494528d34": {
+   "what": "kALDo 2.3.0 adds a dedicated non-analytic correction (NAC) engine and anharmonic free-energy corrections from the phonon cumulant expansion (kaldo.cumulant). It also adds memory checks for parallel force-constant calculations.",
+   "why": "Release notes state it fixes two bugs that affected force constants in 2.2.x and rebuilds IFC interpolation so it no longer depends on where the unit-cell origin is drawn.",
+   "how": "NAC uses the Quantum ESPRESSO rigid-ion convention for q2r input and the phonopy (Gonze-Lee) convention otherwise; it turns on when atoms carry a dielectric tensor and Born charges, and requires a diagonal supercell. IFC interpolation changes may alter some results. With n_workers=None the code uses the smaller of the CPU count and a memory-safe limit.",
+   "impact": "Directly relevant to the GaN/AlGaN HEMT, InGaAs and boron arsenide projects: kALDo is a phonon BTE code that works alongside phonopy/phono3py, and NAC matters for polar materials such as GaN and AlGaN. Worth checking whether the IFC interpolation change or the 2.2.x force-constant bugs affect any existing results, and whether the cumulant free-energy tools are useful for anharmonic work.",
+   "relevance": 5
+  },
+  "56ea253d242c9d85": {
+   "what": "NVIDIA introduced the DGX Spark HPC Developer Kit at SC26: a four-node cluster of DGX Spark systems linked in a ring, with 512GB combined memory and 16TB NVMe.",
+   "why": "It aims to let researchers run multi-node scientific workloads, AI models and agents at their desk instead of waiting for shared GPU cluster time.",
+   "how": "Each node has a GB10 Grace Blackwell Superchip connected to two neighbors via ConnectX-7, with no switch. An NVIDIA HPC SDK playbook is stated as coming soon.",
+   "impact": "Low relevance. Marginally interesting as a desk-side option for developing and debugging GPU codes (e.g. JAX-BTE or LAMMPS-based MLIP runs) before production jobs, but no materials or phonon-specific results are given.",
+   "relevance": 2
+  },
+  "51bc692175cd2735": {
+   "what": "NVIDIA announced an expansion of Slurm to support quantum processors (QPUs) through a single file-based interface, building on the QRMI and QDMI interfaces.",
+   "why": "Integrating each QPU into each supercomputing center previously required bespoke software work; the expansion lets QPU builders reuse one integration across centers.",
+   "how": "A new Slurm release supports QPU integration through a simple file, and is stated to be adopted by Alice & Bob, IBM, IQM, Pasqal, Quantinuum and MQSC.",
+   "impact": "Low relevance. Quantum-HPC scheduling does not touch the phonon, MLIP or HEMT projects, which run on GPU/CPU clusters (HTCondor).",
+   "relevance": 1
+  },
+  "8e028a47b89ec9ae": {
+   "what": "NVIDIA ALCHEMI Toolkit v0.3.0 (third public beta) adds distillation of MLIPs: train a compact student potential against a larger teacher, either from a fixed dataset or from the student's own trajectories.",
+   "why": "Distillation aims to produce compact potentials from larger teacher models; the release also adds enhanced sampling, batched minimum-energy paths, a generative model API, L-BFGS optimizers and LoRA fine-tuning.",
+   "how": "Teacher signals (energies, forces, stress, atomic energies, embeddings, Hessian) are labeled to a resumable Zarr store. On-policy loops with a replay buffer and multi-GPU data-parallel training are supported, with embedding, Hessian-vector and Boltzmann relative-entropy loss terms and an acceptance evaluation suite.",
+   "impact": "Relevant to the InGaAs (Deep Potential vs MACE), AlGaN MLIP and boron arsenide active-learning projects. Hessian-based distillation and an acceptance evaluation suite could be useful for building faster student potentials and for testing MLIP failure modes in phonon properties. Not stated in the abstract whether phonon or thermal conductivity accuracy is evaluated.",
+   "relevance": 4
+  },
+  "422c219ed3857095": {
+   "what": "NVIDIA technical blog on tackling GPU bottlenecks in plane-wave DFT using k-point batching and mixed precision.",
+   "why": "Training next-generation MLIPs needs tens to hundreds of millions of DFT calculations, and plane-wave DFT (VASP being dominant) is the gold standard for generating that data.",
+   "how": "Techniques named in the title are k-point batching and mixed precision on GPUs. Further details are not stated in the abstract.",
+   "impact": "Relevant to the VASP-based data generation behind the GaN/AlGaN, InGaAs and BAs MLIP training sets: cheaper DFT labeling would speed active-learning loops. Not stated in the abstract whether VASP itself is affected or what accuracy or speedup is achieved.",
+   "relevance": 3
+  },
+  "9f55eb53379a88c3": {
+   "what": "NVIDIA announced Rubin HPC, a new GPU in the Vera Rubin platform for simulation and data processing, with more than 50,000 CUDA cores, a sparse data acceleration capability and seventh-generation NVLink.",
+   "why": "Agents exploring more candidate materials, molecules and designs increase demand for GPU-accelerated simulations to test those ideas.",
+   "how": "Hardware announcement; stated features are the high CUDA core count, sparse data acceleration for scattered-access workloads, and faster GPU-to-GPU connectivity. Benchmarks are not stated in the abstract.",
+   "impact": "Low relevance now; a hardware trend note for GPU-accelerated phonon BTE and CUDA/JAX solvers. No concrete numbers for the owner's workloads.",
+   "relevance": 2
+  },
+  "ad016a36a84bc213": {
+   "what": "NVIDIA technical blog on integrating quantum processors into supercomputing centers using Slurm HRES plugins.",
+   "why": "National programs are installing QPUs alongside HPC systems, and the post argues every supercomputer will eventually be a hybrid quantum-classical device.",
+   "how": "Not stated in the abstract beyond use of Slurm HRES plugins.",
+   "impact": "Low relevance. Not connected to the phonon, MLIP or HEMT projects.",
+   "relevance": 1
+  },
+  "257d92090b2b63c3": {
+   "what": "NVIDIA blog on new FP64 algorithms in cuBLAS for the high-precision dense matrix multiplications DGEMM and ZGEMM.",
+   "why": "Many scientific simulations, from molecular chemistry to materials science, spend most of their execution time in these operations.",
+   "how": "Not stated in the abstract beyond new FP64 algorithms in cuBLAS.",
+   "impact": "Possibly relevant to GPU-accelerated linear algebra in CUDA/JAX phonon solvers (e.g. JAX-BTE) and DFT codes, but speedups and applicability are not stated. Low-to-moderate relevance.",
+   "relevance": 2
+  },
+  "05f108542f26fa93": {
+   "what": "Recap of NVIDIA's SC26 special address: Nemotron for Science (an open model plus an open chemistry dataset and post-training recipes), the Rubin HPC GPU, an expanded Vera CPU platform and a quantum collaboration with IBM and Fermilab.",
+   "why": "NVIDIA frames the new scientific stack as simulation combined with AI agents and quantum computing.",
+   "how": "Agents are described as planning experiments, running code and checking results on researchers' own systems. One example states an agent at Argonne took a single prompt, chose simulations to run and identified two new binding sites. The abstract is truncated before other agent examples.",
+   "impact": "Moderately relevant to the interest in agents and automated workflows for first-principles and thermal-MD calculations, though the examples given are chemistry and life-science rather than phonon transport. Not stated whether any materials or lattice-dynamics agent is included.",
+   "relevance": 3
+  },
+  "9b699744af34d76a": {
+   "what": "Lambda is using NVIDIA Photonics co-packaged optics (CPO) switches to connect GB300 NVL72 racks with more than 10,000 GPUs.",
+   "why": "Large AI training clusters need a fast, efficient and resilient network; the post cites lower power and higher resiliency.",
+   "how": "Stated results: network latency fell about 4% at rack scale and up to about 10% at pod scale with the same throughput as pluggable optics. CPO is stated to give up to 5x better power efficiency and up to 15x higher reliability.",
+   "impact": "Low relevance. An AI-datacenter packaging and power note only; no thermal transport or cooling analysis is given in the abstract.",
+   "relevance": 1
+  },
+  "7e4620281a9601c2": {
+   "what": "A self-consistent ensemble Monte Carlo framework for monolayer MoS2 built on the ViennaEMC solver, coupling Boltzmann transport to Poisson's equation, with the velocity-field result feeding a one-dimensional channel model for FET and gas-sensor response.",
+   "why": "Device design for MoS2 needs a transport model whose scattering rates are computed rather than calibrated and that spans scales from electron-phonon coupling to terminal current.",
+   "how": "All intrinsic inputs (band structure, phonon energies, dielectric response, electron-phonon couplings from DFPT at 34 explicit phonon wavevectors and from Wannier interpolation with 2D long-range treatment) are computed from first principles with no fitted transport parameter. Scattering rates are checked against a linearised Boltzmann equation solution.",
+   "impact": "A first-principles-to-device multiscale pipeline analogous in spirit to the GaN/AlGaN HEMT project (MLIP to phonon properties to BTE to device scale), though it addresses electron transport rather than heat and uses 2D MoS2. Methodologically a useful reference for linking phonon/e-ph data to device models; no thermal results are stated.",
+   "relevance": 3
+  },
+  "2b9f73f9abd9baab": {
+   "what": "First-principles plus Boltzmann transport study of structural, electronic and phonon transport in GaSe0.5Te0.5 and InSe0.5Te0.5 in centrosymmetric and non-centrosymmetric configurations.",
+   "why": "To test how crystal symmetry governs charge and phonon transport for thermoelectric design in layered chalcogenides.",
+   "how": "Stated results: inversion-symmetry breaking enhances anharmonicity, strengthens phonon scattering and reduces group velocities, suppressing in-plane lattice thermal conductivity; the NCS-InSe0.5Te0.5 reaches a maximum ZT of about 2.7 at 600 K. Specific codes are not stated in the abstract.",
+   "impact": "Low relevance. A conventional DFT+BTE thermoelectric study on materials outside the owner's projects; the symmetry-anharmonicity argument is of mild interest only.",
+   "relevance": 2
+  },
+  "dc11a23f83eb41c6": {
+   "what": "An active-learning Behler-Parrinello high-dimensional neural network potential (HDNNP) for paramagnetic UO2, implemented in LAMMPS, with exchange-correlation functional screening.",
+   "why": "Atomic-scale modeling is needed to predict long-term thermomechanical performance of UO2 nuclear fuel under irradiation, while direct ab initio MD is too costly.",
+   "how": "Training data come from variable-cell MD trajectories at various temperatures and pressures computed with Quantum ESPRESSO using non-spin-polarized DFT without Hubbard-U. Reported test RMSEs are 1.46e-4 eV/atom (energy) and 8.73e-3 eV/Å (forces); elastic constants agree with experiment and DFT+U within 2-17%.",
+   "impact": "Low relevance to the projects directly; the active-learning MLIP workflow with LAMMPS is similar to the BAs and InGaAs pipelines, but only elastic constants are validated and no phonon or thermal conductivity results are stated.",
+   "relevance": 2
+  },
+  "36d7cefe1f780453": {
+   "what": "A methodology that uses first-principles simulations to automatically generate libraries for identifying effective macroscopic rate laws from kinetic data, based on a Linearized Ensemble Motif Operator Network framework and a sparse identification architecture (SMIDE).",
+   "why": "Top-down rate law models oversimplify chemistry, while bottom-up microkinetic models are uncertain and too expensive for reactor engineering.",
+   "how": "Key kinetic motifs are filtered from symbolic expressions into a pre-compiled library; SMIDE uses ensembles of splines from heteroscedastic noise realizations and multi-objective optimization to produce a Pareto front of candidate models.",
+   "impact": "Low relevance. Catalysis/chemical kinetics with no connection to phonon transport or MLIPs; the sparse model-identification idea is only loosely transferable.",
+   "relevance": 1
+  },
+  "ec5d9815cca9f7d0": {
+   "what": "First-principles study of the halide double perovskite Rb2GeNiCl6 as a magnetic semiconductor, reporting thermoelectric, optical and dielectric properties.",
+   "why": "To assess lead-free candidates for spintronics, thermoelectrics and optoelectronics.",
+   "how": "Only the end of the abstract is available: a figure of merit of 0.92 at room temperature is stated, with substantial visible/UV absorption. Methods are not stated in the abstract.",
+   "impact": "Low relevance. A routine property-screening study outside the owner's projects.",
+   "relevance": 1
+  },
+  "8e9cb0cf92b020a9": {
+   "what": "A strain-inversion strategy using 4H-SiC/SiO2/polycrystalline-ceramic-AlN integrated substrates to grow 53-µm-thick, stress-free GaN films by MOCVD.",
+   "why": "Residual stress in heteroepitaxy limits epilayer thickness, raises threading dislocation density and degrades reliability.",
+   "how": "Co-designed modeling and experiment; stated results are x-ray rocking curve FWHM of 83 and 119 arcsec for (002) and (102) planes and a threading dislocation density of 5×10^7 cm^-2.",
+   "impact": "Mostly experimental, but context for the GaN HEMT project: substrate stack and dislocation density affect interface and thermal boundary resistance. Thermal properties of the SiC/SiO2/AlN stack are not stated in the abstract.",
+   "relevance": 2
+  },
+  "cb796ee2e73b9ac7": {
+   "what": "A DFT and BoltzTraP2 study of CsZrX3 (X = Cl, Br) halide perovskites for opto-spintronic and thermoelectric applications.",
+   "why": "To evaluate them as multifunctional lead-free halide perovskites.",
+   "how": "Only the end of the abstract is available; DFT with BoltzTraP2 is named in the title. Results are not stated in the abstract.",
+   "impact": "Low relevance. A routine property-screening study outside the owner's projects.",
+   "relevance": 1
+  },
+  "f4e3ffe0414e09ca": {
+   "what": "Physical Review Letters paper on moire-induced interlayer electron-phonon coupling in graphene/hBN superlattices.",
+   "why": "Not stated in the abstract (the abstract is empty).",
+   "how": "Not stated in the abstract.",
+   "impact": "Low relevance. Electron-phonon physics in a 2D moire system; no stated connection to the owner's thermal transport projects, and the abstract is unavailable.",
+   "relevance": 1
+  },
+  "1d8f8ebc4d9089f7": {
+   "what": "NVIDIA PhysicsNeMo v2.3.0 adds a unified external-aerodynamics recipe (AB-UPT, SMART, ISLA configs on DrivAerML), new mesh transforms, systematic mesh sampling and out-of-distribution scorers (KNNScorer, DensityScorer).",
+   "why": "Release notes extend physics-ML tooling for CFD-style surface and volume prediction with reusable uncertainty/OOD scoring.",
+   "how": "Includes an ABUPT model implementation, datapipe mesh transforms, and a sample_cells_systematic function with Horvitz-Thompson weights; ISLA configs fit one 80 GB GPU.",
+   "impact": "Low relevance. Aerodynamics-focused; the OOD scoring utilities are only loosely related to MLIP failure-mode analysis, and no heat transfer or phonon content is stated.",
+   "relevance": 1
+  },
+  "7ed98d45c7c33cb9": {
+   "what": "phonopy release v4.11.0.",
+   "why": "Not stated in the abstract.",
+   "how": "Not stated in the abstract; the release text is only \"Release v4.11.0\" (merge of pull request #1123).",
+   "impact": "phonopy is a core tool for the MLPhonon, InGaAs, GaN and BaTiO3/SrTiO3 lattice dynamics workflows, so check the release notes for changes before upgrading, since changes are not described here.",
+   "relevance": 4
+  },
+  "bac077307fd8e1b6": {
+   "what": "Silvaco article on VSim Plasma (particle-in-cell with Monte Carlo collisions) coupled to Victory Process for feature-scale etch simulation in semiconductor manufacturing.",
+   "why": "Smaller features and stricter uniformity requirements demand predictive control of ion fluxes at the wafer surface, which bulk fluid models cannot capture reliably.",
+   "how": "Validation against inductively coupled plasma measurements is stated to show strong agreement for electron temperature and plasma potential and reasonable density agreement; plasma-derived ion angular and energy distributions feed the etch simulation.",
+   "impact": "Low relevance. Process/plasma simulation rather than thermal transport; useful only as an industry trend in multiscale simulation for semiconductors.",
+   "relevance": 1
+  },
+  "1e96606f8dbabcb1": {
+   "what": "Semiconductor Engineering article on how much manufacturing authority AI systems should have, based on discussion at SEMICON West 2026.",
+   "why": "AI can find process conditions and spot problems, but results need physical validation and manufacturing data are incomplete.",
+   "how": "Opinion and panel summary (including Lam Research's David Fried); it argues for clear decision boundaries, failure containment and ways to qualify models that change as they learn.",
+   "impact": "Low relevance. Industry context for AI in semiconductor process control; it contains no thermal or MLIP content.",
+   "relevance": 1
+  },
+  "226e1ba900792a7b": {
+   "what": "GitHub repository mqcomplab/MDANCE: tools to process molecular dynamics simulations efficiently, tagged clustering, machine learning and molecular dynamics.",
+   "why": "Not stated in the abstract.",
+   "how": "Not stated in the abstract beyond clustering algorithms for MD data.",
+   "impact": "Low relevance. Possibly usable for clustering MD trajectories, but it appears aimed at biomolecular-style MD and no phonon or MLIP use is stated.",
+   "relevance": 2
+  },
+  "b252e80b3e48aef7": {
+   "what": "GitHub repository CaNS-World/CaNS-Fizzy: a Fortran code for fast, massively parallel simulations of two-phase flows with heat transfer.",
+   "why": "Not stated in the abstract.",
+   "how": "Tagged GPU, high-performance computing, direct numerical simulation and multiphase flow.",
+   "impact": "Low relevance. Continuum CFD for two-phase heat transfer; conceivably of passing interest for cooling simulations, but no link to the owner's atomistic projects.",
+   "relevance": 1
+  }
+ },
+ "new_items": []
+}

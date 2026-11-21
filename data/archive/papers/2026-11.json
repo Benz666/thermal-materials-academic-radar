@@ -1,5 +1,431 @@
 [
  {
+  "abstract": "",
+  "authors": [
+   "Dasol Kim",
+   "Zhengguang Lu",
+   "Tonghang Han",
+   "Guorui Chen",
+   "Tianyi Han",
+   "Jixiang Yang",
+   "Jeong Min Park",
+   "Qihang Zhang",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1103/jvzb-xh9d",
+  "first_seen": "2026-11-21",
+  "focus": "",
+  "id": "f4e3ffe0414e09ca",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "phonon",
+   "superlattice",
+   "interlayer",
+   "electron-phonon"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 1,
+  "score": 0,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract.",
+   "impact": "Low relevance. Electron-phonon physics in a 2D moire system; no stated connection to the owner's thermal transport projects, and the abstract is unavailable.",
+   "what": "Physical Review Letters paper on moire-induced interlayer electron-phonon coupling in graphene/hBN superlattices.",
+   "why": "Not stated in the abstract (the abstract is empty)."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Moire-induced interlayer electron-phonon coupling in graphene/hBN superlattices",
+  "url": "https://doi.org/10.1103/jvzb-xh9d",
+  "venue": "Physical Review Letters",
+  "watched": []
+ },
+ {
+  "abstract": "ABSTRACT As the semiconductor industry increasingly pivots toward “More than Moore” and “More Moore” paradigms, heterogeneous integration has emerged as a pivotal strategy for achieving system‐level performance breakthroughs. However, residual stress inherent to the integration of dissimilar materials represents a critical bottleneck, directly threatening the integrity and reliability of these advanced systems. Heteroepitaxy, as a representative example, is inherently constrained by stress accumulation, which limits epilayer thickness, increases threading dislocation density (TDD), and degrades device reliability. Here, we present a strain‐inversion strategy that effectively transfers misfit‐induced stress from the epilayer into the substrate stack. Through co‐designed theoretical modeling and experimental validation, we introduce 4H‐SiC/SiO 2 /polycrystalline‐ceramic‐AlN integrated substrates, and demonstrate metalorganic chemical vapor deposition (MOCVD) growth of 53‐µm‐thick, stress‐free heteroepitaxial GaN films. The films exhibit outstanding structural quality, with full‐width‐at‐half‐maximum (FWHM) values of x‐ray rocking curve of 83 and 119 arcsec for the (002) and (102) planes, respectively, and a TDD of 5 × 10 7 cm −2 . These results not only set a new thickness record for MOCVD‐grown heteroepitaxial GaN but also achieve crystal quality comparable to state‐of‐the‐art benchmarks. Our approach establishes strain‐inverted epitaxy as a highly promising platform for high‐performance nitride devices and paves the way for producing low‐cost and strain‐free GaN and AlN substrates.",
+  "authors": [
+   "Junkang Wu",
+   "Xuelin Yang",
+   "Faquan Wu",
+   "Xingyu Fu",
+   "Hongcai Yang",
+   "Zhenghao Chen",
+   "Lin Yao",
+   "Beile Chen",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1002/adma.75772",
+  "first_seen": "2026-11-21",
+  "focus": "mixed",
+  "id": "8e9cb0cf92b020a9",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "GaN",
+   "AlN",
+   "SiC",
+   "semiconductor",
+   "substrate",
+   "reliability",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-21",
+  "relevance": 2,
+  "score": 4,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Co-designed modeling and experiment; stated results are x-ray rocking curve FWHM of 83 and 119 arcsec for (002) and (102) planes and a threading dislocation density of 5×10^7 cm^-2.",
+   "impact": "Mostly experimental, but context for the GaN HEMT project: substrate stack and dislocation density affect interface and thermal boundary resistance. Thermal properties of the SiC/SiO2/AlN stack are not stated in the abstract.",
+   "what": "A strain-inversion strategy using 4H-SiC/SiO2/polycrystalline-ceramic-AlN integrated substrates to grow 53-µm-thick, stress-free GaN films by MOCVD.",
+   "why": "Residual stress in heteroepitaxy limits epilayer thickness, raises threading dislocation density and degrades reliability."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Strain‐Inversion Strategy Enables MOCVD Growth of 53 µm Ultra‐Thick, Stress‐Free, Buffer‐Free III‐Nitride Heteroepitaxial Films",
+  "url": "https://doi.org/10.1002/adma.75772",
+  "venue": "Advanced Materials",
+  "watched": []
+ },
+ {
+  "abstract": "(X = Cl, Br) may be of interest for further investigation as multifunctional lead-free halide perovskites for potential spintronic, optoelectronic, and energy-related applications.",
+  "authors": [
+   "Milon Mojumdar",
+   "M. Bellal Hossain",
+   "Akash  Kumer Paul",
+   "Budrun Neher",
+   "Md. Mahbubur Rahman Bhuiyan",
+   "Farid Ahmed"
+  ],
+  "cat": "papers",
+  "doi": "10.1039/d6ra07554a",
+  "first_seen": "2026-11-21",
+  "focus": "computational",
+  "id": "cb796ee2e73b9ac7",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "thermoelectric",
+   "DFT"
+  ],
+  "mytools": [],
+  "published": "2026-11-18",
+  "relevance": 1,
+  "score": 1,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Only the end of the abstract is available; DFT with BoltzTraP2 is named in the title. Results are not stated in the abstract.",
+   "impact": "Low relevance. A routine property-screening study outside the owner's projects.",
+   "what": "A DFT and BoltzTraP2 study of CsZrX3 (X = Cl, Br) halide perovskites for opto-spintronic and thermoelectric applications.",
+   "why": "To evaluate them as multifunctional lead-free halide perovskites."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Computational exploration of CsZrX 3 (X = Cl, Br) halide perovskites: a DFT and BoltzTraP2 approach toward opto-spintronics and thermoelectric applications",
+  "url": "https://doi.org/10.1039/d6ra07554a",
+  "venue": "RSC Advances",
+  "watched": []
+ },
+ {
+  "abstract": "A profound methodological divide separates top-down macroscopic rate law identification from bottom-up, first-principles microkinetic modeling. While top-down macroscopic models often oversimplify underlying chemistry and fail to capture localized kinetic variations, bottom-up microkinetic simulations provide an exceptionally detailed look at elementary reaction pathways. However, these complex microscopic networks are frequently bottlenecked by uncertainties in both their kinetic parameters and topologies and remain too computationally demanding for full-scale reactor engineering. To bridge this gap, we present a methodology that leverages first-principles simulations for automated library generation, circumventing the bottleneck of scarce experimental data. Central to this pipeline is the novel Linearized Ensemble Motif Operator Network framework, which extracts the underlying effective kinetic information by filtering key kinetic motifs from symbolic expressions, effectively distilling intricate microkinetic networks down to simple, chemically interpretable macroscopic rate laws. This pre-compiled motif library is integrated into a sparse model identification architecture with derivative ensembles (SMIDE). To robustly handle experimental noise, SMIDE generates an ensemble of splines from heteroscedastic noise realizations to capture derivative uncertainty. Through multi-objective optimization, the framework maps out a comprehensive Pareto front of candidate models. This approach transforms rate law discovery from a simple curve-fitting exercise into a rigorous statistical analysis of the kinetic mechanisms supported by the physical system, eliminating the need for manually predefined structural libraries.",
+  "authors": [
+   "Maryke Kouyate",
+   "Kirk Badger",
+   "Gianmarco Ducci",
+   "C. Franklin Goldsmith",
+   "Karsten Reuter",
+   "Christoph Scheurer"
+  ],
+  "cat": "papers",
+  "doi": "10.1063/5.0355371",
+  "first_seen": "2026-11-21",
+  "focus": "computational",
+  "id": "36d7cefe1f780453",
+  "kind": "paper",
+  "kw_score": 8,
+  "matched": [
+   "interpretab",
+   "uncertainty",
+   "first-principles",
+   "simulation",
+   "chemistry"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 1,
+  "score": 2,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Key kinetic motifs are filtered from symbolic expressions into a pre-compiled library; SMIDE uses ensembles of splines from heteroscedastic noise realizations and multi-objective optimization to produce a Pareto front of candidate models.",
+   "impact": "Low relevance. Catalysis/chemical kinetics with no connection to phonon transport or MLIPs; the sparse model-identification idea is only loosely transferable.",
+   "what": "A methodology that uses first-principles simulations to automatically generate libraries for identifying effective macroscopic rate laws from kinetic data, based on a Linearized Ensemble Motif Operator Network framework and a sparse identification architecture (SMIDE).",
+   "why": "Top-down rate law models oversimplify chemistry, while bottom-up microkinetic models are uncertain and too expensive for reactor engineering."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Microkinetically informed library generation for modeling effective rate laws from kinetic data",
+  "url": "https://doi.org/10.1063/5.0355371",
+  "venue": "The Journal of Chemical Physics",
+  "watched": []
+ },
+ {
+  "abstract": "= 0.92 at room temperature, demonstrating its promising potential for thermoelectric and renewable energy applications. The study also investigates the optical and dielectric properties, unveiling substantial absorption and photoconductivity in the visible and UV regions, thereby endorsing their potential as promising lead-free candidates for optoelectronics and solar cell applications. The comprehensive investigation overall lends support to the potential use of this material in semiconductor spintronics, thermoelectric technology, optoelectronics, and other emerging technological domains.",
+  "authors": [
+   "Muhammad Ayaz",
+   "Bingsuo Zou",
+   "Aziz Ullah"
+  ],
+  "cat": "papers",
+  "doi": "10.1039/d6ra03124b",
+  "first_seen": "2026-11-21",
+  "focus": "computational",
+  "id": "ec5d9815cca9f7d0",
+  "kind": "paper",
+  "kw_score": 8,
+  "matched": [
+   "thermoelectric",
+   "semiconductor",
+   "first-principles"
+  ],
+  "mytools": [],
+  "published": "2026-11-18",
+  "relevance": 1,
+  "score": 2,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Only the end of the abstract is available: a figure of merit of 0.92 at room temperature is stated, with substantial visible/UV absorption. Methods are not stated in the abstract.",
+   "impact": "Low relevance. A routine property-screening study outside the owner's projects.",
+   "what": "First-principles study of the halide double perovskite Rb2GeNiCl6 as a magnetic semiconductor, reporting thermoelectric, optical and dielectric properties.",
+   "why": "To assess lead-free candidates for spintronics, thermoelectrics and optoelectronics."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "First-principles study of halide double perovskite Rb 2 GeNiCl 6 : a stable magnetic semiconductor for spintronic and thermoelectric applications",
+  "url": "https://doi.org/10.1039/d6ra03124b",
+  "venue": "RSC Advances",
+  "watched": []
+ },
+ {
+  "abstract": "Uranium dioxide (UO2) undergoes defect formation and microstructural changes under reactor irradiation, making atomic-scale modeling crucial for predicting its long-term thermomechanical performance. In this work, the paramagnetic state of bulk UO2 is simulated using non-spin-polarized density functional theory (DFT) without Hubbard-U corrections to ensure a consistent, computationally tractable reference dataset. To bypass the high cost of direct ab initio molecular dynamics (MD), we developed a Behler–Parrinello high-dimensional neural network potential (HDNNP) optimized with an active-learning framework. The training database was constructed from variable-cell MD trajectories across various temperatures and pressures, calculated using the Quantum ESPRESSO package. The resulting HDNNP achieves outstanding accuracy, yielding energy and force test RMSEs of 1.46×10-4 eV/atom and 8.73×10-3 eV/Å, respectively. Implemented in LAMMPS, the potential accurately predicts the equilibrium lattice parameter and single-crystal elastic constants (C11, C12, C44) of UO2. The predicted elastic constants exhibit excellent agreement with experimental data and DFT+U benchmarks, with relative errors remaining within 2–17%. This highlights the model’s capability to serve as a high-fidelity, computationally efficient surrogate for large-scale simulations of the mechanical behavior of nuclear fuels.",
+  "authors": [
+   "Mahmoud Payami Shabestar",
+   "Samira Sheykhi",
+   "Mohammad Reza Basaadat"
+  ],
+  "cat": "papers",
+  "doi": "10.24200/jonra.2026.2052.1242",
+  "first_seen": "2026-11-21",
+  "focus": "computational",
+  "id": "dc11a23f83eb41c6",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "benchmark",
+   "LAMMPS",
+   "DFT",
+   "database",
+   "simulation"
+  ],
+  "mytools": [
+   "LAMMPS"
+  ],
+  "published": "2027-02-01",
+  "relevance": 2,
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Training data come from variable-cell MD trajectories at various temperatures and pressures computed with Quantum ESPRESSO using non-spin-polarized DFT without Hubbard-U. Reported test RMSEs are 1.46e-4 eV/atom (energy) and 8.73e-3 eV/Å (forces); elastic constants agree with experiment and DFT+U within 2-17%.",
+   "impact": "Low relevance to the projects directly; the active-learning MLIP workflow with LAMMPS is similar to the BAs and InGaAs pipelines, but only elastic constants are validated and no phonon or thermal conductivity results are stated.",
+   "what": "An active-learning Behler-Parrinello high-dimensional neural network potential (HDNNP) for paramagnetic UO2, implemented in LAMMPS, with exchange-correlation functional screening.",
+   "why": "Atomic-scale modeling is needed to predict long-term thermomechanical performance of UO2 nuclear fuel under irradiation, while direct ab initio MD is too costly."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Exchange–Correlation Functional Screening and Development of a High Dimensional Neural Network Interatomic Potential for UO2",
+  "url": "https://doi.org/10.24200/jonra.2026.2052.1242",
+  "venue": "Journal of Nuclear Research and Applications",
+  "watched": []
+ },
+ {
+  "abstract": "We investigate the structural, electronic, and phonon transport properties of GaSe0.5Te0.5 and InSe0.5Te0.5 systems in centrosymmetric (CS) and non-centrosymmetric (NCS) configurations using first-principles calculations combined with Boltzmann transport theory. Structural optimization and stability analysis confirm the feasibility of both configurations. Our results show that crystal symmetry plays a decisive role in governing charge and phonon transport. The centrosymmetric phases exhibit higher carrier mobility, reaching 5407 cm²/Vs for CS-GaSe0.5Te0.5 and 1872 cm²/Vs for CSInSe0.5Te0.5, due to reduced carrier–phonon scattering and more symmetric electronic band dispersion. Interestingly, while both Ga and In-based systems are expected to show superior electrical conductivity due to “conductive network” overlap, the additional antibonding character from In–Te bonds in Insystem may further suppress phonon transport, resulting in reduced lattice thermal conductivity. Additionally, inversion-symmetry breaking in the NCS structures enhances lattice anharmonicity, strengthens phonon scattering, and reduces phonon group velocities, leading to a strong suppression of in-plane lattice thermal conductivity. Moreover, the absence of inversion symmetry in the NCSconfiguration induces Rashba-type spin splitting, which modifies the electronic band structure and enhances the Seebeck coefficient. As a result of this symmetry-driven interplay between electronic and phononic transport, NCS-InSe0.5Te0.5 exhibits the best thermoelectric performance, achieving a maximum ZT of ~2.7 at 600 K. These results highlight symmetry engineering as an effective strategy to optimize thermoelectric efficiency in layered chalcogenide systems.",
+  "authors": [
+   "Tanu Choudhary",
+   "Shivani Vinod",
+   "Raju Kumar Biswas"
+  ],
+  "cat": "papers",
+  "doi": "10.1103/43p3-982p",
+  "first_seen": "2026-11-21",
+  "focus": "computational",
+  "id": "2b9f73f9abd9baab",
+  "kind": "paper",
+  "kw_score": 10,
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "anharmonic",
+   "first-principles",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-19",
+  "relevance": 2,
+  "score": 7,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Stated results: inversion-symmetry breaking enhances anharmonicity, strengthens phonon scattering and reduces group velocities, suppressing in-plane lattice thermal conductivity; the NCS-InSe0.5Te0.5 reaches a maximum ZT of about 2.7 at 600 K. Specific codes are not stated in the abstract.",
+   "impact": "Low relevance. A conventional DFT+BTE thermoelectric study on materials outside the owner's projects; the symmetry-anharmonicity argument is of mild interest only.",
+   "what": "First-principles plus Boltzmann transport study of structural, electronic and phonon transport in GaSe0.5Te0.5 and InSe0.5Te0.5 in centrosymmetric and non-centrosymmetric configurations.",
+   "why": "To test how crystal symmetry governs charge and phonon transport for thermoelectric design in layered chalcogenides."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Breaking of inversion symmetry as a design parameter for thermoelectric transport in M Se 0.5 Te 0.5 ( M = Ga , In )",
+  "url": "https://doi.org/10.1103/43p3-982p",
+  "venue": "Physical review. B./Physical review. B",
+  "watched": []
+ },
+ {
+  "abstract": "Two-dimensional semiconductors, such as monolayer MoS 2 , combine a technologically useful band gap with a thickness of three atomic planes. The entire carrier density then lies within a few Å of the surface, which makes them useful as field-effect-transistor channels and as chemically sensitive devices. Device design for MoS 2 needs a transport model whose scattering rates are computed rather than calibrated, whose predictions are tested against experiment, and that spans the scales from electron-phonon coupling to terminal current and sensor response. We present a self-consistent ensemble Monte Carlo (EMC) framework for monolayer MoS 2 built on the ViennaEMC solver, which couples a Boltzmann transport model to Poisson’s equation with degenerate free-carrier statistics. The transport model carries wavevector-dependent acoustic, polar-optical, homopolar and intervalley phonon scattering within and between the K valleys and the spin–orbit-split Q valleys, together with remote substrate phonons, screened charged impurities and surface roughness. Every intrinsic input of the transport model is computed from first principles for this work, namely the band structure of the K and Q valleys, the phonon energies, sound velocities and dielectric response, and the electron-phonon couplings from density-functional perturbation theory matrix elements at 34 explicit phonon wavevectors and from Wannier interpolation with the two-dimensional long-range treatment. The model therefore contains no fitted transport parameter and no coupling taken from another calculation, and its scattering rates are checked against an independent solution of the linearised Boltzmann equation with the same couplings. The EMC velocity-field characteristic feeds a one-dimensional channel model, which is…",
+  "authors": [
+   "Lado Filipovic"
+  ],
+  "cat": "papers",
+  "doi": "10.1088/2053-1583/aec0ae",
+  "first_seen": "2026-11-21",
+  "focus": "computational",
+  "id": "7e4620281a9601c2",
+  "kind": "paper",
+  "kw_score": 13,
+  "matched": [
+   "phonon",
+   "multiscale",
+   "transistor",
+   "semiconductor",
+   "substrate",
+   "roughness",
+   "electron-phonon",
+   "first-principles",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-19",
+  "relevance": 3,
+  "score": 13,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "All intrinsic inputs (band structure, phonon energies, dielectric response, electron-phonon couplings from DFPT at 34 explicit phonon wavevectors and from Wannier interpolation with 2D long-range treatment) are computed from first principles with no fitted transport parameter. Scattering rates are checked against a linearised Boltzmann equation solution.",
+   "impact": "A first-principles-to-device multiscale pipeline analogous in spirit to the GaN/AlGaN HEMT project (MLIP to phonon properties to BTE to device scale), though it addresses electron transport rather than heat and uses 2D MoS2. Methodologically a useful reference for linking phonon/e-ph data to device models; no thermal results are stated.",
+   "what": "A self-consistent ensemble Monte Carlo framework for monolayer MoS2 built on the ViennaEMC solver, coupling Boltzmann transport to Poisson's equation, with the velocity-field result feeding a one-dimensional channel model for FET and gas-sensor response.",
+   "why": "Device design for MoS2 needs a transport model whose scattering rates are computed rather than calibrated and that spans scales from electron-phonon coupling to terminal current."
+  },
+  "themes": [
+   "atomistic",
+   "device"
+  ],
+  "title": "Multiscale ensemble Monte Carlo of transport and gas sensing in monolayer MoS 2",
+  "url": "https://doi.org/10.1088/2053-1583/aec0ae",
+  "venue": "2D Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract We formulate the thermodynamic core of a quaternionic crystal–glass theory. The orientational variable is an SO(3) rotor q∈SU(2), q∼−q, with coherent amplitude ρ. The rotor stiffness is retained, so disclinations enter as failures of smooth orientational continuation rather than as scalar defects inserted after the fact. A glass is not obtained by integrating out a dilute defect gas, which gives only an ordered-side fugacity correction. The glass basin is instead represented by a second field Φ, defined as the frozen part of the orientational holonomy: the disclination charge threading a loop is the conjugacy class of the loop holonomy in the binary point group H, proliferation of disclinations is the area law of the orientational Wilson loop, and Φ is the Edwards–Anderson amplitude of that holonomy, nonzero only when it is frozen. This separates the glass from a liquid, where the holonomy is equally random but not frozen, and from a defect density, which is nonzero in every phase. We construct a two-field Gibbs functional with competing crystal (ρ̸= 0,Φ = 0) and glass (ρ≃0,Φ ̸= 0) saddles. The order of the transition follows from the quartic coupling matrix: strong positive repulsion between ρand Φ gives a first-order boundary, weaker coupling permits a mixed/frustrated regime. The holonomy charge coincides with the Burgers circulation of the nonaffine displacement field in the torsion sector and differs from it in the curvature sector; in the Riemann–Cartan description of the defect density, disclinations source curvature and dislocations source torsion. The freezing of Φ follows from the rearrangement barrier σws that the functional itself defines. The theory outputs the defect correlation length, the rearrangement barrier and the bulk saddle scale…",
+  "authors": [
+   "Caroline Gorham Holden",
+   "Ahmed Farag Ali"
+  ],
+  "cat": "papers",
+  "doi": "10.1088/1361-648x/aec4b0",
+  "first_seen": "2026-11-20",
+  "focus": "computational",
+  "id": "53b3324f3523df3f",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "glass",
+   "dislocation",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-19",
+  "relevance": 1,
+  "score": 1,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Theoretical construction of a Gibbs functional with competing saddles; the order of transition follows from the quartic coupling matrix. Numerical results are not stated in the abstract.",
+   "impact": "Low relevance. Abstract field theory of defects and glass formation, with no phonon or thermal transport link to the reader's projects.",
+   "what": "Formulates a two-field Gibbs theory of quaternionic orientational order, with a crystal field and a glass field defined as the frozen part of orientational holonomy, treating disclinations and dislocations via curvature and torsion.",
+   "why": "To describe glass formation and defect condensation with a thermodynamic functional that separates glass from liquid and from defect density."
+  },
+  "themes": [
+   "interface"
+  ],
+  "title": "A two-field Gibbs theory of quaternionic orientational order and defect condensation in glass formation",
+  "url": "https://doi.org/10.1088/1361-648x/aec4b0",
+  "venue": "Journal of Physics: Condensed Matter",
+  "watched": []
+ },
+ {
+  "abstract": "Phonon-mediated superconductivity in binary transition-metal borides reflects a balance between the metal d-states, metal-boron bonding, and the lattice vibrations that couple to them. Here, we compare P6/mmm TcB2 at 20 GPa with I4/mcm Tc2B and P4/mmm Tc3B at 0 GPa within a first-principles framework. Their mechanical responses differ appreciably: TcB2 is the most rigid under its compressed condition, Tc2B shows the strongest tendency toward ductility, and Tc3B falls between the two. Despite these differences, all three phases remain metallic. The states at the Fermi level are dominated by Tc-4d character, although the extent of Tc-d/B-p mixing varies from one compound to another. Charge redistribution is more directional and B-centered in TcB2, but more delocalized around the Tc network in Tc2B and Tc3B. Inclusion of spin-orbit coupling leaves all three compounds metallic. The optical response remains metallic and electric field polarization dependent, with substantial visible reflectivity and strong ultraviolet absorption. Low-frequency Tc rich vibrations dominate the electron-phonon coupling (EPC). With μ* = 0.10, the Tc values of TcB2, Tc2B, and Tc3B are 24.92, 11.07, and 15.12 K, respectively. Although Tc3B exhibits a higher electronic density of states at the Fermi level, N(EF), TcB2 couples most strongly to EPC-active low-frequency modes, showing that the superconducting hierarchy depends on electronic-phonon matching rather than DOS magnitude alone.",
+  "authors": [
+   "M. Rabi Us Sani Shapon",
+   "Jubair Hossan Abir",
+   "Md. Asif Afzal",
+   "Raihana Shams Islam",
+   "Saleh Hasan Naqib"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-20",
+  "focus": "computational",
+  "id": "7bb928c5203753e0",
+  "kind": "preprint",
+  "kw_score": 8,
+  "matched": [
+   "phonon",
+   "electron-phonon",
+   "first-principles"
+  ],
+  "mytools": [],
+  "published": "2026-11-19",
+  "relevance": 1,
+  "score": 2,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "DFT-based calculations of electronic structure, spin-orbit coupling, optical response and electron-phonon coupling.",
+   "impact": "Low relevance. Standard DFT/EPC study of superconducting borides, not thermal transport in the reader's semiconductors or interfaces.",
+   "what": "First-principles comparison of TcB2 (20 GPa), Tc2B and Tc3B: mechanical, electronic, optical properties and electron-phonon-coupling superconductivity (Tc of 24.92, 11.07 and 15.12 K with μ* = 0.10).",
+   "why": "Phonon-mediated superconductivity in transition-metal borides depends on the balance of d-states, metal-boron bonding and lattice vibrations."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Comparative First-Principles Study of the Physical Properties, Phonon-Mediated Superconductivity and Functional Potential of Technetium-Based Binary Borides TcB2, Tc2B and Tc3B",
+  "url": "https://arxiv.org/abs/2611.25554v1",
+  "venue": "arXiv · cond-mat.supr-con",
+  "watched": []
+ },
+ {
   "abstract": "We performed a comprehensive Raman spectroscopy study of (Bi1-xSbx)2Te3 (BST-x) compounds, with varying Sb concentration, under ambient and high-pressure conditions. At ambient conditions, the frequency of all observed Raman-active modes (E1g, A11g, E2g, A21g) is blue-shifting with increasing Sb concentration, albeit with varying concentration-dependent rate. Based on these results, we calculated the relative force constants as a function of Sb concentration using a harmonic approximation, which shows a mode-dependent variation. The force constants for the lower frequency Raman modes (E1 g and A11g) remain almost composition-independent, while for the higher-frequency ones a profound softening (E2g) or stiffening (A21g) was determined. From the Raman spectroscopy measurements under high-pressure conditions, the corresponding Grüneisen parameters for the three observed Raman-active modes (A11g, E2g, A21g) as a function of composition were determined by combining them with the previously reported Equation of States and the corresponding bulk modulus B0 of the ambient-conditions R-3m phase. The average Grüneisen parameter exhibits a clear maximum for BST-07. Based on Slack's equation, these results are directly related to the optimal ZT values for this composition. Our study provides a solid framework for connecting composition, lattice dynamics, and thermal-transport behaviour, towards establishing the microscopic origin of thermoelectric optimization in BST compounds.",
   "authors": [
    "Baihong Sun",
@@ -40,42 +466,49 @@
   "watched": []
  },
  {
-  "abstract": "How chiral phonons survive anharmonic phonon-phonon interactions, which underpin lattice dynamics at finite temperature, remains poorly understood. Using an ab initio many-body approach, we study crystalline tellurium (Te), a strongly anharmonic helical crystal. We show that rotational symmetries in Te impose pseudoangular momentum selection rules on phonon-phonon interactions, restricting mode mixing and scattering at rotationally invariant symmetry points in the Brillouin zone. These symmetries protect the circular polarization of vibrational modes at finite temperature but not their lifetimes such that the dynamic chirality of handed vibrational modes persists to 600 K, even as lifetimes drop sharply. We find that the temperature-dependence of angular momentum generated by a thermal gradient is governed by lifetimes rather than chirality, decreasing by two orders of magnitude between 10 and 600 K.",
+  "abstract": "Abstract Aurivillius phase materials are layered ferroelectrics with high thermal stability (>600 °C) and fatigue resistance, yet their polarization is predominantly in-plane, limiting integration into vertical device architectures relevant to future memory, data storage, and neuromorphic computing concepts. Achieving robust vertical polarization in these systems remains fundamentally challenging because of crystallographic symmetry constraints. Although defects can locally reorient polarization, deterministic control of defect topology through growth-mode engineering remains largely unexplored in layered ferroelectrics. Here, we demonstrate that precise control of nominal precursor loading and oxygen partial pressure during direct liquid injection chemical vapor deposition enables a transition in epitaxial Bi4Ti3O12 thin films from two-dimensional growth to dislocation-mediated, chiral spiral growth. This work introduces growth spirals as a controllable route to engineer defect topology and grain morphology, rather than relying on post-growth or stochastic defect formation. Atomic-resolution microscopy and piezoresponse force microscopy reveal that chiral spiral-mediated morphologies exhibit a 135% higher local vertical piezoresponse amplitude and a reduced local vertical switching bias from ±20 to ±5 V compared with two-dimensional films. High-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) displacement mapping and density functional theory indicate that out-of-phase boundary defect-associated local structural distortions modify local symmetry, bonding, and strain in a manner consistent with an enhanced out-of-plane polarization component and local vertical electromechanical response. These results establish spiral-driven defect…",
   "authors": [
-   "Supriyo Ghosh",
-   "Dipti Jasrasaria"
+   "Debismita Dutta",
+   "Tigran Simonian",
+   "Joydipto Bhattacharya",
+   "Michael Schmidt",
+   "Sabir Hussain",
+   "Valeria Nicolosi",
+   "Lynette Keeney"
   ],
   "cat": "papers",
-  "doi": "",
+  "doi": "10.1021/acsami.6c14633",
   "first_seen": "2026-11-20",
-  "focus": "",
-  "id": "4d826c1ec30c7528",
-  "kind": "preprint",
-  "kw_score": 6,
+  "focus": "computational",
+  "id": "96c9456506139642",
+  "kind": "paper",
+  "kw_score": 9,
   "matched": [
-   "phonon",
-   "anharmonic",
-   "phonon-phonon",
-   "thermal"
+   "dislocation",
+   "strain",
+   "STEM",
+   "oxide",
+   "thermal",
+   "materials"
   ],
   "mytools": [],
-  "published": "2026-11-18",
-  "relevance": 3,
-  "score": 6,
-  "source": "arXiv",
+  "published": "2026-11-20",
+  "relevance": 1,
+  "score": 3,
+  "source": "Crossref",
   "summary": {
    "by": "claude",
-   "how": "Ab initio anharmonic many-body approach; angular momentum generated by a thermal gradient is shown to be governed by lifetimes rather than chirality (decreasing about two orders of magnitude from 10 to 600 K).",
-   "impact": "Relevant theory for anharmonic phonon scattering and symmetry selection rules in lattice dynamics (the BTE phonon-property side of the projects) and possibly for the BaTiO3 phonon direction asymmetry work, though the material and focus differ.",
-   "what": "Ab initio many-body study of chiral phonons in tellurium: rotational symmetries impose pseudoangular-momentum selection rules on phonon-phonon scattering, preserving circular polarization up to 600 K while lifetimes drop sharply.",
-   "why": "It is poorly understood how chiral phonons survive anharmonic phonon-phonon interactions at finite temperature."
+   "how": "CVD growth, PFM, HAADF-STEM displacement mapping and DFT.",
+   "impact": "Low relevance. Mostly experimental growth work with no thermal transport; only a loose link to the BaTiO3 dislocation project through oxide dislocation structure.",
+   "what": "Shows that tuning precursor loading and oxygen partial pressure in direct liquid injection CVD switches epitaxial Bi4Ti3O12 films from 2D growth to dislocation-mediated chiral spiral growth, with 135% higher local vertical piezoresponse and lower switching bias (from ±20 to ±5 V).",
+   "why": "Aurivillius ferroelectrics have mainly in-plane polarization, limiting vertical device integration; defect topology control through growth mode is unexplored."
   },
   "themes": [
-   "atomistic"
+   "interface"
   ],
-  "title": "Chiral Phonons Protected by Symmetry in a Strongly Anharmonic Helical Material",
-  "url": "https://arxiv.org/abs/2611.25089v1",
-  "venue": "arXiv · cond-mat.mtrl-sci",
+  "title": "Growth-Spiral Control of Defect Topology and Local Vertical Piezoresponse in Bi4Ti3O12 Thin Films",
+  "url": "https://doi.org/10.1021/acsami.6c14633",
+  "venue": "ACS Applied Materials & Interfaces",
   "watched": []
  },
  {
@@ -124,50 +557,6 @@
   "watched": []
  },
  {
-  "abstract": "The ability to measure thermal properties and visualize heat transport processes with high spatial resolution is becoming increasingly important for materials discovery, next-generation electronics, and advanced manufacturing. As critical dimensions and architectures of novel materials and high performance electronics shrink and become more heterogeneous, thermal transport is no longer governed by bulk material properties alone, but by local variations in microstructure, such as interfaces and defects, while the operating conditions can also play a role. With the development of non-contact pump-probe thermoreflectance techniques, specific heat, thermal conductivity, and interface conductance can be mapped either through wide-field thermos-reflectance images or by scanning technique. However, key challenges remain such as the balance between imaging throughput and measurement accuracy, the extraction of multiple parameters with high confidence, and non-intrusive subsurface characterization, etc. This Review highlights recent advancements in artificial intelligence (AI)-assistance in high-throughput data processing, visualizing interfacial thermal transport, and nonintrusive subsurface analysis, and offers outlooks for future research directions such as spectral mapping of heat carriers, three-dimensional property mapping, and AI-agentic experimental designs. We anticipate this Review will motivate future efforts in combining AI with experimental techniques to achieve unprecedented capabilities for thermal characterization of nanoscale materials and device characterization, facilitating materials discovery and electronics revolution.",
-  "authors": [
-   "Xin Qian",
-   "Te-Huan Liu",
-   "Xiaobo Li",
-   "Ronggui Yang"
-  ],
-  "cat": "papers",
-  "doi": "",
-  "first_seen": "2026-11-20",
-  "focus": "mixed",
-  "id": "1e4638f32dc0f6b8",
-  "kind": "preprint",
-  "kw_score": 7,
-  "matched": [
-   "thermoreflectance",
-   "interface",
-   "agentic",
-   "high-throughput",
-   "thermal",
-   "materials",
-   "agent"
-  ],
-  "mytools": [],
-  "published": "2026-11-19",
-  "relevance": 3,
-  "score": 7,
-  "source": "arXiv",
-  "summary": {
-   "by": "claude",
-   "how": "Literature review of pump-probe and wide-field thermoreflectance techniques combined with AI methods.",
-   "impact": "Useful background for the measurement side of the GaN/Al2O3 interface and HEMT projects (what TDTR-type data may constrain models), and for electronics thermal characterization trends. Experimental/review focus, not a computational method.",
-   "what": "Review of AI-assisted thermoreflectance imaging: high-throughput data processing, visualization of interfacial thermal transport and nonintrusive subsurface analysis, with outlooks on spectral mapping of heat carriers, 3D property mapping and AI-agentic experimental design.",
-   "why": "Shrinking, heterogeneous electronics need local mapping of thermal properties, but throughput vs. accuracy and multi-parameter extraction remain challenging."
-  },
-  "themes": [
-   "atomistic"
-  ],
-  "title": "Intelligent Imaging of Thermal Transport in Nanostructures",
-  "url": "https://arxiv.org/abs/2611.25779v1",
-  "venue": "arXiv · cond-mat.mtrl-sci",
-  "watched": []
- },
- {
   "abstract": "Phase Change Materials (PCMs) are materials of interest for applications in switchable non-volatile memory devices due to their fast phase switching between crystalline and amorphous states, exhibiting high electrical and optical contrasts. The fast crystallization rate of PCMs impedes characterization through conventional methods, necessitating newer avenues of analysis. A previous study of ours demonstrated how modeling the Boson peak, a ubiquitous yet elusive contribution to the low-temperature heat capacity of amorphous solids, could serve as a new avenue. In this work, we investigate the low-temperature heat capacity and the heat flow at elevated temperatures of a greater number of PCMs and chalcogenide GeSeTe glasses. The Boson peaks in the heat capacity of an extended range of PCMs are identified, expanding this hallmark glass feature to these technologically important poor glass formers. While PCMs display no clear difference in Boson peaks from those of conventional chalcogenide glasses, they, as a group, could readily be distinguished when combining their Boson peaks with other properties, such as the glass transition temperature and kinetic fragility. We show that the Boson peaks can be modeled and understood through hybridization or coupling of transverse acoustic phonons with quasi-localized modes. Such a phonon-mode coupling picture can be supported by the correlation between the mean Einstein temperature and the product of the Debye temperature and the cube root of the coefficient of excess modes. These results provide a valuable dataset for understanding Boson peaks and the vibrational and thermodynamic properties of amorphous PCMs, laying the groundwork for investigating how the bonding environment influences their vibrational density of states.",
   "authors": [
    "Jens Moesgaard",
@@ -208,89 +597,6 @@
   "watched": []
  },
  {
-  "abstract": "Abstract We formulate the thermodynamic core of a quaternionic crystal–glass theory. The orientational variable is an SO(3) rotor q∈SU(2), q∼−q, with coherent amplitude ρ. The rotor stiffness is retained, so disclinations enter as failures of smooth orientational continuation rather than as scalar defects inserted after the fact. A glass is not obtained by integrating out a dilute defect gas, which gives only an ordered-side fugacity correction. The glass basin is instead represented by a second field Φ, defined as the frozen part of the orientational holonomy: the disclination charge threading a loop is the conjugacy class of the loop holonomy in the binary point group H, proliferation of disclinations is the area law of the orientational Wilson loop, and Φ is the Edwards–Anderson amplitude of that holonomy, nonzero only when it is frozen. This separates the glass from a liquid, where the holonomy is equally random but not frozen, and from a defect density, which is nonzero in every phase. We construct a two-field Gibbs functional with competing crystal (ρ̸= 0,Φ = 0) and glass (ρ≃0,Φ ̸= 0) saddles. The order of the transition follows from the quartic coupling matrix: strong positive repulsion between ρand Φ gives a first-order boundary, weaker coupling permits a mixed/frustrated regime. The holonomy charge coincides with the Burgers circulation of the nonaffine displacement field in the torsion sector and differs from it in the curvature sector; in the Riemann–Cartan description of the defect density, disclinations source curvature and dislocations source torsion. The freezing of Φ follows from the rearrangement barrier σws that the functional itself defines. The theory outputs the defect correlation length, the rearrangement barrier and the bulk saddle scale…",
-  "authors": [
-   "Caroline Gorham Holden",
-   "Ahmed Farag Ali"
-  ],
-  "cat": "papers",
-  "doi": "10.1088/1361-648x/aec4b0",
-  "first_seen": "2026-11-20",
-  "focus": "computational",
-  "id": "53b3324f3523df3f",
-  "kind": "paper",
-  "kw_score": 7,
-  "matched": [
-   "glass",
-   "dislocation",
-   "thermal"
-  ],
-  "mytools": [],
-  "published": "2026-11-19",
-  "relevance": 1,
-  "score": 1,
-  "source": "Crossref",
-  "summary": {
-   "by": "claude",
-   "how": "Theoretical construction of a Gibbs functional with competing saddles; the order of transition follows from the quartic coupling matrix. Numerical results are not stated in the abstract.",
-   "impact": "Low relevance. Abstract field theory of defects and glass formation, with no phonon or thermal transport link to the reader's projects.",
-   "what": "Formulates a two-field Gibbs theory of quaternionic orientational order, with a crystal field and a glass field defined as the frozen part of orientational holonomy, treating disclinations and dislocations via curvature and torsion.",
-   "why": "To describe glass formation and defect condensation with a thermodynamic functional that separates glass from liquid and from defect density."
-  },
-  "themes": [
-   "interface"
-  ],
-  "title": "A two-field Gibbs theory of quaternionic orientational order and defect condensation in glass formation",
-  "url": "https://doi.org/10.1088/1361-648x/aec4b0",
-  "venue": "Journal of Physics: Condensed Matter",
-  "watched": []
- },
- {
-  "abstract": "First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral head returns 12 band energies at any requested wavevector, preserving reciprocal lattice periodicity and time-reversal symmetry without constructing Hamiltonian. Trained on 125,153 self-curated band structures, Perfumer-band model reaches a median per-material mean absolute error of 0.157 eV on 2,607 test materials, including lanthanide, actinide and magnetic compounds, from held-out composition families spanning 85 elements, taking about 97 ms per material on two consumer CPU cores. The agent turns natural-language requests into relaxation-to-band workflows, from a single uploaded structure to automatically constructed new candidates and returns predicted properties.",
-  "authors": [
-   "Zhiwei Li",
-   "Yuhao Zhou",
-   "Yikai Yang",
-   "Haonan Wang",
-   "Qing Ye",
-   "Jiancheng Lv",
-   "Kazunari Matsuda"
-  ],
-  "cat": "papers",
-  "doi": "",
-  "first_seen": "2026-11-20",
-  "focus": "computational",
-  "id": "b79f031522497d2d",
-  "kind": "preprint",
-  "kw_score": 8,
-  "matched": [
-   "agentic",
-   "first-principles",
-   "workflow",
-   "materials",
-   "agent"
-  ],
-  "mytools": [],
-  "published": "2026-11-19",
-  "relevance": 4,
-  "score": 11,
-  "source": "arXiv",
-  "summary": {
-   "by": "claude",
-   "how": "Agent turns natural-language requests into relaxation-to-band workflows; periodic GNN with latent Hermitian spectral head predicts 12 band energies at any wavevector in about 97 ms on two CPU cores.",
-   "impact": "Relevant to the interest in agents for automated first-principles workflows; the relax-then-refine pattern could inform automating VASP/phonopy or MLPhonon workflows. It covers electronic bands, not phonons or thermal transport.",
-   "what": "Presents Perfumer, an LLM-based agentic framework coupling Quantum ESPRESSO with a pre-relaxation model (2.75-fold overall speedup) and a graph-neural-network band predictor (median MAE 0.157 eV on 2,607 test materials, trained on 125,153 band structures).",
-   "why": "First-principles relaxation and band calculations need substantial computation and expertise."
-  },
-  "themes": [
-   "atomistic"
-  ],
-  "title": "Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation",
-  "url": "https://arxiv.org/abs/2611.26349v1",
-  "venue": "arXiv · cond-mat.mtrl-sci",
-  "watched": []
- },
- {
   "abstract": "Fast and accurate prediction of adsorption energies is critical for high-throughput computational catalyst screening, existing methods compromise either on evaluation speed (full-graph machine learning potentials) or geometric sensitivity (coordination-based models like the alpha-scheme). Here, we present AdsNet, an equivariant graph neural network that directly predicts adsorption energies in a single forward pass, which operates on a local graph restricted only to adsorbate atoms and its immediate surface neighbors within a cutoff radius. This local graph formulation decouples computational complexity from total system size while encoding continuous geometric features (interatomic distances and directional vectors) enabling sensitivity to subtle variations in local bonding environments. AdsNet adopts a message-passing architecture with scalar and vector node features over multiple interaction layers. Trained on AdsTraj, a dataset of 33,920 density functional theory (DFT) calculated structures spanning 26 transition metals and 6 adsorbates (H*, C*, O*, CO*, OH*, HOCO*), the model achieves an adsorption energy root-mean-square error (RMSE) of 0.032 eV and a force RMSE of 0.047 eV/A. Analytic forces obtained via automatic differentiation enable structure relaxation through a projected gradient descent algorithm with adaptive line search, eliminating entire geometry optimizations. Additionally, AdsNet uniquely decomposes predicted adsorption energies into contributions from individual atoms within the local adsorbate graph - an interpretability feature unattainable with conventional machine-learning potentials. AdsNet thus establishes an accurate, highly efficient, and interpretable framework for large-scale adsorption energy prediction and local interface relaxation…",
   "authors": [
    "Changzhi Ai",
@@ -327,47 +633,6 @@
   "title": "AdsNet: A Graph Neural Network for Direct Adsorption Energy Prediction",
   "url": "https://arxiv.org/abs/2611.25646v1",
   "venue": "arXiv · cond-mat.mtrl-sci",
-  "watched": []
- },
- {
-  "abstract": "Phonon-mediated superconductivity in binary transition-metal borides reflects a balance between the metal d-states, metal-boron bonding, and the lattice vibrations that couple to them. Here, we compare P6/mmm TcB2 at 20 GPa with I4/mcm Tc2B and P4/mmm Tc3B at 0 GPa within a first-principles framework. Their mechanical responses differ appreciably: TcB2 is the most rigid under its compressed condition, Tc2B shows the strongest tendency toward ductility, and Tc3B falls between the two. Despite these differences, all three phases remain metallic. The states at the Fermi level are dominated by Tc-4d character, although the extent of Tc-d/B-p mixing varies from one compound to another. Charge redistribution is more directional and B-centered in TcB2, but more delocalized around the Tc network in Tc2B and Tc3B. Inclusion of spin-orbit coupling leaves all three compounds metallic. The optical response remains metallic and electric field polarization dependent, with substantial visible reflectivity and strong ultraviolet absorption. Low-frequency Tc rich vibrations dominate the electron-phonon coupling (EPC). With μ* = 0.10, the Tc values of TcB2, Tc2B, and Tc3B are 24.92, 11.07, and 15.12 K, respectively. Although Tc3B exhibits a higher electronic density of states at the Fermi level, N(EF), TcB2 couples most strongly to EPC-active low-frequency modes, showing that the superconducting hierarchy depends on electronic-phonon matching rather than DOS magnitude alone.",
-  "authors": [
-   "M. Rabi Us Sani Shapon",
-   "Jubair Hossan Abir",
-   "Md. Asif Afzal",
-   "Raihana Shams Islam",
-   "Saleh Hasan Naqib"
-  ],
-  "cat": "papers",
-  "doi": "",
-  "first_seen": "2026-11-20",
-  "focus": "computational",
-  "id": "7bb928c5203753e0",
-  "kind": "preprint",
-  "kw_score": 8,
-  "matched": [
-   "phonon",
-   "electron-phonon",
-   "first-principles"
-  ],
-  "mytools": [],
-  "published": "2026-11-19",
-  "relevance": 1,
-  "score": 2,
-  "source": "arXiv",
-  "summary": {
-   "by": "claude",
-   "how": "DFT-based calculations of electronic structure, spin-orbit coupling, optical response and electron-phonon coupling.",
-   "impact": "Low relevance. Standard DFT/EPC study of superconducting borides, not thermal transport in the reader's semiconductors or interfaces.",
-   "what": "First-principles comparison of TcB2 (20 GPa), Tc2B and Tc3B: mechanical, electronic, optical properties and electron-phonon-coupling superconductivity (Tc of 24.92, 11.07 and 15.12 K with μ* = 0.10).",
-   "why": "Phonon-mediated superconductivity in transition-metal borides depends on the balance of d-states, metal-boron bonding and lattice vibrations."
-  },
-  "themes": [
-   "atomistic"
-  ],
-  "title": "Comparative First-Principles Study of the Physical Properties, Phonon-Mediated Superconductivity and Functional Potential of Technetium-Based Binary Borides TcB2, Tc2B and Tc3B",
-  "url": "https://arxiv.org/abs/2611.25554v1",
-  "venue": "arXiv · cond-mat.supr-con",
   "watched": []
  },
  {
@@ -417,49 +682,131 @@
   "watched": []
  },
  {
-  "abstract": "Abstract Aurivillius phase materials are layered ferroelectrics with high thermal stability (>600 °C) and fatigue resistance, yet their polarization is predominantly in-plane, limiting integration into vertical device architectures relevant to future memory, data storage, and neuromorphic computing concepts. Achieving robust vertical polarization in these systems remains fundamentally challenging because of crystallographic symmetry constraints. Although defects can locally reorient polarization, deterministic control of defect topology through growth-mode engineering remains largely unexplored in layered ferroelectrics. Here, we demonstrate that precise control of nominal precursor loading and oxygen partial pressure during direct liquid injection chemical vapor deposition enables a transition in epitaxial Bi4Ti3O12 thin films from two-dimensional growth to dislocation-mediated, chiral spiral growth. This work introduces growth spirals as a controllable route to engineer defect topology and grain morphology, rather than relying on post-growth or stochastic defect formation. Atomic-resolution microscopy and piezoresponse force microscopy reveal that chiral spiral-mediated morphologies exhibit a 135% higher local vertical piezoresponse amplitude and a reduced local vertical switching bias from ±20 to ±5 V compared with two-dimensional films. High-angle annular dark field scanning transmission electron microscopy (HAADF-STEM) displacement mapping and density functional theory indicate that out-of-phase boundary defect-associated local structural distortions modify local symmetry, bonding, and strain in a manner consistent with an enhanced out-of-plane polarization component and local vertical electromechanical response. These results establish spiral-driven defect…",
+  "abstract": "How chiral phonons survive anharmonic phonon-phonon interactions, which underpin lattice dynamics at finite temperature, remains poorly understood. Using an ab initio many-body approach, we study crystalline tellurium (Te), a strongly anharmonic helical crystal. We show that rotational symmetries in Te impose pseudoangular momentum selection rules on phonon-phonon interactions, restricting mode mixing and scattering at rotationally invariant symmetry points in the Brillouin zone. These symmetries protect the circular polarization of vibrational modes at finite temperature but not their lifetimes such that the dynamic chirality of handed vibrational modes persists to 600 K, even as lifetimes drop sharply. We find that the temperature-dependence of angular momentum generated by a thermal gradient is governed by lifetimes rather than chirality, decreasing by two orders of magnitude between 10 and 600 K.",
   "authors": [
-   "Debismita Dutta",
-   "Tigran Simonian",
-   "Joydipto Bhattacharya",
-   "Michael Schmidt",
-   "Sabir Hussain",
-   "Valeria Nicolosi",
-   "Lynette Keeney"
+   "Supriyo Ghosh",
+   "Dipti Jasrasaria"
   ],
   "cat": "papers",
-  "doi": "10.1021/acsami.6c14633",
+  "doi": "",
   "first_seen": "2026-11-20",
-  "focus": "computational",
-  "id": "96c9456506139642",
-  "kind": "paper",
-  "kw_score": 9,
+  "focus": "",
+  "id": "4d826c1ec30c7528",
+  "kind": "preprint",
+  "kw_score": 6,
   "matched": [
-   "dislocation",
-   "strain",
-   "STEM",
-   "oxide",
-   "thermal",
-   "materials"
+   "phonon",
+   "anharmonic",
+   "phonon-phonon",
+   "thermal"
   ],
   "mytools": [],
-  "published": "2026-11-20",
-  "relevance": 1,
-  "score": 3,
-  "source": "Crossref",
+  "published": "2026-11-18",
+  "relevance": 3,
+  "score": 6,
+  "source": "arXiv",
   "summary": {
    "by": "claude",
-   "how": "CVD growth, PFM, HAADF-STEM displacement mapping and DFT.",
-   "impact": "Low relevance. Mostly experimental growth work with no thermal transport; only a loose link to the BaTiO3 dislocation project through oxide dislocation structure.",
-   "what": "Shows that tuning precursor loading and oxygen partial pressure in direct liquid injection CVD switches epitaxial Bi4Ti3O12 films from 2D growth to dislocation-mediated chiral spiral growth, with 135% higher local vertical piezoresponse and lower switching bias (from ±20 to ±5 V).",
-   "why": "Aurivillius ferroelectrics have mainly in-plane polarization, limiting vertical device integration; defect topology control through growth mode is unexplored."
+   "how": "Ab initio anharmonic many-body approach; angular momentum generated by a thermal gradient is shown to be governed by lifetimes rather than chirality (decreasing about two orders of magnitude from 10 to 600 K).",
+   "impact": "Relevant theory for anharmonic phonon scattering and symmetry selection rules in lattice dynamics (the BTE phonon-property side of the projects) and possibly for the BaTiO3 phonon direction asymmetry work, though the material and focus differ.",
+   "what": "Ab initio many-body study of chiral phonons in tellurium: rotational symmetries impose pseudoangular-momentum selection rules on phonon-phonon scattering, preserving circular polarization up to 600 K while lifetimes drop sharply.",
+   "why": "It is poorly understood how chiral phonons survive anharmonic phonon-phonon interactions at finite temperature."
   },
   "themes": [
-   "interface"
+   "atomistic"
   ],
-  "title": "Growth-Spiral Control of Defect Topology and Local Vertical Piezoresponse in Bi4Ti3O12 Thin Films",
-  "url": "https://doi.org/10.1021/acsami.6c14633",
-  "venue": "ACS Applied Materials & Interfaces",
+  "title": "Chiral Phonons Protected by Symmetry in a Strongly Anharmonic Helical Material",
+  "url": "https://arxiv.org/abs/2611.25089v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "The ability to measure thermal properties and visualize heat transport processes with high spatial resolution is becoming increasingly important for materials discovery, next-generation electronics, and advanced manufacturing. As critical dimensions and architectures of novel materials and high performance electronics shrink and become more heterogeneous, thermal transport is no longer governed by bulk material properties alone, but by local variations in microstructure, such as interfaces and defects, while the operating conditions can also play a role. With the development of non-contact pump-probe thermoreflectance techniques, specific heat, thermal conductivity, and interface conductance can be mapped either through wide-field thermos-reflectance images or by scanning technique. However, key challenges remain such as the balance between imaging throughput and measurement accuracy, the extraction of multiple parameters with high confidence, and non-intrusive subsurface characterization, etc. This Review highlights recent advancements in artificial intelligence (AI)-assistance in high-throughput data processing, visualizing interfacial thermal transport, and nonintrusive subsurface analysis, and offers outlooks for future research directions such as spectral mapping of heat carriers, three-dimensional property mapping, and AI-agentic experimental designs. We anticipate this Review will motivate future efforts in combining AI with experimental techniques to achieve unprecedented capabilities for thermal characterization of nanoscale materials and device characterization, facilitating materials discovery and electronics revolution.",
+  "authors": [
+   "Xin Qian",
+   "Te-Huan Liu",
+   "Xiaobo Li",
+   "Ronggui Yang"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-20",
+  "focus": "mixed",
+  "id": "1e4638f32dc0f6b8",
+  "kind": "preprint",
+  "kw_score": 7,
+  "matched": [
+   "thermoreflectance",
+   "interface",
+   "agentic",
+   "high-throughput",
+   "thermal",
+   "materials",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-19",
+  "relevance": 3,
+  "score": 7,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Literature review of pump-probe and wide-field thermoreflectance techniques combined with AI methods.",
+   "impact": "Useful background for the measurement side of the GaN/Al2O3 interface and HEMT projects (what TDTR-type data may constrain models), and for electronics thermal characterization trends. Experimental/review focus, not a computational method.",
+   "what": "Review of AI-assisted thermoreflectance imaging: high-throughput data processing, visualization of interfacial thermal transport and nonintrusive subsurface analysis, with outlooks on spectral mapping of heat carriers, 3D property mapping and AI-agentic experimental design.",
+   "why": "Shrinking, heterogeneous electronics need local mapping of thermal properties, but throughput vs. accuracy and multi-parameter extraction remain challenging."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Intelligent Imaging of Thermal Transport in Nanostructures",
+  "url": "https://arxiv.org/abs/2611.25779v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral head returns 12 band energies at any requested wavevector, preserving reciprocal lattice periodicity and time-reversal symmetry without constructing Hamiltonian. Trained on 125,153 self-curated band structures, Perfumer-band model reaches a median per-material mean absolute error of 0.157 eV on 2,607 test materials, including lanthanide, actinide and magnetic compounds, from held-out composition families spanning 85 elements, taking about 97 ms per material on two consumer CPU cores. The agent turns natural-language requests into relaxation-to-band workflows, from a single uploaded structure to automatically constructed new candidates and returns predicted properties.",
+  "authors": [
+   "Zhiwei Li",
+   "Yuhao Zhou",
+   "Yikai Yang",
+   "Haonan Wang",
+   "Qing Ye",
+   "Jiancheng Lv",
+   "Kazunari Matsuda"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-20",
+  "focus": "computational",
+  "id": "b79f031522497d2d",
+  "kind": "preprint",
+  "kw_score": 8,
+  "matched": [
+   "agentic",
+   "first-principles",
+   "workflow",
+   "materials",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-19",
+  "relevance": 4,
+  "score": 11,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Agent turns natural-language requests into relaxation-to-band workflows; periodic GNN with latent Hermitian spectral head predicts 12 band energies at any wavevector in about 97 ms on two CPU cores.",
+   "impact": "Relevant to the interest in agents for automated first-principles workflows; the relax-then-refine pattern could inform automating VASP/phonopy or MLPhonon workflows. It covers electronic bands, not phonons or thermal transport.",
+   "what": "Presents Perfumer, an LLM-based agentic framework coupling Quantum ESPRESSO with a pre-relaxation model (2.75-fold overall speedup) and a graph-neural-network band predictor (median MAE 0.157 eV on 2,607 test materials, trained on 125,153 band structures).",
+   "why": "First-principles relaxation and band calculations need substantial computation and expertise."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation",
+  "url": "https://arxiv.org/abs/2611.26349v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
   "watched": []
  },
  {
