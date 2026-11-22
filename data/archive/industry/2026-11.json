@@ -1,40 +1,150 @@
 [
  {
-  "abstract": "MDANCE: Hyper-efficient tools to process molecular dynamics simulations. Topics: algorithms, clustering, machine-learning, molecular-dynamics.",
+  "abstract": "Self explained tutorial for molecular dynamics simulation using gromacs Topics: charmm, complex, dynamics, freeenergy, hpc, hpc-clusters, lipidbilayer, molecular, molecular-dynamics, molecular-dynamics-simulation, molecular-mechanics, molecular-simulation, pca, proteinligand, simulation.",
   "authors": [
-   "mqcomplab"
+   "pritampanda15"
   ],
   "cat": "industry",
-  "created": "2024-02-07",
+  "created": "2019-05-18",
   "doi": "",
-  "first_seen": "2026-11-21",
+  "first_seen": "2026-11-22",
   "focus": "",
-  "id": "226e1ba900792a7b",
+  "id": "2f128441e10a48d8",
   "kind": "repo",
   "kw_score": 1,
   "matched": [
    "simulation"
   ],
   "mytools": [],
-  "published": "2026-11-20",
-  "relevance": 2,
-  "score": -2,
+  "published": "2026-11-19",
+  "relevance": 1,
+  "score": -5,
   "source": "GitHub search",
   "star_delta": null,
-  "stars": 148,
+  "stars": 65,
   "summary": {
    "by": "claude",
-   "how": "Not stated in the abstract beyond clustering algorithms for MD data.",
-   "impact": "Low relevance. Possibly usable for clustering MD trajectories, but it appears aimed at biomolecular-style MD and no phonon or MLIP use is stated.",
-   "what": "GitHub repository mqcomplab/MDANCE: tools to process molecular dynamics simulations efficiently, tagged clustering, machine learning and molecular dynamics.",
-   "why": "Not stated in the abstract."
+   "how": "Shell scripts and tutorials on GROMACS and CHARMM; details are Not stated in the abstract.",
+   "impact": "Low relevance. It is biomolecular MD, whereas the projects use LAMMPS and MLIPs for crystalline semiconductors.",
+   "what": "A GROMACS molecular dynamics tutorial repository covering protein-ligand, lipid bilayer and free-energy examples.",
+   "why": "Teaches molecular dynamics simulation with self-explained material."
   },
   "themes": [
    "industry"
   ],
-  "title": "mqcomplab/MDANCE",
-  "url": "https://github.com/mqcomplab/MDANCE",
+  "title": "pritampanda15/Molecular-Dynamics",
+  "url": "https://github.com/pritampanda15/Molecular-Dynamics",
+  "venue": "GitHub · Shell",
+  "watched": []
+ },
+ {
+  "abstract": "The source of the votca-csg and xtp packages Topics: charge-transport, coarse-grained-molecular-dynamics, coarse-graining, excited-states, gromacs, gw-bse, molecular-dynamics, multiscale-simulation, votca.",
+  "authors": [
+   "votca"
+  ],
+  "cat": "industry",
+  "created": "2016-11-28",
+  "doi": "",
+  "first_seen": "2026-11-22",
+  "focus": "",
+  "id": "034946a1a6a01abc",
+  "kind": "repo",
+  "kw_score": 2,
+  "matched": [
+   "multiscale",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-18",
+  "relevance": 1,
+  "score": -4,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 67,
+  "summary": {
+   "by": "claude",
+   "how": "C++ code base; details are Not stated in the abstract.",
+   "impact": "Low relevance. It targets soft-matter coarse-graining and organic charge transport, not phonon transport in the reader's semiconductors.",
+   "what": "VOTCA, the C++ source for the votca-csg and xtp packages (coarse-graining, GROMACS, GW-BSE, charge transport, multiscale simulation).",
+   "why": "Provides multiscale tools linking molecular dynamics, coarse-graining and excited-state/charge-transport calculations."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "votca/votca",
+  "url": "https://github.com/votca/votca",
+  "venue": "GitHub · C++",
+  "watched": []
+ },
+ {
+  "abstract": "Train, fine-tune, and manipulate machine learning models for atomistic systems Topics: atomistic-simulations, machine-learning, molecular-dynamics, torch.",
+  "authors": [
+   "metatensor"
+  ],
+  "cat": "industry",
+  "created": "2023-11-20",
+  "doi": "",
+  "first_seen": "2026-11-22",
+  "focus": "",
+  "id": "2b4e571a6b437e0a",
+  "kind": "repo",
+  "kw_score": 5,
+  "matched": [
+   "fine-tun",
+   "atomistic",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 4,
+  "score": 8,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 85,
+  "summary": {
+   "by": "claude",
+   "how": "Python on torch. Supported architectures and interfaces are Not stated in the abstract.",
+   "impact": "Potentially useful as an MLIP training and fine-tuning framework next to DeePMD-kit and MACE in the InGaAs, GaN/AlGaN and BAs pipelines, and for comparing MLIPs. Compatibility with LAMMPS and phonopy workflows needs checking.",
+   "what": "metatrain, an open-source Python/torch repository from the metatensor group for training, fine-tuning and manipulating machine-learning models for atomistic systems.",
+   "why": "Provides a common framework for atomistic ML models."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "metatensor/metatrain",
+  "url": "https://github.com/metatensor/metatrain",
   "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Release v4.11.0",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-22",
+  "focus": "",
+  "id": "f413a56dc8518ff2",
+  "kind": "tool",
+  "kw_score": 6,
+  "matched": [],
+  "mytools": [
+   "phonopy / phono3py"
+  ],
+  "published": "2026-11-21",
+  "relevance": 4,
+  "score": 9,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract; the changelog is not provided.",
+   "impact": "phono3py is a core tool for the reader's lattice-dynamics and BTE workflows (GaN, InGaAs, BAs, MLPhonon). Check the release notes for changes affecting MLIP-driven force-constant workflows before upgrading.",
+   "what": "Release v4.11.0 of phono3py, merged from the release pull request #669.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [],
+  "title": "phono3py v4.11.0: Merge pull request #669 from phonopy/release",
+  "url": "https://github.com/phonopy/phono3py/releases/tag/v4.11.0",
+  "venue": "phono3py",
   "watched": []
  },
  {
@@ -73,6 +183,44 @@
   "title": "CaNS-World/CaNS-Fizzy",
   "url": "https://github.com/CaNS-World/CaNS-Fizzy",
   "venue": "GitHub · Fortran",
+  "watched": []
+ },
+ {
+  "abstract": "MDANCE: Hyper-efficient tools to process molecular dynamics simulations. Topics: algorithms, clustering, machine-learning, molecular-dynamics.",
+  "authors": [
+   "mqcomplab"
+  ],
+  "cat": "industry",
+  "created": "2024-02-07",
+  "doi": "",
+  "first_seen": "2026-11-21",
+  "focus": "",
+  "id": "226e1ba900792a7b",
+  "kind": "repo",
+  "kw_score": 1,
+  "matched": [
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 2,
+  "score": -2,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 148,
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract beyond clustering algorithms for MD data.",
+   "impact": "Low relevance. Possibly usable for clustering MD trajectories, but it appears aimed at biomolecular-style MD and no phonon or MLIP use is stated.",
+   "what": "GitHub repository mqcomplab/MDANCE: tools to process molecular dynamics simulations efficiently, tagged clustering, machine learning and molecular dynamics.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "mqcomplab/MDANCE",
+  "url": "https://github.com/mqcomplab/MDANCE",
+  "venue": "GitHub · Python",
   "watched": []
  },
  {
@@ -146,37 +294,6 @@
   "watched": []
  },
  {
-  "abstract": "Release v4.11.0",
-  "authors": [],
-  "cat": "industry",
-  "doi": "",
-  "first_seen": "2026-11-21",
-  "focus": "",
-  "id": "7ed98d45c7c33cb9",
-  "kind": "tool",
-  "kw_score": 6,
-  "matched": [],
-  "mytools": [
-   "phonopy / phono3py"
-  ],
-  "published": "2026-11-21",
-  "relevance": 4,
-  "score": 9,
-  "source": "GitHub releases",
-  "summary": {
-   "by": "claude",
-   "how": "Not stated in the abstract; the release text is only \"Release v4.11.0\" (merge of pull request #1123).",
-   "impact": "phonopy is a core tool for the MLPhonon, InGaAs, GaN and BaTiO3/SrTiO3 lattice dynamics workflows, so check the release notes for changes before upgrading, since changes are not described here.",
-   "what": "phonopy release v4.11.0.",
-   "why": "Not stated in the abstract."
-  },
-  "themes": [],
-  "title": "v4.11.0: Merge pull request #1123 from phonopy/release",
-  "url": "https://github.com/phonopy/phonopy/releases/tag/v4.11.0",
-  "venue": "phonopy",
-  "watched": []
- },
- {
   "abstract": "PhysicsNeMo General Release v2.3.0 Added Unified external aero recipe: adds AB-UPT surface, volume, and joint configurations calling the library model directly, configurable independent point-set sampling in DomainMeshReader , and grouped tensor outputs for unequal surface/volume point counts. The unified external aerodynamics recipe adds experimental SMART surface and volume templates. The unified external aerodynamics recipe adds experimental ISLA configs on DrivAerML ( isla_surface , isla_volume and isla_volume_joint ) and a scheduler config group. Each ISLA config reads the whole flow-domain boundary and fits one 80 GB GPU at its defaults. Adds the FlipBoundaryOrientation and BoundaryCellsToPoints mesh transforms to physicsnemo.datapipes . The first reverses the cell winding and stored normals of named boundaries, and the second adds a point-cloud boundary at drawn cells of another boundary, with those cells' fields and measures. Adds physicsnemo.experimental.models.ab_upt.ABUPT , an independent implementation with interacting surface/volume anchors, reusable query contexts, input scaling and chunked forward decoding, and a finite-difference vorticity helper that undoes coordinate and velocity scaling. physicsnemo.mesh.sampling.sample_cells_systematic draws a fixed number of a mesh's cells with probability proportional to their measure, with Horvitz-Thompson weights for unbiased sums. The sample is spread over the mesh, the same in every pose, bitwise the same from run to run on CPU and on CUDA, and compiles to one graph. KNNScorer and DensityScorer provide reusable out-of-distribution (OOD) scoring under experimental.uq.ood , with optional geometry descriptors. The examples keep scoring decisions in the application. Both scorers support weights-only tensor…",
   "authors": [],
   "cat": "industry",
@@ -210,6 +327,37 @@
   "title": "NVIDIA PhysicsNeMo v2.3.0",
   "url": "https://github.com/NVIDIA/physicsnemo/releases/tag/v2.3.0",
   "venue": "NVIDIA PhysicsNeMo",
+  "watched": []
+ },
+ {
+  "abstract": "Release v4.11.0",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-21",
+  "focus": "",
+  "id": "7ed98d45c7c33cb9",
+  "kind": "tool",
+  "kw_score": 6,
+  "matched": [],
+  "mytools": [
+   "phonopy / phono3py"
+  ],
+  "published": "2026-11-21",
+  "relevance": 4,
+  "score": 9,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract; the release text is only \"Release v4.11.0\" (merge of pull request #1123).",
+   "impact": "phonopy is a core tool for the MLPhonon, InGaAs, GaN and BaTiO3/SrTiO3 lattice dynamics workflows, so check the release notes for changes before upgrading, since changes are not described here.",
+   "what": "phonopy release v4.11.0.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [],
+  "title": "v4.11.0: Merge pull request #1123 from phonopy/release",
+  "url": "https://github.com/phonopy/phonopy/releases/tag/v4.11.0",
+  "venue": "phonopy",
   "watched": []
  },
  {
@@ -1754,6 +1902,43 @@
   "watched": []
  },
  {
+  "abstract": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering lower power, higher resiliency and longer mean time between interruptions (MTBI) to an AI factory at scale. “Networking has to keep pace with the demands of increasingly large AI clusters,” said Dave Ward, president of cloud services at Lambda. “Bringing co-packaged optics into a deployment of this scale is an important step toward building the infrastructure needed to support the next generation of AI.” Read All NVIDIA Announcements From SC26 In the company’s tests using the switches, network latency — the time needed for moving data — dropped by about 4% at rack scale and by up to about 10% at pod scale. Across rack, scalable unit and pod configurations, the network maintains the same throughput as conventional pluggable optics. Delivering Power Efficiency and Resiliency at Scale Improving power efficiency and resiliency matters because the network sits at the center of AI factory productivity. In a large training job, one interrupted link can stall thousands of GPUs. With agentic inference, one network disruption can introduce cascading latency effects on many agents. Every interruption costs time, and every watt spent on networking is a watt not available for compute. NVIDIA Photonics addresses both power efficiency and resiliency. By replacing pluggable transceivers with co-packaged optical engines on the switch package, it delivers up to 5x better power efficiency and up to 15x higher reliability than conventional pluggable…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-16",
+  "focus": "",
+  "id": "9b699744af34d76a",
+  "kind": "news",
+  "kw_score": 3,
+  "matched": [
+   "packaging",
+   "reliability",
+   "cooling",
+   "GPU",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-16",
+  "relevance": 1,
+  "score": -3,
+  "source": "NVIDIA Blog",
+  "summary": {
+   "by": "claude",
+   "how": "Stated results: network latency fell about 4% at rack scale and up to about 10% at pod scale with the same throughput as pluggable optics. CPO is stated to give up to 5x better power efficiency and up to 15x higher reliability.",
+   "impact": "Low relevance. An AI-datacenter packaging and power note only; no thermal transport or cooling analysis is given in the abstract.",
+   "what": "Lambda is using NVIDIA Photonics co-packaged optics (CPO) switches to connect GB300 NVL72 racks with more than 10,000 GPUs.",
+   "why": "Large AI training clusters need a fast, efficient and resilient network; the post cites lower power and higher resiliency."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+  "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
+  "venue": "NVIDIA Blog",
+  "watched": []
+ },
+ {
   "abstract": "Agentic AI is reshaping scientific research and innovation. Researchers communicate complex scientific hypotheses in natural language and let autonomous agents... Agentic AI is reshaping scientific research and innovation. Researchers communicate complex scientific hypotheses in natural language and let autonomous agents independently plan tasks, execute simulations, evaluate results, and self-correct across multiple iterations. Scientific agents are taking on longer, more complex, and increasingly visual workflows. Accuracy and inference efficiency… Source",
   "authors": [],
   "cat": "industry",
@@ -1788,39 +1973,43 @@
   "watched": []
  },
  {
-  "abstract": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering lower power, higher resiliency and longer mean time between interruptions (MTBI) to an AI factory at scale. “Networking has to keep pace with the demands of increasingly large AI clusters,” said Dave Ward, president of cloud services at Lambda. “Bringing co-packaged optics into a deployment of this scale is an important step toward building the infrastructure needed to support the next generation of AI.” Read All NVIDIA Announcements From SC26 In the company’s tests using the switches, network latency — the time needed for moving data — dropped by about 4% at rack scale and by up to about 10% at pod scale. Across rack, scalable unit and pod configurations, the network maintains the same throughput as conventional pluggable optics. Delivering Power Efficiency and Resiliency at Scale Improving power efficiency and resiliency matters because the network sits at the center of AI factory productivity. In a large training job, one interrupted link can stall thousands of GPUs. With agentic inference, one network disruption can introduce cascading latency effects on many agents. Every interruption costs time, and every watt spent on networking is a watt not available for compute. NVIDIA Photonics addresses both power efficiency and resiliency. By replacing pluggable transceivers with co-packaged optical engines on the switch package, it delivers up to 5x better power efficiency and up to 15x higher reliability than conventional pluggable…",
+  "abstract": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next steps. Rubin HPC will accelerate those simulations, shortening the path from exploration to scientific discovery and industrial design. The Rubin HPC GPU features a record number of CUDA cores — more than 50,000 on a single GPU — as well as a sparse data acceleration capability that keeps those cores fed with data, and accelerates GPU-to-GPU connectivity with seventh-generation NVIDIA NVLink interconnect technology. Read All NVIDIA Announcements From SC26 Scientists and engineers rely on simulation to understand complex systems before committing to experiments or physical prototypes. Working with agents, these teams can explore more candidate materials, molecules and designs. This increases demand for the GPU-accelerated simulations needed to evaluate those ideas and guide next steps. “For agents tackling science and engineering, faster simulation means faster discovery,” said Ian Buck , vice president of hyperscale and high-performance computing at NVIDIA. “Rubin HPC accelerates the simulations agents use to test ideas and guide their next steps, helping scientists and engineers explore more possibilities and bring breakthroughs closer.” Turning Faster Computation Into Faster Discovery Across climate models, engineering simulations, genomic analysis and financial risk, scientific computing workloads take a similar shape: an application reaches into an immense dataset, gathers a handful of scattered values, calculates…",
   "authors": [],
   "cat": "industry",
   "doi": "",
   "first_seen": "2026-11-16",
   "focus": "",
-  "id": "9b699744af34d76a",
+  "id": "9f55eb53379a88c3",
   "kind": "news",
-  "kw_score": 3,
+  "kw_score": 4,
   "matched": [
-   "packaging",
-   "reliability",
-   "cooling",
+   "workflow",
+   "simulation",
+   "materials",
    "GPU",
+   "HPC",
+   "scientific",
    "agent"
   ],
-  "mytools": [],
+  "mytools": [
+   "CUDA"
+  ],
   "published": "2026-11-16",
-  "relevance": 1,
-  "score": -3,
+  "relevance": 2,
+  "score": 1,
   "source": "NVIDIA Blog",
   "summary": {
    "by": "claude",
-   "how": "Stated results: network latency fell about 4% at rack scale and up to about 10% at pod scale with the same throughput as pluggable optics. CPO is stated to give up to 5x better power efficiency and up to 15x higher reliability.",
-   "impact": "Low relevance. An AI-datacenter packaging and power note only; no thermal transport or cooling analysis is given in the abstract.",
-   "what": "Lambda is using NVIDIA Photonics co-packaged optics (CPO) switches to connect GB300 NVL72 racks with more than 10,000 GPUs.",
-   "why": "Large AI training clusters need a fast, efficient and resilient network; the post cites lower power and higher resiliency."
+   "how": "Hardware announcement; stated features are the high CUDA core count, sparse data acceleration for scattered-access workloads, and faster GPU-to-GPU connectivity. Benchmarks are not stated in the abstract.",
+   "impact": "Low relevance now; a hardware trend note for GPU-accelerated phonon BTE and CUDA/JAX solvers. No concrete numbers for the owner's workloads.",
+   "what": "NVIDIA announced Rubin HPC, a new GPU in the Vera Rubin platform for simulation and data processing, with more than 50,000 CUDA cores, a sparse data acceleration capability and seventh-generation NVLink.",
+   "why": "Agents exploring more candidate materials, molecules and designs increase demand for GPU-accelerated simulations to test those ideas."
   },
   "themes": [
-   "device"
+   "industry"
   ],
-  "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
-  "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
+  "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+  "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
   "venue": "NVIDIA Blog",
   "watched": []
  },
@@ -1933,47 +2122,6 @@
   ],
   "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
   "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
-  "venue": "NVIDIA Blog",
-  "watched": []
- },
- {
-  "abstract": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next steps. Rubin HPC will accelerate those simulations, shortening the path from exploration to scientific discovery and industrial design. The Rubin HPC GPU features a record number of CUDA cores — more than 50,000 on a single GPU — as well as a sparse data acceleration capability that keeps those cores fed with data, and accelerates GPU-to-GPU connectivity with seventh-generation NVIDIA NVLink interconnect technology. Read All NVIDIA Announcements From SC26 Scientists and engineers rely on simulation to understand complex systems before committing to experiments or physical prototypes. Working with agents, these teams can explore more candidate materials, molecules and designs. This increases demand for the GPU-accelerated simulations needed to evaluate those ideas and guide next steps. “For agents tackling science and engineering, faster simulation means faster discovery,” said Ian Buck , vice president of hyperscale and high-performance computing at NVIDIA. “Rubin HPC accelerates the simulations agents use to test ideas and guide their next steps, helping scientists and engineers explore more possibilities and bring breakthroughs closer.” Turning Faster Computation Into Faster Discovery Across climate models, engineering simulations, genomic analysis and financial risk, scientific computing workloads take a similar shape: an application reaches into an immense dataset, gathers a handful of scattered values, calculates…",
-  "authors": [],
-  "cat": "industry",
-  "doi": "",
-  "first_seen": "2026-11-16",
-  "focus": "",
-  "id": "9f55eb53379a88c3",
-  "kind": "news",
-  "kw_score": 4,
-  "matched": [
-   "workflow",
-   "simulation",
-   "materials",
-   "GPU",
-   "HPC",
-   "scientific",
-   "agent"
-  ],
-  "mytools": [
-   "CUDA"
-  ],
-  "published": "2026-11-16",
-  "relevance": 2,
-  "score": 1,
-  "source": "NVIDIA Blog",
-  "summary": {
-   "by": "claude",
-   "how": "Hardware announcement; stated features are the high CUDA core count, sparse data acceleration for scattered-access workloads, and faster GPU-to-GPU connectivity. Benchmarks are not stated in the abstract.",
-   "impact": "Low relevance now; a hardware trend note for GPU-accelerated phonon BTE and CUDA/JAX solvers. No concrete numbers for the owner's workloads.",
-   "what": "NVIDIA announced Rubin HPC, a new GPU in the Vera Rubin platform for simulation and data processing, with more than 50,000 CUDA cores, a sparse data acceleration capability and seventh-generation NVLink.",
-   "why": "Agents exploring more candidate materials, molecules and designs increase demand for GPU-accelerated simulations to test those ideas."
-  },
-  "themes": [
-   "industry"
-  ],
-  "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-  "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
   "venue": "NVIDIA Blog",
   "watched": []
  },

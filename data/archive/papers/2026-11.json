@@ -1,5 +1,313 @@
 [
  {
+  "abstract": "Cobalt-based half-Heusler (HH) thermoelectric compounds with a valence 18-electron (18-e) count are known for their favorable electrical transport properties and thermal stability. However, their inherently high lattice thermal conductivities present a significant challenge for thermoelectric performance. Here, we explore the potential of double half-Heusler compounds, X 2 FeNiZ 2 (X = Ti, Zr, Hf; Z = Sb, Bi), formed by substituting Co with Fe and Ni, following the 18-valence electron count rule. These compounds exhibit a reduction in lattice thermal conductivity. This amounts to approximately 20% ∼ 40% reductions as compared to the ternary HH counterparts. This decrease is due to the chemical nature of the compounds, specifically a combination of strong and weak chemical bonds. The resulting heterogeneous bonding environment enhances anharmonicity and phonon scattering. Furthermore, the electronic band structures show features that are favorable for thermoelectric performance, including carrier pocket degeneracy, band warping and anisotropic carrier pockets. Thus, electron count preserving site splitting to form the double half-Heusler structure, is an effective strategy for reducing the lattice thermal conductivity, while maintaining favorable electronic characteristics.",
+  "authors": [
+   "Zhen Wang",
+   "Tao Jiang",
+   "Zhenzhen Feng",
+   "Gaofeng Zhao",
+   "Yuhao Fu",
+   "David J. Singh"
+  ],
+  "cat": "papers",
+  "doi": "10.1103/t1wj-5trq",
+  "first_seen": "2026-11-22",
+  "focus": "",
+  "id": "3885ea43f5c33a7d",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "anharmonic",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 2,
+  "score": 3,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "First-principles calculations of lattice thermal conductivity and band structure; the reduction is attributed to heterogeneous strong/weak bonding that enhances anharmonicity and phonon scattering.",
+   "impact": "Low-moderate relevance. It is a phonon and anharmonicity analysis in a material outside the reader's projects, but the bonding-heterogeneity argument is a useful reference for interpreting κ in alloys such as InGaAs.",
+   "what": "Computational study of double half-Heusler compounds X2FeNiZ2 (X = Ti, Zr, Hf; Z = Sb, Bi) following the 18-electron rule, with 20-40% lower lattice thermal conductivity than ternary half-Heuslers.",
+   "why": "Cobalt-based 18-electron half-Heuslers have good electronic properties but high lattice thermal conductivity."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Bonding heterogeneity induced ultralow lattice thermal conductivity in double half-Heusler compounds X 2 FeNi Z 2 ( X = Ti , Zr , Hf ; Z = Sb , Bi )",
+  "url": "https://doi.org/10.1103/t1wj-5trq",
+  "venue": "Physical review. B./Physical review. B",
+  "watched": []
+ },
+ {
+  "abstract": "Artificial intelligence (AI) agents are transitioning from conversational add-ons to integrated scientific operating layers, reflecting a broader shift toward autonomous systems capable of reasoning, planning, and interacting with external tools [1] .Advances around 2025 instead embed models in structured loops for planning, tool use, feedback, and revision.This Perspective highlights ten representative advances spanning general agent architectures, mathematical reasoning, chemistry, materials science, biomedicine, scientific instrumentation, energy systems, Earth observation, embodied intelligence, and security governance.Collectively, these developments mark a transition from fluent text generation toward controllable, auditable, and increasingly autonomous cycles of reasoning and action.To identify representative advances in AI agents for science and society, we considered four criteria: scientific significance, agentic functionality, cross-domain representation, and demonstrated progress and influence during 2024-2025.Particular emphasis was placed on systems that move beyond passive information generation by combining planning, tool utilization, feedback-driven adaptation, and iterative decision-making with scientific data, computational resources, physical environments, and human expertise.The selected advances represent major developmental directions rather than a ranked list of individual studies.",
+  "authors": [
+   "Limin Li"
+  ],
+  "cat": "papers",
+  "doi": "10.20517/aiagent.2026.37",
+  "first_seen": "2026-11-22",
+  "focus": "computational",
+  "id": "c80295cd67710499",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "agentic",
+   "materials",
+   "chemistry",
+   "scientific",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-18",
+  "relevance": 3,
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Selection by four criteria: scientific significance, agentic functionality, cross-domain representation, and demonstrated progress. Specific systems are Not stated in the abstract.",
+   "impact": "Background reading for agents and automated workflows for first-principles and lattice-dynamics calculations, for example around MLPhonon. It is a broad overview, so likely little technical detail.",
+   "what": "Perspective on ten representative 2024-2025 advances in AI agents for science, spanning general agent architectures, chemistry, materials science, energy systems and security governance.",
+   "why": "AI agents are moving from chat assistants to integrated scientific operating layers that plan, use tools, and revise."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "AI agents for science and society in 2025: ten representative advances",
+  "url": "https://doi.org/10.20517/aiagent.2026.37",
+  "venue": "AI Agent",
+  "watched": []
+ },
+ {
+  "abstract": "Replacing lead in halide perovskites without sacrificing their optoelectronic versatility remains a central challenge in sustainable materials chemistry. Bismuth(III), isoelectronic with Pb2+, offers a chemically robust route to this goal, but its compounds are typically evaluated for a single function, namely light absorption, photocatalysis, or thermal transport in isolation. In this work, we show that a single, mechanochemically synthesized layered halide platform, Cs3Bi2Br9 and its iodine-substituted analogue Cs3Bi2Br6I3, integrates all three. High-resolution synchrotron diffraction resolves the corner-sharing [Bi(Br,I)6] octahedral layers and reveals a stereochemically active Bi3+ lone pair whose signature, being pronounced, temperature-dependent atomic displacement anisotropy; we quantify with a site-resolved Debye model. This lone-pair-driven lattice softness rationalizes an intrinsically low thermal conductivity (~0.15–0.25 W m−1K−1), further suppressed by iodine substitution. Group-theory-assigned Raman and infrared phonons, validated against DFT lattice dynamics, and direct optical gaps of 2.65 and 2.20 eV place both compounds’ absorption edges in the visible range. We demonstrate that Cs3Bi2Br9 photocatalytically degrades the organic dye Rhodamine B roughly 75-fold faster than direct photolysis and retains full activity over four reuse cycles. These results establish compositional Br/I tuning as a single structural handle for co-engineering optical, thermal and catalytic function in lead-free layered halides.",
+  "authors": [
+   "Yousra Chakroun",
+   "Brenda Fragoso",
+   "Wajdi Cherif",
+   "Cátia Liane Ücker",
+   "Carlos Alberto López",
+   "Javier Gainza",
+   "Federico M. Serrano-Sanchez",
+   "Romualdo Santos Silva Junior",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1016/j.mtchem.2026.104184",
+  "first_seen": "2026-11-22",
+  "focus": "computational",
+  "id": "d45d1c092a1d5c75",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "phonon",
+   "softening",
+   "DFT",
+   "thermal",
+   "materials",
+   "chemistry"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 1,
+  "score": 3,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Synchrotron diffraction with a site-resolved Debye model, Raman/IR with group theory, DFT lattice dynamics, and photocatalysis tests on Rhodamine B.",
+   "impact": "Low relevance. It is mostly experimental and none of the projects uses this material. Only the DFT lattice-dynamics validation of the measured phonons is loosely transferable.",
+   "what": "Experimental study of mechanochemically synthesized Cs3Bi2Br9 and Cs3Bi2Br6I3: synchrotron diffraction, Raman/IR phonons checked against DFT lattice dynamics, low thermal conductivity (about 0.15-0.25 W/m/K), optical gaps, and photocatalytic dye degradation.",
+   "why": "Seeks lead-free halide perovskite alternatives that combine optical, thermal and catalytic function."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "A multifunctional lead-free layered halide: lone-pair-driven phonon softening, tunable optical gaps, and photocatalytic dye degradation in Cs3Bi2Br9−xIx",
+  "url": "https://doi.org/10.1016/j.mtchem.2026.104184",
+  "venue": "Materials Today Chemistry",
+  "watched": []
+ },
+ {
+  "abstract": "The adsorption of technologically relevant gas molecules (NH 3 , CO 2 , H 2 , H 2 O, O 2 , NO 2 , CO, and SO 2 ) on a Na-decorated GaP/silicene heterostructure is systematically investigated using first-principles calculations combined with CGCNN predictions. All molecules exhibit negative adsorption energies, with NO 2 , SO 2 , and NH 3 showing the strongest binding. NO 2 and SO 2 induce spin polarization and finite magnetic moments, governed by charge transfer and orbital hybridization. Gas adsorption significantly modulates optical and thermoelectric responses, particularly in the low-energy region. CGCNN results reveal a reduction in mechanical stiffness ( B, G ), most pronounced for NO 2 , alongside a slight increase in Debye temperature, while the thermal expansion coefficient remains nearly unchanged (∼6.0 × 10 −5 K −1 ), indicating preserved lattice anharmonicity. These findings highlight the potential of this heterostructure for selective gas sensing and thermoelectric applications.",
+  "authors": [
+   "Ngoc Van Hoang",
+   "Trieu Quynh Trang",
+   "Thong Nguyen‐Minh Le"
+  ],
+  "cat": "papers",
+  "doi": "10.1088/1402-4896/aec04d",
+  "first_seen": "2026-11-22",
+  "focus": "computational",
+  "id": "7743e207ad355284",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "thermoelectric",
+   "anharmonic",
+   "heterostructure",
+   "first-principles",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 1,
+  "score": 3,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "DFT calculations combined with CGCNN predictions of elastic moduli, Debye temperature and thermal expansion.",
+   "impact": "Low relevance. It concerns gas sensing, not phonon transport or interfaces in the reader's projects.",
+   "what": "First-principles plus CGCNN study of gas adsorption (NH3, CO2, H2, H2O, O2, NO2, CO, SO2) on a Na-decorated GaP/silicene heterostructure, covering optical, thermoelectric and mechanical responses.",
+   "why": "Seeks heterostructures for selective gas sensing and thermoelectric applications."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Tailoring gas adsorption and multifunctional properties of Na-decorated GaP/silicene heterostructure for sensing and thermoelectric applications",
+  "url": "https://doi.org/10.1088/1402-4896/aec04d",
+  "venue": "Physica Scripta",
+  "watched": []
+ },
+ {
+  "abstract": "Driven by the demand for high-performance power electronics, GaN, a wide-bandgap semiconductor, suffers from degraded epitaxial quality due to interfacial defects. AlN is widely used as GaN epitaxial template, where twin defects modify local atomic stacking and crystal orientation. This work performs large-scale molecular dynamics simulations at 1700–2500 K to comparatively investigate GaN crystallization on a constructed twinned AlN/GaN configuration and an untwinned cubic reference under identical conditions. Atomic diffusion, ordering-front propagation and cubic–hexagonal phase competition are quantified via structural transition matrices. Results show that increasing temperature generally promotes structural ordering within the 3 ns simulation window, with growth evolving from slow heterogeneous ordering toward rapid early ordering followed by local structural adjustment. For the twinned system, four simulations with independent initial-velocity seeds at each temperature show an overall increase in the mean fully ordered fraction after 3 ns, from 13.44% at 1700 K to 68.34% at 2500 K, with appreciable variability at intermediate temperatures. Transient atomic mobility depends on the observation window and should be distinguished from accumulated structural ordering. In the trajectories compared, the untwinned template favors conditional entry into Cubic-family environments across the investigated temperature range, while the twinned configuration shows this tendency from 1900 to 2500 K. The untwinned reference shows faster disorder elimination and greater cubic retention, while the constructed twinned configuration shows more interfamily reconstruction at most temperatures. The results reveal how template configuration influences ordering pathways and…",
+  "authors": [
+   "Guiyang Liu",
+   "Qingmo Chen",
+   "Kayi Feng",
+   "Junhui Wu",
+   "Huiqi Chen",
+   "Qingqing Wu"
+  ],
+  "cat": "papers",
+  "doi": "10.1088/1402-4896/aec3e3",
+  "first_seen": "2026-11-22",
+  "focus": "computational",
+  "id": "1a9ac75f4016f820",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "wide-bandgap",
+   "GaN",
+   "AlN",
+   "semiconductor",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-18",
+  "relevance": 3,
+  "score": 9,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "MD runs of 3 ns with four velocity seeds per temperature; structural transition matrices track ordering (twinned system's mean ordered fraction rose from 13.44% at 1700 K to 68.34% at 2500 K).",
+   "impact": "Related to the GaN/AlGaN HEMT and GaN/Al2O3 interface projects as a source of interface structure and defect context. It does not address thermal transport, and its force field is Not stated in the abstract.",
+   "what": "Large-scale MD of GaN crystallization on a twinned AlN/GaN configuration versus an untwinned cubic reference at 1700-2500 K, quantifying ordering and cubic-hexagonal competition.",
+   "why": "Interfacial defects such as AlN twins degrade GaN epitaxial quality for power electronics."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Temperature-dependent local ordering and cubic-hexagonal reconstruction during GaN crystallization at AlN/GaN interfaces",
+  "url": "https://doi.org/10.1088/1402-4896/aec3e3",
+  "venue": "Physica Scripta",
+  "watched": []
+ },
+ {
+  "abstract": "Zintl-phase materials are promising thermoelectrics due to their good carrier transport and low lattice thermal conductivity (κL). Using first-principles calculations, the Boltzmann transport equation (BTE), and dual-phonon theory, we investigate the cation-driven vibrational hierarchy and thermoelectric properties of the ternary Zintl phase KCaBi. The rattling-like vibrations induced by weakly bound interlayer K atoms, coupled with the high-temperature crossover from conventional phonon propagation to diffuson-like thermal transport, endow the material with a low κL. The out-of-plane (along the c-axis) κL ranges from ≈ 0.15 W m−1 K−1 under Criterion I (Crit. I) to ≈ 0.27 W m−1 K−1 under Criterion III (Crit. III) within the dual-phonon theory at 700 K. The rigid [Ca–Bi]− framework and the multi-valley valence band enable efficient in-plane carrier transport, yielding an in-plane thermoelectric figure of merit (ZT) of ≈ 2.28 under Crit. III and ≈ 2.52 under Crit. I for p-type KCaBi at 700 K. Meanwhile, n-type KCaBi exhibits out-of-plane ZT of ≈ 1.38 (Crit. III) to ≈ 1.92 (Crit. I) at potentially more accessible doping concentrations of 1018 cm−3. We elucidate how bonding heterogeneity affects phonon and electron transport properties in Zintl-phase KCaBi, offering a heuristic approach for designing advanced hierarchical thermoelectrics.",
+  "authors": [
+   "Jingyi Zhang",
+   "Yinglin Guan",
+   "Qiantong Wang",
+   "Tianchang Xie",
+   "Junhao Peng",
+   "Huafeng Dong"
+  ],
+  "cat": "papers",
+  "doi": "10.1103/98hz-m3f3",
+  "first_seen": "2026-11-22",
+  "focus": "computational",
+  "id": "05d2d00766412b4d",
+  "kind": "paper",
+  "kw_score": 13,
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "BTE",
+   "interlayer",
+   "first-principles",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 3,
+  "score": 13,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "DFT, phonon BTE, and dual-phonon theory covering both propagating phonons and diffuson-like transport; results reported under two criteria (Crit. I and Crit. III).",
+   "impact": "Relevant methodologically: it combines BTE with a diffuson/crossover treatment for strongly anharmonic, rattling-like systems, which relates to the BTE and lattice-dynamics side of the BAs and InGaAs work. The material is not one of the reader's projects.",
+   "what": "First-principles, BTE and dual-phonon-theory study of the Zintl phase KCaBi, finding very low out-of-plane κL (about 0.15-0.27 W/m/K at 700 K) and p-type in-plane ZT of about 2.3-2.5.",
+   "why": "Zintl phases are promising thermoelectrics, and the link between bonding heterogeneity and low κL needs to be understood."
+  },
+  "themes": [
+   "phonon",
+   "bte"
+  ],
+  "title": "Cation-driven vibrational hierarchy in the Zintl-phase thermoelectric KCaBi",
+  "url": "https://doi.org/10.1103/98hz-m3f3",
+  "venue": "Physical review. B./Physical review. B",
+  "watched": []
+ },
+ {
+  "abstract": "Machine learning (ML) has emerged as a powerful approach for accelerating the discovery of thermoelectric (TE) materials, yet many models suffer from limited generalizability. Here we present a robust ML framework for predicting the thermoelectric figure of merit (zT) in half-Heusler (hH) compounds, emphasizing prediction of previously unseen compositions. A principal component analysis (PCA)-based train/test splitting strategy is introduced to generate representative partitions of chemical space. Bayesian hyperparameter optimization is combined with correlation-based k-best feature selection for Random Forest, XGBoost, and Neural Network models, together with the interpretable SISSO symbolic-regression method. Relative to the full set of 118 input features, the optimized feature subsets reduce the test RMSE by 16-27%. SHAP and SISSO analyses identify temperature, A-site dopant concentration, and A-site heat of vaporization as the most important descriptors of zT. The framework is validated through prediction of previously unexplored compositions, recovery of literature-reported optimal zT values for established hH systems, and first-principles calculations for the new compounds CeCoBi and CeIrBi, which exhibit favorable electronic transport properties. The framework is further applied to high-throughput screening of the doped hH chemical space, covering about 2.46 million elemental substitution combinations across 631 thermodynamically screened parent matrices under stability constraints. This screening yields a concise set of promising candidates for future study. Overall, the work establishes a generalizable workflow for reliable data-driven thermoelectric materials discovery.",
+  "authors": [
+   "Shoeb Athar",
+   "Adrien Mecibah",
+   "Philippe Jund"
+  ],
+  "cat": "papers",
+  "doi": "10.1103/2ffk-zqn8",
+  "first_seen": "2026-11-22",
+  "focus": "computational",
+  "id": "3b98edaf2ecfe8dd",
+  "kind": "paper",
+  "kw_score": 14,
+  "matched": [
+   "thermoelectric",
+   "interpretab",
+   "generaliz",
+   "SHAP",
+   "first-principles",
+   "high-throughput",
+   "workflow",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 2,
+  "score": 11,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Bayesian hyperparameter optimization with correlation-based k-best feature selection (test RMSE reduced 16-27% vs. all 118 features); SHAP and SISSO for interpretation; first-principles checks on CeCoBi and CeIrBi; screening of about 2.46 million doped substitutions over 631 parent matrices.",
+   "impact": "Low relevance to the GaN, InGaAs and BAs projects, since it targets electronic zT rather than phonon transport. The PCA-based splitting for out-of-distribution testing and the feature-importance analysis could loosely inform MLIP data-efficiency and failure-mode studies.",
+   "what": "Presents an ML framework (Random Forest, XGBoost, neural network, plus SISSO symbolic regression) for predicting zT of half-Heusler compounds, using a PCA-based train/test split to test on unseen compositions.",
+   "why": "Many thermoelectric ML models generalize poorly to new chemistries."
+  },
+  "themes": [
+   "mlip",
+   "phonon",
+   "atomistic"
+  ],
+  "title": "Generalizable machine learning framework for half-Heusler thermoelectrics",
+  "url": "https://doi.org/10.1103/2ffk-zqn8",
+  "venue": "Physical review. B./Physical review. B",
+  "watched": []
+ },
+ {
   "abstract": "",
   "authors": [
    "Dasol Kim",
@@ -43,55 +351,6 @@
   "title": "Moire-induced interlayer electron-phonon coupling in graphene/hBN superlattices",
   "url": "https://doi.org/10.1103/jvzb-xh9d",
   "venue": "Physical Review Letters",
-  "watched": []
- },
- {
-  "abstract": "ABSTRACT As the semiconductor industry increasingly pivots toward “More than Moore” and “More Moore” paradigms, heterogeneous integration has emerged as a pivotal strategy for achieving system‐level performance breakthroughs. However, residual stress inherent to the integration of dissimilar materials represents a critical bottleneck, directly threatening the integrity and reliability of these advanced systems. Heteroepitaxy, as a representative example, is inherently constrained by stress accumulation, which limits epilayer thickness, increases threading dislocation density (TDD), and degrades device reliability. Here, we present a strain‐inversion strategy that effectively transfers misfit‐induced stress from the epilayer into the substrate stack. Through co‐designed theoretical modeling and experimental validation, we introduce 4H‐SiC/SiO 2 /polycrystalline‐ceramic‐AlN integrated substrates, and demonstrate metalorganic chemical vapor deposition (MOCVD) growth of 53‐µm‐thick, stress‐free heteroepitaxial GaN films. The films exhibit outstanding structural quality, with full‐width‐at‐half‐maximum (FWHM) values of x‐ray rocking curve of 83 and 119 arcsec for the (002) and (102) planes, respectively, and a TDD of 5 × 10 7 cm −2 . These results not only set a new thickness record for MOCVD‐grown heteroepitaxial GaN but also achieve crystal quality comparable to state‐of‐the‐art benchmarks. Our approach establishes strain‐inverted epitaxy as a highly promising platform for high‐performance nitride devices and paves the way for producing low‐cost and strain‐free GaN and AlN substrates.",
-  "authors": [
-   "Junkang Wu",
-   "Xuelin Yang",
-   "Faquan Wu",
-   "Xingyu Fu",
-   "Hongcai Yang",
-   "Zhenghao Chen",
-   "Lin Yao",
-   "Beile Chen",
-   "et al."
-  ],
-  "cat": "papers",
-  "doi": "10.1002/adma.75772",
-  "first_seen": "2026-11-21",
-  "focus": "mixed",
-  "id": "8e9cb0cf92b020a9",
-  "kind": "paper",
-  "kw_score": 7,
-  "matched": [
-   "GaN",
-   "AlN",
-   "SiC",
-   "semiconductor",
-   "substrate",
-   "reliability",
-   "materials"
-  ],
-  "mytools": [],
-  "published": "2026-11-21",
-  "relevance": 2,
-  "score": 4,
-  "source": "Crossref",
-  "summary": {
-   "by": "claude",
-   "how": "Co-designed modeling and experiment; stated results are x-ray rocking curve FWHM of 83 and 119 arcsec for (002) and (102) planes and a threading dislocation density of 5×10^7 cm^-2.",
-   "impact": "Mostly experimental, but context for the GaN HEMT project: substrate stack and dislocation density affect interface and thermal boundary resistance. Thermal properties of the SiC/SiO2/AlN stack are not stated in the abstract.",
-   "what": "A strain-inversion strategy using 4H-SiC/SiO2/polycrystalline-ceramic-AlN integrated substrates to grow 53-µm-thick, stress-free GaN films by MOCVD.",
-   "why": "Residual stress in heteroepitaxy limits epilayer thickness, raises threading dislocation density and degrades reliability."
-  },
-  "themes": [
-   "device"
-  ],
-  "title": "Strain‐Inversion Strategy Enables MOCVD Growth of 53 µm Ultra‐Thick, Stress‐Free, Buffer‐Free III‐Nitride Heteroepitaxial Films",
-  "url": "https://doi.org/10.1002/adma.75772",
-  "venue": "Advanced Materials",
   "watched": []
  },
  {
@@ -216,6 +475,55 @@
   "title": "First-principles study of halide double perovskite Rb 2 GeNiCl 6 : a stable magnetic semiconductor for spintronic and thermoelectric applications",
   "url": "https://doi.org/10.1039/d6ra03124b",
   "venue": "RSC Advances",
+  "watched": []
+ },
+ {
+  "abstract": "ABSTRACT As the semiconductor industry increasingly pivots toward “More than Moore” and “More Moore” paradigms, heterogeneous integration has emerged as a pivotal strategy for achieving system‐level performance breakthroughs. However, residual stress inherent to the integration of dissimilar materials represents a critical bottleneck, directly threatening the integrity and reliability of these advanced systems. Heteroepitaxy, as a representative example, is inherently constrained by stress accumulation, which limits epilayer thickness, increases threading dislocation density (TDD), and degrades device reliability. Here, we present a strain‐inversion strategy that effectively transfers misfit‐induced stress from the epilayer into the substrate stack. Through co‐designed theoretical modeling and experimental validation, we introduce 4H‐SiC/SiO 2 /polycrystalline‐ceramic‐AlN integrated substrates, and demonstrate metalorganic chemical vapor deposition (MOCVD) growth of 53‐µm‐thick, stress‐free heteroepitaxial GaN films. The films exhibit outstanding structural quality, with full‐width‐at‐half‐maximum (FWHM) values of x‐ray rocking curve of 83 and 119 arcsec for the (002) and (102) planes, respectively, and a TDD of 5 × 10 7 cm −2 . These results not only set a new thickness record for MOCVD‐grown heteroepitaxial GaN but also achieve crystal quality comparable to state‐of‐the‐art benchmarks. Our approach establishes strain‐inverted epitaxy as a highly promising platform for high‐performance nitride devices and paves the way for producing low‐cost and strain‐free GaN and AlN substrates.",
+  "authors": [
+   "Junkang Wu",
+   "Xuelin Yang",
+   "Faquan Wu",
+   "Xingyu Fu",
+   "Hongcai Yang",
+   "Zhenghao Chen",
+   "Lin Yao",
+   "Beile Chen",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1002/adma.75772",
+  "first_seen": "2026-11-21",
+  "focus": "mixed",
+  "id": "8e9cb0cf92b020a9",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "GaN",
+   "AlN",
+   "SiC",
+   "semiconductor",
+   "substrate",
+   "reliability",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-21",
+  "relevance": 2,
+  "score": 4,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Co-designed modeling and experiment; stated results are x-ray rocking curve FWHM of 83 and 119 arcsec for (002) and (102) planes and a threading dislocation density of 5×10^7 cm^-2.",
+   "impact": "Mostly experimental, but context for the GaN HEMT project: substrate stack and dislocation density affect interface and thermal boundary resistance. Thermal properties of the SiC/SiO2/AlN stack are not stated in the abstract.",
+   "what": "A strain-inversion strategy using 4H-SiC/SiO2/polycrystalline-ceramic-AlN integrated substrates to grow 53-µm-thick, stress-free GaN films by MOCVD.",
+   "why": "Residual stress in heteroepitaxy limits epilayer thickness, raises threading dislocation density and degrades reliability."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Strain‐Inversion Strategy Enables MOCVD Growth of 53 µm Ultra‐Thick, Stress‐Free, Buffer‐Free III‐Nitride Heteroepitaxial Films",
+  "url": "https://doi.org/10.1002/adma.75772",
+  "venue": "Advanced Materials",
   "watched": []
  },
  {
