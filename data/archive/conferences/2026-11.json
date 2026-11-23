@@ -1,5 +1,80 @@
 [
  {
+  "abstract": "Short workshop papers on MLIP interpretability, data efficiency or agents; NeurIPS is usually in North America in December. No deadline sentences found on the page.",
+  "always": true,
+  "authors": [],
+  "cat": "conferences",
+  "conf_name": "AI4Mat workshop (NeurIPS)",
+  "doi": "",
+  "first_seen": "2026-11-23",
+  "fit": "submit",
+  "focus": "",
+  "id": "fc69ec86f4d18072",
+  "kind": "conference",
+  "kw_score": 9,
+  "matched": [
+   "interpretab",
+   "data-efficien",
+   "MLIP",
+   "agent"
+  ],
+  "mytools": [],
+  "page_excerpt": "AI4Mat-NeurIPS 2026 Search this site Embedded Files Skip to main content Skip to navigation AI4Mat-NeurIPS 2026 AI4Mat: AI for Accelerated Materials Design December 12, 2026 @ NeurIPS 2026 (Sydney, Australia) About the Workshop The AI for Accelerated Materials Discovery (AI4Mat) Workshop at NeurIPS 2026 provides an inclusive and collaborative platform where AI researchers and material scientists converge to tackle the cutting-edge challenges in AI-driven materials discovery and development. Our goal is to foster a vibrant exchange of ideas, breaking down barriers between disciplines and encouraging insightful discussions among experts from diverse disciplines and curious newcomers to the field. The workshop embraces a broad definition of materials design encompassing matter in various forms, such as crystalline and amorphous solid-state materials, glasses, molecules, nanomaterials, and devices. By taking a comprehensive look at automated materials discovery spanning AI-guided design, synthesis and automated material characterization, we hope to create an opportunity for deep, thoughtful discussion among researchers working on these interdisciplinary topics, and highlight ongoing challenges in the field. Covering materials such as : AI4Mat was first held at NeurIPS 2022, bringing together materials scientists and AI researchers into a common forum with productive discussion on major research challenges at the intersection of AI and materials science. Since then, AI4Mat has est",
+  "published": "2026-11-23",
+  "relevance": 2,
+  "score": 6,
+  "source": "Conference watch",
+  "summary": {
+   "by": "claude",
+   "how": "Short workshop papers; no deadline sentences found on the page.",
+   "impact": "Topic fits MLIP interpretability and agent work, but it is held in Sydney (not US) and is imminent, so it is not a practical submission target; watch for a 2027 edition.",
+   "what": "AI4Mat workshop at NeurIPS 2026 website updated: AI for accelerated materials design, December 12, 2026, Sydney, Australia.",
+   "why": "Bring AI researchers and materials scientists together on AI-driven materials discovery."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "AI4Mat workshop (NeurIPS) — website updated",
+  "url": "https://sites.google.com/view/ai4mat",
+  "venue": "ML for materials (MLIP, data efficiency, agents)",
+  "watched": []
+ },
+ {
+  "abstract": "AI methods for theoretical and computational physical science, focusing on condensed matter, materials, chemical physics, molecular systems and quantum simulations. Welcomes new algorithms, AI-accelerated simulation, ML combined with physical constraints, interpretability, and reproducible datasets, benchmarks and open-source software. Topics include machine-learning interatomic potentials, AI-accelerated electronic-structure methods, active learning, multiscale modeling and interpretable AI. Guest editors: Hongjun Xiang, Jian Sun, Fang Liu.",
+  "authors": [],
+  "cat": "conferences",
+  "deadline": "2027-01-31",
+  "doi": "",
+  "first_seen": "2026-11-23",
+  "id": "aa9c3d4ba0e07927",
+  "kind": "special-issue",
+  "matched": [
+   "multiscale",
+   "interpretab",
+   "benchmark",
+   "simulation",
+   "materials",
+   "physics"
+  ],
+  "published": "2026-11-23",
+  "score": 8,
+  "source": "Claude web search",
+  "summary": {
+   "by": "claude",
+   "how": "Submit through the journal's portal by 2027-01-31 (the page lists the deadline and a contribute link; confirm status in the portal).",
+   "impact": "Good fit for the MLPhonon workflow, the InGaAs DeepPotential-vs-MACE comparison or active-learning BAs MLIPs; worth considering for a submission.",
+   "what": "Special topic in APL Computational Physics on AI for computational physical science, including MLIPs, active learning and multiscale modeling.",
+   "why": "Collect new AI methods, benchmarks and open-source software for condensed-matter and materials simulation."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "AI for Computational Physical Science (APL Computational Physics Special Topic)",
+  "url": "https://pubs.aip.org/cfp/pages/acmp2026",
+  "venue": "APL Computational Physics (AIP Publishing)",
+  "watched": []
+ },
+ {
   "abstract": "Thermal reliability of GaN/SiC devices. No deadline sentences found on the page.",
   "always": true,
   "authors": [],

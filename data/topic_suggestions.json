@@ -1,93 +1,165 @@
 {
  "candidates": [
   {
-   "count": 8,
+   "count": 24,
    "term": "interatomic potentials"
+  },
+  {
+   "count": 14,
+   "term": "theory dft"
+  },
+  {
+   "count": 12,
+   "term": "first-principles calculations"
+  },
+  {
+   "count": 10,
+   "term": "transport properties"
+  },
+  {
+   "count": 8,
+   "term": "electronic structure"
+  },
+  {
+   "count": 8,
+   "term": "lone pair"
+  },
+  {
+   "count": 8,
+   "term": "thermoelectric materials"
+  },
+  {
+   "count": 8,
+   "term": "algan gan"
+  },
+  {
+   "count": 7,
+   "term": "thermoelectric performance"
+  },
+  {
+   "count": 7,
+   "term": "room temperature"
+  },
+  {
+   "count": 7,
+   "term": "cu diamond"
+  },
+  {
+   "count": 6,
+   "term": "adsorption energies"
+  },
+  {
+   "count": 6,
+   "term": "dynamics simulations"
+  },
+  {
+   "count": 6,
+   "term": "band gap"
+  },
+  {
+   "count": 6,
+   "term": "electric field"
+  },
+  {
+   "count": 6,
+   "term": "boson peaks"
+  },
+  {
+   "count": 6,
+   "term": "force fields"
+  },
+  {
+   "count": 5,
+   "term": "la mgs"
+  },
+  {
+   "count": 5,
+   "term": "ti zr"
+  },
+  {
+   "count": 5,
+   "term": "zr hf"
+  },
+  {
+   "count": 5,
+   "term": "electronic band"
+  },
+  {
+   "count": 5,
+   "term": "charge transfer"
+  },
+  {
+   "count": 5,
+   "term": "electron-phonon coupling"
+  },
+  {
+   "count": 5,
+   "term": "seebeck coefficient"
+  },
+  {
+   "count": 5,
+   "term": "thin films"
+  },
+  {
+   "count": 5,
+   "term": "heat capacity"
+  },
+  {
+   "count": 5,
+   "term": "crystal structure"
+  },
+  {
+   "count": 5,
+   "term": "electrical properties"
+  },
+  {
+   "count": 5,
+   "term": "gan algan"
   },
   {
    "count": 5,
    "term": "temperature dependence"
   },
   {
-   "count": 5,
-   "term": "band gap"
+   "count": 4,
+   "term": "transport theory"
   },
   {
    "count": 4,
-   "term": "neural networks"
+   "term": "thermoelectric properties"
   },
   {
    "count": 4,
-   "term": "electric field"
+   "term": "la cds"
   },
   {
    "count": 4,
-   "term": "management materials"
+   "term": "ev atom"
   },
   {
    "count": 4,
-   "term": "charge transfer"
+   "term": "power loss"
   },
   {
    "count": 4,
-   "term": "single-event burnout"
+   "term": "thermal stability"
   },
   {
-   "count": 3,
-   "term": "theory dft"
+   "count": 4,
+   "term": "thermoelectric applications"
   },
   {
-   "count": 3,
-   "term": "across scales"
+   "count": 4,
+   "term": "lattice anharmonicity"
   },
   {
-   "count": 3,
-   "term": "first-principles calculations"
+   "count": 4,
+   "term": "increasing temperature"
   },
   {
-   "count": 3,
-   "term": "electronic structure"
-  },
-  {
-   "count": 3,
-   "term": "remains challenging"
-  },
-  {
-   "count": 3,
-   "term": "bonding regimes"
-  },
-  {
-   "count": 3,
-   "term": "optical transitions"
-  },
-  {
-   "count": 3,
-   "term": "hard carbon"
-  },
-  {
-   "count": 3,
-   "term": "black phosphorus"
-  },
-  {
-   "count": 3,
-   "term": "p-gan gate"
-  },
-  {
-   "count": 3,
-   "term": "mev cm2"
-  },
-  {
-   "count": 3,
-   "term": "cm2 mg"
-  },
-  {
-   "count": 3,
-   "term": "schottky contact"
-  },
-  {
-   "count": 3,
-   "term": "lower bound"
+   "count": 4,
+   "term": "thermoelectric figure"
   }
  ],
- "week_of": "2026-11-17"
+ "week_of": "2026-11-23"
 }

@@ -1,5 +1,214 @@
 [
  {
+  "abstract": "",
+  "authors": [
+   "Mohammed Amine Boudjeltia",
+   "M. Boudjelal",
+   "Zoubir Aziz",
+   "Sabria Terkhi",
+   "Sarra Benosmane",
+   "Yasmine Bouldiab",
+   "Samir BENTATA",
+   "Bouabdellah Bouadjemi",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1007/s12648-026-04265-4",
+  "first_seen": "2026-11-23",
+  "focus": "computational",
+  "id": "7b330599b5ea0b74",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "thermoelectric",
+   "first-principles"
+  ],
+  "mytools": [],
+  "published": "2026-11-21",
+  "relevance": 1,
+  "score": 1,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "First-principles calculations per the title. Not stated in the abstract.",
+   "impact": "Low relevance: no abstract available and a routine thermoelectric DFT screening; no link to the listed projects.",
+   "what": "First-principles study of full Heusler K2XSi (X = Ca, Mg) for optical and thermoelectric performance (from the title).",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Exploring the multifunctional full Heusler compounds K2XSi (X = Ca, Mg) for energy conversion: insights into optical and thermoelectric performance from first-principles",
+  "url": "https://doi.org/10.1007/s12648-026-04265-4",
+  "venue": "Indian Journal of Physics",
+  "watched": []
+ },
+ {
+  "abstract": "The structural and adsorption properties of hydrogen-passivated armchair stanene nanoribbons (ASnNRs) decorated with Ti, Mn, and Ni were investigated using density functional theory (DFT). The calculations were complemented by Boltzmann transport theory and Crystal Graph Convolutional Neural Network (CGCNN) predictions. Among the investigated transition-metal configurations, the hollow site was energetically preferred, and Mn-decorated ASnNR was selected as a representative system for detailed gas-sensing analysis. The adsorption strength on Mn-ASnNR follows the order SO2 > NO2 > NH3, indicating stronger interactions with SO2 and NO2. Gas adsorption substantially modifies the electronic, magnetic, optical, thermoelectric, and charge-transport properties of Mn-ASnNR, while CGCNN predictions indicate relatively minor variations in its thermomechanical parameters. These results highlight the potential of Mn-decorated ASnNR for toxic-gas sensing and related optoelectronic applications.",
+  "authors": [
+   "Tran Thi Thu Trang",
+   "Hoàng Văn Ngọc"
+  ],
+  "cat": "papers",
+  "doi": "10.1088/1402-4896/aec516",
+  "first_seen": "2026-11-23",
+  "focus": "computational",
+  "id": "d717c7e3272fe1b1",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "thermoelectric",
+   "DFT"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 1,
+  "score": 1,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "DFT adsorption calculations, Boltzmann transport, and CGCNN predictions of thermomechanical parameters.",
+   "impact": "Low relevance: gas-sensing application; the only transferable point is the use of a graph neural network for property prediction.",
+   "what": "DFT, Boltzmann transport and CGCNN study of Ti/Mn/Ni-decorated hydrogen-passivated armchair stanene nanoribbons for gas sensing; adsorption strength on Mn-ASnNR follows SO2 > NO2 > NH3.",
+   "why": "Evaluate transition-metal-decorated nanoribbons as toxic-gas sensors."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Role of transition-metal decoration in enhancing toxic gas sensing of hydrogenpassivated armchair stanene nanoribbons",
+  "url": "https://doi.org/10.1088/1402-4896/aec516",
+  "venue": "Physica Scripta",
+  "watched": []
+ },
+ {
+  "abstract": "The present study analyzes the electronic structure, optical, mechanical, and thermoelectric characteristics of La 2 XS 4 (X = Cd, Mg) chalcogenides using the DFT approach, demonstrating clear structure–property correlations. Both compounds are thermodynamically stable, with negative formation energies (−2.12 and −2.27 eV/atom) and strong cohesive energies (−3.07 and −3.26 eV/atom). La 2 MgS 4 is more stable and has stronger bonding due to its ionic Mg‐S contacts and tight lattice. The two materials are stable and ductile with (B/G > 1.75). La 2 CdS 4 is stiffer with B = 40.89 GPa and Y = 56.25 GPa, but La 2 MgS 4 has better ductility, isotropy, and metallic bonding. Both materials have high dielectric constants (∼6.5–6.7), substantial UV absorption (4–6 eV). La 2 CdS 4 has higher polarizability, resulting in increased optical intensity and refractive response. Both La 2 MgS 4 and La 2 CdS 4 demonstrate positive Seebeck coefficients and intrinsic semiconducting behavior. La 2 MgS 4 has greater thermopower, lower κ e , and improved ZT due to sharper band edges. Overall, Mg substitution improves stability and thermoelectric efficiency, but Cd substitution improves optical strength and electrical transmission.",
+  "authors": [
+   "Masood A. Khan",
+   "Banat Gul",
+   "Ghlamallah Benabdellah",
+   "Faheem Abbas",
+   "Siti Maisarah Aziz",
+   "Abdelhay Salah Mohamed"
+  ],
+  "cat": "papers",
+  "doi": "10.1002/qua.70344",
+  "first_seen": "2026-11-23",
+  "focus": "computational",
+  "id": "aa5baa95bee72a02",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "thermoelectric",
+   "DFT",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 1,
+  "score": 1,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "DFT for electronic, optical, elastic and thermoelectric properties. Transport model details are not stated in the abstract.",
+   "impact": "Low relevance: routine DFT property survey; lattice thermal conductivity and phonons are not mentioned.",
+   "what": "DFT study of La2CdS4 and La2MgS4: both stable and ductile (B/G > 1.75) with positive Seebeck coefficients; La2MgS4 has higher thermopower, lower κe and better ZT.",
+   "why": "Compare how Mg versus Cd substitution affects stability, optical and thermoelectric behaviour."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "First‐Principles Investigation of Electronic Structure, Optical, Elastic, and Thermoelectric Properties of La 2 CdS 4 and La 2 MgS 4 Chalcogenides",
+  "url": "https://doi.org/10.1002/qua.70344",
+  "venue": "International Journal of Quantum Chemistry",
+  "watched": []
+ },
+ {
+  "abstract": "This work presents a comprehensive electrothermal analysis of power loss and junction temperature in a 400V/200V, 3 KW DC-DC buck converter operating at switching frequencies from 50 to 200 kHz for electrical vehicle (EV) charging applications. The performance of a GaN systems GS66508B gallium nitride (GaN) is evaluated and compared with a silicon (Si) STMicroelectronics STP11NM80 MOSFET and a silicon carbide (SiC) Wolfspeed C3M0120065D MOSFET under identical converter topology, passive component values and operating conditions. The converter employs an inductance of 270μH and an output capacitance of 100μF. Semiconductor power losses are evaluated using LT spice considering conduction and switching loss components. The conduction loss is calculated from the RMS drain current and on-state resistance, while turn-on and turn-off switching energies are obtained directly by integrating the simulated vDS.iD waveforms, thereby avoiding idealised linear switching transition assumptions. At the baseline operating point of 400 V input, 100 kHz switching frequency and 3 kW rated load, the calculated semiconductor losses are 7.5126 W, 19.6845 W and 47.8417 W for GaN, SiC and Si, respectively, with corresponding simulated converter efficiencies of 99.75%, 99.34% and 98.39%. The calculated semiconductor losses are applied as a dynamic heat source to Cauer RC thermal network comprising junction-to-case, case-to-heatsink and heatsink-to-ambient elements to accurately estimate the transient junction temperature (Tj) under varying switching frequencies. The GaN device shows the lowest semiconductor power loss and junction temperature under specified operating conditions, indicating its potential for high frequency EV charging applications.",
+  "authors": [
+   "Rajkumar Ponnambalam",
+   "Indragandhi Vairavasundaram"
+  ],
+  "cat": "papers",
+  "doi": "10.1080/21642583.2026.2749165",
+  "first_seen": "2026-11-23",
+  "focus": "computational",
+  "id": "a01c5e057ae23f69",
+  "kind": "paper",
+  "kw_score": 8,
+  "matched": [
+   "GaN",
+   "SiC",
+   "semiconductor",
+   "electrothermal",
+   "electro-thermal",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 2,
+  "score": 5,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "LTspice loss simulation (conduction loss plus integrated switching energy) feeding a Cauer RC thermal network (junction-case, case-heatsink, heatsink-ambient) for transient junction temperature.",
+   "impact": "Circuit-level compact thermal modelling; useful context for the GaN/AlGaN HEMT self-heating project (what device-scale models feed into) and electronics thermal-management trends, but no atomistic or BTE content.",
+   "what": "Electrothermal comparison of GaN (GS66508B), SiC and Si MOSFETs in a 3 kW, 400 V/200 V buck converter at 50–200 kHz. Losses at 100 kHz are 7.5126, 19.6845 and 47.8417 W (GaN, SiC, Si); efficiencies 99.75%, 99.34%, 98.39%.",
+   "why": "Assess power loss and junction temperature of wide-bandgap devices for EV charging."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Electrothermal modelling and power loss comparative analysis of Si, SiC and GaN devices in a high frequency DC–DC buck converter for EV charging applications",
+  "url": "https://doi.org/10.1080/21642583.2026.2749165",
+  "venue": "Systems Science & Control Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "First-principles calculations combined with Boltzmann transport theory were used to investigate the electronic and phonon transport properties of monolayer R-graphyne and Ab-stacked bilayer R-graphyne. HSE06 calculations indicate metallic electronic structures for both systems. The bilayer exhibits shorter phonon lifetimes and lower lattice thermal conductivity than the monolayer. At 300 K, the calculated lattice thermal conductivities are 150.97 and 50.60 W m−1 K−1 for the monolayer and bilayer, respectively. The maximum calculated n-type power factors are 0.36 and 0.944 W m−1 K−2, respectively, both at 300 K. Within the adopted deformation-potential and relaxation-time approximations, the overall maximum n-type ZT values are 0.889 for the monolayer at 700 K and 1.943 for the bilayer at 300 K. However, the relative advantage of the bilayer depends on temperature: its maximum n-type ZT exceeds that of the monolayer at 300 and 500 K but is lower at 700 K. These results illustrate how Ab stacking modifies the balance between electronic and phonon transport. The predicted thermoelectric performance remains model dependent, and the carrier densities associated with the optimal values have not been experimentally established for R-graphyne.",
+  "authors": [
+   "Zishuo Li",
+   "Yuanchao Liu",
+   "Xinhao Liu",
+   "Bohan Li",
+   "Letao Chang",
+   "Duan Li",
+   "Wei Li",
+   "Chen Zhang"
+  ],
+  "cat": "papers",
+  "doi": "10.1080/01411594.2026.2762762",
+  "first_seen": "2026-11-23",
+  "focus": "computational",
+  "id": "180f2b497d1bc1c7",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "first-principles",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 2,
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "HSE06 electronic structure with Boltzmann transport under deformation-potential and relaxation-time approximations; the bilayer shows shorter phonon lifetimes.",
+   "impact": "Low relevance: a standard DFT+BTE workflow on a 2D carbon material with no direct link to the GaN, InGaAs or BAs projects.",
+   "what": "First-principles plus Boltzmann transport study of monolayer and Ab-stacked bilayer R-graphyne. Lattice κ at 300 K is 150.97 (monolayer) and 50.60 W/m/K (bilayer); max n-type ZT is 0.889 (monolayer, 700 K) and 1.943 (bilayer, 300 K).",
+   "why": "Understand how Ab stacking changes the balance of electronic and phonon transport."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "The effect of Ab stacking on the thermoelectric transport properties of R-graphyne",
+  "url": "https://doi.org/10.1080/01411594.2026.2762762",
+  "venue": "Phase Transitions",
+  "watched": []
+ },
+ {
   "abstract": "Cobalt-based half-Heusler (HH) thermoelectric compounds with a valence 18-electron (18-e) count are known for their favorable electrical transport properties and thermal stability. However, their inherently high lattice thermal conductivities present a significant challenge for thermoelectric performance. Here, we explore the potential of double half-Heusler compounds, X 2 FeNiZ 2 (X = Ti, Zr, Hf; Z = Sb, Bi), formed by substituting Co with Fe and Ni, following the 18-valence electron count rule. These compounds exhibit a reduction in lattice thermal conductivity. This amounts to approximately 20% ∼ 40% reductions as compared to the ternary HH counterparts. This decrease is due to the chemical nature of the compounds, specifically a combination of strong and weak chemical bonds. The resulting heterogeneous bonding environment enhances anharmonicity and phonon scattering. Furthermore, the electronic band structures show features that are favorable for thermoelectric performance, including carrier pocket degeneracy, band warping and anisotropic carrier pockets. Thus, electron count preserving site splitting to form the double half-Heusler structure, is an effective strategy for reducing the lattice thermal conductivity, while maintaining favorable electronic characteristics.",
   "authors": [
    "Zhen Wang",
@@ -40,45 +249,6 @@
   "title": "Bonding heterogeneity induced ultralow lattice thermal conductivity in double half-Heusler compounds X 2 FeNi Z 2 ( X = Ti , Zr , Hf ; Z = Sb , Bi )",
   "url": "https://doi.org/10.1103/t1wj-5trq",
   "venue": "Physical review. B./Physical review. B",
-  "watched": []
- },
- {
-  "abstract": "Artificial intelligence (AI) agents are transitioning from conversational add-ons to integrated scientific operating layers, reflecting a broader shift toward autonomous systems capable of reasoning, planning, and interacting with external tools [1] .Advances around 2025 instead embed models in structured loops for planning, tool use, feedback, and revision.This Perspective highlights ten representative advances spanning general agent architectures, mathematical reasoning, chemistry, materials science, biomedicine, scientific instrumentation, energy systems, Earth observation, embodied intelligence, and security governance.Collectively, these developments mark a transition from fluent text generation toward controllable, auditable, and increasingly autonomous cycles of reasoning and action.To identify representative advances in AI agents for science and society, we considered four criteria: scientific significance, agentic functionality, cross-domain representation, and demonstrated progress and influence during 2024-2025.Particular emphasis was placed on systems that move beyond passive information generation by combining planning, tool utilization, feedback-driven adaptation, and iterative decision-making with scientific data, computational resources, physical environments, and human expertise.The selected advances represent major developmental directions rather than a ranked list of individual studies.",
-  "authors": [
-   "Limin Li"
-  ],
-  "cat": "papers",
-  "doi": "10.20517/aiagent.2026.37",
-  "first_seen": "2026-11-22",
-  "focus": "computational",
-  "id": "c80295cd67710499",
-  "kind": "paper",
-  "kw_score": 6,
-  "matched": [
-   "agentic",
-   "materials",
-   "chemistry",
-   "scientific",
-   "agent"
-  ],
-  "mytools": [],
-  "published": "2026-11-18",
-  "relevance": 3,
-  "score": 6,
-  "source": "OpenAlex",
-  "summary": {
-   "by": "claude",
-   "how": "Selection by four criteria: scientific significance, agentic functionality, cross-domain representation, and demonstrated progress. Specific systems are Not stated in the abstract.",
-   "impact": "Background reading for agents and automated workflows for first-principles and lattice-dynamics calculations, for example around MLPhonon. It is a broad overview, so likely little technical detail.",
-   "what": "Perspective on ten representative 2024-2025 advances in AI agents for science, spanning general agent architectures, chemistry, materials science, energy systems and security governance.",
-   "why": "AI agents are moving from chat assistants to integrated scientific operating layers that plan, use tools, and revise."
-  },
-  "themes": [
-   "atomistic"
-  ],
-  "title": "AI agents for science and society in 2025: ten representative advances",
-  "url": "https://doi.org/10.20517/aiagent.2026.37",
-  "venue": "AI Agent",
   "watched": []
  },
  {
@@ -171,6 +341,45 @@
   "watched": []
  },
  {
+  "abstract": "Artificial intelligence (AI) agents are transitioning from conversational add-ons to integrated scientific operating layers, reflecting a broader shift toward autonomous systems capable of reasoning, planning, and interacting with external tools [1] .Advances around 2025 instead embed models in structured loops for planning, tool use, feedback, and revision.This Perspective highlights ten representative advances spanning general agent architectures, mathematical reasoning, chemistry, materials science, biomedicine, scientific instrumentation, energy systems, Earth observation, embodied intelligence, and security governance.Collectively, these developments mark a transition from fluent text generation toward controllable, auditable, and increasingly autonomous cycles of reasoning and action.To identify representative advances in AI agents for science and society, we considered four criteria: scientific significance, agentic functionality, cross-domain representation, and demonstrated progress and influence during 2024-2025.Particular emphasis was placed on systems that move beyond passive information generation by combining planning, tool utilization, feedback-driven adaptation, and iterative decision-making with scientific data, computational resources, physical environments, and human expertise.The selected advances represent major developmental directions rather than a ranked list of individual studies.",
+  "authors": [
+   "Limin Li"
+  ],
+  "cat": "papers",
+  "doi": "10.20517/aiagent.2026.37",
+  "first_seen": "2026-11-22",
+  "focus": "computational",
+  "id": "c80295cd67710499",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "agentic",
+   "materials",
+   "chemistry",
+   "scientific",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-18",
+  "relevance": 3,
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Selection by four criteria: scientific significance, agentic functionality, cross-domain representation, and demonstrated progress. Specific systems are Not stated in the abstract.",
+   "impact": "Background reading for agents and automated workflows for first-principles and lattice-dynamics calculations, for example around MLPhonon. It is a broad overview, so likely little technical detail.",
+   "what": "Perspective on ten representative 2024-2025 advances in AI agents for science, spanning general agent architectures, chemistry, materials science, energy systems and security governance.",
+   "why": "AI agents are moving from chat assistants to integrated scientific operating layers that plan, use tools, and revise."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "AI agents for science and society in 2025: ten representative advances",
+  "url": "https://doi.org/10.20517/aiagent.2026.37",
+  "venue": "AI Agent",
+  "watched": []
+ },
+ {
   "abstract": "Driven by the demand for high-performance power electronics, GaN, a wide-bandgap semiconductor, suffers from degraded epitaxial quality due to interfacial defects. AlN is widely used as GaN epitaxial template, where twin defects modify local atomic stacking and crystal orientation. This work performs large-scale molecular dynamics simulations at 1700–2500 K to comparatively investigate GaN crystallization on a constructed twinned AlN/GaN configuration and an untwinned cubic reference under identical conditions. Atomic diffusion, ordering-front propagation and cubic–hexagonal phase competition are quantified via structural transition matrices. Results show that increasing temperature generally promotes structural ordering within the 3 ns simulation window, with growth evolving from slow heterogeneous ordering toward rapid early ordering followed by local structural adjustment. For the twinned system, four simulations with independent initial-velocity seeds at each temperature show an overall increase in the mean fully ordered fraction after 3 ns, from 13.44% at 1700 K to 68.34% at 2500 K, with appreciable variability at intermediate temperatures. Transient atomic mobility depends on the observation window and should be distinguished from accumulated structural ordering. In the trajectories compared, the untwinned template favors conditional entry into Cubic-family environments across the investigated temperature range, while the twinned configuration shows this tendency from 1900 to 2500 K. The untwinned reference shows faster disorder elimination and greater cubic retention, while the constructed twinned configuration shows more interfamily reconstruction at most temperatures. The results reveal how template configuration influences ordering pathways and…",
   "authors": [
    "Guiyang Liu",
@@ -212,6 +421,52 @@
   "title": "Temperature-dependent local ordering and cubic-hexagonal reconstruction during GaN crystallization at AlN/GaN interfaces",
   "url": "https://doi.org/10.1088/1402-4896/aec3e3",
   "venue": "Physica Scripta",
+  "watched": []
+ },
+ {
+  "abstract": "Machine learning (ML) has emerged as a powerful approach for accelerating the discovery of thermoelectric (TE) materials, yet many models suffer from limited generalizability. Here we present a robust ML framework for predicting the thermoelectric figure of merit (zT) in half-Heusler (hH) compounds, emphasizing prediction of previously unseen compositions. A principal component analysis (PCA)-based train/test splitting strategy is introduced to generate representative partitions of chemical space. Bayesian hyperparameter optimization is combined with correlation-based k-best feature selection for Random Forest, XGBoost, and Neural Network models, together with the interpretable SISSO symbolic-regression method. Relative to the full set of 118 input features, the optimized feature subsets reduce the test RMSE by 16-27%. SHAP and SISSO analyses identify temperature, A-site dopant concentration, and A-site heat of vaporization as the most important descriptors of zT. The framework is validated through prediction of previously unexplored compositions, recovery of literature-reported optimal zT values for established hH systems, and first-principles calculations for the new compounds CeCoBi and CeIrBi, which exhibit favorable electronic transport properties. The framework is further applied to high-throughput screening of the doped hH chemical space, covering about 2.46 million elemental substitution combinations across 631 thermodynamically screened parent matrices under stability constraints. This screening yields a concise set of promising candidates for future study. Overall, the work establishes a generalizable workflow for reliable data-driven thermoelectric materials discovery.",
+  "authors": [
+   "Shoeb Athar",
+   "Adrien Mecibah",
+   "Philippe Jund"
+  ],
+  "cat": "papers",
+  "doi": "10.1103/2ffk-zqn8",
+  "first_seen": "2026-11-22",
+  "focus": "computational",
+  "id": "3b98edaf2ecfe8dd",
+  "kind": "paper",
+  "kw_score": 14,
+  "matched": [
+   "thermoelectric",
+   "interpretab",
+   "generaliz",
+   "SHAP",
+   "first-principles",
+   "high-throughput",
+   "workflow",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 2,
+  "score": 11,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Bayesian hyperparameter optimization with correlation-based k-best feature selection (test RMSE reduced 16-27% vs. all 118 features); SHAP and SISSO for interpretation; first-principles checks on CeCoBi and CeIrBi; screening of about 2.46 million doped substitutions over 631 parent matrices.",
+   "impact": "Low relevance to the GaN, InGaAs and BAs projects, since it targets electronic zT rather than phonon transport. The PCA-based splitting for out-of-distribution testing and the feature-importance analysis could loosely inform MLIP data-efficiency and failure-mode studies.",
+   "what": "Presents an ML framework (Random Forest, XGBoost, neural network, plus SISSO symbolic regression) for predicting zT of half-Heusler compounds, using a PCA-based train/test split to test on unseen compositions.",
+   "why": "Many thermoelectric ML models generalize poorly to new chemistries."
+  },
+  "themes": [
+   "mlip",
+   "phonon",
+   "atomistic"
+  ],
+  "title": "Generalizable machine learning framework for half-Heusler thermoelectrics",
+  "url": "https://doi.org/10.1103/2ffk-zqn8",
+  "venue": "Physical review. B./Physical review. B",
   "watched": []
  },
  {
@@ -258,52 +513,6 @@
   ],
   "title": "Cation-driven vibrational hierarchy in the Zintl-phase thermoelectric KCaBi",
   "url": "https://doi.org/10.1103/98hz-m3f3",
-  "venue": "Physical review. B./Physical review. B",
-  "watched": []
- },
- {
-  "abstract": "Machine learning (ML) has emerged as a powerful approach for accelerating the discovery of thermoelectric (TE) materials, yet many models suffer from limited generalizability. Here we present a robust ML framework for predicting the thermoelectric figure of merit (zT) in half-Heusler (hH) compounds, emphasizing prediction of previously unseen compositions. A principal component analysis (PCA)-based train/test splitting strategy is introduced to generate representative partitions of chemical space. Bayesian hyperparameter optimization is combined with correlation-based k-best feature selection for Random Forest, XGBoost, and Neural Network models, together with the interpretable SISSO symbolic-regression method. Relative to the full set of 118 input features, the optimized feature subsets reduce the test RMSE by 16-27%. SHAP and SISSO analyses identify temperature, A-site dopant concentration, and A-site heat of vaporization as the most important descriptors of zT. The framework is validated through prediction of previously unexplored compositions, recovery of literature-reported optimal zT values for established hH systems, and first-principles calculations for the new compounds CeCoBi and CeIrBi, which exhibit favorable electronic transport properties. The framework is further applied to high-throughput screening of the doped hH chemical space, covering about 2.46 million elemental substitution combinations across 631 thermodynamically screened parent matrices under stability constraints. This screening yields a concise set of promising candidates for future study. Overall, the work establishes a generalizable workflow for reliable data-driven thermoelectric materials discovery.",
-  "authors": [
-   "Shoeb Athar",
-   "Adrien Mecibah",
-   "Philippe Jund"
-  ],
-  "cat": "papers",
-  "doi": "10.1103/2ffk-zqn8",
-  "first_seen": "2026-11-22",
-  "focus": "computational",
-  "id": "3b98edaf2ecfe8dd",
-  "kind": "paper",
-  "kw_score": 14,
-  "matched": [
-   "thermoelectric",
-   "interpretab",
-   "generaliz",
-   "SHAP",
-   "first-principles",
-   "high-throughput",
-   "workflow",
-   "materials"
-  ],
-  "mytools": [],
-  "published": "2026-11-20",
-  "relevance": 2,
-  "score": 11,
-  "source": "OpenAlex",
-  "summary": {
-   "by": "claude",
-   "how": "Bayesian hyperparameter optimization with correlation-based k-best feature selection (test RMSE reduced 16-27% vs. all 118 features); SHAP and SISSO for interpretation; first-principles checks on CeCoBi and CeIrBi; screening of about 2.46 million doped substitutions over 631 parent matrices.",
-   "impact": "Low relevance to the GaN, InGaAs and BAs projects, since it targets electronic zT rather than phonon transport. The PCA-based splitting for out-of-distribution testing and the feature-importance analysis could loosely inform MLIP data-efficiency and failure-mode studies.",
-   "what": "Presents an ML framework (Random Forest, XGBoost, neural network, plus SISSO symbolic regression) for predicting zT of half-Heusler compounds, using a PCA-based train/test split to test on unseen compositions.",
-   "why": "Many thermoelectric ML models generalize poorly to new chemistries."
-  },
-  "themes": [
-   "mlip",
-   "phonon",
-   "atomistic"
-  ],
-  "title": "Generalizable machine learning framework for half-Heusler thermoelectrics",
-  "url": "https://doi.org/10.1103/2ffk-zqn8",
   "venue": "Physical review. B./Physical review. B",
   "watched": []
  },

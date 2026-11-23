@@ -1,5 +1,248 @@
 [
  {
+  "abstract": "The d-SEAMS C++ core engine Topics: analysis-framework, clathrate-hydrates, cpp20, d-seams, ice, lua, molecular-dynamics, molecular-dynamics-simulation, nauty, nix, plumed, topology, trajectories, trajectory-analysis.",
+  "authors": [
+   "d-SEAMS"
+  ],
+  "cat": "industry",
+  "created": "2019-01-08",
+  "doi": "",
+  "first_seen": "2026-11-23",
+  "focus": "",
+  "id": "c0569d254f7567f3",
+  "kind": "repo",
+  "kw_score": 1,
+  "matched": [
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 1,
+  "score": -5,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 44,
+  "summary": {
+   "by": "claude",
+   "how": "C++20 with Lua scripting, nauty and PLUMED.",
+   "impact": "Low relevance: aimed at water/ice structure analysis, not phonons or semiconductors.",
+   "what": "seams-core: C++ core engine of d-SEAMS for MD trajectory analysis (ice, clathrate hydrates, topology).",
+   "why": "Analyse structure in MD trajectories."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "d-SEAMS/seams-core",
+  "url": "https://github.com/d-SEAMS/seams-core",
+  "venue": "GitHub · C++",
+  "watched": []
+ },
+ {
+  "abstract": "Fast and flexible nonadiabatic molecular dynamics in Julia! Topics: molecular-dynamics, monte-carlo, nonadiabatic, physics-simulation, quantum-classical, semi-classical.",
+  "authors": [
+   "NQCD"
+  ],
+  "cat": "industry",
+  "created": "2020-11-25",
+  "doi": "",
+  "first_seen": "2026-11-23",
+  "focus": "",
+  "id": "153aeb3a23443ba7",
+  "kind": "repo",
+  "kw_score": 2,
+  "matched": [
+   "simulation",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-22",
+  "relevance": 1,
+  "score": -4,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 71,
+  "summary": {
+   "by": "claude",
+   "how": "Julia code with MD and Monte Carlo methods.",
+   "impact": "Low relevance: nonadiabatic dynamics is outside the phonon-transport projects.",
+   "what": "NQCDynamics.jl: Julia package for nonadiabatic, quantum-classical and semi-classical molecular dynamics.",
+   "why": "Provide fast, flexible nonadiabatic MD."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "NQCD/NQCDynamics.jl",
+  "url": "https://github.com/NQCD/NQCDynamics.jl",
+  "venue": "GitHub · Julia",
+  "watched": []
+ },
+ {
+  "abstract": "Run reproducible scientific workflows anywhere (laptop, remote, or HPC cluster) from a single YAML file. The open-source runtime behind Temple Compute. Topics: bioinformatics, cli, computational-chemistry, dag, drug-discovery, hpc, molecular-dynamics, pipeline, python, reproducible-research, research-software, scientific-computing, slurm, workflow-automation, workflow-engine, workflow-management.",
+  "authors": [
+   "temple-compute"
+  ],
+  "cat": "industry",
+  "created": "2025-12-31",
+  "doi": "",
+  "first_seen": "2026-11-23",
+  "focus": "",
+  "id": "a7e1cea41977ab76",
+  "kind": "repo",
+  "kw_score": 3,
+  "matched": [
+   "HPC",
+   "chemistry",
+   "scientific"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 2,
+  "score": 0,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 49,
+  "summary": {
+   "by": "claude",
+   "how": "Python CLI with DAG-based pipelines defined in YAML.",
+   "impact": "Low-moderate: possibly useful for chaining VASP/phono3py/LAMMPS steps on HPC, but the abstract shows no agent or first-principles features.",
+   "what": "horus-runtime: open-source runtime to run reproducible scientific workflows on a laptop, remote machine or HPC (Slurm) from a single YAML file.",
+   "why": "Make workflows portable and reproducible across environments."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "temple-compute/horus-runtime",
+  "url": "https://github.com/temple-compute/horus-runtime",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Packing optimization for initial configurations for molecular dynamics Topics: bioinformatics-software, condensed-matter-physics, gromacs, lammps, materials-science, molecular-dynamics, molecular-dynamics-simulation, molecular-simulation, molly, namd, packmol.",
+  "authors": [
+   "m3g"
+  ],
+  "cat": "industry",
+  "created": "2021-06-08",
+  "doi": "",
+  "first_seen": "2026-11-23",
+  "focus": "",
+  "id": "9ec26cd6116f55b2",
+  "kind": "repo",
+  "kw_score": 3,
+  "matched": [
+   "simulation",
+   "materials",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-22",
+  "relevance": 1,
+  "score": -3,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 44,
+  "summary": {
+   "by": "claude",
+   "how": "Julia package; topics mention LAMMPS, GROMACS and NAMD.",
+   "impact": "Low relevance: aimed at molecular systems; the crystalline semiconductor and interface models in the projects do not need packing.",
+   "what": "Packmol.jl: Julia implementation of packing optimization for building initial MD configurations.",
+   "why": "Generate non-overlapping starting structures for MD."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "m3g/Packmol.jl",
+  "url": "https://github.com/m3g/Packmol.jl",
+  "venue": "GitHub · Julia",
+  "watched": []
+ },
+ {
+  "abstract": "A collection of simulation recipes for the atomic-scale modeling of materials and molecules Topics: atomistic-simulations, machine-learning, modeling, molecular-dynamics, simulation.",
+  "authors": [
+   "lab-cosmo"
+  ],
+  "cat": "industry",
+  "created": "2023-05-23",
+  "doi": "",
+  "first_seen": "2026-11-23",
+  "focus": "",
+  "id": "13e7d444a150a559",
+  "kind": "repo",
+  "kw_score": 5,
+  "matched": [
+   "atomistic",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-21",
+  "relevance": 3,
+  "score": 5,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 58,
+  "summary": {
+   "by": "claude",
+   "how": "Python repository of recipes; details are not stated in the abstract.",
+   "impact": "Moderate: from a leading MLIP group, so it may hold example workflows relevant to the MLPhonon and MACE pipelines; worth a skim.",
+   "what": "lab-cosmo's atomistic-cookbook: a collection of simulation recipes for atomic-scale modeling of materials and molecules.",
+   "why": "Share reproducible worked examples for atomistic ML and simulation."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "lab-cosmo/atomistic-cookbook",
+  "url": "https://github.com/lab-cosmo/atomistic-cookbook",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Run LAMMPS molecular dynamics in your browser: visual input-script builder, MD notebook with an engine checked against native LAMMPS, CMake compiler helper, and a GPU 3D viewer for LAMMPS data/dump, XYZ, PDB and CIF. No install, nothing uploaded. Topics: 3d-visualizer, cif-viewer, computational-chemistry, computational-physics, crystal-structure, lammps, lammps-gui, lammps-input, materials-science, molecular-dynamics, molecular-dynamics-simulation, molecular-visualization, pdb-viewer, react, scientific-computing, threejs, typescript, webgl, webgpu, xyz-viewer.",
+  "authors": [
+   "Shuvam-Banerji-Seal"
+  ],
+  "cat": "industry",
+  "created": "2025-11-24",
+  "doi": "",
+  "first_seen": "2026-11-23",
+  "focus": "",
+  "id": "1184aedde8332137",
+  "kind": "repo",
+  "kw_score": 12,
+  "matched": [
+   "LAMMPS",
+   "simulation",
+   "materials",
+   "GPU",
+   "chemistry",
+   "physics",
+   "scientific"
+  ],
+  "mytools": [
+   "LAMMPS"
+  ],
+  "published": "2026-11-23",
+  "relevance": 2,
+  "score": 9,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 36,
+  "summary": {
+   "by": "claude",
+   "how": "TypeScript/React web app using WebGL/WebGPU/Three.js.",
+   "impact": "Low-moderate: handy for quick LAMMPS input prototyping or teaching, but not a replacement for DeePMD/MACE thermal-MD runs on HPC.",
+   "what": "Open-source browser-based LAMMPS tool: input-script builder, MD notebook with an engine checked against native LAMMPS, CMake helper and GPU 3D viewer for LAMMPS data/dump, XYZ, PDB and CIF.",
+   "why": "Let users run and visualise MD with no install and nothing uploaded."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Shuvam-Banerji-Seal/lammps-web-gui",
+  "url": "https://github.com/Shuvam-Banerji-Seal/lammps-web-gui",
+  "venue": "GitHub · TypeScript",
+  "watched": []
+ },
+ {
   "abstract": "Self explained tutorial for molecular dynamics simulation using gromacs Topics: charmm, complex, dynamics, freeenergy, hpc, hpc-clusters, lipidbilayer, molecular, molecular-dynamics, molecular-dynamics-simulation, molecular-mechanics, molecular-simulation, pca, proteinligand, simulation.",
   "authors": [
    "pritampanda15"
