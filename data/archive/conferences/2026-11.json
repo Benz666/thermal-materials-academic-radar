@@ -1,5 +1,83 @@
 [
  {
+  "abstract": "Industry-heavy thermal modeling and cooling symposium; good for job networking. No deadline sentences found on the page.",
+  "always": true,
+  "authors": [],
+  "cat": "conferences",
+  "conf_name": "SEMI-THERM",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "fit": "submit",
+  "focus": "",
+  "id": "22324bcf1dfb81fc",
+  "kind": "conference",
+  "kw_score": 4,
+  "matched": [
+   "cooling",
+   "thermal"
+  ],
+  "mytools": [],
+  "page_excerpt": "--> SEMI-THERM | Thermal Engineering top of page 43rd Annual Symposium March 15 - 18, 2027 San Jose, California Attend, Exhibit or Sponsor - Join SEMI-THERM 2027 Global thermal community SEMI-THERM is a global community dedicated to advancing the science and practice of electronics thermal management. We connect engineers, researchers, students, and technology leaders through technical exchange, collaboration, and professional development. Learn More ANNUAL SYMPOSIUM The SEMI-THERM Symposium & Exhibition brings together the global thermal management community to explore the latest advances in semiconductor and electronics cooling. Through technical presentations, workshops, exhibits, and networking, industry professionals, researchers, and students connect to share knowledge, solve challenges, and drive innovation. ​ \u0000​ View 2027 Exhibitors Event Registration Submit a technical paper or presentation abstract Learn More Call for Papers Explore thermal innovations and connect with industry leaders Learn More Attend Showcase your latest thermal solutions Learn More Exhibit Support innovation and connect with the global thermal management community. Learn More Sponsor 2027 Sponsors Industry partners enabling technical exchange, education, and innovation. Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal Futures Thermal Futures Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal Futures Thermal Futures Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal F",
+  "published": "2026-11-24",
+  "relevance": 4,
+  "score": 7,
+  "source": "Conference watch",
+  "summary": {
+   "by": "claude",
+   "how": "Technical paper or presentation abstract submission is offered; specific deadlines were not found in the page excerpt (Not stated).",
+   "impact": "A US event that suits the GaN/AlGaN HEMT multiscale thermal modeling project and is strong for industry networking. Worth checking the call-for-papers page for the abstract deadline.",
+   "what": "SEMI-THERM, the 43rd annual symposium on electronics thermal management, is listed for March 15–18, 2027 in San Jose, California; the site has a call for papers and exhibitor info.",
+   "why": "To connect the electronics thermal management community, including industry, researchers and students."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "SEMI-THERM — website updated",
+  "url": "https://www.semi-therm.org/",
+  "venue": "Semiconductor thermal measurement, modeling & management",
+  "watched": []
+ },
+ {
+  "abstract": "Short workshop papers on MLIP interpretability, data efficiency or agents; NeurIPS is usually in North America in December. No deadline sentences found on the page.",
+  "always": true,
+  "authors": [],
+  "cat": "conferences",
+  "conf_name": "AI4Mat workshop (NeurIPS)",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "fit": "submit",
+  "focus": "",
+  "id": "1e6225e6c5f273e7",
+  "kind": "conference",
+  "kw_score": 9,
+  "matched": [
+   "interpretab",
+   "data-efficien",
+   "MLIP",
+   "agent"
+  ],
+  "mytools": [],
+  "page_excerpt": "AI4Mat-NeurIPS 2026 Search this site Embedded Files Skip to main content Skip to navigation AI4Mat-NeurIPS 2026 AI4Mat: AI for Accelerated Materials Design December 12, 2026 @ NeurIPS 2026 (Sydney, Australia) About the Workshop The AI for Accelerated Materials Discovery (AI4Mat) Workshop at NeurIPS 2026 provides an inclusive and collaborative platform where AI researchers and material scientists converge to tackle the cutting-edge challenges in AI-driven materials discovery and development. Our goal is to foster a vibrant exchange of ideas, breaking down barriers between disciplines and encouraging insightful discussions among experts from diverse disciplines and curious newcomers to the field. The workshop embraces a broad definition of materials design encompassing matter in various forms, such as crystalline and amorphous solid-state materials, glasses, molecules, nanomaterials, and devices. By taking a comprehensive look at automated materials discovery spanning AI-guided design, synthesis and automated material characterization, we hope to create an opportunity for deep, thoughtful discussion among researchers working on these interdisciplinary topics, and highlight ongoing challenges in the field. Covering materials such as : AI4Mat was first held at NeurIPS 2022, bringing together materials scientists and AI researchers into a common forum with productive discussion on major research challenges at the intersection of AI and materials science. Since then, AI4Mat has est",
+  "published": "2026-11-24",
+  "relevance": 2,
+  "score": 6,
+  "source": "Conference watch",
+  "summary": {
+   "by": "claude",
+   "how": "The page lists the workshop as at NeurIPS 2026 in Sydney, Australia; no deadline sentences were found. Submission format and deadlines are not stated.",
+   "impact": "Topically a fit for MLIP data efficiency, interpretability and agent work (MLPhonon, InGaAs MLIP comparison). It is held in Australia, outside the US-only scope, and the date is imminent, so likely not feasible to submit.",
+   "what": "The AI4Mat workshop website at NeurIPS 2026 was updated; it covers AI for accelerated materials design and is scheduled for December 12, 2026.",
+   "why": "To bring AI researchers and materials scientists together on AI-driven materials discovery and development."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "AI4Mat workshop (NeurIPS) — website updated",
+  "url": "https://sites.google.com/view/ai4mat",
+  "venue": "ML for materials (MLIP, data efficiency, agents)",
+  "watched": []
+ },
+ {
   "abstract": "Short workshop papers on MLIP interpretability, data efficiency or agents; NeurIPS is usually in North America in December. No deadline sentences found on the page.",
   "always": true,
   "authors": [],

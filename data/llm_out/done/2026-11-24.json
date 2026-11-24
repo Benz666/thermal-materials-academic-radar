@@ -1,0 +1,103 @@
+{
+ "summaries": {
+  "390984e503ad139d": {
+   "what": "First-principles plus phonon BTE study of lattice thermal conductivity in pentagonal altermagnetic MnS2 and MnSe2 monolayers, including three- and four-phonon scattering.",
+   "why": "Anharmonic phonon dynamics of altermagnetic 2D materials are largely unexplored, though they link unconventional magnetism and heat transport.",
+   "how": "First-principles calculations with phonon BTE including 3ph and 4ph scattering; bonding analysis, Grüneisen parameters, MFP and channel-resolved scattering rates. Four-phonon scattering lowers κL by 66.2% (MnS2) and 87.7% (MnSe2) at 300 K, with Grüneisen parameters down to −50 for acoustic modes.",
+   "impact": "Methodologically relevant to the BTE/lattice-dynamics workflow (phono3py/ALAMODE-style 3ph+4ph) used in the boron arsenide and InGaAs projects, as a reminder of when 4ph matters. The material system itself is Low relevance.",
+   "relevance": 3
+  },
+  "e410648be909969e": {
+   "what": "A Zenodo preprint proposing a multiscale design framework for low-thermal-conductivity ceramic coatings (rare-earth zirconates, high-entropy oxides) with controlled defects and hierarchical microstructure.",
+   "why": "Lowering intrinsic lattice conductivity alone does not guarantee a better coating; radiation, porosity, interfacial resistance, sintering and damage also matter.",
+   "how": "Conceptual framework combining phonon BTE, mode-dependent lifetimes, Matthiessen-rule rate addition, point-defect scattering and effective-medium models, with a staged workflow from computational screening to synthesis and thermal cycling. No results are stated in the abstract.",
+   "impact": "Low relevance: a proposal using standard BTE ingredients, with no new computational method and no data for GaN, InGaAs, BAs or JAX-BTE.",
+   "relevance": 1
+  },
+  "001b77ca53ff6b42": {
+   "what": "Quasi-van der Waals epitaxy of β-Ga2O3 on fluorophlogopite mica, with solar-blind photodetectors fabricated on the films.",
+   "why": "Large lattice and thermal mismatch on conventional substrates causes high threading dislocation density and residual strain.",
+   "how": "MOCVD growth, XPS and first-principles calculations of the interface (Ga–O–Si bonds plus van der Waals). The film shows 0.3% in-plane strain and ~30% lower dislocation density than on sapphire; detectivity is 1.8×10^12 Jones.",
+   "impact": "Low relevance: mostly experimental growth and device work on Ga2O3 photodetectors, with no thermal transport content for the GaN/Al2O3 interface or dislocation projects.",
+   "relevance": 1
+  },
+  "b08532ae61480991": {
+   "what": "A wave-mechanics framework for phonon transmission and thermal resistance of arbitrarily thick superlattices, combined with the NSGA-II genetic algorithm to pick materials and layer thicknesses.",
+   "why": "At milliKelvin temperatures phonons are ballistic and coherent, do not follow Fourier's law, and existing diffusive or amorphous isolation offers limited spectral control.",
+   "how": "Phase-coherent model retaining all acoustic branches, mode conversion and incidence angles; quarter-wavelength criterion at the dominant phonon frequency; reports bilayers with thermal resistance up to 3000 times that of previously reported superlattices.",
+   "impact": "Moderately relevant: coherent interface and multilayer phonon transmission is related to the GaN/Al2O3 interface and SrTiO3 grain boundary work, and the optimisation approach could inspire band-discretization checks in JAX-BTE. The cryogenic regime is far from the GaN HEMT operating range.",
+   "relevance": 3
+  },
+  "d03fbb8507172d70": {
+   "what": "Navitas Semiconductor reported Q3 2026 revenue of about 14m, up 33% quarter on quarter and 38% year on year.",
+   "why": "Not stated in the abstract.",
+   "how": "Not stated in the abstract.",
+   "impact": "Industry context for the GaN power market behind the GaN/AlGaN HEMT project; no technical content. Low relevance.",
+   "relevance": 1
+  },
+  "8466d3d007a5e6ba": {
+   "what": "LLNL's MGmol, a scalable O(N) first-principles molecular dynamics code in C++ for large-scale electronic structure and MD.",
+   "why": "Not stated in the abstract beyond enabling large-scale atomistic simulation.",
+   "how": "O(N) electronic structure with molecular dynamics, written in C++.",
+   "impact": "Low relevance: a DFT/MD code but not an MLIP, phonon or thermal transport tool. Could be worth a look for large-cell first-principles MD, such as dislocation cores, but nothing here shows this.",
+   "relevance": 2
+  },
+  "eba7c713e2158102": {
+   "what": "Acorn Technologies and UCLouvain report that Acorn Buried Stressor technology improves RF-SOI and FDSOI substrates, using a SiGe trap-rich layer and silicon strain for faster FDSOI transistors.",
+   "why": "Better RF substrate performance and faster transistors on SOI platforms.",
+   "how": "Research collaboration with Prof. Jean-Pierre Raskin; details of methods and numbers are not stated in the abstract.",
+   "impact": "Low relevance: RF-SOI substrate engineering, with no thermal modeling content tied to the GaN/AlGaN HEMT work.",
+   "relevance": 1
+  },
+  "2a127ea1f1ecbf43": {
+   "what": "Lucid Motors and EYL published a study of verification gaps in LLM-agent-generated RTL for post-quantum cryptographic hardware (ML-KEM-768/ML-DSA-65 on a Zynq UltraScale+ FPGA).",
+   "why": "Tests and reviews generated by the same LLM agents that write the hardware are a weak basis for trust.",
+   "how": "A seven-stage verification-gated agent workflow audited with netlist mutants, flaw replays and formal checks. Simulation gates kill only 76% of 399 mutants; module-scoped LLM review catches all known flaws in 54 sessions, whereas undirected whole-design review often misses them.",
+   "impact": "Transferable lesson for agent-driven simulation workflows: use author-independent checks, scope reviews narrowly and add formal or invariant checks, which could apply to automated phonon/MD pipelines. The hardware domain itself is Low relevance.",
+   "relevance": 2
+  },
+  "f49a8babf9df49e7": {
+   "what": "NVIDIA announced cuDSS 1.0, a GPU direct sparse solver library for engineering and scientific simulation.",
+   "why": "Growing problem sizes and tighter accuracy needs call for GPU-scalable direct solvers that stay robust.",
+   "how": "Not stated in the abstract beyond a GPU-based direct sparse solver.",
+   "impact": "Possibly useful for the HPC/JAX solver work and for device-scale thermal simulation with implicit or FEM-type solves, though not for phonon BTE specifically. Low-to-moderate relevance.",
+   "relevance": 2
+  },
+  "83a8e15aebd831fd": {
+   "what": "A GitHub collection of agent skills for computational biology (RNA-seq, single-cell, protein structure, molecular dynamics, peptide design, literature mining).",
+   "why": "To turn AI coding agents into computational biology assistants.",
+   "how": "Skills in the agent-skills standard for Claude Code and similar agents, written in Python.",
+   "impact": "Low relevance for the content (biology), but a useful template for building agent skills around VASP/LAMMPS/phonopy/MLPhonon workflows.",
+   "relevance": 2
+  },
+  "63fdadea97e53f8b": {
+   "what": "A GitHub collection of agent skills for drug discovery: cheminformatics, molecular ML, docking and dynamics, protein design and knowledge graphs.",
+   "why": "Not stated in the abstract beyond equipping agents for therapeutics work.",
+   "how": "Python skill packages for Claude Code and similar agents, using tools such as RDKit and DeepChem.",
+   "impact": "Low relevance for the content (drug discovery), though it is another example of how to structure agent skills for atomistic simulation workflows.",
+   "relevance": 1
+  },
+  "b5f1aece50ec1d06": {
+   "what": "AbiPy, an open-source Python library for analyzing ABINIT results.",
+   "why": "Not stated in the abstract.",
+   "how": "Python analysis and workflow library for ABINIT DFT output.",
+   "impact": "Low-to-moderate relevance: the reader uses VASP and phonopy rather than ABINIT, but AbiPy's phonon and DFPT analysis tools could be a reference for lattice-dynamics post-processing.",
+   "relevance": 2
+  },
+  "1e6225e6c5f273e7": {
+   "what": "The AI4Mat workshop website at NeurIPS 2026 was updated; it covers AI for accelerated materials design and is scheduled for December 12, 2026.",
+   "why": "To bring AI researchers and materials scientists together on AI-driven materials discovery and development.",
+   "how": "The page lists the workshop as at NeurIPS 2026 in Sydney, Australia; no deadline sentences were found. Submission format and deadlines are not stated.",
+   "impact": "Topically a fit for MLIP data efficiency, interpretability and agent work (MLPhonon, InGaAs MLIP comparison). It is held in Australia, outside the US-only scope, and the date is imminent, so likely not feasible to submit.",
+   "relevance": 2
+  },
+  "22324bcf1dfb81fc": {
+   "what": "SEMI-THERM, the 43rd annual symposium on electronics thermal management, is listed for March 15–18, 2027 in San Jose, California; the site has a call for papers and exhibitor info.",
+   "why": "To connect the electronics thermal management community, including industry, researchers and students.",
+   "how": "Technical paper or presentation abstract submission is offered; specific deadlines were not found in the page excerpt (Not stated).",
+   "impact": "A US event that suits the GaN/AlGaN HEMT multiscale thermal modeling project and is strong for industry networking. Worth checking the call-for-papers page for the abstract deadline.",
+   "relevance": 4
+  }
+ },
+ "new_items": []
+}

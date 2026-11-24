@@ -1,5 +1,302 @@
 [
  {
+  "abstract": "Agent Skills for computational biology — RNA-seq, single-cell, protein structure, molecular dynamics, peptide design, literature mining and publication figures. Turn any AI coding agent into a computational biology assistant. Topics: agent-skills, agent-skills-standard, bioinformatics, claude-code, claude-skills, computational-biology, literature-mining, molecular-dynamics, peptide-design, protein-structure, research-tools, rna-seq, scientific-visualization, single-cell.",
+  "authors": [
+   "ssinder"
+  ],
+  "cat": "industry",
+  "created": "2026-10-25",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "focus": "",
+  "id": "83a8e15aebd831fd",
+  "kind": "repo",
+  "kw_score": 2,
+  "matched": [
+   "scientific",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 2,
+  "score": -1,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 77,
+  "summary": {
+   "by": "claude",
+   "how": "Skills in the agent-skills standard for Claude Code and similar agents, written in Python.",
+   "impact": "Low relevance for the content (biology), but a useful template for building agent skills around VASP/LAMMPS/phonopy/MLPhonon workflows.",
+   "what": "A GitHub collection of agent skills for computational biology (RNA-seq, single-cell, protein structure, molecular dynamics, peptide design, literature mining).",
+   "why": "To turn AI coding agents into computational biology assistants."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "ssinder/bioinformatics-agent-skills",
+  "url": "https://github.com/ssinder/bioinformatics-agent-skills",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Agent Skills for small-molecule and protein therapeutics: cheminformatics, molecular ML, docking and dynamics, protein design platforms, and target-discovery knowledge graphs. Topics: agent-plugins, agent-skills, ai-agents, bioinformatics, cheminformatics, claude-code, computational-chemistry, deep-learning, deepchem, drug-discovery, knowledge-graph, llm, machine-learning, molecular-docking, molecular-dynamics, protein-design, python, rdkit, skills, structural-biology.",
+  "authors": [
+   "K-Dense-AI"
+  ],
+  "cat": "industry",
+  "created": "2026-08-16",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "focus": "",
+  "id": "63fdadea97e53f8b",
+  "kind": "repo",
+  "kw_score": 2,
+  "matched": [
+   "chemistry",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 1,
+  "score": -4,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 58,
+  "summary": {
+   "by": "claude",
+   "how": "Python skill packages for Claude Code and similar agents, using tools such as RDKit and DeepChem.",
+   "impact": "Low relevance for the content (drug discovery), though it is another example of how to structure agent skills for atomistic simulation workflows.",
+   "what": "A GitHub collection of agent skills for drug discovery: cheminformatics, molecular ML, docking and dynamics, protein design and knowledge graphs.",
+   "why": "Not stated in the abstract beyond equipping agents for therapeutics work."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "K-Dense-AI/drug-discovery-agent-skills",
+  "url": "https://github.com/K-Dense-AI/drug-discovery-agent-skills",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Open-source library for analyzing the results produced by ABINIT Topics: abinit, density-functional-theory, materials-informatics, materials-science, physics, python, science, solid-state-physics.",
+  "authors": [
+   "abinit"
+  ],
+  "cat": "industry",
+  "created": "2013-06-26",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "focus": "",
+  "id": "b5f1aece50ec1d06",
+  "kind": "repo",
+  "kw_score": 2,
+  "matched": [
+   "materials",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 2,
+  "score": -1,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 145,
+  "summary": {
+   "by": "claude",
+   "how": "Python analysis and workflow library for ABINIT DFT output.",
+   "impact": "Low-to-moderate relevance: the reader uses VASP and phonopy rather than ABINIT, but AbiPy's phonon and DFPT analysis tools could be a reference for lattice-dynamics post-processing.",
+   "what": "AbiPy, an open-source Python library for analyzing ABINIT results.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "abinit/abipy",
+  "url": "https://github.com/abinit/abipy",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to... Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to circuit simulation and power grid analysis. As problem sizes and complexity grow, and accuracy needs tighten, developers need a direct solver that scales on GPUs without giving up the robustness that production simulations depend on. Source",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "focus": "",
+  "id": "f49a8babf9df49e7",
+  "kind": "news",
+  "kw_score": 3,
+  "matched": [
+   "simulation",
+   "GPU",
+   "scientific"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 2,
+  "score": 0,
+  "source": "NVIDIA Technical Blog",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract beyond a GPU-based direct sparse solver.",
+   "impact": "Possibly useful for the HPC/JAX solver work and for device-scale thermal simulation with implicit or FEM-type solves, though not for phonon BTE specifically. Low-to-moderate relevance.",
+   "what": "NVIDIA announced cuDSS 1.0, a GPU direct sparse solver library for engineering and scientific simulation.",
+   "why": "Growing problem sizes and tighter accuracy needs call for GPU-scalable direct solvers that stay robust."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
+  "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
+  "venue": "NVIDIA Technical Blog",
+  "watched": []
+ },
+ {
+  "abstract": "Researchers at Lucid Motors and EYL Inc. published “From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware.” Abstract “As LLM agents increasingly generate RTL alongside the tests and reviews that validate it, self-generated evidence is a weak foundation for trustworthy hardware. We present our seven-stage verification-gated workflow, evolved during a post-quantum design port, in which a gate counts only if shown able to fail on negative controls and fault mutants, and reviewer agents audit work before commit. We then audit this evidence with tool-selected netlist mutants, flaw replays, and formal checks. The flow ported an ML-KEM-768/ML-DSA-65 accelerator to a 300 MHz Zynq UltraScale+ key-custody card: all six operations are byte-exact on the board, and it passes all 85 interface-applicable NIST ACVP cases (of 285) and 484 ML-DSA known answers. However, passing module tests overstate the verification strength. Across three RTL modules, existing simulation gates kill only 76% of 399 tool-selected netlist mutants; specification-derived tests guided by the survivors raise the fresh-draw decapsulation kill rate from 48% to 74%. In pre-registered single-model replays on flaws invisible to known-answer tests, undirected whole-design review catches two verifier flaws in only 3/6 and 1/6 sessions, whereas module-scoped review catches every known flaw in all 54 sessions. Even scoped review detects planted key-custody flaws in only 3/20 sessions, whereas formal checks (one added for the replay) flag every one. In this study, trustworthy agentic hardware needed author-independent mutants for test gates, module-level scoping for LLM review, and formal checks for custody invariants.” Find the technical paper here . November…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "focus": "",
+  "id": "2a127ea1f1ecbf43",
+  "kind": "news",
+  "kw_score": 4,
+  "matched": [
+   "semiconductor",
+   "simulation",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 2,
+  "score": 1,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "A seven-stage verification-gated agent workflow audited with netlist mutants, flaw replays and formal checks. Simulation gates kill only 76% of 399 mutants; module-scoped LLM review catches all known flaws in 54 sessions, whereas undirected whole-design review often misses them.",
+   "impact": "Transferable lesson for agent-driven simulation workflows: use author-independent checks, scope reviews narrowly and add formal or invariant checks, which could apply to automated phonon/MD pipelines. The hardware domain itself is Low relevance.",
+   "what": "Lucid Motors and EYL published a study of verification gaps in LLM-agent-generated RTL for post-quantum cryptographic hardware (ML-KEM-768/ML-DSA-65 on a Zynq UltraScale+ FPGA).",
+   "why": "Tests and reviews generated by the same LLM agents that write the hardware are a weak basis for trust."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Measuring Verification Gaps In LLM-Generated Post-Quantum Hardware (Lucid, EYL)",
+  "url": "https://semiengineering.com/measuring-verification-gaps-in-llm-generated-post-quantum-hardware-lucid-eyl/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Semiconductor technology company Acorn Technologies Inc of La Jolla, CA, USA (which is developing advanced process and device IP for next-generation AI, computing, wireless, and RF markets) has announced the results of its research collaboration with Jean-Pierre Raskin PhD, full professor at the Université catholique de Louvain (UCLouvain), showing that Acorn Buried Stressor (ABS) technology can provide benefits for RF-SOI and FDSOI platforms: improved RF substrate performance through a next-generation silicon-germanium (SiGe) trap-rich layer (TRL) approach, with the additional benefit in FDSOI of faster transistor performance through silicon strain...",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "focus": "",
+  "id": "eba7c713e2158102",
+  "kind": "news",
+  "kw_score": 5,
+  "matched": [
+   "transistor",
+   "semiconductor",
+   "substrate"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 1,
+  "score": -1,
+  "source": "Semiconductor Today",
+  "summary": {
+   "by": "claude",
+   "how": "Research collaboration with Prof. Jean-Pierre Raskin; details of methods and numbers are not stated in the abstract.",
+   "impact": "Low relevance: RF-SOI substrate engineering, with no thermal modeling content tied to the GaN/AlGaN HEMT work.",
+   "what": "Acorn Technologies and UCLouvain report that Acorn Buried Stressor technology improves RF-SOI and FDSOI substrates, using a SiGe trap-rich layer and silicon strain for faster FDSOI transistors.",
+   "why": "Better RF substrate performance and faster transistors on SOI platforms."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "UCLouvain collaboration shows how Acorn Buried Stressor improves RF-SOI and FDSOI substrate performance",
+  "url": "https://www.semiconductor-today.com/news_items/2026/nov/acorn-uclouvain-231126.shtml",
+  "venue": "Semiconductor Today",
+  "watched": []
+ },
+ {
+  "abstract": "MGmol is a scalable O(N) First-Principles Molecular Dynamics code that is capable of performing large-scale electronics structure calculations and molecular dynamics simulations of atomistic systems. Topics: applications, cpp, molecular-dynamics, simulation.",
+  "authors": [
+   "llnl"
+  ],
+  "cat": "industry",
+  "created": "2017-12-16",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "focus": "",
+  "id": "8466d3d007a5e6ba",
+  "kind": "repo",
+  "kw_score": 8,
+  "matched": [
+   "first-principles",
+   "atomistic",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 2,
+  "score": 5,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 47,
+  "summary": {
+   "by": "claude",
+   "how": "O(N) electronic structure with molecular dynamics, written in C++.",
+   "impact": "Low relevance: a DFT/MD code but not an MLIP, phonon or thermal transport tool. Could be worth a look for large-cell first-principles MD, such as dislocation cores, but nothing here shows this.",
+   "what": "LLNL's MGmol, a scalable O(N) first-principles molecular dynamics code in C++ for large-scale electronic structure and MD.",
+   "why": "Not stated in the abstract beyond enabling large-scale atomistic simulation."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "llnl/mgmol",
+  "url": "https://github.com/llnl/mgmol",
+  "venue": "GitHub · C++",
+  "watched": []
+ },
+ {
+  "abstract": "For third quarter 2026, Navitas Semiconductor Corp of Torrance, CA, USA — which provides GaNFast gallium nitride (GaN), GeneSiC silicon carbide (SiC) power semiconductors and integrated voltage regulator (IVR) technologies — has reported revenue of 14m, up 33% on 10.5m last quarter and 38% on $10.1m a year ago...",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "focus": "",
+  "id": "d03fbb8507172d70",
+  "kind": "news",
+  "kw_score": 10,
+  "matched": [
+   "GaN",
+   "SiC",
+   "semiconductor"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 1,
+  "score": 4,
+  "source": "Semiconductor Today",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract.",
+   "impact": "Industry context for the GaN power market behind the GaN/AlGaN HEMT project; no technical content. Low relevance.",
+   "what": "Navitas Semiconductor reported Q3 2026 revenue of about 14m, up 33% quarter on quarter and 38% year on year.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Navitas’s revenue grows 33% in Q3, driven by high-power markets",
+  "url": "https://www.semiconductor-today.com/news_items/2026/nov/navitas-231126.shtml",
+  "venue": "Semiconductor Today",
+  "watched": []
+ },
+ {
   "abstract": "The d-SEAMS C++ core engine Topics: analysis-framework, clathrate-hydrates, cpp20, d-seams, ice, lua, molecular-dynamics, molecular-dynamics-simulation, nauty, nix, plumed, topology, trajectories, trajectory-analysis.",
   "authors": [
    "d-SEAMS"
@@ -77,46 +374,6 @@
   "watched": []
  },
  {
-  "abstract": "Run reproducible scientific workflows anywhere (laptop, remote, or HPC cluster) from a single YAML file. The open-source runtime behind Temple Compute. Topics: bioinformatics, cli, computational-chemistry, dag, drug-discovery, hpc, molecular-dynamics, pipeline, python, reproducible-research, research-software, scientific-computing, slurm, workflow-automation, workflow-engine, workflow-management.",
-  "authors": [
-   "temple-compute"
-  ],
-  "cat": "industry",
-  "created": "2025-12-31",
-  "doi": "",
-  "first_seen": "2026-11-23",
-  "focus": "",
-  "id": "a7e1cea41977ab76",
-  "kind": "repo",
-  "kw_score": 3,
-  "matched": [
-   "HPC",
-   "chemistry",
-   "scientific"
-  ],
-  "mytools": [],
-  "published": "2026-11-20",
-  "relevance": 2,
-  "score": 0,
-  "source": "GitHub search",
-  "star_delta": null,
-  "stars": 49,
-  "summary": {
-   "by": "claude",
-   "how": "Python CLI with DAG-based pipelines defined in YAML.",
-   "impact": "Low-moderate: possibly useful for chaining VASP/phono3py/LAMMPS steps on HPC, but the abstract shows no agent or first-principles features.",
-   "what": "horus-runtime: open-source runtime to run reproducible scientific workflows on a laptop, remote machine or HPC (Slurm) from a single YAML file.",
-   "why": "Make workflows portable and reproducible across environments."
-  },
-  "themes": [
-   "industry"
-  ],
-  "title": "temple-compute/horus-runtime",
-  "url": "https://github.com/temple-compute/horus-runtime",
-  "venue": "GitHub · Python",
-  "watched": []
- },
- {
   "abstract": "Packing optimization for initial configurations for molecular dynamics Topics: bioinformatics-software, condensed-matter-physics, gromacs, lammps, materials-science, molecular-dynamics, molecular-dynamics-simulation, molecular-simulation, molly, namd, packmol.",
   "authors": [
    "m3g"
@@ -154,6 +411,46 @@
   "title": "m3g/Packmol.jl",
   "url": "https://github.com/m3g/Packmol.jl",
   "venue": "GitHub · Julia",
+  "watched": []
+ },
+ {
+  "abstract": "Run reproducible scientific workflows anywhere (laptop, remote, or HPC cluster) from a single YAML file. The open-source runtime behind Temple Compute. Topics: bioinformatics, cli, computational-chemistry, dag, drug-discovery, hpc, molecular-dynamics, pipeline, python, reproducible-research, research-software, scientific-computing, slurm, workflow-automation, workflow-engine, workflow-management.",
+  "authors": [
+   "temple-compute"
+  ],
+  "cat": "industry",
+  "created": "2025-12-31",
+  "doi": "",
+  "first_seen": "2026-11-23",
+  "focus": "",
+  "id": "a7e1cea41977ab76",
+  "kind": "repo",
+  "kw_score": 3,
+  "matched": [
+   "HPC",
+   "chemistry",
+   "scientific"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 2,
+  "score": 0,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 49,
+  "summary": {
+   "by": "claude",
+   "how": "Python CLI with DAG-based pipelines defined in YAML.",
+   "impact": "Low-moderate: possibly useful for chaining VASP/phono3py/LAMMPS steps on HPC, but the abstract shows no agent or first-principles features.",
+   "what": "horus-runtime: open-source runtime to run reproducible scientific workflows on a laptop, remote machine or HPC (Slurm) from a single YAML file.",
+   "why": "Make workflows portable and reproducible across environments."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "temple-compute/horus-runtime",
+  "url": "https://github.com/temple-compute/horus-runtime",
+  "venue": "GitHub · Python",
   "watched": []
  },
  {

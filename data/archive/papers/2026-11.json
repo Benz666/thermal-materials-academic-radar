@@ -1,5 +1,197 @@
 [
  {
+  "abstract": "At cryogenic temperatures, phonons become one of the dominant energy carriers and thus can strongly influence the performance of electronic and sensing devices. Phonon transport departs fundamentally from the diffusive behavior typically seen at higher temperatures, as cryogenic phonons exhibit ballistic transport, propagate as waves, and possess large coherence lengths. Since phonons at milliKelvin temperatures do not follow Fourier's law and are only weakly coupled to electrons, controlling and isolating phonon propagation becomes a significant challenge. Conventional approaches to thermal isolation rely on diffusion-based boundary scattering or amorphous materials, offering limited control over the spectral properties of transported phonons. In this work, we present a wave-mechanics-based framework that predicts phonon transmission and thermal resistance of arbitrarily thick superlattices while retaining all acoustic branches, mode-conversion pathways, and angles of incidence. By enforcing phase coherence, our model predicts frequency-dependent transmission through arbitrary multi-layered structures. We use a genetic algorithm (NSGA-II) to efficiently select both materials and layer thicknesses. Our success criterion is that constituent layers satisfy the quarter-wavelength condition of the dominant phonon frequencies at a target temperature. This strategy identifies novel bilayer combinations that achieve thermal resistance of up to 3000 times greater than previously reported superlattices. The identified superlattices are poised to advance any technology that relies on coherent acoustic scattering, from ultra-low-temperature thermal insulation in superconducting flip-chip assemblies to phonon-blocking components in micro- and nano-electromechanical systems. Our…",
+  "authors": [
+   "Anil Erol",
+   "Xiang Hua",
+   "Kirby Myers",
+   "Lawrence Friedman",
+   "Alexander Marakov",
+   "Melissa G. Loving",
+   "Joshua Shipman",
+   "Arsha Mamoozadeh",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1063/5.0355469",
+  "first_seen": "2026-11-24",
+  "focus": "computational",
+  "id": "b08532ae61480991",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "phonon",
+   "superlattice",
+   "amorphous",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 3,
+  "score": 7,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Phase-coherent model retaining all acoustic branches, mode conversion and incidence angles; quarter-wavelength criterion at the dominant phonon frequency; reports bilayers with thermal resistance up to 3000 times that of previously reported superlattices.",
+   "impact": "Moderately relevant: coherent interface and multilayer phonon transmission is related to the GaN/Al2O3 interface and SrTiO3 grain boundary work, and the optimisation approach could inspire band-discretization checks in JAX-BTE. The cryogenic regime is far from the GaN HEMT operating range.",
+   "what": "A wave-mechanics framework for phonon transmission and thermal resistance of arbitrarily thick superlattices, combined with the NSGA-II genetic algorithm to pick materials and layer thicknesses.",
+   "why": "At milliKelvin temperatures phonons are ballistic and coherent, do not follow Fourier's law, and existing diffusive or amorphous isolation offers limited spectral control."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Coherent phonon blocking in superlattices",
+  "url": "https://doi.org/10.1063/5.0355469",
+  "venue": "Journal of Applied Physics",
+  "watched": []
+ },
+ {
+  "abstract": "Heteroepitaxial growth of high-quality β-Ga2O3 remains fundamentally challenged by large lattice and thermal mismatches with conventional foreign substrates, which inevitably induce high threading dislocation densities and severe residual strain, ultimately limiting the performance and reliability of solar-blind photodetectors. In this work, we propose and demonstrate a quasi-van der Waals epitaxial strategy using artificially synthesized fluorophlogopite (F-mica) as a thermally robust, atomically smooth template for metal-organic chemical vapor deposition growth of β-Ga2O3. By combining x-ray photoelectron spectroscopy and first-principles calculations, we reveal a unique interfacial mechanism where localized strong chemical bonds (Ga–O–Si bonding) coexist with weak van der Waals forces, which simultaneously defines the epitaxial orientation and enables efficient strain relaxation. This hybrid growth mode yields a high-purity, preferentially (-201)-oriented β-Ga2O3 film with an ultralow in-plane lattice strain of 0.3% and ∼30% reduction in total dislocation density compared to sapphire-based counterparts. Leveraging this high-crystalline-quality film, we fabricate metal–semiconductor–metal solar-blind photodetectors that achieve a remarkable detectivity of 1.8 × 1012 Jones and an ultraviolet/visible rejection ratio of 104, representing approximately 21-fold improvement over devices on sapphire. This study not only elucidates the quasi-van der Waals epitaxial mechanism but also provides a viable route toward high-performance flexible optoelectronics.",
+  "authors": [
+   "Siqi Li",
+   "Hongbin Wang",
+   "Hanyang Ji",
+   "Youheng Song",
+   "Xiaojie Liu",
+   "Bowen Lv",
+   "Peng Li",
+   "Bingsheng Li",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1063/5.0352726",
+  "first_seen": "2026-11-24",
+  "focus": "mixed",
+  "id": "001b77ca53ff6b42",
+  "kind": "paper",
+  "kw_score": 10,
+  "matched": [
+   "Ga2O3",
+   "semiconductor",
+   "substrate",
+   "reliability",
+   "dislocation",
+   "strain",
+   "first-principles",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 1,
+  "score": 4,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "MOCVD growth, XPS and first-principles calculations of the interface (Ga–O–Si bonds plus van der Waals). The film shows 0.3% in-plane strain and ~30% lower dislocation density than on sapphire; detectivity is 1.8×10^12 Jones.",
+   "impact": "Low relevance: mostly experimental growth and device work on Ga2O3 photodetectors, with no thermal transport content for the GaN/Al2O3 interface or dislocation projects.",
+   "what": "Quasi-van der Waals epitaxy of β-Ga2O3 on fluorophlogopite mica, with solar-blind photodetectors fabricated on the films.",
+   "why": "Large lattice and thermal mismatch on conventional substrates causes high threading dislocation density and residual strain."
+  },
+  "themes": [
+   "device",
+   "interface"
+  ],
+  "title": "Quasi-van der Waals epitaxy of low-strain β -Ga2O3 on fluorophlogopite enables high-performance solar-blind photodetectors",
+  "url": "https://doi.org/10.1063/5.0352726",
+  "venue": "Applied Physics Letters",
+  "watched": []
+ },
+ {
+  "abstract": "Reducing the thermal conductivity of ceramic coatings requires control of heattransport across multiple length scales without sacrificing adhesion, fracture resistance, oxidation resistance, or thermal-cycle life. In many electrically insulatingceramic coatings, lattice vibrations (phonons) dominate heat conduction. Their transport can be impeded by mass and strain-field disorder, oxygen vacancies, grain boundaries, pores, phase interfaces, and nanoscale inclusions. This study proposes a multiscale materials-design framework for ceramic coatings based on rare-earth zirconates and high-entropy oxides, with carefully controlled defect populations and hierarchical microstructures.The theoretical basis combines the phonon Boltzmann transport equation (BTE),mode-dependent scattering lifetimes, Matthiessen-type rate addition as a first approximation, point-defect scattering, and effective-medium descriptions of coatinglayers. The framework emphasizes that lowering intrinsic lattice conductivity alonedoes not guarantee a better coating: radiation, gas-filled porosity, interfacial resistance, sintering, and mechanical damage can change both measured effective conductivity and service performance. Candidate systems—including high-entropy rare-earth zirconates, rare-earth niobates, disordered fluorite oxides, and multilayer zirconate/zirconia architectures— are treated as research directions rather than universally optimal materials.A staged workflow is proposed, linking computational screening, synthesis, coatingdeposition, thermal-property measurements, microscopy, and thermal cycling. Theprincipal hypothesis is that a compositionally disordered, defect-rich ceramic coatingcombined with a deliberately hierarchical pore and interface structure can reducelattice heat transport…",
+  "authors": [
+   "Khaled Aldhufri"
+  ],
+  "cat": "papers",
+  "doi": "10.5281/zenodo.24442790",
+  "first_seen": "2026-11-24",
+  "focus": "mixed",
+  "id": "e410648be909969e",
+  "kind": "preprint",
+  "kw_score": 13,
+  "matched": [
+   "phonon",
+   "BTE",
+   "multiscale",
+   "interface",
+   "vacanc",
+   "strain",
+   "oxide",
+   "workflow",
+   "heat",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-22",
+  "relevance": 1,
+  "score": 7,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Conceptual framework combining phonon BTE, mode-dependent lifetimes, Matthiessen-rule rate addition, point-defect scattering and effective-medium models, with a staged workflow from computational screening to synthesis and thermal cycling. No results are stated in the abstract.",
+   "impact": "Low relevance: a proposal using standard BTE ingredients, with no new computational method and no data for GaN, InGaAs, BAs or JAX-BTE.",
+   "what": "A Zenodo preprint proposing a multiscale design framework for low-thermal-conductivity ceramic coatings (rare-earth zirconates, high-entropy oxides) with controlled defects and hierarchical microstructure.",
+   "why": "Lowering intrinsic lattice conductivity alone does not guarantee a better coating; radiation, porosity, interfacial resistance, sintering and damage also matter."
+  },
+  "themes": [
+   "bte",
+   "interface"
+  ],
+  "title": "Phonon-Scattering Ceramic Coatings for Minimum Thermal Conductivity",
+  "url": "https://doi.org/10.5281/zenodo.24442790",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "watched": []
+ },
+ {
+  "abstract": "Altermagnetic (AM) two-dimensional materials provide a promising platform for exploring the interplay between unconventional magnetism and heat transport, yet their anharmonic phonon dynamics remain largely unexplored. Here, we systematically investigate the lattice thermal transport of AM MnX2 (X = S, Se) monolayers with pentagonal structures using first-principles calculations and phonon Boltzmann transport theory considering both three-phonon (3ph) and four-phonon (4ph) scattering. We establish that both systems favor the antiferromagnetic (AFM) ground state and exhibit AM band splitting, and the harmonic phonon dispersions are only weakly affected by the ferromagnetic (FM) magnetic ordering. Bonding analysis further reveals that the chalcogen–chalcogen dimer interactions play a crucial role in the distinct lattice dynamics of MnS2 and MnSe2. We then find that both systems exhibit low lattice thermal conductivities κL, which are substantially reduced by 66.2% and 87.7% upon inclusion of 4ph scattering at 300 K. The pronounced anharmonicity is evidenced by large negative Grüneisen parameters up to −50 of the acoustic modes and strong low-frequency phonon scattering by 4ph processes. Analysis of mean free path (MFP) and channel-resolved 3ph scattering rates attribute the lower κL of MnSe2 to its lower phonon group velocities and stronger acoustic–optical scattering. These results establish higher-order anharmonicity as an important factor in the thermal transport of pentagonal altermagnets and highlight their potential for thermal management and spin-caloritronic applications.",
+  "authors": [
+   "Jun-Kang Jiang",
+   "Shu-Hao Cao",
+   "Zhi-Guo Li",
+   "Chun Zhang",
+   "Xiang-Rong Chen"
+  ],
+  "cat": "papers",
+  "doi": "10.1063/5.0357694",
+  "first_seen": "2026-11-24",
+  "focus": "computational",
+  "id": "390984e503ad139d",
+  "kind": "paper",
+  "kw_score": 16,
+  "matched": [
+   "phonon",
+   "anharmonic",
+   "four-phonon",
+   "three-phonon",
+   "first-principles",
+   "harmonic",
+   "Grüneisen",
+   "heat",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 3,
+  "score": 16,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "First-principles calculations with phonon BTE including 3ph and 4ph scattering; bonding analysis, Grüneisen parameters, MFP and channel-resolved scattering rates. Four-phonon scattering lowers κL by 66.2% (MnS2) and 87.7% (MnSe2) at 300 K, with Grüneisen parameters down to −50 for acoustic modes.",
+   "impact": "Methodologically relevant to the BTE/lattice-dynamics workflow (phono3py/ALAMODE-style 3ph+4ph) used in the boron arsenide and InGaAs projects, as a reminder of when 4ph matters. The material system itself is Low relevance.",
+   "what": "First-principles plus phonon BTE study of lattice thermal conductivity in pentagonal altermagnetic MnS2 and MnSe2 monolayers, including three- and four-phonon scattering.",
+   "why": "Anharmonic phonon dynamics of altermagnetic 2D materials are largely unexplored, though they link unconventional magnetism and heat transport."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Strong anharmonicity in the phonon thermal transport of altermagnetic Mn X 2 ( X = S, Se) monolayers",
+  "url": "https://doi.org/10.1063/5.0357694",
+  "venue": "Journal of Applied Physics",
+  "watched": []
+ },
+ {
   "abstract": "",
   "authors": [
    "Mohammed Amine Boudjeltia",
