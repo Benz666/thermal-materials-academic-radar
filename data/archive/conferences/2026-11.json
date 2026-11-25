@@ -1,40 +1,78 @@
 [
  {
-  "abstract": "Industry-heavy thermal modeling and cooling symposium; good for job networking. No deadline sentences found on the page.",
+  "abstract": "Mid-size thermal sciences meeting; usually held in the US in spring. No deadline sentences found on the page.",
   "always": true,
   "authors": [],
   "cat": "conferences",
-  "conf_name": "SEMI-THERM",
+  "conf_name": "ASTFE Thermal and Fluids Engineering Conference (TFEC)",
   "doi": "",
-  "first_seen": "2026-11-24",
+  "first_seen": "2026-11-25",
   "fit": "submit",
   "focus": "",
-  "id": "22324bcf1dfb81fc",
+  "id": "1670117f9cf82412",
   "kind": "conference",
-  "kw_score": 4,
+  "kw_score": 3,
   "matched": [
-   "cooling",
    "thermal"
   ],
   "mytools": [],
-  "page_excerpt": "--> SEMI-THERM | Thermal Engineering top of page 43rd Annual Symposium March 15 - 18, 2027 San Jose, California Attend, Exhibit or Sponsor - Join SEMI-THERM 2027 Global thermal community SEMI-THERM is a global community dedicated to advancing the science and practice of electronics thermal management. We connect engineers, researchers, students, and technology leaders through technical exchange, collaboration, and professional development. Learn More ANNUAL SYMPOSIUM The SEMI-THERM Symposium & Exhibition brings together the global thermal management community to explore the latest advances in semiconductor and electronics cooling. Through technical presentations, workshops, exhibits, and networking, industry professionals, researchers, and students connect to share knowledge, solve challenges, and drive innovation. ​ \u0000​ View 2027 Exhibitors Event Registration Submit a technical paper or presentation abstract Learn More Call for Papers Explore thermal innovations and connect with industry leaders Learn More Attend Showcase your latest thermal solutions Learn More Exhibit Support innovation and connect with the global thermal management community. Learn More Sponsor 2027 Sponsors Industry partners enabling technical exchange, education, and innovation. Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal Futures Thermal Futures Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal Futures Thermal Futures Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal F",
-  "published": "2026-11-24",
-  "relevance": 4,
-  "score": 7,
+  "page_excerpt": "American Society of Thermal and Fluids Engineers (ASTFE) ASTFE American Society of Thermal and Fluids Engineers Home Honors & Awards Conferences Membership Career Publications Donate Contact us About ASTFE Login Register Contact us About ASTFE Login Register ASTFE American Society of Thermal and Fluids Engineers Honors & Awards Conferences Membership Career Publications Donate Advancing Thermal and Fluids Engineering for a Sustainable Future Join Astfe Mission statement Raise Fund to Support Our Young Research Leaders Donate Go Fund Me ASTFE received NSF Grant supporting student leadership training --> --> ASTFE Digital Library THERMOPEDIA TEC TALK Mission statement Raise Fund to Support Our Young Research Leaders Donate ASTFE received NSF Grant supporting student leadership training Becoming an ASTFE Member Being an ASTFE member is an association with a dynamic global community of researchers and engineers contributing positive societal and environmental impacts through open forum of regular meetings and discussions on challenges and technological advances and solutions. Membership Events The 10th BSME International Conference on Thermo-Fluid Engineering December 19 – 21, 2026 Learn More ASTFE Newsletter 2020 FALL ISSUE Workshop Virtual Workshop on COVID-19: Challenges in Research and Education Learn More Events Conferences December 19 – 21, 2026 The 10th BSME International Conference on Thermo-Fluid Engineering BUET, Dhaka, Bangladesh Conferences January 9 – 11, 2027 8th Mi",
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": -3,
   "source": "Conference watch",
   "summary": {
    "by": "claude",
-   "how": "Technical paper or presentation abstract submission is offered; specific deadlines were not found in the page excerpt (Not stated).",
-   "impact": "A US event that suits the GaN/AlGaN HEMT multiscale thermal modeling project and is strong for industry networking. Worth checking the call-for-papers page for the abstract deadline.",
-   "what": "SEMI-THERM, the 43rd annual symposium on electronics thermal management, is listed for March 15–18, 2027 in San Jose, California; the site has a call for papers and exhibitor info.",
-   "why": "To connect the electronics thermal management community, including industry, researchers and students."
+   "how": "No submission format or deadline given.",
+   "impact": "Low relevance now. No US TFEC date was found, and the listed events are not US-held. Recheck later for TFEC dates.",
+   "what": "ASTFE homepage was updated. The visible events are the 10th BSME Thermo-Fluid Engineering conference (December 19–21, 2026, Dhaka) and a January 2027 event whose name is truncated. The page lists no TFEC dates or deadlines.",
+   "why": "Not stated in the page excerpt."
   },
   "themes": [
    "industry"
   ],
-  "title": "SEMI-THERM — website updated",
-  "url": "https://www.semi-therm.org/",
-  "venue": "Semiconductor thermal measurement, modeling & management",
+  "title": "ASTFE Thermal and Fluids Engineering Conference (TFEC) — website updated",
+  "url": "https://www.astfe.org/",
+  "venue": "Thermal-fluid sciences",
+  "watched": []
+ },
+ {
+  "abstract": "You presented at SHTC 2025; core venue for phonon transport and device thermal modeling. Deadline-related text on the page: Submit Abstract Submit Your Abstracts for Summer Heat Transfer Conference Deadline is December 8th.",
+  "always": true,
+  "authors": [],
+  "cat": "conferences",
+  "conf_name": "ASME Summer Heat Transfer Conference (SHTC)",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "fit": "submit",
+  "focus": "",
+  "id": "17470dc912ad2b6d",
+  "kind": "conference",
+  "kw_score": 6,
+  "matched": [
+   "phonon",
+   "heat",
+   "thermal"
+  ],
+  "mytools": [],
+  "page_excerpt": "SHTC 2027 | Summer Heat Transfer Conference Skip to content FEDSM ES Authors/Organizers LOGIN Menu Summer Heat Transfer Conference In-Person Event Hilton Orlando Orlando, FL, USA August 1–4, 2027 Need Help? Submit Abstract Submit Your Abstracts for Summer Heat Transfer Conference Deadline is December 8th. Submit Now Join your colleagues at the 2027 Summer Heat Transfer Conference The conference will bring together international researchers and engineers focusing on heat and mass transfer in a variety of applications. The program of SHTC 2027 will include technical paper sessions, plenary lectures, committee meetings and social events. The objectives of the meeting are to provide a forum for presentation of state-of-the-art research and opportunities for technical interactions among participants. Tracks AI/ML & Data-Driven Thermal Sciences Data Center/Buildings Thermal Management Phase Change Phenomena Thermal Energy Storage & Waste Heat Recovery Heat Transfer in Energy Systems Thermophysical Properties Theory and Fundamental Research Nanoscale Thermal Transport Heat Transfer Equipment Aerospace Heat Transfer Gas Turbine Heat Transfer Transport Phenomena in Manufacturing and Materials Processing Heat Transfer in Electronic Equipment Heat and Mass Transfer in Biotechnology Computational Heat Transfer ASME Symposium Celebrating Professor Yildiz Bayazitoglu Posters Important Dates Dec 08 December 08, 2026 Abstract Submission Dec 22 December 22, 2026 Notification of Abstract Accep",
+  "published": "2026-11-25",
+  "relevance": 4,
+  "score": 9,
+  "source": "Conference watch",
+  "summary": {
+   "by": "claude",
+   "how": "Abstract submission through the conference website by December 8, 2026.",
+   "impact": "Good fit for the phonon BTE / JAX-BTE and GaN HEMT work in the Nanoscale Thermal Transport or Heat Transfer in Electronic Equipment tracks. It is held in the US and you presented at SHTC 2025, so submitting is worthwhile; the deadline is in about 2 weeks.",
+   "what": "ASME SHTC 2027 will be held August 1–4, 2027 at the Hilton Orlando, FL. The abstract deadline is December 8, 2026, with notification on December 22, 2026. Tracks include Nanoscale Thermal Transport, Computational Heat Transfer, AI/ML & Data-Driven Thermal Sciences and Heat Transfer in Electronic Equipment.",
+   "why": "A call for abstracts for a broad heat and mass transfer conference."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "ASME Summer Heat Transfer Conference (SHTC) — website updated",
+  "url": "https://event.asme.org/SHTC",
+  "venue": "Heat transfer · nanoscale thermal transport",
   "watched": []
  },
  {
@@ -75,6 +113,44 @@
   "title": "AI4Mat workshop (NeurIPS) — website updated",
   "url": "https://sites.google.com/view/ai4mat",
   "venue": "ML for materials (MLIP, data efficiency, agents)",
+  "watched": []
+ },
+ {
+  "abstract": "Industry-heavy thermal modeling and cooling symposium; good for job networking. No deadline sentences found on the page.",
+  "always": true,
+  "authors": [],
+  "cat": "conferences",
+  "conf_name": "SEMI-THERM",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "fit": "submit",
+  "focus": "",
+  "id": "22324bcf1dfb81fc",
+  "kind": "conference",
+  "kw_score": 4,
+  "matched": [
+   "cooling",
+   "thermal"
+  ],
+  "mytools": [],
+  "page_excerpt": "--> SEMI-THERM | Thermal Engineering top of page 43rd Annual Symposium March 15 - 18, 2027 San Jose, California Attend, Exhibit or Sponsor - Join SEMI-THERM 2027 Global thermal community SEMI-THERM is a global community dedicated to advancing the science and practice of electronics thermal management. We connect engineers, researchers, students, and technology leaders through technical exchange, collaboration, and professional development. Learn More ANNUAL SYMPOSIUM The SEMI-THERM Symposium & Exhibition brings together the global thermal management community to explore the latest advances in semiconductor and electronics cooling. Through technical presentations, workshops, exhibits, and networking, industry professionals, researchers, and students connect to share knowledge, solve challenges, and drive innovation. ​ \u0000​ View 2027 Exhibitors Event Registration Submit a technical paper or presentation abstract Learn More Call for Papers Explore thermal innovations and connect with industry leaders Learn More Attend Showcase your latest thermal solutions Learn More Exhibit Support innovation and connect with the global thermal management community. Learn More Sponsor 2027 Sponsors Industry partners enabling technical exchange, education, and innovation. Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal Futures Thermal Futures Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal Futures Thermal Futures Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal F",
+  "published": "2026-11-24",
+  "relevance": 4,
+  "score": 7,
+  "source": "Conference watch",
+  "summary": {
+   "by": "claude",
+   "how": "Technical paper or presentation abstract submission is offered; specific deadlines were not found in the page excerpt (Not stated).",
+   "impact": "A US event that suits the GaN/AlGaN HEMT multiscale thermal modeling project and is strong for industry networking. Worth checking the call-for-papers page for the abstract deadline.",
+   "what": "SEMI-THERM, the 43rd annual symposium on electronics thermal management, is listed for March 15–18, 2027 in San Jose, California; the site has a call for papers and exhibitor info.",
+   "why": "To connect the electronics thermal management community, including industry, researchers and students."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "SEMI-THERM — website updated",
+  "url": "https://www.semi-therm.org/",
+  "venue": "Semiconductor thermal measurement, modeling & management",
   "watched": []
  },
  {

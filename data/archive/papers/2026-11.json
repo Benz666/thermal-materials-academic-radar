@@ -1,49 +1,533 @@
 [
  {
-  "abstract": "At cryogenic temperatures, phonons become one of the dominant energy carriers and thus can strongly influence the performance of electronic and sensing devices. Phonon transport departs fundamentally from the diffusive behavior typically seen at higher temperatures, as cryogenic phonons exhibit ballistic transport, propagate as waves, and possess large coherence lengths. Since phonons at milliKelvin temperatures do not follow Fourier's law and are only weakly coupled to electrons, controlling and isolating phonon propagation becomes a significant challenge. Conventional approaches to thermal isolation rely on diffusion-based boundary scattering or amorphous materials, offering limited control over the spectral properties of transported phonons. In this work, we present a wave-mechanics-based framework that predicts phonon transmission and thermal resistance of arbitrarily thick superlattices while retaining all acoustic branches, mode-conversion pathways, and angles of incidence. By enforcing phase coherence, our model predicts frequency-dependent transmission through arbitrary multi-layered structures. We use a genetic algorithm (NSGA-II) to efficiently select both materials and layer thicknesses. Our success criterion is that constituent layers satisfy the quarter-wavelength condition of the dominant phonon frequencies at a target temperature. This strategy identifies novel bilayer combinations that achieve thermal resistance of up to 3000 times greater than previously reported superlattices. The identified superlattices are poised to advance any technology that relies on coherent acoustic scattering, from ultra-low-temperature thermal insulation in superconducting flip-chip assemblies to phonon-blocking components in micro- and nano-electromechanical systems. Our…",
+  "abstract": "Additive-mediated enhancement of self-assembled monolayers (SAMs) properties is essential for the synergistic regulation of perovskite crystallization and interfacial charge transport. Here, we incorporated 2,2′-biimidazole (BI) into SAMs (MeO-2PACz, [2-(3,6-dimethoxy-9H-carbazol-9-yl)ethyl]phosphonic acid) precursors, enhancing not only the adsorption behavior of SAMs but also improving the quality of the perovskite. Theoretical and experimental results indicate strong π–π interactions between BI and the carbazole units in MeO-2PACz, thereby enhancing the uniformity of the SAMs. Simultaneously, the N presenting Lewis base in BI can bind to the uncoordinated Pb2+ at the perovskite terminals, forming stable bidentate coordination. Additionally, the introduction of BI significantly optimizes the arrangement of interface energy levels and reduces residual stress in perovskite, which facilitates charge transport at the interface and enhances the intrinsic stability of the perovskite film. Consequently, the developed device achieved a maximum power conversion efficiency of 25.59%, while the wide-bandgap (1.68 eV) inverted perovskite solar cell delivered an efficiency of 23.03%.",
   "authors": [
-   "Anil Erol",
-   "Xiang Hua",
-   "Kirby Myers",
-   "Lawrence Friedman",
-   "Alexander Marakov",
-   "Melissa G. Loving",
-   "Joshua Shipman",
-   "Arsha Mamoozadeh",
+   "Wenzhen Zou",
+   "Yutong Wu",
+   "Hao Li",
+   "Xuanshuo Shangguan",
+   "Yuhao Zhou",
+   "Yu Shen",
+   "Bo Kuang",
+   "Xinbo Guo",
    "et al."
   ],
   "cat": "papers",
-  "doi": "10.1063/5.0355469",
-  "first_seen": "2026-11-24",
+  "doi": "10.1063/5.0357837",
+  "first_seen": "2026-11-25",
   "focus": "computational",
-  "id": "b08532ae61480991",
+  "id": "d948d88e61c4754d",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "wide-bandgap"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 1,
+  "score": 0,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Additive incorporation into SAM precursors, with theoretical and experimental characterization and device fabrication.",
+   "impact": "Low relevance. Experimental perovskite solar cell work with no phonon or thermal content.",
+   "what": "Adds 2,2'-biimidazole to MeO-2PACz self-assembled monolayers to improve perovskite quality and interfacial charge transport, reaching 25.59% efficiency, and 23.03% for a 1.68 eV wide-bandgap inverted cell.",
+   "why": "Additive-mediated SAM enhancement regulates perovskite crystallization and interface charge transport."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Engineering buried termination by molecular bridge induced efficient inverted perovskite solar cells",
+  "url": "https://doi.org/10.1063/5.0357837",
+  "venue": "Applied Physics Letters",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract Markov state models (MSMs) are widely used to extract kinetic information from atomistic simulations, yet they remain largely opaque, requiring complex post hoc analysis to relate macroscopic states to underlying physical interactions. This disconnect severely limits the interpretability of the automated kinetic state decomposition. Here we introduce the Kinetic Interaction Tree (KinTree), an interpretable, interaction-centric machine learning framework for kinetic modeling. KinTree represents conformational dynamics in a feature space defined by noncovalent interactions and employs a decision-tree architecture optimized by a unified kinetic-structural objective function. This design enables the direct identification of kinetically relevant interactions while producing Markovian state decompositions from raw trajectory data. KinTree is validated across diverse molecular systems, demonstrating kinetic consistency through the Chapman–Kolmogorov tests and its ability to resolve mechanistic pathways. KinTree captures complex, concurrent inter- and intrachain interactions and sensitively identifies mutation-induced rewiring of interaction networks. By integrating kinetic modeling with physically interpretable features, KinTree provides a more highly interpretable and versatile approach for molecular interactions than existing kinetic models.",
+  "authors": [
+   "Manming Xu",
+   "Mohammad Tanweer",
+   "Shozeb Haider"
+  ],
+  "cat": "papers",
+  "doi": "10.1021/acs.jctc.6c01714",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "f7ff6e22a64097f7",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "interpretab",
+   "atomistic",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 2,
+  "score": 3,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Decision-tree architecture on interaction features, validated by Chapman–Kolmogorov tests across several molecular systems.",
+   "impact": "Low-to-moderate relevance. A biomolecular application, but the interpretable, feature-based analysis of MD trajectories is conceptually related to MLIP interpretability and latent-space analysis.",
+   "what": "Introduces KinTree, an interpretable decision-tree framework for kinetic modeling of atomistic simulations. It uses noncovalent-interaction features and a unified kinetic-structural objective to produce Markovian state decompositions from raw trajectories.",
+   "why": "Markov state models are opaque and need post hoc analysis to link states to physical interactions."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Rule-Based Machine Learning for Interpretable Kinetic Modeling",
+  "url": "https://doi.org/10.1021/acs.jctc.6c01714",
+  "venue": "Journal of Chemical Theory and Computation",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract Conventional near-infrared (NIR) light sensing materials, reliant on inorganic or organic semiconductors, are often limited by their photoelectric conversion efficiency, cooling volume, and recyclability. Inspired by the pit organ of rattlesnakes, this work presents an NIR sensing strategy based on photo-thermal-electric conversion. An NIR sensing unit is constructed based on Au@ITO-graphite asymmetric electrodes and ionogel, effectively coupling interfacial photothermal and thermoelectric conversion. NIR light energy is rapidly converted into heat due to the localized surface plasmon resonance (LSPR) of Au nanoparticles (Au NPs). This thermal stimulus induces asynchronous ion adsorption and desorption at asymmetric electrode–electrolyte interfaces, generating a measurable open-circuit voltage even under nearly zero temperature gradient. The NIR sensing unit, with an electrode spacing of 0.1 mm, exhibits a sensitivity approximately 70 times higher than that of symmetric electrodes. Moreover, the NIR sensing unit can be disassembled and reused, and the Au@ITO electrodes exhibit at least 5 times of reusability and stability. This mechanism allows us to construct a sensing array for spatial NIR mapping and a biomimetic system that replicates the complete “perception‑to‑orientation” behavior sequence. This work provides a material-agnostic strategy for application in ultrathin, environmentally friendly, and self-powered NIR sensing systems.",
+  "authors": [
+   "Yao An",
+   "Zhiwu Chen",
+   "Xinlei Li",
+   "Nan Zhang",
+   "Yingchao Ma",
+   "Yapei Wang"
+  ],
+  "cat": "papers",
+  "doi": "10.1021/acsami.6c19753",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "5336abbeec915949",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "thermoelectric",
+   "semiconductor",
+   "cooling",
+   "interface",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": 0,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Au nanoparticle LSPR heating, asymmetric ion adsorption/desorption at the electrode–electrolyte interface, 0.1 mm spacing, array demonstrations.",
+   "impact": "Low relevance. Experimental sensor device with no connection to phonon transport or the listed projects.",
+   "what": "Builds a rattlesnake-inspired NIR sensor using photothermal conversion at Au@ITO–graphite asymmetric electrodes with an ionogel. It produces an open-circuit voltage at near-zero temperature gradient, with about 70 times the sensitivity of symmetric electrodes.",
+   "why": "Conventional NIR sensing materials are limited by conversion efficiency, cooling volume and recyclability."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Rattlesnake-Inspired Near-Infrared Sensing Based on Photothermal-Induced Asymmetric Interfacial Ion Rearrangement",
+  "url": "https://doi.org/10.1021/acsami.6c19753",
+  "venue": "ACS Applied Materials & Interfaces",
+  "watched": []
+ },
+ {
+  "abstract": "",
+  "authors": [
+   "Shehroz Abdullah",
+   "Abdull Farooq",
+   "Muhammad Asif",
+   "Mubashir Gulzar",
+   "Faisal Mukhtar",
+   "Mustafa Bayram",
+   "Munawar Abbas",
+   "Arslan Ahmad"
+  ],
+  "cat": "papers",
+  "doi": "10.1007/s11696-026-06089-2",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "06922282d97fbdda",
   "kind": "paper",
   "kw_score": 7,
   "matched": [
+   "thermoelectric",
+   "first-principles"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 1,
+  "score": 1,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "First-principles calculations (details not stated in the abstract).",
+   "impact": "Low relevance; no abstract and no sign of lattice-dynamics or MLIP methods relevant to current projects.",
+   "what": "First-principles study of the electronic structure and thermoelectric transport of the hybrid double perovskite (CH3NH3)2AgBiCl6. No abstract text was provided.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "First-principles investigation of the electronic structure and thermoelectric transport properties of the lead-free hybrid double perovskite (CH₃NH₃)₂AgBiCl₆",
+  "url": "https://doi.org/10.1007/s11696-026-06089-2",
+  "venue": "Chemical Papers",
+  "watched": []
+ },
+ {
+  "abstract": "Metal–organic framework databases have grown rapidly through experimental deposition and large-scale literature extraction, yet recent analyses indicate that nearly half of their entries contain substantial structural errors. These errors propagate through high-throughput screening and machine-learning workflows, limiting the reliability of data-driven materials discovery. Repairing them is difficult because the necessary evidence is scattered across crystallographic files, synthesis descriptions, and the primary literature. Here we present LitMOF, a multi-agent framework driven by large language models that reads the original publication for each structure and cross-validates it against the deposited entry to repair errors. Applying LitMOF to the metal–organic framework subset of the Cambridge Structural Database, we assembled LitMOF-DB, a curated set of 189,567 computation-ready structures that includes 9,277 repaired entries, or 69.1% of the not-computation-ready structures in the latest CoRE MOF database. The system also recovered 8,771 synthesized but undeposited frameworks missing from existing resources. Using direct air capture screening as a case study, we show that structural errors distort predicted adsorption energies and CO 2 /H 2 O selectivity, which misranks materials, produces false positives, and omits high-performing candidates. This work offers a route toward self-correcting scientific databases and toward database curation driven by large language models.",
+  "authors": [
+   "Honghui Kim",
+   "Dohoon Kim",
+   "Jihan Kim"
+  ],
+  "cat": "papers",
+  "doi": "10.1038/s41467-026-79242-w",
+  "first_seen": "2026-11-25",
+  "focus": "mixed",
+  "id": "3d928bd2163dded8",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "multi-agent",
+   "high-throughput",
+   "workflow",
+   "database",
+   "materials",
+   "scientific",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 3,
+  "score": 7,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Multi-agent LLM pipeline applied to the CSD MOF subset. A direct air capture screening case study shows how errors distort adsorption energies and selectivity.",
+   "impact": "Not about thermal transport, but a concrete example of LLM agents curating atomistic data, which is relevant to automated workflows and to training-data quality for MLIPs (e.g. the AlGaN pipeline).",
+   "what": "LitMOF is an LLM multi-agent framework that reads the original publication for each MOF structure and cross-validates it against the deposited entry. It produced LitMOF-DB with 189,567 computation-ready structures, including 9,277 repaired entries, and recovered 8,771 synthesized but undeposited frameworks.",
+   "why": "Nearly half of MOF database entries contain structural errors that propagate into screening and ML workflows."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "LitMOF: An LLM Multi-Agent for Literature-Validated Metal-Organic Frameworks Database Correction and Expansion",
+  "url": "https://doi.org/10.1038/s41467-026-79242-w",
+  "venue": "Nature Communications",
+  "watched": []
+ },
+ {
+  "abstract": "We present a systematic benchmark of MACE interatomic potentials for iron–nickel alloys, focusing on structural, elastic, and finite-temperature properties of chemically disordered body-centered-cubic (bcc) and face-centered-cubic (fcc) phases. The reference dataset comprises spin-polarized Perdew–Burke–Ernzerhof density-functional-theory calculations for special quasirandom structures (SQS) spanning composition, volume, and shear deformation. A system-specific MACE–sqs model trained on this dataset achieves validation errors of 2.0 meV atom − 1 for energies and 24.3 meV Å − 1 for forces. We compare MACE–sqs with several MACE foundation models, including models trained using Hubbard corrections, through equations of state, equilibrium volumes, cubic elastic properties, and thermal lattice expansion. MACE–sqs gives the most consistent overall performance for several zero-temperature structural and elastic benchmarks, although its relative performance depends on property and composition and it does not reproduce all experimental elastic trends. In the finite-temperature comparison, no single model is uniformly superior, and MACE–matpes agrees more closely with experiment for some compositions and comparison metrics. Finite-temperature calculations yield reasonable thermal-expansion coefficients near 300 K, while deviations at elevated temperatures and for magnetovolume sensitive compositions highlight the limitation of representing magnetic effects only implicitly through the spin-polarized reference data. These results define the tested application domain in which targeted SQS-based training improves upon broad foundation models and identify explicit magnetic degrees of freedom and broader configurational sampling as priorities for future development.",
+  "authors": [
+   "Kushal Ramakrishna",
+   "Mani Lokamani",
+   "Attila Cangi"
+  ],
+  "cat": "papers",
+  "doi": "10.1088/1361-651x/aec186",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "574adaca39fa99c1",
+  "kind": "paper",
+  "kw_score": 8,
+  "matched": [
+   "MACE",
+   "benchmark",
+   "thermal"
+  ],
+  "mytools": [
+   "MACE"
+  ],
+  "published": "2026-11-23",
+  "relevance": 4,
+  "score": 11,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Spin-polarized DFT on SQS spanning composition, volume and shear. Models are compared on equations of state, cubic elastic constants and thermal expansion.",
+   "impact": "Directly relevant to the InGaAs alloy project (self-trained Deep Potential vs MACE across compositions) and to MLIP failure-mode analysis. The finding that no model is uniformly best, and that magnetism is only implicit, is a useful template for comparing MLIPs on alloy κ in the Phonon Olympics.",
+   "what": "Systematic benchmark of MACE potentials for chemically disordered bcc/fcc Fe–Ni alloys. A system-specific MACE–sqs model, trained on spin-polarized PBE data for special quasirandom structures, reaches validation errors of 2.0 meV/atom (energy) and 24.3 meV/Å (forces). It is compared with several MACE foundation models.",
+   "why": "To define where targeted training beats broad foundation models for alloys with magnetic effects."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Capabilities and limitations of MACE interatomic potentials for Fe–Ni alloys: a systematic benchmark",
+  "url": "https://doi.org/10.1088/1361-651x/aec186",
+  "venue": "Modelling and Simulation in Materials Science and Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Ordered crystals generally exhibit crystalline heat transport, even when a boson peak is present. Here we show that the quasi-one-dimensional single crystal ( N b 4 S e 15 I 2 ) I 2 exhibits ultralow, glass-like thermal transport: its thermal conductivity increases monotonically and reaches only 0.21 W m − 1 K − 1 at 20 K. Heat-capacity and low-frequency Raman measurements reveal a boson-peak-like excess of low-energy vibrational states. The crystal consists of a rigid phonon-carrying backbone and weakly coordinated interchain I − ions. \\blue{Ab initio molecular dynamics (AIMD) reveals unusually large, strongly anisotropic, and anharmonic motion of these ions, while phonon calculations show an avoided crossing between low-frequency optical and acoustic branches, establishing acoustic–optical hybridization. Structural and AIMD evidence supports substantial involvement of the interchain subsystem in the soft low-frequency modes. A minimal theory shows how hybridization with strongly anharmonic interchain dynamics can reduce the group velocity and lifetime of acoustic-like heat carriers. These results link the boson-peak-like excess and glass-like heat transport as related but distinct consequences of coupling between a rigid heat-carrying backbone and weakly coordinated interchain degrees of freedom, suggesting a structural route to anomalous heat transport in ordered low-dimensional crystals.",
+  "authors": [
+   "Sun Da",
+   "Qingxuan Wang",
+   "Qing Xi",
+   "Yanglin Zhu",
+   "Meilin Li",
+   "Mingmeng Zhang",
+   "Kaiyi Wang",
+   "Junjie Zhai",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1103/fjnf-hdj9",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "88ba3518521e4999",
+  "kind": "paper",
+  "kw_score": 8,
+  "matched": [
    "phonon",
-   "superlattice",
-   "amorphous",
+   "anharmonic",
+   "glass",
+   "heat",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 4,
+  "score": 11,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Thermal conductivity, heat-capacity and low-frequency Raman measurements, combined with AIMD, phonon calculations and a minimal theory of hybridization with anharmonic interchain modes.",
+   "impact": "Relevant to lattice-dynamics and anharmonicity methods in the BTE projects (e.g. BaTiO3 and SrTiO3 defect phonons). It is a mechanism case where the standard phonon-gas BTE picture may fail, so it is useful for thinking about the limits of BTE.",
+   "what": "Reports glass-like, ultralow thermal conductivity (0.21 W/mK at 20 K) in the ordered quasi-1D crystal (Nb4Se15I2)I2. Heat capacity and Raman show a boson-peak-like excess of low-energy states. AIMD shows strongly anharmonic, anisotropic motion of interchain I- ions, and phonon calculations show acoustic–optical avoided crossing.",
+   "why": "To understand how an ordered crystal can show glassy heat transport and how boson-peak-like excess relates to it."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Glassy heat transport from interchain rattling in an ordered quasi-one-dimensional crystal",
+  "url": "https://doi.org/10.1103/fjnf-hdj9",
+  "venue": "Physical Review Letters",
+  "watched": []
+ },
+ {
+  "abstract": "Heterogeneous catalysts under reaction conditions have crowded surfaces where lateral interactions dictate reaction energetics. Understanding and predicting these interactions, however, remains a formidable challenge. First-principles calculations suffer from vast combinatorial complexity on crowded surfaces, while machine learning methods require large training data sets and have limited physical interpretability. We reveal a physics-based linear correlation mapping complex coverage-dependent adsorption energies directly to computationally inexpensive gas-phase pairwise interactions that are evaluated via Mie potentials. This correlation is governed by bond order conservation: as surface−adsorbate interactions weaken under crowding, adsorbate−adsorbate interactions strengthen. This correlation generalizes across metal surfaces having diverse crystal facets, surface tensions, and single- and multicomponent adsorption classes (e.g., dissociative S*, N* + O*, and nondissociative CO*). This correlation predicts coverage-dependent reaction thermodynamics for NO* dissociation and for atomic-adsorbate diffusion. Coverage-dependent trends in adsorption energies of CO*/Pt(111) agree with experimental calorimetry. Ultimately, these gas-phase pairwise interactions are a descriptor for lateral interactions of atomic and structurally simple adsorbates on structurally stable metal surfaces. The generalizability and physical interpretability of this descriptor open new avenues for modeling adsorption and reaction energies on crowded metal surfaces.",
+  "authors": [
+   "Shenjun Zha",
+   "Danish Uzair Bin Abdul Hamid Khan Surattee",
+   "Pranjali Priyadarshini",
+   "Tej Salil Choksi"
+  ],
+  "cat": "papers",
+  "doi": "10.1021/jacs.6c13957",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "869a2664b859ff1e",
+  "kind": "paper",
+  "kw_score": 8,
+  "matched": [
+   "interpretab",
+   "generaliz",
+   "first-principles",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 1,
+  "score": 2,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "First-principles adsorption energies correlated against Mie-potential gas-phase interactions.",
+   "impact": "Low relevance. Catalysis-specific; only a general example of a physically interpretable descriptor in place of a data-hungry ML model.",
+   "what": "Shows a physics-based linear correlation mapping coverage-dependent adsorption energies on metal surfaces to gas-phase pairwise (Mie potential) interactions, explained by bond-order conservation. It generalizes across facets and adsorbate classes and agrees with CO/Pt(111) calorimetry.",
+   "why": "Lateral interactions on crowded catalyst surfaces are hard to compute and ML methods need large data sets and lack interpretability."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Coverage Effects in Heterogeneous Catalysis: From Fundamental Understanding to Predictive Modeling",
+  "url": "https://doi.org/10.1021/jacs.6c13957",
+  "venue": "Journal of the American Chemical Society",
+  "watched": []
+ },
+ {
+  "abstract": "Developing stable and environmentally lead-free perovskites is essential for future optoelectronic technologies. In this work, we systematically investigate the structural, mechanical, electronic, optical, thermodynamic and dynamical properties of Cs 2 CdMCl 6 (M = Mg, Si, Ge, Sn) double halide perovskites through first-principles density functional theory calculations. Both GGA-PBE and GGA-PBEsol calculations confirm the cubic Fm- 3 ¯ m crystal structure to be stable and the lattice parameters and M-Cl bond lengths are found to increase with the atomic size of M-site. The calculated Goldschmidt and octahedral tolerance factors are in good agreement with the structural possibility of the studied compounds, although Cs 2 CdSiCl 6 falls outside the preferred octahedral and Bartel criteria. All the compositions reveal ductile nature according to their Pugh’s ratio and Poisson’s ratio. The formation energy was found to be negative for all compounds. Moreover, all the compositions satisfy the Born-Huang mechanical stability criteria. The HSE06 calculations show large bandgaps, ranging from 2.13 to 4.27 eV. All compounds exhibit indirect bandgap except Cs 2 CdMgCl 6 . For all compounds, the electron effective masses ( m e * / m 0 ) are significantly lower than the hole effective masses ( m h * / m 0 ) under both the GGA-PBE and GGA-PBE + SOC approximations. Phonon dispersion calculations reveal the dynamical stability except Cs 2 CdSnCl 6 . However, ab initio molecular dynamics simulations at 300 K for 5 ps do not show significant structural distortion, implying good thermal integrity under the simulated conditions. Optical calculations suggest high absorption and optical conductivity with good dielectric response, where Cs 2 CdSiCl 6 presenting the strongest low-energy…",
+  "authors": [
+   "Shafiqul Islam",
+   "Akash  Kumer Paul",
+   "Budrun Neher"
+  ],
+  "cat": "papers",
+  "doi": "10.1016/j.nxmate.2026.104091",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "7609801c77ab4a3c",
+  "kind": "paper",
+  "kw_score": 11,
+  "matched": [
+   "phonon",
+   "robustness",
+   "wide-bandgap",
+   "first-principles",
+   "DFT",
+   "thermal",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-22",
+  "relevance": 1,
+  "score": 5,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "GGA-PBE/PBEsol and HSE06 DFT, phonon dispersions and 5 ps AIMD at 300 K.",
+   "impact": "Low relevance. It uses only standard DFT and phonon stability checks and has no thermal-transport calculation.",
+   "what": "DFT and AIMD study of Cs2CdMCl6 (M = Mg, Si, Ge, Sn) double halide perovskites: structural, mechanical, electronic (HSE06 gaps 2.13–4.27 eV), optical and phonon properties. All are dynamically stable except Cs2CdSnCl6, and AIMD at 300 K for 5 ps shows no significant distortion.",
+   "why": "To find stable lead-free perovskites for optoelectronics."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Composition-dependent structural, electronic, mechanical, optical and stability properties of lead-free Cs2CdMCl6 (M = Mg, Si, Ge, Sn) halide perovskites for wide-bandgap optoelectronic applications: A DFT and AIMD study",
+  "url": "https://doi.org/10.1016/j.nxmate.2026.104091",
+  "venue": "Next Materials",
+  "watched": []
+ },
+ {
+  "abstract": "The relative contributions of electrons and phonons to heat transport in uranium nitride (UN) and uranium dioxide (UO₂) remain incompletely resolved. DFT + U calculations are combined with three-phonon Boltzmann transport for the lattice thermal conductivity (κ L ) and with electron–phonon-limited carrier transport, in which the carrier lifetimes are obtained from the imaginary part of the electron–phonon self-energy within the self-energy relaxation-time approximation (SERTA) and compared with the constant relaxation-time approximation (CRTA). Among non-magnetic, ferromagnetic and collinear antiferromagnetic (AFM) configurations, the AFM solution is the lowest in energy for both compounds and reproduces their distinct electronic structures: a metal with a narrow magnetic pseudogap at the Fermi level in UN and a 2.29 eV Mott–Hubbard gap in UO₂. UO₂ is lattice-dominated, with κ L decreasing from 7.7 to 2.4 W m ‐1 K ‐1 between 300 and 1000 K, whereas UN is electron-dominated, with an electronic thermal conductivity increasing from 12.9 to 31.6 W m ‐1 K ‐1 over 300–1500 K. Within this electron–phonon-limited model, AFM-SERTA reproduces the measured temperature dependence of the electrical conductivity of UN, whereas the CRTA does not. Without fitting to thermal-conductivity data, this work captures the order-of-magnitude thermal-conductivity advantage of UN over UO₂, providing a first-principles route for screening advanced nuclear fuels.",
+  "authors": [
+   "Cintia Leite Gonçalves",
+   "Gareth F. Stephens",
+   "Antoine J. Claisse",
+   "Simon C. Middleburgh"
+  ],
+  "cat": "papers",
+  "doi": "10.1016/j.commatsci.2026.115285",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "8fbb86e98032c5eb",
+  "kind": "paper",
+  "kw_score": 11,
+  "matched": [
+   "phonon",
+   "three-phonon",
+   "first-principles",
+   "DFT",
+   "heat",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-22",
+  "relevance": 3,
+  "score": 11,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "DFT+U with magnetic configurations (NM, FM, AFM), three-phonon BTE, and electron–phonon self-energy relaxation-time approximation. No fit to thermal-conductivity data.",
+   "impact": "Methodologically close to the phonon BTE workflow (phono3py/ALAMODE-type) and shows the value of SERTA over CRTA when electrons matter. It is not directly tied to a current project; it is only loosely transferable to the metallic/doped cases.",
+   "what": "First-principles study of UN and UO2 combining DFT+U, three-phonon BTE for lattice κ and electron–phonon-limited transport (SERTA vs CRTA). UO2 is lattice-dominated, with κL falling from 7.7 to 2.4 W/mK over 300–1000 K. UN is electron-dominated, with electronic κ rising from 12.9 to 31.6 W/mK over 300–1500 K.",
+   "why": "The relative electron and phonon contributions to heat transport in these nuclear fuels are unresolved."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Effects of magnetic configuration and electron–phonon scattering on thermal transport in uranium nitride and uranium dioxide",
+  "url": "https://doi.org/10.1016/j.commatsci.2026.115285",
+  "venue": "Computational Materials Science",
+  "watched": []
+ },
+ {
+  "abstract": "Insulating materials featuring high thermal conductivity can enhance heat removal near the electron channel in modern transistors. Ultrawide bandgap beryllium oxide (BeO) is promising owing to its high bulk thermal conductivity, but its thermal transport in ultrathin films remains largely unexplored. This study investigates phonon thermal transport in ultrathin (<30 nm) single‐crystalline (sc‐) and nanocrystalline (nc‐) BeO films grown by plasma‐enhanced atomic layer deposition (PEALD) at 150°C on GaN‐on‐Al 2 O 3 and Si substrates, respectively. The challenge of extracting cross‐plane thermal conductivity in such ultrathin films is addressed by combining frequency‐domain thermoreflectance (FDTR) with a diffusive series thermal resistor model and Monte Carlo uncertainty analysis, yielding approximately 20 and 12 W m −1 K −1 for sc‐BeO and nc‐BeO, respectively. The value obtained for sc‐BeO exceeds those reported for most dielectric thin films of comparable thickness. The FDTR‐extracted total thermal resistance data for sc‐BeO are also consistent with a ballistic transport model. Device thermal modeling indicates that employing sc‐BeO as a top‐side heat spreader reduces device thermal resistance, with greater cooling benefits at larger film thicknesses and in devices based on low‐thermal‐conductivity materials. These findings highlight the potential of PEALD BeO as a low‐thermal‐budget dielectric heat spreader for next‐generation power and radiofrequency devices.",
+  "authors": [
+   "Jihyun Kim",
+   "Jonghyun Bae",
+   "Jisu Kim",
+   "Dohwan Jung",
+   "Dongyun Seo",
+   "Yoonseo Jang",
+   "Prakash R. Sultane",
+   "Christopher W. Bielawski",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1002/smll.76796",
+  "first_seen": "2026-11-25",
+  "focus": "mixed",
+  "id": "aaeedd1a887bc13e",
+  "kind": "paper",
+  "kw_score": 14,
+  "matched": [
+   "phonon",
+   "FDTR",
+   "uncertainty",
+   "GaN",
+   "transistor",
+   "substrate",
+   "thermoreflectance",
+   "cooling",
+   "oxide",
+   "heat",
    "thermal",
    "materials"
   ],
   "mytools": [],
   "published": "2026-11-23",
   "relevance": 3,
-  "score": 7,
-  "source": "Crossref",
+  "score": 14,
+  "source": "OpenAlex",
   "summary": {
    "by": "claude",
-   "how": "Phase-coherent model retaining all acoustic branches, mode conversion and incidence angles; quarter-wavelength criterion at the dominant phonon frequency; reports bilayers with thermal resistance up to 3000 times that of previously reported superlattices.",
-   "impact": "Moderately relevant: coherent interface and multilayer phonon transmission is related to the GaN/Al2O3 interface and SrTiO3 grain boundary work, and the optimisation approach could inspire band-discretization checks in JAX-BTE. The cryogenic regime is far from the GaN HEMT operating range.",
-   "what": "A wave-mechanics framework for phonon transmission and thermal resistance of arbitrarily thick superlattices, combined with the NSGA-II genetic algorithm to pick materials and layer thicknesses.",
-   "why": "At milliKelvin temperatures phonons are ballistic and coherent, do not follow Fourier's law, and existing diffusive or amorphous isolation offers limited spectral control."
+   "how": "FDTR measurement, diffusive series resistor model, Monte Carlo uncertainty analysis, and device thermal modeling. Total resistance data are consistent with a ballistic transport model.",
+   "impact": "Related to the GaN/AlGaN HEMT multiscale thermal modeling project: the device modeling of a BeO heat spreader on GaN and the ballistic-transport consistency give data for validation. The work is mainly experimental, so relevance is moderate.",
+   "what": "Measures cross-plane thermal conductivity of ultrathin (<30 nm) PEALD BeO films on GaN-on-Al2O3 and Si using FDTR, a series-resistor model and Monte Carlo uncertainty analysis. Values are about 20 W/mK (single-crystalline) and 12 W/mK (nanocrystalline). Device thermal modeling shows sc-BeO as a top-side heat spreader reduces device thermal resistance.",
+   "why": "High-κ insulators near the channel could improve heat removal in transistors, but ultrathin BeO transport was unexplored."
+  },
+  "themes": [
+   "device",
+   "bte"
+  ],
+  "title": "High Thermal Conductivity in Ultrathin Single‐Crystalline BeO Films",
+  "url": "https://doi.org/10.1002/smll.76796",
+  "venue": "Small",
+  "watched": []
+ },
+ {
+  "abstract": "Composite materials provide a versatile platform for suppressing lattice thermal conductivity through secondary phases and engineered interfaces that effectively scatter phonons while minimizing deterioration of electronic transport, offering a promising route toward high‐performance thermoelectrics. Herein, we systematically review how composite architectures manipulate thermal transport and enhance the thermoelectric figure of merit. We begin with classical phonon theory to understand the thermal transport in single phase. By establishing performance benchmarks for pristine matrix, we then compare various reported composite thermoelectric materials across low‐, mid‐, and high‐temperature regimes. The experimental trends are rationalized by the mean‐field theory, interfacial mechanisms (acoustic mismatch model and diffuse mismatch model), and nanostructure‐induced size effects. Next, we examine different compositing strategies to modulate the phononic contribution to thermal conductivity, including porous structure, nanoprecipitates, magnetic phases, crystalline–amorphous hybrid, and superlattice. Extending from materials to thermoelectric devices, we discuss the critical challenges associated with incorporating composite thermoelectric materials into thermoelectric devices, with particular emphasis on non‐uniform heat field, and thermal expansion mismatch for device reliability and operational stability. Finally, we outline practical design principles, highlighting opportunities for reproducible materials fabrication, interface engineering, and synergistic optimization of phonon and carrier transport to accelerate the development of next‐generation composite thermoelectrics.",
+  "authors": [
+   "Bo‐Yan Li",
+   "Meng Li",
+   "Liang‐Cao Yin",
+   "Xiao‐Lei Shi",
+   "Zhi‐Gang Chen"
+  ],
+  "cat": "papers",
+  "doi": "10.1002/cey2.70420",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "74a4b6518b286bc9",
+  "kind": "paper",
+  "kw_score": 14,
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "superlattice",
+   "amorphous",
+   "benchmark",
+   "reliability",
+   "interface",
+   "heat",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-22",
+  "relevance": 2,
+  "score": 11,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Literature review with benchmarks across temperature regimes and design principles.",
+   "impact": "Background on AMM/DMM and interface scattering relevant to the interfacial transport work (GaN/Al2O3, BAs interfaces). Mostly experimental and thermoelectric-focused, so moderate relevance as a reference.",
+   "what": "Review of how composite architectures (porous structures, nanoprecipitates, magnetic phases, crystalline–amorphous hybrids, superlattices) suppress lattice thermal conductivity in thermoelectrics. It covers phonon theory, AMM/DMM interface models, mean-field theory and device-level issues such as non-uniform heat fields and thermal expansion mismatch.",
+   "why": "To suppress lattice κ with secondary phases and interfaces without degrading electronic transport."
   },
   "themes": [
    "phonon"
   ],
-  "title": "Coherent phonon blocking in superlattices",
-  "url": "https://doi.org/10.1063/5.0355469",
-  "venue": "Journal of Applied Physics",
+  "title": "Thermal Transport in Composite Thermoelectrics: From Phonon Scattering Mechanisms to Device Reliability",
+  "url": "https://doi.org/10.1002/cey2.70420",
+  "venue": "Carbon Energy",
   "watched": []
  },
  {
@@ -95,6 +579,53 @@
   "title": "Quasi-van der Waals epitaxy of low-strain β -Ga2O3 on fluorophlogopite enables high-performance solar-blind photodetectors",
   "url": "https://doi.org/10.1063/5.0352726",
   "venue": "Applied Physics Letters",
+  "watched": []
+ },
+ {
+  "abstract": "At cryogenic temperatures, phonons become one of the dominant energy carriers and thus can strongly influence the performance of electronic and sensing devices. Phonon transport departs fundamentally from the diffusive behavior typically seen at higher temperatures, as cryogenic phonons exhibit ballistic transport, propagate as waves, and possess large coherence lengths. Since phonons at milliKelvin temperatures do not follow Fourier's law and are only weakly coupled to electrons, controlling and isolating phonon propagation becomes a significant challenge. Conventional approaches to thermal isolation rely on diffusion-based boundary scattering or amorphous materials, offering limited control over the spectral properties of transported phonons. In this work, we present a wave-mechanics-based framework that predicts phonon transmission and thermal resistance of arbitrarily thick superlattices while retaining all acoustic branches, mode-conversion pathways, and angles of incidence. By enforcing phase coherence, our model predicts frequency-dependent transmission through arbitrary multi-layered structures. We use a genetic algorithm (NSGA-II) to efficiently select both materials and layer thicknesses. Our success criterion is that constituent layers satisfy the quarter-wavelength condition of the dominant phonon frequencies at a target temperature. This strategy identifies novel bilayer combinations that achieve thermal resistance of up to 3000 times greater than previously reported superlattices. The identified superlattices are poised to advance any technology that relies on coherent acoustic scattering, from ultra-low-temperature thermal insulation in superconducting flip-chip assemblies to phonon-blocking components in micro- and nano-electromechanical systems. Our…",
+  "authors": [
+   "Anil Erol",
+   "Xiang Hua",
+   "Kirby Myers",
+   "Lawrence Friedman",
+   "Alexander Marakov",
+   "Melissa G. Loving",
+   "Joshua Shipman",
+   "Arsha Mamoozadeh",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1063/5.0355469",
+  "first_seen": "2026-11-24",
+  "focus": "computational",
+  "id": "b08532ae61480991",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "phonon",
+   "superlattice",
+   "amorphous",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 3,
+  "score": 7,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Phase-coherent model retaining all acoustic branches, mode conversion and incidence angles; quarter-wavelength criterion at the dominant phonon frequency; reports bilayers with thermal resistance up to 3000 times that of previously reported superlattices.",
+   "impact": "Moderately relevant: coherent interface and multilayer phonon transmission is related to the GaN/Al2O3 interface and SrTiO3 grain boundary work, and the optimisation approach could inspire band-discretization checks in JAX-BTE. The cryogenic regime is far from the GaN HEMT operating range.",
+   "what": "A wave-mechanics framework for phonon transmission and thermal resistance of arbitrarily thick superlattices, combined with the NSGA-II genetic algorithm to pick materials and layer thicknesses.",
+   "why": "At milliKelvin temperatures phonons are ballistic and coherent, do not follow Fourier's law, and existing diffusive or amorphous isolation offers limited spectral control."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Coherent phonon blocking in superlattices",
+  "url": "https://doi.org/10.1063/5.0355469",
+  "venue": "Journal of Applied Physics",
   "watched": []
  },
  {

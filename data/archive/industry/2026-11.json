@@ -1,41 +1,437 @@
 [
  {
-  "abstract": "Agent Skills for computational biology — RNA-seq, single-cell, protein structure, molecular dynamics, peptide design, literature mining and publication figures. Turn any AI coding agent into a computational biology assistant. Topics: agent-skills, agent-skills-standard, bioinformatics, claude-code, claude-skills, computational-biology, literature-mining, molecular-dynamics, peptide-design, protein-structure, research-tools, rna-seq, scientific-visualization, single-cell.",
+  "abstract": "Repository for molar crate and its dependencies Topics: molecular-dynamics, molecular-dynamics-simulation, molecular-modeling, trajectory-analysis.",
   "authors": [
-   "ssinder"
+   "yesint"
   ],
   "cat": "industry",
-  "created": "2026-10-25",
+  "created": "2022-12-17",
   "doi": "",
-  "first_seen": "2026-11-24",
+  "first_seen": "2026-11-25",
   "focus": "",
-  "id": "83a8e15aebd831fd",
+  "id": "963ecc4250835dbe",
   "kind": "repo",
-  "kw_score": 2,
+  "kw_score": 1,
   "matched": [
-   "scientific",
-   "agent"
+   "simulation"
   ],
   "mytools": [],
-  "published": "2026-11-23",
-  "relevance": 2,
-  "score": -1,
+  "published": "2026-11-24",
+  "score": 1,
   "source": "GitHub search",
   "star_delta": null,
-  "stars": 77,
+  "stars": 67,
   "summary": {
-   "by": "claude",
-   "how": "Skills in the agent-skills standard for Claude Code and similar agents, written in Python.",
-   "impact": "Low relevance for the content (biology), but a useful template for building agent skills around VASP/LAMMPS/phonopy/MLPhonon workflows.",
-   "what": "A GitHub collection of agent skills for computational biology (RNA-seq, single-cell, protein structure, molecular dynamics, peptide design, literature mining).",
-   "why": "To turn AI coding agents into computational biology assistants."
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "Repository for molar crate and its dependencies Topics: molecular-dynamics, molecular-dynamics-simulation, molecular-modeling, trajectory-analysis.",
+   "why": ""
   },
   "themes": [
    "industry"
   ],
-  "title": "ssinder/bioinformatics-agent-skills",
-  "url": "https://github.com/ssinder/bioinformatics-agent-skills",
+  "title": "yesint/molar",
+  "url": "https://github.com/yesint/molar",
+  "venue": "GitHub · Rust",
+  "watched": []
+ },
+ {
+  "abstract": "Python tools for automating routine tasks encountered when running quantum chemistry computations. Topics: catalysis, compchem, computational-chemistry, density-functional-theory, dft, dft-calculations, gaussian, ir-spectra, orca-quantum-chemistry, psi4, python, quantum-chemistry, quantum-chemistry-automation, quasi-harmonic-approximation, rrho, steric-parameters, sterimol-parameters, thermochemistry, vibrational-entropies.",
+  "authors": [
+   "QChASM"
+  ],
+  "cat": "industry",
+  "created": "2019-06-05",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "5e7fd2c45804098a",
+  "kind": "repo",
+  "kw_score": 1,
+  "matched": [
+   "chemistry"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 1,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 64,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "Python tools for automating routine tasks encountered when running quantum chemistry computations. Topics: catalysis, compchem, computational-chemistry, density-functional-theory, dft, dft-calculations, gaussian, ir-spectra, orca-quantum-chemistry, psi4, python, quantum-chemistry, quantum-chemistry-automation, quasi-harmonic-approximation, rrho,…",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "QChASM/AaronTools.py",
+  "url": "https://github.com/QChASM/AaronTools.py",
   "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Key Takeaways: AI can accelerate derivative chip design, but those derivatives may not be physically viable or cost-effective. AI-assisted reuse depends on the availability of accurate design data, engineering knowledge, and proven methodologies. End-to-end automation is limited by gaps in multi-physics simulation, implementation, and verification. Chipmakers are seeing mixed results when they apply AI to derivative and new chip designs, finding that AI-generated solutions can be substantially different and more costly than expected, and that AI-driven designs introduce new manufacturing and verification challenges. Several key problems have emerged when incorporating AI in chip design. Among them: The data needed to ensure that follow-on designs will function as expected may not be complete because some of that data resides in other companies, such as foundries, OSATs, and various equipment and process providers; Integrating rapidly evolving AI capabilities into established EDA flows remains challenging, especially where predictability, traceability, and silicon-proven results are required. Many organizations have customized tools for their own chips, markets, and expertise, and AI tools have not yet adapted to those changes. “There’s the engineer in me that says if AI can take us to brave new worlds where humans haven’t yet gone, that’s an exciting thing,” said Nilesh Kamdar, general manager of Keysight EDA . “But I’ve seen it run into problems. For example, I had a low-pass filter, which we call a pixelated model, and it looks like a QR code in the middle. There’s a high-frequency part running at about 2 GHz. If I want to change it to 2.5 GHz, a human would look it up in a textbook. There are traditional ways to do it, and they would create something that any other…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "d8aa580497087634",
+  "kind": "news",
+  "kw_score": 3,
+  "matched": [
+   "simulation",
+   "physics",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 2,
+  "score": 0,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Industry interviews, for example Keysight EDA's general manager.",
+   "impact": "Low-to-moderate relevance. Cites missing multi-physics simulation as a bottleneck, which supports the case for fast thermal simulation in industry roles.",
+   "what": "Article reporting mixed results when chipmakers apply AI to derivative and new chip designs, with outputs differing from expectations and costing more, and with gaps in multi-physics simulation, data and verification limiting end-to-end automation.",
+   "why": "AI-assisted reuse depends on complete design data, which may sit at foundries, OSATs and equipment providers."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "Why AI Struggles To Reuse Chip Designs",
+  "url": "https://semiengineering.com/why-ai-struggles-to-reuse-chip-designs/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "This python code creates hybrid MD/MC (NAMD/GOMC) simulations for the NVT, NPT, GCMC, and GEMC-NVT ensembles Topics: computational-biology, computational-chemistry, molecular-dynamics, monte-carlo-simulation, physics-simulation, simulation.",
+  "authors": [
+   "GOMC-WSU"
+  ],
+  "cat": "industry",
+  "created": "2021-03-11",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "2fc7e645df4b4cd2",
+  "kind": "repo",
+  "kw_score": 3,
+  "matched": [
+   "simulation",
+   "chemistry",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": -3,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 51,
+  "summary": {
+   "by": "claude",
+   "how": "Python wrapper around NAMD and GOMC.",
+   "impact": "Low relevance. Classical MD/MC for chemistry; the workflow does not use LAMMPS or MLIPs.",
+   "what": "py-MCMD is a Python code that sets up hybrid MD/MC (NAMD/GOMC) simulations for NVT, NPT, GCMC and GEMC-NVT ensembles.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "GOMC-WSU/py-MCMD",
+  "url": "https://github.com/GOMC-WSU/py-MCMD",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "BluGlass Ltd of Silverwater, Australia, a vertically integrated developer and manufacturer of visible gallium nitride (GaN) lasers, is expanding its GaN laser product roadmap into surface-emitting lasers, adding a potential new product platform that complements its established edge-emitting laser business. It extends the existing roadmap into a new form factor, consistent with the firm’s established strategy. The initiative builds on BluGlass’s expertise in epitaxy, device design, fabrication and optical mode control, together with recent laser designs, including a newly filed provisional patent application for a GaN-based photonic-crystal surface-emitting laser (PCSEL) platform...",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "c28905b42e76756e",
+  "kind": "news",
+  "kw_score": 4,
+  "matched": [
+   "GaN"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 1,
+  "score": -2,
+  "source": "Semiconductor Today",
+  "summary": {
+   "by": "claude",
+   "how": "Builds on in-house epitaxy, device design, fabrication and optical mode control.",
+   "impact": "Low relevance. GaN optoelectronics, not power/RF HEMT thermal modeling.",
+   "what": "BluGlass is extending its visible GaN laser roadmap to surface-emitting lasers, citing a provisional patent application for a GaN-based photonic-crystal surface-emitting laser (PCSEL) platform.",
+   "why": "To add a new product platform complementing its edge-emitting lasers."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "BluGlass expands GaN laser product roadmap to surface-emitting lasers",
+  "url": "https://www.semiconductor-today.com/news_items/2026/nov/bluglass-241126.shtml",
+  "venue": "Semiconductor Today",
+  "watched": []
+ },
+ {
+  "abstract": "An open-source active learning framework for training machine-learned interatomic potentials Topics: active-learning, atomistic-machine-learning, interatomic-potentials, library, uncertainty-quantification.",
+  "authors": [
+   "lanl"
+  ],
+  "cat": "industry",
+  "created": "2023-01-04",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "ff0fdbc8578a5b9c",
+  "kind": "repo",
+  "kw_score": 4,
+  "matched": [
+   "uncertainty",
+   "atomistic"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 4,
+  "score": 7,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 48,
+  "summary": {
+   "by": "claude",
+   "how": "Python library; no other details given in the provided text.",
+   "impact": "Directly relevant to the active-learning MLIP work (boron arsenide, AlGaN pipeline) and data-efficiency questions. Worth checking which MLIP backends it supports and how it estimates uncertainty.",
+   "what": "lanl/ALF is an open-source active learning framework for training machine-learned interatomic potentials, with topics including uncertainty quantification.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "lanl/ALF",
+  "url": "https://github.com/lanl/ALF",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "The age of physical AI is here, and with it comes a significant increase in the demand of custom silicon. By 2025, five million industrial robots were operating worldwide. As these systems become more capable, their demands on silicon become more distinct. Each must balance computation and memory with the realities of power, latency, reliability, and security. Fig. 1: Annual installations of industrial robots, 5 largest markets, 2025. Source: International Federation of Robotics, World Robotics 2026 . Chart redrawn by ChipAgents. For humanoid robots in particular, application-specific hardware can provide the agility and speed required to perform specialized tasks in real time. As those requirements diverge, specialized ASICs become more attractive, because they can be optimized for the exact workloads, latency targets, power envelopes, and operating environments of a particular system. The constraint to this innovation is development speed: AI models and software evolve faster than the conventional silicon tape out cycles, creating a need to accelerate the entire path from design intent and exploration to physical implementation and validation. For agentic AI to deliver that acceleration, it must meet three requirements. No. 1: Persistent design context Agents need a shared, persistent representation of the design and the engineering knowledge behind it. A design ontology provides structure: it connects design flows, RTL design, verification, verification tools, error diagnosis and repair, synthesis, timing, and PPA optimization methodologies. Organization-specific methodologies and prior decisions add the rationale for how the design should evolve. To remain useful across tasks, this context must track provenance, design versions, and dependencies, so agents can…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "f2c82b71ec31237f",
+  "kind": "news",
+  "kw_score": 6,
+  "matched": [
+   "packaging",
+   "reliability",
+   "interface",
+   "thermal",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 2,
+  "score": 3,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Three stated requirements for agentic AI; only the first (persistent design context) is visible in the excerpt.",
+   "impact": "Low relevance. Mainly an analogy for agent workflows with persistent context, which is relevant in spirit to automated first-principles/lattice-dynamics agents, but it has no thermal content in the excerpt.",
+   "what": "Article on using agentic AI to speed up custom silicon for physical AI (robots), arguing agents need persistent design context, such as a design ontology covering RTL, verification, synthesis, timing and PPA.",
+   "why": "AI models evolve faster than conventional tape-out cycles, so design development speed is the constraint."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "How Can AI Build Faster And Better Silicon For Physical AI?",
+  "url": "https://semiengineering.com/how-can-ai-build-faster-and-better-silicon-for-physical-ai/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Verifying the new features and options in UCIe 4.0 requires evidence that state transitions are correct, errors detected and corrected, and recovery preserves the behavior required by the design. Siemens Avery UCIe VIP brings together compliance tests, protocol-aware monitoring, transaction recording, scoreboarding, error-injection callbacks, and targeted debug to support this work across multiple layers. Used with a verification plan derived from the exact UCIe revision and the design’s supported options, these capabilities help teams build a connected view of both normal operation and failure response. Read more here . Fig.1: Siemens Avery UCIe VIP – Verification Architecture The post Securing The Chiplet Future With A UCIe 4.0-Aware Verification Architecture appeared first on Semiconductor Engineering .",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "4decc83470dcf5f0",
+  "kind": "news",
+  "kw_score": 8,
+  "matched": [
+   "chiplet",
+   "semiconductor"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 1,
+  "score": 2,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "A verification plan derived from the exact UCIe revision and supported options.",
+   "impact": "Low relevance. Verification tooling with no thermal or materials content.",
+   "what": "Describes Siemens Avery UCIe VIP for verifying UCIe 4.0 features with compliance tests, protocol-aware monitoring, transaction recording, scoreboarding and error-injection callbacks.",
+   "why": "To show that state transitions, error handling and recovery are correct in UCIe 4.0 designs."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Securing The Chiplet Future With A UCIe 4.0-Aware Verification Architecture",
+  "url": "https://semiengineering.com/securing-the-chiplet-future-with-a-ucie-4-0-aware-verification-architecture/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "The system-on-chip (SoC) transformed semiconductor design by bringing the major functions of an electronic system onto one die, an integration that shaped chip architecture for years. Multi-die design is now changing the model again, distributing system functionality across multiple dies within a single package. While this approach gives engineers greater flexibility to align semiconductor design with system requirements, bringing these designs to life takes more than a die-to-die link to transport transactions across the package. It requires a system architecture that manages how data moves between dies. Data movement gets more complicated In AI and high-performance computing (HPC) systems, multi-die architectures enable teams to scale compute and select an appropriate process technology for each part of the design. These partitioning choices determine which transactions remain within a die and which must cross die boundaries. Treating each boundary independently increases integration and verification effort, complicates performance management, and reduces the practical value of chiplet reuse. Still, managing communication across these die boundaries requires a clear separation between the physical interface that transports transactions and the system architecture that manages them. Extending the system’s data-movement architecture across die boundaries allows engineers to repartition or scale designs without rebuilding the entire communication architecture. The die-to-die controller and PHY provide transport between dies: the controller handles protocol functions, while the PHY provides the electrical interface. The link does not automatically preserve the traffic management, quality of service (QoS), routing, address handling, and observability established by the…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "92b5001709e879cd",
+  "kind": "news",
+  "kw_score": 9,
+  "matched": [
+   "chiplet",
+   "semiconductor",
+   "HPC"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 1,
+  "score": 3,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "Architecture discussion based on the separation of transport (controller/PHY) from system architecture.",
+   "impact": "Low relevance. Chiplet architecture trend with no thermal content in the excerpt.",
+   "what": "Article arguing that multi-die systems need a system-level data-movement architecture (traffic management, QoS, routing, observability) beyond a die-to-die controller and PHY.",
+   "why": "Treating each die boundary independently raises integration and verification effort and reduces chiplet reuse."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity",
+  "url": "https://semiengineering.com/a-link-is-not-architecture-why-multi-die-systems-need-more-than-die-to-die-connectivity/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Added [Torch] Optimized Triangle Multiplicative Update kernels now cover ranges of shapes. In 0.13, the optimized inference kernels ran only on a fixed list of exact shapes. In 0.14, each pair width / hidden width class has one kernel that covers a continuous range of batch sizes and sequence lengths. See \"Coverage extension\" below. Inference (no-grad calls) on H100 SXM, H200, GH200 480GB, B200, B300 SXM, GB300 and RTX PRO 6000 Blackwell (Server and Workstation Edition). Pair width C and hidden width D: 128/128, 256/256, 384/256, 384/384 and 512/512, with and without projection bias. Requires a BF16 pair representation and BF16 parameters. Range: sequence length N from 128 and batch size B up to 32, up to a size limit that depends on the class. On B200, short sequences (N from 32) are also covered for B up to 4. Shapes outside the range use the 0.12 implementation. Every shape that used an optimized kernel in 0.13 still uses one in 0.14. The kernels ship prebuilt in the wheel. They need no JIT compilation at run time. [Torch] B300 and GB300: first release with optimized TriMul kernels for these GPUs (inference, all five classes above). [Torch] Vera Rubin: optimized cuet.triangle_multiplicative_update inference for 128/128, 256/256, 384/256 and 512/512 (see \"Coverage extension\"). [Torch/JAX] Vera Rubin: new optimized Triangle Attention forward kernels ( cuet.triangle_attention , cuex.triangle_attention ). BF16 inputs and BF16 bias, head dimension 16, 32, 64 or 128, with the default scale (1/√head dimension). Key sequence length: a multiple of 8; above 64 for head dimensions 16, 32 and 64. With or without a mask. Other calls, and the backward pass, use the existing Blackwell kernels, as in 0.13. [Torch/JAX] Triangle Attention on RTX PRO 6000 Blackwell: faster forward…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "ffdf711d1e7c549f",
+  "kind": "tool",
+  "kw_score": 10,
+  "matched": [
+   "GPU"
+  ],
+  "mytools": [
+   "JAX",
+   "CUDA"
+  ],
+  "published": "2026-11-25",
+  "relevance": 2,
+  "score": 7,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "claude",
+   "how": "Prebuilt kernels in the wheel with no JIT, BF16 inputs, and an N and batch range that depends on the class.",
+   "impact": "Mostly targets AlphaFold-style triangle operations. The library supports equivariant networks such as MACE, but these release notes do not mention MLIP kernels. Low relevance to the JAX/CUDA HPC work.",
+   "what": "cuEquivariance v0.14.0 extends optimized Triangle Multiplicative Update kernels to continuous ranges of shapes. It adds the first TriMul kernels for B300 and GB300 and Vera Rubin support, plus new Triangle Attention forward kernels for Torch and JAX.",
+   "why": "The 0.13 optimized inference kernels only covered a fixed list of exact shapes."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "NVIDIA cuEquivariance v0.14.0",
+  "url": "https://github.com/NVIDIA/cuEquivariance/releases/tag/v0.14.0",
+  "venue": "NVIDIA cuEquivariance",
+  "watched": []
+ },
+ {
+  "abstract": "Added [Torch] Optimized Triangle Multiplicative Update kernels. cuet.triangle_multiplicative_update now runs new prebuilt optimized kernels on the shapes each kernel was validated on. All other calls use the 0.12 implementation, unchanged. CUDA 13 wheels only. See \"Optimized TriMul kernels\" below. Inference on H100 SXM, H200, GH200 480GB, B200 and RTX PRO 6000 Blackwell; training on H100 SXM, H200, GH200 480GB and B200. Pair width C and hidden width D: 128/128, 256/256, 384/256 and 512/512, with and without projection bias. The exact supported shapes are listed under \"Supported configurations\" below. [JAX] cuex.triangle_attention accepts mask=None for unmasked attention, as cuet.triangle_attention does. The call then runs the unmasked kernels, without an all-True mask. This is supported through jax.grad and jax.vmap . With an older cuequivariance-ops-jax , the frontend makes an all-True mask and passes it. ( #307 ) Bug Fixes [Torch/JAX] Triangle Attention on RTX PRO 6000 Blackwell, CUDA 13 wheels: fixed a register spill in the masked forward kernels at head dimension 64 (BF16 and FP16) that made the masked forward slower than in older builds. Results are bit-identical. [JAX] Unmasked Triangle Attention calls no longer run the Boolean-mask kernels. Pass mask=None to get the unmasked forward and backward kernels. [Torch] Fixed a failure with PyTorch 2.14 in training: the fused gated dual GEMM backward returned too many gradients, and PyTorch 2.14 raises an error for this. Every training call that reached this kernel failed, including the 0.12 TriMul training route. Breaking Changes None. Notes Supported PyTorch versions: 2.11, 2.12 and 2.13. PyTorch 2.14 is not yet supported. A known PyTorch 2.14 training failure is fixed in this release (see Bug Fixes), but full 2.14…",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "842f4f75613083b4",
+  "kind": "tool",
+  "kw_score": 10,
+  "matched": [
+   "GPU"
+  ],
+  "mytools": [
+   "JAX",
+   "CUDA"
+  ],
+  "published": "2026-11-24",
+  "relevance": 2,
+  "score": 7,
+  "source": "GitHub releases",
+  "summary": {
+   "by": "claude",
+   "how": "CUDA 13 wheels only. Supported PyTorch versions are 2.11–2.13. Shapes outside the validated list use the 0.12 implementation.",
+   "impact": "Low relevance. The notes concern triangle-operation kernels, not the MLIP tensor-product kernels used with MACE. Note only if you rely on cuEquivariance JAX/CUDA.",
+   "what": "cuEquivariance v0.13.0 adds optimized prebuilt TriMul kernels for stated shapes (inference and training on H100/H200/GH200/B200/RTX PRO 6000), mask=None for JAX triangle attention, and bug fixes including a PyTorch 2.14 training failure.",
+   "why": "To speed up triangle operations and fix kernel regressions and errors."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "NVIDIA cuEquivariance v0.13.0",
+  "url": "https://github.com/NVIDIA/cuEquivariance/releases/tag/v0.13.0",
+  "venue": "NVIDIA cuEquivariance",
+  "watched": []
+ },
+ {
+  "abstract": "New technical papers recently added to Semiconductor Engineering’s library: Technical Paper Research Organizations 3D-NAND-CIM: A Hybrid-Bonded 3D-NAND-Flash-based Analog In-Memory-Compute macro offering 4.8M weights/mm² IBM Research , Micron Technology , University of Patras DT-MATCH: Defect- and Topology-Aware Chiplet Matching for Yield Optimization in Heterogeneous Integration Arizona State University , Ampere Computing SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads Georgia Tech , Nvidia Research , Stanford University Clock Distribution Network with Backside Clock Mesh in BSPDN Architecture KAIST From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware Lucid Motors , EYL Inc. Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction Singapore University of Technology and Design , A*STAR , National University of Singapore The Impact of Writing Field Stitching on Optical Losses in Electron Beam Fabricated Silicon-on-Insulator Waveguides AMO GmbH , RWTH Aachen University Find more semiconductor research papers here . The post Chip Industry Technical Paper Roundup: Nov. 25 appeared first on Semiconductor Engineering .",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "3b7c8e5708a41e1d",
+  "kind": "news",
+  "kw_score": 10,
+  "matched": [
+   "chiplet",
+   "semiconductor",
+   "GPU",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": 4,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "A list of titles and research organizations only.",
+   "impact": "Low relevance. No thermal-focused paper in this list, though BSPDN and heterogeneous integration are background for electronics thermal trends.",
+   "what": "Semiconductor Engineering's technical-paper roundup of Nov. 25 lists papers including 3D-NAND-CIM analog in-memory compute, chiplet matching for yield, HBF for GPU systems, backside clock mesh in BSPDN, and LLM agents for cryptographic hardware.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Chip Industry Technical Paper Roundup: Nov. 25",
+  "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-25-2/",
+  "venue": "Semiconductor Engineering",
   "watched": []
  },
  {
@@ -78,6 +474,45 @@
   "watched": []
  },
  {
+  "abstract": "Agent Skills for computational biology — RNA-seq, single-cell, protein structure, molecular dynamics, peptide design, literature mining and publication figures. Turn any AI coding agent into a computational biology assistant. Topics: agent-skills, agent-skills-standard, bioinformatics, claude-code, claude-skills, computational-biology, literature-mining, molecular-dynamics, peptide-design, protein-structure, research-tools, rna-seq, scientific-visualization, single-cell.",
+  "authors": [
+   "ssinder"
+  ],
+  "cat": "industry",
+  "created": "2026-10-25",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "focus": "",
+  "id": "83a8e15aebd831fd",
+  "kind": "repo",
+  "kw_score": 2,
+  "matched": [
+   "scientific",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 2,
+  "score": -1,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 77,
+  "summary": {
+   "by": "claude",
+   "how": "Skills in the agent-skills standard for Claude Code and similar agents, written in Python.",
+   "impact": "Low relevance for the content (biology), but a useful template for building agent skills around VASP/LAMMPS/phonopy/MLPhonon workflows.",
+   "what": "A GitHub collection of agent skills for computational biology (RNA-seq, single-cell, protein structure, molecular dynamics, peptide design, literature mining).",
+   "why": "To turn AI coding agents into computational biology assistants."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "ssinder/bioinformatics-agent-skills",
+  "url": "https://github.com/ssinder/bioinformatics-agent-skills",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
   "abstract": "Open-source library for analyzing the results produced by ABINIT Topics: abinit, density-functional-theory, materials-informatics, materials-science, physics, python, science, solid-state-physics.",
   "authors": [
    "abinit"
@@ -114,6 +549,41 @@
   "title": "abinit/abipy",
   "url": "https://github.com/abinit/abipy",
   "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Semiconductor technology company Acorn Technologies Inc of La Jolla, CA, USA (which is developing advanced process and device IP for next-generation AI, computing, wireless, and RF markets) has announced the results of its research collaboration with Jean-Pierre Raskin PhD, full professor at the Université catholique de Louvain (UCLouvain), showing that Acorn Buried Stressor (ABS) technology can provide benefits for RF-SOI and FDSOI platforms: improved RF substrate performance through a next-generation silicon-germanium (SiGe) trap-rich layer (TRL) approach, with the additional benefit in FDSOI of faster transistor performance through silicon strain...",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-24",
+  "focus": "",
+  "id": "eba7c713e2158102",
+  "kind": "news",
+  "kw_score": 5,
+  "matched": [
+   "transistor",
+   "semiconductor",
+   "substrate"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 1,
+  "score": -1,
+  "source": "Semiconductor Today",
+  "summary": {
+   "by": "claude",
+   "how": "Research collaboration with Prof. Jean-Pierre Raskin; details of methods and numbers are not stated in the abstract.",
+   "impact": "Low relevance: RF-SOI substrate engineering, with no thermal modeling content tied to the GaN/AlGaN HEMT work.",
+   "what": "Acorn Technologies and UCLouvain report that Acorn Buried Stressor technology improves RF-SOI and FDSOI substrates, using a SiGe trap-rich layer and silicon strain for faster FDSOI transistors.",
+   "why": "Better RF substrate performance and faster transistors on SOI platforms."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "UCLouvain collaboration shows how Acorn Buried Stressor improves RF-SOI and FDSOI substrate performance",
+  "url": "https://www.semiconductor-today.com/news_items/2026/nov/acorn-uclouvain-231126.shtml",
+  "venue": "Semiconductor Today",
   "watched": []
  },
  {
@@ -187,37 +657,37 @@
   "watched": []
  },
  {
-  "abstract": "Semiconductor technology company Acorn Technologies Inc of La Jolla, CA, USA (which is developing advanced process and device IP for next-generation AI, computing, wireless, and RF markets) has announced the results of its research collaboration with Jean-Pierre Raskin PhD, full professor at the Université catholique de Louvain (UCLouvain), showing that Acorn Buried Stressor (ABS) technology can provide benefits for RF-SOI and FDSOI platforms: improved RF substrate performance through a next-generation silicon-germanium (SiGe) trap-rich layer (TRL) approach, with the additional benefit in FDSOI of faster transistor performance through silicon strain...",
+  "abstract": "For third quarter 2026, Navitas Semiconductor Corp of Torrance, CA, USA — which provides GaNFast gallium nitride (GaN), GeneSiC silicon carbide (SiC) power semiconductors and integrated voltage regulator (IVR) technologies — has reported revenue of 14m, up 33% on 10.5m last quarter and 38% on $10.1m a year ago...",
   "authors": [],
   "cat": "industry",
   "doi": "",
   "first_seen": "2026-11-24",
   "focus": "",
-  "id": "eba7c713e2158102",
+  "id": "d03fbb8507172d70",
   "kind": "news",
-  "kw_score": 5,
+  "kw_score": 10,
   "matched": [
-   "transistor",
-   "semiconductor",
-   "substrate"
+   "GaN",
+   "SiC",
+   "semiconductor"
   ],
   "mytools": [],
   "published": "2026-11-23",
   "relevance": 1,
-  "score": -1,
+  "score": 4,
   "source": "Semiconductor Today",
   "summary": {
    "by": "claude",
-   "how": "Research collaboration with Prof. Jean-Pierre Raskin; details of methods and numbers are not stated in the abstract.",
-   "impact": "Low relevance: RF-SOI substrate engineering, with no thermal modeling content tied to the GaN/AlGaN HEMT work.",
-   "what": "Acorn Technologies and UCLouvain report that Acorn Buried Stressor technology improves RF-SOI and FDSOI substrates, using a SiGe trap-rich layer and silicon strain for faster FDSOI transistors.",
-   "why": "Better RF substrate performance and faster transistors on SOI platforms."
+   "how": "Not stated in the abstract.",
+   "impact": "Industry context for the GaN power market behind the GaN/AlGaN HEMT project; no technical content. Low relevance.",
+   "what": "Navitas Semiconductor reported Q3 2026 revenue of about 14m, up 33% quarter on quarter and 38% year on year.",
+   "why": "Not stated in the abstract."
   },
   "themes": [
    "device"
   ],
-  "title": "UCLouvain collaboration shows how Acorn Buried Stressor improves RF-SOI and FDSOI substrate performance",
-  "url": "https://www.semiconductor-today.com/news_items/2026/nov/acorn-uclouvain-231126.shtml",
+  "title": "Navitas’s revenue grows 33% in Q3, driven by high-power markets",
+  "url": "https://www.semiconductor-today.com/news_items/2026/nov/navitas-231126.shtml",
   "venue": "Semiconductor Today",
   "watched": []
  },
@@ -259,41 +729,6 @@
   "title": "llnl/mgmol",
   "url": "https://github.com/llnl/mgmol",
   "venue": "GitHub · C++",
-  "watched": []
- },
- {
-  "abstract": "For third quarter 2026, Navitas Semiconductor Corp of Torrance, CA, USA — which provides GaNFast gallium nitride (GaN), GeneSiC silicon carbide (SiC) power semiconductors and integrated voltage regulator (IVR) technologies — has reported revenue of 14m, up 33% on 10.5m last quarter and 38% on $10.1m a year ago...",
-  "authors": [],
-  "cat": "industry",
-  "doi": "",
-  "first_seen": "2026-11-24",
-  "focus": "",
-  "id": "d03fbb8507172d70",
-  "kind": "news",
-  "kw_score": 10,
-  "matched": [
-   "GaN",
-   "SiC",
-   "semiconductor"
-  ],
-  "mytools": [],
-  "published": "2026-11-23",
-  "relevance": 1,
-  "score": 4,
-  "source": "Semiconductor Today",
-  "summary": {
-   "by": "claude",
-   "how": "Not stated in the abstract.",
-   "impact": "Industry context for the GaN power market behind the GaN/AlGaN HEMT project; no technical content. Low relevance.",
-   "what": "Navitas Semiconductor reported Q3 2026 revenue of about 14m, up 33% quarter on quarter and 38% year on year.",
-   "why": "Not stated in the abstract."
-  },
-  "themes": [
-   "device"
-  ],
-  "title": "Navitas’s revenue grows 33% in Q3, driven by high-power markets",
-  "url": "https://www.semiconductor-today.com/news_items/2026/nov/navitas-231126.shtml",
-  "venue": "Semiconductor Today",
   "watched": []
  },
  {
