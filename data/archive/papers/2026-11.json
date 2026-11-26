@@ -1,5 +1,1742 @@
 [
  {
+  "abstract": "As a mesoscopic diffusive wire at low temperatures is driven out of equilibrium by a current, excess noise is observed compared to the equilibrium Johnson-Nyquist fluctuations. The expected form of the excess noise varies depending on the relative rates of wire traversal, electron-electron inelastic energy transfer, and electron-phonon inelastic energy transfer. We measure noise as a function of bias current in diffusive Au nanowires on SiO2/Si with lengths ranging from sub-μm to 30 μm and temperatures from 3 K to 50 K, to map out the interplay between charge shot noise and the crossover to electron self-heating and phonon-dominated noise suppression. As expected qualitatively, shot noise is suppressed with increasing wire length and substrate temperature, as electron-phonon scattering is of increasing importance. In long wires, the simple model of electron-phonon energy loss known to be quantitatively effective below a few Kelvin underpredicts the excess noise in the high bias, high temperature limit. This issue is more severe in wires on SiO2/Si than on bare Si, implying that interfacial thermal conduction must be considered in the thermal path even at comparatively high temperatures.",
+  "authors": [
+   "Yuxin Wan",
+   "Dale T. Lowder",
+   "Liyang Chen",
+   "Manasi Mandal",
+   "Gavin Joyce",
+   "Douglas Natelson"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "",
+  "id": "6303f233e08832e9",
+  "kind": "preprint",
+  "kw_score": 5,
+  "matched": [
+   "phonon",
+   "electron-phonon",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "score": 5,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "We measure noise as a function of bias current in diffusive Au nanowires on SiO2/Si with lengths ranging from sub-μm to 30 μm and temperatures from 3 K to 50 K, to map out the interplay between charge shot noise and the crossover to electron self-heating and phonon-dominated noise suppression.",
+   "impact": "Possibly relevant to GaN/AlGaN HEMT multiscale thermal modeling (MLIP → BTE → device) (matched: self-heating).",
+   "what": "As expected qualitatively, shot noise is suppressed with increasing wire length and substrate temperature, as electron-phonon scattering is of increasing importance.",
+   "why": "As a mesoscopic diffusive wire at low temperatures is driven out of equilibrium by a current, excess noise is observed compared to the equilibrium Johnson-Nyquist fluctuations."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Excess noise and electron-phonon energy transfer in Au wires: Length and temperature effects",
+  "url": "https://arxiv.org/abs/2611.31519v1",
+  "venue": "arXiv · cond-mat.mes-hall",
+  "watched": []
+ },
+ {
+  "abstract": "High-quality two-dimensional quantum devices are commonly fabricated from mechanically exfoliated crystals, whose irregular shapes and placement require a lithographic layout tailored to each specimen. Drawing these layouts remains largely manual. We introduce qlaybench, a benchmark that tests whether language-model agents can turn microscope images and experimental requirements into device layouts that fit the specimen. Agents with conventional tools often construct devices when material outlines are supplied, but struggle to identify those outlines from images. Modelled on the human workflow, qlaybot, a multimodal agentic harness, connects image interpretation to the tools used to align images, draw device features and inspect the resulting layout. We evaluate each layout with checks drawn from practical design experience, asking whether it fits the specimen and connects its intended components. With greater computational effort, an agent using qlaybot passes 81.5% of the benchmark tasks, compared with 24.1% when it uses conventional tools. This domain advantage highlights the importance of connecting scientific interpretation of a specimen to geometric design and provides a route towards reducing manual effort in two-dimensional quantum-device fabrication.",
+  "authors": [
+   "Shenhao Miao",
+   "Yizhou Li",
+   "Liqiao Xia",
+   "Ruihao Liu",
+   "Dingke Wang",
+   "Pablo Jarillo-Herrero",
+   "Eli Zeldov",
+   "Jiaqi Cai"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "mixed",
+  "id": "ba45fb91b8accbfe",
+  "kind": "preprint",
+  "kw_score": 5,
+  "matched": [
+   "agentic",
+   "workflow",
+   "scientific",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "score": 5,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "We introduce qlaybench, a benchmark that tests whether language-model agents can turn microscope images and experimental requirements into device layouts that fit the specimen.",
+   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: agentic).",
+   "what": "This domain advantage highlights the importance of connecting scientific interpretation of a specimen to geometric design and provides a route towards reducing manual effort in two-dimensional quantum-device fabrication.",
+   "why": "High-quality two-dimensional quantum devices are commonly fabricated from mechanically exfoliated crystals, whose irregular shapes and placement require a lithographic layout tailored to each specimen."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Domain advantage in two-dimensional quantum-device design with multi-modal agentic harness",
+  "url": "https://arxiv.org/abs/2611.30043v1",
+  "venue": "arXiv · cond-mat.mes-hall",
+  "watched": []
+ },
+ {
+  "abstract": "Designing surface-capping ligands for high-performance halide perovskite nanocrystals requires navigating a vast molecular space while discovering design rules that govern ligand-surface interactions. Here, we introduce PerovAgent, an autonomous multi-agent framework that combines large language model (LLM)-driven scientific reasoning with computational tools for atomistic model construction, machine-learned interatomic potential evaluation, and statistical validation. Across ten independent campaigns on CsPbBr3 surfaces, PerovAgent adaptively explored and refined diverse ligand chemistries while progressively improving the binding-energy objective. Beyond optimization, the framework converts recurring chemical observations into explicit design principles that can be statistically evaluated. Of 35 formulated principles, 19 were prospectively supported, of which seven also passed the confound audit, highlighting the need to systematically validate plausible LLM-generated hypotheses during autonomous discovery. A recurrent alkynyl-phosphonate principle was further examined using density functional theory, which reproduced the predicted energetic preference. These results demonstrate an autonomous discovery framework that not only searches molecular space and optimizes the scalar objective but also transforms its search trajectory into systematically testable design principles. The framework can also be extended to more complex ligands, including zwitterionic, multidentate, and polymerizable ligands, to explore a wider range of ligand-surface interactions and uncover new design principles for halide perovskite nanocrystals.",
+  "authors": [
+   "Seungjun Cha",
+   "Yoo Jae Jeong",
+   "Amanda Conde Del Moral",
+   "Juan-Pablo Correa-Baena",
+   "Seth R. Marder",
+   "David S. Ginger",
+   "Victor Fung",
+   "Guoxiang Hu"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "fcd8fea43c73a96a",
+  "kind": "preprint",
+  "kw_score": 6,
+  "matched": [
+   "multi-agent",
+   "atomistic",
+   "scientific",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "score": 6,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "Here, we introduce PerovAgent, an autonomous multi-agent framework that combines large language model (LLM)-driven scientific reasoning with computational tools for atomistic model construction, machine-learned interatomic potential evaluation, and statistical validation.",
+   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
+   "what": "These results demonstrate an autonomous discovery framework that not only searches molecular space and optimizes the scalar objective but also transforms its search trajectory into systematically testable design principles.",
+   "why": "Designing surface-capping ligands for high-performance halide perovskite nanocrystals requires navigating a vast molecular space while discovering design rules that govern ligand-surface interactions."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "PerovAgent: Autonomous Ligand Design for Halide Perovskite Nanocrystals",
+  "url": "https://arxiv.org/abs/2611.33913v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Stretchable, skin-conformal electronics demand thermal interface materials that combine high through-plane heat transport with mechanical softness and lateral electrical insulation. In particle-filled composites, these requirements are typically antagonistic. Heat transport is governed not only by the intrinsic thermal conductivity of the fillers but, more critically, by thermal resistance at the interparticle interface. As the interparticle distance is reduced by increasing the particle content, mechanical reinforcement and in-plane electrical conductivity become unavoidable. The existing particle alignment processing strategies result in inefficient uncoupling of multifunctionality. Here, we present a hierarchical two-step process strategy to induce strong conductivity anisotropy in a soft composite. First, an align-before-blend process forms a scaffold of magnetically aligned nickel (Ni) microparticles in air before polymer infiltration. The absence of the viscous elastomer matrix during the particle alignment facilitates handling large amounts of particles, which assemble into highly ordered and densely packed vertical heat-conduction pathways. Second, a liquid metal (LM)/Ni mixture is infiltrated into the aligned scaffold to bridge interparticle gaps, minimizing interparticle thermal resistance. The composite reaches 7.5 W/(m K) through-plane thermal conductivity with lateral electrical conductivity below 10⁻¹² S/m and ultrasoft mechanical compliance (approximately 160 kPa), enabling coupling layers in thermoelectric generators and finger-mounted heat-spreading pads for wearable technologies.",
+  "authors": [
+   "Altynay Kaidarova",
+   "Viktor Naenen",
+   "Isidro Florenciano",
+   "Ruben Windey",
+   "Xiaoyan Qing",
+   "Laurens Snels",
+   "Juhyung Park",
+   "Tom Van der Donck",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "",
+  "id": "4df22efa5d7a359f",
+  "kind": "preprint",
+  "kw_score": 6,
+  "matched": [
+   "thermoelectric",
+   "interface",
+   "filler",
+   "polymer",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 6,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "Here, we present a hierarchical two-step process strategy to induce strong conductivity anisotropy in a soft composite.",
+   "impact": "Background reading for Phonon & thermal transport, Interfacial thermal transport & defects.",
+   "what": "The composite reaches 7.5 W/(m K) through-plane thermal conductivity with lateral electrical conductivity below 10⁻¹² S/m and ultrasoft mechanical compliance (approximately 160 kPa), enabling coupling layers in thermoelectric generators and finger-mounted heat-spreading pads for wearable technologies.",
+   "why": "Stretchable, skin-conformal electronics demand thermal interface materials that combine high through-plane heat transport with mechanical softness and lateral electrical insulation."
+  },
+  "themes": [
+   "phonon",
+   "interface"
+  ],
+  "title": "Magnetically Guided Sequential Multi-Filler Alignment Enables Anisotropic Heat Pathways in Stretchable Composites for Soft Electronics",
+  "url": "https://arxiv.org/abs/2611.33381v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Recently, two modes of spin wave excitations (magnons) were detected in Raman scattering spectra of MnTe2. It is an unconventional magnet that features a pyrite-type crystal structure hosting a non-collinear, non-coplanar antiferromagnetic (AFM) spin order below the Néel temperature. In this brief communication, the focus is primarily on the effect of spin ordering on lattice dynamics (phonons) that has been established through temperature (5 - 300 K), linear polarization angle (0 deg - 360 deg) and external magnetic field (up to 16 T) dependent measurements. It has been found that below the magnetic transition temperature, the frequencies of four out of five Raman-active lattice vibrations (i.e., Eg and three Tg phonon modes) revealed significant departure from the mechanism of the three-phonon anharmonic decay described by Klemens model. Here, we propose a new model considering spin-phonon coupling to explain frequency renormalization of the phonon part of the Raman spectrum upon the para-/antiferro- (PM/AFM) magnetic phase transition change in MnTe2. Through employing Green's function formalism, we show that a simple two-sublattice collinear antiferromagnet approach follows well both spin ordering induced hardening and softening of phonon modes observed in AFM phase of MnTe2 upon cooling. Additionally, the detailed temperature and field dependences of the energy for both magnon modes are presented. In addition to unexpected twofold anisotropy of the higher energy magnon mode (approx. 3.5 meV) unveiled in crossed configuration, our magneto-optical measurements revealed a subtle, yet definite softening trend for the lower energy mode (approx. 2.6 meV). Although the precise reasons for these effects remain unclear, we put forward a symmetry reduction in the local…",
+  "authors": [
+   "Taras Palasyuk",
+   "Ashutosh S. Wadge",
+   "Eduard E. Zubov",
+   "Igor Antoniazzi",
+   "Gayatri",
+   "Andrzej Wiśniewski",
+   "Wojciech Szuszkiewicz",
+   "Daniel Jastrzebski",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "experimental",
+  "id": "121034aae9299948",
+  "kind": "preprint",
+  "kw_score": 6,
+  "matched": [
+   "phonon",
+   "anharmonic",
+   "softening",
+   "cooling",
+   "three-phonon"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 6,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "Here, we propose a new model considering spin-phonon coupling to explain frequency renormalization of the phonon part of the Raman spectrum upon the para-/antiferro- (PM/AFM) magnetic phase transition change in MnTe2.",
+   "impact": "Possibly relevant to MLIP reliability (interpretability, data efficiency, failure modes) (matched: softening).",
+   "what": "Although the precise reasons for these effects remain unclear, we put forward a symmetry reduction in the local…",
+   "why": "3.5 meV) unveiled in crossed configuration, our magneto-optical measurements revealed a subtle, yet definite softening trend for the lower energy mode (approx."
+  },
+  "themes": [
+   "mlip",
+   "atomistic"
+  ],
+  "title": "Antiferromagnetic phase of MnTe2: spin-order-induced renormalization of phonon Raman spectrum",
+  "url": "https://arxiv.org/abs/2611.33156v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Anharmonicity limits heat conduction in crystals, but its role in amorphous solids, where heat is carried mainly by tunneling between quasi-degenerate vibrations, remains unsettled. Here we disentangle the contributions of structural disorder, quantum statistics, and anharmonicity to the thermal conductivity of amorphous Ge₂Sb₂Te₅ (aGST), the prototypical phase-change memory material. Using a single machine-learned potential trained on first-principles data, we compare classical equilibrium and nonequilibrium molecular dynamics (MD), which include anharmonicity to all orders, with harmonic Allen-Feldman theory and the anharmonic Wigner transport equation, both of which include quantum statistics. Four MD approaches agree on a conductivity of 0.171-0.181 W m⁻¹ K⁻¹ at room temperature, about 16% above the harmonic Allen-Feldman value for the same model, and the Wigner formulation bridges the two: with classical statistics, it agrees with MD to within 5%. We trace this anharmonic enhancement to vibrational couplings that grow with the frequency difference between modes, so that anharmonic broadening opens additional channels for heat conduction. A comparison with silica, alumina, and disordered carbons reveals three regimes, in which anharmonicity reduces, barely affects, or enhances the conductivity. The predicted glass-like increase of the conductivity with temperature is consistent with thermoreflectance measurements. These results show that anharmonicity has no universal effect in disordered solids, and can promote rather than limit heat transport in strongly disordered materials.",
+  "authors": [
+   "Luiz Felipe C. Pereira",
+   "Kamil Iwanowski",
+   "Michele Simoncelli",
+   "Omar Abou El Kheir",
+   "Marco Bernasconi",
+   "Riccardo Mazzarello",
+   "Francesco Mauri"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "mixed",
+  "id": "55c0dde3133c8531",
+  "kind": "preprint",
+  "kw_score": 6,
+  "matched": [
+   "anharmonic",
+   "amorphous",
+   "glass",
+   "first-principles",
+   "harmonic",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 6,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "Using a single machine-learned potential trained on first-principles data, we compare classical equilibrium and nonequilibrium molecular dynamics (MD), which include anharmonicity to all orders, with harmonic Allen-Feldman theory and the anharmonic Wigner transport equation, both of which include quantum statistics.",
+   "impact": "Background reading for Phonon & thermal transport.",
+   "what": "These results show that anharmonicity has no universal effect in disordered solids, and can promote rather than limit heat transport in strongly disordered materials.",
+   "why": "Anharmonicity limits heat conduction in crystals, but its role in amorphous solids, where heat is carried mainly by tunneling between quasi-degenerate vibrations, remains unsettled."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Anharmonic enhancement of thermal conductivity in amorphous Ge₂Sb₂Te₅: A consistent picture from molecular dynamics and Wigner transport",
+  "url": "https://arxiv.org/abs/2611.33089v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "How to achieve high thermoelectric figure of merit is still a scientific challenge. By solving the Boltzmann transport equation, thermoelectric properties can be written as integrals of a single function, the transport distribution function (TDF). In this work, the shape effects of transport distribution function in various typical functional forms on thermoelectric properties of materials are systematically investigated. It is found that the asymmetry of TDF, characterized by skewness, can be used to describe universally the trend of thermoelectric properties. By defining symmetric and asymmetric TDF functions, a novel skewness is then constructed for thermoelectric applications. It is demonstrated, by comparison with ab initio calculations and experiments, that the proposed thermoelectric skewness not only perfectly captures the main feature of conventional skewness, but also is able to predict the thermoelectric power accurately. This comparison confirms the unique feature of our proposed thermoelectric skewness, as well as its special role of connection between the statistics of TDF and thermoelectric properties of materials. It is also found that the thermoelectric performance can be enhanced by increasing the asymmetry of TDF. Finally, it is also interesting to find that the thermoelectric transport properties based on typical quantum statistics (Fermi-Dirac distributions), can be well described by typical shape parameter (skewness) for classical statistics.",
+  "authors": [
+   "Jin-Cheng Zheng"
+  ],
+  "cat": "papers",
+  "doi": "10.34133/2022/9867639",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "ece4a48c1af4b3ea",
+  "kind": "preprint",
+  "kw_score": 6,
+  "matched": [
+   "thermoelectric",
+   "materials",
+   "scientific"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "score": 6,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "Finally, it is also interesting to find that the thermoelectric transport properties based on typical quantum statistics (Fermi-Dirac distributions), can be well described by typical shape parameter (skewness) for classical statistics.",
+   "impact": "Background reading for Phonon & thermal transport.",
+   "what": "It is also found that the thermoelectric performance can be enhanced by increasing the asymmetry of TDF.",
+   "why": "How to achieve high thermoelectric figure of merit is still a scientific challenge."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Asymmetrical transport distribution function: skewness as a key to enhance thermoelectric performance",
+  "url": "https://arxiv.org/abs/2611.30565v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Tantalum nitride (TaN) thin films with tunable electrical properties are of significant interest for integrated passive components in GaN-based monolithic microwave integrated circuits. In this work, TaNx films are deposited by reactive DC magnetron sputtering under systematically varied N2/Ar flow ratios to engineer their temperature coefficient of resistance (TCR) and transport behavior. Structural and chemical analyses reveal a transition from metallic Ta-rich phases to nanocrystalline and disordered TaNx with increasing nitrogen incorporation, accompanied by enhanced lattice disorder and modified bonding states. Temperature-dependent electrical measurements (298–473 K) show a systematic evolution from positive to negative TCR, indicating a transition from metallic to disorder-dominated conduction. Thermally activated conduction is excluded, and the transport is consistent with variable-range hopping, with the characteristic temperature increasing by several orders of magnitude as nitrogen content increases, reflecting enhanced carrier localization. The sheet resistance is tunable over a wide range while maintaining scalability and reproducibility across device geometries. High-frequency S-parameter measurements up to 43 GHz confirm predominantly resistive behavior with minimal parasitic contributions, supported by equivalent circuit modeling. The integration of TaN resistors within AlGaN/GaN HEMT structures demonstrates their applicability for self-bias stabilization and RF circuit functionality. These results establish a direct correlation between nitrogen incorporation, structural disorder, and electronic transport, providing a physically grounded framework for engineering TaN-based resistors with tailored electrical characteristics for microwave and…",
+  "authors": [
+   "Subhajit Basak",
+   "Nashra Khalid",
+   "Jyoti Sahu",
+   "Bazila Parvez",
+   "Apurba N. Bhattacharya",
+   "Swaroop Ganguly",
+   "Dipankar Saha"
+  ],
+  "cat": "papers",
+  "doi": "10.1063/5.0341634",
+  "first_seen": "2026-11-26",
+  "focus": "mixed",
+  "id": "cae5e5b77d266ddf",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "HEMT",
+   "GaN",
+   "AlGaN"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "score": 6,
+  "source": "Crossref",
+  "summary": {
+   "by": "rules",
+   "how": "These results establish a direct correlation between nitrogen incorporation, structural disorder, and electronic transport, providing a physically grounded framework for engineering TaN-based resistors with tailored electrical characteristics for microwave and…",
+   "impact": "Possibly relevant to GaN/AlGaN HEMT multiscale thermal modeling (MLIP → BTE → device) (matched: GaN, AlGaN, HEMT).",
+   "what": "The integration of TaN resistors within AlGaN/GaN HEMT structures demonstrates their applicability for self-bias stabilization and RF circuit functionality.",
+   "why": "Tantalum nitride (TaN) thin films with tunable electrical properties are of significant interest for integrated passive components in GaN-based monolithic microwave integrated circuits."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Nitrogen-driven transport transition and TCR engineering in TaN thin-film resistors for GaN RF applications",
+  "url": "https://doi.org/10.1063/5.0341634",
+  "venue": "Journal of Applied Physics",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract We present a theoretical study of weakly nonlinear electric and thermoelectric transport through a T-shaped double quantum dot coupled to normal and superconducting leads. Nonlinear screening is treated within the characteristic-potential formalism, in which an internal electrostatic potential accounts for nonequilibrium charge redistribution on the lead-coupled central dot. The side-coupled dot induces the Fano-Andreev effect, which, together with nonlinear screening, significantly modifies the transport properties. Under voltage bias, the screening-induced level renormalization produces a pronounced bias asymmetry in the Andreev differential conductance. In response to a pure thermal bias, increasing the interdot coupling weakens the level renormalization and suppresses the quasiparticle thermoelectric response, leading to reduced thermovoltage and nonlinear Seebeck coefficient. When voltage and thermal biases are applied simultaneously, a finite subgap cross thermoelectric response emerges beyond the linear regime. The sign of this response is governed by the competition between the energy-dependent transport contribution, modified by the Fano–Andreev effect, and the nonlinear screening contribution, thereby determining whether a thermal bias enhances or suppresses the low-bias Andreev current.",
+  "authors": [
+   "Sachin Verma"
+  ],
+  "cat": "papers",
+  "doi": "10.1088/1361-648x/aec685",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "ec336b0c83093240",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "thermoelectric",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "score": 6,
+  "source": "Crossref",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Phonon & thermal transport.",
+   "what": "In response to a pure thermal bias, increasing the interdot coupling weakens the level renormalization and suppresses the quasiparticle thermoelectric response, leading to reduced thermovoltage and nonlinear Seebeck coefficient.",
+   "why": "Abstract We present a theoretical study of weakly nonlinear electric and thermoelectric transport through a T-shaped double quantum dot coupled to normal and superconducting leads."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Interplay of the Fano-Andreev Effect and Nonlinear Screening in Electric and Thermoelectric Transport through a T-Shaped Double Quantum Dot",
+  "url": "https://doi.org/10.1088/1361-648x/aec685",
+  "venue": "Journal of Physics: Condensed Matter",
+  "watched": []
+ },
+ {
+  "abstract": "AgSbTe2 is a well-known thermoelectric material with a high Seebeck coefficient and intrinsically low thermal conductivity, but its behavior under pressure remains largely unexplored. Here we report a systematic investigation of the structural and transport properties of AgSbTe2 under high pressure. The material has a rhombohedral R[̅3]m phase at ambient pressure that remains stable up to 21.7 GPa, beyond which it loses long-range structural order. Its crystal system fully recovers upon decompression. Remarkably, superconductivity emerges at a relatively low pressure of 0.38 GPa with an onset superconducting critical temperature (Tc) of 3.2 K. Tc increases with increasing pressure, reaching 6.9 K at 31.9 GPa, and peaks at 7.4 K at 26.7 GPa during decompression. Magnetic-field-dependent transport measurements and density functional calculations reveal an evolution of the superconducting state accompanied by an enhanced electronic density of states at the Fermi level under compression up to 15 GPa. Our findings uncover pressure-induced superconductivity in AgSbTe2 and demonstrate that pressure can effectively tune the electronic ground state of thermoelectric materials, extending their functionality beyond thermoelectric energy conversion.",
+  "authors": [
+   "Sudaice Kazibwe",
+   "Bishnu Karki",
+   "Wencheng Lu",
+   "Zhongxin Liang",
+   "Minghong Sui",
+   "Melissa Gooch",
+   "Zhi Feng Ren",
+   "Pavan Hosur",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1103/73hj-7wvw",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "5539f9576b45468a",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "thermoelectric",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Phonon & thermal transport.",
+   "what": "Our findings uncover pressure-induced superconductivity in AgSbTe2 and demonstrate that pressure can effectively tune the electronic ground state of thermoelectric materials, extending their functionality beyond thermoelectric energy conversion.",
+   "why": "Remarkably, superconductivity emerges at a relatively low pressure of 0.38 GPa with an onset superconducting critical temperature (Tc) of 3.2 K."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Pressure-induced superconductivity in AgSbTe 2",
+  "url": "https://doi.org/10.1103/73hj-7wvw",
+  "venue": "Physical review. B./Physical review. B",
+  "watched": []
+ },
+ {
+  "abstract": "Silicon (Si) has sustained the semiconductor industry for more than half a century, but it is rapidly approaching fundamental physical limits. Its ~1.12 eV band gap and the approaching end of Moore's law, together with the \"power wall\" of conventional electronic computing, make it increasingly difficult for silicon alone to satisfy emerging applications — AI data centers with extremely high power density, energy-efficient power electronics for electric vehicles and renewable energy, and high-frequency components for 5G/6G communications. This paper reviews the motivations and landscape of \"beyond silicon\" semiconductor materials. It first analyzes the driving forces, including the end of Moore's law, soaring data-center energy consumption, and the changing demands of new applications, and then examines the pathways of material transition. Wide band gap semiconductors — gallium nitride (GaN) and silicon carbide (SiC) — are highlighted for their large band gaps, high breakdown fields and superior thermal properties: GaN excels in high-frequency and high-power-density applications such as fast chargers, 5G base stations and data-center power supplies, while SiC, with a breakdown field about ten times that of silicon, dominates high-voltage domains including EV drive inverters and renewable-energy converters. Two-dimensional materials such as MoS₂ and emerging WSi₂N₄ are discussed as candidates for extending transistor scaling beyond silicon. Finally, the paper addresses the engineering challenges — process controllability, heterointerface compatibility, extreme-environment adaptability and device reliability — and concludes that the future lies not in outright replacement of silicon, but in a complementary, multi-material landscape of Si, SiC, GaN and emerging materials.",
+  "authors": [
+   "Zheng Cheuk Hang Oscar"
+  ],
+  "cat": "papers",
+  "doi": "10.62051/efv62x22",
+  "first_seen": "2026-11-26",
+  "focus": "",
+  "id": "4a2c98538f12024c",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "GaN",
+   "SiC",
+   "transistor",
+   "semiconductor",
+   "reliability",
+   "heterointerface",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to GaN/AlGaN HEMT multiscale thermal modeling (MLIP → BTE → device) (matched: GaN).",
+   "what": "Its ~1.12 eV band gap and the approaching end of Moore's law, together with the \"power wall\" of conventional electronic computing, make it increasingly difficult for silicon alone to satisfy emerging applications — AI data centers with extremely high power density, energy-efficient power electronics for electric…",
+   "why": "Silicon (Si) has sustained the semiconductor industry for more than half a century, but it is rapidly approaching fundamental physical limits."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Beyond Silicon Semiconductors: Material Pathways, Application Demands and Engineering Challenges",
+  "url": "https://doi.org/10.62051/efv62x22",
+  "venue": "Transactions on Computer Science and Intelligent Systems Research",
+  "watched": []
+ },
+ {
+  "abstract": "Accurate simulations of excited-state photodynamics of polyenes remain challenging due to the high computational cost of multireference electronic-structure methods required to describe the coexistence of ionic and covalent states. In this work, active learning together with machine learning interatomic potentials (MLIP) trained on multireference configuration interaction with single and double excitations (MR-CISD) level energies and gradients, is used to enable efficient and accurate nonadiabatic molecular dynamics for all-trans-hexatriene. A compact yet representative training set is constructed by reducing an initial pool of ∼850 k configurations to ∼3 k geometries while preserving the regions of configurational space relevant for the dynamics. The resulting model reproduces the topology of the excited-state potential energy surfaces and yields a physically consistent relaxation mechanism, characterized by a sequential S2 → S1 → S0 pathway and time constants in good agreement with experimental data. Analysis of representative trajectories provides mechanistic insight into the structural factors governing nonadiabatic transitions, and identifies a notably broader and more diffuse structural distribution associated with the S1 → S0 transition in comparison to the more localized S2 → S1 decay pathway. Analysis of the torsional angles around the CC double bonds reveals preferential isomerization at the central C3C4 bond, providing semi-quantitative evidence for the initiation of cis-trans photoisomerization in the hot ground state. The MLIP simulations trained at high-level MR-CISD are extremely efficient, enabling 200 trajectories running up to 800 fs in short time, whereas direct on-the-fly multireference dynamics simulations would be practically impossible at…",
+  "authors": [
+   "Luan G. F. dos Santos",
+   "Julio C. V. Chagas",
+   "Mikołaj Martyka",
+   "Pavlo O. Dral",
+   "Mario Barbatti",
+   "Francisco B. C. Machado",
+   "Richard A. Messerly",
+   "Hans Lischka"
+  ],
+  "cat": "papers",
+  "doi": "10.1039/d6fd00061d",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "dd26b34e8c7e487e",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "data-efficien",
+   "MLIP",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2027-01-01",
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to MLIP reliability (interpretability, data efficiency, failure modes) (matched: data-efficien).",
+   "what": "The MLIP simulations trained at high-level MR-CISD are extremely efficient, enabling 200 trajectories running up to 800 fs in short time, whereas direct on-the-fly multireference dynamics simulations would be practically impossible at…",
+   "why": "Accurate simulations of excited-state photodynamics of polyenes remain challenging due to the high computational cost of multireference electronic-structure methods required to describe the coexistence of ionic and covalent states."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "A data-efficient machine-learning approach for modeling the photodynamics of all- trans hexatriene based on multireference configuration interaction calculations",
+  "url": "https://doi.org/10.1039/d6fd00061d",
+  "venue": "Faraday Discussions",
+  "watched": []
+ },
+ {
+  "abstract": "Accurate electronic-structure reference data are expensive, motivating interatomic potentials that learn effectively from limited training sets. We introduce OrbACE (Orbital and Atomic Cluster Expansion), a framework that supplements an E(3)-equivariant cluster-expansion backbone with inexpensive electronic-structure descriptors. On ANI-1x at the ωB97X/6-31G* level, its atom-centered variant, OrbACE-A, trained on 10,000 configurations and evaluated on 442,000 held-out configurations, achieves energy and force mean absolute errors of 3.16 meV/atom and 76 meV/angstrom in direct learning, compared with 9.61 meV/atom and 146 meV/angstrom for MACE with matched backbone settings. This reduces the energy error by a factor of three and approximately halves the force error. Its energy error is also below that of the best delta-corrected MACE baseline, 5.00 meV/atom, although its force error is slightly higher. Combining OrbACE-A with a Hartree-Fock delta baseline further reduces the errors to 1.48 meV/atom and 35 meV/angstrom. OrbACE-A builds atom- and pair-resolved invariants from a non-self-consistent extended-Hueckel model evaluated within the differentiable forward pass, yielding forces consistent with the predicted energy. The orbital variant, OrbACE-O, instead uses localized Hartree-Fock orbitals as graph nodes, with scalar and equivariant electronic descriptors. Its forces are evaluated at fixed descriptors, omitting their response to nuclear motion. In direct learning on ANI-1x, its energy error is approximately three times that of OrbACE-A. The three benchmarks considered (ANI-1x, revised MD17, and 3BPA) cover neutral, closed-shell, non-periodic molecules containing H, C, N, and O. Performance outside this domain remains to be established.",
+  "authors": [
+   "Etinosa Osaro",
+   "Dario Rocca"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "10d84ae08b8a5c9d",
+  "kind": "preprint",
+  "kw_score": 7,
+  "matched": [
+   "MACE",
+   "benchmark"
+  ],
+  "mytools": [
+   "MACE"
+  ],
+  "published": "2026-11-25",
+  "score": 7,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "We introduce OrbACE (Orbital and Atomic Cluster Expansion), a framework that supplements an E(3)-equivariant cluster-expansion backbone with inexpensive electronic-structure descriptors.",
+   "impact": "Possibly relevant to InGaAs alloy κ with self-trained MLIPs (MLPhonon, Phonon Olympics) (matched: MACE); Phonon band discretization for deterministic BTE (JAX-BTE) (matched: differentiable).",
+   "what": "Combining OrbACE-A with a Hartree-Fock delta baseline further reduces the errors to 1.48 meV/atom and 35 meV/angstrom.",
+   "why": "Accurate electronic-structure reference data are expensive, motivating interatomic potentials that learn effectively from limited training sets."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "OrbACE: Orbital and Atomic Cluster Expansion",
+  "url": "https://arxiv.org/abs/2611.33743v1",
+  "venue": "arXiv · physics.chem-ph",
+  "watched": []
+ },
+ {
+  "abstract": "Atomically dispersed catalysts exhibit molecule-solid crossover character when localized metal orbitals hybridize with support-derived bands, a regime not fully captured by either a d-band-center description or a frontier-orbital picture. We establish an electronic-to-geometric framework for oxygen reduction across fourteen metals. N-to-P substitution in M-N4 sites raises theoretical onset potentials in 13 systems, with Rh-N3P reaching 0.88 V, comparable to the Pt(111) benchmark. Scaling relations reduce *OOH, *O, and *OH thermodynamics to ΔG*OH. M-N4 follows a dyz-dominated frontier-orbital picture, whereas M-N3P requires a weighted frontier d-state representation built from adsorption-relevant orbitals and their occupancies. The resulting εWFDS correlates with ΔG*OH at R² = 0.92, compared with 0.83 for the d-band center and 0.64 for the frontier-orbital. The identified roles of orbital occupancy and local coordination suggest an interpretable geometric descriptor, ζM-N3P = nd/rM-P, that predicts ΔG*OH at R² = 0.96. The ORR volcano analysis identifies strong-binding systems and motivates axial oxygen coordination. This design raises onset potentials by 0.70-2.46 V, and the M-N3PO descriptor predicts ΔG*OH at R² = 0.91. By bridging frontier-orbital and d-band-center descriptions, the framework provides a physically grounded electronic representation and a geometry-based screening route compatible with machine-learned interatomic potentials.",
+  "authors": [
+   "Yuqi Li",
+   "Zewen Wu",
+   "Longling Pang",
+   "Zhidan Li",
+   "Xianghua Kong"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "c16cbca1fc766478",
+  "kind": "preprint",
+  "kw_score": 7,
+  "matched": [
+   "interpretab",
+   "benchmark"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 7,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "We establish an electronic-to-geometric framework for oxygen reduction across fourteen metals.",
+   "impact": "Possibly relevant to MLIP reliability (interpretability, data efficiency, failure modes) (matched: interpretab).",
+   "what": "Scaling relations reduce *OOH, *O, and *OH thermodynamics to ΔG*OH.",
+   "why": "Atomically dispersed catalysts exhibit molecule-solid crossover character when localized metal orbitals hybridize with support-derived bands, a regime not fully captured by either a d-band-center description or a frontier-orbital picture."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "From Weighted Frontier d-States to Geometric Descriptors for Atomically Dispersed Catalysts at the Molecule-Solid Crossover",
+  "url": "https://arxiv.org/abs/2611.32059v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Thermoreflectance techniques such as time- and frequency-domain thermoreflectance (TDTR and FDTR) are widely used to measure the thermal conductivity of bulk materials, thin films, and interfaces. When phonon mean free paths Λ_ω become comparable to the thermal penetration depth, a Fourier analysis yields an apparent thermal conductivity κᵣₘ ₐₚₚ that deviates from the bulk value κᵣₘ bᵤₗₖ. Recent studies have highlighted the role of the phonon spectrum injected through the transducer interface, which is generally out of equilibrium owing to frequency-dependent transmission, and have shown that accounting for this nonequilibrium distribution can yield κᵣₘ ₐₚₚ>κᵣₘ bᵤₗₖ, unlike conventional suppression-function analyses that predict only κᵣₘ ₐₚₚ≤κᵣₘ bᵤₗₖ. However, the spectral characteristics governing whether κᵣₘ ₐₚₚ is enhanced or reduced remain unclear. Here, we resolve the surface-temperature response of semi-infinite Si mode by mode and show that short-Λ_ω-weighted injection raises the surface temperature, whereas long-Λ_ω-weighted injection lowers it. This behavior is governed by how deep the injected phonons travel before thermalizing with the lattice, which is set by their mean free paths, and by how effectively the substrate conducts the injected energy away, which is limited by its long-mean-free-path phonons. For an Al (70 nm)/Si structure, Fourier fits of synthetic TDTR phase signals give κᵣₘ ₐₚₚ of Si from about 93 to 360 W/(m K) for different interfacial transmission spectra, and κᵣₘ ₐₚₚ correlates with the heat-flux-weighted Λ_ω of the transmitted phonons. Thus, κᵣₘ ₐₚₚ from thermoreflectance reflects not only the substrate thermal properties but also the phonon spectrum injected across the transducer interface.",
+  "authors": [
+   "D. G. Jeong",
+   "Terumasa Tadano",
+   "J. S. Lee"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "experimental",
+  "id": "ae487a31646db5d1",
+  "kind": "preprint",
+  "kw_score": 7,
+  "matched": [
+   "phonon",
+   "TDTR",
+   "FDTR",
+   "interface",
+   "heat",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "score": 7,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to Phonon band discretization for deterministic BTE (JAX-BTE) (matched: TDTR, FDTR).",
+   "what": "Thus, κᵣₘ ₐₚₚ from thermoreflectance reflects not only the substrate thermal properties but also the phonon spectrum injected across the transducer interface.",
+   "why": "However, the spectral characteristics governing whether κᵣₘ ₐₚₚ is enhanced or reduced remain unclear."
+  },
+  "themes": [
+   "bte"
+  ],
+  "title": "Apparent thermal conductivity governed by interface-injected phonon spectra",
+  "url": "https://arxiv.org/abs/2611.30276v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": [
+   "Terumasa Tadano"
+  ]
+ },
+ {
+  "abstract": "Surface acoustic waves (SAWs) are widely used to probe near-surface material properties and microstructure, but their potential to drive permanent structural modification remains largely unexplored. Large-scale molecular dynamics simulations reveal the mechanisms of defect generation and evolution induced by nonlinear Rayleigh waves in Pt. Strong crystallographic dependence of the nonlinear evolution is observed. SAWs on Pt(111) undergo rapid nonlinear sharpening and shock formation, with localized elastic energy and increasing near-surface stresses, whereas much weaker sharpening on Pt(001) allows dissipation to compete effectively with shock formation. For sufficiently strong SAWs on Pt(111), Shockley partial dislocations are emitted from the surface when the resolved shear stress approaches the theoretical shear strength. The highly localized and rapidly changing stress field at the shock front activates multiple slip systems and promotes crossslip and reactions between Shockley partials, producing complex dislocation structures with sessile stair-rod segments. Subsequent SAW interactions activate dislocation sources on slip systems where the stress is insufficient for homogeneous nucleation, leading, in one case, to sequential emission of Shockley partials and formation of a subsurface twinned domain. Repeated SAW passages progressively reduce dislocation density, demonstrating SAW-driven nonthermal annealing. Dislocation interactions with the free surface generate atomic-scale steps, terraces, and other under-coordinated configurations, providing a microscopic pathway for permanent surface modification that may contribute to the acoustically enhanced catalytic activity observed on Pt surfaces. These results establish nonlinear SAWs as drivers of nonthermal defect…",
+  "authors": [
+   "Yuan Xu",
+   "Maxim V. Shugaev",
+   "Leonid V. Zhigilei"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "64ef824d7596ada5",
+  "kind": "preprint",
+  "kw_score": 7,
+  "matched": [
+   "dislocation",
+   "roughness",
+   "thermal",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "score": 7,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to GaN/Al₂O₃ interfaces and dislocation-core phonons (matched: dislocation).",
+   "what": "Repeated SAW passages progressively reduce dislocation density, demonstrating SAW-driven nonthermal annealing.",
+   "why": "Surface acoustic waves (SAWs) are widely used to probe near-surface material properties and microstructure, but their potential to drive permanent structural modification remains largely unexplored."
+  },
+  "themes": [
+   "interface"
+  ],
+  "title": "Generation and non-thermal annealing of dislocations and atomic-scale roughness by nonlinear surface acoustic waves",
+  "url": "https://arxiv.org/abs/2611.30160v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Field-mediated forces between particles can be both nonreciprocal and irreducibly multi-body, giving rise to emergent activity in systems of individually passive particles. While prior work extensively studied how multi-body nonreciprocity can activate few-body systems, fuel intermittency, and drive liquid-like behavior, the effect on the solid state of large particle ensembles is less explored. Here we use two-dimensional, close-packed rafts of identical, athermal, acoustically levitated microspheres to show how multi-body nonreciprocity injects activity in solids. At the level of both individual particles and collective dynamics, crystalline rafts exhibit persistent circulations with no net handedness. The rafts also exhibit a phonon-like dispersion relation corresponding to a large Poisson ratio, indicating an induced softness to shear. Within the bulk, lattice symmetry masks microscopic nonreciprocity, although it can manifest in renormalized, reciprocal elastic coefficients. At dislocations and raft edges, where this symmetry is broken, multi-body nonreciprocal interactions act as local generators of activity. A coarse-grained microscopic model of multi-body nonreciprocity, calibrated on three-particle simulations, recovers the rafts' experimentally observed dispersion relations and localized activity. Using these findings, we illustrate how to harness defect-induced activity for programmable movement by arranging microscopic dislocations to drive macroscopic propulsion and rotation of a whole raft.",
+  "authors": [
+   "Brady Wu",
+   "Daniel S. Seara",
+   "Qinghao Mao",
+   "Vincenzo Vitelli",
+   "Heinrich M. Jaeger"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "87d7262de7ac9977",
+  "kind": "preprint",
+  "kw_score": 7,
+  "matched": [
+   "phonon",
+   "dislocation",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "score": 7,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "Here we use two-dimensional, close-packed rafts of identical, athermal, acoustically levitated microspheres to show how multi-body nonreciprocity injects activity in solids.",
+   "impact": "Possibly relevant to GaN/Al₂O₃ interfaces and dislocation-core phonons (matched: dislocation).",
+   "what": "Using these findings, we illustrate how to harness defect-induced activity for programmable movement by arranging microscopic dislocations to drive macroscopic propulsion and rotation of a whole raft.",
+   "why": "Field-mediated forces between particles can be both nonreciprocal and irreducibly multi-body, giving rise to emergent activity in systems of individually passive particles."
+  },
+  "themes": [
+   "interface"
+  ],
+  "title": "Solids activated by multi-body nonreciprocity",
+  "url": "https://arxiv.org/abs/2611.30058v1",
+  "venue": "arXiv · cond-mat.soft",
+  "watched": []
+ },
+ {
+  "abstract": "Physics-informed neural networks (PINNs) for kinetic equations have mostly been applied near equilibrium and judged by density, velocity and temperature. Here a network trained on the kinetic equation alone, with no reference data in the loss, solves steady normal shock waves and is assessed in eight fields: density, velocity, temperature, heat flux, stress, a third-order moment and two fourth-order moments. The network corrects a mixture of the two end-state Maxwellians by an unbounded, signed factor with exact inflow; the loss, the residual in three norms with conservation terms, is minimised by Adam and a self-scaled quasi-Newton method with continuation in the Mach number. For the hard-sphere Boltzmann equation at Mach 8, in a comparison made once after reference-free tests, the largest relative L² difference from direct simulation Monte Carlo (DSMC) over the eight fields is 0.19 per cent; at Mach 10 it is 0.34 per cent. The distribution function itself agrees with the reference over six decades in velocity space. For the Bhatnagar--Gross--Krook (BGK) model, a blind prediction at Mach 50 gives density, velocity and temperature to about 0.1 per cent and exposes a loss of accuracy confined to the two fourth-order moments. Its origin is identified as a passive reduced distribution that carries little weight in the loss; with a larger weight on that distribution and a longer optimisation, both moments are within 3.2 per cent of the discrete-velocity solution up to Mach 70 and 7.1 per cent at Mach 100. The Shakhov model is solved to Mach 20 and a Rykov-type model of nitrogen to Mach 15.",
+  "authors": [
+   "Ehsan Roohi"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "93f9a74dd8c7c9d6",
+  "kind": "preprint",
+  "kw_score": 7,
+  "matched": [
+   "PINNs",
+   "heat",
+   "simulation",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 7,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "The network corrects a mixture of the two end-state Maxwellians by an unbounded, signed factor with exact inflow; the loss, the residual in three norms with conservation terms, is minimised by Adam and a self-scaled quasi-Newton method with continuation in the Mach number.",
+   "impact": "Background reading for Scientific ML & HPC.",
+   "what": "Its origin is identified as a passive reduced distribution that carries little weight in the loss; with a larger weight on that distribution and a longer optimisation, both moments are within 3.2 per cent of the discrete-velocity solution up to Mach 70 and 7.1 per cent at Mach 100.",
+   "why": "Physics-informed neural networks (PINNs) for kinetic equations have mostly been applied near equilibrium and judged by density, velocity and temperature."
+  },
+  "themes": [
+   "sciml"
+  ],
+  "title": "Physics-informed neural networks for strong normal shocks in kinetic relaxation models and the hard-sphere Boltzmann equation",
+  "url": "https://arxiv.org/abs/2611.31996v1",
+  "venue": "arXiv · physics.flu-dyn",
+  "watched": []
+ },
+ {
+  "abstract": "Bicontinuous nanoporous materials possess remarkable mechanical properties, such as higher specific strength and lower specific modulus compared to fully dense materials combined with low densities and high specific surface areas. Unfortunately, their practical application is hindered by inherent macroscopic brittleness, mainly due to cascading ligament failure under tension. To address this limitation, we investigate whether high entropy alloys, recognized for their outstanding strength and strain hardening properties, can mitigate nanoporous material’s inherent brittleness. Molecular dynamics simulations of nanoporous Al 0.1 CoCrFeNi and NbMoTaW reveal a dual mechanism involving dislocation starvation and sluggish dislocation motion, resulting in specific strength values 5 to 10 times higher than those of single-element nanoporous materials, and a resilience against thermal degradation. Strain hardening, driven by sluggish dislocations, effectively prevents failure of the weakest ligaments under tensile stress in face-centered cubic architectures by trapping stacking faults in the ligaments and dislocation forest hardening in the nodes of body-centered cubic structures, demonstrating their potential to shape the next generation of high strength, low density materials.",
+  "authors": [
+   "Jarod Worden",
+   "Juergen Biener",
+   "Céline Hin"
+  ],
+  "cat": "papers",
+  "doi": "10.1038/s41524-026-02375-5",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "5e943c590cd4fcf7",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "dislocation",
+   "strain",
+   "thermal",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 7,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Possibly relevant to GaN/Al₂O₃ interfaces and dislocation-core phonons (matched: dislocation).",
+   "what": "Strain hardening, driven by sluggish dislocations, effectively prevents failure of the weakest ligaments under tensile stress in face-centered cubic architectures by trapping stacking faults in the ligaments and dislocation forest hardening in the nodes of body-centered cubic structures, demonstrating their potential…",
+   "why": "Bicontinuous nanoporous materials possess remarkable mechanical properties, such as higher specific strength and lower specific modulus compared to fully dense materials combined with low densities and high specific surface areas."
+  },
+  "themes": [
+   "interface"
+  ],
+  "title": "Nanoporous high entropy alloys: overcoming brittleness through strain hardening",
+  "url": "https://doi.org/10.1038/s41524-026-02375-5",
+  "venue": "npj Computational Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Modeling disordered systems from first principles across the full composition range is a long-standing computational challenge. We present a code package implementing the extended generalized quasichemical approximation (EGQCA), which describes solid solutions through the statistics of a finite set of clusters and enables their thermodynamic modeling at arbitrary compositions and temperatures. The package automates the complete workflow and interfaces with both DFT codes and universal machine-learned interatomic potentials (uMLIPs). We show that replacing DFT with uMLIPs reduces the cost of the cluster calculations by up to five orders of magnitude while preserving the thermodynamic predictions. To make computationally demanding properties tractable, we additionally introduce a cluster-selection algorithm that identifies the most relevant configurations. Together, these developments establish EGQCA as a fast and accurate framework for the thermodynamic modeling of solid solutions and a practical route toward high-throughput screening of disordered materials.",
+  "authors": [
+   "Dominik Spath",
+   "Luka Wibmer",
+   "Kieran Bozier",
+   "Ralf Meyer",
+   "Eva Kogler",
+   "Efisio Madeddu",
+   "Chris Pickard",
+   "Markus Aichhorn",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "28a631a40acba9fb",
+  "kind": "preprint",
+  "kw_score": 8,
+  "matched": [
+   "generaliz",
+   "first-principles",
+   "DFT",
+   "high-throughput",
+   "workflow",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "score": 8,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "We present a code package implementing the extended generalized quasichemical approximation (EGQCA), which describes solid solutions through the statistics of a finite set of clusters and enables their thermodynamic modeling at arbitrary compositions and temperatures.",
+   "impact": "Possibly relevant to Automated κ workflows and agents (auto-kappa style) (matched: high-throughput).",
+   "what": "We show that replacing DFT with uMLIPs reduces the cost of the cluster calculations by up to five orders of magnitude while preserving the thermodynamic predictions.",
+   "why": "Modeling disordered systems from first principles across the full composition range is a long-standing computational challenge."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "EGQCA Code: automated high-throughput thermodynamic modeling of solid solutions",
+  "url": "https://arxiv.org/abs/2611.34551v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "NEP-Spin is a \\glsentrylong{nep} for coupled atomic motion and variable-length magnetic moments. Local bond and spin tensors give an energy invariant under independent spin and spatial rotations without \\glsentrylong{soc} and under joint rotations with it. We benchmark energies, atomic forces, and magnetic forces on public datasets for collinear Fe--Al and noncollinear Fe. In multiferroic \\glsentrylong{bfo}, the predicted zero-field cycloid period is 69.7 nm, compared with 62--63 nm from neutron scattering. An electric field of 20 mV/Å opposite to the polarization lengthens the period to 93.2 nm, while imposing the same polar displacement at zero field gives 85.1 nm. In a uniform antiferromagnetic cell at fixed lattice vectors, 6 T magnetic fields along orthogonal basal axes reorient the Fe moments and give opposite signs of the ionic polarization change ΔP_y. First-principles ionic relaxations at the predicted moment vectors reproduce both signs. In a 2.79-million-atom ferroelectric twin, the cycloid rotation planes tilt by different amounts from their shared initial plane and remain distinct over 10 ps at 100 K. At 10 ps the propagation axes lie within about 7^° of their initial directions. With inertial spin dynamics, GPUMD advances a 5.93-million-atom BiFeO₃ cell at 21.8 million atom-steps per second on four RTX 4090 GPUs.",
+  "authors": [
+   "Chengbing Chen",
+   "Zheyong Fan",
+   "Ben Xu"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "7651f5274416c3b6",
+  "kind": "preprint",
+  "kw_score": 8,
+  "matched": [
+   "benchmark",
+   "GPUMD",
+   "first-principles",
+   "simulation",
+   "GPU"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "score": 8,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "We benchmark energies, atomic forces, and magnetic forces on public datasets for collinear Fe--Al and noncollinear Fe.",
+   "impact": "Possibly relevant to BaTiO₃ dislocations — phonon direction asymmetry (BTE vs EELS) (matched: ferroelectric).",
+   "what": "With inertial spin dynamics, GPUMD advances a 5.93-million-atom BiFeO₃ cell at 21.8 million atom-steps per second on four RTX 4090 GPUs.",
+   "why": "NEP-Spin is a \\glsentrylong{nep} for coupled atomic motion and variable-length magnetic moments."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "NEP-Spin: A spin-dependent neuroevolution potential for large-scale spin--lattice simulations",
+  "url": "https://arxiv.org/abs/2611.30076v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Magnetoelastic phenomena originate from the coupling between atomic displacements and magnetic degrees of freedom, and their atomistic simulation requires interatomic models in which magnetic interactions depend explicitly on interatomic distance. This paper presents MagPot, a Python program that generates Bethe-Slater parameter sets for spin-lattice molecular dynamics simulations using the SPIN package of the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS). From a compact set of material properties, the program determines the radial functions describing Heisenberg exchange and the dipole and quadrupole contributions of the two-ion Néel interaction. Version 1.0 supports simple-cubic, body-centred-cubic and face-centred-cubic lattices with ferromagnetic and antiferromagnetic configurations. A central feature of MagPot is its modular architecture, which allows the magnetic contribution it generates to be combined additively with a broad range of compatible non-magnetic interatomic potentials. The parameterisation workflow is assessed through equation-of-state, Curie-temperature, volume-magnetostriction, pressure-dependent magnetocrystalline-anisotropy and anisotropic-magnetoelastic tests. By automating the construction of the magnetic contribution to the interatomic model, MagPot offers a straightforward and reproducible route from material properties to LAMMPS-ready magnetic interactions, facilitating large-scale atomistic simulations of magnetoelasticity and magnetostriction, as well as physical phenomena associated with magnon-phonon coupling.",
+  "authors": [
+   "P. Nieves",
+   "I. Korniienko",
+   "S. Arapan",
+   "A. Fraile",
+   "R. Iglesias",
+   "D. Legut"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "4512c92806dfb277",
+  "kind": "preprint",
+  "kw_score": 8,
+  "matched": [
+   "phonon",
+   "LAMMPS",
+   "workflow",
+   "atomistic",
+   "simulation"
+  ],
+  "mytools": [
+   "LAMMPS"
+  ],
+  "published": "2026-11-22",
+  "score": 8,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "This paper presents MagPot, a Python program that generates Bethe-Slater parameter sets for spin-lattice molecular dynamics simulations using the SPIN package of the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS).",
+   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
+   "what": "By automating the construction of the magnetic contribution to the interatomic model, MagPot offers a straightforward and reproducible route from material properties to LAMMPS-ready magnetic interactions, facilitating large-scale atomistic simulations of magnetoelasticity and magnetostriction, as well as physical…",
+   "why": "Magnetoelastic phenomena originate from the coupling between atomic displacements and magnetic degrees of freedom, and their atomistic simulation requires interatomic models in which magnetic interactions depend explicitly on interatomic distance."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "MagPot: A magnetoelastic potential generator for molecular dynamics simulations",
+  "url": "https://arxiv.org/abs/2611.29574v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "We present \\texttt{LetzElPhC}, an open-source software package that computes electron-phonon matrix elements from the output of density functional perturbation theory calculations performed with the \\texttt{Quantum ESPRESSO} code. By interfacing directly with the \\texttt{Yambo} code and exploiting crystal symmetries, \\texttt{LetzElPhC} enables a scalable workflow for evaluating exciton-phonon matrix elements while enforcing strict gauge consistency between one-electron Bloch states and Bethe-Salpeter excitonic wave functions across the full Brillouin zone. This symmetry-preserving approach avoids phase ambiguities and significantly reduces both computational costs and memory requirements. To support large-scale simulations on dense momentum grids, the package incorporates Fourier interpolation of dynamical matrices and perturbed Kohn-Sham potentials, accounting for long-range dipole and quadrupole interactions in both two- and three-dimensional materials, combined with multi-level parallelization and efficient parallel I/O. Together, these capabilities seamlessly complement the \\texttt{Yambo} code to enable first-principles simulations of phonon-assisted optical spectroscopies, which we demonstrate through applications to resonant Raman scattering in monolayer WSe₂ and phonon-assisted luminescence in cubic AgBr.",
+  "authors": [
+   "Muralidhar Nalabothula",
+   "Ludger Wirtz"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "33fbb00781326fd6",
+  "kind": "preprint",
+  "kw_score": 9,
+  "matched": [
+   "phonon",
+   "electron-phonon",
+   "first-principles",
+   "workflow",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 2,
+  "score": 6,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Symmetry exploitation, Fourier interpolation of dynamical matrices and perturbed Kohn-Sham potentials including dipole and quadrupole long-range terms in 2D and 3D, multi-level parallelization and parallel I/O.",
+   "impact": "Low relevance. It is a new open-source phonon-related code, but it targets electron-phonon and optical properties, not thermal transport. Quantum ESPRESSO and Yambo are not in the toolset.",
+   "what": "LetzElPhC is an open-source code that computes electron-phonon matrix elements from Quantum ESPRESSO DFPT output. It interfaces with Yambo for exciton-phonon matrix elements, with gauge consistency between Bloch states and Bethe-Salpeter excitonic wave functions. It is demonstrated on resonant Raman scattering in monolayer WSe2 and phonon-assisted luminescence in cubic AgBr.",
+   "why": "Phonon-assisted optical spectroscopies need exciton-phonon coupling that avoids phase ambiguities and is affordable on dense grids."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "LetzElPhC: an electron-phonon code for efficient exciton-phonon workflows",
+  "url": "https://arxiv.org/abs/2611.34500v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Predicting grain-boundary segregation in multicomponent alloys remains challenging because existing spectral approaches require alloy-specific atomistic calculations to resolve segregation-energy distributions and correlations across non-equivalent boundary sites. Here, we develop a transferable macroscopic-atom spectral theory that predicts the joint segregation behavior of multiple species from physically interpretable elemental descriptors. The theory is founded on the finding that local strain and bond deficit account for 91% of the site-to-site co-variation of 40 solutes in a density-functional-theory (DFT) Al polycrystal. Linked to atomic size and surface enthalpy, these coordinates allow prediction of individual segregation spectra and their cross-species correlations, which determine whether species compete for or share grain-boundary sites. A closed-system formulation unifies host-element redistribution and dilute-solute segregation, couples metallic and light-element sublattices, and accounts for bulk compound formation and solute pairing. Calibrated using binary spectra only, the theory predicts unseen-host spectral means with a correlation coefficient of 0.81, outperforms embedded-atom spectra against DFT benchmarks, and ranks site competition across 870 solute pairs with a Spearman coefficient of 0.90. Without fitting to multicomponent observations, it reproduces 11 of 12 equilibrium Fe ternaries and 49 of 55 Mg ternaries. Predictions recorded before simulations of an 82,699-atom polycrystal identify site competition as the baseline behavior and metal-metalloid pair chemistry as a source of deviations requiring atomistic resolution. These results establish a physically grounded route to screening grain-boundary chemistry in multicomponent alloys,…",
+  "authors": [
+   "Dennis Boakye",
+   "Chuang Deng"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "4e0c940fe180f338",
+  "kind": "preprint",
+  "kw_score": 9,
+  "matched": [
+   "interpretab",
+   "transferab",
+   "benchmark",
+   "DFT",
+   "atomistic",
+   "simulation",
+   "chemistry"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 2,
+  "score": 6,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Calibrated on binary spectra only, then compared with embedded-atom spectra against DFT benchmarks and checked against an 82,699-atom polycrystal simulation.",
+   "impact": "Low relevance. It concerns segregation in metallic alloy grain boundaries, not thermal transport. Only loosely related to the SrTiO3 grain boundary project as an example of interpretable site-resolved descriptors.",
+   "what": "A transferable macroscopic-atom spectral theory predicts grain-boundary segregation of multiple species in multicomponent alloys from elemental descriptors. Local strain and bond deficit account for 91% of the site-to-site co-variation of 40 solutes in a DFT Al polycrystal. It ranks site competition across 870 solute pairs with Spearman 0.90 and reproduces 11 of 12 Fe ternaries and 49 of 55 Mg ternaries.",
+   "why": "Existing spectral approaches need alloy-specific atomistic calculations to resolve segregation-energy distributions and cross-site correlations."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "A macroscopic-atom spectral theory of grain-boundary segregation in multicomponent alloys",
+  "url": "https://arxiv.org/abs/2611.32701v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Computational photochemistry supports the design and understanding of new materials. However, the high cost of excited-state quantum-mechanical (QM) calculations makes screening large molecular libraries prohibitively expensive. To address this limitation, we introduce OMNI-P3x, a universal machine-learned interatomic potential (MLIP) for singlet ground- and excited-state simulations of neutral and charged organic molecules. Trained on both ground- and excited-state conformations, it performs complete computational photochemistry workflows with accuracy approaching TD-DFT. We demonstrate its practical applicability by screening a combinatorial library of 234,375 flavylium derivatives, where the pretrained model performs ground-state geometry optimization and predicts absorption properties without additional QM calculations. Following fine-tuning, we further screen 162,960 xanthene-based dyes, identifying new candidates for red, near-infrared and short-wavelength infrared emission. Furthermore, state-dependent neural charges, learned without reference atomic charges, provide an interpretable picture of intramolecular charge redistribution upon excitation.",
+  "authors": [
+   "Mikołaj Martyka",
+   "Joanna Jankowska",
+   "Pavlo O. Dral"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "5de9b225968beb29",
+  "kind": "preprint",
+  "kw_score": 9,
+  "matched": [
+   "interpretab",
+   "fine-tun",
+   "DFT",
+   "workflow",
+   "MLIP",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 9,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "To address this limitation, we introduce OMNI-P3x, a universal machine-learned interatomic potential (MLIP) for singlet ground- and excited-state simulations of neutral and charged organic molecules.",
+   "impact": "Possibly relevant to MLIP reliability (interpretability, data efficiency, failure modes) (matched: interpretab).",
+   "what": "We demonstrate its practical applicability by screening a combinatorial library of 234,375 flavylium derivatives, where the pretrained model performs ground-state geometry optimization and predicts absorption properties without additional QM calculations.",
+   "why": "However, the high cost of excited-state quantum-mechanical (QM) calculations makes screening large molecular libraries prohibitively expensive."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "OMNI-P3x universal neural network potential for large-scale computational photochemistry workflows",
+  "url": "https://arxiv.org/abs/2611.32133v1",
+  "venue": "arXiv · physics.chem-ph",
+  "watched": []
+ },
+ {
+  "abstract": "Embedding metal atoms within the intrinsic cavities of graphitic carbon nitride (g-C3N4) modifies its local bonding and vibrational properties, yet its consequences for lattice thermal transport remain poorly understood. Here, we combine a machine-learned potential (MLP) with homogeneous nonequilibrium molecular dynamics (HNEMD) to investigate in-plane thermal transport in Cu-embedded g-C3N4 across the full range of cavity occupation. The thermal conductivity exhibits a pronounced nonmonotonic dependence on Cu occupation, decreasing at intermediate occupation and partially recovering as the cavities approach full occupation. Frequency-resolved analysis reveals that this behavior originates from the competition between two phonon contributions. The low-frequency vibrations introduced by Cu couple to the intrinsic modes of g-C3N4, reconstructing the phonon dispersion and suppressing thermal transport below 10 THz. With increasing Cu occupation, the collective mechanical response of the N atoms surrounding the cavities is enhanced, accompanied by increased phonon group velocities in the 20-30 THz range and a corresponding recovery of the high-frequency thermal contribution. The competition between the saturating low-frequency suppression and the increasing high-frequency contribution gives rise to the nonmonotonic thermal conductivity. A similar occupation dependence and spectral redistribution are observed for Ag-embedded g-C3N4. These results identify competing phonon contributions as the microscopic origin of nonmonotonic thermal transport in metal-embedded g-C3N4 and suggest that occupation of intrinsic cavities provides a route to redistributing phonon transport in porous crystalline materials.",
+  "authors": [
+   "Wenwu Jiang",
+   "Hekai Bu",
+   "Wei Qiu",
+   "Yong Ni"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "dfec6a5a324842cc",
+  "kind": "preprint",
+  "kw_score": 9,
+  "matched": [
+   "phonon",
+   "embedding",
+   "HNEMD",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "score": 9,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "Here, we combine a machine-learned potential (MLP) with homogeneous nonequilibrium molecular dynamics (HNEMD) to investigate in-plane thermal transport in Cu-embedded g-C3N4 across the full range of cavity occupation.",
+   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
+   "what": "The competition between the saturating low-frequency suppression and the increasing high-frequency contribution gives rise to the nonmonotonic thermal conductivity.",
+   "why": "Embedding metal atoms within the intrinsic cavities of graphitic carbon nitride (g-C3N4) modifies its local bonding and vibrational properties, yet its consequences for lattice thermal transport remain poorly understood."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "Nonmonotonic In-Plane Thermal Transport in Metal-Embedded Graphitic Carbon Nitride",
+  "url": "https://arxiv.org/abs/2611.30015v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Multi-agent frameworks are attracting increasing attention as a means of autonomously driving complex, long-running workflows in first-principles materials modeling. However, such frameworks commonly organize AI agents by computational task or scientific role. When scaled across many materials, this organization can require repeated transfers of material-specific context and complicate persistent execution and resource coordination. Here, we introduce AgenticMM, a material-centered multi-agent architecture in which each material has a persistent agent that owns its complete workflow and retains its scientific context, while a persistent coordinator allocates shared resources, mediates communication, and tracks campaign progress. AgenticMM is designed to incorporate reusable, prompt-based skills as modular definitions of these workflows. Using DefectSkills prompts, we demonstrate the feasibility of AgenticMM through a multistage point-defect campaign in which material-specific agents concurrently perform host electronic-structure, phase-stability, and intrinsic-defect calculations for five chemically diverse semiconductors.",
+  "authors": [
+   "Zhenkun Yuan",
+   "Geoffroy Hautier"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "30db11d396d874f9",
+  "kind": "preprint",
+  "kw_score": 9,
+  "matched": [
+   "semiconductor",
+   "multi-agent",
+   "first-principles",
+   "workflow",
+   "materials",
+   "scientific",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-22",
+  "score": 9,
+  "source": "arXiv",
+  "summary": {
+   "by": "rules",
+   "how": "Here, we introduce AgenticMM, a material-centered multi-agent architecture in which each material has a persistent agent that owns its complete workflow and retains its scientific context, while a persistent coordinator allocates shared resources, mediates communication, and tracks campaign progress.",
+   "impact": "Background reading for First principles, lattice dynamics & thermal MD.",
+   "what": "Using DefectSkills prompts, we demonstrate the feasibility of AgenticMM through a multistage point-defect campaign in which material-specific agents concurrently perform host electronic-structure, phase-stability, and intrinsic-defect calculations for five chemically diverse semiconductors.",
+   "why": "However, such frameworks commonly organize AI agents by computational task or scientific role."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "AgenticMM: A Material-Centered Multi-Agent Architecture for Scalable First-Principles Materials Modeling",
+  "url": "https://arxiv.org/abs/2611.29248v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Large-scale pretrained machine-learned interatomic potentials keep growing more accurate as new models appear at a rapid pace, and more expensive: the current leader of Matbench Discovery as of November 2026 (F1 score 0.935) has 9.9×10⁷ parameters and took 3.6 thousand GPU-hours to train. The ILMlip potentials presented here are optimised for speed as well as zero-shot accuracy. They are equivariant, conservative message-passing potentials in which every component is arranged for throughput: little work per pair of atoms and as much as needed per atom. Through ASE on one GPU, they run molecular dynamics up to about 10³ times faster than state-of-the-art message-passing potentials such as MACE (medium) and up to five times faster than NEP89 and DPA-4.1C. At the same time, six sizes with 1.4×10⁵ to 2.8×10⁷ parameters, pretrained on materials, molecules and solid acids, reach F1 scores of 0.75 to 0.91 on Matbench Discovery, placing the largest within 0.03 of the current leader. They therefore suit high-throughput, large or long simulations, and, being transferable, they are strong starting points for fine-tuning. Fine-tuned to six materials, the model of size S comes close to the ab initio force errors of a fine-tuned MACE, so it reaches reference-level accuracy at about 50 ns per atom and step (Cu fcc). Their components can be adopted separately, as a starting point for architectures with even better ratios of speed to accuracy. The ILMlip implementation is available at https://github.com/jhaens/ilmlip",
+  "authors": [
+   "Jonas Hänseroth",
+   "Christian Dreßler"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "2972a2c9fc6fa57c",
+  "kind": "preprint",
+  "kw_score": 10,
+  "matched": [
+   "MACE",
+   "fine-tun",
+   "transferab",
+   "high-throughput",
+   "GPU",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [
+   "DeePMD-kit",
+   "MACE",
+   "ASE / pymatgen"
+  ],
+  "published": "2026-11-24",
+  "relevance": 5,
+  "score": 16,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Components are arranged for throughput, with little work per atom pair and more per atom. Models are pretrained on materials, molecules and solid acids. Fine-tuned to six materials, the S model approaches fine-tuned MACE force errors, at about 50 ns per atom and step for fcc Cu.",
+   "impact": "New open-source MLIP family, and a possible fast alternative to MACE/DeePMD for the InGaAs, AlGaN and BAs MD and fine-tuning work. Whether it gives accurate phonons or force constants (needed for lattice dynamics and BTE) is not stated, so that needs testing, for example in the MLPhonon workflow and the Phonon Olympics comparison.",
+   "what": "ILMlip is a family of six equivariant conservative message-passing MLIPs (1.4e5 to 2.8e7 parameters) designed for speed. Through ASE on one GPU, MD is up to about 10^3 times faster than MACE (medium) and up to 5x faster than NEP89 and DPA-4.1C. Matbench Discovery F1 scores are 0.75-0.91, and the largest is within 0.03 of the current leader (0.935). Code is at github.com/jhaens/ilmlip.",
+   "why": "The most accurate pretrained MLIPs keep getting larger and more expensive (the leader has 9.9e7 parameters and 3.6 thousand GPU-hours of training)."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "ILMlip: fast and universal machine-learning interatomic potentials",
+  "url": "https://arxiv.org/abs/2611.33538v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Nanowire cryotrons (nTrons) provide gate-controlled superconducting switching, current gain, and high-impedance outputs for cryogenic computing, detector readout, and superconductor-semiconductor interfaces. We develop a physics-based Sentaurus TCAD framework that couples time-dependent Ginzburg-Landau dynamics, separate electron and phonon energy equations, and mixed-mode circuit simulation. Superconducting terminal-current corrections connect the custom solver to the native electrical solution, linking local suppression of superconductivity, heating and cooling, and current redistribution in the external circuit. To our knowledge, this is the first Sentaurus-based mixed-mode TCAD implementation for nTrons. We calibrate the model against experimental switching data at six gate currents using a single parameter set. The model achieves an RMS load-current error below 1 μA outside the switching region and switching-current differences of about 1 μA or less. Simulations show that a center gate gives the highest switching sensitivity, while a drain-side gate gives the largest post-switch resistance. Narrower channels switch at lower currents and exhibit higher resistance. Transient and bidirectional bias sweeps capture electrothermal hysteresis, gate-controlled switching latency, and bias-controlled recovery. Simultaneous activation of three gates lowers the switching threshold from about 104 μA with all gates inactive to about 12 μA, demonstrating cooperative suppression of superconductivity. The framework supports the design of nTron geometries, operating conditions, and multi-input architectures.",
+  "authors": [
+   "Abdullah All Hasib",
+   "Md Shafayat Hossain",
+   "Ahmedullah Aziz",
+   "Shamiul Alam"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "d91a7ce1144df1bf",
+  "kind": "preprint",
+  "kw_score": 10,
+  "matched": [
+   "phonon",
+   "semiconductor",
+   "electrothermal",
+   "electro-thermal",
+   "cooling",
+   "interface",
+   "thermal",
+   "simulation",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 1,
+  "score": 4,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Superconducting terminal-current corrections link the custom solver to the native electrical solution. It captures electrothermal hysteresis, switching latency and multi-gate operation, with three gates lowering the switching threshold from about 104 uA to about 12 uA.",
+   "impact": "Low relevance. It is cryogenic superconducting device modeling with a two-temperature phonon treatment, not related to the GaN or interface thermal projects.",
+   "what": "A Sentaurus TCAD framework for nanowire cryotrons that couples time-dependent Ginzburg-Landau dynamics, separate electron and phonon energy equations, and mixed-mode circuit simulation. It is calibrated against experimental switching data at six gate currents with a single parameter set, with RMS load-current error below 1 uA outside the switching region.",
+   "why": "nTrons are used for cryogenic computing, detector readout and superconductor-semiconductor interfaces, and need a physics-based electrothermal design tool."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Physics-Based TCAD Modeling of Nanowire Cryotrons with Coupled Superconducting and Thermal Dynamics",
+  "url": "https://arxiv.org/abs/2611.33420v1",
+  "venue": "arXiv · physics.app-ph",
+  "watched": []
+ },
+ {
+  "abstract": "Learning potential energy surfaces for magnetic materials requires resolving coupled local spin manifolds and geometric frustration. We introduce SCO-Hyper-Meta-Double-GroupNN, a geometry-only architecture combining a pretrained O(3)-equivariant backbone with SU(2) spinor Hamiltonians and cooperative hyper-/meta-graph interactions. Analytic thermal spinor density matrices provide non-polynomial two- and three-body structural invariants, while frustrated-triangle hyperedges and a multi-shell sideway gate couple geometric representations to local spin manifolds. A variationally consistent, doubly-centered zero-gauge free-energy functional couples multiplet occupations and signed spin orientations, yielding conservative autograd forces without spin inputs at inference. On a first-principles Co-Cr-Ni benchmark comprising 346 training and 59 held-out validation supercells across crystalline, amorphous, glassy, and liquid regimes, compact models with 56k-77k parameters outperform a 207k-parameter spin-conditioned magnetic MACE baseline. Energy MAE decreases by 37-44%, reaching 3.82 versus 6.83 meV/atom, and force MAE decreases by 10.8-14.2 meV/Angstrom, reaching 165.8-169.2 versus 180.0 meV/Angstrom. The models preserve Kramers degeneracy to within 6×10⁻¹⁵ eV, predict equilibrium local magnetic moments from geometry alone with an absolute-moment MAE of 0.181 μ_B, and support stable molecular dynamics up to 2,200 K. This framework integrates local spinor symmetry and cooperative magnetic interactions into geometry-only interatomic potentials.",
+  "authors": [
+   "Rong Fu",
+   "Tianhao Su",
+   "Shunbo Hu",
+   "Musen Li"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "4cfdf8c3b1e3c29c",
+  "kind": "preprint",
+  "kw_score": 11,
+  "matched": [
+   "amorphous",
+   "glass",
+   "MACE",
+   "benchmark",
+   "first-principles",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [
+   "MACE"
+  ],
+  "published": "2026-11-25",
+  "relevance": 2,
+  "score": 8,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Thermal spinor density matrices give structural invariants. Frustrated-triangle hyperedges and a multi-shell gate couple geometry to local spin manifolds. Conservative forces come from autograd, and stable MD is reported up to 2,200 K.",
+   "impact": "Low relevance. It is an MLIP architecture for magnetic alloys. Only the data-efficient small-model angle is loosely related to the MLIP projects.",
+   "what": "Proposes SCO-Hyper-Meta-Double-GroupNN, a geometry-only MLIP architecture for magnetic materials built on a pretrained O(3)-equivariant backbone with SU(2) spinor Hamiltonians. On a Co-Cr-Ni benchmark (346 training and 59 validation supercells), models with 56k-77k parameters reach energy MAE 3.82 vs 6.83 meV/atom for a spin-conditioned magnetic MACE baseline.",
+   "why": "Learning potential energy surfaces for magnetic materials requires resolving coupled local spin manifolds and geometric frustration."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "SCO-Hyper-Meta-Double-GroupNN: A Double-Group SU(2) Hyper-/Meta-Graph Neural Network for Cooperative Spin-Crossover Potential Energy Surfaces",
+  "url": "https://arxiv.org/abs/2611.34547v1",
+  "venue": "arXiv · cs.CE",
+  "watched": []
+ },
+ {
+  "abstract": "Delocalized bonding electrons have long been associated with soft bonds and low phonon frequencies. However, a quantitative connection between electron delocalization and phonon softening remains elusive. We identify such a connection through the momentum-space quantum metric, which measures the intrinsic delocalization of the occupied electronic states. We show that a quantum geometric contribution to phonon softening is proportional to the integrated quantum metric. First-principles calculations of more than a hundred compounds demonstrate that greater quantum metric generally accompanies softer phonons. Localized Wannier orbitals reveal the bonding environments associated with this delocalization. In ferroelectric GeTe, LiBeSb, and BaTiO₃, polar distortion localizes the bonding orbitals, reduces quantum metric, and stabilizes the soft mode of the nonpolar structure. In PbSe, pressure-induced band inversion is accompanied by an enhanced quantum metric and phonon softening without change in crystal symmetry and bonding. These results establish a common quantum geometric interpretation of bond delocalization and phonon softening across distinct bonding environments.",
+  "authors": [
+   "Tianqi Deng",
+   "Tiejun Zhu"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "160754437405237b",
+  "kind": "preprint",
+  "kw_score": 11,
+  "matched": [
+   "phonon",
+   "softening",
+   "BaTiO₃",
+   "first-principles"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 3,
+  "score": 11,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "First-principles calculations with Wannier orbitals to analyze bonding environments. PbSe under pressure is used as an example of band inversion with enhanced quantum metric.",
+   "impact": "A theory result on a mechanism for phonon softening, and BaTiO3 is among the systems studied. It could help interpret soft modes in the BaTiO3 dislocation project. No thermal-transport or kappa results are stated in the abstract.",
+   "what": "Shows that a quantum-geometric contribution to phonon softening is proportional to the integrated momentum-space quantum metric. First-principles calculations on over a hundred compounds show that greater quantum metric generally accompanies softer phonons. Polar distortion in GeTe, LiBeSb and BaTiO3 reduces the quantum metric and stabilizes the soft mode of the nonpolar structure.",
+   "why": "Bond delocalization has long been linked to soft bonds and low phonon frequencies, but a quantitative connection was missing."
+  },
+  "themes": [
+   "mlip",
+   "interface"
+  ],
+  "title": "Quantum Metric Connects Bond Delocalization to Phonon Softening",
+  "url": "https://arxiv.org/abs/2611.34118v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract Ferroelectric tunneling junctions (FTJs) based on ferroelectric oxide films provide a promising platform for multifunctional nanoelectronic devices. While interfaces are known to be vital in determining device performance, their role in governing the photovoltaic (PV) behavior of FTJs remains unexplored. Here, we demonstrate a substrate-termination-dependent PV effect in Pt/BaTiO3/Nb-doped SrTiO3 (NSTO) FTJs with atomically engineered interfaces. By selectively preparing SrO-terminated (A-type) and TiO2-terminated (B-type) NSTO interfaces, we achieve deterministic control of the PV response. Remarkably, a pronounced PV effect, characterized by an open-circuit voltage of ∼0.25 V and a short-circuit current magnitude of ∼0.7 nA, is observed exclusively in the high-resistance (OFF) state of A-type FTJs, whereas B-type FTJs exhibit negligible photoresponse. This PV signal is stable, fatigue-resistant, and uniform across devices. Synchrotron-based photoemission and optical spectroscopy reveal termination-induced modifications of the local electrostatic potential, work function, and low-energy optical onset. First-principles calculations further show that the SrO-terminated interface undergoes stronger interfacial electronic reconstruction, exhibiting reduced interface-projected indirect and direct excitation gaps compared with the TiO2-terminated interface. Together with the experimentally observed low-energy indirect band-edge tail, these results indicate the formation of a more photoactive, weakly indirect interfacial electronic structure in A-type junctions. Taken together, the observations are consistent with interface-sensitive photoexcitation coupled to polarization-dependent carrier separation and collection, with the lower OFF-state conductance…",
+  "authors": [
+   "Rui Guo",
+   "Shu Shi",
+   "Lanxin Jia",
+   "Yue Gong",
+   "Xingli Wang",
+   "Geng Huangfu",
+   "Jiang Wu",
+   "Jingsheng Chen",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1021/acsami.6c15719",
+  "first_seen": "2026-11-26",
+  "focus": "mixed",
+  "id": "56880bf2743ef4b8",
+  "kind": "paper",
+  "kw_score": 11,
+  "matched": [
+   "substrate",
+   "SrTiO3",
+   "BaTiO3",
+   "interface",
+   "oxide",
+   "first-principles"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": 5,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Atomically engineered terminations, synchrotron photoemission and optical spectroscopy, and first-principles calculations of interfacial electronic reconstruction.",
+   "impact": "Low relevance. It is an electronic and optical device study with no phonon or thermal content, though it involves BaTiO3 and SrTiO3 interfaces.",
+   "what": "Experimental study of a substrate-termination-dependent photovoltaic effect in Pt/BaTiO3/Nb:SrTiO3 ferroelectric tunneling junctions. SrO-terminated junctions show a pronounced photovoltaic response (open-circuit voltage about 0.25 V) in the OFF state, while TiO2-terminated junctions show negligible response.",
+   "why": "Interfaces are known to determine FTJ performance, but their role in photovoltaic behavior was unexplored."
+  },
+  "themes": [
+   "interface"
+  ],
+  "title": "Substrate-Termination Dependent Photovoltaic Effect in Ferroelectric Tunneling Junctions",
+  "url": "https://doi.org/10.1021/acsami.6c15719",
+  "venue": "ACS Applied Materials & Interfaces",
+  "watched": []
+ },
+ {
+  "abstract": "Heat flow across the core-mantle boundary (CMB) depends on the lattice thermal conductivity (κₗₐₜₜ) of lowermost-mantle minerals, yet calculated CMB values for MgO differ severalfold, and high-temperature estimates of the conductivity increase across the bridgmanite-post-perovskite transition range from about 20 to 50%. Direct solutions of the linearized phonon Boltzmann transport equation (LBTE) require thousands of density functional theory (DFT) force evaluations per thermodynamic state. Here we replace these evaluations with phase-specific, fine-tuned MACE potentials for MgO, MgSiO3 bridgmanite (Pv), and MgSiO3 post-perovskite (PPv). The potentials reproduce DFT energies, forces, stresses, pressure-volume relations, and compressed-state phonons for all three phases. For MgO at 0 GPa, replacing MACE forces with DFT forces in otherwise identical transport calculations changes κₗₐₜₜ by 0.2% at 300 K and 1.9% at 2000 K. PPv is 44-55% more conductive than Pv at the same pressure and temperature and strongly anisotropic, with κ[₁₀₀]/κ[₀₁₀] ranging from 1.7 to 2.1. The quasi-harmonic phase boundary has a Clapeyron slope of (7.4 ± 0.1) MPa/K and intersects a model geotherm at 116.2 GPa and 2660 K, where the transition raises the silicate conductivity by 47%, to 8.6 W/(m K). Heating in the basal thermal boundary layer lowers the MgO and PPv conductivities to 37.3 and 6.7 W/(m K) at the CMB, where Hashin-Shtrikman bounds of 9.5-11.4 W/(m K) for an Fe-free aggregate of 80 vol% silicate and 20 vol% MgO encompass the 10 W/(m K) used in earlier heat-flow estimates. The density-temperature parameterizations provide an intrinsic end-member reference for lower-mantle thermal models.",
+  "authors": [
+   "Amrendra Kumar Tiwari",
+   "Sandro Jahn"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "680474778370f431",
+  "kind": "preprint",
+  "kw_score": 12,
+  "matched": [
+   "phonon",
+   "MACE",
+   "fine-tun",
+   "DFT",
+   "harmonic",
+   "heat",
+   "thermal"
+  ],
+  "mytools": [
+   "MACE"
+  ],
+  "published": "2026-11-24",
+  "relevance": 4,
+  "score": 15,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Fine-tuned MACE reproduces DFT energies, forces, stresses, pressure-volume relations and compressed-state phonons. It is used for LBTE kappa, quasi-harmonic phase boundaries, and Hashin-Shtrikman aggregate bounds.",
+   "impact": "A direct validation template for the MACE-to-BTE kappa pipeline (InGaAs, BAs, GaN/AlGaN), in particular the like-for-like MACE vs DFT force comparison in otherwise identical transport calculations. The geophysics application itself is not related to the projects.",
+   "what": "Uses phase-specific, fine-tuned MACE potentials for MgO, bridgmanite and post-perovskite to solve the linearized phonon BTE at lower-mantle conditions. For MgO at 0 GPa, swapping MACE for DFT forces changes kappa by 0.2% at 300 K and 1.9% at 2000 K. Post-perovskite is 44-55% more conductive than bridgmanite and strongly anisotropic, and the transition raises silicate conductivity by 47% to 8.6 W/(m K) at the model geotherm crossing.",
+   "why": "Calculated CMB conductivities for MgO differ severalfold, and estimates of the conductivity jump across the bridgmanite to post-perovskite transition range from about 20 to 50%. Direct LBTE needs thousands of DFT force evaluations per thermodynamic state."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Lattice Thermal Conductivity of MgO and the MgSiO₃ Polymorphs Bridgmanite and Post-Perovskite at Lower-Mantle Conditions Using Fine-Tuned MACE Potentials",
+  "url": "https://arxiv.org/abs/2611.32761v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "In AI-guided materials discovery, machine-learning models increasingly decide which candidate materials should receive expensive first-principles or experimental evaluation. Standard reliability metrics such as uncertainty, calibration, novelty, and ranking accuracy evaluate properties of the predictions, but success on these metrics does not necessarily imply a better downstream screening decision. We study this mismatch for foundation machine-learned interatomic potentials (MACE-MP, CHGNet, Orb V3) used to rank candidate crystal structures before DFT verification. We evaluate three representative reliability interventions (novelty detection, sparse DFT calibration, and chemistry-level ranking audits) using a deployment objective that measures how much DFT can be avoided while maintaining a required recall of near-hull candidates. Across all three, a reliability signal can succeed on its immediate target without improving the final screening decision: novelty detects distribution shift but weakly ranks failure severity; calibration can improve pooled ranking metrics while leaving screening unchanged or degrading it; and sparse audits identify MLIP-chemistry combinations with poor ranking reliability without yielding a robustly beneficial routing policy. A two-oracle analysis further shows that the source of failure depends on the screening decision itself: under formation-energy screening, even perfect knowledge of average ranking reliability can select the wrong model, whereas in the evaluated hull-aligned variant the oracle target becomes decision-aligned but finite-budget audits still fail to realize the value. Reliability should be evaluated relative to the decision it supports: the relevant question is not whether a model is uncertain or inaccurate, but whether…",
+  "authors": [
+   "Harry Sevi",
+   "Joonatan E. M. Laulainen"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "2cebe26a3f4487a9",
+  "kind": "preprint",
+  "kw_score": 12,
+  "matched": [
+   "MACE",
+   "CHGNet",
+   "uncertainty",
+   "first-principles",
+   "DFT",
+   "MLIP",
+   "materials",
+   "chemistry"
+  ],
+  "mytools": [
+   "MACE"
+  ],
+  "published": "2026-11-23",
+  "relevance": 3,
+  "score": 12,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Uses a deployment objective measuring how much DFT can be avoided while keeping a required recall of near-hull candidates. Novelty detects distribution shift but weakly ranks failure severity. Calibration can leave screening unchanged or degrade it. Sparse audits did not yield a robustly beneficial routing policy.",
+   "impact": "Relevant to the interest in MLIP failure modes and uncertainty. The decision-aligned framing could be applied when deciding whether a foundation MLIP or a self-trained model can be trusted for kappa. It covers formation-energy and hull screening, not thermal transport.",
+   "what": "Evaluates reliability interventions (novelty detection, sparse DFT calibration, chemistry-level ranking audits) for foundation MLIPs (MACE-MP, CHGNet, Orb V3) that rank candidate crystals before DFT verification. It argues that success on a reliability metric does not necessarily improve the screening decision.",
+   "why": "Uncertainty, calibration, novelty and ranking metrics evaluate predictions, not the downstream decision they support."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Diagnostic Accuracy Is Not Deployment Value: Decision-Aligned Reliability Evaluation for Foundation MLIPs in Materials Discovery",
+  "url": "https://arxiv.org/abs/2611.30066v1",
+  "venue": "arXiv · cs.LG",
+  "watched": []
+ },
+ {
+  "abstract": "High-entropy pyrochlore oxides possess ultra-low thermal conductivity and excellent high-temperature phase stability, making them promising candidate for next-generation thermal barrier coating (TBC) materials. However, reliable predictive models for such complex and disordered systems remain challenging. Ab initio methods, although accurate in describing anharmonic phonon-phonon interactions, struggle to capture the strong inherent phonon-disorder scattering in high-entropy systems. Moreover, the limited simulation cell size, hundreds of atoms, cannot fully represent the configurational complexity of high-entropy phases. On the other hand, classical molecular dynamics (MD) simulations lack accurate and transferable interatomic potentials, particularly in multi-component systems like high-entropy ceramics. In this work, we employed Deep Potential Molecular Dynamics (DPMD) to predict the thermophysical and mechanical properties of rare-earth high-entropy pyrochlore oxide system. The deep-potential (DP) model is trained on a limited dataset from ab initio molecular dynamics (AIMD) calculations, enabling large-scale molecular dynamics simulations with on-the-fly potential evaluations. This model not only achieves high accuracy in reproducing ab initio results but also demonstrates strong generalizability, making it applicable to medium-entropy ceramics containing the same constituent elements. Our study successfully develops a deep potential model for rare-earth pyrochlore systems and demonstrates that the deep-learning-based potential method offers a powerful computational approach for designing high-entropy TBC materials.",
+  "authors": [
+   "Yuxuan Wang",
+   "Huicong Chen",
+   "Guoqiang Lan",
+   "Jun Song"
+  ],
+  "cat": "papers",
+  "doi": "10.1016/j.commatsci.2026.115260",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "a993138ed9a709e3",
+  "kind": "paper",
+  "kw_score": 12,
+  "matched": [
+   "phonon",
+   "anharmonic",
+   "transferab",
+   "generaliz",
+   "oxide",
+   "phonon-phonon",
+   "thermal",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 3,
+  "score": 12,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "DP model trained on AIMD data, then large-scale DPMD. Specific property values are not stated in the abstract.",
+   "impact": "Moderate relevance as another Deep Potential example for disordered multicomponent systems, comparable to the self-trained DP models in the InGaAs alloy work. The materials are not part of the current projects.",
+   "what": "Trains a Deep Potential model on limited AIMD data to predict thermophysical and mechanical properties of rare-earth high-entropy pyrochlore oxides for thermal barrier coatings. The model reproduces ab initio results and also applies to medium-entropy ceramics with the same elements.",
+   "why": "Ab initio methods struggle with strong phonon-disorder scattering and small cells in high-entropy systems. Classical MD lacks accurate transferable potentials for multicomponent ceramics."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "A deep-learning potential for predicting thermal and physical properties of high-entropy pyrochlores",
+  "url": "https://doi.org/10.1016/j.commatsci.2026.115260",
+  "venue": "Computational Materials Science",
+  "watched": []
+ },
+ {
+  "abstract": "Accurate prediction of thermodynamic solubility is critical in drug discovery, where it influences oral bioavailability and drives decisions in formulation chemistry. First-principles calculations of intrinsic solubility offer the potential to achieve superior generalization to existing direct, data-driven predictors, which often suffer significant performance degradation outside of their training distribution. Whilst free energy perturbation calculations provide a rigorous framework to estimate these quantities, their accuracy is typically limited by the quality of the empirical force field used. In this work, we present a computational workflow driven by the MACE family of machine learning interatomic potentials to compute the solubility of neutral drug-like molecules. We introduce λ-MACE, a potential optimised for condensed-phase free energy calculations, which enables hydration free energy calculations at experimental accuracy on an evaluation set of 70 compounds from the FreeSolv database selected for their relevance to medicinal chemistry. We further combine these hydration free energy calculations with sublimation free energy calculations to predict crystalline solubility given a known experimental crystal structure, on an additional set of 10 compounds. We achieve state-of-the-art performance for each leg of the calculation, with experimental accuracy for the hydration leg, and accuracy competitive with industry-standard DFT for the sublimation leg. However, the overall errors after combining both legs lead to accuracy of 1.53 log units. This is significantly above the experimental accuracy (0.17-0.6 log units). Closing this gap will require substantially tighter accuracy in each leg, on the order of half of chemical accuracy (0.5 kcal/mol), with crystalline…",
+  "authors": [
+   "J. Harry Moore",
+   "Paul Mortenson",
+   "Davide Branduardi",
+   "Pavel Buslaev",
+   "Javier Antorán",
+   "Laurence Midgley",
+   "Nicholas J. Browning",
+   "Gábor Csányi"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "16bba0c7f8b5fe74",
+  "kind": "preprint",
+  "kw_score": 13,
+  "matched": [
+   "MACE",
+   "generaliz",
+   "first-principles",
+   "DFT",
+   "workflow",
+   "database",
+   "chemistry"
+  ],
+  "mytools": [
+   "MACE"
+  ],
+  "published": "2026-11-24",
+  "relevance": 1,
+  "score": 7,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "MACE-driven free-energy perturbation for the hydration and sublimation legs. The authors say the combined error is well above experimental accuracy (0.17-0.6 log units) and that tighter accuracy in each leg is needed.",
+   "impact": "Low relevance to the thermal-transport projects. It only shows MACE being applied to free-energy workflows and an honest account of error accumulation across legs.",
+   "what": "Presents lambda-MACE, a MACE-family potential optimised for condensed-phase free-energy calculations, and a workflow for the solubility of drug-like molecules. It reaches experimental accuracy for hydration free energies on 70 FreeSolv compounds. The sublimation leg is competitive with industry-standard DFT, and combined solubility error on 10 compounds is 1.53 log units.",
+   "why": "Solubility prediction matters in drug discovery. Data-driven predictors degrade out of distribution, and free-energy methods are limited by force-field quality."
+  },
+  "themes": [
+   "mlip",
+   "atomistic"
+  ],
+  "title": "Computing hydration free energies and crystalline solubility of drug-like molecules with MACE",
+  "url": "https://arxiv.org/abs/2611.33408v1",
+  "venue": "arXiv · physics.chem-ph",
+  "watched": [
+   "Gábor Csányi"
+  ]
+ },
+ {
+  "abstract": "Foundation machine-learning interatomic potentials transfer well across chemical and structural space, yet their reliability for highly disordered metallic states is less established. Metallic glasses are a demanding benchmark: they have traditionally been modeled with Embedded Atom Method (EAM) potentials fitted to specific compositions, while ab initio molecular dynamics remains too expensive at the required sizes and timescales. Using the prototypical Cu-Zr-Al glass, we show that foundation potentials capture structural disorder, reproducing the structure, quenching dynamics, and elastic, mechanical and thermal properties of the amorphous state at near first-principles accuracy. We benchmark MACE foundation models against a classical EAM potential along molecular dynamics quenches, validating against density functional theory and experiment, first at Cu46Zr46Al8 and then across the good glass-forming region of the ternary. We further test two specialization routes: fine-tuning on glass structures generated with Lennard-Jones surrogate models, and on automatically generated small periodic cells (ASSYST). Models pre-trained on databases that include non-equilibrium liquid and amorphous configurations, such as OMAT, are accurate and transferable across composition out of the box, clearly outperforming the composition-specific EAM potential. Fine-tuning on target glass structures brings only modest gains, while specialization on small crystalline cells degrades the description of disorder. The readiness of foundation potentials for disordered metals is therefore set mainly by the diversity of their pre-training data rather than by system-specific fine-tuning, shifting the modeling effort from bespoke dataset generation to pre-training coverage and careful validation of…",
+  "authors": [
+   "Dario Massa",
+   "Luca Leoni",
+   "Antoni Wadowski",
+   "Kacper Cybinski",
+   "Anshul D. S. Parmar",
+   "Carmine Autieri",
+   "Cesare Franchini",
+   "Jan Wrobel",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "ba38869b5d240694",
+  "kind": "preprint",
+  "kw_score": 14,
+  "matched": [
+   "amorphous",
+   "glass",
+   "MACE",
+   "fine-tun",
+   "transferab",
+   "benchmark",
+   "first-principles",
+   "database",
+   "thermal"
+  ],
+  "mytools": [
+   "MACE"
+  ],
+  "published": "2026-11-25",
+  "relevance": 3,
+  "score": 14,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "MD quenches at Cu46Zr46Al8 and across the ternary glass-forming region. Fine-tuning on Lennard-Jones-generated glass structures gave modest gains. Fine-tuning on small crystalline cells (ASSYST) degraded the description of disorder.",
+   "impact": "The finding that pretraining data diversity matters more than system-specific fine-tuning, and that crystal-only fine-tuning harms disorder, is a useful failure-mode data point for MACE fine-tuning on defective and disordered systems (dislocation cores, grain boundaries, alloys). Low direct relevance to a specific project, since it covers metals.",
+   "what": "Benchmarks MACE foundation models against a classical EAM potential for Cu-Zr-Al metallic glass, covering structure, quenching dynamics, and elastic, mechanical and thermal properties, with DFT and experiment as references. Models pretrained on data with non-equilibrium liquid and amorphous configurations (e.g. OMAT) are accurate and transferable across composition out of the box.",
+   "why": "The reliability of foundation MLIPs for highly disordered metallic states is less established. Glasses are a demanding test, and EAM potentials are composition-specific."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Foundation interatomic potentials capture structural disorder in metallic glasses",
+  "url": "https://arxiv.org/abs/2611.34156v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Localized heating in semiconductor devices can produce non-diffusive phonon transport near heat-generating regions, while heat spreading through the surrounding substrate remains well described by Fourier conduction. We present a hybrid framework that couples a pretrained neural operator for the phonon Boltzmann transport equation (BTE) within individual fins to a Fourier model of a shared substrate. To reduce the cost of repeated BTE solves across fin positions and coupling iterations, a DeepONet maps each fin's substrate-interface temperature and heating state to its temperature and heat-flux fields. The operator is trained on interface temperatures generated by a linearized proxy of the coupled problem, which avoids explicit training data collection from full coupled runs. An energy-balance penalty regularizes the learned operator, and a mixed finite-element formulation represents substrate heat flux in an H(div)-conforming space. The two models exchange temperature and normal heat flux through a non-overlapping Schwarz iteration with adaptive Aitken relaxation. We evaluate the framework on an idealized three-dimensional array of 100 silicon fins. For a held-out switching configuration, the neural-operator-Fourier solution differs from the direct BTE-Fourier reference by a maximum of 0.3 K in temperature and 0.6% in relative flux across all fins. Excluding the one-time substrate factorization, the coupled surrogate run takes about 50 s, compared with 2 h 28 min for direct coupling, a speedup of approximately 180x. Additional held-out switching patterns converge with the same trained operator. These results demonstrate neural-operator acceleration of bidirectional kinetic-continuum coupling for the tested geometry and material. This bidirectional strategy may extend…",
+  "authors": [
+   "Ruthwik Chivukula",
+   "Khemraj Shukla",
+   "George Em Karniadakis"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "37c56422973c0364",
+  "kind": "preprint",
+  "kw_score": 15,
+  "matched": [
+   "phonon",
+   "BTE",
+   "multiscale",
+   "semiconductor",
+   "substrate",
+   "interface",
+   "DeepONet",
+   "heat",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 5,
+  "score": 21,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "The operator is trained on interface temperatures from a linearized proxy of the coupled problem, so no full coupled runs are needed as training data. It uses an energy-balance penalty and an H(div)-conforming mixed finite-element substrate model. Tested on an idealized 3D silicon fin array.",
+   "impact": "Close to the GaN/AlGaN HEMT multiscale self-heating project and the deterministic BTE (JAX-BTE) work. The kinetic-continuum coupling and the learned BTE surrogate are transferable to device-scale models. Validated only for silicon fins in the abstract.",
+   "what": "A hybrid framework couples a pretrained DeepONet surrogate of the phonon BTE inside individual silicon fins to a Fourier model of the shared substrate. It exchanges temperature and heat flux through a non-overlapping Schwarz iteration with Aitken relaxation. On 100 fins it differs from direct BTE-Fourier coupling by at most 0.3 K and 0.6% in flux, with about 180x speedup (about 50 s vs 2 h 28 min).",
+   "why": "Localized heating in devices causes non-diffusive phonon transport near heat sources, while substrate spreading is well described by Fourier conduction. Repeated BTE solves across fin positions and coupling iterations are expensive."
+  },
+  "themes": [
+   "bte",
+   "sciml"
+  ],
+  "title": "Neural-operator acceleration of bidirectional phonon Boltzmann-Fourier coupling for multiscale heat transport in silicon fin arrays",
+  "url": "https://arxiv.org/abs/2611.31542v1",
+  "venue": "arXiv · cs.CE",
+  "watched": []
+ },
+ {
+  "abstract": "Equivariant machine-learned interatomic potentials (MLIPs) achieve near-quantum-chemical accuracy, but their computational cost and GPU memory footprint restrict molecular dynamics (MD) at extended length and time scales. Even when the tensor product (TP) is accelerated, both bottlenecks remain governed by evaluating and storing per-edge radial weights in the NequIP convolution. We introduce JET-MLIPs (Joint-Kernel Equivariant Convolution with Tabulated Radial Weights for MLIP simulation), a GPU backend applicable to pretrained NequIP-family potentials without retraining. JET-MLIPs replaces the radial multilayer perceptron (MLP) with a piecewise cubic Hermite table and fuses table lookup, spherical harmonics, TP and neighbor aggregation into a single kernel, eliminating per-edge radial-weight and MLP-intermediate storage during force evaluation. Across 15 released potentials from SevenNet, MACE, NequIP-OAM, Nequix and EquFlash on a 5632-atom liquid electrolyte, LAMMPS MD attains 1.5-5.9× step-time speed-ups and 2.4-24× peak memory reductions relative to each family's existing TP-accelerated backend on a single H200 GPU while preserving single-precision (fp32) accuracy and dynamical stability. These reductions enable multi-nanosecond transport-property simulations of roughly 10⁴-atom systems on a single GPU and broaden access to large-scale equivariant MLIP MD on widely available GPUs.",
+  "authors": [
+   "Jaekyun Yoo",
+   "Suyeon Ju"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "ad081c9a7c2fc89b",
+  "kind": "preprint",
+  "kw_score": 16,
+  "matched": [
+   "MACE",
+   "NequIP",
+   "SevenNet",
+   "LAMMPS",
+   "GPU",
+   "MLIP",
+   "simulation"
+  ],
+  "mytools": [
+   "LAMMPS",
+   "MACE",
+   "NequIP / Allegro"
+  ],
+  "published": "2026-11-24",
+  "relevance": 4,
+  "score": 19,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Replaces the radial MLP with a piecewise cubic Hermite table. Fuses table lookup, spherical harmonics, tensor product and neighbor aggregation into one kernel. fp32 accuracy and dynamical stability are preserved.",
+   "impact": "Relevant to the MACE-based MD for InGaAs and the AlGaN MLIP pipeline in LAMMPS. Lower memory could allow larger supercells for interface and dislocation thermal-transport MD (GaN/Al2O3, BaTiO3, SrTiO3 grain boundaries). Whether it supports MACE heat-flux or thermal-conductivity workflows is not stated in the abstract.",
+   "what": "JET-MLIPs is a GPU backend for pretrained NequIP-family potentials that needs no retraining. It gives 1.5-5.9x step-time speed-ups and 2.4-24x peak-memory reductions in LAMMPS across 15 released potentials (SevenNet, MACE, NequIP-OAM, Nequix, EquFlash) on a 5632-atom liquid electrolyte, on one H200 GPU.",
+   "why": "Equivariant MLIP cost and GPU memory limit MD at long length and time scales. Both are dominated by per-edge radial weights in the NequIP convolution, even when the tensor product is accelerated."
+  },
+  "themes": [
+   "mlip",
+   "atomistic"
+  ],
+  "title": "Accelerating Equivariant Interatomic Potentials for Molecular Dynamics through Radial tabulation and Kernel Fusion",
+  "url": "https://arxiv.org/abs/2611.31865v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Materials with high or low thermal conductivity are increasingly important for thermal management and energy technologies. Machine-learned interatomic potentials have accelerated anharmonic force-constant calculations, shifting the bottleneck toward phonon transport calculations for large materials datasets. Existing GPU solvers often rely on smearing, whose width can require material-dependent choices, while the linear tetrahedron method used in phono3py avoids this parameter but becomes costly for complex structures. Here we introduce Phono3GPU, which reformulates three-phonon scattering and linear tetrahedron integration for massively parallel GPU execution. Across benchmark crystals, Phono3GPU accelerates total calculations by up to 41 times relative to a CPU implementation, with larger gains for complex unit cells, and by 2 to 6 times relative to a recent GPU plug-in for phono3py. We further demonstrate atom-resolved scattering analysis in defective silicon supercells as an application enabled by the reduced computational cost. Phono3GPU thus lowers the cost of tetrahedron-based thermal-conductivity calculations and of detailed investigations of structure-dependent phonon transport.",
+  "authors": [
+   "Jinhyeong Jo",
+   "Sungwoo Kang",
+   "Byungju Lee",
+   "Jung-Hoon Lee",
+   "Seugchul Kim"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "8fde46fc980b4263",
+  "kind": "preprint",
+  "kw_score": 17,
+  "matched": [
+   "phonon",
+   "anharmonic",
+   "benchmark",
+   "phono3py",
+   "three-phonon",
+   "GPU-accelerated",
+   "GPU",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [
+   "phonopy / phono3py"
+  ],
+  "published": "2026-11-25",
+  "relevance": 5,
+  "score": 23,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Reformulates scattering and tetrahedron integration for massively parallel GPU execution. Benchmarked on several crystals, with atom-resolved scattering analysis shown for defective silicon supercells.",
+   "impact": "Directly relevant to the MLIP-to-phonon-to-BTE pipelines for GaN/AlGaN HEMT, InGaAs and boron arsenide, and to the GPU-accelerated BTE work (JAX-BTE/HPC). Worth testing as a faster phono3py alternative for complex cells and defect/interface supercells. Code availability is not stated in the abstract.",
+   "what": "Introduces Phono3GPU, a GPU implementation of three-phonon scattering with linear tetrahedron integration. It is up to 41x faster than the CPU implementation and 2-6x faster than a recent GPU plug-in for phono3py across benchmark crystals.",
+   "why": "MLIPs have made anharmonic force constants cheap, so phonon transport calculations are now the bottleneck. Existing GPU solvers rely on smearing with material-dependent widths, while the tetrahedron method in phono3py is parameter-free but costly for complex cells."
+  },
+  "themes": [
+   "atomistic",
+   "sciml"
+  ],
+  "title": "Phono3GPU: GPU-Accelerated Linear Tetrahedron Integration for Phonon Thermal Transport",
+  "url": "https://arxiv.org/abs/2611.33912v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
   "abstract": "Additive-mediated enhancement of self-assembled monolayers (SAMs) properties is essential for the synergistic regulation of perovskite crystallization and interfacial charge transport. Here, we incorporated 2,2′-biimidazole (BI) into SAMs (MeO-2PACz, [2-(3,6-dimethoxy-9H-carbazol-9-yl)ethyl]phosphonic acid) precursors, enhancing not only the adsorption behavior of SAMs but also improving the quality of the perovskite. Theoretical and experimental results indicate strong π–π interactions between BI and the carbazole units in MeO-2PACz, thereby enhancing the uniformity of the SAMs. Simultaneously, the N presenting Lewis base in BI can bind to the uncoordinated Pb2+ at the perovskite terminals, forming stable bidentate coordination. Additionally, the introduction of BI significantly optimizes the arrangement of interface energy levels and reduces residual stress in perovskite, which facilitates charge transport at the interface and enhances the intrinsic stability of the perovskite film. Consequently, the developed device achieved a maximum power conversion efficiency of 25.59%, while the wide-bandgap (1.68 eV) inverted perovskite solar cell delivered an efficiency of 23.03%.",
   "authors": [
    "Wenzhen Zou",
@@ -40,45 +1777,6 @@
   "title": "Engineering buried termination by molecular bridge induced efficient inverted perovskite solar cells",
   "url": "https://doi.org/10.1063/5.0357837",
   "venue": "Applied Physics Letters",
-  "watched": []
- },
- {
-  "abstract": "Abstract Markov state models (MSMs) are widely used to extract kinetic information from atomistic simulations, yet they remain largely opaque, requiring complex post hoc analysis to relate macroscopic states to underlying physical interactions. This disconnect severely limits the interpretability of the automated kinetic state decomposition. Here we introduce the Kinetic Interaction Tree (KinTree), an interpretable, interaction-centric machine learning framework for kinetic modeling. KinTree represents conformational dynamics in a feature space defined by noncovalent interactions and employs a decision-tree architecture optimized by a unified kinetic-structural objective function. This design enables the direct identification of kinetically relevant interactions while producing Markovian state decompositions from raw trajectory data. KinTree is validated across diverse molecular systems, demonstrating kinetic consistency through the Chapman–Kolmogorov tests and its ability to resolve mechanistic pathways. KinTree captures complex, concurrent inter- and intrachain interactions and sensitively identifies mutation-induced rewiring of interaction networks. By integrating kinetic modeling with physically interpretable features, KinTree provides a more highly interpretable and versatile approach for molecular interactions than existing kinetic models.",
-  "authors": [
-   "Manming Xu",
-   "Mohammad Tanweer",
-   "Shozeb Haider"
-  ],
-  "cat": "papers",
-  "doi": "10.1021/acs.jctc.6c01714",
-  "first_seen": "2026-11-25",
-  "focus": "computational",
-  "id": "f7ff6e22a64097f7",
-  "kind": "paper",
-  "kw_score": 6,
-  "matched": [
-   "interpretab",
-   "atomistic",
-   "simulation"
-  ],
-  "mytools": [],
-  "published": "2026-11-24",
-  "relevance": 2,
-  "score": 3,
-  "source": "Crossref",
-  "summary": {
-   "by": "claude",
-   "how": "Decision-tree architecture on interaction features, validated by Chapman–Kolmogorov tests across several molecular systems.",
-   "impact": "Low-to-moderate relevance. A biomolecular application, but the interpretable, feature-based analysis of MD trajectories is conceptually related to MLIP interpretability and latent-space analysis.",
-   "what": "Introduces KinTree, an interpretable decision-tree framework for kinetic modeling of atomistic simulations. It uses noncovalent-interaction features and a unified kinetic-structural objective to produce Markovian state decompositions from raw trajectories.",
-   "why": "Markov state models are opaque and need post hoc analysis to link states to physical interactions."
-  },
-  "themes": [
-   "mlip"
-  ],
-  "title": "Rule-Based Machine Learning for Interpretable Kinetic Modeling",
-  "url": "https://doi.org/10.1021/acs.jctc.6c01714",
-  "venue": "Journal of Chemical Theory and Computation",
   "watched": []
  },
  {
@@ -167,6 +1865,129 @@
   "title": "First-principles investigation of the electronic structure and thermoelectric transport properties of the lead-free hybrid double perovskite (CH₃NH₃)₂AgBiCl₆",
   "url": "https://doi.org/10.1007/s11696-026-06089-2",
   "venue": "Chemical Papers",
+  "watched": []
+ },
+ {
+  "abstract": "Heterogeneous catalysts under reaction conditions have crowded surfaces where lateral interactions dictate reaction energetics. Understanding and predicting these interactions, however, remains a formidable challenge. First-principles calculations suffer from vast combinatorial complexity on crowded surfaces, while machine learning methods require large training data sets and have limited physical interpretability. We reveal a physics-based linear correlation mapping complex coverage-dependent adsorption energies directly to computationally inexpensive gas-phase pairwise interactions that are evaluated via Mie potentials. This correlation is governed by bond order conservation: as surface−adsorbate interactions weaken under crowding, adsorbate−adsorbate interactions strengthen. This correlation generalizes across metal surfaces having diverse crystal facets, surface tensions, and single- and multicomponent adsorption classes (e.g., dissociative S*, N* + O*, and nondissociative CO*). This correlation predicts coverage-dependent reaction thermodynamics for NO* dissociation and for atomic-adsorbate diffusion. Coverage-dependent trends in adsorption energies of CO*/Pt(111) agree with experimental calorimetry. Ultimately, these gas-phase pairwise interactions are a descriptor for lateral interactions of atomic and structurally simple adsorbates on structurally stable metal surfaces. The generalizability and physical interpretability of this descriptor open new avenues for modeling adsorption and reaction energies on crowded metal surfaces.",
+  "authors": [
+   "Shenjun Zha",
+   "Danish Uzair Bin Abdul Hamid Khan Surattee",
+   "Pranjali Priyadarshini",
+   "Tej Salil Choksi"
+  ],
+  "cat": "papers",
+  "doi": "10.1021/jacs.6c13957",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "869a2664b859ff1e",
+  "kind": "paper",
+  "kw_score": 8,
+  "matched": [
+   "interpretab",
+   "generaliz",
+   "first-principles",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 1,
+  "score": 2,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "First-principles adsorption energies correlated against Mie-potential gas-phase interactions.",
+   "impact": "Low relevance. Catalysis-specific; only a general example of a physically interpretable descriptor in place of a data-hungry ML model.",
+   "what": "Shows a physics-based linear correlation mapping coverage-dependent adsorption energies on metal surfaces to gas-phase pairwise (Mie potential) interactions, explained by bond-order conservation. It generalizes across facets and adsorbate classes and agrees with CO/Pt(111) calorimetry.",
+   "why": "Lateral interactions on crowded catalyst surfaces are hard to compute and ML methods need large data sets and lack interpretability."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Coverage Effects in Heterogeneous Catalysis: From Fundamental Understanding to Predictive Modeling",
+  "url": "https://doi.org/10.1021/jacs.6c13957",
+  "venue": "Journal of the American Chemical Society",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract Markov state models (MSMs) are widely used to extract kinetic information from atomistic simulations, yet they remain largely opaque, requiring complex post hoc analysis to relate macroscopic states to underlying physical interactions. This disconnect severely limits the interpretability of the automated kinetic state decomposition. Here we introduce the Kinetic Interaction Tree (KinTree), an interpretable, interaction-centric machine learning framework for kinetic modeling. KinTree represents conformational dynamics in a feature space defined by noncovalent interactions and employs a decision-tree architecture optimized by a unified kinetic-structural objective function. This design enables the direct identification of kinetically relevant interactions while producing Markovian state decompositions from raw trajectory data. KinTree is validated across diverse molecular systems, demonstrating kinetic consistency through the Chapman–Kolmogorov tests and its ability to resolve mechanistic pathways. KinTree captures complex, concurrent inter- and intrachain interactions and sensitively identifies mutation-induced rewiring of interaction networks. By integrating kinetic modeling with physically interpretable features, KinTree provides a more highly interpretable and versatile approach for molecular interactions than existing kinetic models.",
+  "authors": [
+   "Manming Xu",
+   "Mohammad Tanweer",
+   "Shozeb Haider"
+  ],
+  "cat": "papers",
+  "doi": "10.1021/acs.jctc.6c01714",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "f7ff6e22a64097f7",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "interpretab",
+   "atomistic",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 2,
+  "score": 3,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Decision-tree architecture on interaction features, validated by Chapman–Kolmogorov tests across several molecular systems.",
+   "impact": "Low-to-moderate relevance. A biomolecular application, but the interpretable, feature-based analysis of MD trajectories is conceptually related to MLIP interpretability and latent-space analysis.",
+   "what": "Introduces KinTree, an interpretable decision-tree framework for kinetic modeling of atomistic simulations. It uses noncovalent-interaction features and a unified kinetic-structural objective to produce Markovian state decompositions from raw trajectories.",
+   "why": "Markov state models are opaque and need post hoc analysis to link states to physical interactions."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Rule-Based Machine Learning for Interpretable Kinetic Modeling",
+  "url": "https://doi.org/10.1021/acs.jctc.6c01714",
+  "venue": "Journal of Chemical Theory and Computation",
+  "watched": []
+ },
+ {
+  "abstract": "Developing stable and environmentally lead-free perovskites is essential for future optoelectronic technologies. In this work, we systematically investigate the structural, mechanical, electronic, optical, thermodynamic and dynamical properties of Cs 2 CdMCl 6 (M = Mg, Si, Ge, Sn) double halide perovskites through first-principles density functional theory calculations. Both GGA-PBE and GGA-PBEsol calculations confirm the cubic Fm- 3 ¯ m crystal structure to be stable and the lattice parameters and M-Cl bond lengths are found to increase with the atomic size of M-site. The calculated Goldschmidt and octahedral tolerance factors are in good agreement with the structural possibility of the studied compounds, although Cs 2 CdSiCl 6 falls outside the preferred octahedral and Bartel criteria. All the compositions reveal ductile nature according to their Pugh’s ratio and Poisson’s ratio. The formation energy was found to be negative for all compounds. Moreover, all the compositions satisfy the Born-Huang mechanical stability criteria. The HSE06 calculations show large bandgaps, ranging from 2.13 to 4.27 eV. All compounds exhibit indirect bandgap except Cs 2 CdMgCl 6 . For all compounds, the electron effective masses ( m e * / m 0 ) are significantly lower than the hole effective masses ( m h * / m 0 ) under both the GGA-PBE and GGA-PBE + SOC approximations. Phonon dispersion calculations reveal the dynamical stability except Cs 2 CdSnCl 6 . However, ab initio molecular dynamics simulations at 300 K for 5 ps do not show significant structural distortion, implying good thermal integrity under the simulated conditions. Optical calculations suggest high absorption and optical conductivity with good dielectric response, where Cs 2 CdSiCl 6 presenting the strongest low-energy…",
+  "authors": [
+   "Shafiqul Islam",
+   "Akash  Kumer Paul",
+   "Budrun Neher"
+  ],
+  "cat": "papers",
+  "doi": "10.1016/j.nxmate.2026.104091",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "7609801c77ab4a3c",
+  "kind": "paper",
+  "kw_score": 11,
+  "matched": [
+   "phonon",
+   "robustness",
+   "wide-bandgap",
+   "first-principles",
+   "DFT",
+   "thermal",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-22",
+  "relevance": 1,
+  "score": 5,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "GGA-PBE/PBEsol and HSE06 DFT, phonon dispersions and 5 ps AIMD at 300 K.",
+   "impact": "Low relevance. It uses only standard DFT and phonon stability checks and has no thermal-transport calculation.",
+   "what": "DFT and AIMD study of Cs2CdMCl6 (M = Mg, Si, Ge, Sn) double halide perovskites: structural, mechanical, electronic (HSE06 gaps 2.13–4.27 eV), optical and phonon properties. All are dynamically stable except Cs2CdSnCl6, and AIMD at 300 K for 5 ps shows no significant distortion.",
+   "why": "To find stable lead-free perovskites for optoelectronics."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Composition-dependent structural, electronic, mechanical, optical and stability properties of lead-free Cs2CdMCl6 (M = Mg, Si, Ge, Sn) halide perovskites for wide-bandgap optoelectronic applications: A DFT and AIMD study",
+  "url": "https://doi.org/10.1016/j.nxmate.2026.104091",
+  "venue": "Next Materials",
   "watched": []
  },
  {
@@ -301,90 +2122,6 @@
   "watched": []
  },
  {
-  "abstract": "Heterogeneous catalysts under reaction conditions have crowded surfaces where lateral interactions dictate reaction energetics. Understanding and predicting these interactions, however, remains a formidable challenge. First-principles calculations suffer from vast combinatorial complexity on crowded surfaces, while machine learning methods require large training data sets and have limited physical interpretability. We reveal a physics-based linear correlation mapping complex coverage-dependent adsorption energies directly to computationally inexpensive gas-phase pairwise interactions that are evaluated via Mie potentials. This correlation is governed by bond order conservation: as surface−adsorbate interactions weaken under crowding, adsorbate−adsorbate interactions strengthen. This correlation generalizes across metal surfaces having diverse crystal facets, surface tensions, and single- and multicomponent adsorption classes (e.g., dissociative S*, N* + O*, and nondissociative CO*). This correlation predicts coverage-dependent reaction thermodynamics for NO* dissociation and for atomic-adsorbate diffusion. Coverage-dependent trends in adsorption energies of CO*/Pt(111) agree with experimental calorimetry. Ultimately, these gas-phase pairwise interactions are a descriptor for lateral interactions of atomic and structurally simple adsorbates on structurally stable metal surfaces. The generalizability and physical interpretability of this descriptor open new avenues for modeling adsorption and reaction energies on crowded metal surfaces.",
-  "authors": [
-   "Shenjun Zha",
-   "Danish Uzair Bin Abdul Hamid Khan Surattee",
-   "Pranjali Priyadarshini",
-   "Tej Salil Choksi"
-  ],
-  "cat": "papers",
-  "doi": "10.1021/jacs.6c13957",
-  "first_seen": "2026-11-25",
-  "focus": "computational",
-  "id": "869a2664b859ff1e",
-  "kind": "paper",
-  "kw_score": 8,
-  "matched": [
-   "interpretab",
-   "generaliz",
-   "first-principles",
-   "physics"
-  ],
-  "mytools": [],
-  "published": "2026-11-23",
-  "relevance": 1,
-  "score": 2,
-  "source": "OpenAlex",
-  "summary": {
-   "by": "claude",
-   "how": "First-principles adsorption energies correlated against Mie-potential gas-phase interactions.",
-   "impact": "Low relevance. Catalysis-specific; only a general example of a physically interpretable descriptor in place of a data-hungry ML model.",
-   "what": "Shows a physics-based linear correlation mapping coverage-dependent adsorption energies on metal surfaces to gas-phase pairwise (Mie potential) interactions, explained by bond-order conservation. It generalizes across facets and adsorbate classes and agrees with CO/Pt(111) calorimetry.",
-   "why": "Lateral interactions on crowded catalyst surfaces are hard to compute and ML methods need large data sets and lack interpretability."
-  },
-  "themes": [
-   "mlip"
-  ],
-  "title": "Coverage Effects in Heterogeneous Catalysis: From Fundamental Understanding to Predictive Modeling",
-  "url": "https://doi.org/10.1021/jacs.6c13957",
-  "venue": "Journal of the American Chemical Society",
-  "watched": []
- },
- {
-  "abstract": "Developing stable and environmentally lead-free perovskites is essential for future optoelectronic technologies. In this work, we systematically investigate the structural, mechanical, electronic, optical, thermodynamic and dynamical properties of Cs 2 CdMCl 6 (M = Mg, Si, Ge, Sn) double halide perovskites through first-principles density functional theory calculations. Both GGA-PBE and GGA-PBEsol calculations confirm the cubic Fm- 3 ¯ m crystal structure to be stable and the lattice parameters and M-Cl bond lengths are found to increase with the atomic size of M-site. The calculated Goldschmidt and octahedral tolerance factors are in good agreement with the structural possibility of the studied compounds, although Cs 2 CdSiCl 6 falls outside the preferred octahedral and Bartel criteria. All the compositions reveal ductile nature according to their Pugh’s ratio and Poisson’s ratio. The formation energy was found to be negative for all compounds. Moreover, all the compositions satisfy the Born-Huang mechanical stability criteria. The HSE06 calculations show large bandgaps, ranging from 2.13 to 4.27 eV. All compounds exhibit indirect bandgap except Cs 2 CdMgCl 6 . For all compounds, the electron effective masses ( m e * / m 0 ) are significantly lower than the hole effective masses ( m h * / m 0 ) under both the GGA-PBE and GGA-PBE + SOC approximations. Phonon dispersion calculations reveal the dynamical stability except Cs 2 CdSnCl 6 . However, ab initio molecular dynamics simulations at 300 K for 5 ps do not show significant structural distortion, implying good thermal integrity under the simulated conditions. Optical calculations suggest high absorption and optical conductivity with good dielectric response, where Cs 2 CdSiCl 6 presenting the strongest low-energy…",
-  "authors": [
-   "Shafiqul Islam",
-   "Akash  Kumer Paul",
-   "Budrun Neher"
-  ],
-  "cat": "papers",
-  "doi": "10.1016/j.nxmate.2026.104091",
-  "first_seen": "2026-11-25",
-  "focus": "computational",
-  "id": "7609801c77ab4a3c",
-  "kind": "paper",
-  "kw_score": 11,
-  "matched": [
-   "phonon",
-   "robustness",
-   "wide-bandgap",
-   "first-principles",
-   "DFT",
-   "thermal",
-   "simulation"
-  ],
-  "mytools": [],
-  "published": "2026-11-22",
-  "relevance": 1,
-  "score": 5,
-  "source": "OpenAlex",
-  "summary": {
-   "by": "claude",
-   "how": "GGA-PBE/PBEsol and HSE06 DFT, phonon dispersions and 5 ps AIMD at 300 K.",
-   "impact": "Low relevance. It uses only standard DFT and phonon stability checks and has no thermal-transport calculation.",
-   "what": "DFT and AIMD study of Cs2CdMCl6 (M = Mg, Si, Ge, Sn) double halide perovskites: structural, mechanical, electronic (HSE06 gaps 2.13–4.27 eV), optical and phonon properties. All are dynamically stable except Cs2CdSnCl6, and AIMD at 300 K for 5 ps shows no significant distortion.",
-   "why": "To find stable lead-free perovskites for optoelectronics."
-  },
-  "themes": [
-   "device"
-  ],
-  "title": "Composition-dependent structural, electronic, mechanical, optical and stability properties of lead-free Cs2CdMCl6 (M = Mg, Si, Ge, Sn) halide perovskites for wide-bandgap optoelectronic applications: A DFT and AIMD study",
-  "url": "https://doi.org/10.1016/j.nxmate.2026.104091",
-  "venue": "Next Materials",
-  "watched": []
- },
- {
   "abstract": "The relative contributions of electrons and phonons to heat transport in uranium nitride (UN) and uranium dioxide (UO₂) remain incompletely resolved. DFT + U calculations are combined with three-phonon Boltzmann transport for the lattice thermal conductivity (κ L ) and with electron–phonon-limited carrier transport, in which the carrier lifetimes are obtained from the imaginary part of the electron–phonon self-energy within the self-energy relaxation-time approximation (SERTA) and compared with the constant relaxation-time approximation (CRTA). Among non-magnetic, ferromagnetic and collinear antiferromagnetic (AFM) configurations, the AFM solution is the lowest in energy for both compounds and reproduces their distinct electronic structures: a metal with a narrow magnetic pseudogap at the Fermi level in UN and a 2.29 eV Mott–Hubbard gap in UO₂. UO₂ is lattice-dominated, with κ L decreasing from 7.7 to 2.4 W m ‐1 K ‐1 between 300 and 1000 K, whereas UN is electron-dominated, with an electronic thermal conductivity increasing from 12.9 to 31.6 W m ‐1 K ‐1 over 300–1500 K. Within this electron–phonon-limited model, AFM-SERTA reproduces the measured temperature dependence of the electrical conductivity of UN, whereas the CRTA does not. Without fitting to thermal-conductivity data, this work captures the order-of-magnitude thermal-conductivity advantage of UN over UO₂, providing a first-principles route for screening advanced nuclear fuels.",
   "authors": [
    "Cintia Leite Gonçalves",
@@ -425,6 +2162,54 @@
   "title": "Effects of magnetic configuration and electron–phonon scattering on thermal transport in uranium nitride and uranium dioxide",
   "url": "https://doi.org/10.1016/j.commatsci.2026.115285",
   "venue": "Computational Materials Science",
+  "watched": []
+ },
+ {
+  "abstract": "Composite materials provide a versatile platform for suppressing lattice thermal conductivity through secondary phases and engineered interfaces that effectively scatter phonons while minimizing deterioration of electronic transport, offering a promising route toward high‐performance thermoelectrics. Herein, we systematically review how composite architectures manipulate thermal transport and enhance the thermoelectric figure of merit. We begin with classical phonon theory to understand the thermal transport in single phase. By establishing performance benchmarks for pristine matrix, we then compare various reported composite thermoelectric materials across low‐, mid‐, and high‐temperature regimes. The experimental trends are rationalized by the mean‐field theory, interfacial mechanisms (acoustic mismatch model and diffuse mismatch model), and nanostructure‐induced size effects. Next, we examine different compositing strategies to modulate the phononic contribution to thermal conductivity, including porous structure, nanoprecipitates, magnetic phases, crystalline–amorphous hybrid, and superlattice. Extending from materials to thermoelectric devices, we discuss the critical challenges associated with incorporating composite thermoelectric materials into thermoelectric devices, with particular emphasis on non‐uniform heat field, and thermal expansion mismatch for device reliability and operational stability. Finally, we outline practical design principles, highlighting opportunities for reproducible materials fabrication, interface engineering, and synergistic optimization of phonon and carrier transport to accelerate the development of next‐generation composite thermoelectrics.",
+  "authors": [
+   "Bo‐Yan Li",
+   "Meng Li",
+   "Liang‐Cao Yin",
+   "Xiao‐Lei Shi",
+   "Zhi‐Gang Chen"
+  ],
+  "cat": "papers",
+  "doi": "10.1002/cey2.70420",
+  "first_seen": "2026-11-25",
+  "focus": "computational",
+  "id": "74a4b6518b286bc9",
+  "kind": "paper",
+  "kw_score": 14,
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "superlattice",
+   "amorphous",
+   "benchmark",
+   "reliability",
+   "interface",
+   "heat",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-22",
+  "relevance": 2,
+  "score": 11,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Literature review with benchmarks across temperature regimes and design principles.",
+   "impact": "Background on AMM/DMM and interface scattering relevant to the interfacial transport work (GaN/Al2O3, BAs interfaces). Mostly experimental and thermoelectric-focused, so moderate relevance as a reference.",
+   "what": "Review of how composite architectures (porous structures, nanoprecipitates, magnetic phases, crystalline–amorphous hybrids, superlattices) suppress lattice thermal conductivity in thermoelectrics. It covers phonon theory, AMM/DMM interface models, mean-field theory and device-level issues such as non-uniform heat fields and thermal expansion mismatch.",
+   "why": "To suppress lattice κ with secondary phases and interfaces without degrading electronic transport."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Thermal Transport in Composite Thermoelectrics: From Phonon Scattering Mechanisms to Device Reliability",
+  "url": "https://doi.org/10.1002/cey2.70420",
+  "venue": "Carbon Energy",
   "watched": []
  },
  {
@@ -480,54 +2265,6 @@
   "title": "High Thermal Conductivity in Ultrathin Single‐Crystalline BeO Films",
   "url": "https://doi.org/10.1002/smll.76796",
   "venue": "Small",
-  "watched": []
- },
- {
-  "abstract": "Composite materials provide a versatile platform for suppressing lattice thermal conductivity through secondary phases and engineered interfaces that effectively scatter phonons while minimizing deterioration of electronic transport, offering a promising route toward high‐performance thermoelectrics. Herein, we systematically review how composite architectures manipulate thermal transport and enhance the thermoelectric figure of merit. We begin with classical phonon theory to understand the thermal transport in single phase. By establishing performance benchmarks for pristine matrix, we then compare various reported composite thermoelectric materials across low‐, mid‐, and high‐temperature regimes. The experimental trends are rationalized by the mean‐field theory, interfacial mechanisms (acoustic mismatch model and diffuse mismatch model), and nanostructure‐induced size effects. Next, we examine different compositing strategies to modulate the phononic contribution to thermal conductivity, including porous structure, nanoprecipitates, magnetic phases, crystalline–amorphous hybrid, and superlattice. Extending from materials to thermoelectric devices, we discuss the critical challenges associated with incorporating composite thermoelectric materials into thermoelectric devices, with particular emphasis on non‐uniform heat field, and thermal expansion mismatch for device reliability and operational stability. Finally, we outline practical design principles, highlighting opportunities for reproducible materials fabrication, interface engineering, and synergistic optimization of phonon and carrier transport to accelerate the development of next‐generation composite thermoelectrics.",
-  "authors": [
-   "Bo‐Yan Li",
-   "Meng Li",
-   "Liang‐Cao Yin",
-   "Xiao‐Lei Shi",
-   "Zhi‐Gang Chen"
-  ],
-  "cat": "papers",
-  "doi": "10.1002/cey2.70420",
-  "first_seen": "2026-11-25",
-  "focus": "computational",
-  "id": "74a4b6518b286bc9",
-  "kind": "paper",
-  "kw_score": 14,
-  "matched": [
-   "thermoelectric",
-   "phonon",
-   "superlattice",
-   "amorphous",
-   "benchmark",
-   "reliability",
-   "interface",
-   "heat",
-   "thermal",
-   "materials"
-  ],
-  "mytools": [],
-  "published": "2026-11-22",
-  "relevance": 2,
-  "score": 11,
-  "source": "OpenAlex",
-  "summary": {
-   "by": "claude",
-   "how": "Literature review with benchmarks across temperature regimes and design principles.",
-   "impact": "Background on AMM/DMM and interface scattering relevant to the interfacial transport work (GaN/Al2O3, BAs interfaces). Mostly experimental and thermoelectric-focused, so moderate relevance as a reference.",
-   "what": "Review of how composite architectures (porous structures, nanoprecipitates, magnetic phases, crystalline–amorphous hybrids, superlattices) suppress lattice thermal conductivity in thermoelectrics. It covers phonon theory, AMM/DMM interface models, mean-field theory and device-level issues such as non-uniform heat fields and thermal expansion mismatch.",
-   "why": "To suppress lattice κ with secondary phases and interfaces without degrading electronic transport."
-  },
-  "themes": [
-   "phonon"
-  ],
-  "title": "Thermal Transport in Composite Thermoelectrics: From Phonon Scattering Mechanisms to Device Reliability",
-  "url": "https://doi.org/10.1002/cey2.70420",
-  "venue": "Carbon Energy",
   "watched": []
  },
  {

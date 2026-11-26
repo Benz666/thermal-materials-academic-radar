@@ -1,5 +1,45 @@
 [
  {
+  "abstract": "Short workshop papers on MLIP interpretability, data efficiency or agents; NeurIPS is usually in North America in December. No deadline sentences found on the page.",
+  "always": true,
+  "authors": [],
+  "cat": "conferences",
+  "conf_name": "AI4Mat workshop (NeurIPS)",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "fit": "submit",
+  "focus": "",
+  "id": "10701d0c6fa2e140",
+  "kind": "conference",
+  "kw_score": 9,
+  "matched": [
+   "interpretab",
+   "data-efficien",
+   "MLIP",
+   "agent"
+  ],
+  "mytools": [],
+  "page_excerpt": "AI4Mat-NeurIPS 2026 Search this site Embedded Files Skip to main content Skip to navigation AI4Mat-NeurIPS 2026 AI4Mat: AI for Accelerated Materials Design December 12, 2026 @ NeurIPS 2026 (Sydney, Australia) About the Workshop The AI for Accelerated Materials Discovery (AI4Mat) Workshop at NeurIPS 2026 provides an inclusive and collaborative platform where AI researchers and material scientists converge to tackle the cutting-edge challenges in AI-driven materials discovery and development. Our goal is to foster a vibrant exchange of ideas, breaking down barriers between disciplines and encouraging insightful discussions among experts from diverse disciplines and curious newcomers to the field. The workshop embraces a broad definition of materials design encompassing matter in various forms, such as crystalline and amorphous solid-state materials, glasses, molecules, nanomaterials, and devices. By taking a comprehensive look at automated materials discovery spanning AI-guided design, synthesis and automated material characterization, we hope to create an opportunity for deep, thoughtful discussion among researchers working on these interdisciplinary topics, and highlight ongoing challenges in the field. Covering materials such as : AI4Mat was first held at NeurIPS 2022, bringing together materials scientists and AI researchers into a common forum with productive discussion on major research challenges at the intersection of AI and materials science. Since then, AI4Mat has est",
+  "published": "2026-11-26",
+  "relevance": 2,
+  "score": 6,
+  "source": "Conference watch",
+  "summary": {
+   "by": "claude",
+   "how": "Submission format and deadlines are not stated in the page excerpt, and no deadline sentences were found.",
+   "impact": "A topical fit for MLIP interpretability, data efficiency and agent-for-simulation work from the profile. The event is held in Sydney, not in the US, and the date is about two weeks away, so submission is probably not realistic. Check the site for any remaining late-breaking or poster options.",
+   "what": "The AI4Mat (AI for Accelerated Materials Design) workshop website was updated. The workshop is on December 12, 2026 at NeurIPS 2026 (Sydney, Australia). It covers AI-guided design, synthesis and characterization of materials, including crystalline and amorphous solids, glasses, molecules, nanomaterials and devices.",
+   "why": "It provides a forum for AI researchers and materials scientists on challenges in AI-driven materials discovery. It was first held at NeurIPS 2022."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "AI4Mat workshop (NeurIPS) — website updated",
+  "url": "https://sites.google.com/view/ai4mat",
+  "venue": "ML for materials (MLIP, data efficiency, agents)",
+  "watched": []
+ },
+ {
   "abstract": "Mid-size thermal sciences meeting; usually held in the US in spring. No deadline sentences found on the page.",
   "always": true,
   "authors": [],

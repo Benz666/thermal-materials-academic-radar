@@ -1,110 +1,76 @@
 [
  {
-  "abstract": "Repository for molar crate and its dependencies Topics: molecular-dynamics, molecular-dynamics-simulation, molecular-modeling, trajectory-analysis.",
-  "authors": [
-   "yesint"
-  ],
-  "cat": "industry",
-  "created": "2022-12-17",
-  "doi": "",
-  "first_seen": "2026-11-25",
-  "focus": "",
-  "id": "963ecc4250835dbe",
-  "kind": "repo",
-  "kw_score": 1,
-  "matched": [
-   "simulation"
-  ],
-  "mytools": [],
-  "published": "2026-11-24",
-  "score": 1,
-  "source": "GitHub search",
-  "star_delta": null,
-  "stars": 67,
-  "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Industry & tools.",
-   "what": "Repository for molar crate and its dependencies Topics: molecular-dynamics, molecular-dynamics-simulation, molecular-modeling, trajectory-analysis.",
-   "why": ""
-  },
-  "themes": [
-   "industry"
-  ],
-  "title": "yesint/molar",
-  "url": "https://github.com/yesint/molar",
-  "venue": "GitHub · Rust",
-  "watched": []
- },
- {
-  "abstract": "Python tools for automating routine tasks encountered when running quantum chemistry computations. Topics: catalysis, compchem, computational-chemistry, density-functional-theory, dft, dft-calculations, gaussian, ir-spectra, orca-quantum-chemistry, psi4, python, quantum-chemistry, quantum-chemistry-automation, quasi-harmonic-approximation, rrho, steric-parameters, sterimol-parameters, thermochemistry, vibrational-entropies.",
+  "abstract": "Plug-in for ChimeraX providing features for building and manipulating organic and organometallic molecules as well as displaying output from quantum chemistry computations. Topics: catalysis, density-functional-theory, graphical-user-interface, gui, ir-spectra, molecular-graphics, quantum-chemistry, quantum-chemistry-automation, steric-parameters, sterimol, ucsf-chimerax.",
   "authors": [
    "QChASM"
   ],
   "cat": "industry",
-  "created": "2019-06-05",
+  "created": "2019-11-07",
   "doi": "",
-  "first_seen": "2026-11-25",
+  "first_seen": "2026-11-26",
   "focus": "",
-  "id": "5e7fd2c45804098a",
+  "id": "e6bf56eb86140f93",
   "kind": "repo",
   "kw_score": 1,
   "matched": [
    "chemistry"
   ],
   "mytools": [],
-  "published": "2026-11-24",
-  "score": 1,
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": -5,
   "source": "GitHub search",
   "star_delta": null,
-  "stars": 64,
+  "stars": 36,
   "summary": {
-   "by": "rules",
-   "how": "",
-   "impact": "Background reading for Industry & tools.",
-   "what": "Python tools for automating routine tasks encountered when running quantum chemistry computations. Topics: catalysis, compchem, computational-chemistry, density-functional-theory, dft, dft-calculations, gaussian, ir-spectra, orca-quantum-chemistry, psi4, python, quantum-chemistry, quantum-chemistry-automation, quasi-harmonic-approximation, rrho,…",
-   "why": ""
+   "by": "claude",
+   "how": "GitHub Python repository with a GUI. Topics listed include quantum-chemistry automation, IR spectra and steric parameters.",
+   "impact": "Low relevance. It is a molecular graphics tool for molecular chemistry, not materials thermal transport.",
+   "what": "SEQCROW is a ChimeraX plug-in for building and manipulating organic and organometallic molecules and displaying quantum chemistry output.",
+   "why": "Not stated in the abstract."
   },
   "themes": [
    "industry"
   ],
-  "title": "QChASM/AaronTools.py",
-  "url": "https://github.com/QChASM/AaronTools.py",
+  "title": "QChASM/SEQCROW",
+  "url": "https://github.com/QChASM/SEQCROW",
   "venue": "GitHub · Python",
   "watched": []
  },
  {
-  "abstract": "Key Takeaways: AI can accelerate derivative chip design, but those derivatives may not be physically viable or cost-effective. AI-assisted reuse depends on the availability of accurate design data, engineering knowledge, and proven methodologies. End-to-end automation is limited by gaps in multi-physics simulation, implementation, and verification. Chipmakers are seeing mixed results when they apply AI to derivative and new chip designs, finding that AI-generated solutions can be substantially different and more costly than expected, and that AI-driven designs introduce new manufacturing and verification challenges. Several key problems have emerged when incorporating AI in chip design. Among them: The data needed to ensure that follow-on designs will function as expected may not be complete because some of that data resides in other companies, such as foundries, OSATs, and various equipment and process providers; Integrating rapidly evolving AI capabilities into established EDA flows remains challenging, especially where predictability, traceability, and silicon-proven results are required. Many organizations have customized tools for their own chips, markets, and expertise, and AI tools have not yet adapted to those changes. “There’s the engineer in me that says if AI can take us to brave new worlds where humans haven’t yet gone, that’s an exciting thing,” said Nilesh Kamdar, general manager of Keysight EDA . “But I’ve seen it run into problems. For example, I had a low-pass filter, which we call a pixelated model, and it looks like a QR code in the middle. There’s a high-frequency part running at about 2 GHz. If I want to change it to 2.5 GHz, a human would look it up in a textbook. There are traditional ways to do it, and they would create something that any other…",
+  "abstract": "Cadence’s Igor Krause examines PCIe’s Streamlined Virtual Channel Extended Capability , which aims to address limitations of the traditional PCIe ordering model in modern multi-host fabrics by introducing a standardized approach for TC-to-VC assignment. Synopsys’ Greg Sorber chats with Sanjay Gangadhara about co-packaged optics , including how it differs from pluggable modules, why the approach is gaining traction now, and what it will take to make it work at scale. Siemens’ Benoit Honel simulates a 5.22 MW liquid-cooled AI data center pod together with its cooling plant, solar PV system, battery storage, and grid connection to determine how climate impacts cooling performance. Arm’s Erick Amador explores when lookup-table GEMM can outperform traditional multiplication for ultra-low-bit LLMs, and how model shapes, packing, and hardware affect the result. Keysight’s Katharine Edmonds highlights how connected design data and IP lifecycle management support long-term automotive semiconductor traceability . Plus, check out blogs featured in the latest Manufacturing, Packaging & Materials and Systems & Design newsletters: Amkor Technology’s Gerard John demonstrates why just meeting a spec is no longer sufficient. Lam Research’s Taeyeon Oh illustrates how to model process variation , detect multiple failure modes, and evaluate DRAM solutions with less wafer experimentation. Intel Foundry’s Lori Scott explains why trusted data is a critical starting point for intelligent chip manufacturing. SEMI’s Sungho Yoon zeroes in on the explosion of new and upcoming production lines driving silicon wafer demand. Axiomise’s Fabiana Muto explores how most re-spins are caused by logic and functional flaws, not hard-to-predict physical effects. Keysight’s Chris Maloney explains why a…",
   "authors": [],
   "cat": "industry",
   "doi": "",
-  "first_seen": "2026-11-25",
+  "first_seen": "2026-11-26",
   "focus": "",
-  "id": "d8aa580497087634",
+  "id": "a60381b1f660876d",
   "kind": "news",
-  "kw_score": 3,
+  "kw_score": 8,
   "matched": [
+   "semiconductor",
+   "packaging",
+   "cooling",
    "simulation",
-   "physics",
-   "agent"
+   "materials"
   ],
   "mytools": [],
-  "published": "2026-11-24",
-  "relevance": 2,
-  "score": 0,
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": 2,
   "source": "Semiconductor Engineering",
   "summary": {
    "by": "claude",
-   "how": "Industry interviews, for example Keysight EDA's general manager.",
-   "impact": "Low-to-moderate relevance. Cites missing multi-physics simulation as a bottleneck, which supports the case for fast thermal simulation in industry roles.",
-   "what": "Article reporting mixed results when chipmakers apply AI to derivative and new chip designs, with outputs differing from expectations and costing more, and with gaps in multi-physics simulation, data and verification limiting end-to-end automation.",
-   "why": "AI-assisted reuse depends on complete design data, which may sit at foundries, OSATs and equipment providers."
+   "how": "Short descriptions of posts by Cadence, Synopsys, Siemens, Arm, Keysight, Amkor, Lam Research, Intel Foundry, SEMI and Axiomise. Details are not stated in the excerpt.",
+   "impact": "Low relevance overall. The liquid-cooled AI data center simulation is a small signal of the electronics cooling and thermal simulation trends relevant to industry jobs, and co-packaged optics is a packaging trend.",
+   "what": "Semiconductor Engineering blog roundup for Nov. 25, covering PCIe virtual channels, co-packaged optics, and a Siemens simulation of a 5.22 MW liquid-cooled AI data center pod with its cooling plant, solar PV, battery storage and grid connection. It also lists posts on lookup-table GEMM for low-bit LLMs, automotive semiconductor traceability, process variation modeling, and other topics.",
+   "why": "Industry digest of recent vendor blog posts."
   },
   "themes": [
-   "industry"
+   "device"
   ],
-  "title": "Why AI Struggles To Reuse Chip Designs",
-  "url": "https://semiengineering.com/why-ai-struggles-to-reuse-chip-designs/",
+  "title": "Blog Review: Nov. 25",
+  "url": "https://semiengineering.com/blog-review-nov-25-3/",
   "venue": "Semiconductor Engineering",
   "watched": []
  },
@@ -182,42 +148,146 @@
   "watched": []
  },
  {
-  "abstract": "An open-source active learning framework for training machine-learned interatomic potentials Topics: active-learning, atomistic-machine-learning, interatomic-potentials, library, uncertainty-quantification.",
-  "authors": [
-   "lanl"
-  ],
+  "abstract": "Key Takeaways: AI can accelerate derivative chip design, but those derivatives may not be physically viable or cost-effective. AI-assisted reuse depends on the availability of accurate design data, engineering knowledge, and proven methodologies. End-to-end automation is limited by gaps in multi-physics simulation, implementation, and verification. Chipmakers are seeing mixed results when they apply AI to derivative and new chip designs, finding that AI-generated solutions can be substantially different and more costly than expected, and that AI-driven designs introduce new manufacturing and verification challenges. Several key problems have emerged when incorporating AI in chip design. Among them: The data needed to ensure that follow-on designs will function as expected may not be complete because some of that data resides in other companies, such as foundries, OSATs, and various equipment and process providers; Integrating rapidly evolving AI capabilities into established EDA flows remains challenging, especially where predictability, traceability, and silicon-proven results are required. Many organizations have customized tools for their own chips, markets, and expertise, and AI tools have not yet adapted to those changes. “There’s the engineer in me that says if AI can take us to brave new worlds where humans haven’t yet gone, that’s an exciting thing,” said Nilesh Kamdar, general manager of Keysight EDA . “But I’ve seen it run into problems. For example, I had a low-pass filter, which we call a pixelated model, and it looks like a QR code in the middle. There’s a high-frequency part running at about 2 GHz. If I want to change it to 2.5 GHz, a human would look it up in a textbook. There are traditional ways to do it, and they would create something that any other…",
+  "authors": [],
   "cat": "industry",
-  "created": "2023-01-04",
   "doi": "",
   "first_seen": "2026-11-25",
   "focus": "",
-  "id": "ff0fdbc8578a5b9c",
-  "kind": "repo",
-  "kw_score": 4,
+  "id": "d8aa580497087634",
+  "kind": "news",
+  "kw_score": 3,
   "matched": [
-   "uncertainty",
-   "atomistic"
+   "simulation",
+   "physics",
+   "agent"
   ],
   "mytools": [],
   "published": "2026-11-24",
-  "relevance": 4,
-  "score": 7,
-  "source": "GitHub search",
-  "star_delta": null,
-  "stars": 48,
+  "relevance": 2,
+  "score": 0,
+  "source": "Semiconductor Engineering",
   "summary": {
    "by": "claude",
-   "how": "Python library; no other details given in the provided text.",
-   "impact": "Directly relevant to the active-learning MLIP work (boron arsenide, AlGaN pipeline) and data-efficiency questions. Worth checking which MLIP backends it supports and how it estimates uncertainty.",
-   "what": "lanl/ALF is an open-source active learning framework for training machine-learned interatomic potentials, with topics including uncertainty quantification.",
-   "why": "Not stated in the abstract."
+   "how": "Industry interviews, for example Keysight EDA's general manager.",
+   "impact": "Low-to-moderate relevance. Cites missing multi-physics simulation as a bottleneck, which supports the case for fast thermal simulation in industry roles.",
+   "what": "Article reporting mixed results when chipmakers apply AI to derivative and new chip designs, with outputs differing from expectations and costing more, and with gaps in multi-physics simulation, data and verification limiting end-to-end automation.",
+   "why": "AI-assisted reuse depends on complete design data, which may sit at foundries, OSATs and equipment providers."
   },
   "themes": [
    "industry"
   ],
-  "title": "lanl/ALF",
-  "url": "https://github.com/lanl/ALF",
+  "title": "Why AI Struggles To Reuse Chip Designs",
+  "url": "https://semiengineering.com/why-ai-struggles-to-reuse-chip-designs/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "Repository for molar crate and its dependencies Topics: molecular-dynamics, molecular-dynamics-simulation, molecular-modeling, trajectory-analysis.",
+  "authors": [
+   "yesint"
+  ],
+  "cat": "industry",
+  "created": "2022-12-17",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "963ecc4250835dbe",
+  "kind": "repo",
+  "kw_score": 1,
+  "matched": [
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 1,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 67,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "Repository for molar crate and its dependencies Topics: molecular-dynamics, molecular-dynamics-simulation, molecular-modeling, trajectory-analysis.",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "yesint/molar",
+  "url": "https://github.com/yesint/molar",
+  "venue": "GitHub · Rust",
+  "watched": []
+ },
+ {
+  "abstract": "Python tools for automating routine tasks encountered when running quantum chemistry computations. Topics: catalysis, compchem, computational-chemistry, density-functional-theory, dft, dft-calculations, gaussian, ir-spectra, orca-quantum-chemistry, psi4, python, quantum-chemistry, quantum-chemistry-automation, quasi-harmonic-approximation, rrho, steric-parameters, sterimol-parameters, thermochemistry, vibrational-entropies.",
+  "authors": [
+   "QChASM"
+  ],
+  "cat": "industry",
+  "created": "2019-06-05",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "5e7fd2c45804098a",
+  "kind": "repo",
+  "kw_score": 1,
+  "matched": [
+   "chemistry"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "score": 1,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 64,
+  "summary": {
+   "by": "rules",
+   "how": "",
+   "impact": "Background reading for Industry & tools.",
+   "what": "Python tools for automating routine tasks encountered when running quantum chemistry computations. Topics: catalysis, compchem, computational-chemistry, density-functional-theory, dft, dft-calculations, gaussian, ir-spectra, orca-quantum-chemistry, psi4, python, quantum-chemistry, quantum-chemistry-automation, quasi-harmonic-approximation, rrho,…",
+   "why": ""
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "QChASM/AaronTools.py",
+  "url": "https://github.com/QChASM/AaronTools.py",
   "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "Verifying the new features and options in UCIe 4.0 requires evidence that state transitions are correct, errors detected and corrected, and recovery preserves the behavior required by the design. Siemens Avery UCIe VIP brings together compliance tests, protocol-aware monitoring, transaction recording, scoreboarding, error-injection callbacks, and targeted debug to support this work across multiple layers. Used with a verification plan derived from the exact UCIe revision and the design’s supported options, these capabilities help teams build a connected view of both normal operation and failure response. Read more here . Fig.1: Siemens Avery UCIe VIP – Verification Architecture The post Securing The Chiplet Future With A UCIe 4.0-Aware Verification Architecture appeared first on Semiconductor Engineering .",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "4decc83470dcf5f0",
+  "kind": "news",
+  "kw_score": 8,
+  "matched": [
+   "chiplet",
+   "semiconductor"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 1,
+  "score": 2,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "A verification plan derived from the exact UCIe revision and supported options.",
+   "impact": "Low relevance. Verification tooling with no thermal or materials content.",
+   "what": "Describes Siemens Avery UCIe VIP for verifying UCIe 4.0 features with compliance tests, protocol-aware monitoring, transaction recording, scoreboarding and error-injection callbacks.",
+   "why": "To show that state transitions, error handling and recovery are correct in UCIe 4.0 designs."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Securing The Chiplet Future With A UCIe 4.0-Aware Verification Architecture",
+  "url": "https://semiengineering.com/securing-the-chiplet-future-with-a-ucie-4-0-aware-verification-architecture/",
+  "venue": "Semiconductor Engineering",
   "watched": []
  },
  {
@@ -258,40 +328,6 @@
   "watched": []
  },
  {
-  "abstract": "Verifying the new features and options in UCIe 4.0 requires evidence that state transitions are correct, errors detected and corrected, and recovery preserves the behavior required by the design. Siemens Avery UCIe VIP brings together compliance tests, protocol-aware monitoring, transaction recording, scoreboarding, error-injection callbacks, and targeted debug to support this work across multiple layers. Used with a verification plan derived from the exact UCIe revision and the design’s supported options, these capabilities help teams build a connected view of both normal operation and failure response. Read more here . Fig.1: Siemens Avery UCIe VIP – Verification Architecture The post Securing The Chiplet Future With A UCIe 4.0-Aware Verification Architecture appeared first on Semiconductor Engineering .",
-  "authors": [],
-  "cat": "industry",
-  "doi": "",
-  "first_seen": "2026-11-25",
-  "focus": "",
-  "id": "4decc83470dcf5f0",
-  "kind": "news",
-  "kw_score": 8,
-  "matched": [
-   "chiplet",
-   "semiconductor"
-  ],
-  "mytools": [],
-  "published": "2026-11-24",
-  "relevance": 1,
-  "score": 2,
-  "source": "Semiconductor Engineering",
-  "summary": {
-   "by": "claude",
-   "how": "A verification plan derived from the exact UCIe revision and supported options.",
-   "impact": "Low relevance. Verification tooling with no thermal or materials content.",
-   "what": "Describes Siemens Avery UCIe VIP for verifying UCIe 4.0 features with compliance tests, protocol-aware monitoring, transaction recording, scoreboarding and error-injection callbacks.",
-   "why": "To show that state transitions, error handling and recovery are correct in UCIe 4.0 designs."
-  },
-  "themes": [
-   "device"
-  ],
-  "title": "Securing The Chiplet Future With A UCIe 4.0-Aware Verification Architecture",
-  "url": "https://semiengineering.com/securing-the-chiplet-future-with-a-ucie-4-0-aware-verification-architecture/",
-  "venue": "Semiconductor Engineering",
-  "watched": []
- },
- {
   "abstract": "The system-on-chip (SoC) transformed semiconductor design by bringing the major functions of an electronic system onto one die, an integration that shaped chip architecture for years. Multi-die design is now changing the model again, distributing system functionality across multiple dies within a single package. While this approach gives engineers greater flexibility to align semiconductor design with system requirements, bringing these designs to life takes more than a die-to-die link to transport transactions across the package. It requires a system architecture that manages how data moves between dies. Data movement gets more complicated In AI and high-performance computing (HPC) systems, multi-die architectures enable teams to scale compute and select an appropriate process technology for each part of the design. These partitioning choices determine which transactions remain within a die and which must cross die boundaries. Treating each boundary independently increases integration and verification effort, complicates performance management, and reduces the practical value of chiplet reuse. Still, managing communication across these die boundaries requires a clear separation between the physical interface that transports transactions and the system architecture that manages them. Extending the system’s data-movement architecture across die boundaries allows engineers to repartition or scale designs without rebuilding the entire communication architecture. The die-to-die controller and PHY provide transport between dies: the controller handles protocol functions, while the PHY provides the electrical interface. The link does not automatically preserve the traffic management, quality of service (QoS), routing, address handling, and observability established by the…",
   "authors": [],
   "cat": "industry",
@@ -324,6 +360,81 @@
   "title": "A Link Is Not Architecture: Why Multi-Die Systems Need More Than Die-to-Die Connectivity",
   "url": "https://semiengineering.com/a-link-is-not-architecture-why-multi-die-systems-need-more-than-die-to-die-connectivity/",
   "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "New technical papers recently added to Semiconductor Engineering’s library: Technical Paper Research Organizations 3D-NAND-CIM: A Hybrid-Bonded 3D-NAND-Flash-based Analog In-Memory-Compute macro offering 4.8M weights/mm² IBM Research , Micron Technology , University of Patras DT-MATCH: Defect- and Topology-Aware Chiplet Matching for Yield Optimization in Heterogeneous Integration Arizona State University , Ampere Computing SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads Georgia Tech , Nvidia Research , Stanford University Clock Distribution Network with Backside Clock Mesh in BSPDN Architecture KAIST From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware Lucid Motors , EYL Inc. Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction Singapore University of Technology and Design , A*STAR , National University of Singapore The Impact of Writing Field Stitching on Optical Losses in Electron Beam Fabricated Silicon-on-Insulator Waveguides AMO GmbH , RWTH Aachen University Find more semiconductor research papers here . The post Chip Industry Technical Paper Roundup: Nov. 25 appeared first on Semiconductor Engineering .",
+  "authors": [],
+  "cat": "industry",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "3b7c8e5708a41e1d",
+  "kind": "news",
+  "kw_score": 10,
+  "matched": [
+   "chiplet",
+   "semiconductor",
+   "GPU",
+   "agent"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": 4,
+  "source": "Semiconductor Engineering",
+  "summary": {
+   "by": "claude",
+   "how": "A list of titles and research organizations only.",
+   "impact": "Low relevance. No thermal-focused paper in this list, though BSPDN and heterogeneous integration are background for electronics thermal trends.",
+   "what": "Semiconductor Engineering's technical-paper roundup of Nov. 25 lists papers including 3D-NAND-CIM analog in-memory compute, chiplet matching for yield, HBF for GPU systems, backside clock mesh in BSPDN, and LLM agents for cryptographic hardware.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Chip Industry Technical Paper Roundup: Nov. 25",
+  "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-25-2/",
+  "venue": "Semiconductor Engineering",
+  "watched": []
+ },
+ {
+  "abstract": "An open-source active learning framework for training machine-learned interatomic potentials Topics: active-learning, atomistic-machine-learning, interatomic-potentials, library, uncertainty-quantification.",
+  "authors": [
+   "lanl"
+  ],
+  "cat": "industry",
+  "created": "2023-01-04",
+  "doi": "",
+  "first_seen": "2026-11-25",
+  "focus": "",
+  "id": "ff0fdbc8578a5b9c",
+  "kind": "repo",
+  "kw_score": 4,
+  "matched": [
+   "uncertainty",
+   "atomistic"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 4,
+  "score": 7,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 48,
+  "summary": {
+   "by": "claude",
+   "how": "Python library; no other details given in the provided text.",
+   "impact": "Directly relevant to the active-learning MLIP work (boron arsenide, AlGaN pipeline) and data-efficiency questions. Worth checking which MLIP backends it supports and how it estimates uncertainty.",
+   "what": "lanl/ALF is an open-source active learning framework for training machine-learned interatomic potentials, with topics including uncertainty quantification.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "lanl/ALF",
+  "url": "https://github.com/lanl/ALF",
+  "venue": "GitHub · Python",
   "watched": []
  },
  {
@@ -396,42 +507,6 @@
   "title": "NVIDIA cuEquivariance v0.13.0",
   "url": "https://github.com/NVIDIA/cuEquivariance/releases/tag/v0.13.0",
   "venue": "NVIDIA cuEquivariance",
-  "watched": []
- },
- {
-  "abstract": "New technical papers recently added to Semiconductor Engineering’s library: Technical Paper Research Organizations 3D-NAND-CIM: A Hybrid-Bonded 3D-NAND-Flash-based Analog In-Memory-Compute macro offering 4.8M weights/mm² IBM Research , Micron Technology , University of Patras DT-MATCH: Defect- and Topology-Aware Chiplet Matching for Yield Optimization in Heterogeneous Integration Arizona State University , Ampere Computing SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads Georgia Tech , Nvidia Research , Stanford University Clock Distribution Network with Backside Clock Mesh in BSPDN Architecture KAIST From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware Lucid Motors , EYL Inc. Self-Supervised Attention-Based Virtual Metrology for CMP MRR Prediction Singapore University of Technology and Design , A*STAR , National University of Singapore The Impact of Writing Field Stitching on Optical Losses in Electron Beam Fabricated Silicon-on-Insulator Waveguides AMO GmbH , RWTH Aachen University Find more semiconductor research papers here . The post Chip Industry Technical Paper Roundup: Nov. 25 appeared first on Semiconductor Engineering .",
-  "authors": [],
-  "cat": "industry",
-  "doi": "",
-  "first_seen": "2026-11-25",
-  "focus": "",
-  "id": "3b7c8e5708a41e1d",
-  "kind": "news",
-  "kw_score": 10,
-  "matched": [
-   "chiplet",
-   "semiconductor",
-   "GPU",
-   "agent"
-  ],
-  "mytools": [],
-  "published": "2026-11-25",
-  "relevance": 1,
-  "score": 4,
-  "source": "Semiconductor Engineering",
-  "summary": {
-   "by": "claude",
-   "how": "A list of titles and research organizations only.",
-   "impact": "Low relevance. No thermal-focused paper in this list, though BSPDN and heterogeneous integration are background for electronics thermal trends.",
-   "what": "Semiconductor Engineering's technical-paper roundup of Nov. 25 lists papers including 3D-NAND-CIM analog in-memory compute, chiplet matching for yield, HBF for GPU systems, backside clock mesh in BSPDN, and LLM agents for cryptographic hardware.",
-   "why": "Not stated in the abstract."
-  },
-  "themes": [
-   "device"
-  ],
-  "title": "Chip Industry Technical Paper Roundup: Nov. 25",
-  "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-25-2/",
-  "venue": "Semiconductor Engineering",
   "watched": []
  },
  {

@@ -1,0 +1,131 @@
+{
+ "summaries": {
+  "8fde46fc980b4263": {
+   "what": "Introduces Phono3GPU, a GPU implementation of three-phonon scattering with linear tetrahedron integration. It is up to 41x faster than the CPU implementation and 2-6x faster than a recent GPU plug-in for phono3py across benchmark crystals.",
+   "why": "MLIPs have made anharmonic force constants cheap, so phonon transport calculations are now the bottleneck. Existing GPU solvers rely on smearing with material-dependent widths, while the tetrahedron method in phono3py is parameter-free but costly for complex cells.",
+   "how": "Reformulates scattering and tetrahedron integration for massively parallel GPU execution. Benchmarked on several crystals, with atom-resolved scattering analysis shown for defective silicon supercells.",
+   "impact": "Directly relevant to the MLIP-to-phonon-to-BTE pipelines for GaN/AlGaN HEMT, InGaAs and boron arsenide, and to the GPU-accelerated BTE work (JAX-BTE/HPC). Worth testing as a faster phono3py alternative for complex cells and defect/interface supercells. Code availability is not stated in the abstract.",
+   "relevance": 5
+  },
+  "ad081c9a7c2fc89b": {
+   "what": "JET-MLIPs is a GPU backend for pretrained NequIP-family potentials that needs no retraining. It gives 1.5-5.9x step-time speed-ups and 2.4-24x peak-memory reductions in LAMMPS across 15 released potentials (SevenNet, MACE, NequIP-OAM, Nequix, EquFlash) on a 5632-atom liquid electrolyte, on one H200 GPU.",
+   "why": "Equivariant MLIP cost and GPU memory limit MD at long length and time scales. Both are dominated by per-edge radial weights in the NequIP convolution, even when the tensor product is accelerated.",
+   "how": "Replaces the radial MLP with a piecewise cubic Hermite table. Fuses table lookup, spherical harmonics, tensor product and neighbor aggregation into one kernel. fp32 accuracy and dynamical stability are preserved.",
+   "impact": "Relevant to the MACE-based MD for InGaAs and the AlGaN MLIP pipeline in LAMMPS. Lower memory could allow larger supercells for interface and dislocation thermal-transport MD (GaN/Al2O3, BaTiO3, SrTiO3 grain boundaries). Whether it supports MACE heat-flux or thermal-conductivity workflows is not stated in the abstract.",
+   "relevance": 4
+  },
+  "37c56422973c0364": {
+   "what": "A hybrid framework couples a pretrained DeepONet surrogate of the phonon BTE inside individual silicon fins to a Fourier model of the shared substrate. It exchanges temperature and heat flux through a non-overlapping Schwarz iteration with Aitken relaxation. On 100 fins it differs from direct BTE-Fourier coupling by at most 0.3 K and 0.6% in flux, with about 180x speedup (about 50 s vs 2 h 28 min).",
+   "why": "Localized heating in devices causes non-diffusive phonon transport near heat sources, while substrate spreading is well described by Fourier conduction. Repeated BTE solves across fin positions and coupling iterations are expensive.",
+   "how": "The operator is trained on interface temperatures from a linearized proxy of the coupled problem, so no full coupled runs are needed as training data. It uses an energy-balance penalty and an H(div)-conforming mixed finite-element substrate model. Tested on an idealized 3D silicon fin array.",
+   "impact": "Close to the GaN/AlGaN HEMT multiscale self-heating project and the deterministic BTE (JAX-BTE) work. The kinetic-continuum coupling and the learned BTE surrogate are transferable to device-scale models. Validated only for silicon fins in the abstract.",
+   "relevance": 5
+  },
+  "ba38869b5d240694": {
+   "what": "Benchmarks MACE foundation models against a classical EAM potential for Cu-Zr-Al metallic glass, covering structure, quenching dynamics, and elastic, mechanical and thermal properties, with DFT and experiment as references. Models pretrained on data with non-equilibrium liquid and amorphous configurations (e.g. OMAT) are accurate and transferable across composition out of the box.",
+   "why": "The reliability of foundation MLIPs for highly disordered metallic states is less established. Glasses are a demanding test, and EAM potentials are composition-specific.",
+   "how": "MD quenches at Cu46Zr46Al8 and across the ternary glass-forming region. Fine-tuning on Lennard-Jones-generated glass structures gave modest gains. Fine-tuning on small crystalline cells (ASSYST) degraded the description of disorder.",
+   "impact": "The finding that pretraining data diversity matters more than system-specific fine-tuning, and that crystal-only fine-tuning harms disorder, is a useful failure-mode data point for MACE fine-tuning on defective and disordered systems (dislocation cores, grain boundaries, alloys). Low direct relevance to a specific project, since it covers metals.",
+   "relevance": 3
+  },
+  "16bba0c7f8b5fe74": {
+   "what": "Presents lambda-MACE, a MACE-family potential optimised for condensed-phase free-energy calculations, and a workflow for the solubility of drug-like molecules. It reaches experimental accuracy for hydration free energies on 70 FreeSolv compounds. The sublimation leg is competitive with industry-standard DFT, and combined solubility error on 10 compounds is 1.53 log units.",
+   "why": "Solubility prediction matters in drug discovery. Data-driven predictors degrade out of distribution, and free-energy methods are limited by force-field quality.",
+   "how": "MACE-driven free-energy perturbation for the hydration and sublimation legs. The authors say the combined error is well above experimental accuracy (0.17-0.6 log units) and that tighter accuracy in each leg is needed.",
+   "impact": "Low relevance to the thermal-transport projects. It only shows MACE being applied to free-energy workflows and an honest account of error accumulation across legs.",
+   "relevance": 1
+  },
+  "680474778370f431": {
+   "what": "Uses phase-specific, fine-tuned MACE potentials for MgO, bridgmanite and post-perovskite to solve the linearized phonon BTE at lower-mantle conditions. For MgO at 0 GPa, swapping MACE for DFT forces changes kappa by 0.2% at 300 K and 1.9% at 2000 K. Post-perovskite is 44-55% more conductive than bridgmanite and strongly anisotropic, and the transition raises silicate conductivity by 47% to 8.6 W/(m K) at the model geotherm crossing.",
+   "why": "Calculated CMB conductivities for MgO differ severalfold, and estimates of the conductivity jump across the bridgmanite to post-perovskite transition range from about 20 to 50%. Direct LBTE needs thousands of DFT force evaluations per thermodynamic state.",
+   "how": "Fine-tuned MACE reproduces DFT energies, forces, stresses, pressure-volume relations and compressed-state phonons. It is used for LBTE kappa, quasi-harmonic phase boundaries, and Hashin-Shtrikman aggregate bounds.",
+   "impact": "A direct validation template for the MACE-to-BTE kappa pipeline (InGaAs, BAs, GaN/AlGaN), in particular the like-for-like MACE vs DFT force comparison in otherwise identical transport calculations. The geophysics application itself is not related to the projects.",
+   "relevance": 4
+  },
+  "2cebe26a3f4487a9": {
+   "what": "Evaluates reliability interventions (novelty detection, sparse DFT calibration, chemistry-level ranking audits) for foundation MLIPs (MACE-MP, CHGNet, Orb V3) that rank candidate crystals before DFT verification. It argues that success on a reliability metric does not necessarily improve the screening decision.",
+   "why": "Uncertainty, calibration, novelty and ranking metrics evaluate predictions, not the downstream decision they support.",
+   "how": "Uses a deployment objective measuring how much DFT can be avoided while keeping a required recall of near-hull candidates. Novelty detects distribution shift but weakly ranks failure severity. Calibration can leave screening unchanged or degrade it. Sparse audits did not yield a robustly beneficial routing policy.",
+   "impact": "Relevant to the interest in MLIP failure modes and uncertainty. The decision-aligned framing could be applied when deciding whether a foundation MLIP or a self-trained model can be trusted for kappa. It covers formation-energy and hull screening, not thermal transport.",
+   "relevance": 3
+  },
+  "a993138ed9a709e3": {
+   "what": "Trains a Deep Potential model on limited AIMD data to predict thermophysical and mechanical properties of rare-earth high-entropy pyrochlore oxides for thermal barrier coatings. The model reproduces ab initio results and also applies to medium-entropy ceramics with the same elements.",
+   "why": "Ab initio methods struggle with strong phonon-disorder scattering and small cells in high-entropy systems. Classical MD lacks accurate transferable potentials for multicomponent ceramics.",
+   "how": "DP model trained on AIMD data, then large-scale DPMD. Specific property values are not stated in the abstract.",
+   "impact": "Moderate relevance as another Deep Potential example for disordered multicomponent systems, comparable to the self-trained DP models in the InGaAs alloy work. The materials are not part of the current projects.",
+   "relevance": 3
+  },
+  "4cfdf8c3b1e3c29c": {
+   "what": "Proposes SCO-Hyper-Meta-Double-GroupNN, a geometry-only MLIP architecture for magnetic materials built on a pretrained O(3)-equivariant backbone with SU(2) spinor Hamiltonians. On a Co-Cr-Ni benchmark (346 training and 59 validation supercells), models with 56k-77k parameters reach energy MAE 3.82 vs 6.83 meV/atom for a spin-conditioned magnetic MACE baseline.",
+   "why": "Learning potential energy surfaces for magnetic materials requires resolving coupled local spin manifolds and geometric frustration.",
+   "how": "Thermal spinor density matrices give structural invariants. Frustrated-triangle hyperedges and a multi-shell gate couple geometry to local spin manifolds. Conservative forces come from autograd, and stable MD is reported up to 2,200 K.",
+   "impact": "Low relevance. It is an MLIP architecture for magnetic alloys. Only the data-efficient small-model angle is loosely related to the MLIP projects.",
+   "relevance": 2
+  },
+  "160754437405237b": {
+   "what": "Shows that a quantum-geometric contribution to phonon softening is proportional to the integrated momentum-space quantum metric. First-principles calculations on over a hundred compounds show that greater quantum metric generally accompanies softer phonons. Polar distortion in GeTe, LiBeSb and BaTiO3 reduces the quantum metric and stabilizes the soft mode of the nonpolar structure.",
+   "why": "Bond delocalization has long been linked to soft bonds and low phonon frequencies, but a quantitative connection was missing.",
+   "how": "First-principles calculations with Wannier orbitals to analyze bonding environments. PbSe under pressure is used as an example of band inversion with enhanced quantum metric.",
+   "impact": "A theory result on a mechanism for phonon softening, and BaTiO3 is among the systems studied. It could help interpret soft modes in the BaTiO3 dislocation project. No thermal-transport or kappa results are stated in the abstract.",
+   "relevance": 3
+  },
+  "56880bf2743ef4b8": {
+   "what": "Experimental study of a substrate-termination-dependent photovoltaic effect in Pt/BaTiO3/Nb:SrTiO3 ferroelectric tunneling junctions. SrO-terminated junctions show a pronounced photovoltaic response (open-circuit voltage about 0.25 V) in the OFF state, while TiO2-terminated junctions show negligible response.",
+   "why": "Interfaces are known to determine FTJ performance, but their role in photovoltaic behavior was unexplored.",
+   "how": "Atomically engineered terminations, synchrotron photoemission and optical spectroscopy, and first-principles calculations of interfacial electronic reconstruction.",
+   "impact": "Low relevance. It is an electronic and optical device study with no phonon or thermal content, though it involves BaTiO3 and SrTiO3 interfaces.",
+   "relevance": 1
+  },
+  "2972a2c9fc6fa57c": {
+   "what": "ILMlip is a family of six equivariant conservative message-passing MLIPs (1.4e5 to 2.8e7 parameters) designed for speed. Through ASE on one GPU, MD is up to about 10^3 times faster than MACE (medium) and up to 5x faster than NEP89 and DPA-4.1C. Matbench Discovery F1 scores are 0.75-0.91, and the largest is within 0.03 of the current leader (0.935). Code is at github.com/jhaens/ilmlip.",
+   "why": "The most accurate pretrained MLIPs keep getting larger and more expensive (the leader has 9.9e7 parameters and 3.6 thousand GPU-hours of training).",
+   "how": "Components are arranged for throughput, with little work per atom pair and more per atom. Models are pretrained on materials, molecules and solid acids. Fine-tuned to six materials, the S model approaches fine-tuned MACE force errors, at about 50 ns per atom and step for fcc Cu.",
+   "impact": "New open-source MLIP family, and a possible fast alternative to MACE/DeePMD for the InGaAs, AlGaN and BAs MD and fine-tuning work. Whether it gives accurate phonons or force constants (needed for lattice dynamics and BTE) is not stated, so that needs testing, for example in the MLPhonon workflow and the Phonon Olympics comparison.",
+   "relevance": 5
+  },
+  "d91a7ce1144df1bf": {
+   "what": "A Sentaurus TCAD framework for nanowire cryotrons that couples time-dependent Ginzburg-Landau dynamics, separate electron and phonon energy equations, and mixed-mode circuit simulation. It is calibrated against experimental switching data at six gate currents with a single parameter set, with RMS load-current error below 1 uA outside the switching region.",
+   "why": "nTrons are used for cryogenic computing, detector readout and superconductor-semiconductor interfaces, and need a physics-based electrothermal design tool.",
+   "how": "Superconducting terminal-current corrections link the custom solver to the native electrical solution. It captures electrothermal hysteresis, switching latency and multi-gate operation, with three gates lowering the switching threshold from about 104 uA to about 12 uA.",
+   "impact": "Low relevance. It is cryogenic superconducting device modeling with a two-temperature phonon treatment, not related to the GaN or interface thermal projects.",
+   "relevance": 1
+  },
+  "33fbb00781326fd6": {
+   "what": "LetzElPhC is an open-source code that computes electron-phonon matrix elements from Quantum ESPRESSO DFPT output. It interfaces with Yambo for exciton-phonon matrix elements, with gauge consistency between Bloch states and Bethe-Salpeter excitonic wave functions. It is demonstrated on resonant Raman scattering in monolayer WSe2 and phonon-assisted luminescence in cubic AgBr.",
+   "why": "Phonon-assisted optical spectroscopies need exciton-phonon coupling that avoids phase ambiguities and is affordable on dense grids.",
+   "how": "Symmetry exploitation, Fourier interpolation of dynamical matrices and perturbed Kohn-Sham potentials including dipole and quadrupole long-range terms in 2D and 3D, multi-level parallelization and parallel I/O.",
+   "impact": "Low relevance. It is a new open-source phonon-related code, but it targets electron-phonon and optical properties, not thermal transport. Quantum ESPRESSO and Yambo are not in the toolset.",
+   "relevance": 2
+  },
+  "4e0c940fe180f338": {
+   "what": "A transferable macroscopic-atom spectral theory predicts grain-boundary segregation of multiple species in multicomponent alloys from elemental descriptors. Local strain and bond deficit account for 91% of the site-to-site co-variation of 40 solutes in a DFT Al polycrystal. It ranks site competition across 870 solute pairs with Spearman 0.90 and reproduces 11 of 12 Fe ternaries and 49 of 55 Mg ternaries.",
+   "why": "Existing spectral approaches need alloy-specific atomistic calculations to resolve segregation-energy distributions and cross-site correlations.",
+   "how": "Calibrated on binary spectra only, then compared with embedded-atom spectra against DFT benchmarks and checked against an 82,699-atom polycrystal simulation.",
+   "impact": "Low relevance. It concerns segregation in metallic alloy grain boundaries, not thermal transport. Only loosely related to the SrTiO3 grain boundary project as an example of interpretable site-resolved descriptors.",
+   "relevance": 2
+  },
+  "a60381b1f660876d": {
+   "what": "Semiconductor Engineering blog roundup for Nov. 25, covering PCIe virtual channels, co-packaged optics, and a Siemens simulation of a 5.22 MW liquid-cooled AI data center pod with its cooling plant, solar PV, battery storage and grid connection. It also lists posts on lookup-table GEMM for low-bit LLMs, automotive semiconductor traceability, process variation modeling, and other topics.",
+   "why": "Industry digest of recent vendor blog posts.",
+   "how": "Short descriptions of posts by Cadence, Synopsys, Siemens, Arm, Keysight, Amkor, Lam Research, Intel Foundry, SEMI and Axiomise. Details are not stated in the excerpt.",
+   "impact": "Low relevance overall. The liquid-cooled AI data center simulation is a small signal of the electronics cooling and thermal simulation trends relevant to industry jobs, and co-packaged optics is a packaging trend.",
+   "relevance": 1
+  },
+  "e6bf56eb86140f93": {
+   "what": "SEQCROW is a ChimeraX plug-in for building and manipulating organic and organometallic molecules and displaying quantum chemistry output.",
+   "why": "Not stated in the abstract.",
+   "how": "GitHub Python repository with a GUI. Topics listed include quantum-chemistry automation, IR spectra and steric parameters.",
+   "impact": "Low relevance. It is a molecular graphics tool for molecular chemistry, not materials thermal transport.",
+   "relevance": 1
+  },
+  "10701d0c6fa2e140": {
+   "what": "The AI4Mat (AI for Accelerated Materials Design) workshop website was updated. The workshop is on December 12, 2026 at NeurIPS 2026 (Sydney, Australia). It covers AI-guided design, synthesis and characterization of materials, including crystalline and amorphous solids, glasses, molecules, nanomaterials and devices.",
+   "why": "It provides a forum for AI researchers and materials scientists on challenges in AI-driven materials discovery. It was first held at NeurIPS 2022.",
+   "how": "Submission format and deadlines are not stated in the page excerpt, and no deadline sentences were found.",
+   "impact": "A topical fit for MLIP interpretability, data efficiency and agent-for-simulation work from the profile. The event is held in Sydney, not in the US, and the date is about two weeks away, so submission is probably not realistic. Check the site for any remaining late-breaking or poster options.",
+   "relevance": 2
+  }
+ },
+ "new_items": []
+}
