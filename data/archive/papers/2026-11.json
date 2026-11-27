@@ -1,5 +1,522 @@
 [
  {
+  "abstract": "",
+  "authors": [
+   "Xianxing Ju",
+   "Qing Wang",
+   "Yongjie Ding",
+   "Yang Peng",
+   "Mingxiang Chen"
+  ],
+  "cat": "papers",
+  "doi": "10.1109/ted.2026.3751611",
+  "first_seen": "2026-11-27",
+  "focus": "",
+  "id": "e286ea20cc685c1c",
+  "kind": "paper",
+  "kw_score": 5,
+  "matched": [
+   "microchannel",
+   "substrate",
+   "cooling",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-26",
+  "relevance": 2,
+  "score": 2,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract.",
+   "impact": "Low relevance. It is a device-level cooling trend item for electronics thermal management, not a GaN or computational study.",
+   "what": "Presents a highly integrated microchannel liquid-cooling ceramic substrate for thermal management of a high-power LED module. No abstract is provided.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Highly Integrated Microchannel Liquid-Cooling Ceramic Substrate for Enhanced Thermal Management of High-Power LED Module",
+  "url": "https://doi.org/10.1109/ted.2026.3751611",
+  "venue": "IEEE Transactions on Electron Devices",
+  "watched": []
+ },
+ {
+  "abstract": "Nanostructured polycrystalline cubic boron nitride, an advanced superhard and refractory covalent solid with hardness approaching that of diamond, exhibits extreme mechanical properties due to high chemical and phase purity, ideal crystallinity and high intergranular adhesion. The non-trivial Raman fingerprint of nano-cBN shows both bulk and surface/grain boundary modes in the phonon density of states. The anomalous heat capacity of nano-cBN is comparable to that of nanostructured metal bulks and shows universal behavior with a maximum at 20-25 percent of the Debye temperature. The intergrain boundaries and their intrinsic stacking-fault structure are a reliable, but probably not unique cause of excessive heat capacity. The excess heat capacity is typically interpreted as arising from disorder-induced softening of vibrational modes in grain-boundary regions with reduced bond stiffness, without explicit identification of disorder nature. Our results indicate that nanostructured cubic boron nitride hosts grain-boundary phonon modes that give rise to an anomalous excess heat capacity, a universal effect previously known only in metals with similar space-filling polycrystal organization.",
+  "authors": [
+   "Oleksandr O. Kurakevych",
+   "Samir F. Matar",
+   "Vladimir L. Solozhenko"
+  ],
+  "cat": "papers",
+  "doi": "10.1103/bkfq-z5mt",
+  "first_seen": "2026-11-27",
+  "focus": "",
+  "id": "c9af6eecc4edc033",
+  "kind": "paper",
+  "kw_score": 5,
+  "matched": [
+   "phonon",
+   "softening",
+   "heat"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 3,
+  "score": 5,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Raman and heat-capacity analysis, with the excess heat capacity peaking at 20-25 percent of the Debye temperature; grain boundaries and stacking faults are proposed as the cause. The abstract does not state the methods in detail.",
+   "impact": "Moderately relevant to the SrTiO3 grain boundary and dislocation-core phonon work and to boron-based materials (BAs): evidence of grain-boundary phonon modes that a lattice dynamics study could examine. Largely experimental.",
+   "what": "Reports Raman fingerprints, phonon density of states and anomalous excess heat capacity of nanostructured polycrystalline cubic boron nitride, attributed to grain-boundary phonon modes.",
+   "why": "Excess heat capacity in nanostructured solids is usually ascribed to disorder-induced softening in grain-boundary regions without identifying the nature of the disorder."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Anomalous heat capacity and phonon density of states of superhard nanostructured cubic boron nitride",
+  "url": "https://doi.org/10.1103/bkfq-z5mt",
+  "venue": "Physical review. B./Physical review. B",
+  "watched": []
+ },
+ {
+  "abstract": "AgSbTe 2 is a promising p-type thermoelectric material for intermediate-temperature applications because of its intrinsically low lattice thermal conductivity and favorable electronic transport. Here, we investigate the composition-dependent effects of Bi substitution in AgSb 1- x Bi x Te 2 (0 ≤ x ≤ 0.15), with emphasis on the relationships among electronic structure, microstructure, secondary phases, and thermoelectric transport. The samples were synthesized by conventional melting followed by spark plasma sintering. Density-functional-theory calculations indicate that Bi substitution modifies the near-Fermi electronic states in the ordered supercell model, while the experiments reveal strong composition-dependent evolution of the secondary phases and microstructure. At low Bi content ( x = 0.01), surface features with characteristic sizes of approximately 10 nm are observed by SEM, together with an enhanced Seebeck coefficient and low-temperature power factor; however, their phase identity cannot be established from the available SEM/EDS data. The x = 0.01 sample achieves an average zT of 0.5 over 297–523 K. With further Bi incorporation, AgSb 0.97 Bi 0.03 Te​ 2 exhibits a favorable balance between electrical and thermal transport, with a thermal conductivity of 0.59 W m -1 ​ K​ -1 and a peak zT of 1.26 at 598 K during cooling. At x = 0.15, pronounced changes in the diffraction pattern and secondary-phase constitution are observed. These results highlight the strong composition dependence of Bi-induced structural, microstructural, and electronic changes in AgSbTe 2 .",
+  "authors": [
+   "Ting Lu",
+   "Huangshui Ma",
+   "Mingquan Li",
+   "Min Hong"
+  ],
+  "cat": "papers",
+  "doi": "10.1007/s44562-026-00019-0",
+  "first_seen": "2026-11-27",
+  "focus": "mixed",
+  "id": "46c8e7e7255e3d4a",
+  "kind": "paper",
+  "kw_score": 5,
+  "matched": [
+   "thermoelectric",
+   "cooling",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 1,
+  "score": -1,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Melting plus spark plasma sintering, SEM/EDS and diffraction, thermoelectric measurements, and DFT on an ordered supercell.",
+   "impact": "Low relevance. Mostly experimental synthesis and doping work with no mechanism for the reader's projects.",
+   "what": "Experimental study of Bi substitution in AgSb1-xBixTe2 (0 ≤ x ≤ 0.15), with DFT on the electronic structure; AgSb0.97Bi0.03Te2 reaches a peak zT of 1.26 at 598 K with thermal conductivity of 0.59 W/m/K.",
+   "why": "Understand how composition affects electronic structure, microstructure, secondary phases and transport in a low-lattice-thermal-conductivity thermoelectric."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Tuning the thermoelectric performance of AgSb1−xBixTe2 through Bi substitution and microstructure engineering",
+  "url": "https://doi.org/10.1007/s44562-026-00019-0",
+  "venue": "Thermal Functional Materials",
+  "watched": []
+ },
+ {
+  "abstract": "",
+  "authors": [
+   "Abhishek Kumar",
+   "Dariskhem Pyngrope",
+   "Chenming Hu",
+   "Avirup Dasgupta",
+   "Sayeef Salahuddin"
+  ],
+  "cat": "papers",
+  "doi": "10.1109/ted.2026.3754664",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "2def09e3d793e658",
+  "kind": "paper",
+  "kw_score": 6,
+  "matched": [
+   "HEMTs",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-26",
+  "relevance": 2,
+  "score": 3,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract.",
+   "impact": "Low relevance to the GaN HEMT multiscale thermal modeling project: it is an electrical compact model, and thermal or self-heating content is not stated.",
+   "what": "Physics-based compact model for ferroelectric-gate HEMTs covering transient, DC, CV and RF behaviour. No abstract is provided.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "A Physics-Based Compact Model for Ferroelectric-HEMTs: Transient, DC, CV, and RF Modeling",
+  "url": "https://doi.org/10.1109/ted.2026.3754664",
+  "venue": "IEEE Transactions on Electron Devices",
+  "watched": []
+ },
+ {
+  "abstract": "High‐performance thermoelectric devices require not only intrinsically efficient materials but also minimized transport losses across multiple interfaces during device integration. However, internal transport interfaces and external electrode contacts are typically optimized independently, creating a persistent challenge in translating material‐level advances into device‐level performance. Here we establish a unified interface engineering strategy in Bi‐rich Mg 3 (Sb,Bi) 2 thermoelectrics by using Nb as a multifunctional interface modifier. In Mg 3 Sb 0.7 Bi 1.3, Nb‐rich internal interfaces regulate grain‐boundary carrier transport, while Nb foils provide chemically stable and low‐resistance electrode contacts. First‐principles calculations and atomic‐scale characterization reveal that the Bi‐rich composition suppresses extensive Nb‐related reactions while enabling electronically favorable confined interfaces. Nb incorporation increases the weighted mobility to 315.6 cm 2 ·V −1 ·s −1 and achieves a room‐temperature zT above 0.8, while Nb foil contacts yield an intrinsic contact resistivity of 1.8 µΩ·cm 2. Integrating Nb‐engineered n‐type Mg 3 Sb 0.7 Bi 1.3 with p‐type MgAgSb enables Mg‐based thermoelectric modules with a conversion efficiency of 3.8% at Δ T = 100 K and a maximum cooling temperature difference of 82.7 K at a hot‐side temperature of 373 K. This work establishes a general interface design principle for thermoelectrics, demonstrating that interface modifiers for bulk transport optimization can also serve as electrode‐contact materials to bridge the gap between high‐performance materials and practical devices.",
+  "authors": [
+   "Yanxiao Cheng",
+   "Jian Yong Huang",
+   "Yuntian Fu",
+   "Aibin Huang",
+   "Lianjun Wang",
+   "Qihao Zhang",
+   "Wan Jiang"
+  ],
+  "cat": "papers",
+  "doi": "10.1002/aenm.71885",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "d451787032325742",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "thermoelectric",
+   "cooling",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": 1,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Experimental synthesis and atomic-scale characterization, supported by first-principles calculations; modules made by pairing with p-type MgAgSb.",
+   "impact": "Low relevance. Mostly experimental thermoelectric device engineering, with no phonon-transport data or mechanism directly usable for the reader's computations.",
+   "what": "Uses Nb as a multifunctional interface modifier in Bi-rich Mg3(Sb,Bi)2 thermoelectrics, both for grain-boundary transport and as electrode contacts, reaching room-temperature zT above 0.8, contact resistivity of 1.8 µΩ·cm2 and module efficiency of 3.8% at ΔT = 100 K.",
+   "why": "Internal interfaces and electrode contacts are usually optimized separately, which limits the translation of material gains into device performance."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Unified Grain‐Boundary and Electrode‐Interface Engineering Enables High‐Performance Magnesium‐Based Thermoelectrics",
+  "url": "https://doi.org/10.1002/aenm.71885",
+  "venue": "Advanced Energy Materials",
+  "watched": []
+ },
+ {
+  "abstract": "(X = Cs, Rb, K) are 0.33, 0.39, and 0.36 respectively. The obtained results give these materials attractive potential for possible use in thermoelectric devices. Furthermore, the calculated thermodynamic parameters, such as heat capacity, Debye temperature, thermal expansion coefficient, and entropy, exhibit predictable temperature and pressure-dependent behaviour. These properties, which demonstrate the compounds' thermodynamic stability, were calculated using the quasi-harmonic Debye model-based Gibbs2 software over a temperature range of 0-400 K and a pressure range of 0-2 GPa.",
+  "authors": [
+   "Nagma",
+   "Sadaf Fatmi",
+   "Mohd Shahid Khan",
+   "M. Ajmal Khan"
+  ],
+  "cat": "papers",
+  "doi": "10.1039/d6ra09374d",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "c606e56e46c41b34",
+  "kind": "paper",
+  "kw_score": 8,
+  "matched": [
+   "thermoelectric",
+   "first-principles",
+   "harmonic",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 1,
+  "score": 2,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "First-principles calculations, with thermodynamic properties from the quasi-harmonic Debye model in Gibbs2 over 0-400 K and 0-2 GPa.",
+   "impact": "Low relevance. Debye-model thermodynamics and screening offer little for the reader's projects.",
+   "what": "First-principles study of lead-free halide double perovskites X2LaCuBr6 (X = Cs, Rb, K) covering stability, optoelectronic and thermoelectric properties; the abstract is truncated and gives figures of 0.33, 0.39 and 0.36 for the three compounds.",
+   "why": "Evaluate lead-free perovskites for possible thermoelectric devices."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Exploring novel lead-free halide double perovskites X 2 LaCuBr 6 (X = Cs, Rb, K): stability, optoelectronic and thermoelectric properties – a first-principles study",
+  "url": "https://doi.org/10.1039/d6ra09374d",
+  "venue": "RSC Advances",
+  "watched": []
+ },
+ {
+  "abstract": "Phonon anharmonicity is ubiquitous in real materials and is crucial for understanding thermal properties and phase stability. In this work, we show that anharmonic phonon modes can be obtained by maximizing their vibration stability during fitting the atomic trajectory. We prove that all information about these quasiparticles is contained in two small correlation matrices S and Q, which can be constructed directly from molecular dynamics simulations. Based on these matrices, we proposed an optimization scheme, which allows us to efficiently determine temperature-dependent phonon modes along with their frequencies and lifetimes. We verified this method by applying it to silicon and cubic CaSiO3, where it successfully captured their temperaturedependent phonon behaviors and the well-known phonon softening in cubic CaSiO3. This theory provides a convenient tool for investigating phonon quasiparticles and can be extended to study other quasiparticles, such as electrons, holes, and magnons.",
+  "authors": [
+   "Wenjing Li",
+   "Yongfeng Lu",
+   "Fawei Zheng"
+  ],
+  "cat": "papers",
+  "doi": "10.1103/l7rh-k729",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "76298af94bbfa4bf",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "phonon",
+   "anharmonic",
+   "softening",
+   "thermal",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 5,
+  "score": 15,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "All information is contained in two small correlation matrices S and Q built from MD, plus an optimization scheme; verified on silicon and cubic CaSiO3, capturing temperature-dependent behaviour and phonon softening in CaSiO3.",
+   "impact": "Directly relevant to MLPhonon and MLIP-to-lattice-dynamics workflows: a way to get finite-temperature phonon frequencies and lifetimes from MD (including MLIP-driven MD), useful for InGaAs, BAs and anharmonic oxides such as BaTiO3 and SrTiO3. Worth reading.",
+   "what": "Proposes a correlation matrix method that extracts temperature-dependent anharmonic phonon modes, with frequencies and lifetimes, from molecular dynamics trajectories by maximizing vibration stability.",
+   "why": "Phonon anharmonicity is ubiquitous and key to thermal properties and phase stability, but quasiparticle modes are hard to obtain directly from MD."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Correlation matrix method for phonon quasiparticles",
+  "url": "https://doi.org/10.1103/l7rh-k729",
+  "venue": "Physical review. B./Physical review. B",
+  "watched": []
+ },
+ {
+  "abstract": "Janus K 2 BX (X = S, Se, Te) monolayers were investigated using first‐principles density functional theory within the FP‐LAPW framework, employing the GGA‐WC and HSE06 functionals. Formation enthalpies (−1.59 to −1.72 eV/f.u.), cohesive energies, phonon spectra, and ab initio molecular dynamics simulations confirm that all three monolayers are energetically favorable, dynamically stable, and thermally robust up to 1000 K. They are direct‐band‐gap semiconductors at the M point, with HSE06 gaps of 0.84, 0.72, and 0.40 eV for K 2 BS, K 2 BSe, and K 2 BTe, respectively, arising from a charge‐transfer transition between chalcogen‐p and boron‐p orbitals. Electron mobilities exceeding 1000 cm 2 V −1 s −1 indicate strong n‐type transport. Thermoelectric calculations show a pronounced reduction in lattice thermal conductivity along the chalcogen series, which enhances the figure of merit. K 2 BTe reaches a maximum ZT of approximately 1.78 at 900 K and exceeds ZT ≈1 over the entire temperature range studied. These findings identify K 2 BX as a chemically distinct family that pairs a light alkali cation with a compact, boron‐centered covalent framework, and they highlight its promise for two‐dimensional thermoelectric and nanoelectronic applications.",
+  "authors": [
+   "Mohamed El Amine El Goutni",
+   "Mohammed Batouche",
+   "Hela Ferjani",
+   "Mohamed Houcine Dhaou",
+   "Abdulrahman Alsawi",
+   "Sami M. Alharbi"
+  ],
+  "cat": "papers",
+  "doi": "10.1002/qua.70347",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "edfa5497a5fa8c7e",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "semiconductor",
+   "thermal",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 2,
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "DFT with phonon spectra, ab initio MD and thermoelectric transport calculations; lattice thermal conductivity falls along the chalcogen series.",
+   "impact": "Low relevance. A standard 2D thermoelectric screening study that does not address the reader's MLIP, BTE or interface work.",
+   "what": "First-principles (FP-LAPW, GGA-WC and HSE06) study of Janus K2BX (X = S, Se, Te) monolayers, finding them dynamically and thermally stable direct-gap semiconductors with electron mobilities above 1000 cm2/V/s; reports a maximum ZT of about 1.78 at 900 K for K2BTe.",
+   "why": "Identify a chemically distinct 2D family for thermoelectric and nanoelectronic applications."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Chalcogen‐Tuned Electronic and Thermoelectric Properties of Two‐Dimensional Janus K 2 BX (X = S, Se, Te) Semiconductors",
+  "url": "https://doi.org/10.1002/qua.70347",
+  "venue": "International Journal of Quantum Chemistry",
+  "watched": []
+ },
+ {
+  "abstract": "Transition-metal dichalcogenides (TMDs) MoX2 with (X = S, Se, Te) are systematically investigated using density functional theory (DFT) combined with Boltzmann transport theory within the relaxation-time approximation. The structural, optoelectronic, and thermoelectric properties are analyzed using the generalized gradient approximation (GGA) and GGA-modified Becke–Johnson (GGA-mBJ) potential. The optimized structures and formation energies confirm that MoX2 compounds are thermodynamically stable in the hexagonal symmetry with the P63/mmc phase. Electronic band-structure and density of states calculations reveal semiconducting characteristics, with indirect band gaps decreasing from (X = S to Te) as the chalcogen atomic size increases. The calculated optical parameters, including dielectric function, absorption coefficient, optical conductivity, refractive index, reflectivity, and energy-loss function, show pronounced optical absorption in the visible–ultraviolet region, suggesting that MoX2 may have potential for photoelectronic, photovoltaic, and photodetection applications. Thermoelectric analysis further reveals that chalcogen substitution strongly affects the charge-carrier transport and thermoelectric efficiency. The studied MoX2 materials exhibit low electronic thermal conductivity and enhanced electrical transport properties, leading to favorable thermoelectric figure of merit (ZT = 1.083, 0.991, and 0.988) for MoS2, MoSe2, and MoTe2, respectively. The present findings highlight the potential of these layered MoX2 compounds for future photoelectronic, thermoelectric, and energy-conversion technologies.",
+  "authors": [
+   "M. Musa Saad H.‐E.",
+   "B. O. Alsobhi",
+   "A. Almeshal"
+  ],
+  "cat": "papers",
+  "doi": "10.3390/ma19234983",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "b87ba43634094f74",
+  "kind": "paper",
+  "kw_score": 10,
+  "matched": [
+   "thermoelectric",
+   "generaliz",
+   "semiconductor",
+   "DFT",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": 4,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "GGA and GGA-mBJ DFT with Boltzmann transport in the relaxation-time approximation.",
+   "impact": "Low relevance. Standard DFT/RTA screening with no lattice dynamics or BTE method contribution for the reader's projects.",
+   "what": "DFT with Boltzmann transport (relaxation-time approximation) study of MoX2 (X = S, Se, Te) structural, optoelectronic and thermoelectric properties using GGA and GGA-mBJ; reports ZT of 1.083, 0.991 and 0.988 for MoS2, MoSe2 and MoTe2.",
+   "why": "Assess the potential of layered MoX2 for photoelectronic, thermoelectric and energy-conversion uses."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Structural, Optoelectronic, and Thermoelectric Properties of Transition-Metal-Based Dichalcogenides MoX2 (X = S, Se, Te) as Semiconductors for Photoelectronic Applications",
+  "url": "https://doi.org/10.3390/ma19234983",
+  "venue": "Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Two-dimensional (2D) field-effect transistors (FETs) face a fundamental thermal-management challenge because heat generated in atomically thin channels must efficiently cross the van der Waals (vdW) interface into the supporting substrate. Yet, how atomic-scale interfacial arrangement governs the transmission channels of heat-carrying phonons remains poorly understood. Here, using atomistic nonequilibrium Green’s function calculations combined with mode-resolved phonon transmission analysis, we investigate interfacial phonon transport in sliding graphene/h-BN vdW heterostructures. We reveal a pronounced oscillatory thermal conductance governed by two distinct characteristic length scales: a short-period oscillation of 0.5 unit cell (uc) and a long-period modulation of approximately 8 uc. The short-period oscillation originates from periodic changes in atomic arrangement and the resulting variation in local interlayer vdW coupling. In contrast, mode-resolved analysis reveals that the long-period modulation is accompanied by a wavevector-dependent evolution and redistribution of the transmission contributions from heat-carrying phonons. In particular, the characteristic wavelengths of the dominant ZA phonons associated with the first high-transmission region are approximately 7.1-9.1 uc, comparable to the 8 uc sliding length of the long-period conductance modulation. These results reveal that interfacial phonon transport in vdW heterostructures can be governed by two distinct structural and vibrational length scales: an atomic-arrangement scale controlling local interlayer coupling and a phonon-wavelength scale associated with the redistribution of heat-carrying transmission channels. Our findings establish a microscopic connection between interfacial atomic…",
+  "authors": [
+   "Lin Wan",
+   "Hong-Ze Luo",
+   "Yu‐Jia Zeng",
+   "Hangbo Zhou",
+   "Wu-Xing Zhou"
+  ],
+  "cat": "papers",
+  "doi": "10.1088/0256-307x/44/1/010701",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "a6deb1adad642d83",
+  "kind": "paper",
+  "kw_score": 11,
+  "matched": [
+   "phonon",
+   "transistor",
+   "substrate",
+   "interface",
+   "heterostructure",
+   "interlayer",
+   "heat",
+   "thermal",
+   "atomistic"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 4,
+  "score": 14,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "NEGF with mode-resolved analysis; the short period follows changes in atomic arrangement and local interlayer coupling, while the long period tracks redistribution of transmission among phonons, with dominant ZA wavelengths of about 7.1-9.1 uc.",
+   "impact": "Relevant to the GaN/Al2O3 interface and interfacial thermal conductance work: the mode-resolved transmission analysis is a transferable approach for interface phonon transport. The material system (2D vdW) differs from the reader's projects.",
+   "what": "Atomistic nonequilibrium Green's function calculations with mode-resolved phonon transmission for sliding graphene/h-BN van der Waals heterostructures show an oscillatory interfacial thermal conductance with two length scales: a 0.5 unit-cell period and a long-period modulation of about 8 unit cells.",
+   "why": "How atomic-scale interfacial arrangement controls heat-carrying phonon transmission across vdW interfaces in 2D FETs is poorly understood."
+  },
+  "themes": [
+   "interface"
+  ],
+  "title": "Interlayer sliding induced thermal conductance oscillation in van der Waals contact graphene/h-BN heterostructures",
+  "url": "https://doi.org/10.1088/0256-307x/44/1/010701",
+  "venue": "Chinese Physics Letters",
+  "watched": []
+ },
+ {
+  "abstract": "Magnetism governs key properties of materials used in energy, data storage, and spintronic technologies, yet its complex coupling to lattice and electronic degrees of freedom challenges conventional first-principles approaches. We introduce an equivariant message-passing graph neural network that embeds atomic magnetic moments as explicit degrees of freedom, enabling the learning of magnetic interactions beyond collinear approximations. The model learns physically consistent and transferable representations of magnetic behaviour and can incorporate spin–orbit coupling, achieving near density-functional-theory accuracy with strong data efficiency across diverse magnetic systems by fine-tuning from a pre-trained model. Applications to structural transformations, finite-temperature magnetic phenomena, and materials screening for strongly spin-orbit coupled materials demonstrate transferable magnetic behaviour, establishing a practical foundation for data-driven, high-throughput discovery of complex magnetic materials.",
+  "authors": [
+   "Cheuk Hin Ho",
+   "Cas van der Ord",
+   "James P. Darby",
+   "Theo Keane",
+   "Raz L. Benson",
+   "Cristian Rebolledo Espinoza",
+   "Rutvij Pankaj Kulkarni",
+   "Elina Spinu",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.21203/rs.3.rs-11670201/v1",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "fb639f7046e8ae25",
+  "kind": "preprint",
+  "kw_score": 12,
+  "matched": [
+   "data-efficien",
+   "fine-tun",
+   "transferab",
+   "first-principles",
+   "high-throughput",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-20",
+  "relevance": 3,
+  "score": 12,
+  "source": "Watched authors",
+  "summary": {
+   "by": "claude",
+   "how": "Equivariant many-body message passing, fine-tuned from a pre-trained model to reach near-DFT accuracy with strong data efficiency; applied to structural transformations, finite-temperature magnetism and screening of strongly spin-orbit coupled materials.",
+   "impact": "Relevant as a methods reference for MLIP data efficiency and fine-tuning from foundation models (InGaAs DP vs MACE, BAs active learning), but magnetic materials are not among the reader's projects. Moderate relevance.",
+   "what": "Introduces an equivariant message-passing graph neural network interatomic potential that treats atomic magnetic moments as explicit degrees of freedom, including non-collinear interactions and optionally spin–orbit coupling.",
+   "why": "Magnetism couples to lattice and electronic degrees of freedom in ways that conventional first-principles approaches struggle to handle."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Equivariant Many-body Message Passing Interatomic Potentials for Magnetic Materials",
+  "url": "https://doi.org/10.21203/rs.3.rs-11670201/v1",
+  "venue": "Research Square",
+  "watched": [
+   "Gábor Csányi"
+  ]
+ },
+ {
+  "abstract": "Nanowire cryotrons (nTrons) provide gate-controlled superconducting switching, current gain, and high-impedance outputs for cryogenic computing, detector readout, and superconductor-semiconductor interfaces. We develop a physics-based Sentaurus TCAD framework that couples time-dependent Ginzburg-Landau dynamics, separate electron and phonon energy equations, and mixed-mode circuit simulation. Superconducting terminal-current corrections connect the custom solver to the native electrical solution, linking local suppression of superconductivity, heating and cooling, and current redistribution in the external circuit. To our knowledge, this is the first Sentaurus-based mixed-mode TCAD implementation for nTrons. We calibrate the model against experimental switching data at six gate currents using a single parameter set. The model achieves an RMS load-current error below 1 μA outside the switching region and switching-current differences of about 1 μA or less. Simulations show that a center gate gives the highest switching sensitivity, while a drain-side gate gives the largest post-switch resistance. Narrower channels switch at lower currents and exhibit higher resistance. Transient and bidirectional bias sweeps capture electrothermal hysteresis, gate-controlled switching latency, and bias-controlled recovery. Simultaneous activation of three gates lowers the switching threshold from about 104 μA with all gates inactive to about 12 μA, demonstrating cooperative suppression of superconductivity. The framework supports the design of nTron geometries, operating conditions, and multi-input architectures.",
+  "authors": [
+   "Abdullah All Hasib",
+   "Md Shafayat Hossain",
+   "Ahmedullah Aziz",
+   "Shamiul Alam"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "d91a7ce1144df1bf",
+  "kind": "preprint",
+  "kw_score": 10,
+  "matched": [
+   "phonon",
+   "semiconductor",
+   "electrothermal",
+   "electro-thermal",
+   "cooling",
+   "interface",
+   "thermal",
+   "simulation",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 1,
+  "score": 4,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Superconducting terminal-current corrections link the custom solver to the native electrical solution. It captures electrothermal hysteresis, switching latency and multi-gate operation, with three gates lowering the switching threshold from about 104 uA to about 12 uA.",
+   "impact": "Low relevance. It is cryogenic superconducting device modeling with a two-temperature phonon treatment, not related to the GaN or interface thermal projects.",
+   "what": "A Sentaurus TCAD framework for nanowire cryotrons that couples time-dependent Ginzburg-Landau dynamics, separate electron and phonon energy equations, and mixed-mode circuit simulation. It is calibrated against experimental switching data at six gate currents with a single parameter set, with RMS load-current error below 1 uA outside the switching region.",
+   "why": "nTrons are used for cryogenic computing, detector readout and superconductor-semiconductor interfaces, and need a physics-based electrothermal design tool."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Physics-Based TCAD Modeling of Nanowire Cryotrons with Coupled Superconducting and Thermal Dynamics",
+  "url": "https://arxiv.org/abs/2611.33420v1",
+  "venue": "arXiv · physics.app-ph",
+  "watched": []
+ },
+ {
   "abstract": "As a mesoscopic diffusive wire at low temperatures is driven out of equilibrium by a current, excess noise is observed compared to the equilibrium Johnson-Nyquist fluctuations. The expected form of the excess noise varies depending on the relative rates of wire traversal, electron-electron inelastic energy transfer, and electron-phonon inelastic energy transfer. We measure noise as a function of bias current in diffusive Au nanowires on SiO2/Si with lengths ranging from sub-μm to 30 μm and temperatures from 3 K to 50 K, to map out the interplay between charge shot noise and the crossover to electron self-heating and phonon-dominated noise suppression. As expected qualitatively, shot noise is suppressed with increasing wire length and substrate temperature, as electron-phonon scattering is of increasing importance. In long wires, the simple model of electron-phonon energy loss known to be quantitatively effective below a few Kelvin underpredicts the excess noise in the high bias, high temperature limit. This issue is more severe in wires on SiO2/Si than on bare Si, implying that interfacial thermal conduction must be considered in the thermal path even at comparatively high temperatures.",
   "authors": [
    "Yuxin Wan",
@@ -82,6 +599,54 @@
   "title": "Domain advantage in two-dimensional quantum-device design with multi-modal agentic harness",
   "url": "https://arxiv.org/abs/2611.30043v1",
   "venue": "arXiv · cond-mat.mes-hall",
+  "watched": []
+ },
+ {
+  "abstract": "Abstract Ferroelectric tunneling junctions (FTJs) based on ferroelectric oxide films provide a promising platform for multifunctional nanoelectronic devices. While interfaces are known to be vital in determining device performance, their role in governing the photovoltaic (PV) behavior of FTJs remains unexplored. Here, we demonstrate a substrate-termination-dependent PV effect in Pt/BaTiO3/Nb-doped SrTiO3 (NSTO) FTJs with atomically engineered interfaces. By selectively preparing SrO-terminated (A-type) and TiO2-terminated (B-type) NSTO interfaces, we achieve deterministic control of the PV response. Remarkably, a pronounced PV effect, characterized by an open-circuit voltage of ∼0.25 V and a short-circuit current magnitude of ∼0.7 nA, is observed exclusively in the high-resistance (OFF) state of A-type FTJs, whereas B-type FTJs exhibit negligible photoresponse. This PV signal is stable, fatigue-resistant, and uniform across devices. Synchrotron-based photoemission and optical spectroscopy reveal termination-induced modifications of the local electrostatic potential, work function, and low-energy optical onset. First-principles calculations further show that the SrO-terminated interface undergoes stronger interfacial electronic reconstruction, exhibiting reduced interface-projected indirect and direct excitation gaps compared with the TiO2-terminated interface. Together with the experimentally observed low-energy indirect band-edge tail, these results indicate the formation of a more photoactive, weakly indirect interfacial electronic structure in A-type junctions. Taken together, the observations are consistent with interface-sensitive photoexcitation coupled to polarization-dependent carrier separation and collection, with the lower OFF-state conductance…",
+  "authors": [
+   "Rui Guo",
+   "Shu Shi",
+   "Lanxin Jia",
+   "Yue Gong",
+   "Xingli Wang",
+   "Geng Huangfu",
+   "Jiang Wu",
+   "Jingsheng Chen",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1021/acsami.6c15719",
+  "first_seen": "2026-11-26",
+  "focus": "mixed",
+  "id": "56880bf2743ef4b8",
+  "kind": "paper",
+  "kw_score": 11,
+  "matched": [
+   "substrate",
+   "SrTiO3",
+   "BaTiO3",
+   "interface",
+   "oxide",
+   "first-principles"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": 5,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Atomically engineered terminations, synchrotron photoemission and optical spectroscopy, and first-principles calculations of interfacial electronic reconstruction.",
+   "impact": "Low relevance. It is an electronic and optical device study with no phonon or thermal content, though it involves BaTiO3 and SrTiO3 interfaces.",
+   "what": "Experimental study of a substrate-termination-dependent photovoltaic effect in Pt/BaTiO3/Nb:SrTiO3 ferroelectric tunneling junctions. SrO-terminated junctions show a pronounced photovoltaic response (open-circuit voltage about 0.25 V) in the OFF state, while TiO2-terminated junctions show negligible response.",
+   "why": "Interfaces are known to determine FTJ performance, but their role in photovoltaic behavior was unexplored."
+  },
+  "themes": [
+   "interface"
+  ],
+  "title": "Substrate-Termination Dependent Photovoltaic Effect in Ferroelectric Tunneling Junctions",
+  "url": "https://doi.org/10.1021/acsami.6c15719",
+  "venue": "ACS Applied Materials & Interfaces",
   "watched": []
  },
  {
@@ -511,6 +1076,89 @@
   "watched": []
  },
  {
+  "abstract": "We present \\texttt{LetzElPhC}, an open-source software package that computes electron-phonon matrix elements from the output of density functional perturbation theory calculations performed with the \\texttt{Quantum ESPRESSO} code. By interfacing directly with the \\texttt{Yambo} code and exploiting crystal symmetries, \\texttt{LetzElPhC} enables a scalable workflow for evaluating exciton-phonon matrix elements while enforcing strict gauge consistency between one-electron Bloch states and Bethe-Salpeter excitonic wave functions across the full Brillouin zone. This symmetry-preserving approach avoids phase ambiguities and significantly reduces both computational costs and memory requirements. To support large-scale simulations on dense momentum grids, the package incorporates Fourier interpolation of dynamical matrices and perturbed Kohn-Sham potentials, accounting for long-range dipole and quadrupole interactions in both two- and three-dimensional materials, combined with multi-level parallelization and efficient parallel I/O. Together, these capabilities seamlessly complement the \\texttt{Yambo} code to enable first-principles simulations of phonon-assisted optical spectroscopies, which we demonstrate through applications to resonant Raman scattering in monolayer WSe₂ and phonon-assisted luminescence in cubic AgBr.",
+  "authors": [
+   "Muralidhar Nalabothula",
+   "Ludger Wirtz"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "33fbb00781326fd6",
+  "kind": "preprint",
+  "kw_score": 9,
+  "matched": [
+   "phonon",
+   "electron-phonon",
+   "first-principles",
+   "workflow",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 2,
+  "score": 6,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Symmetry exploitation, Fourier interpolation of dynamical matrices and perturbed Kohn-Sham potentials including dipole and quadrupole long-range terms in 2D and 3D, multi-level parallelization and parallel I/O.",
+   "impact": "Low relevance. It is a new open-source phonon-related code, but it targets electron-phonon and optical properties, not thermal transport. Quantum ESPRESSO and Yambo are not in the toolset.",
+   "what": "LetzElPhC is an open-source code that computes electron-phonon matrix elements from Quantum ESPRESSO DFPT output. It interfaces with Yambo for exciton-phonon matrix elements, with gauge consistency between Bloch states and Bethe-Salpeter excitonic wave functions. It is demonstrated on resonant Raman scattering in monolayer WSe2 and phonon-assisted luminescence in cubic AgBr.",
+   "why": "Phonon-assisted optical spectroscopies need exciton-phonon coupling that avoids phase ambiguities and is affordable on dense grids."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "LetzElPhC: an electron-phonon code for efficient exciton-phonon workflows",
+  "url": "https://arxiv.org/abs/2611.34500v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Predicting grain-boundary segregation in multicomponent alloys remains challenging because existing spectral approaches require alloy-specific atomistic calculations to resolve segregation-energy distributions and correlations across non-equivalent boundary sites. Here, we develop a transferable macroscopic-atom spectral theory that predicts the joint segregation behavior of multiple species from physically interpretable elemental descriptors. The theory is founded on the finding that local strain and bond deficit account for 91% of the site-to-site co-variation of 40 solutes in a density-functional-theory (DFT) Al polycrystal. Linked to atomic size and surface enthalpy, these coordinates allow prediction of individual segregation spectra and their cross-species correlations, which determine whether species compete for or share grain-boundary sites. A closed-system formulation unifies host-element redistribution and dilute-solute segregation, couples metallic and light-element sublattices, and accounts for bulk compound formation and solute pairing. Calibrated using binary spectra only, the theory predicts unseen-host spectral means with a correlation coefficient of 0.81, outperforms embedded-atom spectra against DFT benchmarks, and ranks site competition across 870 solute pairs with a Spearman coefficient of 0.90. Without fitting to multicomponent observations, it reproduces 11 of 12 equilibrium Fe ternaries and 49 of 55 Mg ternaries. Predictions recorded before simulations of an 82,699-atom polycrystal identify site competition as the baseline behavior and metal-metalloid pair chemistry as a source of deviations requiring atomistic resolution. These results establish a physically grounded route to screening grain-boundary chemistry in multicomponent alloys,…",
+  "authors": [
+   "Dennis Boakye",
+   "Chuang Deng"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "4e0c940fe180f338",
+  "kind": "preprint",
+  "kw_score": 9,
+  "matched": [
+   "interpretab",
+   "transferab",
+   "benchmark",
+   "DFT",
+   "atomistic",
+   "simulation",
+   "chemistry"
+  ],
+  "mytools": [],
+  "published": "2026-11-24",
+  "relevance": 2,
+  "score": 6,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Calibrated on binary spectra only, then compared with embedded-atom spectra against DFT benchmarks and checked against an 82,699-atom polycrystal simulation.",
+   "impact": "Low relevance. It concerns segregation in metallic alloy grain boundaries, not thermal transport. Only loosely related to the SrTiO3 grain boundary project as an example of interpretable site-resolved descriptors.",
+   "what": "A transferable macroscopic-atom spectral theory predicts grain-boundary segregation of multiple species in multicomponent alloys from elemental descriptors. Local strain and bond deficit account for 91% of the site-to-site co-variation of 40 solutes in a DFT Al polycrystal. It ranks site competition across 870 solute pairs with Spearman 0.90 and reproduces 11 of 12 Fe ternaries and 49 of 55 Mg ternaries.",
+   "why": "Existing spectral approaches need alloy-specific atomistic calculations to resolve segregation-energy distributions and cross-site correlations."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "A macroscopic-atom spectral theory of grain-boundary segregation in multicomponent alloys",
+  "url": "https://arxiv.org/abs/2611.32701v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
   "abstract": "Accurate electronic-structure reference data are expensive, motivating interatomic potentials that learn effectively from limited training sets. We introduce OrbACE (Orbital and Atomic Cluster Expansion), a framework that supplements an E(3)-equivariant cluster-expansion backbone with inexpensive electronic-structure descriptors. On ANI-1x at the ωB97X/6-31G* level, its atom-centered variant, OrbACE-A, trained on 10,000 configurations and evaluated on 442,000 held-out configurations, achieves energy and force mean absolute errors of 3.16 meV/atom and 76 meV/angstrom in direct learning, compared with 9.61 meV/atom and 146 meV/angstrom for MACE with matched backbone settings. This reduces the energy error by a factor of three and approximately halves the force error. Its energy error is also below that of the best delta-corrected MACE baseline, 5.00 meV/atom, although its force error is slightly higher. Combining OrbACE-A with a Hartree-Fock delta baseline further reduces the errors to 1.48 meV/atom and 35 meV/angstrom. OrbACE-A builds atom- and pair-resolved invariants from a non-self-consistent extended-Hueckel model evaluated within the differentiable forward pass, yielding forces consistent with the predicted energy. The orbital variant, OrbACE-O, instead uses localized Hartree-Fock orbitals as graph nodes, with scalar and equivariant electronic descriptors. Its forces are evaluated at fixed descriptors, omitting their response to nuclear motion. In direct learning on ANI-1x, its energy error is approximately three times that of OrbACE-A. The three benchmarks considered (ANI-1x, revised MD17, and 3BPA) cover neutral, closed-shell, non-periodic molecules containing H, C, N, and O. Performance outside this domain remains to be established.",
   "authors": [
    "Etinosa Osaro",
@@ -788,6 +1436,59 @@
   "watched": []
  },
  {
+  "abstract": "Accurate prediction of thermodynamic solubility is critical in drug discovery, where it influences oral bioavailability and drives decisions in formulation chemistry. First-principles calculations of intrinsic solubility offer the potential to achieve superior generalization to existing direct, data-driven predictors, which often suffer significant performance degradation outside of their training distribution. Whilst free energy perturbation calculations provide a rigorous framework to estimate these quantities, their accuracy is typically limited by the quality of the empirical force field used. In this work, we present a computational workflow driven by the MACE family of machine learning interatomic potentials to compute the solubility of neutral drug-like molecules. We introduce λ-MACE, a potential optimised for condensed-phase free energy calculations, which enables hydration free energy calculations at experimental accuracy on an evaluation set of 70 compounds from the FreeSolv database selected for their relevance to medicinal chemistry. We further combine these hydration free energy calculations with sublimation free energy calculations to predict crystalline solubility given a known experimental crystal structure, on an additional set of 10 compounds. We achieve state-of-the-art performance for each leg of the calculation, with experimental accuracy for the hydration leg, and accuracy competitive with industry-standard DFT for the sublimation leg. However, the overall errors after combining both legs lead to accuracy of 1.53 log units. This is significantly above the experimental accuracy (0.17-0.6 log units). Closing this gap will require substantially tighter accuracy in each leg, on the order of half of chemical accuracy (0.5 kcal/mol), with crystalline…",
+  "authors": [
+   "J. Harry Moore",
+   "Paul Mortenson",
+   "Davide Branduardi",
+   "Pavel Buslaev",
+   "Javier Antorán",
+   "Laurence Midgley",
+   "Nicholas J. Browning",
+   "Gábor Csányi"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "16bba0c7f8b5fe74",
+  "kind": "preprint",
+  "kw_score": 13,
+  "matched": [
+   "MACE",
+   "generaliz",
+   "first-principles",
+   "DFT",
+   "workflow",
+   "database",
+   "chemistry"
+  ],
+  "mytools": [
+   "MACE"
+  ],
+  "published": "2026-11-24",
+  "relevance": 1,
+  "score": 7,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "MACE-driven free-energy perturbation for the hydration and sublimation legs. The authors say the combined error is well above experimental accuracy (0.17-0.6 log units) and that tighter accuracy in each leg is needed.",
+   "impact": "Low relevance to the thermal-transport projects. It only shows MACE being applied to free-energy workflows and an honest account of error accumulation across legs.",
+   "what": "Presents lambda-MACE, a MACE-family potential optimised for condensed-phase free-energy calculations, and a workflow for the solubility of drug-like molecules. It reaches experimental accuracy for hydration free energies on 70 FreeSolv compounds. The sublimation leg is competitive with industry-standard DFT, and combined solubility error on 10 compounds is 1.53 log units.",
+   "why": "Solubility prediction matters in drug discovery. Data-driven predictors degrade out of distribution, and free-energy methods are limited by force-field quality."
+  },
+  "themes": [
+   "mlip",
+   "atomistic"
+  ],
+  "title": "Computing hydration free energies and crystalline solubility of drug-like molecules with MACE",
+  "url": "https://arxiv.org/abs/2611.33408v1",
+  "venue": "arXiv · physics.chem-ph",
+  "watched": [
+   "Gábor Csányi"
+  ]
+ },
+ {
   "abstract": "Modeling disordered systems from first principles across the full composition range is a long-standing computational challenge. We present a code package implementing the extended generalized quasichemical approximation (EGQCA), which describes solid solutions through the statistics of a finite set of clusters and enables their thermodynamic modeling at arbitrary compositions and temperatures. The package automates the complete workflow and interfaces with both DFT codes and universal machine-learned interatomic potentials (uMLIPs). We show that replacing DFT with uMLIPs reduces the cost of the cluster calculations by up to five orders of magnitude while preserving the thermodynamic predictions. To make computationally demanding properties tractable, we additionally introduce a cluster-selection algorithm that identifies the most relevant configurations. Together, these developments establish EGQCA as a fast and accurate framework for the thermodynamic modeling of solid solutions and a practical route toward high-throughput screening of disordered materials.",
   "authors": [
    "Dominik Spath",
@@ -920,86 +1621,49 @@
   "watched": []
  },
  {
-  "abstract": "We present \\texttt{LetzElPhC}, an open-source software package that computes electron-phonon matrix elements from the output of density functional perturbation theory calculations performed with the \\texttt{Quantum ESPRESSO} code. By interfacing directly with the \\texttt{Yambo} code and exploiting crystal symmetries, \\texttt{LetzElPhC} enables a scalable workflow for evaluating exciton-phonon matrix elements while enforcing strict gauge consistency between one-electron Bloch states and Bethe-Salpeter excitonic wave functions across the full Brillouin zone. This symmetry-preserving approach avoids phase ambiguities and significantly reduces both computational costs and memory requirements. To support large-scale simulations on dense momentum grids, the package incorporates Fourier interpolation of dynamical matrices and perturbed Kohn-Sham potentials, accounting for long-range dipole and quadrupole interactions in both two- and three-dimensional materials, combined with multi-level parallelization and efficient parallel I/O. Together, these capabilities seamlessly complement the \\texttt{Yambo} code to enable first-principles simulations of phonon-assisted optical spectroscopies, which we demonstrate through applications to resonant Raman scattering in monolayer WSe₂ and phonon-assisted luminescence in cubic AgBr.",
+  "abstract": "Learning potential energy surfaces for magnetic materials requires resolving coupled local spin manifolds and geometric frustration. We introduce SCO-Hyper-Meta-Double-GroupNN, a geometry-only architecture combining a pretrained O(3)-equivariant backbone with SU(2) spinor Hamiltonians and cooperative hyper-/meta-graph interactions. Analytic thermal spinor density matrices provide non-polynomial two- and three-body structural invariants, while frustrated-triangle hyperedges and a multi-shell sideway gate couple geometric representations to local spin manifolds. A variationally consistent, doubly-centered zero-gauge free-energy functional couples multiplet occupations and signed spin orientations, yielding conservative autograd forces without spin inputs at inference. On a first-principles Co-Cr-Ni benchmark comprising 346 training and 59 held-out validation supercells across crystalline, amorphous, glassy, and liquid regimes, compact models with 56k-77k parameters outperform a 207k-parameter spin-conditioned magnetic MACE baseline. Energy MAE decreases by 37-44%, reaching 3.82 versus 6.83 meV/atom, and force MAE decreases by 10.8-14.2 meV/Angstrom, reaching 165.8-169.2 versus 180.0 meV/Angstrom. The models preserve Kramers degeneracy to within 6×10⁻¹⁵ eV, predict equilibrium local magnetic moments from geometry alone with an absolute-moment MAE of 0.181 μ_B, and support stable molecular dynamics up to 2,200 K. This framework integrates local spinor symmetry and cooperative magnetic interactions into geometry-only interatomic potentials.",
   "authors": [
-   "Muralidhar Nalabothula",
-   "Ludger Wirtz"
+   "Rong Fu",
+   "Tianhao Su",
+   "Shunbo Hu",
+   "Musen Li"
   ],
   "cat": "papers",
   "doi": "",
   "first_seen": "2026-11-26",
   "focus": "computational",
-  "id": "33fbb00781326fd6",
+  "id": "4cfdf8c3b1e3c29c",
   "kind": "preprint",
-  "kw_score": 9,
+  "kw_score": 11,
   "matched": [
-   "phonon",
-   "electron-phonon",
+   "amorphous",
+   "glass",
+   "MACE",
+   "benchmark",
    "first-principles",
-   "workflow",
-   "simulation",
+   "thermal",
    "materials"
   ],
-  "mytools": [],
+  "mytools": [
+   "MACE"
+  ],
   "published": "2026-11-25",
   "relevance": 2,
-  "score": 6,
+  "score": 8,
   "source": "arXiv",
   "summary": {
    "by": "claude",
-   "how": "Symmetry exploitation, Fourier interpolation of dynamical matrices and perturbed Kohn-Sham potentials including dipole and quadrupole long-range terms in 2D and 3D, multi-level parallelization and parallel I/O.",
-   "impact": "Low relevance. It is a new open-source phonon-related code, but it targets electron-phonon and optical properties, not thermal transport. Quantum ESPRESSO and Yambo are not in the toolset.",
-   "what": "LetzElPhC is an open-source code that computes electron-phonon matrix elements from Quantum ESPRESSO DFPT output. It interfaces with Yambo for exciton-phonon matrix elements, with gauge consistency between Bloch states and Bethe-Salpeter excitonic wave functions. It is demonstrated on resonant Raman scattering in monolayer WSe2 and phonon-assisted luminescence in cubic AgBr.",
-   "why": "Phonon-assisted optical spectroscopies need exciton-phonon coupling that avoids phase ambiguities and is affordable on dense grids."
-  },
-  "themes": [
-   "atomistic"
-  ],
-  "title": "LetzElPhC: an electron-phonon code for efficient exciton-phonon workflows",
-  "url": "https://arxiv.org/abs/2611.34500v1",
-  "venue": "arXiv · cond-mat.mtrl-sci",
-  "watched": []
- },
- {
-  "abstract": "Predicting grain-boundary segregation in multicomponent alloys remains challenging because existing spectral approaches require alloy-specific atomistic calculations to resolve segregation-energy distributions and correlations across non-equivalent boundary sites. Here, we develop a transferable macroscopic-atom spectral theory that predicts the joint segregation behavior of multiple species from physically interpretable elemental descriptors. The theory is founded on the finding that local strain and bond deficit account for 91% of the site-to-site co-variation of 40 solutes in a density-functional-theory (DFT) Al polycrystal. Linked to atomic size and surface enthalpy, these coordinates allow prediction of individual segregation spectra and their cross-species correlations, which determine whether species compete for or share grain-boundary sites. A closed-system formulation unifies host-element redistribution and dilute-solute segregation, couples metallic and light-element sublattices, and accounts for bulk compound formation and solute pairing. Calibrated using binary spectra only, the theory predicts unseen-host spectral means with a correlation coefficient of 0.81, outperforms embedded-atom spectra against DFT benchmarks, and ranks site competition across 870 solute pairs with a Spearman coefficient of 0.90. Without fitting to multicomponent observations, it reproduces 11 of 12 equilibrium Fe ternaries and 49 of 55 Mg ternaries. Predictions recorded before simulations of an 82,699-atom polycrystal identify site competition as the baseline behavior and metal-metalloid pair chemistry as a source of deviations requiring atomistic resolution. These results establish a physically grounded route to screening grain-boundary chemistry in multicomponent alloys,…",
-  "authors": [
-   "Dennis Boakye",
-   "Chuang Deng"
-  ],
-  "cat": "papers",
-  "doi": "",
-  "first_seen": "2026-11-26",
-  "focus": "computational",
-  "id": "4e0c940fe180f338",
-  "kind": "preprint",
-  "kw_score": 9,
-  "matched": [
-   "interpretab",
-   "transferab",
-   "benchmark",
-   "DFT",
-   "atomistic",
-   "simulation",
-   "chemistry"
-  ],
-  "mytools": [],
-  "published": "2026-11-24",
-  "relevance": 2,
-  "score": 6,
-  "source": "arXiv",
-  "summary": {
-   "by": "claude",
-   "how": "Calibrated on binary spectra only, then compared with embedded-atom spectra against DFT benchmarks and checked against an 82,699-atom polycrystal simulation.",
-   "impact": "Low relevance. It concerns segregation in metallic alloy grain boundaries, not thermal transport. Only loosely related to the SrTiO3 grain boundary project as an example of interpretable site-resolved descriptors.",
-   "what": "A transferable macroscopic-atom spectral theory predicts grain-boundary segregation of multiple species in multicomponent alloys from elemental descriptors. Local strain and bond deficit account for 91% of the site-to-site co-variation of 40 solutes in a DFT Al polycrystal. It ranks site competition across 870 solute pairs with Spearman 0.90 and reproduces 11 of 12 Fe ternaries and 49 of 55 Mg ternaries.",
-   "why": "Existing spectral approaches need alloy-specific atomistic calculations to resolve segregation-energy distributions and cross-site correlations."
+   "how": "Thermal spinor density matrices give structural invariants. Frustrated-triangle hyperedges and a multi-shell gate couple geometry to local spin manifolds. Conservative forces come from autograd, and stable MD is reported up to 2,200 K.",
+   "impact": "Low relevance. It is an MLIP architecture for magnetic alloys. Only the data-efficient small-model angle is loosely related to the MLIP projects.",
+   "what": "Proposes SCO-Hyper-Meta-Double-GroupNN, a geometry-only MLIP architecture for magnetic materials built on a pretrained O(3)-equivariant backbone with SU(2) spinor Hamiltonians. On a Co-Cr-Ni benchmark (346 training and 59 validation supercells), models with 56k-77k parameters reach energy MAE 3.82 vs 6.83 meV/atom for a spin-conditioned magnetic MACE baseline.",
+   "why": "Learning potential energy surfaces for magnetic materials requires resolving coupled local spin manifolds and geometric frustration."
   },
   "themes": [
    "mlip"
   ],
-  "title": "A macroscopic-atom spectral theory of grain-boundary segregation in multicomponent alloys",
-  "url": "https://arxiv.org/abs/2611.32701v1",
-  "venue": "arXiv · cond-mat.mtrl-sci",
+  "title": "SCO-Hyper-Meta-Double-GroupNN: A Double-Group SU(2) Hyper-/Meta-Graph Neural Network for Cooperative Spin-Crossover Potential Energy Surfaces",
+  "url": "https://arxiv.org/abs/2611.34547v1",
+  "venue": "arXiv · cs.CE",
   "watched": []
  },
  {
@@ -1127,144 +1791,6 @@
   "watched": []
  },
  {
-  "abstract": "Large-scale pretrained machine-learned interatomic potentials keep growing more accurate as new models appear at a rapid pace, and more expensive: the current leader of Matbench Discovery as of November 2026 (F1 score 0.935) has 9.9×10⁷ parameters and took 3.6 thousand GPU-hours to train. The ILMlip potentials presented here are optimised for speed as well as zero-shot accuracy. They are equivariant, conservative message-passing potentials in which every component is arranged for throughput: little work per pair of atoms and as much as needed per atom. Through ASE on one GPU, they run molecular dynamics up to about 10³ times faster than state-of-the-art message-passing potentials such as MACE (medium) and up to five times faster than NEP89 and DPA-4.1C. At the same time, six sizes with 1.4×10⁵ to 2.8×10⁷ parameters, pretrained on materials, molecules and solid acids, reach F1 scores of 0.75 to 0.91 on Matbench Discovery, placing the largest within 0.03 of the current leader. They therefore suit high-throughput, large or long simulations, and, being transferable, they are strong starting points for fine-tuning. Fine-tuned to six materials, the model of size S comes close to the ab initio force errors of a fine-tuned MACE, so it reaches reference-level accuracy at about 50 ns per atom and step (Cu fcc). Their components can be adopted separately, as a starting point for architectures with even better ratios of speed to accuracy. The ILMlip implementation is available at https://github.com/jhaens/ilmlip",
-  "authors": [
-   "Jonas Hänseroth",
-   "Christian Dreßler"
-  ],
-  "cat": "papers",
-  "doi": "",
-  "first_seen": "2026-11-26",
-  "focus": "computational",
-  "id": "2972a2c9fc6fa57c",
-  "kind": "preprint",
-  "kw_score": 10,
-  "matched": [
-   "MACE",
-   "fine-tun",
-   "transferab",
-   "high-throughput",
-   "GPU",
-   "simulation",
-   "materials"
-  ],
-  "mytools": [
-   "DeePMD-kit",
-   "MACE",
-   "ASE / pymatgen"
-  ],
-  "published": "2026-11-24",
-  "relevance": 5,
-  "score": 16,
-  "source": "arXiv",
-  "summary": {
-   "by": "claude",
-   "how": "Components are arranged for throughput, with little work per atom pair and more per atom. Models are pretrained on materials, molecules and solid acids. Fine-tuned to six materials, the S model approaches fine-tuned MACE force errors, at about 50 ns per atom and step for fcc Cu.",
-   "impact": "New open-source MLIP family, and a possible fast alternative to MACE/DeePMD for the InGaAs, AlGaN and BAs MD and fine-tuning work. Whether it gives accurate phonons or force constants (needed for lattice dynamics and BTE) is not stated, so that needs testing, for example in the MLPhonon workflow and the Phonon Olympics comparison.",
-   "what": "ILMlip is a family of six equivariant conservative message-passing MLIPs (1.4e5 to 2.8e7 parameters) designed for speed. Through ASE on one GPU, MD is up to about 10^3 times faster than MACE (medium) and up to 5x faster than NEP89 and DPA-4.1C. Matbench Discovery F1 scores are 0.75-0.91, and the largest is within 0.03 of the current leader (0.935). Code is at github.com/jhaens/ilmlip.",
-   "why": "The most accurate pretrained MLIPs keep getting larger and more expensive (the leader has 9.9e7 parameters and 3.6 thousand GPU-hours of training)."
-  },
-  "themes": [
-   "mlip"
-  ],
-  "title": "ILMlip: fast and universal machine-learning interatomic potentials",
-  "url": "https://arxiv.org/abs/2611.33538v1",
-  "venue": "arXiv · cond-mat.mtrl-sci",
-  "watched": []
- },
- {
-  "abstract": "Nanowire cryotrons (nTrons) provide gate-controlled superconducting switching, current gain, and high-impedance outputs for cryogenic computing, detector readout, and superconductor-semiconductor interfaces. We develop a physics-based Sentaurus TCAD framework that couples time-dependent Ginzburg-Landau dynamics, separate electron and phonon energy equations, and mixed-mode circuit simulation. Superconducting terminal-current corrections connect the custom solver to the native electrical solution, linking local suppression of superconductivity, heating and cooling, and current redistribution in the external circuit. To our knowledge, this is the first Sentaurus-based mixed-mode TCAD implementation for nTrons. We calibrate the model against experimental switching data at six gate currents using a single parameter set. The model achieves an RMS load-current error below 1 μA outside the switching region and switching-current differences of about 1 μA or less. Simulations show that a center gate gives the highest switching sensitivity, while a drain-side gate gives the largest post-switch resistance. Narrower channels switch at lower currents and exhibit higher resistance. Transient and bidirectional bias sweeps capture electrothermal hysteresis, gate-controlled switching latency, and bias-controlled recovery. Simultaneous activation of three gates lowers the switching threshold from about 104 μA with all gates inactive to about 12 μA, demonstrating cooperative suppression of superconductivity. The framework supports the design of nTron geometries, operating conditions, and multi-input architectures.",
-  "authors": [
-   "Abdullah All Hasib",
-   "Md Shafayat Hossain",
-   "Ahmedullah Aziz",
-   "Shamiul Alam"
-  ],
-  "cat": "papers",
-  "doi": "",
-  "first_seen": "2026-11-26",
-  "focus": "computational",
-  "id": "d91a7ce1144df1bf",
-  "kind": "preprint",
-  "kw_score": 10,
-  "matched": [
-   "phonon",
-   "semiconductor",
-   "electrothermal",
-   "electro-thermal",
-   "cooling",
-   "interface",
-   "thermal",
-   "simulation",
-   "physics"
-  ],
-  "mytools": [],
-  "published": "2026-11-24",
-  "relevance": 1,
-  "score": 4,
-  "source": "arXiv",
-  "summary": {
-   "by": "claude",
-   "how": "Superconducting terminal-current corrections link the custom solver to the native electrical solution. It captures electrothermal hysteresis, switching latency and multi-gate operation, with three gates lowering the switching threshold from about 104 uA to about 12 uA.",
-   "impact": "Low relevance. It is cryogenic superconducting device modeling with a two-temperature phonon treatment, not related to the GaN or interface thermal projects.",
-   "what": "A Sentaurus TCAD framework for nanowire cryotrons that couples time-dependent Ginzburg-Landau dynamics, separate electron and phonon energy equations, and mixed-mode circuit simulation. It is calibrated against experimental switching data at six gate currents with a single parameter set, with RMS load-current error below 1 uA outside the switching region.",
-   "why": "nTrons are used for cryogenic computing, detector readout and superconductor-semiconductor interfaces, and need a physics-based electrothermal design tool."
-  },
-  "themes": [
-   "device"
-  ],
-  "title": "Physics-Based TCAD Modeling of Nanowire Cryotrons with Coupled Superconducting and Thermal Dynamics",
-  "url": "https://arxiv.org/abs/2611.33420v1",
-  "venue": "arXiv · physics.app-ph",
-  "watched": []
- },
- {
-  "abstract": "Learning potential energy surfaces for magnetic materials requires resolving coupled local spin manifolds and geometric frustration. We introduce SCO-Hyper-Meta-Double-GroupNN, a geometry-only architecture combining a pretrained O(3)-equivariant backbone with SU(2) spinor Hamiltonians and cooperative hyper-/meta-graph interactions. Analytic thermal spinor density matrices provide non-polynomial two- and three-body structural invariants, while frustrated-triangle hyperedges and a multi-shell sideway gate couple geometric representations to local spin manifolds. A variationally consistent, doubly-centered zero-gauge free-energy functional couples multiplet occupations and signed spin orientations, yielding conservative autograd forces without spin inputs at inference. On a first-principles Co-Cr-Ni benchmark comprising 346 training and 59 held-out validation supercells across crystalline, amorphous, glassy, and liquid regimes, compact models with 56k-77k parameters outperform a 207k-parameter spin-conditioned magnetic MACE baseline. Energy MAE decreases by 37-44%, reaching 3.82 versus 6.83 meV/atom, and force MAE decreases by 10.8-14.2 meV/Angstrom, reaching 165.8-169.2 versus 180.0 meV/Angstrom. The models preserve Kramers degeneracy to within 6×10⁻¹⁵ eV, predict equilibrium local magnetic moments from geometry alone with an absolute-moment MAE of 0.181 μ_B, and support stable molecular dynamics up to 2,200 K. This framework integrates local spinor symmetry and cooperative magnetic interactions into geometry-only interatomic potentials.",
-  "authors": [
-   "Rong Fu",
-   "Tianhao Su",
-   "Shunbo Hu",
-   "Musen Li"
-  ],
-  "cat": "papers",
-  "doi": "",
-  "first_seen": "2026-11-26",
-  "focus": "computational",
-  "id": "4cfdf8c3b1e3c29c",
-  "kind": "preprint",
-  "kw_score": 11,
-  "matched": [
-   "amorphous",
-   "glass",
-   "MACE",
-   "benchmark",
-   "first-principles",
-   "thermal",
-   "materials"
-  ],
-  "mytools": [
-   "MACE"
-  ],
-  "published": "2026-11-25",
-  "relevance": 2,
-  "score": 8,
-  "source": "arXiv",
-  "summary": {
-   "by": "claude",
-   "how": "Thermal spinor density matrices give structural invariants. Frustrated-triangle hyperedges and a multi-shell gate couple geometry to local spin manifolds. Conservative forces come from autograd, and stable MD is reported up to 2,200 K.",
-   "impact": "Low relevance. It is an MLIP architecture for magnetic alloys. Only the data-efficient small-model angle is loosely related to the MLIP projects.",
-   "what": "Proposes SCO-Hyper-Meta-Double-GroupNN, a geometry-only MLIP architecture for magnetic materials built on a pretrained O(3)-equivariant backbone with SU(2) spinor Hamiltonians. On a Co-Cr-Ni benchmark (346 training and 59 validation supercells), models with 56k-77k parameters reach energy MAE 3.82 vs 6.83 meV/atom for a spin-conditioned magnetic MACE baseline.",
-   "why": "Learning potential energy surfaces for magnetic materials requires resolving coupled local spin manifolds and geometric frustration."
-  },
-  "themes": [
-   "mlip"
-  ],
-  "title": "SCO-Hyper-Meta-Double-GroupNN: A Double-Group SU(2) Hyper-/Meta-Graph Neural Network for Cooperative Spin-Crossover Potential Energy Surfaces",
-  "url": "https://arxiv.org/abs/2611.34547v1",
-  "venue": "arXiv · cs.CE",
-  "watched": []
- },
- {
   "abstract": "Delocalized bonding electrons have long been associated with soft bonds and low phonon frequencies. However, a quantitative connection between electron delocalization and phonon softening remains elusive. We identify such a connection through the momentum-space quantum metric, which measures the intrinsic delocalization of the occupied electronic states. We show that a quantum geometric contribution to phonon softening is proportional to the integrated quantum metric. First-principles calculations of more than a hundred compounds demonstrate that greater quantum metric generally accompanies softer phonons. Localized Wannier orbitals reveal the bonding environments associated with this delocalization. In ferroelectric GeTe, LiBeSb, and BaTiO₃, polar distortion localizes the bonding orbitals, reduces quantum metric, and stabilizes the soft mode of the nonpolar structure. In PbSe, pressure-induced band inversion is accompanied by an enhanced quantum metric and phonon softening without change in crystal symmetry and bonding. These results establish a common quantum geometric interpretation of bond delocalization and phonon softening across distinct bonding environments.",
   "authors": [
    "Tianqi Deng",
@@ -1301,98 +1827,6 @@
   ],
   "title": "Quantum Metric Connects Bond Delocalization to Phonon Softening",
   "url": "https://arxiv.org/abs/2611.34118v1",
-  "venue": "arXiv · cond-mat.mtrl-sci",
-  "watched": []
- },
- {
-  "abstract": "Abstract Ferroelectric tunneling junctions (FTJs) based on ferroelectric oxide films provide a promising platform for multifunctional nanoelectronic devices. While interfaces are known to be vital in determining device performance, their role in governing the photovoltaic (PV) behavior of FTJs remains unexplored. Here, we demonstrate a substrate-termination-dependent PV effect in Pt/BaTiO3/Nb-doped SrTiO3 (NSTO) FTJs with atomically engineered interfaces. By selectively preparing SrO-terminated (A-type) and TiO2-terminated (B-type) NSTO interfaces, we achieve deterministic control of the PV response. Remarkably, a pronounced PV effect, characterized by an open-circuit voltage of ∼0.25 V and a short-circuit current magnitude of ∼0.7 nA, is observed exclusively in the high-resistance (OFF) state of A-type FTJs, whereas B-type FTJs exhibit negligible photoresponse. This PV signal is stable, fatigue-resistant, and uniform across devices. Synchrotron-based photoemission and optical spectroscopy reveal termination-induced modifications of the local electrostatic potential, work function, and low-energy optical onset. First-principles calculations further show that the SrO-terminated interface undergoes stronger interfacial electronic reconstruction, exhibiting reduced interface-projected indirect and direct excitation gaps compared with the TiO2-terminated interface. Together with the experimentally observed low-energy indirect band-edge tail, these results indicate the formation of a more photoactive, weakly indirect interfacial electronic structure in A-type junctions. Taken together, the observations are consistent with interface-sensitive photoexcitation coupled to polarization-dependent carrier separation and collection, with the lower OFF-state conductance…",
-  "authors": [
-   "Rui Guo",
-   "Shu Shi",
-   "Lanxin Jia",
-   "Yue Gong",
-   "Xingli Wang",
-   "Geng Huangfu",
-   "Jiang Wu",
-   "Jingsheng Chen",
-   "et al."
-  ],
-  "cat": "papers",
-  "doi": "10.1021/acsami.6c15719",
-  "first_seen": "2026-11-26",
-  "focus": "mixed",
-  "id": "56880bf2743ef4b8",
-  "kind": "paper",
-  "kw_score": 11,
-  "matched": [
-   "substrate",
-   "SrTiO3",
-   "BaTiO3",
-   "interface",
-   "oxide",
-   "first-principles"
-  ],
-  "mytools": [],
-  "published": "2026-11-25",
-  "relevance": 1,
-  "score": 5,
-  "source": "Crossref",
-  "summary": {
-   "by": "claude",
-   "how": "Atomically engineered terminations, synchrotron photoemission and optical spectroscopy, and first-principles calculations of interfacial electronic reconstruction.",
-   "impact": "Low relevance. It is an electronic and optical device study with no phonon or thermal content, though it involves BaTiO3 and SrTiO3 interfaces.",
-   "what": "Experimental study of a substrate-termination-dependent photovoltaic effect in Pt/BaTiO3/Nb:SrTiO3 ferroelectric tunneling junctions. SrO-terminated junctions show a pronounced photovoltaic response (open-circuit voltage about 0.25 V) in the OFF state, while TiO2-terminated junctions show negligible response.",
-   "why": "Interfaces are known to determine FTJ performance, but their role in photovoltaic behavior was unexplored."
-  },
-  "themes": [
-   "interface"
-  ],
-  "title": "Substrate-Termination Dependent Photovoltaic Effect in Ferroelectric Tunneling Junctions",
-  "url": "https://doi.org/10.1021/acsami.6c15719",
-  "venue": "ACS Applied Materials & Interfaces",
-  "watched": []
- },
- {
-  "abstract": "Heat flow across the core-mantle boundary (CMB) depends on the lattice thermal conductivity (κₗₐₜₜ) of lowermost-mantle minerals, yet calculated CMB values for MgO differ severalfold, and high-temperature estimates of the conductivity increase across the bridgmanite-post-perovskite transition range from about 20 to 50%. Direct solutions of the linearized phonon Boltzmann transport equation (LBTE) require thousands of density functional theory (DFT) force evaluations per thermodynamic state. Here we replace these evaluations with phase-specific, fine-tuned MACE potentials for MgO, MgSiO3 bridgmanite (Pv), and MgSiO3 post-perovskite (PPv). The potentials reproduce DFT energies, forces, stresses, pressure-volume relations, and compressed-state phonons for all three phases. For MgO at 0 GPa, replacing MACE forces with DFT forces in otherwise identical transport calculations changes κₗₐₜₜ by 0.2% at 300 K and 1.9% at 2000 K. PPv is 44-55% more conductive than Pv at the same pressure and temperature and strongly anisotropic, with κ[₁₀₀]/κ[₀₁₀] ranging from 1.7 to 2.1. The quasi-harmonic phase boundary has a Clapeyron slope of (7.4 ± 0.1) MPa/K and intersects a model geotherm at 116.2 GPa and 2660 K, where the transition raises the silicate conductivity by 47%, to 8.6 W/(m K). Heating in the basal thermal boundary layer lowers the MgO and PPv conductivities to 37.3 and 6.7 W/(m K) at the CMB, where Hashin-Shtrikman bounds of 9.5-11.4 W/(m K) for an Fe-free aggregate of 80 vol% silicate and 20 vol% MgO encompass the 10 W/(m K) used in earlier heat-flow estimates. The density-temperature parameterizations provide an intrinsic end-member reference for lower-mantle thermal models.",
-  "authors": [
-   "Amrendra Kumar Tiwari",
-   "Sandro Jahn"
-  ],
-  "cat": "papers",
-  "doi": "",
-  "first_seen": "2026-11-26",
-  "focus": "computational",
-  "id": "680474778370f431",
-  "kind": "preprint",
-  "kw_score": 12,
-  "matched": [
-   "phonon",
-   "MACE",
-   "fine-tun",
-   "DFT",
-   "harmonic",
-   "heat",
-   "thermal"
-  ],
-  "mytools": [
-   "MACE"
-  ],
-  "published": "2026-11-24",
-  "relevance": 4,
-  "score": 15,
-  "source": "arXiv",
-  "summary": {
-   "by": "claude",
-   "how": "Fine-tuned MACE reproduces DFT energies, forces, stresses, pressure-volume relations and compressed-state phonons. It is used for LBTE kappa, quasi-harmonic phase boundaries, and Hashin-Shtrikman aggregate bounds.",
-   "impact": "A direct validation template for the MACE-to-BTE kappa pipeline (InGaAs, BAs, GaN/AlGaN), in particular the like-for-like MACE vs DFT force comparison in otherwise identical transport calculations. The geophysics application itself is not related to the projects.",
-   "what": "Uses phase-specific, fine-tuned MACE potentials for MgO, bridgmanite and post-perovskite to solve the linearized phonon BTE at lower-mantle conditions. For MgO at 0 GPa, swapping MACE for DFT forces changes kappa by 0.2% at 300 K and 1.9% at 2000 K. Post-perovskite is 44-55% more conductive than bridgmanite and strongly anisotropic, and the transition raises silicate conductivity by 47% to 8.6 W/(m K) at the model geotherm crossing.",
-   "why": "Calculated CMB conductivities for MgO differ severalfold, and estimates of the conductivity jump across the bridgmanite to post-perovskite transition range from about 20 to 50%. Direct LBTE needs thousands of DFT force evaluations per thermodynamic state."
-  },
-  "themes": [
-   "mlip"
-  ],
-  "title": "Lattice Thermal Conductivity of MgO and the MgSiO₃ Polymorphs Bridgmanite and Post-Perovskite at Lower-Mantle Conditions Using Fine-Tuned MACE Potentials",
-  "url": "https://arxiv.org/abs/2611.32761v1",
   "venue": "arXiv · cond-mat.mtrl-sci",
   "watched": []
  },
@@ -1488,59 +1922,6 @@
   "watched": []
  },
  {
-  "abstract": "Accurate prediction of thermodynamic solubility is critical in drug discovery, where it influences oral bioavailability and drives decisions in formulation chemistry. First-principles calculations of intrinsic solubility offer the potential to achieve superior generalization to existing direct, data-driven predictors, which often suffer significant performance degradation outside of their training distribution. Whilst free energy perturbation calculations provide a rigorous framework to estimate these quantities, their accuracy is typically limited by the quality of the empirical force field used. In this work, we present a computational workflow driven by the MACE family of machine learning interatomic potentials to compute the solubility of neutral drug-like molecules. We introduce λ-MACE, a potential optimised for condensed-phase free energy calculations, which enables hydration free energy calculations at experimental accuracy on an evaluation set of 70 compounds from the FreeSolv database selected for their relevance to medicinal chemistry. We further combine these hydration free energy calculations with sublimation free energy calculations to predict crystalline solubility given a known experimental crystal structure, on an additional set of 10 compounds. We achieve state-of-the-art performance for each leg of the calculation, with experimental accuracy for the hydration leg, and accuracy competitive with industry-standard DFT for the sublimation leg. However, the overall errors after combining both legs lead to accuracy of 1.53 log units. This is significantly above the experimental accuracy (0.17-0.6 log units). Closing this gap will require substantially tighter accuracy in each leg, on the order of half of chemical accuracy (0.5 kcal/mol), with crystalline…",
-  "authors": [
-   "J. Harry Moore",
-   "Paul Mortenson",
-   "Davide Branduardi",
-   "Pavel Buslaev",
-   "Javier Antorán",
-   "Laurence Midgley",
-   "Nicholas J. Browning",
-   "Gábor Csányi"
-  ],
-  "cat": "papers",
-  "doi": "",
-  "first_seen": "2026-11-26",
-  "focus": "computational",
-  "id": "16bba0c7f8b5fe74",
-  "kind": "preprint",
-  "kw_score": 13,
-  "matched": [
-   "MACE",
-   "generaliz",
-   "first-principles",
-   "DFT",
-   "workflow",
-   "database",
-   "chemistry"
-  ],
-  "mytools": [
-   "MACE"
-  ],
-  "published": "2026-11-24",
-  "relevance": 1,
-  "score": 7,
-  "source": "arXiv",
-  "summary": {
-   "by": "claude",
-   "how": "MACE-driven free-energy perturbation for the hydration and sublimation legs. The authors say the combined error is well above experimental accuracy (0.17-0.6 log units) and that tighter accuracy in each leg is needed.",
-   "impact": "Low relevance to the thermal-transport projects. It only shows MACE being applied to free-energy workflows and an honest account of error accumulation across legs.",
-   "what": "Presents lambda-MACE, a MACE-family potential optimised for condensed-phase free-energy calculations, and a workflow for the solubility of drug-like molecules. It reaches experimental accuracy for hydration free energies on 70 FreeSolv compounds. The sublimation leg is competitive with industry-standard DFT, and combined solubility error on 10 compounds is 1.53 log units.",
-   "why": "Solubility prediction matters in drug discovery. Data-driven predictors degrade out of distribution, and free-energy methods are limited by force-field quality."
-  },
-  "themes": [
-   "mlip",
-   "atomistic"
-  ],
-  "title": "Computing hydration free energies and crystalline solubility of drug-like molecules with MACE",
-  "url": "https://arxiv.org/abs/2611.33408v1",
-  "venue": "arXiv · physics.chem-ph",
-  "watched": [
-   "Gábor Csányi"
-  ]
- },
- {
   "abstract": "Foundation machine-learning interatomic potentials transfer well across chemical and structural space, yet their reliability for highly disordered metallic states is less established. Metallic glasses are a demanding benchmark: they have traditionally been modeled with Embedded Atom Method (EAM) potentials fitted to specific compositions, while ab initio molecular dynamics remains too expensive at the required sizes and timescales. Using the prototypical Cu-Zr-Al glass, we show that foundation potentials capture structural disorder, reproducing the structure, quenching dynamics, and elastic, mechanical and thermal properties of the amorphous state at near first-principles accuracy. We benchmark MACE foundation models against a classical EAM potential along molecular dynamics quenches, validating against density functional theory and experiment, first at Cu46Zr46Al8 and then across the good glass-forming region of the ternary. We further test two specialization routes: fine-tuning on glass structures generated with Lennard-Jones surrogate models, and on automatically generated small periodic cells (ASSYST). Models pre-trained on databases that include non-equilibrium liquid and amorphous configurations, such as OMAT, are accurate and transferable across composition out of the box, clearly outperforming the composition-specific EAM potential. Fine-tuning on target glass structures brings only modest gains, while specialization on small crystalline cells degrades the description of disorder. The readiness of foundation potentials for disordered metals is therefore set mainly by the diversity of their pre-training data rather than by system-specific fine-tuning, shifting the modeling effort from bespoke dataset generation to pre-training coverage and careful validation of…",
   "authors": [
    "Dario Massa",
@@ -1594,49 +1975,93 @@
   "watched": []
  },
  {
-  "abstract": "Localized heating in semiconductor devices can produce non-diffusive phonon transport near heat-generating regions, while heat spreading through the surrounding substrate remains well described by Fourier conduction. We present a hybrid framework that couples a pretrained neural operator for the phonon Boltzmann transport equation (BTE) within individual fins to a Fourier model of a shared substrate. To reduce the cost of repeated BTE solves across fin positions and coupling iterations, a DeepONet maps each fin's substrate-interface temperature and heating state to its temperature and heat-flux fields. The operator is trained on interface temperatures generated by a linearized proxy of the coupled problem, which avoids explicit training data collection from full coupled runs. An energy-balance penalty regularizes the learned operator, and a mixed finite-element formulation represents substrate heat flux in an H(div)-conforming space. The two models exchange temperature and normal heat flux through a non-overlapping Schwarz iteration with adaptive Aitken relaxation. We evaluate the framework on an idealized three-dimensional array of 100 silicon fins. For a held-out switching configuration, the neural-operator-Fourier solution differs from the direct BTE-Fourier reference by a maximum of 0.3 K in temperature and 0.6% in relative flux across all fins. Excluding the one-time substrate factorization, the coupled surrogate run takes about 50 s, compared with 2 h 28 min for direct coupling, a speedup of approximately 180x. Additional held-out switching patterns converge with the same trained operator. These results demonstrate neural-operator acceleration of bidirectional kinetic-continuum coupling for the tested geometry and material. This bidirectional strategy may extend…",
+  "abstract": "Heat flow across the core-mantle boundary (CMB) depends on the lattice thermal conductivity (κₗₐₜₜ) of lowermost-mantle minerals, yet calculated CMB values for MgO differ severalfold, and high-temperature estimates of the conductivity increase across the bridgmanite-post-perovskite transition range from about 20 to 50%. Direct solutions of the linearized phonon Boltzmann transport equation (LBTE) require thousands of density functional theory (DFT) force evaluations per thermodynamic state. Here we replace these evaluations with phase-specific, fine-tuned MACE potentials for MgO, MgSiO3 bridgmanite (Pv), and MgSiO3 post-perovskite (PPv). The potentials reproduce DFT energies, forces, stresses, pressure-volume relations, and compressed-state phonons for all three phases. For MgO at 0 GPa, replacing MACE forces with DFT forces in otherwise identical transport calculations changes κₗₐₜₜ by 0.2% at 300 K and 1.9% at 2000 K. PPv is 44-55% more conductive than Pv at the same pressure and temperature and strongly anisotropic, with κ[₁₀₀]/κ[₀₁₀] ranging from 1.7 to 2.1. The quasi-harmonic phase boundary has a Clapeyron slope of (7.4 ± 0.1) MPa/K and intersects a model geotherm at 116.2 GPa and 2660 K, where the transition raises the silicate conductivity by 47%, to 8.6 W/(m K). Heating in the basal thermal boundary layer lowers the MgO and PPv conductivities to 37.3 and 6.7 W/(m K) at the CMB, where Hashin-Shtrikman bounds of 9.5-11.4 W/(m K) for an Fe-free aggregate of 80 vol% silicate and 20 vol% MgO encompass the 10 W/(m K) used in earlier heat-flow estimates. The density-temperature parameterizations provide an intrinsic end-member reference for lower-mantle thermal models.",
   "authors": [
-   "Ruthwik Chivukula",
-   "Khemraj Shukla",
-   "George Em Karniadakis"
+   "Amrendra Kumar Tiwari",
+   "Sandro Jahn"
   ],
   "cat": "papers",
   "doi": "",
   "first_seen": "2026-11-26",
   "focus": "computational",
-  "id": "37c56422973c0364",
+  "id": "680474778370f431",
   "kind": "preprint",
-  "kw_score": 15,
+  "kw_score": 12,
   "matched": [
    "phonon",
-   "BTE",
-   "multiscale",
-   "semiconductor",
-   "substrate",
-   "interface",
-   "DeepONet",
+   "MACE",
+   "fine-tun",
+   "DFT",
+   "harmonic",
    "heat",
-   "materials"
+   "thermal"
   ],
-  "mytools": [],
-  "published": "2026-11-23",
-  "relevance": 5,
-  "score": 21,
+  "mytools": [
+   "MACE"
+  ],
+  "published": "2026-11-24",
+  "relevance": 4,
+  "score": 15,
   "source": "arXiv",
   "summary": {
    "by": "claude",
-   "how": "The operator is trained on interface temperatures from a linearized proxy of the coupled problem, so no full coupled runs are needed as training data. It uses an energy-balance penalty and an H(div)-conforming mixed finite-element substrate model. Tested on an idealized 3D silicon fin array.",
-   "impact": "Close to the GaN/AlGaN HEMT multiscale self-heating project and the deterministic BTE (JAX-BTE) work. The kinetic-continuum coupling and the learned BTE surrogate are transferable to device-scale models. Validated only for silicon fins in the abstract.",
-   "what": "A hybrid framework couples a pretrained DeepONet surrogate of the phonon BTE inside individual silicon fins to a Fourier model of the shared substrate. It exchanges temperature and heat flux through a non-overlapping Schwarz iteration with Aitken relaxation. On 100 fins it differs from direct BTE-Fourier coupling by at most 0.3 K and 0.6% in flux, with about 180x speedup (about 50 s vs 2 h 28 min).",
-   "why": "Localized heating in devices causes non-diffusive phonon transport near heat sources, while substrate spreading is well described by Fourier conduction. Repeated BTE solves across fin positions and coupling iterations are expensive."
+   "how": "Fine-tuned MACE reproduces DFT energies, forces, stresses, pressure-volume relations and compressed-state phonons. It is used for LBTE kappa, quasi-harmonic phase boundaries, and Hashin-Shtrikman aggregate bounds.",
+   "impact": "A direct validation template for the MACE-to-BTE kappa pipeline (InGaAs, BAs, GaN/AlGaN), in particular the like-for-like MACE vs DFT force comparison in otherwise identical transport calculations. The geophysics application itself is not related to the projects.",
+   "what": "Uses phase-specific, fine-tuned MACE potentials for MgO, bridgmanite and post-perovskite to solve the linearized phonon BTE at lower-mantle conditions. For MgO at 0 GPa, swapping MACE for DFT forces changes kappa by 0.2% at 300 K and 1.9% at 2000 K. Post-perovskite is 44-55% more conductive than bridgmanite and strongly anisotropic, and the transition raises silicate conductivity by 47% to 8.6 W/(m K) at the model geotherm crossing.",
+   "why": "Calculated CMB conductivities for MgO differ severalfold, and estimates of the conductivity jump across the bridgmanite to post-perovskite transition range from about 20 to 50%. Direct LBTE needs thousands of DFT force evaluations per thermodynamic state."
   },
   "themes": [
-   "bte",
-   "sciml"
+   "mlip"
   ],
-  "title": "Neural-operator acceleration of bidirectional phonon Boltzmann-Fourier coupling for multiscale heat transport in silicon fin arrays",
-  "url": "https://arxiv.org/abs/2611.31542v1",
-  "venue": "arXiv · cs.CE",
+  "title": "Lattice Thermal Conductivity of MgO and the MgSiO₃ Polymorphs Bridgmanite and Post-Perovskite at Lower-Mantle Conditions Using Fine-Tuned MACE Potentials",
+  "url": "https://arxiv.org/abs/2611.32761v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Large-scale pretrained machine-learned interatomic potentials keep growing more accurate as new models appear at a rapid pace, and more expensive: the current leader of Matbench Discovery as of November 2026 (F1 score 0.935) has 9.9×10⁷ parameters and took 3.6 thousand GPU-hours to train. The ILMlip potentials presented here are optimised for speed as well as zero-shot accuracy. They are equivariant, conservative message-passing potentials in which every component is arranged for throughput: little work per pair of atoms and as much as needed per atom. Through ASE on one GPU, they run molecular dynamics up to about 10³ times faster than state-of-the-art message-passing potentials such as MACE (medium) and up to five times faster than NEP89 and DPA-4.1C. At the same time, six sizes with 1.4×10⁵ to 2.8×10⁷ parameters, pretrained on materials, molecules and solid acids, reach F1 scores of 0.75 to 0.91 on Matbench Discovery, placing the largest within 0.03 of the current leader. They therefore suit high-throughput, large or long simulations, and, being transferable, they are strong starting points for fine-tuning. Fine-tuned to six materials, the model of size S comes close to the ab initio force errors of a fine-tuned MACE, so it reaches reference-level accuracy at about 50 ns per atom and step (Cu fcc). Their components can be adopted separately, as a starting point for architectures with even better ratios of speed to accuracy. The ILMlip implementation is available at https://github.com/jhaens/ilmlip",
+  "authors": [
+   "Jonas Hänseroth",
+   "Christian Dreßler"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "2972a2c9fc6fa57c",
+  "kind": "preprint",
+  "kw_score": 10,
+  "matched": [
+   "MACE",
+   "fine-tun",
+   "transferab",
+   "high-throughput",
+   "GPU",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [
+   "DeePMD-kit",
+   "MACE",
+   "ASE / pymatgen"
+  ],
+  "published": "2026-11-24",
+  "relevance": 5,
+  "score": 16,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "Components are arranged for throughput, with little work per atom pair and more per atom. Models are pretrained on materials, molecules and solid acids. Fine-tuned to six materials, the S model approaches fine-tuned MACE force errors, at about 50 ns per atom and step for fcc Cu.",
+   "impact": "New open-source MLIP family, and a possible fast alternative to MACE/DeePMD for the InGaAs, AlGaN and BAs MD and fine-tuning work. Whether it gives accurate phonons or force constants (needed for lattice dynamics and BTE) is not stated, so that needs testing, for example in the MLPhonon workflow and the Phonon Olympics comparison.",
+   "what": "ILMlip is a family of six equivariant conservative message-passing MLIPs (1.4e5 to 2.8e7 parameters) designed for speed. Through ASE on one GPU, MD is up to about 10^3 times faster than MACE (medium) and up to 5x faster than NEP89 and DPA-4.1C. Matbench Discovery F1 scores are 0.75-0.91, and the largest is within 0.03 of the current leader (0.935). Code is at github.com/jhaens/ilmlip.",
+   "why": "The most accurate pretrained MLIPs keep getting larger and more expensive (the leader has 9.9e7 parameters and 3.6 thousand GPU-hours of training)."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "ILMlip: fast and universal machine-learning interatomic potentials",
+  "url": "https://arxiv.org/abs/2611.33538v1",
+  "venue": "arXiv · cond-mat.mtrl-sci",
   "watched": []
  },
  {
@@ -1684,6 +2109,52 @@
   "title": "Accelerating Equivariant Interatomic Potentials for Molecular Dynamics through Radial tabulation and Kernel Fusion",
   "url": "https://arxiv.org/abs/2611.31865v1",
   "venue": "arXiv · cond-mat.mtrl-sci",
+  "watched": []
+ },
+ {
+  "abstract": "Localized heating in semiconductor devices can produce non-diffusive phonon transport near heat-generating regions, while heat spreading through the surrounding substrate remains well described by Fourier conduction. We present a hybrid framework that couples a pretrained neural operator for the phonon Boltzmann transport equation (BTE) within individual fins to a Fourier model of a shared substrate. To reduce the cost of repeated BTE solves across fin positions and coupling iterations, a DeepONet maps each fin's substrate-interface temperature and heating state to its temperature and heat-flux fields. The operator is trained on interface temperatures generated by a linearized proxy of the coupled problem, which avoids explicit training data collection from full coupled runs. An energy-balance penalty regularizes the learned operator, and a mixed finite-element formulation represents substrate heat flux in an H(div)-conforming space. The two models exchange temperature and normal heat flux through a non-overlapping Schwarz iteration with adaptive Aitken relaxation. We evaluate the framework on an idealized three-dimensional array of 100 silicon fins. For a held-out switching configuration, the neural-operator-Fourier solution differs from the direct BTE-Fourier reference by a maximum of 0.3 K in temperature and 0.6% in relative flux across all fins. Excluding the one-time substrate factorization, the coupled surrogate run takes about 50 s, compared with 2 h 28 min for direct coupling, a speedup of approximately 180x. Additional held-out switching patterns converge with the same trained operator. These results demonstrate neural-operator acceleration of bidirectional kinetic-continuum coupling for the tested geometry and material. This bidirectional strategy may extend…",
+  "authors": [
+   "Ruthwik Chivukula",
+   "Khemraj Shukla",
+   "George Em Karniadakis"
+  ],
+  "cat": "papers",
+  "doi": "",
+  "first_seen": "2026-11-26",
+  "focus": "computational",
+  "id": "37c56422973c0364",
+  "kind": "preprint",
+  "kw_score": 15,
+  "matched": [
+   "phonon",
+   "BTE",
+   "multiscale",
+   "semiconductor",
+   "substrate",
+   "interface",
+   "DeepONet",
+   "heat",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-23",
+  "relevance": 5,
+  "score": 21,
+  "source": "arXiv",
+  "summary": {
+   "by": "claude",
+   "how": "The operator is trained on interface temperatures from a linearized proxy of the coupled problem, so no full coupled runs are needed as training data. It uses an energy-balance penalty and an H(div)-conforming mixed finite-element substrate model. Tested on an idealized 3D silicon fin array.",
+   "impact": "Close to the GaN/AlGaN HEMT multiscale self-heating project and the deterministic BTE (JAX-BTE) work. The kinetic-continuum coupling and the learned BTE surrogate are transferable to device-scale models. Validated only for silicon fins in the abstract.",
+   "what": "A hybrid framework couples a pretrained DeepONet surrogate of the phonon BTE inside individual silicon fins to a Fourier model of the shared substrate. It exchanges temperature and heat flux through a non-overlapping Schwarz iteration with Aitken relaxation. On 100 fins it differs from direct BTE-Fourier coupling by at most 0.3 K and 0.6% in flux, with about 180x speedup (about 50 s vs 2 h 28 min).",
+   "why": "Localized heating in devices causes non-diffusive phonon transport near heat sources, while substrate spreading is well described by Fourier conduction. Repeated BTE solves across fin positions and coupling iterations are expensive."
+  },
+  "themes": [
+   "bte",
+   "sciml"
+  ],
+  "title": "Neural-operator acceleration of bidirectional phonon Boltzmann-Fourier coupling for multiscale heat transport in silicon fin arrays",
+  "url": "https://arxiv.org/abs/2611.31542v1",
+  "venue": "arXiv · cs.CE",
   "watched": []
  },
  {

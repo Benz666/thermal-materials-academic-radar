@@ -1,5 +1,83 @@
 [
  {
+  "abstract": "Package to perform automatic bonding analysis with the program Lobster in the field of computational materials science and quantum chemistry Topics: chemical-bonding, computational-chemistry, computational-materials-science, materials-informatics, plotting, python.",
+  "authors": [
+   "DigiMatChem"
+  ],
+  "cat": "industry",
+  "created": "2021-03-01",
+  "doi": "",
+  "first_seen": "2026-11-27",
+  "focus": "",
+  "id": "488c1ed7ef9bcb08",
+  "kind": "repo",
+  "kw_score": 2,
+  "matched": [
+   "materials",
+   "chemistry"
+  ],
+  "mytools": [],
+  "published": "2026-11-27",
+  "relevance": 2,
+  "score": -1,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 130,
+  "summary": {
+   "by": "claude",
+   "how": "Python package that post-processes Lobster output, with plotting.",
+   "impact": "Low relevance. Bonding analysis could occasionally help interpret interatomic force constants, but it is not a phonon or MLIP tool.",
+   "what": "A GitHub repository, LobsterPy, a Python package for automatic bonding analysis with the Lobster program.",
+   "why": "Automate chemical-bonding analysis in computational materials science and quantum chemistry."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "DigiMatChem/LobsterPy",
+  "url": "https://github.com/DigiMatChem/LobsterPy",
+  "venue": "GitHub · Python",
+  "watched": []
+ },
+ {
+  "abstract": "This API_Phonons is a set of python scripts and functions for interfacing different packages for phonon modeling. Topics: phonons, thermal.",
+  "authors": [
+   "xinqian-mit"
+  ],
+  "cat": "industry",
+  "created": "2020-09-18",
+  "doi": "",
+  "first_seen": "2026-11-27",
+  "focus": "",
+  "id": "4702d23c65247d76",
+  "kind": "repo",
+  "kw_score": 6,
+  "matched": [
+   "phonon",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-27",
+  "relevance": 4,
+  "score": 9,
+  "source": "GitHub search",
+  "star_delta": null,
+  "stars": 39,
+  "summary": {
+   "by": "claude",
+   "how": "Python scripts and functions linking phonon modeling packages; which packages is not stated.",
+   "impact": "Potentially useful for the MLPhonon and phonopy/phono3py/ALAMODE workflows, as an example of glue code between phonon packages. Worth a look to see which codes it supports.",
+   "what": "A GitHub repository, API_Phonons, a set of Python scripts and functions that interface different packages for phonon modeling.",
+   "why": "Not stated in the repository description."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "xinqian-mit/API_Phonons",
+  "url": "https://github.com/xinqian-mit/API_Phonons",
+  "venue": "GitHub · CWeb",
+  "watched": []
+ },
+ {
   "abstract": "Plug-in for ChimeraX providing features for building and manipulating organic and organometallic molecules as well as displaying output from quantum chemistry computations. Topics: catalysis, density-functional-theory, graphical-user-interface, gui, ir-spectra, molecular-graphics, quantum-chemistry, quantum-chemistry-automation, steric-parameters, sterimol, ucsf-chimerax.",
   "authors": [
    "QChASM"

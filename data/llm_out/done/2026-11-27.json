@@ -1,0 +1,96 @@
+{
+ "summaries": {
+  "fb639f7046e8ae25": {
+   "what": "Introduces an equivariant message-passing graph neural network interatomic potential that treats atomic magnetic moments as explicit degrees of freedom, including non-collinear interactions and optionally spin–orbit coupling.",
+   "why": "Magnetism couples to lattice and electronic degrees of freedom in ways that conventional first-principles approaches struggle to handle.",
+   "how": "Equivariant many-body message passing, fine-tuned from a pre-trained model to reach near-DFT accuracy with strong data efficiency; applied to structural transformations, finite-temperature magnetism and screening of strongly spin-orbit coupled materials.",
+   "impact": "Relevant as a methods reference for MLIP data efficiency and fine-tuning from foundation models (InGaAs DP vs MACE, BAs active learning), but magnetic materials are not among the reader's projects. Moderate relevance.",
+   "relevance": 3
+  },
+  "a6deb1adad642d83": {
+   "what": "Atomistic nonequilibrium Green's function calculations with mode-resolved phonon transmission for sliding graphene/h-BN van der Waals heterostructures show an oscillatory interfacial thermal conductance with two length scales: a 0.5 unit-cell period and a long-period modulation of about 8 unit cells.",
+   "why": "How atomic-scale interfacial arrangement controls heat-carrying phonon transmission across vdW interfaces in 2D FETs is poorly understood.",
+   "how": "NEGF with mode-resolved analysis; the short period follows changes in atomic arrangement and local interlayer coupling, while the long period tracks redistribution of transmission among phonons, with dominant ZA wavelengths of about 7.1-9.1 uc.",
+   "impact": "Relevant to the GaN/Al2O3 interface and interfacial thermal conductance work: the mode-resolved transmission analysis is a transferable approach for interface phonon transport. The material system (2D vdW) differs from the reader's projects.",
+   "relevance": 4
+  },
+  "b87ba43634094f74": {
+   "what": "DFT with Boltzmann transport (relaxation-time approximation) study of MoX2 (X = S, Se, Te) structural, optoelectronic and thermoelectric properties using GGA and GGA-mBJ; reports ZT of 1.083, 0.991 and 0.988 for MoS2, MoSe2 and MoTe2.",
+   "why": "Assess the potential of layered MoX2 for photoelectronic, thermoelectric and energy-conversion uses.",
+   "how": "GGA and GGA-mBJ DFT with Boltzmann transport in the relaxation-time approximation.",
+   "impact": "Low relevance. Standard DFT/RTA screening with no lattice dynamics or BTE method contribution for the reader's projects.",
+   "relevance": 1
+  },
+  "76298af94bbfa4bf": {
+   "what": "Proposes a correlation matrix method that extracts temperature-dependent anharmonic phonon modes, with frequencies and lifetimes, from molecular dynamics trajectories by maximizing vibration stability.",
+   "why": "Phonon anharmonicity is ubiquitous and key to thermal properties and phase stability, but quasiparticle modes are hard to obtain directly from MD.",
+   "how": "All information is contained in two small correlation matrices S and Q built from MD, plus an optimization scheme; verified on silicon and cubic CaSiO3, capturing temperature-dependent behaviour and phonon softening in CaSiO3.",
+   "impact": "Directly relevant to MLPhonon and MLIP-to-lattice-dynamics workflows: a way to get finite-temperature phonon frequencies and lifetimes from MD (including MLIP-driven MD), useful for InGaAs, BAs and anharmonic oxides such as BaTiO3 and SrTiO3. Worth reading.",
+   "relevance": 5
+  },
+  "edfa5497a5fa8c7e": {
+   "what": "First-principles (FP-LAPW, GGA-WC and HSE06) study of Janus K2BX (X = S, Se, Te) monolayers, finding them dynamically and thermally stable direct-gap semiconductors with electron mobilities above 1000 cm2/V/s; reports a maximum ZT of about 1.78 at 900 K for K2BTe.",
+   "why": "Identify a chemically distinct 2D family for thermoelectric and nanoelectronic applications.",
+   "how": "DFT with phonon spectra, ab initio MD and thermoelectric transport calculations; lattice thermal conductivity falls along the chalcogen series.",
+   "impact": "Low relevance. A standard 2D thermoelectric screening study that does not address the reader's MLIP, BTE or interface work.",
+   "relevance": 2
+  },
+  "c606e56e46c41b34": {
+   "what": "First-principles study of lead-free halide double perovskites X2LaCuBr6 (X = Cs, Rb, K) covering stability, optoelectronic and thermoelectric properties; the abstract is truncated and gives figures of 0.33, 0.39 and 0.36 for the three compounds.",
+   "why": "Evaluate lead-free perovskites for possible thermoelectric devices.",
+   "how": "First-principles calculations, with thermodynamic properties from the quasi-harmonic Debye model in Gibbs2 over 0-400 K and 0-2 GPa.",
+   "impact": "Low relevance. Debye-model thermodynamics and screening offer little for the reader's projects.",
+   "relevance": 1
+  },
+  "d451787032325742": {
+   "what": "Uses Nb as a multifunctional interface modifier in Bi-rich Mg3(Sb,Bi)2 thermoelectrics, both for grain-boundary transport and as electrode contacts, reaching room-temperature zT above 0.8, contact resistivity of 1.8 µΩ·cm2 and module efficiency of 3.8% at ΔT = 100 K.",
+   "why": "Internal interfaces and electrode contacts are usually optimized separately, which limits the translation of material gains into device performance.",
+   "how": "Experimental synthesis and atomic-scale characterization, supported by first-principles calculations; modules made by pairing with p-type MgAgSb.",
+   "impact": "Low relevance. Mostly experimental thermoelectric device engineering, with no phonon-transport data or mechanism directly usable for the reader's computations.",
+   "relevance": 1
+  },
+  "2def09e3d793e658": {
+   "what": "Physics-based compact model for ferroelectric-gate HEMTs covering transient, DC, CV and RF behaviour. No abstract is provided.",
+   "why": "Not stated in the abstract.",
+   "how": "Not stated in the abstract.",
+   "impact": "Low relevance to the GaN HEMT multiscale thermal modeling project: it is an electrical compact model, and thermal or self-heating content is not stated.",
+   "relevance": 2
+  },
+  "e286ea20cc685c1c": {
+   "what": "Presents a highly integrated microchannel liquid-cooling ceramic substrate for thermal management of a high-power LED module. No abstract is provided.",
+   "why": "Not stated in the abstract.",
+   "how": "Not stated in the abstract.",
+   "impact": "Low relevance. It is a device-level cooling trend item for electronics thermal management, not a GaN or computational study.",
+   "relevance": 2
+  },
+  "c9af6eecc4edc033": {
+   "what": "Reports Raman fingerprints, phonon density of states and anomalous excess heat capacity of nanostructured polycrystalline cubic boron nitride, attributed to grain-boundary phonon modes.",
+   "why": "Excess heat capacity in nanostructured solids is usually ascribed to disorder-induced softening in grain-boundary regions without identifying the nature of the disorder.",
+   "how": "Raman and heat-capacity analysis, with the excess heat capacity peaking at 20-25 percent of the Debye temperature; grain boundaries and stacking faults are proposed as the cause. The abstract does not state the methods in detail.",
+   "impact": "Moderately relevant to the SrTiO3 grain boundary and dislocation-core phonon work and to boron-based materials (BAs): evidence of grain-boundary phonon modes that a lattice dynamics study could examine. Largely experimental.",
+   "relevance": 3
+  },
+  "46c8e7e7255e3d4a": {
+   "what": "Experimental study of Bi substitution in AgSb1-xBixTe2 (0 ≤ x ≤ 0.15), with DFT on the electronic structure; AgSb0.97Bi0.03Te2 reaches a peak zT of 1.26 at 598 K with thermal conductivity of 0.59 W/m/K.",
+   "why": "Understand how composition affects electronic structure, microstructure, secondary phases and transport in a low-lattice-thermal-conductivity thermoelectric.",
+   "how": "Melting plus spark plasma sintering, SEM/EDS and diffraction, thermoelectric measurements, and DFT on an ordered supercell.",
+   "impact": "Low relevance. Mostly experimental synthesis and doping work with no mechanism for the reader's projects.",
+   "relevance": 1
+  },
+  "4702d23c65247d76": {
+   "what": "A GitHub repository, API_Phonons, a set of Python scripts and functions that interface different packages for phonon modeling.",
+   "why": "Not stated in the repository description.",
+   "how": "Python scripts and functions linking phonon modeling packages; which packages is not stated.",
+   "impact": "Potentially useful for the MLPhonon and phonopy/phono3py/ALAMODE workflows, as an example of glue code between phonon packages. Worth a look to see which codes it supports.",
+   "relevance": 4
+  },
+  "488c1ed7ef9bcb08": {
+   "what": "A GitHub repository, LobsterPy, a Python package for automatic bonding analysis with the Lobster program.",
+   "why": "Automate chemical-bonding analysis in computational materials science and quantum chemistry.",
+   "how": "Python package that post-processes Lobster output, with plotting.",
+   "impact": "Low relevance. Bonding analysis could occasionally help interpret interatomic force constants, but it is not a phonon or MLIP tool.",
+   "relevance": 2
+  }
+ },
+ "new_items": []
+}
