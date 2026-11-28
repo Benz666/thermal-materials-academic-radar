@@ -1,206 +1,206 @@
 {
  "new": {
-  "industry": 2,
-  "papers": 11
+  "conferences": 2,
+  "papers": 9
  },
- "run": "2026-11-27T08:03+00:00",
+ "run": "2026-11-28T08:02+00:00",
  "sources": [
   {
-   "n": 364,
+   "n": 233,
    "ok": true,
-   "secs": 16.7,
+   "secs": 15.3,
    "source": "arXiv"
   },
   {
-   "n": 80,
+   "n": 46,
    "ok": true,
-   "secs": 2.2,
+   "secs": 0.4,
    "source": "Crossref · Physical Review B"
   },
   {
-   "n": 40,
+   "n": 26,
    "ok": true,
-   "secs": 1.3,
+   "secs": 0.1,
    "source": "Crossref · Physical Review Letters"
-  },
-  {
-   "n": 7,
-   "ok": true,
-   "secs": 1.4,
-   "source": "Crossref · Physical Review Materials"
-  },
-  {
-   "n": 9,
-   "ok": true,
-   "secs": 2.5,
-   "source": "Crossref · Physical Review Applied"
-  },
-  {
-   "n": 8,
-   "ok": true,
-   "secs": 2.5,
-   "source": "Crossref · Physical Review X"
-  },
-  {
-   "n": 33,
-   "ok": true,
-   "secs": 2.5,
-   "source": "Crossref · Applied Physics Letters"
-  },
-  {
-   "n": 21,
-   "ok": true,
-   "secs": 2.0,
-   "source": "Crossref · Journal of Applied Physics"
-  },
-  {
-   "n": 25,
-   "ok": true,
-   "secs": 1.3,
-   "source": "Crossref · The Journal of Chemical Physics"
-  },
-  {
-   "n": 16,
-   "ok": true,
-   "secs": 2.3,
-   "source": "Crossref · International Journal of Heat and Mass Transfer"
   },
   {
    "n": 4,
    "ok": true,
-   "secs": 1.9,
+   "secs": 0.1,
+   "source": "Crossref · Physical Review Materials"
+  },
+  {
+   "n": 5,
+   "ok": true,
+   "secs": 0.2,
+   "source": "Crossref · Physical Review Applied"
+  },
+  {
+   "n": 7,
+   "ok": true,
+   "secs": 0.1,
+   "source": "Crossref · Physical Review X"
+  },
+  {
+   "n": 8,
+   "ok": true,
+   "secs": 0.1,
+   "source": "Crossref · Applied Physics Letters"
+  },
+  {
+   "n": 6,
+   "ok": true,
+   "secs": 0.1,
+   "source": "Crossref · Journal of Applied Physics"
+  },
+  {
+   "n": 10,
+   "ok": true,
+   "secs": 0.1,
+   "source": "Crossref · The Journal of Chemical Physics"
+  },
+  {
+   "n": 19,
+   "ok": true,
+   "secs": 0.1,
+   "source": "Crossref · International Journal of Heat and Mass Transfer"
+  },
+  {
+   "n": 7,
+   "ok": true,
+   "secs": 0.1,
    "source": "Crossref · International Journal of Thermal Sciences"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 3.5,
+   "secs": 0.1,
    "source": "Crossref · ASME Journal of Heat and Mass Transfer"
   },
   {
    "n": 0,
    "ok": true,
-   "secs": 0.9,
+   "secs": 0.1,
    "source": "Crossref · Nanoscale and Microscale Thermophysical Engineering"
   },
   {
    "n": 7,
    "ok": true,
-   "secs": 1.7,
+   "secs": 5.1,
    "source": "Crossref · Materials Today Physics"
-  },
-  {
-   "n": 4,
-   "ok": true,
-   "secs": 2.1,
-   "source": "Crossref · npj Computational Materials"
-  },
-  {
-   "n": 9,
-   "ok": true,
-   "secs": 5.4,
-   "source": "Crossref · Computational Materials Science"
-  },
-  {
-   "n": 24,
-   "ok": true,
-   "secs": 5.0,
-   "source": "Crossref · Journal of Chemical Theory and Computation"
   },
   {
    "n": 3,
    "ok": true,
-   "secs": 2.3,
+   "secs": 0.1,
+   "source": "Crossref · npj Computational Materials"
+  },
+  {
+   "n": 11,
+   "ok": true,
+   "secs": 0.1,
+   "source": "Crossref · Computational Materials Science"
+  },
+  {
+   "n": 23,
+   "ok": true,
+   "secs": 0.2,
+   "source": "Crossref · Journal of Chemical Theory and Computation"
+  },
+  {
+   "n": 2,
+   "ok": true,
+   "secs": 0.1,
    "source": "Crossref · Machine Learning: Science and Technology"
   },
   {
-   "n": 10,
+   "n": 11,
    "ok": true,
-   "secs": 2.4,
+   "secs": 0.1,
    "source": "Crossref · Digital Discovery"
   },
   {
-   "n": 108,
+   "n": 100,
    "ok": true,
-   "secs": 1.9,
+   "secs": 1.5,
    "source": "Crossref · Nature Communications"
   },
   {
    "n": 4,
    "ok": true,
-   "secs": 1.4,
+   "secs": 0.2,
    "source": "Crossref · Nature Materials"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 1.0,
+   "secs": 0.1,
    "source": "Crossref · Nature Electronics"
   },
   {
-   "n": 3,
+   "n": 5,
    "ok": true,
-   "secs": 0.9,
+   "secs": 0.2,
    "source": "Crossref · Nature Physics"
   },
   {
    "n": 32,
    "ok": true,
-   "secs": 1.8,
+   "secs": 0.2,
    "source": "Crossref · Science"
   },
   {
-   "n": 44,
+   "n": 86,
    "ok": true,
-   "secs": 2.0,
+   "secs": 0.2,
    "source": "Crossref · Science Advances"
   },
   {
-   "n": 39,
+   "n": 32,
    "ok": true,
-   "secs": 1.6,
+   "secs": 0.1,
    "source": "Crossref · Nano Letters"
   },
   {
    "n": 91,
    "ok": true,
-   "secs": 0.9,
+   "secs": 0.2,
    "source": "Crossref · ACS Applied Materials & Interfaces"
   },
   {
-   "n": 60,
+   "n": 62,
    "ok": true,
-   "secs": 0.5,
+   "secs": 0.2,
    "source": "Crossref · Advanced Materials"
   },
   {
-   "n": 110,
+   "n": 176,
    "ok": true,
-   "secs": 0.9,
+   "secs": 0.4,
    "source": "Crossref · Advanced Functional Materials"
   },
   {
-   "n": 12,
+   "n": 11,
    "ok": true,
-   "secs": 2.5,
+   "secs": 0.2,
    "source": "Crossref · IEEE Transactions on Electron Devices"
   },
   {
-   "n": 15,
+   "n": 13,
    "ok": true,
-   "secs": 1.6,
+   "secs": 0.3,
    "source": "Crossref · IEEE Electron Device Letters"
   },
   {
-   "n": 3,
+   "n": 1,
    "ok": true,
-   "secs": 1.0,
+   "secs": 0.1,
    "source": "Crossref · IEEE Trans. Components, Packaging and Manufacturing Technology"
   },
   {
-   "n": 14,
+   "n": 11,
    "ok": true,
-   "secs": 0.5,
+   "secs": 0.2,
    "source": "Crossref · Journal of Physics: Condensed Matter"
   },
   {
@@ -210,61 +210,61 @@
    "source": "OpenAlex · \"thermal conductivity\" phonon"
   },
   {
-   "n": 6,
+   "n": 3,
    "ok": true,
-   "secs": 0.1,
+   "secs": 0.2,
    "source": "OpenAlex · \"interfacial thermal conductance\""
   },
   {
    "n": 4,
    "ok": true,
-   "secs": 0.1,
+   "secs": 0.4,
    "source": "OpenAlex · \"thermal boundary conductance\""
   },
   {
-   "n": 7,
+   "n": 8,
    "ok": true,
    "secs": 0.3,
    "source": "OpenAlex · \"interatomic potential\" phonon"
   },
   {
-   "n": 7,
+   "n": 5,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.2,
    "source": "OpenAlex · GaN HEMT thermal"
   },
   {
    "n": 5,
    "ok": true,
-   "secs": 0.2,
+   "secs": 0.3,
    "source": "OpenAlex · \"Boltzmann transport equation\" phonon"
   },
   {
-   "n": 30,
+   "n": 23,
    "ok": true,
-   "secs": 0.5,
+   "secs": 0.4,
    "source": "OpenAlex · \"physics-informed neural network\" heat"
   },
   {
    "n": 50,
    "ok": true,
-   "secs": 0.6,
+   "secs": 0.7,
    "source": "OpenAlex · \"interatomic potential\" interpretability OR \"latent space\""
   },
   {
    "n": 50,
    "ok": true,
-   "secs": 0.5,
+   "secs": 0.6,
    "source": "OpenAlex · \"interatomic potential\" \"data efficiency\" OR \"active learning\""
   },
   {
    "n": 50,
    "ok": true,
-   "secs": 0.5,
+   "secs": 0.4,
    "source": "OpenAlex · electronics cooling microchannel OR \"two-phase\" OR immersion"
   },
   {
-   "n": 4,
+   "n": 2,
    "ok": true,
    "secs": 0.2,
    "source": "OpenAlex · \"electro-thermal\" simulation transistor"
@@ -276,15 +276,15 @@
    "source": "OpenAlex · \"agent\" \"large language model\" materials simulation"
   },
   {
-   "n": 9,
+   "n": 12,
    "ok": true,
-   "secs": 0.3,
+   "secs": 0.4,
    "source": "OpenAlex · \"Green-Kubo\" OR \"nonequilibrium molecular dynamics\" thermal conductivity"
   },
   {
-   "n": 19,
+   "n": 18,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.6,
    "source": "OpenAlex · watched authors"
   },
   {
@@ -296,19 +296,19 @@
   {
    "n": 0,
    "ok": true,
-   "secs": 2.4,
+   "secs": 1.8,
    "source": "Release · DeePMD-kit"
   },
   {
    "n": 0,
    "ok": true,
-   "secs": 0.8,
+   "secs": 0.7,
    "source": "Release · DP-GEN2"
   },
   {
    "n": 0,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.5,
    "source": "Release · MACE"
   },
   {
@@ -332,7 +332,7 @@
   {
    "n": 0,
    "ok": true,
-   "secs": 0.5,
+   "secs": 0.4,
    "source": "Release · MatterSim (Microsoft)"
   },
   {
@@ -344,13 +344,13 @@
   {
    "n": 0,
    "ok": true,
-   "secs": 0.6,
+   "secs": 0.5,
    "source": "Release · SevenNet"
   },
   {
    "n": 0,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.5,
    "source": "Release · MatGL"
   },
   {
@@ -362,7 +362,7 @@
   {
    "n": 0,
    "ok": true,
-   "secs": 0.3,
+   "secs": 0.2,
    "source": "Release · phono3py"
   },
   {
@@ -380,7 +380,7 @@
   {
    "n": 0,
    "ok": true,
-   "secs": 0.7,
+   "secs": 0.6,
    "source": "Release · pymatgen"
   },
   {
@@ -392,7 +392,7 @@
   {
    "n": 0,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.5,
    "source": "Release · JAX MD"
   },
   {
@@ -416,7 +416,7 @@
   {
    "n": 0,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.3,
    "source": "Release · NVIDIA PhysicsNeMo"
   },
   {
@@ -428,31 +428,31 @@
   {
    "n": 0,
    "ok": true,
-   "secs": 0.6,
+   "secs": 0.4,
    "source": "Release · kALDo"
   },
   {
    "n": 0,
    "ok": true,
-   "secs": 0.9,
+   "secs": 0.7,
    "source": "Release · dpdata"
   },
   {
-   "n": 7,
+   "n": 5,
    "ok": true,
    "secs": 0.4,
    "source": "Feed · NVIDIA Technical Blog"
   },
   {
-   "n": 2,
+   "n": 1,
    "ok": true,
-   "secs": 0.3,
+   "secs": 0.2,
    "source": "Feed · NVIDIA Blog"
   },
   {
    "n": 0,
    "ok": true,
-   "secs": 0.5,
+   "secs": 0.4,
    "source": "Feed · Microsoft Research AI for Science"
   },
   {
@@ -462,15 +462,15 @@
    "source": "Feed · AWS HPC Blog"
   },
   {
-   "n": 2,
+   "n": 1,
    "ok": true,
    "secs": 0.2,
    "source": "Feed · Google DeepMind"
   },
   {
-   "n": 2,
+   "n": 1,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.8,
    "source": "Feed · Google Research"
   },
   {
@@ -480,7 +480,7 @@
    "source": "Feed · Microsoft Research"
   },
   {
-   "n": 8,
+   "n": 5,
    "ok": true,
    "secs": 0.4,
    "source": "Feed · OpenAI"
@@ -488,7 +488,7 @@
   {
    "n": 10,
    "ok": true,
-   "secs": 1.2,
+   "secs": 0.9,
    "source": "Feed · Semiconductor Engineering"
   },
   {
@@ -504,27 +504,27 @@
    "source": "Feed · Electronics Cooling"
   },
   {
-   "n": 10,
+   "n": 7,
    "ok": true,
-   "secs": 1.9,
+   "secs": 1.8,
    "source": "Feed · Semiconductor Today"
   },
   {
-   "n": 4,
+   "n": 5,
    "ok": true,
-   "secs": 0.6,
+   "secs": 0.5,
    "source": "GitHub · topic:interatomic-potentials"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.3,
    "source": "GitHub · topic:machine-learning-potentials"
   },
   {
    "n": 30,
    "ok": true,
-   "secs": 1.2,
+   "secs": 1.0,
    "source": "GitHub · topic:molecular-dynamics"
   },
   {
@@ -534,27 +534,27 @@
    "source": "GitHub · topic:phonons"
   },
   {
-   "n": 10,
+   "n": 9,
    "ok": true,
-   "secs": 0.9,
+   "secs": 0.5,
    "source": "GitHub · topic:density-functional-theory"
   },
   {
-   "n": 2,
+   "n": 1,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.3,
    "source": "GitHub · topic:materials-science agent"
   },
   {
    "n": 2,
    "ok": true,
-   "secs": 0.5,
+   "secs": 0.4,
    "source": "GitHub · topic:computational-materials-science"
   },
   {
    "n": 0,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.3,
    "source": "GitHub · thermal conductivity in:description"
   },
   {
@@ -572,13 +572,13 @@
   {
    "n": 11,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.2,
    "source": "WikiCFP · heat transfer"
   },
   {
    "n": 2,
    "ok": true,
-   "secs": 0.2,
+   "secs": 0.1,
    "source": "WikiCFP · thermal engineering"
   },
   {
@@ -590,7 +590,7 @@
   {
    "n": 20,
    "ok": true,
-   "secs": 0.2,
+   "secs": 0.1,
    "source": "WikiCFP · semiconductor"
   },
   {
@@ -614,7 +614,7 @@
   {
    "n": 12,
    "ok": true,
-   "secs": 0.4,
+   "secs": 0.3,
    "source": "Calls · Communications Materials"
   },
   {
@@ -630,7 +630,7 @@
    "source": "Calls · Nature Electronics"
   },
   {
-   "n": 12,
+   "n": 11,
    "ok": true,
    "secs": 0.3,
    "source": "Calls · Scientific Reports"
@@ -638,25 +638,25 @@
   {
    "n": 1,
    "ok": true,
-   "secs": 3.6,
+   "secs": 8.1,
    "source": "Conference · ASME Summer Heat Transfer Conference (SHTC)"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 3.6,
+   "secs": 10.3,
    "source": "Conference · ASME IMECE"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 3.2,
+   "secs": 12.0,
    "source": "Conference · ASME InterPACK"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 1.9,
+   "secs": 0.4,
    "source": "Conference · IEEE ITherm"
   },
   {
@@ -668,13 +668,13 @@
   {
    "n": 1,
    "ok": true,
-   "secs": 0.2,
+   "secs": 0.3,
    "source": "Conference · ASTFE Thermal and Fluids Engineering Conference (TFEC)"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 0.5,
+   "secs": 0.4,
    "source": "Conference · MRS Spring / Fall Meeting"
   },
   {
@@ -685,31 +685,31 @@
   {
    "n": 1,
    "ok": true,
-   "secs": 0.5,
+   "secs": 0.7,
    "source": "Conference · IEEE IEDM"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 0.2,
+   "secs": 0.3,
    "source": "Conference · IEEE IRPS"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 0.3,
+   "secs": 0.4,
    "source": "Conference · CS MANTECH"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 0.2,
+   "secs": 0.3,
    "source": "Conference · IEEE WiPDA"
   },
   {
    "n": 1,
    "ok": true,
-   "secs": 0.2,
+   "secs": 0.1,
    "source": "Conference · IEEE APEC"
   },
   {
@@ -721,7 +721,7 @@
   {
    "n": 1,
    "ok": true,
-   "secs": 0.3,
+   "secs": 0.2,
    "source": "Conference · AI4Mat workshop (NeurIPS)"
   }
  ]

@@ -1,5 +1,76 @@
 [
  {
+  "abstract": "Large ASME venue with nano/micro-scale heat transfer tracks; abstracts usually due Feb–Mar. Deadline-related text on the page: Submit Abstract Technical Session Schedule Announced Get a detailed preview of the sessions and presentations taking place at IMECE 2026 in Vancouver, Canada.",
+  "always": true,
+  "authors": [],
+  "cat": "conferences",
+  "conf_name": "ASME IMECE",
+  "doi": "",
+  "first_seen": "2026-11-28",
+  "fit": "submit",
+  "focus": "",
+  "id": "0213228eecf1ef39",
+  "kind": "conference",
+  "kw_score": 3,
+  "matched": [],
+  "mytools": [],
+  "page_excerpt": "2026 IMECE® International Mechanical Engineering Congress & Exposition® Skip to content ASME International® Authors/Organizers LOGIN Menu International Mechanical Engineering Congress & Exposition® Advancing Global Solutions: Convergence to Transformative Impact In-Person Event Vancouver Convention Centre Vancouver, British Columbia, Canada November 8–12, 2026 Conference: November 8-12, 2026 Exhibition: November 9-11, 2026 Need Help? Submit Abstract Technical Session Schedule Announced Get a detailed preview of the sessions and presentations taking place at IMECE 2026 in Vancouver, Canada. View Technical Sessions Enhance Your Experience Update your Pressure Relief Device knowledge with an ASME course! Purchase Your Course Here Keynote Announced John Ustica, President & Chief Executive Officer of Siemens Government Technologies, will deliver a keynote address at IMECE 2026. Learn More Showcase Your Brand From exhibit space to custom sponsorships, connect directly with attendees seeking the latest technologies and services. IMECE 2026 Join us this November Vancouver, Canada ASME's International Mechanical Engineering Congress & Exposition (IMECE) is the only event where research leaders from academia, government, and industry converge to make connections and share insights for innovation across engineering disciplines. This year's IMECE will emphasize the critical role of mechanical engineering in addressing global challenges through innovation and resilience. Present Your Rese",
+  "published": "2026-11-28",
+  "relevance": 2,
+  "score": 0,
+  "source": "Conference watch",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract. The visible page text refers to the 2026 meeting, and no future deadline is given in the excerpt.",
+   "impact": "The 2026 meeting appears to have already taken place or to be finishing (Nov 8–12), so it is not actionable now. Watch for the 2027 call. It could fit the thermal transport and interface work later. Low relevance for now.",
+   "what": "The ASME IMECE site was updated. The 2026 congress is November 8–12, 2026 in Vancouver, Canada, with the technical session schedule announced and a submit-abstract link.",
+   "why": "IMECE is a large ASME venue for mechanical engineering, with heat transfer tracks."
+  },
+  "themes": [],
+  "title": "ASME IMECE — website updated",
+  "url": "https://event.asme.org/IMECE",
+  "venue": "Mechanical engineering congress (heat transfer tracks)",
+  "watched": []
+ },
+ {
+  "abstract": "Industry-heavy thermal modeling and cooling symposium; good for job networking. No deadline sentences found on the page.",
+  "always": true,
+  "authors": [],
+  "cat": "conferences",
+  "conf_name": "SEMI-THERM",
+  "doi": "",
+  "first_seen": "2026-11-28",
+  "fit": "submit",
+  "focus": "",
+  "id": "00f53ae6de9a313d",
+  "kind": "conference",
+  "kw_score": 4,
+  "matched": [
+   "cooling",
+   "thermal"
+  ],
+  "mytools": [],
+  "page_excerpt": "SEMI-THERM | Thermal Engineering top of page 43rd Annual Symposium March 15 - 18, 2027 San Jose, California Attend, Exhibit or Sponsor - Join SEMI-THERM 2027 Global thermal community SEMI-THERM is a global community dedicated to advancing the science and practice of electronics thermal management. We connect engineers, researchers, students, and technology leaders through technical exchange, collaboration, and professional development. Learn More ANNUAL SYMPOSIUM The SEMI-THERM Symposium & Exhibition brings together the global thermal management community to explore the latest advances in semiconductor and electronics cooling. Through technical presentations, workshops, exhibits, and networking, industry professionals, researchers, and students connect to share knowledge, solve challenges, and drive innovation. ​ \u0000​ View 2027 Exhibitors Event Registration Submit a technical paper or presentation abstract Learn More Call for Papers Explore thermal innovations and connect with industry leaders Learn More Attend Showcase your latest thermal solutions Learn More Exhibit Support innovation and connect with the global thermal management community. Learn More Sponsor 2027 Sponsors Industry partners enabling technical exchange, education, and innovation. Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal Futures Thermal Futures Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal Futures Thermal Futures Gold Gold Gold Gold Thermal Futures Thermal Futures Thermal Futur",
+  "published": "2026-11-28",
+  "relevance": 4,
+  "score": 7,
+  "source": "Conference watch",
+  "summary": {
+   "by": "claude",
+   "how": "Technical paper or presentation abstract submission is via the site's Call for Papers. The deadline is not stated in the provided page text.",
+   "impact": "Good fit for the GaN/AlGaN HEMT multiscale thermal modeling project (device-scale self-heating) and for industry networking on electronics thermal management. Worth checking the call for papers for the abstract deadline and considering a submission.",
+   "what": "The SEMI-THERM 2027 website was updated. The 43rd Annual Symposium is scheduled for March 15–18, 2027 in San Jose, California, with a Call for Papers and a link to submit a technical paper or presentation abstract.",
+   "why": "SEMI-THERM is a community on electronics thermal management, covering semiconductor and electronics cooling through presentations, workshops and exhibits."
+  },
+  "themes": [
+   "industry"
+  ],
+  "title": "SEMI-THERM — website updated",
+  "url": "https://www.semi-therm.org/",
+  "venue": "Semiconductor thermal measurement, modeling & management",
+  "watched": []
+ },
+ {
   "abstract": "Short workshop papers on MLIP interpretability, data efficiency or agents; NeurIPS is usually in North America in December. No deadline sentences found on the page.",
   "always": true,
   "authors": [],

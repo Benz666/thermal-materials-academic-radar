@@ -1,0 +1,82 @@
+{
+ "summaries": {
+  "7b57d5c0fbc628ff": {
+   "what": "Non-equilibrium MD (LAMMPS, Tersoff/AIREBO, Nosé-Hoover) and Green-Kubo calculations of thermal transport in hybrid silicene-graphane nanoribbons. At 300 K, silicene gives 20.42 W/m·K and graphane 1592.89 W/m·K; Kapitza resistance at the interface is 1.39×10^-10 and 7.04×10^-11 m²·K/W for ΔT = 9.7 K and 4.9 K.",
+   "why": "Silicene-graphane is a less-explored heterostructure than silicene-graphene, with tunable electronic and thermal properties for silicon-compatible nanoelectronics and thermal rectification.",
+   "how": "LAMMPS NEMD with hot/cold baths and bidirectional flux (±1.0 eV/ps) in a 40 × 5 nm system, plus Green-Kubo for conductivity. Conductivity falls with temperature, attributed to Umklapp scattering.",
+   "impact": "Low relevance to the GaN/AlGaN, InGaAs and BAs projects. It uses classical empirical potentials on 2D materials, not MLIPs. It only gives a generic example of Kapitza resistance from NEMD (LAMMPS) and a phonon-mismatch explanation, which touches the interfacial transport work (GaN/Al2O3).",
+   "relevance": 2
+  },
+  "16a7ddab5228a8a3": {
+   "what": "Analytical continuum model of photothermal vibration in an ortho-piezo-thermo-photoelectric semiconductor. It uses the Modified Cattaneo–Vernotte heat conduction model with Klein–Gordon nonlocal elasticity and is solved by the normal mode approach.",
+   "why": "To capture size effects and finite thermal wave speed in coupled thermal, piezoelectric, mechanical and photoelectric fields under photothermal excitation.",
+   "how": "Coupled governing equations solved analytically with vacuum-interface boundary conditions. Numerical results show the effects of nonlocal parameters, coupling and thermal relaxation time on temperature, stress and plasma density, validated against published results.",
+   "impact": "Low relevance. This is a continuum, phenomenological wave-heat-conduction model with no atomistic or BTE content. It is only loosely related to non-Fourier transport and does not connect to the MLIP→BTE pipeline of the GaN HEMT or JAX-BTE projects.",
+   "relevance": 1
+  },
+  "d70bdef1718250dc": {
+   "what": "Experimental study that adds W nanoparticles chosen by work-function matching to n-type (AgBiSe2)0.75(PbTe)0.25–1 wt% BiBr3. It reports a peak zT of 0.88 at 773 K and an average zT of 0.45 over 300–800 K.",
+   "why": "Electron and phonon transport are hard to decouple in thermoelectrics, and metallic nanoparticle selection has relied on trial and error rather than interface design principles.",
+   "how": "Synthesis and structural characterization of semicoherent metal/semiconductor interfaces. Electron injection raises carrier concentration by two orders of magnitude. W nanoparticles, grain refinement and stacking faults suppress lattice thermal conductivity below the theoretical minimum.",
+   "impact": "Low relevance. It is mostly experimental thermoelectric materials work with no computational method to transfer to the current projects. Its phonon-scattering-by-interface narrative is only loosely related to the interfacial transport work.",
+   "relevance": 1
+  },
+  "131fc70407b683d0": {
+   "what": "Review of GeTe-based thermoelectrics covering carrier modulation, band engineering, phonon transport engineering, devices and service reliability, with sections on n-type GeTe and thin films.",
+   "why": "GeTe is a lead-free thermoelectric with strong anharmonicity, but its performance is limited by high hole concentration from Ge vacancies, the rhombohedral-to-cubic phase transition, and the electrical/thermal transport trade-off.",
+   "how": "Literature review that compares strategies for carrier concentration, mobility and effective mass, and for suppressing lattice thermal conductivity through defect, phase-interface and nanostructure engineering.",
+   "impact": "Low relevance. It is an experimental-leaning review. It is useful at most as background on anharmonicity and defect/interface phonon scattering, which a computational study of lattice dynamics could reference. It does not map to a specific project.",
+   "relevance": 2
+  },
+  "772133a92a4f5874": {
+   "what": "A multiscale DFT + SCAPS-1D framework with explainable machine learning (SHAP, LIME) for lead-free A3BiBr3 perovskite-derived solar cells. 4374 SCAPS-generated data points train the ML and deep-learning models, and the best models reach near-unity predictive accuracy.",
+   "why": "To speed up device optimization and identify promising configurations for lead-free perovskite-derived photovoltaics.",
+   "how": "DFT and SCAPS-1D device simulation generate data for ML/DL models. SHAP and LIME analyses identify temperature, resistive losses, shunt resistance and carrier concentration as the most influential factors.",
+   "impact": "Low relevance. It concerns photovoltaics, not thermal transport. The only transferable part is the generic pattern of a surrogate model on simulated data with explainability analysis, which is loosely related to MLIP interpretability.",
+   "relevance": 1
+  },
+  "2b544e8a19813dcb": {
+   "what": "A high-throughput workflow combining diffusion-based crystal generation, AI-classifier screening and DFT validation to find altermagnets. From 51,200 generated structures it yields eight new altermagnet candidates, benchmarked against 90 known ones from MAGNDATA.",
+   "why": "Altermagnets with sizable spin splitting are scarce, and existing databases hold few candidates.",
+   "how": "Generated structures are filtered by an AI classifier, composition filters, novelty/uniqueness checks and a symmetry-compatibility test. DFT+U total energy comparisons validate the magnetic ground state, and phonon and elastic calculations check dynamical and mechanical stability.",
+   "impact": "Low-to-moderate relevance. It is a magnetism topic, but the generative-model plus first-principles validation pipeline with phonon stability checks is an example of an automated workflow, which relates to agentic/automated lattice-dynamics workflows and MLPhonon.",
+   "relevance": 2
+  },
+  "9ddd0b556b428201": {
+   "what": "Review of p-type β-Ga2O3 covering polymorphism, band structure, intrinsic point defects, self-trapped holes, acceptor dopants (N, Mg, Zn, Cd, Cu, Se, P), co-doping and valence-band engineering, with comparison to GaN and ZnO.",
+   "why": "Reliable p-type conductivity in Ga2O3 is unresolved and limits bipolar devices. The review traces the difficulty to localised O-2p-derived valence bands.",
+   "how": "Literature synthesis of first-principles defect theory and device applications (photodetectors, LEDs, rectifiers, gas sensors, heterojunctions).",
+   "impact": "Low relevance to thermal transport. It covers a wide-bandgap power semiconductor related to the GaN device work, and the GaN comparison is context for power electronics, but it has no phonon or thermal content in the abstract.",
+   "relevance": 2
+  },
+  "690c557b74ed57cf": {
+   "what": "Review of energy management strategies and power distribution architectures for fuel cell-powered hybrid-electric aircraft and eVTOLs, including aerospace power electronics with SiC and GaN.",
+   "why": "Integrating hydrogen fuel cells, batteries and distributed electric propulsion creates challenges for energy management, power distribution and power electronics integration.",
+   "how": "Literature review of propulsion configurations and control approaches (rule-based, optimization-based, predictive, intelligent), covering high-voltage DC distribution, DC/DC converters, drives, thermal management and certification.",
+   "impact": "Low relevance. It is a system-level review. It only gives industry context on SiC/GaN adoption and thermal management needs in aerospace power electronics, which may be useful background for industry jobs but does not touch the modeling projects.",
+   "relevance": 1
+  },
+  "0f03a5d1337e6da1": {
+   "what": "A one-dimensional electrothermal platform of aligned carbon nanotube bundle arrays acting as line-shaped Joule heaters, used to drive spatially confined 2H-to-1T′ phase transitions in monolayer MoTe2 with stripe widths averaging 565 ± 209 nm (minimum 211 nm).",
+   "why": "Conventional Joule heating gives 2D temperature distributions without spatial selectivity, which limits deterministic phase engineering and on-chip processing.",
+   "how": "CNT heaters operate above 1000°C. Electrothermal simulations yield a design map linking bundle spacing and voltage to the temperature profile.",
+   "impact": "Low relevance. It is mainly an experimental heater and patterning demonstration. The electrothermal simulation design map is only loosely related to device-scale thermal simulation and does not involve phonon-level modeling.",
+   "relevance": 1
+  },
+  "00f53ae6de9a313d": {
+   "what": "The SEMI-THERM 2027 website was updated. The 43rd Annual Symposium is scheduled for March 15–18, 2027 in San Jose, California, with a Call for Papers and a link to submit a technical paper or presentation abstract.",
+   "why": "SEMI-THERM is a community on electronics thermal management, covering semiconductor and electronics cooling through presentations, workshops and exhibits.",
+   "how": "Technical paper or presentation abstract submission is via the site's Call for Papers. The deadline is not stated in the provided page text.",
+   "impact": "Good fit for the GaN/AlGaN HEMT multiscale thermal modeling project (device-scale self-heating) and for industry networking on electronics thermal management. Worth checking the call for papers for the abstract deadline and considering a submission.",
+   "relevance": 4
+  },
+  "0213228eecf1ef39": {
+   "what": "The ASME IMECE site was updated. The 2026 congress is November 8–12, 2026 in Vancouver, Canada, with the technical session schedule announced and a submit-abstract link.",
+   "why": "IMECE is a large ASME venue for mechanical engineering, with heat transfer tracks.",
+   "how": "Not stated in the abstract. The visible page text refers to the 2026 meeting, and no future deadline is given in the excerpt.",
+   "impact": "The 2026 meeting appears to have already taken place or to be finishing (Nov 8–12), so it is not actionable now. Watch for the 2027 call. It could fit the thermal transport and interface work later. Low relevance for now.",
+   "relevance": 2
+  }
+ },
+ "new_items": []
+}

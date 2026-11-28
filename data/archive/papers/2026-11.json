@@ -1,83 +1,415 @@
 [
  {
-  "abstract": "",
+  "abstract": "ABSTRACT Spatial confinement of thermal fields is essential for deterministic phase engineering and on‐chip materials processing. Conventional Joule‐heating approaches, however, generate two‐dimensional (2D) temperature distributions lacking spatial selectivity. Here, we report a one‐dimensional (1D) electrothermal platform based on aligned carbon nanotube (CNT) bundle arrays. The bundles act as parallel line‐shaped Joule heaters that produce programmable, stripe‐like thermal fields with strong lateral confinement. These heaters feature rapid thermal response, robust stability at high temperatures, and sustained operation above 1000°C. Combined with electrothermal simulations, we establish a quantitative design map that correlates bundle spacing and applied voltage with spatial temperature profiles, defining an operational window for selective thermal activation. Using monolayer 2H‐MoTe 2 as a model system, we demonstrate spatially confined 2H‐to‐1T′ phase transitions precisely aligned with CNT‐defined hot zones, forming phase stripes with sub‐micrometer widths (average: 565 ± 209 nm; minimum: 211 nm). Our results establish aligned CNT bundle arrays as a versatile platform for 1D thermal patterning and deterministic phase engineering in low‐dimensional electronic systems.",
   "authors": [
-   "Xianxing Ju",
-   "Qing Wang",
-   "Yongjie Ding",
-   "Yang Peng",
-   "Mingxiang Chen"
+   "Baini Li",
+   "Tianyu Wang",
+   "Zhongpu Wang",
+   "Shuang Zhou",
+   "Enzheng Shi",
+   "Yunfan Guo"
   ],
   "cat": "papers",
-  "doi": "10.1109/ted.2026.3751611",
-  "first_seen": "2026-11-27",
-  "focus": "",
-  "id": "e286ea20cc685c1c",
+  "doi": "10.1002/adma.75858",
+  "first_seen": "2026-11-28",
+  "focus": "computational",
+  "id": "0f03a5d1337e6da1",
   "kind": "paper",
-  "kw_score": 5,
+  "kw_score": 6,
   "matched": [
-   "microchannel",
-   "substrate",
-   "cooling",
-   "thermal"
+   "semiconductor",
+   "electrothermal",
+   "electro-thermal",
+   "thermal",
+   "simulation",
+   "materials"
   ],
   "mytools": [],
-  "published": "2026-11-26",
-  "relevance": 2,
-  "score": 2,
+  "published": "2026-11-27",
+  "relevance": 1,
+  "score": 0,
   "source": "Crossref",
   "summary": {
    "by": "claude",
-   "how": "Not stated in the abstract.",
-   "impact": "Low relevance. It is a device-level cooling trend item for electronics thermal management, not a GaN or computational study.",
-   "what": "Presents a highly integrated microchannel liquid-cooling ceramic substrate for thermal management of a high-power LED module. No abstract is provided.",
-   "why": "Not stated in the abstract."
+   "how": "CNT heaters operate above 1000°C. Electrothermal simulations yield a design map linking bundle spacing and voltage to the temperature profile.",
+   "impact": "Low relevance. It is mainly an experimental heater and patterning demonstration. The electrothermal simulation design map is only loosely related to device-scale thermal simulation and does not involve phonon-level modeling.",
+   "what": "A one-dimensional electrothermal platform of aligned carbon nanotube bundle arrays acting as line-shaped Joule heaters, used to drive spatially confined 2H-to-1T′ phase transitions in monolayer MoTe2 with stripe widths averaging 565 ± 209 nm (minimum 211 nm).",
+   "why": "Conventional Joule heating gives 2D temperature distributions without spatial selectivity, which limits deterministic phase engineering and on-chip processing."
   },
   "themes": [
    "device"
   ],
-  "title": "Highly Integrated Microchannel Liquid-Cooling Ceramic Substrate for Enhanced Thermal Management of High-Power LED Module",
-  "url": "https://doi.org/10.1109/ted.2026.3751611",
-  "venue": "IEEE Transactions on Electron Devices",
+  "title": "One‐Dimensional Phase Patterning on Atomic‐Layer Semiconductors via Carbon Nanotube Joule Heating",
+  "url": "https://doi.org/10.1002/adma.75858",
+  "venue": "Advanced Materials",
   "watched": []
  },
  {
-  "abstract": "Nanostructured polycrystalline cubic boron nitride, an advanced superhard and refractory covalent solid with hardness approaching that of diamond, exhibits extreme mechanical properties due to high chemical and phase purity, ideal crystallinity and high intergranular adhesion. The non-trivial Raman fingerprint of nano-cBN shows both bulk and surface/grain boundary modes in the phonon density of states. The anomalous heat capacity of nano-cBN is comparable to that of nanostructured metal bulks and shows universal behavior with a maximum at 20-25 percent of the Debye temperature. The intergrain boundaries and their intrinsic stacking-fault structure are a reliable, but probably not unique cause of excessive heat capacity. The excess heat capacity is typically interpreted as arising from disorder-induced softening of vibrational modes in grain-boundary regions with reduced bond stiffness, without explicit identification of disorder nature. Our results indicate that nanostructured cubic boron nitride hosts grain-boundary phonon modes that give rise to an anomalous excess heat capacity, a universal effect previously known only in metals with similar space-filling polycrystal organization.",
+  "abstract": "β - Ga 2 O 3 is an ultra-wide-bandgap semiconductor whose high critical breakdown field (∼8 MV cm −1) and large Baliga figure of merit make it attractive for next-generation power electronics and solar-blind ultraviolet optoelectronics. While n-type conductivity is now routinely achieved through group-IV donors and emerging dopants such as tantalum and niobium, reliable p-type conductivity remains an unresolved, fundamental challenge that continues to limit bipolar device architectures. This review synthesises the structural polymorphism, electronic band structure, and intrinsic point-defect physics of β - Ga 2 O 3, before examining why its strongly localised, oxygen-2p-derived valence band drives self-trapped hole formation, large hole effective masses, and native-donor compensation that together suppress acceptor activation. We evaluate single-element acceptor dopants (N, Mg, Zn, Cd, Cu, Se, P), co-doping and defect-complex strategies (e.g. N– V Ga, Mg–P), compensation engineering, and emerging valence-band-engineering approaches based on cation alloying (Bi, Rh) and polarisation-induced two-dimensional hole gases. The β - Ga 2 O 3 p-type problem is placed in the context of GaN, where a hydrogen-mediated compensation strategy succeeded despite a comparably deep acceptor, and ZnO, a wide-bandgap oxide semiconductor whose own p-type problem remains similarly unresolved—tracing both materials’ difficulty to a common O-2p-derived valence-band localisation. Representative device applications—photodetectors, LEDs, high-power rectifiers, gas sensors, and neuromorphic elements—are reviewed alongside the heterojunction architectures that currently offer the most practical route to bipolar functionality. We conclude that practical p-type β - Ga 2 O 3 will likely require the…",
   "authors": [
-   "Oleksandr O. Kurakevych",
-   "Samir F. Matar",
-   "Vladimir L. Solozhenko"
+   "Tista Roy Roy",
+   "Pallab Banerji"
   ],
   "cat": "papers",
-  "doi": "10.1103/bkfq-z5mt",
-  "first_seen": "2026-11-27",
-  "focus": "",
-  "id": "c9af6eecc4edc033",
+  "doi": "10.1088/1361-6463/aec274",
+  "first_seen": "2026-11-28",
+  "focus": "mixed",
+  "id": "9ddd0b556b428201",
   "kind": "paper",
-  "kw_score": 5,
+  "kw_score": 7,
   "matched": [
-   "phonon",
-   "softening",
-   "heat"
+   "wide-bandgap",
+   "GaN",
+   "semiconductor",
+   "first-principles",
+   "materials",
+   "physics"
   ],
   "mytools": [],
-  "published": "2026-11-24",
-  "relevance": 3,
-  "score": 5,
+  "published": "2026-11-26",
+  "relevance": 2,
+  "score": 4,
   "source": "OpenAlex",
   "summary": {
    "by": "claude",
-   "how": "Raman and heat-capacity analysis, with the excess heat capacity peaking at 20-25 percent of the Debye temperature; grain boundaries and stacking faults are proposed as the cause. The abstract does not state the methods in detail.",
-   "impact": "Moderately relevant to the SrTiO3 grain boundary and dislocation-core phonon work and to boron-based materials (BAs): evidence of grain-boundary phonon modes that a lattice dynamics study could examine. Largely experimental.",
-   "what": "Reports Raman fingerprints, phonon density of states and anomalous excess heat capacity of nanostructured polycrystalline cubic boron nitride, attributed to grain-boundary phonon modes.",
-   "why": "Excess heat capacity in nanostructured solids is usually ascribed to disorder-induced softening in grain-boundary regions without identifying the nature of the disorder."
+   "how": "Literature synthesis of first-principles defect theory and device applications (photodetectors, LEDs, rectifiers, gas sensors, heterojunctions).",
+   "impact": "Low relevance to thermal transport. It covers a wide-bandgap power semiconductor related to the GaN device work, and the GaN comparison is context for power electronics, but it has no phonon or thermal content in the abstract.",
+   "what": "Review of p-type β-Ga2O3 covering polymorphism, band structure, intrinsic point defects, self-trapped holes, acceptor dopants (N, Mg, Zn, Cd, Cu, Se, P), co-doping and valence-band engineering, with comparison to GaN and ZnO.",
+   "why": "Reliable p-type conductivity in Ga2O3 is unresolved and limits bipolar devices. The review traces the difficulty to localised O-2p-derived valence bands."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Towards p-type β -Ga 2 O 3: a review of structural, electronic, and defect physics from first-principles theory to device applications",
+  "url": "https://doi.org/10.1088/1361-6463/aec274",
+  "venue": "Journal of Physics D Applied Physics",
+  "watched": []
+ },
+ {
+  "abstract": "Fuel cell-powered hybrid-electric aircraft and electric Vertical Take-Off and Landing (eVTOL) systems are emerging as promising solutions for sustainable aviation due to their potential for low-emission and high-efficiency propulsion. However, integrating multiple onboard energy sources, including hydrogen fuel cells, batteries, and distributed electric propulsion systems, introduces significant challenges for energy management, onboard power distribution, and the integration of aerospace power electronics. This paper reviews energy management strategies and power distribution architectures for fuel cell-powered hybrid-electric aircraft and eVTOL systems. Various propulsion configurations, including series, parallel, turboelectric, and fuel-cell hybrid-electric architectures for regional aircraft, unmanned aerial vehicles (UAVs), and urban air mobility platforms, are examined. Energy management approaches, including rule-based, optimization-based, predictive, and intelligent control methods, are evaluated with emphasis on hydrogen consumption, system reliability, component degradation, and mission adaptability. Particular attention is given to aerospace power electronics, including high-voltage DC power distribution, bidirectional DC/DC converters, electric propulsion drives, and wide-bandgap semiconductor technologies such as silicon carbide (SiC) and gallium nitride (GaN) for lightweight, high-power-density operation. Challenges related to hydrogen storage, thermal management, fault tolerance, safety, and certification are also discussed. Finally, critical research gaps and future directions toward intelligent, reliable, and certification-oriented onboard electrical power systems for next-generation hybrid-electric aviation are identified.",
+  "authors": [
+   "Bolanle Tolulope Abe",
+   "Sunday Adeleke Salimon",
+   "Jacobus Andries Jordaan",
+   "Agha Francis Nnachi"
+  ],
+  "cat": "papers",
+  "doi": "10.37394/232016.2026.21.35",
+  "first_seen": "2026-11-28",
+  "focus": "",
+  "id": "690c557b74ed57cf",
+  "kind": "paper",
+  "kw_score": 7,
+  "matched": [
+   "wide-bandgap",
+   "GaN",
+   "SiC",
+   "semiconductor",
+   "reliability",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-26",
+  "relevance": 1,
+  "score": 1,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Literature review of propulsion configurations and control approaches (rule-based, optimization-based, predictive, intelligent), covering high-voltage DC distribution, DC/DC converters, drives, thermal management and certification.",
+   "impact": "Low relevance. It is a system-level review. It only gives industry context on SiC/GaN adoption and thermal management needs in aerospace power electronics, which may be useful background for industry jobs but does not touch the modeling projects.",
+   "what": "Review of energy management strategies and power distribution architectures for fuel cell-powered hybrid-electric aircraft and eVTOLs, including aerospace power electronics with SiC and GaN.",
+   "why": "Integrating hydrogen fuel cells, batteries and distributed electric propulsion creates challenges for energy management, power distribution and power electronics integration."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Aerospace Power Electronics, Energy Management and Power Distribution Architectures for Fuel Cell-Powered Hybrid-Electric Aircraft and eVTOLs: A Review",
+  "url": "https://doi.org/10.37394/232016.2026.21.35",
+  "venue": "WSEAS TRANSACTIONS ON POWER SYSTEMS",
+  "watched": []
+ },
+ {
+  "abstract": "ABSTRACT Altermagnets combine zero net magnetization with momentum‐dependent spin splitting, yet materials exhibiting sizable spin splitting remain scarce. Herein, a high‐throughput discovery workflow is presented that integrates diffusion‐based crystal generation with targeted screening and first‐principles validation to identify new altermagnet candidates beyond existing databases. Starting from 51 200 generated structures, candidates are downselected using an artificial intelligence‐based classifier, composition filters, novelty and uniqueness checks, and a symmetry‐compatibility test. The altermagnetic ground state is then validated through density functional theory (DFT)+ total energy comparisons among competing magnetic configurations. This workflow yields eight new altermagnets and their spin splittings are quantified and benchmarked against 90 known altermagnets from MAGNDATA, identifying () and () as particularly strong candidates. Thermodynamic stability and tolerance‐robust novelty assessments suggest that the final candidates include (meta)stable and potentially synthesizable phases. Phonon and elastic‐stiffness calculations further support dynamical and mechanical stability for most of the candidates. These results demonstrate that integrating generative models with targeted screening and DFT validation enables efficient discovery of nontrivial altermagnets.",
+  "authors": [
+   "Jiwon Choi",
+   "Yuhyun Cha",
+   "Yoon‐Gu Kang",
+   "Ze‐Feng Gao",
+   "Zhong‐Yi Lu",
+   "Claudio Zeni",
+   "Myung Joon Han"
+  ],
+  "cat": "papers",
+  "doi": "10.1002/adma.75804",
+  "first_seen": "2026-11-28",
+  "focus": "computational",
+  "id": "2b544e8a19813dcb",
+  "kind": "paper",
+  "kw_score": 8,
+  "matched": [
+   "phonon",
+   "benchmark",
+   "DFT",
+   "workflow",
+   "database",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-28",
+  "relevance": 2,
+  "score": 5,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Generated structures are filtered by an AI classifier, composition filters, novelty/uniqueness checks and a symmetry-compatibility test. DFT+U total energy comparisons validate the magnetic ground state, and phonon and elastic calculations check dynamical and mechanical stability.",
+   "impact": "Low-to-moderate relevance. It is a magnetism topic, but the generative-model plus first-principles validation pipeline with phonon stability checks is an example of an automated workflow, which relates to agentic/automated lattice-dynamics workflows and MLPhonon.",
+   "what": "A high-throughput workflow combining diffusion-based crystal generation, AI-classifier screening and DFT validation to find altermagnets. From 51,200 generated structures it yields eight new altermagnet candidates, benchmarked against 90 known ones from MAGNDATA.",
+   "why": "Altermagnets with sizable spin splitting are scarce, and existing databases hold few candidates."
+  },
+  "themes": [
+   "atomistic"
+  ],
+  "title": "AI‐Based Generative Search for New Altermagnetic Candidates With Large Spin Splitting",
+  "url": "https://doi.org/10.1002/adma.75804",
+  "venue": "Advanced Materials",
+  "watched": []
+ },
+ {
+  "abstract": "Germanium telluride (GeTe) is a promising lead-free thermoelectric material for intermediate-temperature power generation because of its intrinsically favorable electronic structure and strong anharmonicity. However, its performance is limited by excessive hole concentrations associated with Ge vacancies, the temperature-dependent rhombohedral-to-cubic phase transition, and the trade-off between electrical and thermal transport. This review summarizes recent advances in GeTe-based thermoelectrics from the perspectives of carrier modulation, electronic-band engineering, phonon transport engineering, device fabrication, and service reliability, with dedicated sections on n-type GeTe and thin films. We first discuss the structural, electronic, and phononic origins of the thermoelectric properties of GeTe. We then compare strategies for optimizing carrier concentration and carrier mobility and for enhancing the density-of-states effective mass. We analyze approaches to suppressing lattice thermal conductivity through defect engineering, phase-interface engineering, and nanostructural engineering. Moreover, particular attention is given to improving the conversion efficiency of GeTe thermoelectric devices and to service reliability. Finally, we discuss the remaining challenges, including coupled electron-phonon optimization, long-term service stability, n-type GeTe optimization, and highly efficient thermoelectric devices. This review aims to provide guidance for optimizing the material properties, enhancing the mechanical reliability, and advancing device-level applications of GeTe materials, thereby promoting the commercialization of GeTe thermoelectric materials.",
+  "authors": [
+   "Song Li",
+   "Yang Geng",
+   "Hang Xu",
+   "Qi Zhang",
+   "Guodong Tang"
+  ],
+  "cat": "papers",
+  "doi": "10.20517/energyz.2026.39",
+  "first_seen": "2026-11-28",
+  "focus": "experimental",
+  "id": "131fc70407b683d0",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "anharmonic",
+   "reliability",
+   "interface",
+   "vacanc",
+   "electron-phonon",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-26",
+  "relevance": 2,
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Literature review that compares strategies for carrier concentration, mobility and effective mass, and for suppressing lattice thermal conductivity through defect, phase-interface and nanostructure engineering.",
+   "impact": "Low relevance. It is an experimental-leaning review. It is useful at most as background on anharmonicity and defect/interface phonon scattering, which a computational study of lattice dynamics could reference. It does not map to a specific project.",
+   "what": "Review of GeTe-based thermoelectrics covering carrier modulation, band engineering, phonon transport engineering, devices and service reliability, with sections on n-type GeTe and thin films.",
+   "why": "GeTe is a lead-free thermoelectric with strong anharmonicity, but its performance is limited by high hole concentration from Ge vacancies, the rhombohedral-to-cubic phase transition, and the electrical/thermal transport trade-off."
+  },
+  "themes": [
+   "phonon",
+   "atomistic"
+  ],
+  "title": "Review of GeTe thermoelectric materials: recent progress, challenges and prospects",
+  "url": "https://doi.org/10.20517/energyz.2026.39",
+  "venue": "Energy Z",
+  "watched": []
+ },
+ {
+  "abstract": ", and FF of 85.06% and 86.15%. To accelerate device optimization, 4374 SCAPS-generated data points are used to train and evaluate multiple machine-learning and deep-learning models. The best-performing models achieve near-unity predictive accuracy, demonstrating their ability to capture the nonlinear relationships between device parameters and photovoltaic efficiency. SHAP and LIME analyses further reveal that temperature, resistive losses, shunt resistance, and carrier concentration are among the most influential factors governing device performance. These findings provide insights into the photovoltaic potential of Bi-based materials containing mineral-resource-associated elements. Overall, the proposed physics-informed and explainable data-driven framework provides a systematic strategy for identifying promising device configurations and accelerating the computational design of lead-free perovskite-derived solar cells.",
+  "authors": [
+   "Mohamed Benghanem",
+   "Md. Hafijur Rahman",
+   "Md. Azizur Rahman",
+   "Jehan Y. Al‐Humaidi",
+   "Samar O. Aljazzar",
+   "Jothi Ramalingam Rajabathar",
+   "Noureddine Ali Elboughdiri",
+   "Salah Knani"
+  ],
+  "cat": "papers",
+  "doi": "10.1039/d6ra07527d",
+  "first_seen": "2026-11-28",
+  "focus": "computational",
+  "id": "772133a92a4f5874",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "multiscale",
+   "explainab",
+   "SHAP",
+   "DFT",
+   "materials",
+   "physics"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": 3,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "DFT and SCAPS-1D device simulation generate data for ML/DL models. SHAP and LIME analyses identify temperature, resistive losses, shunt resistance and carrier concentration as the most influential factors.",
+   "impact": "Low relevance. It concerns photovoltaics, not thermal transport. The only transferable part is the generic pattern of a surrogate model on simulated data with explainability analysis, which is loosely related to MLIP interpretability.",
+   "what": "A multiscale DFT + SCAPS-1D framework with explainable machine learning (SHAP, LIME) for lead-free A3BiBr3 perovskite-derived solar cells. 4374 SCAPS-generated data points train the ML and deep-learning models, and the best models reach near-unity predictive accuracy.",
+   "why": "To speed up device optimization and identify promising configurations for lead-free perovskite-derived photovoltaics."
   },
   "themes": [
    "mlip"
   ],
-  "title": "Anomalous heat capacity and phonon density of states of superhard nanostructured cubic boron nitride",
-  "url": "https://doi.org/10.1103/bkfq-z5mt",
-  "venue": "Physical review. B./Physical review. B",
+  "title": "Multiscale DFT-SCAPS-1D and explainable machine learning framework for optimizing lead-free A 3 BiBr 3 perovskite-derived solar cells",
+  "url": "https://doi.org/10.1039/d6ra07527d",
+  "venue": "RSC Advances",
+  "watched": []
+ },
+ {
+  "abstract": "This paper investigates the vibrational response of a size-dependent ortho-piezo-thermo-photoelectric semiconductor medium within the framework of the Modified Cattaneo–Vernotte (MCV) heat conduction model. The formulation incorporates Klein–Gordon (KG) nonlocal elasticity to capture small-scale effects and finite thermal wave propagation. A coupled mathematical model describing the interaction among thermal, piezoelectric, mechanical, and photoelectric fields is developed under photothermal excitation. The governing equations are solved analytically using the normal mode approach, while appropriate boundary conditions are imposed at the vacuum interface. Numerical simulations are carried out to examine the influence of nonlocal parameters, thermo-piezo-photoelectric coupling, and thermal relaxation time on the distributions of temperature, stress, and plasma density. The result of the present model is validated against the previously published results. The obtained results reveal that both size dependency and thermal relaxation significantly alter the vibrational characteristics of the medium. The study provides a generalized theoretical framework for analyzing coupled wave phenomena in advanced semiconductor materials subjected to photothermal environments.",
+  "authors": [
+   "Annu Rani",
+   "Vipin Gupta",
+   "M. S. Barak",
+   "Soumik Das"
+  ],
+  "cat": "papers",
+  "doi": "10.1038/s41598-026-62397-3",
+  "first_seen": "2026-11-28",
+  "focus": "computational",
+  "id": "16a7ddab5228a8a3",
+  "kind": "paper",
+  "kw_score": 11,
+  "matched": [
+   "thermoelectric",
+   "Cattaneo",
+   "semiconductor",
+   "interface",
+   "thermal",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-26",
+  "relevance": 1,
+  "score": 5,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Coupled governing equations solved analytically with vacuum-interface boundary conditions. Numerical results show the effects of nonlocal parameters, coupling and thermal relaxation time on temperature, stress and plasma density, validated against published results.",
+   "impact": "Low relevance. This is a continuum, phenomenological wave-heat-conduction model with no atomistic or BTE content. It is only loosely related to non-Fourier transport and does not connect to the MLIP→BTE pipeline of the GaN HEMT or JAX-BTE projects.",
+   "what": "Analytical continuum model of photothermal vibration in an ortho-piezo-thermo-photoelectric semiconductor. It uses the Modified Cattaneo–Vernotte heat conduction model with Klein–Gordon nonlocal elasticity and is solved by the normal mode approach.",
+   "why": "To capture size effects and finite thermal wave speed in coupled thermal, piezoelectric, mechanical and photoelectric fields under photothermal excitation."
+  },
+  "themes": [
+   "phonon",
+   "bte"
+  ],
+  "title": "Modified Cattaneo–Vernotte photothermal transport in piezo-thermoelectric semiconductors with Klein–Gordon nonlocal elasticity",
+  "url": "https://doi.org/10.1038/s41598-026-62397-3",
+  "venue": "Scientific Reports",
+  "watched": []
+ },
+ {
+  "abstract": "Decoupling electron and phonon transport remains a central challenge for advancing thermoelectric performance. Although metallic nanoparticles provide a promising route for transport modulation, their selection has largely relied on empirical trial‐and‐error rather than rational interfacial design principles. Here, guided by a work‐function matching criterion, metallic W nanoparticles are introduced into an n‐type cubic (AgBiSe 2) 0.75 (PbTe) 0.25 –1 wt% BiBr 3 matrix to construct structurally and electronically optimized nanoheterointerfaces. Comprehensive structural characterization reveals the formation of stable semicoherent metal/semiconductor interfaces with strong interfacial coupling. Because of the favorable work‐function matching, electrons are spontaneously injected from W into the matrix, elevating the carrier concentration by two orders of magnitude, while interfacial energy filtering enhances the density‐of‐states effective mass. Meanwhile, the combined effects of W nanoparticles, Zener‐pinning‐induced grain refinement, and stacking faults establish a hierarchical phonon‐scattering network that significantly suppresses the lattice thermal conductivity below the theoretical minimum. Consequently, synergistic optimization of electronic and phononic transport yields a peak zT of 0.88 at 773 K and one of the highest zT avg values of 0.45 over 300–800 K for n‐type cubic AgBiSe 2 ‐based materials. This work establishes a work‐function‐guided nanoheterointerface strategy for decoupling electron–phonon transport, providing a generalizable design principle for developing high‐performance thermoelectrics.",
+  "authors": [
+   "Jiawei Huang",
+   "Kaidong Chen",
+   "Heyuan Cui",
+   "Meiling Ou",
+   "Binrong Huang",
+   "Yitao Lu",
+   "Tu Lyu",
+   "Xinjian Li",
+   "et al."
+  ],
+  "cat": "papers",
+  "doi": "10.1002/rar2.70720",
+  "first_seen": "2026-11-28",
+  "focus": "computational",
+  "id": "d70bdef1718250dc",
+  "kind": "paper",
+  "kw_score": 11,
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "generaliz",
+   "semiconductor",
+   "interface",
+   "thermal",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 1,
+  "score": 5,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "Synthesis and structural characterization of semicoherent metal/semiconductor interfaces. Electron injection raises carrier concentration by two orders of magnitude. W nanoparticles, grain refinement and stacking faults suppress lattice thermal conductivity below the theoretical minimum.",
+   "impact": "Low relevance. It is mostly experimental thermoelectric materials work with no computational method to transfer to the current projects. Its phonon-scattering-by-interface narrative is only loosely related to the interfacial transport work.",
+   "what": "Experimental study that adds W nanoparticles chosen by work-function matching to n-type (AgBiSe2)0.75(PbTe)0.25–1 wt% BiBr3. It reports a peak zT of 0.88 at 773 K and an average zT of 0.45 over 300–800 K.",
+   "why": "Electron and phonon transport are hard to decouple in thermoelectrics, and metallic nanoparticle selection has relied on trial and error rather than interface design principles."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Work‐Function‐Guided Nanoheterointerface Engineering for Decoupling Electron–Phonon Transport in n‐Type AgBiSe 2 Thermoelectrics",
+  "url": "https://doi.org/10.1002/rar2.70720",
+  "venue": "Rare Metals",
+  "watched": []
+ },
+ {
+  "abstract": "The distinctive properties of silicene and graphane motivate their integration into a novel heterostructure with tunable interface-dependent electronic, magnetic, and thermal characteristics for silicon-compatible nanoelectronic and thermal-rectification applications. This pioneering study investigates thermal transport in hybrid silicene-graphane nanoribbons — a less-explored heterostructure compared with silicene-graphene systems with applications in silicon-compatible nanoscale devices. Unlike zero-gap graphene or MoS₂, which was a fixed gap of approximately 1.8 eV, silicene-graphane leverages graphane's insulating nature and interface/strain effects for tunable bandgaps, enabling room-temperature field-effect transistor operation and enhanced performance. Non-equilibrium molecular dynamics simulations using the Large Atomic/Molecular Massively Parallel Simulator (LAMMPS) employed Nosé-Hoover thermostats and Tersoff/AIREBO potentials to model silicene-graphane nanoribbons. The Green-Kubo method was used to calculate thermal conductivity; hot/cold edge baths drove steady-state heat flux. At 300 Kelvin, silicene showed a thermal conductivity of 20.42 W/m·K, compared with graphane's unexpectedly high value of 1592.89 W/m·K. Conductivity decreased with temperature due to Umklapp scattering from anharmonic vibrations. Kapitza resistance at the silicene-graphane interface was 1.39×10-10 m2·K/W (ΔT=9.7 K) and 7.04×10-11 m2·K/W (ΔT=4.9 K), matching typical 2D heterostructure values (10-10 –10-9 m2·K/W). These values reflect phonon mismatch under bidirectional flux (±1.0 eV/ps) in the 40 × 5 nm system. These findings illuminate anisotropic transport, enhancing hybrid nanoribbons' role in tailored nanodevice thermal management.",
+  "authors": [
+   "Marjune Tamayo Bonilla",
+   "Giovanni J. Paylaga"
+  ],
+  "cat": "papers",
+  "doi": "10.69721/tps.j.2026.18.2.12",
+  "first_seen": "2026-11-28",
+  "focus": "computational",
+  "id": "7b57d5c0fbc628ff",
+  "kind": "paper",
+  "kw_score": 17,
+  "matched": [
+   "phonon",
+   "anharmonic",
+   "transistor",
+   "interface",
+   "heterostructure",
+   "strain",
+   "Green-Kubo",
+   "LAMMPS",
+   "heat",
+   "thermal",
+   "simulation"
+  ],
+  "mytools": [
+   "LAMMPS"
+  ],
+  "published": "2026-11-26",
+  "relevance": 2,
+  "score": 14,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "LAMMPS NEMD with hot/cold baths and bidirectional flux (±1.0 eV/ps) in a 40 × 5 nm system, plus Green-Kubo for conductivity. Conductivity falls with temperature, attributed to Umklapp scattering.",
+   "impact": "Low relevance to the GaN/AlGaN, InGaAs and BAs projects. It uses classical empirical potentials on 2D materials, not MLIPs. It only gives a generic example of Kapitza resistance from NEMD (LAMMPS) and a phonon-mismatch explanation, which touches the interfacial transport work (GaN/Al2O3).",
+   "what": "Non-equilibrium MD (LAMMPS, Tersoff/AIREBO, Nosé-Hoover) and Green-Kubo calculations of thermal transport in hybrid silicene-graphane nanoribbons. At 300 K, silicene gives 20.42 W/m·K and graphane 1592.89 W/m·K; Kapitza resistance at the interface is 1.39×10^-10 and 7.04×10^-11 m²·K/W for ΔT = 9.7 K and 4.9 K.",
+   "why": "Silicene-graphane is a less-explored heterostructure than silicene-graphene, with tunable electronic and thermal properties for silicon-compatible nanoelectronics and thermal rectification."
+  },
+  "themes": [
+   "atomistic",
+   "interface"
+  ],
+  "title": "Molecular dynamics simulations of thermal transport in hybrid silicene-graphane nanoribbons",
+  "url": "https://doi.org/10.69721/tps.j.2026.18.2.12",
+  "venue": "The Palawan Scientist",
   "watched": []
  },
  {
@@ -118,46 +450,6 @@
   "title": "Tuning the thermoelectric performance of AgSb1−xBixTe2 through Bi substitution and microstructure engineering",
   "url": "https://doi.org/10.1007/s44562-026-00019-0",
   "venue": "Thermal Functional Materials",
-  "watched": []
- },
- {
-  "abstract": "",
-  "authors": [
-   "Abhishek Kumar",
-   "Dariskhem Pyngrope",
-   "Chenming Hu",
-   "Avirup Dasgupta",
-   "Sayeef Salahuddin"
-  ],
-  "cat": "papers",
-  "doi": "10.1109/ted.2026.3754664",
-  "first_seen": "2026-11-27",
-  "focus": "computational",
-  "id": "2def09e3d793e658",
-  "kind": "paper",
-  "kw_score": 6,
-  "matched": [
-   "HEMTs",
-   "physics"
-  ],
-  "mytools": [],
-  "published": "2026-11-26",
-  "relevance": 2,
-  "score": 3,
-  "source": "Crossref",
-  "summary": {
-   "by": "claude",
-   "how": "Not stated in the abstract.",
-   "impact": "Low relevance to the GaN HEMT multiscale thermal modeling project: it is an electrical compact model, and thermal or self-heating content is not stated.",
-   "what": "Physics-based compact model for ferroelectric-gate HEMTs covering transient, DC, CV and RF behaviour. No abstract is provided.",
-   "why": "Not stated in the abstract."
-  },
-  "themes": [
-   "device"
-  ],
-  "title": "A Physics-Based Compact Model for Ferroelectric-HEMTs: Transient, DC, CV, and RF Modeling",
-  "url": "https://doi.org/10.1109/ted.2026.3754664",
-  "venue": "IEEE Transactions on Electron Devices",
   "watched": []
  },
  {
@@ -204,6 +496,48 @@
   "watched": []
  },
  {
+  "abstract": "",
+  "authors": [
+   "Xianxing Ju",
+   "Qing Wang",
+   "Yongjie Ding",
+   "Yang Peng",
+   "Mingxiang Chen"
+  ],
+  "cat": "papers",
+  "doi": "10.1109/ted.2026.3751611",
+  "first_seen": "2026-11-27",
+  "focus": "",
+  "id": "e286ea20cc685c1c",
+  "kind": "paper",
+  "kw_score": 5,
+  "matched": [
+   "microchannel",
+   "substrate",
+   "cooling",
+   "thermal"
+  ],
+  "mytools": [],
+  "published": "2026-11-26",
+  "relevance": 2,
+  "score": 2,
+  "source": "Crossref",
+  "summary": {
+   "by": "claude",
+   "how": "Not stated in the abstract.",
+   "impact": "Low relevance. It is a device-level cooling trend item for electronics thermal management, not a GaN or computational study.",
+   "what": "Presents a highly integrated microchannel liquid-cooling ceramic substrate for thermal management of a high-power LED module. No abstract is provided.",
+   "why": "Not stated in the abstract."
+  },
+  "themes": [
+   "device"
+  ],
+  "title": "Highly Integrated Microchannel Liquid-Cooling Ceramic Substrate for Enhanced Thermal Management of High-Power LED Module",
+  "url": "https://doi.org/10.1109/ted.2026.3751611",
+  "venue": "IEEE Transactions on Electron Devices",
+  "watched": []
+ },
+ {
   "abstract": "(X = Cs, Rb, K) are 0.33, 0.39, and 0.36 respectively. The obtained results give these materials attractive potential for possible use in thermoelectric devices. Furthermore, the calculated thermodynamic parameters, such as heat capacity, Debye temperature, thermal expansion coefficient, and entropy, exhibit predictable temperature and pressure-dependent behaviour. These properties, which demonstrate the compounds' thermodynamic stability, were calculated using the quasi-harmonic Debye model-based Gibbs2 software over a temperature range of 0-400 K and a pressure range of 0-2 GPa.",
   "authors": [
    "Nagma",
@@ -246,89 +580,43 @@
   "watched": []
  },
  {
-  "abstract": "Phonon anharmonicity is ubiquitous in real materials and is crucial for understanding thermal properties and phase stability. In this work, we show that anharmonic phonon modes can be obtained by maximizing their vibration stability during fitting the atomic trajectory. We prove that all information about these quasiparticles is contained in two small correlation matrices S and Q, which can be constructed directly from molecular dynamics simulations. Based on these matrices, we proposed an optimization scheme, which allows us to efficiently determine temperature-dependent phonon modes along with their frequencies and lifetimes. We verified this method by applying it to silicon and cubic CaSiO3, where it successfully captured their temperaturedependent phonon behaviors and the well-known phonon softening in cubic CaSiO3. This theory provides a convenient tool for investigating phonon quasiparticles and can be extended to study other quasiparticles, such as electrons, holes, and magnons.",
+  "abstract": "",
   "authors": [
-   "Wenjing Li",
-   "Yongfeng Lu",
-   "Fawei Zheng"
+   "Abhishek Kumar",
+   "Dariskhem Pyngrope",
+   "Chenming Hu",
+   "Avirup Dasgupta",
+   "Sayeef Salahuddin"
   ],
   "cat": "papers",
-  "doi": "10.1103/l7rh-k729",
+  "doi": "10.1109/ted.2026.3754664",
   "first_seen": "2026-11-27",
   "focus": "computational",
-  "id": "76298af94bbfa4bf",
+  "id": "2def09e3d793e658",
   "kind": "paper",
-  "kw_score": 9,
+  "kw_score": 6,
   "matched": [
-   "phonon",
-   "anharmonic",
-   "softening",
-   "thermal",
-   "simulation",
-   "materials"
+   "HEMTs",
+   "physics"
   ],
   "mytools": [],
-  "published": "2026-11-25",
-  "relevance": 5,
-  "score": 15,
-  "source": "OpenAlex",
-  "summary": {
-   "by": "claude",
-   "how": "All information is contained in two small correlation matrices S and Q built from MD, plus an optimization scheme; verified on silicon and cubic CaSiO3, capturing temperature-dependent behaviour and phonon softening in CaSiO3.",
-   "impact": "Directly relevant to MLPhonon and MLIP-to-lattice-dynamics workflows: a way to get finite-temperature phonon frequencies and lifetimes from MD (including MLIP-driven MD), useful for InGaAs, BAs and anharmonic oxides such as BaTiO3 and SrTiO3. Worth reading.",
-   "what": "Proposes a correlation matrix method that extracts temperature-dependent anharmonic phonon modes, with frequencies and lifetimes, from molecular dynamics trajectories by maximizing vibration stability.",
-   "why": "Phonon anharmonicity is ubiquitous and key to thermal properties and phase stability, but quasiparticle modes are hard to obtain directly from MD."
-  },
-  "themes": [
-   "mlip"
-  ],
-  "title": "Correlation matrix method for phonon quasiparticles",
-  "url": "https://doi.org/10.1103/l7rh-k729",
-  "venue": "Physical review. B./Physical review. B",
-  "watched": []
- },
- {
-  "abstract": "Janus K 2 BX (X = S, Se, Te) monolayers were investigated using first‐principles density functional theory within the FP‐LAPW framework, employing the GGA‐WC and HSE06 functionals. Formation enthalpies (−1.59 to −1.72 eV/f.u.), cohesive energies, phonon spectra, and ab initio molecular dynamics simulations confirm that all three monolayers are energetically favorable, dynamically stable, and thermally robust up to 1000 K. They are direct‐band‐gap semiconductors at the M point, with HSE06 gaps of 0.84, 0.72, and 0.40 eV for K 2 BS, K 2 BSe, and K 2 BTe, respectively, arising from a charge‐transfer transition between chalcogen‐p and boron‐p orbitals. Electron mobilities exceeding 1000 cm 2 V −1 s −1 indicate strong n‐type transport. Thermoelectric calculations show a pronounced reduction in lattice thermal conductivity along the chalcogen series, which enhances the figure of merit. K 2 BTe reaches a maximum ZT of approximately 1.78 at 900 K and exceeds ZT ≈1 over the entire temperature range studied. These findings identify K 2 BX as a chemically distinct family that pairs a light alkali cation with a compact, boron‐centered covalent framework, and they highlight its promise for two‐dimensional thermoelectric and nanoelectronic applications.",
-  "authors": [
-   "Mohamed El Amine El Goutni",
-   "Mohammed Batouche",
-   "Hela Ferjani",
-   "Mohamed Houcine Dhaou",
-   "Abdulrahman Alsawi",
-   "Sami M. Alharbi"
-  ],
-  "cat": "papers",
-  "doi": "10.1002/qua.70347",
-  "first_seen": "2026-11-27",
-  "focus": "computational",
-  "id": "edfa5497a5fa8c7e",
-  "kind": "paper",
-  "kw_score": 9,
-  "matched": [
-   "thermoelectric",
-   "phonon",
-   "semiconductor",
-   "thermal",
-   "simulation"
-  ],
-  "mytools": [],
-  "published": "2026-11-25",
+  "published": "2026-11-26",
   "relevance": 2,
-  "score": 6,
-  "source": "OpenAlex",
+  "score": 3,
+  "source": "Crossref",
   "summary": {
    "by": "claude",
-   "how": "DFT with phonon spectra, ab initio MD and thermoelectric transport calculations; lattice thermal conductivity falls along the chalcogen series.",
-   "impact": "Low relevance. A standard 2D thermoelectric screening study that does not address the reader's MLIP, BTE or interface work.",
-   "what": "First-principles (FP-LAPW, GGA-WC and HSE06) study of Janus K2BX (X = S, Se, Te) monolayers, finding them dynamically and thermally stable direct-gap semiconductors with electron mobilities above 1000 cm2/V/s; reports a maximum ZT of about 1.78 at 900 K for K2BTe.",
-   "why": "Identify a chemically distinct 2D family for thermoelectric and nanoelectronic applications."
+   "how": "Not stated in the abstract.",
+   "impact": "Low relevance to the GaN HEMT multiscale thermal modeling project: it is an electrical compact model, and thermal or self-heating content is not stated.",
+   "what": "Physics-based compact model for ferroelectric-gate HEMTs covering transient, DC, CV and RF behaviour. No abstract is provided.",
+   "why": "Not stated in the abstract."
   },
   "themes": [
-   "phonon"
+   "device"
   ],
-  "title": "Chalcogen‐Tuned Electronic and Thermoelectric Properties of Two‐Dimensional Janus K 2 BX (X = S, Se, Te) Semiconductors",
-  "url": "https://doi.org/10.1002/qua.70347",
-  "venue": "International Journal of Quantum Chemistry",
+  "title": "A Physics-Based Compact Model for Ferroelectric-HEMTs: Transient, DC, CV, and RF Modeling",
+  "url": "https://doi.org/10.1109/ted.2026.3754664",
+  "venue": "IEEE Transactions on Electron Devices",
   "watched": []
  },
  {
@@ -374,50 +662,86 @@
   "watched": []
  },
  {
-  "abstract": "Two-dimensional (2D) field-effect transistors (FETs) face a fundamental thermal-management challenge because heat generated in atomically thin channels must efficiently cross the van der Waals (vdW) interface into the supporting substrate. Yet, how atomic-scale interfacial arrangement governs the transmission channels of heat-carrying phonons remains poorly understood. Here, using atomistic nonequilibrium Green’s function calculations combined with mode-resolved phonon transmission analysis, we investigate interfacial phonon transport in sliding graphene/h-BN vdW heterostructures. We reveal a pronounced oscillatory thermal conductance governed by two distinct characteristic length scales: a short-period oscillation of 0.5 unit cell (uc) and a long-period modulation of approximately 8 uc. The short-period oscillation originates from periodic changes in atomic arrangement and the resulting variation in local interlayer vdW coupling. In contrast, mode-resolved analysis reveals that the long-period modulation is accompanied by a wavevector-dependent evolution and redistribution of the transmission contributions from heat-carrying phonons. In particular, the characteristic wavelengths of the dominant ZA phonons associated with the first high-transmission region are approximately 7.1-9.1 uc, comparable to the 8 uc sliding length of the long-period conductance modulation. These results reveal that interfacial phonon transport in vdW heterostructures can be governed by two distinct structural and vibrational length scales: an atomic-arrangement scale controlling local interlayer coupling and a phonon-wavelength scale associated with the redistribution of heat-carrying transmission channels. Our findings establish a microscopic connection between interfacial atomic…",
+  "abstract": "Nanostructured polycrystalline cubic boron nitride, an advanced superhard and refractory covalent solid with hardness approaching that of diamond, exhibits extreme mechanical properties due to high chemical and phase purity, ideal crystallinity and high intergranular adhesion. The non-trivial Raman fingerprint of nano-cBN shows both bulk and surface/grain boundary modes in the phonon density of states. The anomalous heat capacity of nano-cBN is comparable to that of nanostructured metal bulks and shows universal behavior with a maximum at 20-25 percent of the Debye temperature. The intergrain boundaries and their intrinsic stacking-fault structure are a reliable, but probably not unique cause of excessive heat capacity. The excess heat capacity is typically interpreted as arising from disorder-induced softening of vibrational modes in grain-boundary regions with reduced bond stiffness, without explicit identification of disorder nature. Our results indicate that nanostructured cubic boron nitride hosts grain-boundary phonon modes that give rise to an anomalous excess heat capacity, a universal effect previously known only in metals with similar space-filling polycrystal organization.",
   "authors": [
-   "Lin Wan",
-   "Hong-Ze Luo",
-   "Yu‐Jia Zeng",
-   "Hangbo Zhou",
-   "Wu-Xing Zhou"
+   "Oleksandr O. Kurakevych",
+   "Samir F. Matar",
+   "Vladimir L. Solozhenko"
   ],
   "cat": "papers",
-  "doi": "10.1088/0256-307x/44/1/010701",
+  "doi": "10.1103/bkfq-z5mt",
   "first_seen": "2026-11-27",
-  "focus": "computational",
-  "id": "a6deb1adad642d83",
+  "focus": "",
+  "id": "c9af6eecc4edc033",
   "kind": "paper",
-  "kw_score": 11,
+  "kw_score": 5,
   "matched": [
    "phonon",
-   "transistor",
-   "substrate",
-   "interface",
-   "heterostructure",
-   "interlayer",
-   "heat",
-   "thermal",
-   "atomistic"
+   "softening",
+   "heat"
   ],
   "mytools": [],
-  "published": "2026-11-25",
-  "relevance": 4,
-  "score": 14,
+  "published": "2026-11-24",
+  "relevance": 3,
+  "score": 5,
   "source": "OpenAlex",
   "summary": {
    "by": "claude",
-   "how": "NEGF with mode-resolved analysis; the short period follows changes in atomic arrangement and local interlayer coupling, while the long period tracks redistribution of transmission among phonons, with dominant ZA wavelengths of about 7.1-9.1 uc.",
-   "impact": "Relevant to the GaN/Al2O3 interface and interfacial thermal conductance work: the mode-resolved transmission analysis is a transferable approach for interface phonon transport. The material system (2D vdW) differs from the reader's projects.",
-   "what": "Atomistic nonequilibrium Green's function calculations with mode-resolved phonon transmission for sliding graphene/h-BN van der Waals heterostructures show an oscillatory interfacial thermal conductance with two length scales: a 0.5 unit-cell period and a long-period modulation of about 8 unit cells.",
-   "why": "How atomic-scale interfacial arrangement controls heat-carrying phonon transmission across vdW interfaces in 2D FETs is poorly understood."
+   "how": "Raman and heat-capacity analysis, with the excess heat capacity peaking at 20-25 percent of the Debye temperature; grain boundaries and stacking faults are proposed as the cause. The abstract does not state the methods in detail.",
+   "impact": "Moderately relevant to the SrTiO3 grain boundary and dislocation-core phonon work and to boron-based materials (BAs): evidence of grain-boundary phonon modes that a lattice dynamics study could examine. Largely experimental.",
+   "what": "Reports Raman fingerprints, phonon density of states and anomalous excess heat capacity of nanostructured polycrystalline cubic boron nitride, attributed to grain-boundary phonon modes.",
+   "why": "Excess heat capacity in nanostructured solids is usually ascribed to disorder-induced softening in grain-boundary regions without identifying the nature of the disorder."
   },
   "themes": [
-   "interface"
+   "mlip"
   ],
-  "title": "Interlayer sliding induced thermal conductance oscillation in van der Waals contact graphene/h-BN heterostructures",
-  "url": "https://doi.org/10.1088/0256-307x/44/1/010701",
-  "venue": "Chinese Physics Letters",
+  "title": "Anomalous heat capacity and phonon density of states of superhard nanostructured cubic boron nitride",
+  "url": "https://doi.org/10.1103/bkfq-z5mt",
+  "venue": "Physical review. B./Physical review. B",
+  "watched": []
+ },
+ {
+  "abstract": "Janus K 2 BX (X = S, Se, Te) monolayers were investigated using first‐principles density functional theory within the FP‐LAPW framework, employing the GGA‐WC and HSE06 functionals. Formation enthalpies (−1.59 to −1.72 eV/f.u.), cohesive energies, phonon spectra, and ab initio molecular dynamics simulations confirm that all three monolayers are energetically favorable, dynamically stable, and thermally robust up to 1000 K. They are direct‐band‐gap semiconductors at the M point, with HSE06 gaps of 0.84, 0.72, and 0.40 eV for K 2 BS, K 2 BSe, and K 2 BTe, respectively, arising from a charge‐transfer transition between chalcogen‐p and boron‐p orbitals. Electron mobilities exceeding 1000 cm 2 V −1 s −1 indicate strong n‐type transport. Thermoelectric calculations show a pronounced reduction in lattice thermal conductivity along the chalcogen series, which enhances the figure of merit. K 2 BTe reaches a maximum ZT of approximately 1.78 at 900 K and exceeds ZT ≈1 over the entire temperature range studied. These findings identify K 2 BX as a chemically distinct family that pairs a light alkali cation with a compact, boron‐centered covalent framework, and they highlight its promise for two‐dimensional thermoelectric and nanoelectronic applications.",
+  "authors": [
+   "Mohamed El Amine El Goutni",
+   "Mohammed Batouche",
+   "Hela Ferjani",
+   "Mohamed Houcine Dhaou",
+   "Abdulrahman Alsawi",
+   "Sami M. Alharbi"
+  ],
+  "cat": "papers",
+  "doi": "10.1002/qua.70347",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "edfa5497a5fa8c7e",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "thermoelectric",
+   "phonon",
+   "semiconductor",
+   "thermal",
+   "simulation"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 2,
+  "score": 6,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "DFT with phonon spectra, ab initio MD and thermoelectric transport calculations; lattice thermal conductivity falls along the chalcogen series.",
+   "impact": "Low relevance. A standard 2D thermoelectric screening study that does not address the reader's MLIP, BTE or interface work.",
+   "what": "First-principles (FP-LAPW, GGA-WC and HSE06) study of Janus K2BX (X = S, Se, Te) monolayers, finding them dynamically and thermally stable direct-gap semiconductors with electron mobilities above 1000 cm2/V/s; reports a maximum ZT of about 1.78 at 900 K for K2BTe.",
+   "why": "Identify a chemically distinct 2D family for thermoelectric and nanoelectronic applications."
+  },
+  "themes": [
+   "phonon"
+  ],
+  "title": "Chalcogen‐Tuned Electronic and Thermoelectric Properties of Two‐Dimensional Janus K 2 BX (X = S, Se, Te) Semiconductors",
+  "url": "https://doi.org/10.1002/qua.70347",
+  "venue": "International Journal of Quantum Chemistry",
   "watched": []
  },
  {
@@ -469,6 +793,95 @@
   "watched": [
    "Gábor Csányi"
   ]
+ },
+ {
+  "abstract": "Two-dimensional (2D) field-effect transistors (FETs) face a fundamental thermal-management challenge because heat generated in atomically thin channels must efficiently cross the van der Waals (vdW) interface into the supporting substrate. Yet, how atomic-scale interfacial arrangement governs the transmission channels of heat-carrying phonons remains poorly understood. Here, using atomistic nonequilibrium Green’s function calculations combined with mode-resolved phonon transmission analysis, we investigate interfacial phonon transport in sliding graphene/h-BN vdW heterostructures. We reveal a pronounced oscillatory thermal conductance governed by two distinct characteristic length scales: a short-period oscillation of 0.5 unit cell (uc) and a long-period modulation of approximately 8 uc. The short-period oscillation originates from periodic changes in atomic arrangement and the resulting variation in local interlayer vdW coupling. In contrast, mode-resolved analysis reveals that the long-period modulation is accompanied by a wavevector-dependent evolution and redistribution of the transmission contributions from heat-carrying phonons. In particular, the characteristic wavelengths of the dominant ZA phonons associated with the first high-transmission region are approximately 7.1-9.1 uc, comparable to the 8 uc sliding length of the long-period conductance modulation. These results reveal that interfacial phonon transport in vdW heterostructures can be governed by two distinct structural and vibrational length scales: an atomic-arrangement scale controlling local interlayer coupling and a phonon-wavelength scale associated with the redistribution of heat-carrying transmission channels. Our findings establish a microscopic connection between interfacial atomic…",
+  "authors": [
+   "Lin Wan",
+   "Hong-Ze Luo",
+   "Yu‐Jia Zeng",
+   "Hangbo Zhou",
+   "Wu-Xing Zhou"
+  ],
+  "cat": "papers",
+  "doi": "10.1088/0256-307x/44/1/010701",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "a6deb1adad642d83",
+  "kind": "paper",
+  "kw_score": 11,
+  "matched": [
+   "phonon",
+   "transistor",
+   "substrate",
+   "interface",
+   "heterostructure",
+   "interlayer",
+   "heat",
+   "thermal",
+   "atomistic"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 4,
+  "score": 14,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "NEGF with mode-resolved analysis; the short period follows changes in atomic arrangement and local interlayer coupling, while the long period tracks redistribution of transmission among phonons, with dominant ZA wavelengths of about 7.1-9.1 uc.",
+   "impact": "Relevant to the GaN/Al2O3 interface and interfacial thermal conductance work: the mode-resolved transmission analysis is a transferable approach for interface phonon transport. The material system (2D vdW) differs from the reader's projects.",
+   "what": "Atomistic nonequilibrium Green's function calculations with mode-resolved phonon transmission for sliding graphene/h-BN van der Waals heterostructures show an oscillatory interfacial thermal conductance with two length scales: a 0.5 unit-cell period and a long-period modulation of about 8 unit cells.",
+   "why": "How atomic-scale interfacial arrangement controls heat-carrying phonon transmission across vdW interfaces in 2D FETs is poorly understood."
+  },
+  "themes": [
+   "interface"
+  ],
+  "title": "Interlayer sliding induced thermal conductance oscillation in van der Waals contact graphene/h-BN heterostructures",
+  "url": "https://doi.org/10.1088/0256-307x/44/1/010701",
+  "venue": "Chinese Physics Letters",
+  "watched": []
+ },
+ {
+  "abstract": "Phonon anharmonicity is ubiquitous in real materials and is crucial for understanding thermal properties and phase stability. In this work, we show that anharmonic phonon modes can be obtained by maximizing their vibration stability during fitting the atomic trajectory. We prove that all information about these quasiparticles is contained in two small correlation matrices S and Q, which can be constructed directly from molecular dynamics simulations. Based on these matrices, we proposed an optimization scheme, which allows us to efficiently determine temperature-dependent phonon modes along with their frequencies and lifetimes. We verified this method by applying it to silicon and cubic CaSiO3, where it successfully captured their temperaturedependent phonon behaviors and the well-known phonon softening in cubic CaSiO3. This theory provides a convenient tool for investigating phonon quasiparticles and can be extended to study other quasiparticles, such as electrons, holes, and magnons.",
+  "authors": [
+   "Wenjing Li",
+   "Yongfeng Lu",
+   "Fawei Zheng"
+  ],
+  "cat": "papers",
+  "doi": "10.1103/l7rh-k729",
+  "first_seen": "2026-11-27",
+  "focus": "computational",
+  "id": "76298af94bbfa4bf",
+  "kind": "paper",
+  "kw_score": 9,
+  "matched": [
+   "phonon",
+   "anharmonic",
+   "softening",
+   "thermal",
+   "simulation",
+   "materials"
+  ],
+  "mytools": [],
+  "published": "2026-11-25",
+  "relevance": 5,
+  "score": 15,
+  "source": "OpenAlex",
+  "summary": {
+   "by": "claude",
+   "how": "All information is contained in two small correlation matrices S and Q built from MD, plus an optimization scheme; verified on silicon and cubic CaSiO3, capturing temperature-dependent behaviour and phonon softening in CaSiO3.",
+   "impact": "Directly relevant to MLPhonon and MLIP-to-lattice-dynamics workflows: a way to get finite-temperature phonon frequencies and lifetimes from MD (including MLIP-driven MD), useful for InGaAs, BAs and anharmonic oxides such as BaTiO3 and SrTiO3. Worth reading.",
+   "what": "Proposes a correlation matrix method that extracts temperature-dependent anharmonic phonon modes, with frequencies and lifetimes, from molecular dynamics trajectories by maximizing vibration stability.",
+   "why": "Phonon anharmonicity is ubiquitous and key to thermal properties and phase stability, but quasiparticle modes are hard to obtain directly from MD."
+  },
+  "themes": [
+   "mlip"
+  ],
+  "title": "Correlation matrix method for phonon quasiparticles",
+  "url": "https://doi.org/10.1103/l7rh-k729",
+  "venue": "Physical review. B./Physical review. B",
+  "watched": []
  },
  {
   "abstract": "Nanowire cryotrons (nTrons) provide gate-controlled superconducting switching, current gain, and high-impedance outputs for cryogenic computing, detector readout, and superconductor-semiconductor interfaces. We develop a physics-based Sentaurus TCAD framework that couples time-dependent Ginzburg-Landau dynamics, separate electron and phonon energy equations, and mixed-mode circuit simulation. Superconducting terminal-current corrections connect the custom solver to the native electrical solution, linking local suppression of superconductivity, heating and cooling, and current redistribution in the external circuit. To our knowledge, this is the first Sentaurus-based mixed-mode TCAD implementation for nTrons. We calibrate the model against experimental switching data at six gate currents using a single parameter set. The model achieves an RMS load-current error below 1 μA outside the switching region and switching-current differences of about 1 μA or less. Simulations show that a center gate gives the highest switching sensitivity, while a drain-side gate gives the largest post-switch resistance. Narrower channels switch at lower currents and exhibit higher resistance. Transient and bidirectional bias sweeps capture electrothermal hysteresis, gate-controlled switching latency, and bias-controlled recovery. Simultaneous activation of three gates lowers the switching threshold from about 104 μA with all gates inactive to about 12 μA, demonstrating cooperative suppression of superconductivity. The framework supports the design of nTron geometries, operating conditions, and multi-input architectures.",
